@@ -1,0 +1,220 @@
+/****
+Theme Name: Guardian
+Theme URI:
+Author: weblizar
+Author URI: http://weblizar.com/
+Description:Guardian is an incredibly superfine multi-purpose responsive theme coded & designed with a lot of care and love. You can use it for your business, portfolio, blogging or any type of site.Guardian is Responsive and flexible based on BOOTSTRAP CSS framework that adapts your website to mobile devices and the desktop or any other viewing environment. Guardian Is also supports the WPML , for making the MULTILIGUAL website .We focused on usability across various devices, starting with smartphones.Guardian is a Cross-Browser Compatible theme that works on All leading web browsers.Guardian is Retina ready.It has 4 page layouts, 2 page templates, It has five widgets available (one sidebar, four footers), and using the sidebar widget also enables you to make a two-column design. In addition, footer widget display is automatically adjusted depending on how many are used.Guardian has  Filkr as a custom widget to showing up your Flikr Photos .Custom menus to choose the menu in Primary Location that is in Header area of the site.In header area and footer of the theme offers Social Media Links to add your Social Links here. Guardian  focusing on business template, awesome Caroufredsel slider, Powerful but simple Theme Options for full CMS control option to match your logo & website, wide layout, light & dark color skin, translation ready and many more. Guardian is Woo-commerce Ready theme. You can check the demo at http://demo.weblizar.com/guardian-free-theme/
+Version:  2.9
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: black, green, gray, red, dark, light, silver, white, two-columns, custom-menu, right-sidebar, fixed-layout, fluid-layout, custom-background, featured-image-header, sticky-post, theme-options, threaded-comments, featured-images, flexible-header, responsive-layout
+Text Domain: weblizar
+*/
+
+.right > ul {
+  float: left;
+}
+.menu_main {
+  float: left;
+}
+.nav > li {
+    display: inline-block;
+    float: right;
+}
+.logo{
+	float: right;
+}
+.navbar-right {
+    float: left !important;
+    margin-left: -15px;
+    text-align: right !important;
+}
+.arrow_box::after, .arrow_box::before {
+  right: 50%;
+  left: auto;
+}
+.arrow_box::after {
+  margin-right: -10px;
+}
+
+.feature_section1 .one_fourth:hover .arrow_box:after,
+.feature_section1 .one_fourth.active .arrow_box:after {
+	margin-right: -10px;
+	margin-left: auto;
+}
+.feature_section1 .one_fourth:hover .arrow_box:before,
+.feature_section1 .one_fourth.active .arrow_box:before {
+	margin-right: -16px;
+	margin-left: auto;
+}
+
+.feature_section5 {
+  float: right;
+}
+/* featured */
+
+/* Footer */
+.footer1 {
+  float: right;
+}
+
+.qlinks ul li a::before {
+  margin-left: 7px;
+}
+.copyright_info {
+  float: right;
+}
+ul.footer_social_links {
+  float: left;
+}
+.copyright_info a {
+  text-align: left;
+}
+/* Footer */
+
+/* Single */
+.alignleft {
+float: right;
+}
+.alignright {
+float: left;
+}
+/* Single */
+
+/* Sidebar */
+#searchform #s {
+  float: right;
+}
+#searchsubmit {
+float: right;
+}
+.page_title2 .pagenation {
+ float: right;
+  text-align: right;
+}
+/* Sidebar */
+
+/* Blog */
+.post_meta_links li {
+  float: right;
+}
+.page_title2 .pagenation {
+    float: right;
+    text-align: right;
+    padding:  0px 0px 22px 0px;
+}
+.one_fourth{
+	float:right;
+}
+/* Blog */
+
+/* Comment */
+
+/* comment form */
+.comment_form {
+	float: right;
+}
+.comment_form label{
+	float: right;
+}
+.comment_input_bg {
+	float: right;
+}
+.comment_textarea_bg {
+	float: right;
+}
+.comment_checkbox {
+	float: right;
+}
+.comment_submit , #comment_submit{
+	float: right;
+}
+
+/* Comment */
+span.nav-next {
+    float: left;
+}
+/* scroll-down */
+.back-to-top {
+left: 20px;
+right: auto;
+}
+.two_third {
+   float: right;
+}
+.page_title2 .pagenation a {
+    float: right;
+}
+.mytextwithicon::before, .sidebar_widget ul li::before {
+    float: right;
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+}
+.sidebar_widget > ul li {
+    float: right;
+    display: block;
+    width: 100%;
+}
+/* scroll-down */
+.content_left {
+    float: right;
+}
+.qlinks ul li a::before {
+    transform: rotate(180deg);
+}
+
+/* mENU */
+.dropdown-menu{
+	text-align:right;
+}
+.dropdown-menu i {
+  left: 5px;
+  float:left;
+  position:relative;
+}
+.dropdown-submenu>.dropdown-menu{right:100% !important;margin-right:-1px; margin-left:-130px;}
+.dropdown-submenu>a:after{float:left; margin-left:0px; }
+.dropdown-submenu.pull-left>.dropdown-menu{right:-100%;margin-right:10px;}
+
+
+ @media (max-width:767px){
+.dropdown-submenu>.dropdown-menu {
+    right: 0 !important;
+    position: relative;
+    width: 100%;
+    margin-left: 0 !important;
+}
+.dropdown-submenu>.dropdown-menu {
+    right: 0 !important;
+    position: relative;
+    width: 100%;
+}
+.navbar-nav > li i{
+float:left;
+}
+}
+@media (max-width:480px){
+.menu_main {
+    width: 100%;
+    display: inline-block;
+}
+.navbar-right {
+    /* float: left !important; */
+    /* margin-left: -15px; */
+    /* text-align: right !important; */
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.nav > li {
+    display: inline-block;
+    width: 100%;
+}
+.navbar-toggle {
+    float: left;
+    margin-left: 15px;
+}
+}

@@ -1,0 +1,1108 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Guardian\n"
+"POT-Creation-Date: 2016-03-22 12:15+0530\n"
+"PO-Revision-Date: 2015-03-21 12:05+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ./.\n"
+"X-Poedit-SearchPath-2: ..\n"
+"X-Poedit-SearchPath-3: ../..\n"
+
+#: ../../404.php:7
+msgid "404"
+msgstr ""
+
+#: ../../404.php:9
+msgid "Oops... Page Not Found!"
+msgstr ""
+
+#: ../../404.php:11
+msgid "Sorry the Page Could not be Found here."
+msgstr ""
+
+#: ../../404.php:13
+msgid "Try using the button below to go to main page of the site"
+msgstr ""
+
+#: ../../404.php:17
+msgid "Go to Back"
+msgstr ""
+
+#: ../../archive.php:7
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../../archive.php:9
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../../archive.php:11
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../../archive.php:13
+msgid "Archives"
+msgstr ""
+
+#: ../../author.php:6
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../../category.php:6
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../../comments.php:2
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../../comments.php:5 ../../loop.php:17 ../../post-content.php:17
+msgid "Comments"
+msgstr ""
+
+#: ../../comments.php:12
+msgid "Comment navigation"
+msgstr ""
+
+#: ../../comments.php:13
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../../comments.php:14
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../../comments.php:21
+msgid "Name*"
+msgstr ""
+
+#: ../../comments.php:22
+msgid "Mail*"
+msgstr ""
+
+#: ../../comments.php:23
+msgid "Website"
+msgstr ""
+
+#: ../../comments.php:33
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../../comments.php:35
+msgid "Post Comment"
+msgstr ""
+
+#: ../../comments.php:38
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../../core/admin/admin.php:5 ../admin/admin.php:5
+msgid "Welcome to Guardian"
+msgstr ""
+
+#: ../../core/admin/admin.php:5 ../../footer.php:13 ../admin/admin.php:5
+msgid "About Guardian"
+msgstr ""
+
+#: ../../core/admin/admin.php:23 ../admin/admin.php:23
+#, php-format
+msgid "Welcome to %1s %2s"
+msgstr ""
+
+#: ../../core/admin/admin.php:25 ../admin/admin.php:25
+#, php-format
+msgid "Getting Started with %s"
+msgstr ""
+
+#: ../../core/admin/admin.php:27 ../admin/admin.php:27
+#, php-format
+msgid ""
+"2. %s Supports the Theme Customizer for all theme settings. Click "
+"\"Customize Theme\" to open the Customizer now."
+msgstr ""
+
+#: ../../core/admin/admin.php:28 ../admin/admin.php:28
+msgid "Customize Theme"
+msgstr ""
+
+#: ../../core/admin/admin.php:30 ../admin/admin.php:30
+msgid "Child Theme:"
+msgstr ""
+
+#: ../../core/admin/admin.php:31 ../admin/admin.php:31
+msgid ""
+"If you modify the theme and it upgrade with next updated version. Then your "
+"modifications will be lost. <br>If you want to protect your modifications "
+"then you create child theme. Child theme you will ensure your modifications "
+"and speed up your development time "
+msgstr ""
+
+#: ../../core/admin/admin.php:32 ../admin/admin.php:32
+msgid "For child theme to click on"
+msgstr ""
+
+#: ../../core/admin/admin.php:32 ../admin/admin.php:32
+msgid " Child Theme"
+msgstr ""
+
+#: ../../core/admin/admin.php:32 ../admin/admin.php:32
+msgid "Button."
+msgstr ""
+
+#: ../../core/admin/admin.php:38 ../admin/admin.php:38
+msgid "Theme Screenshot"
+msgstr ""
+
+#: ../../core/admin/admin.php:44 ../admin/admin.php:44
+msgid "GUARDIAN PREMIUM THEME"
+msgstr ""
+
+#: ../../core/admin/admin.php:45 ../admin/admin.php:45
+msgid "Get Our Premium Theme"
+msgstr ""
+
+#: ../../core/admin/admin.php:48 ../admin/admin.php:48
+msgid "Our Latest Feature Set"
+msgstr ""
+
+#: ../../core/admin/admin.php:50 ../admin/admin.php:50
+msgid "Customize Front Page"
+msgstr ""
+
+#: ../../core/admin/admin.php:51 ../admin/admin.php:51
+msgid "Theme Option Panel"
+msgstr ""
+
+#: ../../core/admin/admin.php:52 ../admin/admin.php:52
+msgid "Unlimited Color Skins"
+msgstr ""
+
+#: ../../core/admin/admin.php:53 ../admin/admin.php:53
+msgid "Multiple Bakground Patterns"
+msgstr ""
+
+#: ../../core/admin/admin.php:54 ../admin/admin.php:54
+msgid "Multiple Theme Templates"
+msgstr ""
+
+#: ../../core/admin/admin.php:55 ../admin/admin.php:55
+msgid "5 Portfolio Layout"
+msgstr ""
+
+#: ../../core/admin/admin.php:56 ../admin/admin.php:56
+msgid "3 Page Layout"
+msgstr ""
+
+#: ../../core/admin/admin.php:61 ../admin/admin.php:61
+msgid "3 Blog Layout"
+msgstr ""
+
+#: ../../core/admin/admin.php:62 ../admin/admin.php:62
+msgid "Multilingual"
+msgstr ""
+
+#: ../../core/admin/admin.php:63 ../admin/admin.php:63
+msgid "Complete Doceumentation"
+msgstr ""
+
+#: ../../core/admin/admin.php:64 ../admin/admin.php:64
+msgid "3 Service Page Template"
+msgstr ""
+
+#: ../../core/admin/admin.php:65 ../admin/admin.php:65
+msgid "About Us Page with short-code"
+msgstr ""
+
+#: ../../core/admin/admin.php:66 ../admin/admin.php:66
+msgid "Contact Page Template"
+msgstr ""
+
+#: ../../core/admin/admin.php:67 ../admin/admin.php:67
+msgid "Custom Shortcodes"
+msgstr ""
+
+#: ../../core/admin/admin.php:223 ../admin/admin.php:223
+#, php-format
+msgid ""
+"%1s is proudly brought to you by %2s. If you like this WordPress theme, %3s."
+msgstr ""
+
+#: ../../core/admin/admin.php:226 ../admin/admin.php:226
+msgid "rate it"
+msgstr ""
+
+#: ../../core/comment-function.php:12 ../comment-function.php:12
+msgid "Reply"
+msgstr ""
+
+#: ../../core/comment-function.php:30 ../comment-function.php:30
+msgid "close"
+msgstr ""
+
+#: ../../core/comment-function.php:31 ../comment-function.php:31
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../../core/menu/default_menu_walker.php:23 ../../footer.php:23
+#: ../../functions.php:267 ../../weblizar-breadcrumbs.php:5
+#: ../menu/default_menu_walker.php:23
+msgid "Home"
+msgstr ""
+
+#: ../../customizer.php:10
+msgid "Guardian Options"
+msgstr ""
+
+#: ../../customizer.php:16
+msgid "Theme General Options"
+msgstr ""
+
+#: ../../customizer.php:17
+msgid "Here you can customize Your theme's general Settings"
+msgstr ""
+
+#: ../../customizer.php:35
+msgid "Show Front Page"
+msgstr ""
+
+#: ../../customizer.php:92
+msgid "Website Logo"
+msgstr ""
+
+#: ../../customizer.php:97
+msgid "Logo Height"
+msgstr ""
+
+#: ../../customizer.php:103
+msgid "Logo Width"
+msgstr ""
+
+#: ../../customizer.php:109
+msgid "Custom favicon"
+msgstr ""
+
+#: ../../customizer.php:116
+msgid "Typography Setting"
+msgstr ""
+
+#: ../../customizer.php:131
+msgid "Logo Font Style"
+msgstr ""
+
+#: ../../customizer.php:145
+msgid "Header Menu Font Style"
+msgstr ""
+
+#: ../../customizer.php:159
+msgid "Theme Title Font Style"
+msgstr ""
+
+#: ../../customizer.php:173
+msgid "Theme Description Font Style"
+msgstr ""
+
+#: ../../customizer.php:182
+msgid "Theme Slider Options"
+msgstr ""
+
+#: ../../customizer.php:184
+msgid "Here you can add slider images"
+msgstr ""
+
+#: ../../customizer.php:326
+msgid "Slider Image One"
+msgstr ""
+
+#: ../../customizer.php:331
+msgid "Slider title one"
+msgstr ""
+
+#: ../../customizer.php:337
+msgid "Slider description one"
+msgstr ""
+
+#: ../../customizer.php:343
+msgid "Slider Button Text One"
+msgstr ""
+
+#: ../../customizer.php:350
+msgid "Slider Button Link"
+msgstr ""
+
+#: ../../customizer.php:357
+msgid "Slider Image Two "
+msgstr ""
+
+#: ../../customizer.php:363
+msgid "Slider Title Two"
+msgstr ""
+
+#: ../../customizer.php:369
+msgid "Slider Description Two"
+msgstr ""
+
+#: ../../customizer.php:375
+msgid "Slider Button Text Two"
+msgstr ""
+
+#: ../../customizer.php:381
+msgid "Slider Link Two"
+msgstr ""
+
+#: ../../customizer.php:388
+msgid "Slider Image Three"
+msgstr ""
+
+#: ../../customizer.php:393
+msgid "Slider Title Three"
+msgstr ""
+
+#: ../../customizer.php:400
+msgid "Slider Description Three"
+msgstr ""
+
+#: ../../customizer.php:406
+msgid "Slider Button Text Three"
+msgstr ""
+
+#: ../../customizer.php:412
+msgid "Slider Button Link Three"
+msgstr ""
+
+#: ../../customizer.php:420
+msgid "Home Blog Options"
+msgstr ""
+
+#: ../../customizer.php:435
+msgid "Home Blog Title"
+msgstr ""
+
+#: ../../customizer.php:443
+msgid "Service Options"
+msgstr ""
+
+#: ../../customizer.php:468
+msgid "Service Title"
+msgstr ""
+
+#: ../../customizer.php:474
+msgid "Service Description"
+msgstr ""
+
+#: ../../customizer.php:525 ../../customizer.php:531 ../../customizer.php:537
+#: ../../customizer.php:543
+msgid "Service Icon"
+msgstr ""
+
+#: ../../customizer.php:526
+msgid ""
+"<a href=\"http://fontawesome.bootstrapcheatsheets.com\">FontAwesome Icons</a>"
+msgstr ""
+
+#: ../../customizer.php:552
+msgid "Social Options"
+msgstr ""
+
+#: ../../customizer.php:567
+msgid "Enable Social Media Icons in Header Section"
+msgstr ""
+
+#: ../../customizer.php:582
+msgid "Enable Social Media Icons in Footer"
+msgstr ""
+
+#: ../../customizer.php:597
+msgid "Facebook URL"
+msgstr ""
+
+#: ../../customizer.php:612
+msgid "Twitter URL"
+msgstr ""
+
+#: ../../customizer.php:627
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../../customizer.php:642
+msgid "Goole+ URL"
+msgstr ""
+
+#: ../../customizer.php:657
+msgid "Flicker URL"
+msgstr ""
+
+#: ../../customizer.php:672
+msgid "RSS URL"
+msgstr ""
+
+#: ../../customizer.php:687
+msgid "Youtube URL"
+msgstr ""
+
+#: ../../customizer.php:703
+msgid "Email-ID"
+msgstr ""
+
+#: ../../customizer.php:718
+msgid "Phone Number"
+msgstr ""
+
+#: ../../customizer.php:727
+msgid "Footer Options"
+msgstr ""
+
+#: ../../customizer.php:742
+msgid "Footer Customization Text"
+msgstr ""
+
+#: ../../customizer.php:758
+msgid "Footer Developed By Text"
+msgstr ""
+
+#: ../../customizer.php:773
+msgid "Footer Company Text"
+msgstr ""
+
+#: ../../customizer.php:788
+msgid "Footer Customization Link"
+msgstr ""
+
+#: ../../customizer.php:794 ../../customizer.php:858 ../../customizer.php:883
+msgid "Upgrade to Guardian Premium"
+msgstr ""
+
+#: ../../customizer.php:805
+msgid "Guardian Premium"
+msgstr ""
+
+#: ../../customizer.php:864
+msgid "Guardian Premium - Features"
+msgstr ""
+
+#: ../../customizer.php:866
+msgid "Responsive Design"
+msgstr ""
+
+#: ../../customizer.php:867
+msgid "More than 15+ Templates"
+msgstr ""
+
+#: ../../customizer.php:868
+msgid "12 types Themes Colors Scheme"
+msgstr ""
+
+#: ../../customizer.php:869
+msgid "6 Types of Portfolio Templates"
+msgstr ""
+
+#: ../../customizer.php:870
+msgid "Patterns Background"
+msgstr ""
+
+#: ../../customizer.php:871
+msgid "Full Width & Boxed Layout"
+msgstr ""
+
+#: ../../customizer.php:872 ../../functions.php:40
+#: ../../guardian-default-settings.php:44
+msgid "Touch Slider"
+msgstr ""
+
+#: ../../customizer.php:873
+msgid "Ultimate Portfolio layout with Isotope effect"
+msgstr ""
+
+#: ../../customizer.php:874
+msgid "Image Background"
+msgstr ""
+
+#: ../../customizer.php:875
+msgid "Rich Short codes"
+msgstr ""
+
+#: ../../customizer.php:877
+msgid "Coming Soon Mode"
+msgstr ""
+
+#: ../../customizer.php:878
+msgid "Extreme Gallery Design Layout"
+msgstr ""
+
+#: ../../customizer.php:885
+msgid "Enjoying Guardian?"
+msgstr ""
+
+#: ../../customizer.php:888
+#, php-format
+msgid ""
+"If you Like our Products , Please do Rate us on %sWordPress.org%s?  We'd "
+"really appreciate it!"
+msgstr ""
+
+#: ../../customizer.php:906
+msgid "Abril Fatface"
+msgstr ""
+
+#: ../../customizer.php:907
+msgid "Advent Pro"
+msgstr ""
+
+#: ../../customizer.php:908
+msgid "Aldrich"
+msgstr ""
+
+#: ../../customizer.php:909
+msgid "Alex Brush"
+msgstr ""
+
+#: ../../customizer.php:910
+msgid "Allura"
+msgstr ""
+
+#: ../../customizer.php:911
+msgid "Amatic SC"
+msgstr ""
+
+#: ../../customizer.php:912
+msgid "Arial"
+msgstr ""
+
+#: ../../customizer.php:913
+msgid "Astloch"
+msgstr ""
+
+#: ../../customizer.php:914
+msgid "Arno pro bold italic"
+msgstr ""
+
+#: ../../customizer.php:915
+msgid "Bad Script"
+msgstr ""
+
+#: ../../customizer.php:916
+msgid "Bilbo"
+msgstr ""
+
+#: ../../customizer.php:917
+msgid "Calligraffitti"
+msgstr ""
+
+#: ../../customizer.php:918
+msgid "Candal"
+msgstr ""
+
+#: ../../customizer.php:919
+msgid "Cedarville Cursive"
+msgstr ""
+
+#: ../../customizer.php:920
+msgid "Clicker Script"
+msgstr ""
+
+#: ../../customizer.php:921
+msgid "Dancing Script"
+msgstr ""
+
+#: ../../customizer.php:922
+msgid "Dawning of a New Day"
+msgstr ""
+
+#: ../../customizer.php:923
+msgid "Fredericka the Great"
+msgstr ""
+
+#: ../../customizer.php:924
+msgid "Felipa"
+msgstr ""
+
+#: ../../customizer.php:925
+msgid "Give You Glory"
+msgstr ""
+
+#: ../../customizer.php:926
+msgid "Great vibes"
+msgstr ""
+
+#: ../../customizer.php:927
+msgid "Homemade Apple"
+msgstr ""
+
+#: ../../customizer.php:928
+msgid "Indie Flower"
+msgstr ""
+
+#: ../../customizer.php:929
+msgid "Italianno"
+msgstr ""
+
+#: ../../customizer.php:930
+msgid "Jim Nightshade"
+msgstr ""
+
+#: ../../customizer.php:931
+msgid "Kaushan Script"
+msgstr ""
+
+#: ../../customizer.php:932
+msgid "Kristi"
+msgstr ""
+
+#: ../../customizer.php:933
+msgid "La Belle Aurore"
+msgstr ""
+
+#: ../../customizer.php:934
+msgid "Meddon"
+msgstr ""
+
+#: ../../customizer.php:935
+msgid "Montez"
+msgstr ""
+
+#: ../../customizer.php:936
+msgid "Megrim"
+msgstr ""
+
+#: ../../customizer.php:937
+msgid "Mr Bedfort"
+msgstr ""
+
+#: ../../customizer.php:938
+msgid "Neucha"
+msgstr ""
+
+#: ../../customizer.php:939
+msgid "Nothing You Could Do"
+msgstr ""
+
+#: ../../customizer.php:940
+msgid "Open Sans"
+msgstr ""
+
+#: ../../customizer.php:941
+msgid "Over the Rainbow"
+msgstr ""
+
+#: ../../customizer.php:942
+msgid "Pinyon Script"
+msgstr ""
+
+#: ../../customizer.php:943
+msgid "Princess Sofia"
+msgstr ""
+
+#: ../../customizer.php:944
+msgid "Reenie Beanie"
+msgstr ""
+
+#: ../../customizer.php:945
+msgid "Rochester"
+msgstr ""
+
+#: ../../customizer.php:946
+msgid "Rock Salt"
+msgstr ""
+
+#: ../../customizer.php:947
+msgid "Ruthie"
+msgstr ""
+
+#: ../../customizer.php:948
+msgid "Sacramento"
+msgstr ""
+
+#: ../../customizer.php:949
+msgid "Sans Serif"
+msgstr ""
+
+#: ../../customizer.php:950
+msgid "Seaweed Script"
+msgstr ""
+
+#: ../../customizer.php:951
+msgid "Shadows Into Light"
+msgstr ""
+
+#: ../../customizer.php:952
+msgid "Smythe"
+msgstr ""
+
+#: ../../customizer.php:953
+msgid "Stalemate"
+msgstr ""
+
+#: ../../customizer.php:954
+msgid "Tahoma"
+msgstr ""
+
+#: ../../customizer.php:955
+msgid "Tangerine"
+msgstr ""
+
+#: ../../customizer.php:956
+msgid "Trade Winds"
+msgstr ""
+
+#: ../../customizer.php:957
+msgid "UnifrakturMaguntia"
+msgstr ""
+
+#: ../../customizer.php:958
+msgid "Verdana"
+msgstr ""
+
+#: ../../customizer.php:959
+msgid "Waiting for the Sunrise"
+msgstr ""
+
+#: ../../customizer.php:960
+msgid "Warnes"
+msgstr ""
+
+#: ../../customizer.php:961
+msgid "Yesteryear"
+msgstr ""
+
+#: ../../customizer.php:962
+msgid "Zeyada"
+msgstr ""
+
+#: ../../footer.php:14
+msgid ""
+"All the Lorem Ipsum generators on the Internet tend to repeat predefined an "
+"chunks as necessary, making this the first true generator on the Internet.\n"
+"\t\t\t\t\tAll the Lorem Ipsum generators on the Internet tend to repeat "
+"predefined Lorem Ipsum as their default model text, and a search for web "
+"sites."
+msgstr ""
+
+#: ../../footer.php:21
+msgid "Custom Menu"
+msgstr ""
+
+#: ../../footer.php:24
+msgid "Blog"
+msgstr ""
+
+#: ../../footer.php:25
+msgid "Service"
+msgstr ""
+
+#: ../../footer.php:26
+msgid "Portfolio"
+msgstr ""
+
+#: ../../footer.php:27
+msgid "About-us"
+msgstr ""
+
+#: ../../footer.php:28
+msgid "Team"
+msgstr ""
+
+#: ../../footer.php:29
+msgid "Contact -Us"
+msgstr ""
+
+#: ../../footer.php:36
+msgid "Recent Posts"
+msgstr ""
+
+#: ../../footer.php:38
+msgid "Awsome Slidershows"
+msgstr ""
+
+#: ../../footer.php:39
+msgid "Features and Typography"
+msgstr ""
+
+#: ../../footer.php:40
+msgid "Different &amp; Unique Pages"
+msgstr ""
+
+#: ../../footer.php:41
+msgid "Single and Portfolios"
+msgstr ""
+
+#: ../../footer.php:42
+msgid "Recent Blogs or News"
+msgstr ""
+
+#: ../../footer.php:43
+msgid "Post with Image"
+msgstr ""
+
+#: ../../footer.php:44
+msgid "Layered PSD Files"
+msgstr ""
+
+#: ../../footer.php:59
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../../footer.php:59
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../../footer.php:96
+msgid "Scroll"
+msgstr ""
+
+#: ../../front-page.php:117 ../../front-page.php:126 ../../front-page.php:134
+#: ../../front-page.php:142 ../../functions.php:30 ../../functions.php:36
+#: ../../functions.php:42 ../../guardian-default-settings.php:34
+#: ../../guardian-default-settings.php:40
+#: ../../guardian-default-settings.php:46
+msgid "Read More"
+msgstr ""
+
+#: ../../front-page.php:122
+msgid "The point of using psum is that has more normal letters "
+msgstr ""
+
+#: ../../front-page.php:124 ../../front-page.php:132 ../../front-page.php:140
+msgid ""
+"Lorem Ipsum as their default model the and a search for lorem ipsum will "
+"uncover many web sites the stilin infancy versions have evolved over the "
+"years."
+msgstr ""
+
+#: ../../front-page.php:130
+msgid "Will cover many web sites still in their infancy websites"
+msgstr ""
+
+#: ../../front-page.php:138
+msgid "The point of using psum is that has more normal letters"
+msgstr ""
+
+#: ../../functions.php:25 ../../guardian-default-settings.php:19
+msgid "Our Latest Blog"
+msgstr ""
+
+#: ../../functions.php:28 ../../guardian-default-settings.php:32
+msgid "Responsive Theme"
+msgstr ""
+
+#: ../../functions.php:29 ../../functions.php:35 ../../functions.php:41
+#: ../../guardian-default-settings.php:33
+#: ../../guardian-default-settings.php:45
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque "
+"rutrum pellentesque imperdiet"
+msgstr ""
+
+#: ../../functions.php:34 ../../guardian-default-settings.php:38
+msgid "Custom Layout"
+msgstr ""
+
+#: ../../functions.php:46
+msgid "Multi purpose Our service"
+msgstr ""
+
+#: ../../functions.php:47 ../../guardian-default-settings.php:58
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: ../../functions.php:49 ../../guardian-default-settings.php:60
+msgid "Idea"
+msgstr ""
+
+#: ../../functions.php:51 ../../functions.php:56 ../../functions.php:61
+#: ../../functions.php:66 ../../guardian-default-settings.php:62
+#: ../../guardian-default-settings.php:67
+#: ../../guardian-default-settings.php:72
+#: ../../guardian-default-settings.php:77
+msgid ""
+"There are many variations of passages of Lorem Ipsum available, but the "
+"majority have suffered alteration in."
+msgstr ""
+
+#: ../../functions.php:54 ../../guardian-default-settings.php:65
+msgid "Records"
+msgstr ""
+
+#: ../../functions.php:59 ../../guardian-default-settings.php:70
+msgid "WordPress"
+msgstr ""
+
+#: ../../functions.php:64 ../../guardian-default-settings.php:75
+msgid "Responsive"
+msgstr ""
+
+#: ../../functions.php:71
+msgid ""
+"Yepp! This is just a design for your awesome website and i am sure you gona "
+"love"
+msgstr ""
+
+#: ../../functions.php:73
+msgid "Purchase Now!"
+msgstr ""
+
+#: ../../functions.php:78
+msgid "guardian@gmail.com"
+msgstr ""
+
+#: ../../functions.php:79 ../../guardian-default-settings.php:93
+msgid "1 4488 8000 4500"
+msgstr ""
+
+#: ../../functions.php:93 ../../guardian-default-settings.php:114
+msgid "Copyright @ 2015 Guardian."
+msgstr ""
+
+#: ../../functions.php:94 ../../guardian-default-settings.php:115
+msgid " Developed By"
+msgstr ""
+
+#: ../../functions.php:95 ../../guardian-default-settings.php:116
+msgid "Weblizar"
+msgstr ""
+
+#: ../../functions.php:98 ../../guardian-default-settings.php:119
+msgid "Terms of Use"
+msgstr ""
+
+#: ../../functions.php:101 ../../guardian-default-settings.php:122
+msgid "Privacy Policy"
+msgstr ""
+
+#: ../../functions.php:133
+msgid "Primary Menu"
+msgstr ""
+
+#: ../../functions.php:163
+msgid "read more..."
+msgstr ""
+
+#: ../../functions.php:184
+msgid "Sidebar"
+msgstr ""
+
+#: ../../functions.php:186
+msgid "The primary widget area"
+msgstr ""
+
+#: ../../functions.php:194
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../../functions.php:196
+msgid "footer widget area"
+msgstr ""
+
+#: ../../functions.php:253
+msgid "Newer Posts"
+msgstr ""
+
+#: ../../functions.php:253
+msgid "Older Posts"
+msgstr ""
+
+#: ../../functions.php:282
+msgid "Archive by category \""
+msgstr ""
+
+#: ../../functions.php:332
+msgid "Search results for \""
+msgstr ""
+
+#: ../../functions.php:334
+msgid "Posts tagged \""
+msgstr ""
+
+#: ../../functions.php:338
+msgid "Articles posted by "
+msgstr ""
+
+#: ../../functions.php:340
+msgid "Error 404"
+msgstr ""
+
+#: ../../guardian-default-settings.php:39
+msgid ""
+"Lorem ipsum dolr sit amet, consectetur adipiscing metus elit. Quisque rutrum "
+"pellentesque imperdiet"
+msgstr ""
+
+#: ../../guardian-default-settings.php:57
+msgid "Our Services"
+msgstr ""
+
+#: ../../guardian-default-settings.php:92
+msgid "example@mail.com"
+msgstr ""
+
+#: ../../header.php:71
+msgid "Menu"
+msgstr ""
+
+#: ../../loop.php:13 ../../post-content.php:13
+msgid "by:"
+msgstr ""
+
+#: ../../loop.php:15 ../../post-content.php:15
+msgid "in:"
+msgstr ""
+
+#: ../../loop.php:17 ../../post-content.php:17
+msgid "note:"
+msgstr ""
+
+#: ../../loop.php:17 ../../post-content.php:17
+msgid "Comment"
+msgstr ""
+
+#: ../../loop.php:22 ../../post-content.php:22
+msgid "Read more..."
+msgstr ""
+
+#: ../../post-content.php:24
+msgid "Pages:"
+msgstr ""
+
+#: ../../post-content.php:30
+msgid "Next page"
+msgstr ""
+
+#: ../../post-content.php:31
+msgid "Previous page"
+msgstr ""
+
+#: ../../search.php:6
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../../searchform.php:3
+msgid "Enter Search Blog..."
+msgstr ""
+
+#: ../../searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: ../../tag.php:5
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""

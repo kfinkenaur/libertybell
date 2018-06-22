@@ -1,0 +1,1 @@
+[01-May-2018 19:05:25 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/twentythirteen/404.php on line 10

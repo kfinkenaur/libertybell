@@ -1,0 +1,2 @@
+[11-Feb-2018 17:51:38 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/liberuy2/public_html/mainefabricshop/wp-content/plugins/hello.php on line 60
+[31-May-2018 08:41:55 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/liberuy2/public_html/mainefabricshop/wp-content/plugins/hello.php on line 60

@@ -1,0 +1,69 @@
+@media (max-width:1024px){
+table td {
+    padding: 5px;
+}
+#searchform #s {
+    width: 73%;
+}
+}
+@media (max-width:768px){
+.right li.g_email,
+.right li.g_contact {
+    display: inline-block;
+}
+.carousel-caption {
+    top: 10% !important;
+	right: 15% !important;
+    left: 15% !important;
+}
+.menu_main {
+    display: block;
+    float: none;
+}
+ul.footer_social_links {
+     float: none; 
+}
+#myCarousel i {
+    margin-top: 70%;
+}
+.carousel-caption .btn {
+    padding: 5px 15px;
+}
+.carousel-indicators {
+    bottom: 0 !important;
+}
+}
+@media (max-width:480px){
+.right li.g_email,
+.right li.g_contact {
+    display: block;
+}
+.right > ul {
+    text-align: center;
+    width: 100%;
+}
+.logo {
+    display: block;
+    width:100%;
+	text-align:center;
+}
+.menu_main {
+    display: block;
+    float: none;
+}
+ul.footer_social_links {
+float: none; 
+}
+.carousel-caption {
+   display:none;
+}
+.page_title2 .two_third {
+    padding: 0;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.carousel-indicators{
+	display:none;
+}
+
+}

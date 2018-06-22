@@ -1,0 +1,12 @@
+[16-Mar-2018 17:36:38 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/archive.php on line 10
+[16-Mar-2018 17:36:38 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/archive.php on line 10
+[19-Mar-2018 07:36:13 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/archive.php on line 10
+[19-Mar-2018 07:36:13 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/archive.php on line 10
+[19-Mar-2018 13:27:10 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/header.php on line 11
+[20-Mar-2018 08:33:28 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/header.php on line 11
+[11-Apr-2018 09:12:12 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/404.php on line 8
+[11-Apr-2018 09:12:12 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/404.php on line 8
+[12-Apr-2018 11:41:00 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/archive.php on line 10
+[12-Apr-2018 11:41:01 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/archive.php on line 10
+[07-May-2018 04:36:37 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/404.php on line 8
+[07-May-2018 08:22:38 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mainefabricshop/wp-content/themes/panoramic/404.php on line 8

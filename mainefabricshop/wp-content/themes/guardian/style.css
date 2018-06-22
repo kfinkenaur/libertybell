@@ -1,0 +1,590 @@
+/******
+Theme Name: Guardian
+Theme URI:
+Author: weblizar
+Author URI: http://weblizar.com/
+Description:Guardian is an incredibly superfine multi-purpose responsive theme coded & designed with a lot of care and love. You can use it for your business, portfolio, blogging or any type of site.Guardian is Responsive and flexible based on BOOTSTRAP CSS framework that adapts your website to mobile devices and the desktop or any other viewing environment. Guardian Is also supports the WPML , for making the MULTILIGUAL website .We focused on usability across various devices, starting with smartphones.Guardian is a Cross-Browser Compatible theme that works on All leading web browsers.Guardian is Retina ready.It has 4 page layouts, 2 page templates, It has five widgets available (one sidebar, four footers), and using the sidebar widget also enables you to make a two-column design. In addition, footer widget display is automatically adjusted depending on how many are used.Guardian has  Filkr as a custom widget to showing up your Flikr Photos .Custom menus to choose the menu in Primary Location that is in Header area of the site.In header area and footer of the theme offers Social Media Links to add your Social Links here. Guardian  focusing on business template, awesome Caroufredsel slider, Powerful but simple Theme Options for full CMS control option to match your logo & website, wide layout, light & dark color skin, translation ready and many more. Guardian is Woo-commerce Ready theme. You can check the demo at http://demo.weblizar.com/guardian-free-theme/
+Version:  3.3
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: two-columns, custom-menu, right-sidebar,  custom-background, featured-image-header, sticky-post, theme-options, threaded-comments, featured-images, flexible-header
+Text Domain: guardian
+***/
+body{
+font-family:14px/23px "Open Sans",sans-serif;
+}
+.img-responsive{
+width:100%;
+height:auto;
+}
+.top_nav .right li a {
+  color: #999;
+}
+.right > ul {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin:10px 0;
+}
+.right li {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.logo {
+  display: inline-block;
+  padding: 10px 0;
+}
+.logo a{
+font-size: 32px;
+}
+.menu_main {
+  display: inline-block;
+  float: right;
+}
+
+/* Slider */
+#myCarousel i {
+  font-size: 50px;
+  margin-top: 115%;
+}
+.carousel-caption {
+  top: 30% !important;
+}
+/* Slider */
+
+/* featured */
+.feature_section1 {
+  background: rgba(0, 0, 0, 0) url("images/texture-1.png") repeat scroll left top;
+  padding: 63px 0;
+  text-align: center;
+  width: 100%;
+}
+.arrow_box::after, .arrow_box::before {
+  border: medium solid transparent;
+  content: " ";
+  height: 0;
+  left: 50%;
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  width: 0;
+}
+.arrow_box::after {
+  border-color: #e3e3e3 rgba(249, 249, 249, 0) rgba(249, 249, 249, 0);
+  border-width: 10px;
+  margin-left: -10px;
+}
+.arrow_box {
+  background: #e3e3e3 none repeat scroll 0 0;
+  border: 5px solid #fff;
+  border-radius: 4px;
+  margin: 0 auto 32px;
+  padding: 20px 0;
+  position: relative;
+  width: 65%;
+}
+.arrow_box i {
+  color: #272727;
+  font-size: 50px;
+}
+.feature_section1 .one_fourth:hover .arrow_box,
+.feature_section1 .one_fourth.active .arrow_box {
+	position: relative;
+	background: #fff;
+	border: 5px solid #13afeb;
+	-webkit-transition: border-color .3s, -webkit-transform .3s;
+    transition: border-color .3s, transform .3s;
+}
+.feature_section1 .one_fourth:hover .arrow_box:after,
+.feature_section1 .one_fourth.active .arrow_box:after {
+	border-color: rgba(249, 249, 249, 0);
+	border-top-color: #fff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.feature_section1 .one_fourth:hover .arrow_box:before,
+.feature_section1 .one_fourth.active .arrow_box:before {
+	border-color: rgba(19, 175, 235, 0);
+	border-top-color: #13afeb;
+	border-width: 16px;
+	margin-left: -16px;
+	-webkit-transition: border-color .3s, -webkit-transform .3s;
+    transition: border-color .3s, transform .3s;
+}
+.feature_section1 .one_fourth:hover .arrow_box i,
+.feature_section1 .one_fourth.active .arrow_box i {
+	color: #13afeb;
+	-webkit-transition: color .3s, -webkit-transform .3s;
+    transition: color .3s, transform .3s;
+}
+.feature_section1 .one_fourth:hover h5,
+.feature_section1 .one_fourth.active h5{
+	color: #13afeb;
+	-webkit-transition: color .3s, -webkit-transform .3s;
+    transition: color .3s, transform .3s;
+}
+.feature_section5 {
+  color: #999;
+  float: left;
+  padding: 65px 0;
+  width: 100%;
+}
+.one_fourth {
+    margin-bottom: 30px;
+}
+.one_third {
+    margin-bottom: 30px;
+}
+a.lfour:hover {
+  color: #13afeb !important;
+}
+/* featured */
+
+/* Footer */
+.footer1 {
+  background-color: #262626;
+  float: left;
+  padding: 18px 0 40px;
+  width: 100%;
+}
+.footer1 h4.lmb {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.qlinks ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+}
+.qlinks li {
+  margin: 0;
+  padding: 4px 0;
+}
+.qlinks ul li a::before {
+  content: "";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  margin-right: 7px;
+}
+.qlinks li a {
+  color: #727272;
+}
+.qlinks li a:hover {
+	color: #fff;
+}
+.copyright_info {
+  background: #1a1a1a none repeat scroll 0 0;
+  color: #999;
+  float: left;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0 0 35px;
+  width: 100%;
+}
+ul.footer_social_links {
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.footer_social_links li {
+  background-color: #252525;
+  border-radius: 24px;
+  color: #999;
+  display:inline-block;
+  height: 24px;
+  line-height: 22px;
+  margin: 0 0 0 5px;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 24px;
+}
+.copyright_info a {
+  color: #999;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: right;
+}
+.copyright_info a:hover {
+    color: #fff;
+}
+.copyright_info .one_third{
+margin-bottom:10px;
+}
+/* Footer */
+
+/* Single */
+.wp-post-image {
+  width: 100%;
+  height: auto;
+}
+.alignnone {
+  height: auto;
+  width: 100% !important;
+}
+.aligncenter {
+margin: 0 auto;
+}
+.alignnone img {
+height: auto;
+width: 100%;
+}
+.wp-caption-text {
+background-color: #ccc;
+font-size: 16px;
+padding: 5px 0;
+text-align: center;
+font-style: italic;
+}
+.entry-content p {
+font-size: 16px;
+}
+.alignleft {
+float: left;
+margin: 0 20px;
+}
+.alignright {
+float: right;
+}
+/* Single */
+
+/* Sidebar */
+.sidebar_widget ul.arrows_list1 li a, .sidebar_widget ul a {
+  color: #13afeb;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+.mytextwithicon::before, .sidebar_widget ul li::before {
+  color: #13afeb;
+  content: "";
+  font-family: FontAwesome;
+  margin: 5px;
+}
+.sidebar_widget > ul {
+  padding: 0;
+}
+#searchform #s {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  color: #999;
+  float: left;
+  font-size: 13px;
+  height: 41px;
+  padding: 5px 10px;
+}
+#searchsubmit {
+  background: #13afeb url("images/site-search-icon.png") no-repeat scroll center 14px;
+  border: 0 none;
+  cursor: pointer;
+  float: left;
+  height: 41px;
+  line-height: 100;
+  overflow: hidden;
+  text-indent: -5555em;
+  width: 46px;
+}
+.page_title2 .title h1 {
+  color: #13afeb;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: none;
+}
+.page_title2 .pagenation a {
+  color: #727272;
+  padding: 0;
+}
+.page_title2 .pagenation {
+  color: #e0e0e0;
+  float: left;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 10px 0 0;
+  padding: 0 0 22px;
+  text-align: left;
+  width: 100%;
+}
+/* Sidebar */
+
+/* Blog */
+.post_meta_links {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.post_meta_links li {
+  color: #999;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 4px;
+}
+.blog_post a.date {
+  color: #454545;
+  font-size: 16px;
+  font-weight: normal;
+}
+.post_meta_links li a {
+  color: #999;
+  font-size: 11px;
+  padding: 0 5px 0 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.blog_post ul {
+  padding: 0;
+  display: inline-block;
+  margin: 0;
+}
+.page_title2{
+padding:30px 0 !important;
+}
+.page-br {
+margin:0 !important;
+}
+.page_title2 .two_third {
+    padding: 0;
+    border-bottom: 1px solid #d7d7d7;
+}
+.page_title2  .pagenation {
+    width: auto !important;
+    border-bottom: solid #13afeb !important;
+}
+
+.page_title2 .pagenation {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    font-weight: normal;
+    color: #aaa;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 22px 0px;
+}
+#wblizar_nav {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+.blog_post h3 a {
+  color: #13afeb;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 3px;
+  text-decoration: none;
+  text-transform: none;
+}
+#wp-calendar{
+	display:inline-block;
+	width:100%;
+}
+#wp-calendar tbody tr td {
+text-align: center;
+}
+#wp-calendar caption {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+#wp-calendar thead tr th {
+text-align: center;
+}
+table th {
+border: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: center;
+vertical-align: top;
+}
+table td {
+border: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: center;
+vertical-align: top;
+}
+table td {
+border: 1px solid #dddddd;
+padding: 8px;
+line-height: 20px;
+text-align: center;
+vertical-align: top;
+}
+.sliderContent table td ,.footer1 table td {
+color:#e7e7e7;
+}
+.sliderContent #wp-calendar thead tr th ,.footer1 #wp-calendar thead tr th {
+color: #fff;
+}
+/* Blog */
+
+/* Comment */
+.gravatar {
+  padding:0 !important;
+}
+.comment_content {
+  display: inline-block;
+}
+.comment {
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+.comment_wrap{
+margin:20px 0;
+}
+.form-submit {
+  margin: 10px 0;
+  display: inline-block;
+}
+.form-submit .submit {
+  padding: 5px 10px;
+}
+/* comment form */
+.comment_form {
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+}
+.comment_form label{
+	float: left;
+	width: 90px;
+	height: 15px;
+	padding: 7px 10px;
+	margin-bottom: 40px;
+	font-weight: normal;
+}
+.comment_input_bg {
+	float: left;
+	width: 80%;
+	height: 40px;
+	padding: 7px 10px 0px 10px;
+	border-top: 2px solid #e3e3e3;
+	border-left: 2px solid #e3e3e3;
+	border-right: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+.comment_textarea_bg {
+	float: left;
+	width: 90%;
+	height: 235px;
+	padding: 7px 10px 0px 10px;
+	margin-bottom: 20px;
+	border-top: 2px solid #e3e3e3;
+	border-left: 2px solid #e3e3e3;
+	border-right: 1px solid #e3e3e3;
+	border-bottom: 1px solid #e3e3e3;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+.comment_checkbox {
+	float: left;
+	display: block;
+	width: 90%;
+	margin-top: 10px;
+}
+.comment_submit , #comment_submit{
+	background-color: #eee;
+	border: 1px solid #ddd;
+	padding: 9px 13px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	border-radius: 4px;
+	color: #333;
+	float: left;
+	text-transform: uppercase;
+}
+.comment_submit:hover , #comment_submit:hover {
+	background-color: #f9f9f9;
+	cursor: pointer;
+}
+
+/* Comment */
+form#searchform {
+    display: inline-block;
+}
+.footer1 .tagcloud a:hover{
+	color:#fff;
+}
+nav#wblizar_nav {
+    width: 100%;
+}
+span.nav-next {
+    float: right;
+}
+.author_detail_img {
+    width: 100%;
+    height: auto;
+}
+/* scroll-down */
+.back-to-top {
+background-color: rgba(0, 0, 0, 0.5);
+border-radius:50%;
+bottom: 20px;
+color: #fff;
+height: 40px;
+position: fixed;
+right: 20px;
+text-align: center;
+width: 40px;
+z-index: 9;
+}
+.back-to-top:hover,
+.back-to-top:focus{
+color: #fff;
+}
+.back-to-top i {
+font-size: 36px;
+}
+.pagination,
+#wblizar_nav{
+	width:100%;
+}
+#wp-calendar a:hover {
+    color: #fff;
+}
+.right_sidebar #wp-calendar caption {
+    background-color: #000 !important;
+    color: #fff;
+}
+.right_sidebar #wp-calendar a:hover {
+    color: #555;
+}
+.blog_post {
+    padding: 0;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+.bypostauthor{}
