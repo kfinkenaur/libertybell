@@ -1,0 +1,1 @@
+[21-Mar-2018 02:43:12 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home/liberuy2/public_html/mds/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3

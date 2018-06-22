@@ -1,0 +1,2 @@
+[14-Mar-2018 15:09:43 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/liberuy2/public_html/mds/wp-includes/class-walker-nav-menu.php on line 17
+[23-Mar-2018 00:25:48 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/liberuy2/public_html/mds/wp-includes/locale.php on line 10

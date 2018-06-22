@@ -1,0 +1,735 @@
+# This file is distributed under the same license as the CorporateBusiness package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CorporateBusiness\n"
+"POT-Creation-Date: 2016-04-29 23:56+0200\n"
+"PO-Revision-Date: 2016-06-04 19:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: Dinozoom\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Off! Bu sayfa bulunamadı."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Burada bir şey bulamadık. Bir de aramayı denemek ister misiniz?"
+
+#: comments.php:27 inc/options-config.php:844
+msgid "Comments"
+msgstr "Yorumlar"
+
+#: comments.php:31 comments.php:50
+msgid "Comment navigation"
+msgstr "Yorum dolaşımı"
+
+#: comments.php:33 comments.php:53
+msgid "Older Comments"
+msgstr "Eski yorumlar"
+
+#: comments.php:34 comments.php:54
+msgid "Newer Comments"
+msgstr "Yeni yorumlar"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Yorumlar kapalı."
+
+#: comments.php:76
+msgid "Name"
+msgstr "İsim"
+
+#: comments.php:77 inc/options-config.php:529 inc/options-config.php:535
+msgid "Email"
+msgstr "E-posta"
+
+#: comments.php:78
+msgid "Website"
+msgstr "İnternet sitesi"
+
+#: comments.php:82
+msgid "Your email address will not be published."
+msgstr "E-posta hesabınız yayımlanmayacak."
+
+#: comments.php:86
+msgid "Cancel reply"
+msgstr "Cevabı iptal et"
+
+#: comments.php:87 inc/options-config.php:861
+msgid "Post Comment"
+msgstr "Yorum gönder"
+
+#: content-blog.php:29 content.php:28 inc/options-config.php:648
+#: inc/options-config.php:649
+msgid "Read more..."
+msgstr "Daha fazlasını oku..."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Bulunamadı"
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "İlk yazınızı yayınlamaya hazır mısınız? <a href=\"%1$s\">Buradan başlayın</a>."
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Üzgünüz fakat aradığınız kriterler ile örtüşen sonuç bulunamadı. Lütfen başka kriterler ile tekrar deneyin."
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Aradığınız sayfa bulunamadı. Belki arama kutusu aradığınızı bulma konusunda yardımcı olabilir."
+
+#: content-page-nontitle.php:14 content-page.php:24 content-single.php:27
+#: content.php:35
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: content-page.php:16 inc/template-tags.php:33 inc/template-tags.php:197
+#: inc/template-tags.php:210
+msgid "Edit"
+msgstr "Düzenle"
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr "Birincil menü"
+
+#: functions.php:121 functions.php:135
+msgid "Sidebar"
+msgstr "Yan Menü"
+
+#: functions.php:121
+msgid "Right"
+msgstr "Sağ"
+
+#: functions.php:135
+msgid "Left"
+msgstr "Sol"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "İçeriğe geç"
+
+#: header.php:62
+msgid "Menu"
+msgstr "Menü"
+
+#: header.php:64
+msgid "Close"
+msgstr "Kapat"
+
+#: inc/admin/class.customizer-api-wrapper.php:88
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/admin/custom-controls.php:13
+msgid "Select Color"
+msgstr "Renk seç"
+
+#: inc/admin/custom-controls.php:18 inc/admin/custom-controls.php:41
+#: inc/admin/custom-controls.php:64 inc/options-config.php:955
+msgid "Upgrade"
+msgstr "Yükselt"
+
+#: inc/admin/custom-controls.php:106
+msgid "More options &amp; features now available."
+msgstr ""
+
+#: inc/admin/custom-controls.php:106
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/admin/custom-controls.php:108
+msgid "Donate"
+msgstr "bağışlamak"
+
+#: inc/admin/custom-controls.php:110
+msgid "Support Forums"
+msgstr "Destek forumları"
+
+#: inc/admin/custom-controls.php:112
+msgid "Feedback"
+msgstr "Geri besleme"
+
+#: inc/admin/custom-controls.php:112
+msgid "Reviews"
+msgstr "İncelemeler"
+
+#: inc/admin/custom-controls.php:114
+msgid "Documentation"
+msgstr "Belgeler"
+
+#: inc/admin/custom-controls.php:116
+msgid "More Themes"
+msgstr ""
+
+#: inc/extras.php:53
+msgid "Page %s"
+msgstr "Sayfa %s"
+
+#: inc/options-config.php:12 inc/options-config.php:92
+#: inc/options-config.php:198 inc/options-config.php:264
+#: inc/options-config.php:323 inc/options-config.php:381
+#: inc/options-config.php:879
+msgid "Enable this section"
+msgstr "etkinleştirin"
+
+#: inc/options-config.php:18 inc/options-config.php:98
+#: inc/options-config.php:216 inc/options-config.php:288
+#: inc/options-config.php:341
+msgid "Quantity"
+msgstr ""
+
+#: inc/options-config.php:25
+msgid "Effect"
+msgstr ""
+
+#: inc/options-config.php:32
+msgid "Animation speed"
+msgstr ""
+
+#: inc/options-config.php:43 inc/options-config.php:387
+msgid "Speed"
+msgstr ""
+
+#: inc/options-config.php:57 inc/options-config.php:824
+msgid "Slider"
+msgstr ""
+
+#: inc/options-config.php:62 inc/options-config.php:105
+#: inc/options-config.php:204 inc/options-config.php:240
+#: inc/options-config.php:276 inc/options-config.php:329
+#: inc/options-config.php:460 inc/options-config.php:462
+#: inc/options-config.php:891
+msgid "Title"
+msgstr "Başlık"
+
+#: inc/options-config.php:68 inc/options-config.php:111
+#: inc/options-config.php:210 inc/options-config.php:246
+#: inc/options-config.php:282 inc/options-config.php:335
+#: inc/options-config.php:468 inc/options-config.php:897
+msgid "Description"
+msgstr "Tanım"
+
+#: inc/options-config.php:74 inc/options-config.php:915
+msgid "Link"
+msgstr "Bağlantı"
+
+#: inc/options-config.php:80 inc/options-config.php:305
+#: inc/options-config.php:412
+msgid "Image"
+msgstr "Resim"
+
+#: inc/options-config.php:117 inc/options-config.php:180
+#: inc/options-config.php:573 inc/options-config.php:579
+#: inc/options-config.php:784 inc/options-config.php:812
+#: inc/options-config.php:904
+msgid "Text color"
+msgstr "Yazı rengi"
+
+#: inc/options-config.php:127 inc/options-config.php:444
+msgid "Hide"
+msgstr "Gizle"
+
+#: inc/options-config.php:137
+msgid "Service"
+msgstr "servis"
+
+#: inc/options-config.php:142 inc/options-config.php:232
+#: inc/options-config.php:357
+msgid "Select Page"
+msgstr "Sayfa seç"
+
+#: inc/options-config.php:142 inc/options-config.php:168
+#: inc/options-config.php:232 inc/options-config.php:357
+msgid "(required)"
+msgstr "(gerekli)"
+
+#: inc/options-config.php:149 inc/options-config.php:636
+msgid "Summary"
+msgstr "Özet"
+
+#: inc/options-config.php:149 inc/options-config.php:162
+#: inc/options-config.php:240 inc/options-config.php:246
+#: inc/options-config.php:252 inc/options-config.php:311
+#: inc/options-config.php:365 inc/options-config.php:371
+msgid "Optional"
+msgstr "İsteğe Bağlı"
+
+#: inc/options-config.php:156 inc/options-config.php:252
+#: inc/options-config.php:311 inc/options-config.php:371
+#: inc/options-config.php:456
+msgid "Custom Link"
+msgstr "Özel bağlantı"
+
+#: inc/options-config.php:162
+msgid "Button"
+msgstr ""
+
+#: inc/options-config.php:168 inc/options-config.php:486
+msgid "Icon"
+msgstr "ikon"
+
+#: inc/options-config.php:168 inc/options-config.php:232
+#: inc/options-config.php:357
+msgid "Featured Image"
+msgstr "Öne çıkan görsel"
+
+#: inc/options-config.php:175 inc/options-config.php:493
+msgid "Color"
+msgstr "Renk"
+
+#: inc/options-config.php:186 inc/options-config.php:932
+msgid "Background color"
+msgstr "Arka plan rengi"
+
+#: inc/options-config.php:270 inc/options-config.php:735
+msgid "Black"
+msgstr "Siyah"
+
+#: inc/options-config.php:270 inc/options-config.php:736
+msgid "White"
+msgstr "Beyaz"
+
+#: inc/options-config.php:363
+msgid "Matt Mullenweg"
+msgstr "Matt Mullenweg"
+
+#: inc/options-config.php:365
+msgid "Author"
+msgstr "Yazar"
+
+#: inc/options-config.php:394 inc/options-config.php:396
+msgid "Overlays"
+msgstr ""
+
+#: inc/options-config.php:401
+msgid "Transitions"
+msgstr ""
+
+#: inc/options-config.php:425
+msgid "Add social media icons in Header"
+msgstr ""
+
+#: inc/options-config.php:431
+msgid "Add social media icons in Footer"
+msgstr ""
+
+#: inc/options-config.php:437
+msgid "Size"
+msgstr "Boyut"
+
+#: inc/options-config.php:474
+msgid "Enter the URL"
+msgstr "URL'yi girin"
+
+#: inc/options-config.php:479
+msgid "Open link in a new window/tab"
+msgstr "Bağlantıyı yeni pencerede/sekmede aç"
+
+#: inc/options-config.php:509 inc/options-config.php:510
+msgid "CorporateBusiness Theme Options"
+msgstr ""
+
+#: inc/options-config.php:513
+msgid "Contact Info"
+msgstr "İletişim Bilgisi"
+
+#: inc/options-config.php:517 inc/options-config.php:523
+msgid "Address"
+msgstr "adres"
+
+#: inc/options-config.php:523 inc/options-config.php:535
+#: inc/options-config.php:547 inc/options-config.php:925
+msgid "Custom URL"
+msgstr "Özel adres"
+
+#: inc/options-config.php:541 inc/options-config.php:547
+msgid "Phone"
+msgstr ""
+
+#: inc/options-config.php:557
+msgid "Header"
+msgstr "Başlık"
+
+#: inc/options-config.php:563
+msgid "Footer"
+msgstr "Dip"
+
+#: inc/options-config.php:579
+msgid "When moving mouse over link"
+msgstr ""
+
+#: inc/options-config.php:589
+msgid "Map embed code"
+msgstr ""
+
+#: inc/options-config.php:596
+msgid "Display Settings"
+msgstr "Görünüm ayarları"
+
+#: inc/options-config.php:604 inc/options-config.php:633
+msgid "Layout"
+msgstr "Yerleşim"
+
+#: inc/options-config.php:604
+msgid "Asides"
+msgstr "Yan sütun"
+
+#: inc/options-config.php:606
+msgid "One Column"
+msgstr "Bir Sütun"
+
+#: inc/options-config.php:607 inc/options-config.php:608
+msgid "Two Columns"
+msgstr "İki Sütun"
+
+#: inc/options-config.php:607 inc/options-config.php:612
+#: inc/options-config.php:614 inc/options-config.php:619
+msgid "Right Sidebar"
+msgstr "Sağ Menü"
+
+#: inc/options-config.php:608 inc/options-config.php:610
+#: inc/options-config.php:615 inc/options-config.php:618
+msgid "Left Sidebar"
+msgstr "Sol Menü"
+
+#: inc/options-config.php:609 inc/options-config.php:613
+#: inc/options-config.php:617
+msgid "Three Columns"
+msgstr "Üç Sütun"
+
+#: inc/options-config.php:611 inc/options-config.php:616
+#: inc/options-config.php:620 inc/options-config.php:795
+msgid "Content"
+msgstr "İçerik"
+
+#: inc/options-config.php:627
+msgid "Front page"
+msgstr "Ön sayfa"
+
+#: inc/options-config.php:628 searchform.php:9
+msgid "Search"
+msgstr "Ara"
+
+#: inc/options-config.php:629 inc/template-tags.php:111
+msgid "Archives"
+msgstr "Arşivler"
+
+#: inc/options-config.php:635
+msgid "Full text"
+msgstr "Tüm metin"
+
+#: inc/options-config.php:642
+msgid "Set the excerpt length (in number of words)"
+msgstr ""
+
+#: inc/options-config.php:659
+msgid "Logo Upload"
+msgstr "Logo Yükle"
+
+#: inc/options-config.php:664
+msgid "Logo"
+msgstr ""
+
+#: inc/options-config.php:664
+msgid "Alignment"
+msgstr "Hizalama"
+
+#: inc/options-config.php:667
+msgid "Align Left"
+msgstr "Sola Hizala"
+
+#: inc/options-config.php:668
+msgid "Align Center"
+msgstr "Ortala"
+
+#: inc/options-config.php:669
+msgid "Align Right"
+msgstr "Sağa Hizala"
+
+#: inc/options-config.php:673
+msgid "A search form for your site."
+msgstr "Siteniz için arama formu."
+
+#: inc/options-config.php:683
+msgid "Featured Image Header"
+msgstr "Öne çıkarılan görsel başlıkları"
+
+#: inc/options-config.php:689
+msgid "Display post date?"
+msgstr "Yazı tarihi görüntülensin mi?"
+
+#: inc/options-config.php:695
+msgid "Display item author if available?"
+msgstr "Nesne yazarını mümkünse göstersin mi?"
+
+#: inc/options-config.php:701
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: inc/options-config.php:707
+msgid "Tags"
+msgstr "Etiketler"
+
+#: inc/options-config.php:715
+msgid "Styles"
+msgstr "Stiller"
+
+#: inc/options-config.php:723
+msgid "Primary Color"
+msgstr "ana renk"
+
+#: inc/options-config.php:729
+msgid "Base Color Scheme"
+msgstr "Taban renk şeması"
+
+#: inc/options-config.php:731
+msgid "Gray"
+msgstr "Gri"
+
+#: inc/options-config.php:732
+msgid "Red"
+msgstr "Kırmızı"
+
+#: inc/options-config.php:733
+msgid "Green"
+msgstr "Yeşil"
+
+#: inc/options-config.php:734
+msgid "Blue"
+msgstr "Mavi"
+
+#: inc/options-config.php:737
+msgid "Brown"
+msgstr "Kahverengi"
+
+#: inc/options-config.php:738
+msgid "Orange"
+msgstr "Turuncu"
+
+#: inc/options-config.php:739
+msgid "Tan"
+msgstr "Esmer"
+
+#: inc/options-config.php:740
+msgid "Yellow"
+msgstr "Sarı"
+
+#: inc/options-config.php:741
+msgid "Purple"
+msgstr "Mor"
+
+#: inc/options-config.php:742
+msgid "Silver"
+msgstr "Gümüş"
+
+#: inc/options-config.php:743
+msgid "Pink"
+msgstr "Pembe"
+
+#: inc/options-config.php:749 inc/options-config.php:771
+#: inc/options-config.php:799
+msgid "Font Family"
+msgstr "Yazı tipi"
+
+#: inc/options-config.php:755 inc/options-config.php:777
+#: inc/options-config.php:805
+msgid "Font Sizes"
+msgstr "Yazı boyutu"
+
+#: inc/options-config.php:766 inc/options-config.php:910
+msgid "Custom Background"
+msgstr "Özel arkaplan"
+
+#: inc/options-config.php:790
+msgid "Border color"
+msgstr "Çerçeve rengi"
+
+#: inc/options-config.php:795
+msgid "Posts"
+msgstr "Yazılar"
+
+#: inc/options-config.php:818
+msgid "Metadata"
+msgstr "Meta bilgileri"
+
+#: inc/options-config.php:828
+msgid "Services Section"
+msgstr ""
+
+#: inc/options-config.php:832
+msgid "Projects Section"
+msgstr ""
+
+#: inc/options-config.php:836
+msgid "Background Image"
+msgstr "Arka plan görseli"
+
+#: inc/options-config.php:840
+msgid "Social Media"
+msgstr "Sosyal medya"
+
+#: inc/options-config.php:848
+msgid "Notes"
+msgstr "Notlar"
+
+#: inc/options-config.php:854
+msgid "Other Notes"
+msgstr "Diğer notlar"
+
+#: inc/options-config.php:860
+msgid "Submit label"
+msgstr ""
+
+#: inc/options-config.php:867
+msgid "Testimonials"
+msgstr ""
+
+#: inc/options-config.php:871
+msgid "Customers"
+msgstr ""
+
+#: inc/options-config.php:875
+msgid "Call to Action"
+msgstr "Aksiyon Çağrısı"
+
+#: inc/options-config.php:885
+msgid "Show Sitewide"
+msgstr ""
+
+#: inc/options-config.php:892 inc/options-config.php:920
+#: inc/template-tags.php:285 inc/template-tags.php:290
+msgid "Hello, World!"
+msgstr "Merhaba, Dünya!"
+
+#: inc/options-config.php:919
+msgid "Text"
+msgstr "Metin"
+
+#: inc/options-config.php:938
+msgid "Advanced Options"
+msgstr "Gelişmiş seçenekler"
+
+#: inc/options-config.php:942
+msgid "Reset all theme settings to default. Refresh the page after save to view full effects."
+msgstr ""
+
+#: inc/options-config.php:948
+msgid "Custom CSS Styles"
+msgstr "CSS Stillerini özelleştirin"
+
+#: inc/template-tags.php:37
+msgid "Leave a comment"
+msgstr "Bir yorum yapın"
+
+#: inc/template-tags.php:37
+msgid "1 Comment"
+msgstr "1 yorum"
+
+#: inc/template-tags.php:37
+msgid "% Comments"
+msgstr "% yorum"
+
+#: inc/template-tags.php:48
+msgid "Featured"
+msgstr "Öne çıkan"
+
+#: inc/template-tags.php:56 inc/template-tags.php:62
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:73
+msgid "Category: %s"
+msgstr "Kategori: %s"
+
+#: inc/template-tags.php:75
+msgid "Tag: %s"
+msgstr "Etiket: %s"
+
+#: inc/template-tags.php:77
+msgid "Author: %s"
+msgstr "Yazar: %s"
+
+#: inc/template-tags.php:79
+msgid "Year: %s"
+msgstr "Yıl: %s"
+
+#: inc/template-tags.php:81
+msgid "Month: %s"
+msgstr "Aylar: %s"
+
+#: inc/template-tags.php:83
+msgid "Day: %s"
+msgstr "Gün :%s"
+
+#: inc/template-tags.php:105
+msgid "Archives: %s"
+msgstr "Arşivler: %s"
+
+#: inc/template-tags.php:109
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:197
+msgid "Pingback:"
+msgstr "Geri bildirim: "
+
+#: inc/template-tags.php:213
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz denetim için bekliyor."
+
+#: inc/template-tags.php:230
+msgid "Previous"
+msgstr "Önceki"
+
+#: inc/template-tags.php:231
+msgid "Next"
+msgstr "Sonraki"
+
+#: inc/template-tags.php:244
+msgid "Page"
+msgstr "Sayfa"
+
+#: inc/template-tags.php:250
+msgid "Older posts"
+msgstr "Eski yazılar"
+
+#: inc/template-tags.php:254
+msgid "Newer posts"
+msgstr "Yeni yazılar"
+
+#: inc/template-tags.php:306
+#, php-format
+msgid "Copyright &copy; %1$d %2$s."
+msgstr ""
+
+#: inc/template-tags.php:308
+msgid "Proudly powered by %s"
+msgstr "%s gururla sunar"
+
+#: inc/template-tags.php:311
+msgid "%1$s by %2$s."
+msgstr "%1$s, %2$s."
+
+#: inc/template-tags.php:312
+msgid "Corporate Business WordPress Theme"
+msgstr ""
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Arama sonuçları: %s"
+
+#: searchform.php:8
+msgid "Search &hellip;"
+msgstr "Ara &hellip;"

@@ -1,0 +1,735 @@
+# This file is distributed under the same license as the CorporateBusiness package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CorporateBusiness\n"
+"POT-Creation-Date: 2016-04-29 23:56+0200\n"
+"PO-Revision-Date: 2016-06-04 19:45+0200\n"
+"Last-Translator: \n"
+"Language-Team: Dinozoom\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "有点尴尬诶！该页无法显示。"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "这儿似乎什么都没有，试试搜索？"
+
+#: comments.php:27 inc/options-config.php:844
+msgid "Comments"
+msgstr "评论"
+
+#: comments.php:31 comments.php:50
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: comments.php:33 comments.php:53
+msgid "Older Comments"
+msgstr "较早评论"
+
+#: comments.php:34 comments.php:54
+msgid "Newer Comments"
+msgstr "较新评论"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: comments.php:76
+msgid "Name"
+msgstr "名字"
+
+#: comments.php:77 inc/options-config.php:529 inc/options-config.php:535
+msgid "Email"
+msgstr "电子邮件"
+
+#: comments.php:78
+msgid "Website"
+msgstr "站点"
+
+#: comments.php:82
+msgid "Your email address will not be published."
+msgstr "电子邮件地址不会被公开。"
+
+#: comments.php:86
+msgid "Cancel reply"
+msgstr "取消回复"
+
+#: comments.php:87 inc/options-config.php:861
+msgid "Post Comment"
+msgstr "发表评论"
+
+#: content-blog.php:29 content.php:28 inc/options-config.php:648
+#: inc/options-config.php:649
+msgid "Read more..."
+msgstr "阅读更多…"
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "未找到"
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备好发布第一篇文章了？<a href=\"%1$s\">从这里开始</a>。"
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "抱歉，没有符合您搜索条件的结果。请换其它关键词再试。"
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "我们可能无法找到您需要的内容。或许搜索功能可以帮到您。"
+
+#: content-page-nontitle.php:14 content-page.php:24 content-single.php:27
+#: content.php:35
+msgid "Pages:"
+msgstr "页码："
+
+#: content-page.php:16 inc/template-tags.php:33 inc/template-tags.php:197
+#: inc/template-tags.php:210
+msgid "Edit"
+msgstr "编辑"
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr "主菜单"
+
+#: functions.php:121 functions.php:135
+msgid "Sidebar"
+msgstr "边栏"
+
+#: functions.php:121
+msgid "Right"
+msgstr "右"
+
+#: functions.php:135
+msgid "Left"
+msgstr "左"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "跳至内容"
+
+#: header.php:62
+msgid "Menu"
+msgstr "菜单"
+
+#: header.php:64
+msgid "Close"
+msgstr "关闭"
+
+#: inc/admin/class.customizer-api-wrapper.php:88
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/admin/custom-controls.php:13
+msgid "Select Color"
+msgstr "选择颜色"
+
+#: inc/admin/custom-controls.php:18 inc/admin/custom-controls.php:41
+#: inc/admin/custom-controls.php:64 inc/options-config.php:955
+msgid "Upgrade"
+msgstr "升级"
+
+#: inc/admin/custom-controls.php:106
+msgid "More options &amp; features now available."
+msgstr ""
+
+#: inc/admin/custom-controls.php:106
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/admin/custom-controls.php:108
+msgid "Donate"
+msgstr "捐"
+
+#: inc/admin/custom-controls.php:110
+msgid "Support Forums"
+msgstr "支持论坛"
+
+#: inc/admin/custom-controls.php:112
+msgid "Feedback"
+msgstr "反馈"
+
+#: inc/admin/custom-controls.php:112
+msgid "Reviews"
+msgstr "评价"
+
+#: inc/admin/custom-controls.php:114
+msgid "Documentation"
+msgstr "文档"
+
+#: inc/admin/custom-controls.php:116
+msgid "More Themes"
+msgstr ""
+
+#: inc/extras.php:53
+msgid "Page %s"
+msgstr "第%s页"
+
+#: inc/options-config.php:12 inc/options-config.php:92
+#: inc/options-config.php:198 inc/options-config.php:264
+#: inc/options-config.php:323 inc/options-config.php:381
+#: inc/options-config.php:879
+msgid "Enable this section"
+msgstr "本节"
+
+#: inc/options-config.php:18 inc/options-config.php:98
+#: inc/options-config.php:216 inc/options-config.php:288
+#: inc/options-config.php:341
+msgid "Quantity"
+msgstr ""
+
+#: inc/options-config.php:25
+msgid "Effect"
+msgstr ""
+
+#: inc/options-config.php:32
+msgid "Animation speed"
+msgstr ""
+
+#: inc/options-config.php:43 inc/options-config.php:387
+msgid "Speed"
+msgstr ""
+
+#: inc/options-config.php:57 inc/options-config.php:824
+msgid "Slider"
+msgstr ""
+
+#: inc/options-config.php:62 inc/options-config.php:105
+#: inc/options-config.php:204 inc/options-config.php:240
+#: inc/options-config.php:276 inc/options-config.php:329
+#: inc/options-config.php:460 inc/options-config.php:462
+#: inc/options-config.php:891
+msgid "Title"
+msgstr "标题"
+
+#: inc/options-config.php:68 inc/options-config.php:111
+#: inc/options-config.php:210 inc/options-config.php:246
+#: inc/options-config.php:282 inc/options-config.php:335
+#: inc/options-config.php:468 inc/options-config.php:897
+msgid "Description"
+msgstr "图像描述"
+
+#: inc/options-config.php:74 inc/options-config.php:915
+msgid "Link"
+msgstr "链接"
+
+#: inc/options-config.php:80 inc/options-config.php:305
+#: inc/options-config.php:412
+msgid "Image"
+msgstr "图像"
+
+#: inc/options-config.php:117 inc/options-config.php:180
+#: inc/options-config.php:573 inc/options-config.php:579
+#: inc/options-config.php:784 inc/options-config.php:812
+#: inc/options-config.php:904
+msgid "Text color"
+msgstr "文字颜色"
+
+#: inc/options-config.php:127 inc/options-config.php:444
+msgid "Hide"
+msgstr "隐藏"
+
+#: inc/options-config.php:137
+msgid "Service"
+msgstr "维修"
+
+#: inc/options-config.php:142 inc/options-config.php:232
+#: inc/options-config.php:357
+msgid "Select Page"
+msgstr "选择页面"
+
+#: inc/options-config.php:142 inc/options-config.php:168
+#: inc/options-config.php:232 inc/options-config.php:357
+msgid "(required)"
+msgstr "(必填)"
+
+#: inc/options-config.php:149 inc/options-config.php:636
+msgid "Summary"
+msgstr "摘要"
+
+#: inc/options-config.php:149 inc/options-config.php:162
+#: inc/options-config.php:240 inc/options-config.php:246
+#: inc/options-config.php:252 inc/options-config.php:311
+#: inc/options-config.php:365 inc/options-config.php:371
+msgid "Optional"
+msgstr "可选"
+
+#: inc/options-config.php:156 inc/options-config.php:252
+#: inc/options-config.php:311 inc/options-config.php:371
+#: inc/options-config.php:456
+msgid "Custom Link"
+msgstr "自定义链接"
+
+#: inc/options-config.php:162
+msgid "Button"
+msgstr ""
+
+#: inc/options-config.php:168 inc/options-config.php:486
+msgid "Icon"
+msgstr "图标"
+
+#: inc/options-config.php:168 inc/options-config.php:232
+#: inc/options-config.php:357
+msgid "Featured Image"
+msgstr "特色图像"
+
+#: inc/options-config.php:175 inc/options-config.php:493
+msgid "Color"
+msgstr "颜色"
+
+#: inc/options-config.php:186 inc/options-config.php:932
+msgid "Background color"
+msgstr "背景颜色"
+
+#: inc/options-config.php:270 inc/options-config.php:735
+msgid "Black"
+msgstr "黑色"
+
+#: inc/options-config.php:270 inc/options-config.php:736
+msgid "White"
+msgstr "白色"
+
+#: inc/options-config.php:363
+msgid "Matt Mullenweg"
+msgstr "Matt Mullenweg"
+
+#: inc/options-config.php:365
+msgid "Author"
+msgstr "作者"
+
+#: inc/options-config.php:394 inc/options-config.php:396
+msgid "Overlays"
+msgstr ""
+
+#: inc/options-config.php:401
+msgid "Transitions"
+msgstr ""
+
+#: inc/options-config.php:425
+msgid "Add social media icons in Header"
+msgstr ""
+
+#: inc/options-config.php:431
+msgid "Add social media icons in Footer"
+msgstr ""
+
+#: inc/options-config.php:437
+msgid "Size"
+msgstr "尺寸"
+
+#: inc/options-config.php:474
+msgid "Enter the URL"
+msgstr "输入URL"
+
+#: inc/options-config.php:479
+msgid "Open link in a new window/tab"
+msgstr "在新窗口或标签页打开链接"
+
+#: inc/options-config.php:509 inc/options-config.php:510
+msgid "CorporateBusiness Theme Options"
+msgstr ""
+
+#: inc/options-config.php:513
+msgid "Contact Info"
+msgstr "联系信息"
+
+#: inc/options-config.php:517 inc/options-config.php:523
+msgid "Address"
+msgstr "地址"
+
+#: inc/options-config.php:523 inc/options-config.php:535
+#: inc/options-config.php:547 inc/options-config.php:925
+msgid "Custom URL"
+msgstr "自定义URL"
+
+#: inc/options-config.php:541 inc/options-config.php:547
+msgid "Phone"
+msgstr ""
+
+#: inc/options-config.php:557
+msgid "Header"
+msgstr "顶部"
+
+#: inc/options-config.php:563
+msgid "Footer"
+msgstr "注脚"
+
+#: inc/options-config.php:579
+msgid "When moving mouse over link"
+msgstr ""
+
+#: inc/options-config.php:589
+msgid "Map embed code"
+msgstr ""
+
+#: inc/options-config.php:596
+msgid "Display Settings"
+msgstr "显示设置"
+
+#: inc/options-config.php:604 inc/options-config.php:633
+msgid "Layout"
+msgstr "布局"
+
+#: inc/options-config.php:604
+msgid "Asides"
+msgstr "日志"
+
+#: inc/options-config.php:606
+msgid "One Column"
+msgstr "一栏"
+
+#: inc/options-config.php:607 inc/options-config.php:608
+msgid "Two Columns"
+msgstr "两栏"
+
+#: inc/options-config.php:607 inc/options-config.php:612
+#: inc/options-config.php:614 inc/options-config.php:619
+msgid "Right Sidebar"
+msgstr "边栏在右侧"
+
+#: inc/options-config.php:608 inc/options-config.php:610
+#: inc/options-config.php:615 inc/options-config.php:618
+msgid "Left Sidebar"
+msgstr "边栏在左侧"
+
+#: inc/options-config.php:609 inc/options-config.php:613
+#: inc/options-config.php:617
+msgid "Three Columns"
+msgstr "三栏"
+
+#: inc/options-config.php:611 inc/options-config.php:616
+#: inc/options-config.php:620 inc/options-config.php:795
+msgid "Content"
+msgstr "内容"
+
+#: inc/options-config.php:627
+msgid "Front page"
+msgstr "首页"
+
+#: inc/options-config.php:628 searchform.php:9
+msgid "Search"
+msgstr "搜索"
+
+#: inc/options-config.php:629 inc/template-tags.php:111
+msgid "Archives"
+msgstr "文章归档"
+
+#: inc/options-config.php:635
+msgid "Full text"
+msgstr "全文"
+
+#: inc/options-config.php:642
+msgid "Set the excerpt length (in number of words)"
+msgstr ""
+
+#: inc/options-config.php:659
+msgid "Logo Upload"
+msgstr "LOGO"
+
+#: inc/options-config.php:664
+msgid "Logo"
+msgstr ""
+
+#: inc/options-config.php:664
+msgid "Alignment"
+msgstr "对齐方式"
+
+#: inc/options-config.php:667
+msgid "Align Left"
+msgstr "左对齐"
+
+#: inc/options-config.php:668
+msgid "Align Center"
+msgstr "居中对齐"
+
+#: inc/options-config.php:669
+msgid "Align Right"
+msgstr "右对齐"
+
+#: inc/options-config.php:673
+msgid "A search form for your site."
+msgstr "您站点的搜索框。"
+
+#: inc/options-config.php:683
+msgid "Featured Image Header"
+msgstr "顶部特色图像"
+
+#: inc/options-config.php:689
+msgid "Display post date?"
+msgstr "显示文章日期？"
+
+#: inc/options-config.php:695
+msgid "Display item author if available?"
+msgstr "如果可用，显示条目作者？"
+
+#: inc/options-config.php:701
+msgid "Categories"
+msgstr "分类目录"
+
+#: inc/options-config.php:707
+msgid "Tags"
+msgstr "标签"
+
+#: inc/options-config.php:715
+msgid "Styles"
+msgstr "样式"
+
+#: inc/options-config.php:723
+msgid "Primary Color"
+msgstr "原色"
+
+#: inc/options-config.php:729
+msgid "Base Color Scheme"
+msgstr "基础配色方案"
+
+#: inc/options-config.php:731
+msgid "Gray"
+msgstr "灰色"
+
+#: inc/options-config.php:732
+msgid "Red"
+msgstr "红色"
+
+#: inc/options-config.php:733
+msgid "Green"
+msgstr "绿色"
+
+#: inc/options-config.php:734
+msgid "Blue"
+msgstr "蓝色"
+
+#: inc/options-config.php:737
+msgid "Brown"
+msgstr "褐色"
+
+#: inc/options-config.php:738
+msgid "Orange"
+msgstr "橙色"
+
+#: inc/options-config.php:739
+msgid "Tan"
+msgstr "褐色"
+
+#: inc/options-config.php:740
+msgid "Yellow"
+msgstr "黄色"
+
+#: inc/options-config.php:741
+msgid "Purple"
+msgstr "紫色"
+
+#: inc/options-config.php:742
+msgid "Silver"
+msgstr "银色"
+
+#: inc/options-config.php:743
+msgid "Pink"
+msgstr "粉色"
+
+#: inc/options-config.php:749 inc/options-config.php:771
+#: inc/options-config.php:799
+msgid "Font Family"
+msgstr "字体"
+
+#: inc/options-config.php:755 inc/options-config.php:777
+#: inc/options-config.php:805
+msgid "Font Sizes"
+msgstr "字号"
+
+#: inc/options-config.php:766 inc/options-config.php:910
+msgid "Custom Background"
+msgstr "自定义背景"
+
+#: inc/options-config.php:790
+msgid "Border color"
+msgstr "边框颜色"
+
+#: inc/options-config.php:795
+msgid "Posts"
+msgstr "文章"
+
+#: inc/options-config.php:818
+msgid "Metadata"
+msgstr "元数据"
+
+#: inc/options-config.php:828
+msgid "Services Section"
+msgstr ""
+
+#: inc/options-config.php:832
+msgid "Projects Section"
+msgstr ""
+
+#: inc/options-config.php:836
+msgid "Background Image"
+msgstr "背景图像"
+
+#: inc/options-config.php:840
+msgid "Social Media"
+msgstr "社交媒体"
+
+#: inc/options-config.php:848
+msgid "Notes"
+msgstr "备注"
+
+#: inc/options-config.php:854
+msgid "Other Notes"
+msgstr "其它备注"
+
+#: inc/options-config.php:860
+msgid "Submit label"
+msgstr ""
+
+#: inc/options-config.php:867
+msgid "Testimonials"
+msgstr ""
+
+#: inc/options-config.php:871
+msgid "Customers"
+msgstr ""
+
+#: inc/options-config.php:875
+msgid "Call to Action"
+msgstr "开始行动"
+
+#: inc/options-config.php:885
+msgid "Show Sitewide"
+msgstr ""
+
+#: inc/options-config.php:892 inc/options-config.php:920
+#: inc/template-tags.php:285 inc/template-tags.php:290
+msgid "Hello, World!"
+msgstr "你好，世界！"
+
+#: inc/options-config.php:919
+msgid "Text"
+msgstr "文本"
+
+#: inc/options-config.php:938
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: inc/options-config.php:942
+msgid "Reset all theme settings to default. Refresh the page after save to view full effects."
+msgstr ""
+
+#: inc/options-config.php:948
+msgid "Custom CSS Styles"
+msgstr "自定义CSS样式"
+
+#: inc/template-tags.php:37
+msgid "Leave a comment"
+msgstr "发表回复"
+
+#: inc/template-tags.php:37
+msgid "1 Comment"
+msgstr "1条评论"
+
+#: inc/template-tags.php:37
+msgid "% Comments"
+msgstr "%条评论"
+
+#: inc/template-tags.php:48
+msgid "Featured"
+msgstr "特色"
+
+#: inc/template-tags.php:56 inc/template-tags.php:62
+msgid ", "
+msgstr "、"
+
+#: inc/template-tags.php:73
+msgid "Category: %s"
+msgstr "分类：%s"
+
+#: inc/template-tags.php:75
+msgid "Tag: %s"
+msgstr "标签：%s"
+
+#: inc/template-tags.php:77
+msgid "Author: %s"
+msgstr "作者：%s"
+
+#: inc/template-tags.php:79
+msgid "Year: %s"
+msgstr "年份：%s"
+
+#: inc/template-tags.php:81
+msgid "Month: %s"
+msgstr "月份：%s"
+
+#: inc/template-tags.php:83
+msgid "Day: %s"
+msgstr "日期：%s"
+
+#: inc/template-tags.php:105
+msgid "Archives: %s"
+msgstr "存档：%s"
+
+#: inc/template-tags.php:109
+msgid "%1$s: %2$s"
+msgstr "%1$s：%2$s"
+
+#: inc/template-tags.php:197
+msgid "Pingback:"
+msgstr "Pingback："
+
+#: inc/template-tags.php:213
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: inc/template-tags.php:230
+msgid "Previous"
+msgstr "上一个"
+
+#: inc/template-tags.php:231
+msgid "Next"
+msgstr "下一个"
+
+#: inc/template-tags.php:244
+msgid "Page"
+msgstr "页"
+
+#: inc/template-tags.php:250
+msgid "Older posts"
+msgstr "先前文章"
+
+#: inc/template-tags.php:254
+msgid "Newer posts"
+msgstr "较新文章"
+
+#: inc/template-tags.php:306
+#, php-format
+msgid "Copyright &copy; %1$d %2$s."
+msgstr ""
+
+#: inc/template-tags.php:308
+msgid "Proudly powered by %s"
+msgstr "自豪地采用%s"
+
+#: inc/template-tags.php:311
+msgid "%1$s by %2$s."
+msgstr "%1$s，由%2$s。"
+
+#: inc/template-tags.php:312
+msgid "Corporate Business WordPress Theme"
+msgstr ""
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "%s的搜索结果"
+
+#: searchform.php:8
+msgid "Search &hellip;"
+msgstr "搜索&hellip;"

@@ -1,0 +1,13 @@
+[15-Mar-2018 02:11:10 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/archive.php on line 6
+[15-Mar-2018 02:11:10 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/archive.php on line 6
+[16-Mar-2018 17:36:38 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/archive.php on line 6
+[16-Mar-2018 17:36:38 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/archive.php on line 6
+[19-Mar-2018 07:36:13 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/archive.php on line 6
+[19-Mar-2018 07:36:14 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/archive.php on line 6
+[19-Mar-2018 13:27:10 America/Denver] PHP Fatal error:  Call to undefined function wp_head() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/header.php on line 8
+[20-Mar-2018 08:33:28 America/Denver] PHP Fatal error:  Call to undefined function wp_head() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/header.php on line 8
+[10-Apr-2018 01:33:45 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/404.php on line 6
+[10-Apr-2018 01:33:45 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/404.php on line 6
+[11-Apr-2018 14:21:51 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/archive.php on line 6
+[11-Apr-2018 14:21:51 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/archive.php on line 6
+[06-May-2018 18:08:47 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/liberuy2/public_html/mds/wp-content/themes/modern-business/404.php on line 6

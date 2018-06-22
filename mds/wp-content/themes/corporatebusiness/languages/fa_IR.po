@@ -1,0 +1,735 @@
+# This file is distributed under the same license as the CorporateBusiness package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CorporateBusiness\n"
+"POT-Creation-Date: 2016-04-29 23:56+0200\n"
+"PO-Revision-Date: 2016-06-04 19:43+0200\n"
+"Last-Translator: \n"
+"Language-Team: Dinozoom\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوه! این برگه پیدا نمی‌شه."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "به نظر می‌رسد چیزی اینجا نیست. مایل هستید جستجو کنید؟"
+
+#: comments.php:27 inc/options-config.php:844
+msgid "Comments"
+msgstr "دیدگاه‌ها"
+
+#: comments.php:31 comments.php:50
+msgid "Comment navigation"
+msgstr "هدایت دیدگاه"
+
+#: comments.php:33 comments.php:53
+msgid "Older Comments"
+msgstr "دیدگاه‌های کهنه‌تر"
+
+#: comments.php:34 comments.php:54
+msgid "Newer Comments"
+msgstr "دیدگاه‌های تازه‌تر"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "امکان ثبت دیدگاه وجود ندارد."
+
+#: comments.php:76
+msgid "Name"
+msgstr "نام پیوند"
+
+#: comments.php:77 inc/options-config.php:529 inc/options-config.php:535
+msgid "Email"
+msgstr "ایمیل"
+
+#: comments.php:78
+msgid "Website"
+msgstr "وبلاگ"
+
+#: comments.php:82
+msgid "Your email address will not be published."
+msgstr "نشانی ایمیل شما منتشر نخواهد شد."
+
+#: comments.php:86
+msgid "Cancel reply"
+msgstr "لغو پاسخ"
+
+#: comments.php:87 inc/options-config.php:861
+msgid "Post Comment"
+msgstr "فرستادن دیدگاه"
+
+#: content-blog.php:29 content.php:28 inc/options-config.php:648
+#: inc/options-config.php:649
+msgid "Read more..."
+msgstr "خواندن بیشتر..."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "چیزی پیدا نشد"
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "میخواهید اولین نوشته‌ی خود را منتشر کنید؟ <a href=\"%1$s\">از اینجا آغاز کنید</a>. "
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "بدبختانه جستجوی شما نتیجه‌ای در بر نداشت. با واژگانی دیگر جستجو کنید."
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "به‌نظر می‌رسد نمی‌توانیم چیزی که شما به دنبال آن هستید را بیابیم. شاید جستجو بتواند به شما کمک کند."
+
+#: content-page-nontitle.php:14 content-page.php:24 content-single.php:27
+#: content.php:35
+msgid "Pages:"
+msgstr "برگه‌ها:"
+
+#: content-page.php:16 inc/template-tags.php:33 inc/template-tags.php:197
+#: inc/template-tags.php:210
+msgid "Edit"
+msgstr "ویرایش"
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr "فهرست اصلی"
+
+#: functions.php:121 functions.php:135
+msgid "Sidebar"
+msgstr "ستون‌کناری"
+
+#: functions.php:121
+msgid "Right"
+msgstr "راست"
+
+#: functions.php:135
+msgid "Left"
+msgstr "چپ"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "رفتن به محتوا"
+
+#: header.php:62
+msgid "Menu"
+msgstr "فهرست"
+
+#: header.php:64
+msgid "Close"
+msgstr "بستن"
+
+#: inc/admin/class.customizer-api-wrapper.php:88
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/admin/custom-controls.php:13
+msgid "Select Color"
+msgstr "گزینش رنگ"
+
+#: inc/admin/custom-controls.php:18 inc/admin/custom-controls.php:41
+#: inc/admin/custom-controls.php:64 inc/options-config.php:955
+msgid "Upgrade"
+msgstr "ارتقا"
+
+#: inc/admin/custom-controls.php:106
+msgid "More options &amp; features now available."
+msgstr ""
+
+#: inc/admin/custom-controls.php:106
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/admin/custom-controls.php:108
+msgid "Donate"
+msgstr "اهدای"
+
+#: inc/admin/custom-controls.php:110
+msgid "Support Forums"
+msgstr "انجمن‌های پشتیبانی"
+
+#: inc/admin/custom-controls.php:112
+msgid "Feedback"
+msgstr "بازخورد"
+
+#: inc/admin/custom-controls.php:112
+msgid "Reviews"
+msgstr "بررسی‌ها"
+
+#: inc/admin/custom-controls.php:114
+msgid "Documentation"
+msgstr "مستندات"
+
+#: inc/admin/custom-controls.php:116
+msgid "More Themes"
+msgstr ""
+
+#: inc/extras.php:53
+msgid "Page %s"
+msgstr "برگه %s"
+
+#: inc/options-config.php:12 inc/options-config.php:92
+#: inc/options-config.php:198 inc/options-config.php:264
+#: inc/options-config.php:323 inc/options-config.php:381
+#: inc/options-config.php:879
+msgid "Enable this section"
+msgstr "بخش"
+
+#: inc/options-config.php:18 inc/options-config.php:98
+#: inc/options-config.php:216 inc/options-config.php:288
+#: inc/options-config.php:341
+msgid "Quantity"
+msgstr ""
+
+#: inc/options-config.php:25
+msgid "Effect"
+msgstr ""
+
+#: inc/options-config.php:32
+msgid "Animation speed"
+msgstr ""
+
+#: inc/options-config.php:43 inc/options-config.php:387
+msgid "Speed"
+msgstr ""
+
+#: inc/options-config.php:57 inc/options-config.php:824
+msgid "Slider"
+msgstr ""
+
+#: inc/options-config.php:62 inc/options-config.php:105
+#: inc/options-config.php:204 inc/options-config.php:240
+#: inc/options-config.php:276 inc/options-config.php:329
+#: inc/options-config.php:460 inc/options-config.php:462
+#: inc/options-config.php:891
+msgid "Title"
+msgstr "نام"
+
+#: inc/options-config.php:68 inc/options-config.php:111
+#: inc/options-config.php:210 inc/options-config.php:246
+#: inc/options-config.php:282 inc/options-config.php:335
+#: inc/options-config.php:468 inc/options-config.php:897
+msgid "Description"
+msgstr "توضیح"
+
+#: inc/options-config.php:74 inc/options-config.php:915
+msgid "Link"
+msgstr "پیوند"
+
+#: inc/options-config.php:80 inc/options-config.php:305
+#: inc/options-config.php:412
+msgid "Image"
+msgstr "تصویر"
+
+#: inc/options-config.php:117 inc/options-config.php:180
+#: inc/options-config.php:573 inc/options-config.php:579
+#: inc/options-config.php:784 inc/options-config.php:812
+#: inc/options-config.php:904
+msgid "Text color"
+msgstr "رنگ متن"
+
+#: inc/options-config.php:127 inc/options-config.php:444
+msgid "Hide"
+msgstr "پنهان‌سازی"
+
+#: inc/options-config.php:137
+msgid "Service"
+msgstr "خدمت رسانی"
+
+#: inc/options-config.php:142 inc/options-config.php:232
+#: inc/options-config.php:357
+msgid "Select Page"
+msgstr "انتخاب برگه"
+
+#: inc/options-config.php:142 inc/options-config.php:168
+#: inc/options-config.php:232 inc/options-config.php:357
+msgid "(required)"
+msgstr "(لازم)"
+
+#: inc/options-config.php:149 inc/options-config.php:636
+msgid "Summary"
+msgstr "خلاصه"
+
+#: inc/options-config.php:149 inc/options-config.php:162
+#: inc/options-config.php:240 inc/options-config.php:246
+#: inc/options-config.php:252 inc/options-config.php:311
+#: inc/options-config.php:365 inc/options-config.php:371
+msgid "Optional"
+msgstr "اختیاری"
+
+#: inc/options-config.php:156 inc/options-config.php:252
+#: inc/options-config.php:311 inc/options-config.php:371
+#: inc/options-config.php:456
+msgid "Custom Link"
+msgstr "پیوند سفارشی"
+
+#: inc/options-config.php:162
+msgid "Button"
+msgstr ""
+
+#: inc/options-config.php:168 inc/options-config.php:486
+msgid "Icon"
+msgstr "تصویر"
+
+#: inc/options-config.php:168 inc/options-config.php:232
+#: inc/options-config.php:357
+msgid "Featured Image"
+msgstr "تصویر شاخص"
+
+#: inc/options-config.php:175 inc/options-config.php:493
+msgid "Color"
+msgstr "رنگ"
+
+#: inc/options-config.php:186 inc/options-config.php:932
+msgid "Background color"
+msgstr "رنگ پس‌زمینه"
+
+#: inc/options-config.php:270 inc/options-config.php:735
+msgid "Black"
+msgstr "سیاه"
+
+#: inc/options-config.php:270 inc/options-config.php:736
+msgid "White"
+msgstr "سفید"
+
+#: inc/options-config.php:363
+msgid "Matt Mullenweg"
+msgstr "مت مولنوگ"
+
+#: inc/options-config.php:365
+msgid "Author"
+msgstr "نویسنده"
+
+#: inc/options-config.php:394 inc/options-config.php:396
+msgid "Overlays"
+msgstr ""
+
+#: inc/options-config.php:401
+msgid "Transitions"
+msgstr ""
+
+#: inc/options-config.php:425
+msgid "Add social media icons in Header"
+msgstr ""
+
+#: inc/options-config.php:431
+msgid "Add social media icons in Footer"
+msgstr ""
+
+#: inc/options-config.php:437
+msgid "Size"
+msgstr "اندازه"
+
+#: inc/options-config.php:474
+msgid "Enter the URL"
+msgstr "نشانی را وارد نمایید"
+
+#: inc/options-config.php:479
+msgid "Open link in a new window/tab"
+msgstr "نمایش پیوند در پنجره/زبانه تازه"
+
+#: inc/options-config.php:509 inc/options-config.php:510
+msgid "CorporateBusiness Theme Options"
+msgstr ""
+
+#: inc/options-config.php:513
+msgid "Contact Info"
+msgstr "اطلاعات تماس"
+
+#: inc/options-config.php:517 inc/options-config.php:523
+msgid "Address"
+msgstr "نشانی"
+
+#: inc/options-config.php:523 inc/options-config.php:535
+#: inc/options-config.php:547 inc/options-config.php:925
+msgid "Custom URL"
+msgstr "نشانی دلخواه"
+
+#: inc/options-config.php:541 inc/options-config.php:547
+msgid "Phone"
+msgstr ""
+
+#: inc/options-config.php:557
+msgid "Header"
+msgstr "سربرگ"
+
+#: inc/options-config.php:563
+msgid "Footer"
+msgstr "پاورقی"
+
+#: inc/options-config.php:579
+msgid "When moving mouse over link"
+msgstr ""
+
+#: inc/options-config.php:589
+msgid "Map embed code"
+msgstr ""
+
+#: inc/options-config.php:596
+msgid "Display Settings"
+msgstr "تنظیمات نمایش"
+
+#: inc/options-config.php:604 inc/options-config.php:633
+msgid "Layout"
+msgstr "طرح"
+
+#: inc/options-config.php:604
+msgid "Asides"
+msgstr "حاشیه‌ها"
+
+#: inc/options-config.php:606
+msgid "One Column"
+msgstr "یک ستون"
+
+#: inc/options-config.php:607 inc/options-config.php:608
+msgid "Two Columns"
+msgstr "دو ستون"
+
+#: inc/options-config.php:607 inc/options-config.php:612
+#: inc/options-config.php:614 inc/options-config.php:619
+msgid "Right Sidebar"
+msgstr "ستون‌کناری راست"
+
+#: inc/options-config.php:608 inc/options-config.php:610
+#: inc/options-config.php:615 inc/options-config.php:618
+msgid "Left Sidebar"
+msgstr "ستون‌کناری چپ"
+
+#: inc/options-config.php:609 inc/options-config.php:613
+#: inc/options-config.php:617
+msgid "Three Columns"
+msgstr "سه ستون"
+
+#: inc/options-config.php:611 inc/options-config.php:616
+#: inc/options-config.php:620 inc/options-config.php:795
+msgid "Content"
+msgstr "محتوا"
+
+#: inc/options-config.php:627
+msgid "Front page"
+msgstr "برگه‌ی نخست"
+
+#: inc/options-config.php:628 searchform.php:9
+msgid "Search"
+msgstr "جست‌وجو"
+
+#: inc/options-config.php:629 inc/template-tags.php:111
+msgid "Archives"
+msgstr "بایگانی"
+
+#: inc/options-config.php:635
+msgid "Full text"
+msgstr "همه‌ی نوشته"
+
+#: inc/options-config.php:642
+msgid "Set the excerpt length (in number of words)"
+msgstr ""
+
+#: inc/options-config.php:659
+msgid "Logo Upload"
+msgstr "بارگذاری لوگو"
+
+#: inc/options-config.php:664
+msgid "Logo"
+msgstr ""
+
+#: inc/options-config.php:664
+msgid "Alignment"
+msgstr "چیدمان"
+
+#: inc/options-config.php:667
+msgid "Align Left"
+msgstr "چپ‌چین"
+
+#: inc/options-config.php:668
+msgid "Align Center"
+msgstr "میان‌چین"
+
+#: inc/options-config.php:669
+msgid "Align Right"
+msgstr "راست‌چین"
+
+#: inc/options-config.php:673
+msgid "A search form for your site."
+msgstr "کادر جست‌وجو برای سایت شما."
+
+#: inc/options-config.php:683
+msgid "Featured Image Header"
+msgstr "تصویر شاخص سربرگ"
+
+#: inc/options-config.php:689
+msgid "Display post date?"
+msgstr "نمایش تاریخ نوشته؟"
+
+#: inc/options-config.php:695
+msgid "Display item author if available?"
+msgstr "نمایش نویسنده‌ی نوشته اگر بود؟"
+
+#: inc/options-config.php:701
+msgid "Categories"
+msgstr "دسته‌ها"
+
+#: inc/options-config.php:707
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: inc/options-config.php:715
+msgid "Styles"
+msgstr "شیوه‌نامه‌ها"
+
+#: inc/options-config.php:723
+msgid "Primary Color"
+msgstr ""
+
+#: inc/options-config.php:729
+msgid "Base Color Scheme"
+msgstr "شمای رنگ پایه"
+
+#: inc/options-config.php:731
+msgid "Gray"
+msgstr "خاکستری"
+
+#: inc/options-config.php:732
+msgid "Red"
+msgstr "قرمز"
+
+#: inc/options-config.php:733
+msgid "Green"
+msgstr "سبز"
+
+#: inc/options-config.php:734
+msgid "Blue"
+msgstr "آبی"
+
+#: inc/options-config.php:737
+msgid "Brown"
+msgstr "قهوه‌ای"
+
+#: inc/options-config.php:738
+msgid "Orange"
+msgstr "نارنجی"
+
+#: inc/options-config.php:739
+msgid "Tan"
+msgstr "قهوه‌ای"
+
+#: inc/options-config.php:740
+msgid "Yellow"
+msgstr "زرد"
+
+#: inc/options-config.php:741
+msgid "Purple"
+msgstr "بنفش"
+
+#: inc/options-config.php:742
+msgid "Silver"
+msgstr "نقره‌ای"
+
+#: inc/options-config.php:743
+msgid "Pink"
+msgstr "صورتی"
+
+#: inc/options-config.php:749 inc/options-config.php:771
+#: inc/options-config.php:799
+msgid "Font Family"
+msgstr "نوع قلم"
+
+#: inc/options-config.php:755 inc/options-config.php:777
+#: inc/options-config.php:805
+msgid "Font Sizes"
+msgstr "اندازه قلم"
+
+#: inc/options-config.php:766 inc/options-config.php:910
+msgid "Custom Background"
+msgstr "پس‌زمینه دلخواه"
+
+#: inc/options-config.php:790
+msgid "Border color"
+msgstr "رنگ کناره"
+
+#: inc/options-config.php:795
+msgid "Posts"
+msgstr "نوشته‌ها"
+
+#: inc/options-config.php:818
+msgid "Metadata"
+msgstr "فراداده"
+
+#: inc/options-config.php:828
+msgid "Services Section"
+msgstr ""
+
+#: inc/options-config.php:832
+msgid "Projects Section"
+msgstr ""
+
+#: inc/options-config.php:836
+msgid "Background Image"
+msgstr "تصویر پس‌زمینه"
+
+#: inc/options-config.php:840
+msgid "Social Media"
+msgstr ""
+
+#: inc/options-config.php:848
+msgid "Notes"
+msgstr "یادداشت‌ها"
+
+#: inc/options-config.php:854
+msgid "Other Notes"
+msgstr "دیگر توضیحات"
+
+#: inc/options-config.php:860
+msgid "Submit label"
+msgstr ""
+
+#: inc/options-config.php:867
+msgid "Testimonials"
+msgstr ""
+
+#: inc/options-config.php:871
+msgid "Customers"
+msgstr ""
+
+#: inc/options-config.php:875
+msgid "Call to Action"
+msgstr "فراخوانی برای اقدام"
+
+#: inc/options-config.php:885
+msgid "Show Sitewide"
+msgstr ""
+
+#: inc/options-config.php:892 inc/options-config.php:920
+#: inc/template-tags.php:285 inc/template-tags.php:290
+msgid "Hello, World!"
+msgstr "سلام دنیا!"
+
+#: inc/options-config.php:919
+msgid "Text"
+msgstr "متن"
+
+#: inc/options-config.php:938
+msgid "Advanced Options"
+msgstr "تنظیمات پیشرفته"
+
+#: inc/options-config.php:942
+msgid "Reset all theme settings to default. Refresh the page after save to view full effects."
+msgstr ""
+
+#: inc/options-config.php:948
+msgid "Custom CSS Styles"
+msgstr "شیوه‌نامه سفارشی CSS"
+
+#: inc/template-tags.php:37
+msgid "Leave a comment"
+msgstr "دیدگاهی بنویسید"
+
+#: inc/template-tags.php:37
+msgid "1 Comment"
+msgstr "۱ دیدگاه"
+
+#: inc/template-tags.php:37
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#: inc/template-tags.php:48
+msgid "Featured"
+msgstr "برگزیده"
+
+#: inc/template-tags.php:56 inc/template-tags.php:62
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:73
+msgid "Category: %s"
+msgstr "دسته: %s"
+
+#: inc/template-tags.php:75
+msgid "Tag: %s"
+msgstr "برچسب: %s"
+
+#: inc/template-tags.php:77
+msgid "Author: %s"
+msgstr "نویسنده: %s"
+
+#: inc/template-tags.php:79
+msgid "Year: %s"
+msgstr "سال: %s"
+
+#: inc/template-tags.php:81
+msgid "Month: %s"
+msgstr "ماه: %s"
+
+#: inc/template-tags.php:83
+msgid "Day: %s"
+msgstr "روز: %s"
+
+#: inc/template-tags.php:105
+msgid "Archives: %s"
+msgstr "بایگانی‌ها: %s"
+
+#: inc/template-tags.php:109
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:197
+msgid "Pingback:"
+msgstr "بازتاب:"
+
+#: inc/template-tags.php:213
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما در انتظار بررسی است."
+
+#: inc/template-tags.php:230
+msgid "Previous"
+msgstr "قبلی"
+
+#: inc/template-tags.php:231
+msgid "Next"
+msgstr "بعدی"
+
+#: inc/template-tags.php:244
+msgid "Page"
+msgstr "برگه"
+
+#: inc/template-tags.php:250
+msgid "Older posts"
+msgstr "نوشته‌های کهنه‌تر"
+
+#: inc/template-tags.php:254
+msgid "Newer posts"
+msgstr "نوشته‌های تازه‌تر"
+
+#: inc/template-tags.php:306
+#, php-format
+msgid "Copyright &copy; %1$d %2$s."
+msgstr ""
+
+#: inc/template-tags.php:308
+msgid "Proudly powered by %s"
+msgstr "با افتخار نیرو گرفته از %s"
+
+#: inc/template-tags.php:311
+msgid "%1$s by %2$s."
+msgstr "%1$s توسط %2$s."
+
+#: inc/template-tags.php:312
+msgid "Corporate Business WordPress Theme"
+msgstr ""
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "نتایج جستجو برای: %s"
+
+#: searchform.php:8
+msgid "Search &hellip;"
+msgstr "جستجو &hellip;"

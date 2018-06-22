@@ -1,0 +1,735 @@
+# This file is distributed under the same license as the CorporateBusiness package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CorporateBusiness\n"
+"POT-Creation-Date: 2016-04-29 23:56+0200\n"
+"PO-Revision-Date: 2016-06-04 19:44+0200\n"
+"Last-Translator: \n"
+"Language-Team: Dinozoom\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عذراً! لايمكن العثور على تلك الصفحة."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "يبدو أنه لم يتم إيجاد شيء في هذا المكان. ربما تريد البحث؟"
+
+#: comments.php:27 inc/options-config.php:844
+msgid "Comments"
+msgstr "تعليقات"
+
+#: comments.php:31 comments.php:50
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#: comments.php:33 comments.php:53
+msgid "Older Comments"
+msgstr "التعليقات الأقدم"
+
+#: comments.php:34 comments.php:54
+msgid "Newer Comments"
+msgstr "التعليقات الأحدث"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:76
+msgid "Name"
+msgstr "اسم"
+
+#: comments.php:77 inc/options-config.php:529 inc/options-config.php:535
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: comments.php:78
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+#: comments.php:82
+msgid "Your email address will not be published."
+msgstr "لن يتم نشر عنوان بريدك الإلكتروني."
+
+#: comments.php:86
+msgid "Cancel reply"
+msgstr "إلغاء الرد"
+
+#: comments.php:87 inc/options-config.php:861
+msgid "Post Comment"
+msgstr "إرســال التعليق"
+
+#: content-blog.php:29 content.php:28 inc/options-config.php:648
+#: inc/options-config.php:649
+msgid "Read more..."
+msgstr "قراءة المزيد..."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "لا يوجد شيء"
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "هل أنت على استعداد لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرا، لا يوجد شيء يتطابق مع كلمات البحث التي استعملتها، المرجو المحاولة من جديد باستعمال كلمات مفتاحية أخرى."
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "يبدو أننا لم نعثر على ما تطلب. لعل استعمال البحث قد يساعد."
+
+#: content-page-nontitle.php:14 content-page.php:24 content-single.php:27
+#: content.php:35
+msgid "Pages:"
+msgstr "الصفحات:"
+
+#: content-page.php:16 inc/template-tags.php:33 inc/template-tags.php:197
+#: inc/template-tags.php:210
+msgid "Edit"
+msgstr "تحرير"
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr "القائمة الرئيسية"
+
+#: functions.php:121 functions.php:135
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: functions.php:121
+msgid "Right"
+msgstr "يمين"
+
+#: functions.php:135
+msgid "Left"
+msgstr "يسار"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "التجاوز إلى المحتوى"
+
+#: header.php:62
+msgid "Menu"
+msgstr "القائمة"
+
+#: header.php:64
+msgid "Close"
+msgstr "إغلاق"
+
+#: inc/admin/class.customizer-api-wrapper.php:88
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/admin/custom-controls.php:13
+msgid "Select Color"
+msgstr "إختر لونا"
+
+#: inc/admin/custom-controls.php:18 inc/admin/custom-controls.php:41
+#: inc/admin/custom-controls.php:64 inc/options-config.php:955
+msgid "Upgrade"
+msgstr "ترقية"
+
+#: inc/admin/custom-controls.php:106
+msgid "More options &amp; features now available."
+msgstr ""
+
+#: inc/admin/custom-controls.php:106
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/admin/custom-controls.php:108
+msgid "Donate"
+msgstr "منح"
+
+#: inc/admin/custom-controls.php:110
+msgid "Support Forums"
+msgstr "منتديات الدعم الفني"
+
+#: inc/admin/custom-controls.php:112
+msgid "Feedback"
+msgstr "طلبات واقتراحات"
+
+#: inc/admin/custom-controls.php:112
+msgid "Reviews"
+msgstr "المراجعات"
+
+#: inc/admin/custom-controls.php:114
+msgid "Documentation"
+msgstr "وثائق المساعدة"
+
+#: inc/admin/custom-controls.php:116
+msgid "More Themes"
+msgstr ""
+
+#: inc/extras.php:53
+msgid "Page %s"
+msgstr "الصفحة %s"
+
+#: inc/options-config.php:12 inc/options-config.php:92
+#: inc/options-config.php:198 inc/options-config.php:264
+#: inc/options-config.php:323 inc/options-config.php:381
+#: inc/options-config.php:879
+msgid "Enable this section"
+msgstr "هذا القسم"
+
+#: inc/options-config.php:18 inc/options-config.php:98
+#: inc/options-config.php:216 inc/options-config.php:288
+#: inc/options-config.php:341
+msgid "Quantity"
+msgstr ""
+
+#: inc/options-config.php:25
+msgid "Effect"
+msgstr ""
+
+#: inc/options-config.php:32
+msgid "Animation speed"
+msgstr ""
+
+#: inc/options-config.php:43 inc/options-config.php:387
+msgid "Speed"
+msgstr ""
+
+#: inc/options-config.php:57 inc/options-config.php:824
+msgid "Slider"
+msgstr ""
+
+#: inc/options-config.php:62 inc/options-config.php:105
+#: inc/options-config.php:204 inc/options-config.php:240
+#: inc/options-config.php:276 inc/options-config.php:329
+#: inc/options-config.php:460 inc/options-config.php:462
+#: inc/options-config.php:891
+msgid "Title"
+msgstr "العنوان"
+
+#: inc/options-config.php:68 inc/options-config.php:111
+#: inc/options-config.php:210 inc/options-config.php:246
+#: inc/options-config.php:282 inc/options-config.php:335
+#: inc/options-config.php:468 inc/options-config.php:897
+msgid "Description"
+msgstr "الوصف"
+
+#: inc/options-config.php:74 inc/options-config.php:915
+msgid "Link"
+msgstr "رابط"
+
+#: inc/options-config.php:80 inc/options-config.php:305
+#: inc/options-config.php:412
+msgid "Image"
+msgstr "صورة"
+
+#: inc/options-config.php:117 inc/options-config.php:180
+#: inc/options-config.php:573 inc/options-config.php:579
+#: inc/options-config.php:784 inc/options-config.php:812
+#: inc/options-config.php:904
+msgid "Text color"
+msgstr "لون النص"
+
+#: inc/options-config.php:127 inc/options-config.php:444
+msgid "Hide"
+msgstr "إخفاء "
+
+#: inc/options-config.php:137
+msgid "Service"
+msgstr "خدمة"
+
+#: inc/options-config.php:142 inc/options-config.php:232
+#: inc/options-config.php:357
+msgid "Select Page"
+msgstr "تحديد صفحة"
+
+#: inc/options-config.php:142 inc/options-config.php:168
+#: inc/options-config.php:232 inc/options-config.php:357
+msgid "(required)"
+msgstr "(مطلوب)"
+
+#: inc/options-config.php:149 inc/options-config.php:636
+msgid "Summary"
+msgstr "مختصر"
+
+#: inc/options-config.php:149 inc/options-config.php:162
+#: inc/options-config.php:240 inc/options-config.php:246
+#: inc/options-config.php:252 inc/options-config.php:311
+#: inc/options-config.php:365 inc/options-config.php:371
+msgid "Optional"
+msgstr "اختياري"
+
+#: inc/options-config.php:156 inc/options-config.php:252
+#: inc/options-config.php:311 inc/options-config.php:371
+#: inc/options-config.php:456
+msgid "Custom Link"
+msgstr "رابط مخصّص"
+
+#: inc/options-config.php:162
+msgid "Button"
+msgstr ""
+
+#: inc/options-config.php:168 inc/options-config.php:486
+msgid "Icon"
+msgstr "رمز"
+
+#: inc/options-config.php:168 inc/options-config.php:232
+#: inc/options-config.php:357
+msgid "Featured Image"
+msgstr "الصورة البارزة"
+
+#: inc/options-config.php:175 inc/options-config.php:493
+msgid "Color"
+msgstr "اللون"
+
+#: inc/options-config.php:186 inc/options-config.php:932
+msgid "Background color"
+msgstr "لون الخلفية"
+
+#: inc/options-config.php:270 inc/options-config.php:735
+msgid "Black"
+msgstr "أسود"
+
+#: inc/options-config.php:270 inc/options-config.php:736
+msgid "White"
+msgstr "أبيض"
+
+#: inc/options-config.php:363
+msgid "Matt Mullenweg"
+msgstr "Matt Mullenweg"
+
+#: inc/options-config.php:365
+msgid "Author"
+msgstr "الكاتب"
+
+#: inc/options-config.php:394 inc/options-config.php:396
+msgid "Overlays"
+msgstr ""
+
+#: inc/options-config.php:401
+msgid "Transitions"
+msgstr ""
+
+#: inc/options-config.php:425
+msgid "Add social media icons in Header"
+msgstr ""
+
+#: inc/options-config.php:431
+msgid "Add social media icons in Footer"
+msgstr ""
+
+#: inc/options-config.php:437
+msgid "Size"
+msgstr "حجم"
+
+#: inc/options-config.php:474
+msgid "Enter the URL"
+msgstr "أدخل الرابط"
+
+#: inc/options-config.php:479
+msgid "Open link in a new window/tab"
+msgstr "فتح الرابط في نافذة/لسان جديد"
+
+#: inc/options-config.php:509 inc/options-config.php:510
+msgid "CorporateBusiness Theme Options"
+msgstr ""
+
+#: inc/options-config.php:513
+msgid "Contact Info"
+msgstr "معلومات الإتصال"
+
+#: inc/options-config.php:517 inc/options-config.php:523
+msgid "Address"
+msgstr "عنوان"
+
+#: inc/options-config.php:523 inc/options-config.php:535
+#: inc/options-config.php:547 inc/options-config.php:925
+msgid "Custom URL"
+msgstr "رابط (URL) مخصّص"
+
+#: inc/options-config.php:541 inc/options-config.php:547
+msgid "Phone"
+msgstr ""
+
+#: inc/options-config.php:557
+msgid "Header"
+msgstr "ترويسة"
+
+#: inc/options-config.php:563
+msgid "Footer"
+msgstr "تذييل"
+
+#: inc/options-config.php:579
+msgid "When moving mouse over link"
+msgstr ""
+
+#: inc/options-config.php:589
+msgid "Map embed code"
+msgstr ""
+
+#: inc/options-config.php:596
+msgid "Display Settings"
+msgstr "اعدادات العرض"
+
+#: inc/options-config.php:604 inc/options-config.php:633
+msgid "Layout"
+msgstr "الشكل العام"
+
+#: inc/options-config.php:604
+msgid "Asides"
+msgstr "الملاحظات"
+
+#: inc/options-config.php:606
+msgid "One Column"
+msgstr "عامود واحد"
+
+#: inc/options-config.php:607 inc/options-config.php:608
+msgid "Two Columns"
+msgstr "عمودين"
+
+#: inc/options-config.php:607 inc/options-config.php:612
+#: inc/options-config.php:614 inc/options-config.php:619
+msgid "Right Sidebar"
+msgstr "الشريط الجانبي (يمين)"
+
+#: inc/options-config.php:608 inc/options-config.php:610
+#: inc/options-config.php:615 inc/options-config.php:618
+msgid "Left Sidebar"
+msgstr "الشريط الجانبي (يسار)"
+
+#: inc/options-config.php:609 inc/options-config.php:613
+#: inc/options-config.php:617
+msgid "Three Columns"
+msgstr "ثلاثة أعمدة"
+
+#: inc/options-config.php:611 inc/options-config.php:616
+#: inc/options-config.php:620 inc/options-config.php:795
+msgid "Content"
+msgstr "المحتوى "
+
+#: inc/options-config.php:627
+msgid "Front page"
+msgstr "الصفحة الرئيسية"
+
+#: inc/options-config.php:628 searchform.php:9
+msgid "Search"
+msgstr "بحث"
+
+#: inc/options-config.php:629 inc/template-tags.php:111
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: inc/options-config.php:635
+msgid "Full text"
+msgstr "النص بالكامل"
+
+#: inc/options-config.php:642
+msgid "Set the excerpt length (in number of words)"
+msgstr ""
+
+#: inc/options-config.php:659
+msgid "Logo Upload"
+msgstr "رفع الشعار"
+
+#: inc/options-config.php:664
+msgid "Logo"
+msgstr ""
+
+#: inc/options-config.php:664
+msgid "Alignment"
+msgstr "محاذاة"
+
+#: inc/options-config.php:667
+msgid "Align Left"
+msgstr "محاذاة إلى ليسار"
+
+#: inc/options-config.php:668
+msgid "Align Center"
+msgstr "توسيط"
+
+#: inc/options-config.php:669
+msgid "Align Right"
+msgstr "محاذاة إلى اليمين"
+
+#: inc/options-config.php:673
+msgid "A search form for your site."
+msgstr "نموذج بحث لموقعك."
+
+#: inc/options-config.php:683
+msgid "Featured Image Header"
+msgstr "صورة بارزة للترويسة"
+
+#: inc/options-config.php:689
+msgid "Display post date?"
+msgstr "عرض تاريخ المقالة؟"
+
+#: inc/options-config.php:695
+msgid "Display item author if available?"
+msgstr "عرض كاتب العنصر إذا كان متوفرا؟"
+
+#: inc/options-config.php:701
+msgid "Categories"
+msgstr "تصنيفات"
+
+#: inc/options-config.php:707
+msgid "Tags"
+msgstr "وسوم"
+
+#: inc/options-config.php:715
+msgid "Styles"
+msgstr "ملفات الستايل / CSS"
+
+#: inc/options-config.php:723
+msgid "Primary Color"
+msgstr ""
+
+#: inc/options-config.php:729
+msgid "Base Color Scheme"
+msgstr "نظام الألوان الأساسي"
+
+#: inc/options-config.php:731
+msgid "Gray"
+msgstr "رمادي"
+
+#: inc/options-config.php:732
+msgid "Red"
+msgstr "أحمر"
+
+#: inc/options-config.php:733
+msgid "Green"
+msgstr "أخضر"
+
+#: inc/options-config.php:734
+msgid "Blue"
+msgstr "أزرق"
+
+#: inc/options-config.php:737
+msgid "Brown"
+msgstr "بني"
+
+#: inc/options-config.php:738
+msgid "Orange"
+msgstr "برتقالي"
+
+#: inc/options-config.php:739
+msgid "Tan"
+msgstr "بني فاتح (أصفر محروق)"
+
+#: inc/options-config.php:740
+msgid "Yellow"
+msgstr "أصفر"
+
+#: inc/options-config.php:741
+msgid "Purple"
+msgstr "أرجواني"
+
+#: inc/options-config.php:742
+msgid "Silver"
+msgstr "فضي"
+
+#: inc/options-config.php:743
+msgid "Pink"
+msgstr "وردي"
+
+#: inc/options-config.php:749 inc/options-config.php:771
+#: inc/options-config.php:799
+msgid "Font Family"
+msgstr "عائلة الخط"
+
+#: inc/options-config.php:755 inc/options-config.php:777
+#: inc/options-config.php:805
+msgid "Font Sizes"
+msgstr "حجم الخط"
+
+#: inc/options-config.php:766 inc/options-config.php:910
+msgid "Custom Background"
+msgstr "تعديل الخلفية"
+
+#: inc/options-config.php:790
+msgid "Border color"
+msgstr "لون الحدود"
+
+#: inc/options-config.php:795
+msgid "Posts"
+msgstr "مقالات"
+
+#: inc/options-config.php:818
+msgid "Metadata"
+msgstr "البيانات الوصفية"
+
+#: inc/options-config.php:828
+msgid "Services Section"
+msgstr ""
+
+#: inc/options-config.php:832
+msgid "Projects Section"
+msgstr ""
+
+#: inc/options-config.php:836
+msgid "Background Image"
+msgstr "صورة الخلفية"
+
+#: inc/options-config.php:840
+msgid "Social Media"
+msgstr "وسائل التواصل الاجتماعي"
+
+#: inc/options-config.php:848
+msgid "Notes"
+msgstr "ملاحظات"
+
+#: inc/options-config.php:854
+msgid "Other Notes"
+msgstr "ملاحظات أخرى"
+
+#: inc/options-config.php:860
+msgid "Submit label"
+msgstr ""
+
+#: inc/options-config.php:867
+msgid "Testimonials"
+msgstr ""
+
+#: inc/options-config.php:871
+msgid "Customers"
+msgstr ""
+
+#: inc/options-config.php:875
+msgid "Call to Action"
+msgstr "ابدأ العمل!"
+
+#: inc/options-config.php:885
+msgid "Show Sitewide"
+msgstr ""
+
+#: inc/options-config.php:892 inc/options-config.php:920
+#: inc/template-tags.php:285 inc/template-tags.php:290
+msgid "Hello, World!"
+msgstr "أهلاً بالعالَم!"
+
+#: inc/options-config.php:919
+msgid "Text"
+msgstr "نص"
+
+#: inc/options-config.php:938
+msgid "Advanced Options"
+msgstr "خيارات متقدمة"
+
+#: inc/options-config.php:942
+msgid "Reset all theme settings to default. Refresh the page after save to view full effects."
+msgstr ""
+
+#: inc/options-config.php:948
+msgid "Custom CSS Styles"
+msgstr "CSS مخصص"
+
+#: inc/template-tags.php:37
+msgid "Leave a comment"
+msgstr "اترك تعليقًا"
+
+#: inc/template-tags.php:37
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: inc/template-tags.php:37
+msgid "% Comments"
+msgstr "% تعليق"
+
+#: inc/template-tags.php:48
+msgid "Featured"
+msgstr "مميز"
+
+#: inc/template-tags.php:56 inc/template-tags.php:62
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:73
+msgid "Category: %s"
+msgstr "التصنيف: %s"
+
+#: inc/template-tags.php:75
+msgid "Tag: %s"
+msgstr "الوسم: %s"
+
+#: inc/template-tags.php:77
+msgid "Author: %s"
+msgstr "الكاتب: %s"
+
+#: inc/template-tags.php:79
+msgid "Year: %s"
+msgstr "السنة: %s"
+
+#: inc/template-tags.php:81
+msgid "Month: %s"
+msgstr "الشهر: %s"
+
+#: inc/template-tags.php:83
+msgid "Day: %s"
+msgstr "اليوم: %s"
+
+#: inc/template-tags.php:105
+msgid "Archives: %s"
+msgstr "الآرشيفات: %s"
+
+#: inc/template-tags.php:109
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:197
+msgid "Pingback:"
+msgstr "تنبيه:"
+
+#: inc/template-tags.php:213
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك في انتظار المراجعة."
+
+#: inc/template-tags.php:230
+msgid "Previous"
+msgstr "السابق"
+
+#: inc/template-tags.php:231
+msgid "Next"
+msgstr "التالي"
+
+#: inc/template-tags.php:244
+msgid "Page"
+msgstr "الصفحة"
+
+#: inc/template-tags.php:250
+msgid "Older posts"
+msgstr "مقالات أقدم"
+
+#: inc/template-tags.php:254
+msgid "Newer posts"
+msgstr "مقالات أحدث"
+
+#: inc/template-tags.php:306
+#, php-format
+msgid "Copyright &copy; %1$d %2$s."
+msgstr ""
+
+#: inc/template-tags.php:308
+msgid "Proudly powered by %s"
+msgstr "مدعوم بفخر من %s"
+
+#: inc/template-tags.php:311
+msgid "%1$s by %2$s."
+msgstr "%1$s بواسطة %2$s."
+
+#: inc/template-tags.php:312
+msgid "Corporate Business WordPress Theme"
+msgstr ""
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: searchform.php:8
+msgid "Search &hellip;"
+msgstr "بحث &hellip;"

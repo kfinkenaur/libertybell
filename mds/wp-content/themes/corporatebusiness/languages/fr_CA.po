@@ -1,0 +1,735 @@
+# This file is distributed under the same license as the CorporateBusiness package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CorporateBusiness\n"
+"POT-Creation-Date: 2016-04-29 23:56+0200\n"
+"PO-Revision-Date: 2016-06-04 19:43+0200\n"
+"Last-Translator: \n"
+"Language-Team: Dinozoom\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_ex;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups! Cette page est introuvable."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Aucun contenu n&rsquo; a été trouvé à l&rsquo;adresse demandée. Pourquoi ne pas essayer une recherche? "
+
+#: comments.php:27 inc/options-config.php:844
+msgid "Comments"
+msgstr "Commentaires"
+
+#: comments.php:31 comments.php:50
+msgid "Comment navigation"
+msgstr "Navigation des commentaires"
+
+#: comments.php:33 comments.php:53
+msgid "Older Comments"
+msgstr "Commentaires antérieurs"
+
+#: comments.php:34 comments.php:54
+msgid "Newer Comments"
+msgstr "Commentaires ultérieurs"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:76
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:77 inc/options-config.php:529 inc/options-config.php:535
+msgid "Email"
+msgstr "Adresse de contact"
+
+#: comments.php:78
+msgid "Website"
+msgstr "Site web"
+
+#: comments.php:82
+msgid "Your email address will not be published."
+msgstr "Votre adresse de messagerie ne sera pas publiée."
+
+#: comments.php:86
+msgid "Cancel reply"
+msgstr "Annuler la réponse."
+
+#: comments.php:87 inc/options-config.php:861
+msgid "Post Comment"
+msgstr "Laisser un commentaire"
+
+#: content-blog.php:29 content.php:28 inc/options-config.php:648
+#: inc/options-config.php:649
+msgid "Read more..."
+msgstr "Lire la suite..."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Inaccessible"
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Vous êtes prêt à publier votre premier article? <a href=\"%1$s\">Commencez ici</a>."
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à vos critères. Réessayez en modifiant les termes de recherche."
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Le contenu demandé n&rsquo;a pu être trouvé. Pourquoi ne pas lancer une recherche? "
+
+#: content-page-nontitle.php:14 content-page.php:24 content-single.php:27
+#: content.php:35
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: content-page.php:16 inc/template-tags.php:33 inc/template-tags.php:197
+#: inc/template-tags.php:210
+msgid "Edit"
+msgstr "Éditer"
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: functions.php:121 functions.php:135
+msgid "Sidebar"
+msgstr "Colonne latérale"
+
+#: functions.php:121
+msgid "Right"
+msgstr "Droite"
+
+#: functions.php:135
+msgid "Left"
+msgstr "Gauche"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Aller au contenu principal"
+
+#: header.php:62
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:64
+msgid "Close"
+msgstr "Fermer"
+
+#: inc/admin/class.customizer-api-wrapper.php:88
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/admin/custom-controls.php:13
+msgid "Select Color"
+msgstr "Sélectionner une couleur"
+
+#: inc/admin/custom-controls.php:18 inc/admin/custom-controls.php:41
+#: inc/admin/custom-controls.php:64 inc/options-config.php:955
+msgid "Upgrade"
+msgstr "Mise à jour"
+
+#: inc/admin/custom-controls.php:106
+msgid "More options &amp; features now available."
+msgstr ""
+
+#: inc/admin/custom-controls.php:106
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/admin/custom-controls.php:108
+msgid "Donate"
+msgstr "Faire un don"
+
+#: inc/admin/custom-controls.php:110
+msgid "Support Forums"
+msgstr "Forums d&rsquo;entraide"
+
+#: inc/admin/custom-controls.php:112
+msgid "Feedback"
+msgstr "Remarque"
+
+#: inc/admin/custom-controls.php:112
+msgid "Reviews"
+msgstr "Avis"
+
+#: inc/admin/custom-controls.php:114
+msgid "Documentation"
+msgstr "Documentation"
+
+#: inc/admin/custom-controls.php:116
+msgid "More Themes"
+msgstr ""
+
+#: inc/extras.php:53
+msgid "Page %s"
+msgstr "Page %s"
+
+#: inc/options-config.php:12 inc/options-config.php:92
+#: inc/options-config.php:198 inc/options-config.php:264
+#: inc/options-config.php:323 inc/options-config.php:381
+#: inc/options-config.php:879
+msgid "Enable this section"
+msgstr "cette section"
+
+#: inc/options-config.php:18 inc/options-config.php:98
+#: inc/options-config.php:216 inc/options-config.php:288
+#: inc/options-config.php:341
+msgid "Quantity"
+msgstr ""
+
+#: inc/options-config.php:25
+msgid "Effect"
+msgstr ""
+
+#: inc/options-config.php:32
+msgid "Animation speed"
+msgstr ""
+
+#: inc/options-config.php:43 inc/options-config.php:387
+msgid "Speed"
+msgstr ""
+
+#: inc/options-config.php:57 inc/options-config.php:824
+msgid "Slider"
+msgstr ""
+
+#: inc/options-config.php:62 inc/options-config.php:105
+#: inc/options-config.php:204 inc/options-config.php:240
+#: inc/options-config.php:276 inc/options-config.php:329
+#: inc/options-config.php:460 inc/options-config.php:462
+#: inc/options-config.php:891
+msgid "Title"
+msgstr "Titre"
+
+#: inc/options-config.php:68 inc/options-config.php:111
+#: inc/options-config.php:210 inc/options-config.php:246
+#: inc/options-config.php:282 inc/options-config.php:335
+#: inc/options-config.php:468 inc/options-config.php:897
+msgid "Description"
+msgstr "Description"
+
+#: inc/options-config.php:74 inc/options-config.php:915
+msgid "Link"
+msgstr "Lien"
+
+#: inc/options-config.php:80 inc/options-config.php:305
+#: inc/options-config.php:412
+msgid "Image"
+msgstr "Image"
+
+#: inc/options-config.php:117 inc/options-config.php:180
+#: inc/options-config.php:573 inc/options-config.php:579
+#: inc/options-config.php:784 inc/options-config.php:812
+#: inc/options-config.php:904
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: inc/options-config.php:127 inc/options-config.php:444
+msgid "Hide"
+msgstr "Cacher"
+
+#: inc/options-config.php:137
+msgid "Service"
+msgstr "Service"
+
+#: inc/options-config.php:142 inc/options-config.php:232
+#: inc/options-config.php:357
+msgid "Select Page"
+msgstr "Sélectionnez une page"
+
+#: inc/options-config.php:142 inc/options-config.php:168
+#: inc/options-config.php:232 inc/options-config.php:357
+msgid "(required)"
+msgstr "(obligatoire)"
+
+#: inc/options-config.php:149 inc/options-config.php:636
+msgid "Summary"
+msgstr "L&rsquo;extrait"
+
+#: inc/options-config.php:149 inc/options-config.php:162
+#: inc/options-config.php:240 inc/options-config.php:246
+#: inc/options-config.php:252 inc/options-config.php:311
+#: inc/options-config.php:365 inc/options-config.php:371
+msgid "Optional"
+msgstr "Facultatif"
+
+#: inc/options-config.php:156 inc/options-config.php:252
+#: inc/options-config.php:311 inc/options-config.php:371
+#: inc/options-config.php:456
+msgid "Custom Link"
+msgstr "Lien personnalisé"
+
+#: inc/options-config.php:162
+msgid "Button"
+msgstr ""
+
+#: inc/options-config.php:168 inc/options-config.php:486
+msgid "Icon"
+msgstr "icône"
+
+#: inc/options-config.php:168 inc/options-config.php:232
+#: inc/options-config.php:357
+msgid "Featured Image"
+msgstr "Image à la Une"
+
+#: inc/options-config.php:175 inc/options-config.php:493
+msgid "Color"
+msgstr "Couleur"
+
+#: inc/options-config.php:186 inc/options-config.php:932
+msgid "Background color"
+msgstr "Couleur d&rsquo;arrière plan"
+
+#: inc/options-config.php:270 inc/options-config.php:735
+msgid "Black"
+msgstr "Noir"
+
+#: inc/options-config.php:270 inc/options-config.php:736
+msgid "White"
+msgstr "Blanc"
+
+#: inc/options-config.php:363
+msgid "Matt Mullenweg"
+msgstr "Matt Mullenweg"
+
+#: inc/options-config.php:365
+msgid "Author"
+msgstr "Auteur"
+
+#: inc/options-config.php:394 inc/options-config.php:396
+msgid "Overlays"
+msgstr ""
+
+#: inc/options-config.php:401
+msgid "Transitions"
+msgstr ""
+
+#: inc/options-config.php:425
+msgid "Add social media icons in Header"
+msgstr ""
+
+#: inc/options-config.php:431
+msgid "Add social media icons in Footer"
+msgstr ""
+
+#: inc/options-config.php:437
+msgid "Size"
+msgstr "Taille"
+
+#: inc/options-config.php:474
+msgid "Enter the URL"
+msgstr "Saisissez l&rsquo;adresse"
+
+#: inc/options-config.php:479
+msgid "Open link in a new window/tab"
+msgstr "Ouvrir le lien dans une nouvelle fenêtre/un nouvel onglet"
+
+#: inc/options-config.php:509 inc/options-config.php:510
+msgid "CorporateBusiness Theme Options"
+msgstr ""
+
+#: inc/options-config.php:513
+msgid "Contact Info"
+msgstr "Informations de contact"
+
+#: inc/options-config.php:517 inc/options-config.php:523
+msgid "Address"
+msgstr "adresse"
+
+#: inc/options-config.php:523 inc/options-config.php:535
+#: inc/options-config.php:547 inc/options-config.php:925
+msgid "Custom URL"
+msgstr "Lien personnalisé"
+
+#: inc/options-config.php:541 inc/options-config.php:547
+msgid "Phone"
+msgstr ""
+
+#: inc/options-config.php:557
+msgid "Header"
+msgstr "En-tête"
+
+#: inc/options-config.php:563
+msgid "Footer"
+msgstr "Pied de page"
+
+#: inc/options-config.php:579
+msgid "When moving mouse over link"
+msgstr ""
+
+#: inc/options-config.php:589
+msgid "Map embed code"
+msgstr ""
+
+#: inc/options-config.php:596
+msgid "Display Settings"
+msgstr "Réglages de l&rsquo;affichage"
+
+#: inc/options-config.php:604 inc/options-config.php:633
+msgid "Layout"
+msgstr "Arrangement"
+
+#: inc/options-config.php:604
+msgid "Asides"
+msgstr "En passant"
+
+#: inc/options-config.php:606
+msgid "One Column"
+msgstr "Une colonne"
+
+#: inc/options-config.php:607 inc/options-config.php:608
+msgid "Two Columns"
+msgstr "Deux colonnes"
+
+#: inc/options-config.php:607 inc/options-config.php:612
+#: inc/options-config.php:614 inc/options-config.php:619
+msgid "Right Sidebar"
+msgstr "Colonne latérale droite"
+
+#: inc/options-config.php:608 inc/options-config.php:610
+#: inc/options-config.php:615 inc/options-config.php:618
+msgid "Left Sidebar"
+msgstr "Colonne latérale gauche"
+
+#: inc/options-config.php:609 inc/options-config.php:613
+#: inc/options-config.php:617
+msgid "Three Columns"
+msgstr "Trois colonnes"
+
+#: inc/options-config.php:611 inc/options-config.php:616
+#: inc/options-config.php:620 inc/options-config.php:795
+msgid "Content"
+msgstr "Contenu"
+
+#: inc/options-config.php:627
+msgid "Front page"
+msgstr "Page d&rsquo;accueil"
+
+#: inc/options-config.php:628 searchform.php:9
+msgid "Search"
+msgstr "Recherche"
+
+#: inc/options-config.php:629 inc/template-tags.php:111
+msgid "Archives"
+msgstr "Archives"
+
+#: inc/options-config.php:635
+msgid "Full text"
+msgstr "Le texte complet"
+
+#: inc/options-config.php:642
+msgid "Set the excerpt length (in number of words)"
+msgstr ""
+
+#: inc/options-config.php:659
+msgid "Logo Upload"
+msgstr "Téléchargement du logo"
+
+#: inc/options-config.php:664
+msgid "Logo"
+msgstr ""
+
+#: inc/options-config.php:664
+msgid "Alignment"
+msgstr "Alignement"
+
+#: inc/options-config.php:667
+msgid "Align Left"
+msgstr "Aligner à gauche"
+
+#: inc/options-config.php:668
+msgid "Align Center"
+msgstr "Centrer"
+
+#: inc/options-config.php:669
+msgid "Align Right"
+msgstr "Aligner à droite"
+
+#: inc/options-config.php:673
+msgid "A search form for your site."
+msgstr "Un formulaire de recherche pour votre site."
+
+#: inc/options-config.php:683
+msgid "Featured Image Header"
+msgstr "Image d&rsquo;en-tête à la Une"
+
+#: inc/options-config.php:689
+msgid "Display post date?"
+msgstr "Afficher la date du contenu&nbsp;?"
+
+#: inc/options-config.php:695
+msgid "Display item author if available?"
+msgstr "Afficher l&rsquo;auteur de l&rsquo;élément si disponible&nbsp;?"
+
+#: inc/options-config.php:701
+msgid "Categories"
+msgstr "Catégories"
+
+#: inc/options-config.php:707
+msgid "Tags"
+msgstr "Mots-clés"
+
+#: inc/options-config.php:715
+msgid "Styles"
+msgstr "Styles"
+
+#: inc/options-config.php:723
+msgid "Primary Color"
+msgstr ""
+
+#: inc/options-config.php:729
+msgid "Base Color Scheme"
+msgstr "Jeu de couleurs de base"
+
+#: inc/options-config.php:731
+msgid "Gray"
+msgstr "Gris"
+
+#: inc/options-config.php:732
+msgid "Red"
+msgstr "Rouge"
+
+#: inc/options-config.php:733
+msgid "Green"
+msgstr "Vert"
+
+#: inc/options-config.php:734
+msgid "Blue"
+msgstr "Bleu"
+
+#: inc/options-config.php:737
+msgid "Brown"
+msgstr "Marron"
+
+#: inc/options-config.php:738
+msgid "Orange"
+msgstr "Orange"
+
+#: inc/options-config.php:739
+msgid "Tan"
+msgstr "Ocre"
+
+#: inc/options-config.php:740
+msgid "Yellow"
+msgstr "Jaune"
+
+#: inc/options-config.php:741
+msgid "Purple"
+msgstr "Violet"
+
+#: inc/options-config.php:742
+msgid "Silver"
+msgstr "Argent"
+
+#: inc/options-config.php:743
+msgid "Pink"
+msgstr "Rose"
+
+#: inc/options-config.php:749 inc/options-config.php:771
+#: inc/options-config.php:799
+msgid "Font Family"
+msgstr "Famille de polices"
+
+#: inc/options-config.php:755 inc/options-config.php:777
+#: inc/options-config.php:805
+msgid "Font Sizes"
+msgstr "Tailles de la police"
+
+#: inc/options-config.php:766 inc/options-config.php:910
+msgid "Custom Background"
+msgstr "Arrière-plan personnalisé"
+
+#: inc/options-config.php:790
+msgid "Border color"
+msgstr "Couleur de bordure"
+
+#: inc/options-config.php:795
+msgid "Posts"
+msgstr "Articles"
+
+#: inc/options-config.php:818
+msgid "Metadata"
+msgstr "Métadonnées"
+
+#: inc/options-config.php:828
+msgid "Services Section"
+msgstr ""
+
+#: inc/options-config.php:832
+msgid "Projects Section"
+msgstr ""
+
+#: inc/options-config.php:836
+msgid "Background Image"
+msgstr "Image d&rsquo;arrière-plan"
+
+#: inc/options-config.php:840
+msgid "Social Media"
+msgstr "Média social"
+
+#: inc/options-config.php:848
+msgid "Notes"
+msgstr "Commentaires"
+
+#: inc/options-config.php:854
+msgid "Other Notes"
+msgstr "Autres notes"
+
+#: inc/options-config.php:860
+msgid "Submit label"
+msgstr ""
+
+#: inc/options-config.php:867
+msgid "Testimonials"
+msgstr ""
+
+#: inc/options-config.php:871
+msgid "Customers"
+msgstr ""
+
+#: inc/options-config.php:875
+msgid "Call to Action"
+msgstr "Appel à l'action"
+
+#: inc/options-config.php:885
+msgid "Show Sitewide"
+msgstr ""
+
+#: inc/options-config.php:892 inc/options-config.php:920
+#: inc/template-tags.php:285 inc/template-tags.php:290
+msgid "Hello, World!"
+msgstr "Salut tout le monde!"
+
+#: inc/options-config.php:919
+msgid "Text"
+msgstr "Texte"
+
+#: inc/options-config.php:938
+msgid "Advanced Options"
+msgstr "Options avancées"
+
+#: inc/options-config.php:942
+msgid "Reset all theme settings to default. Refresh the page after save to view full effects."
+msgstr ""
+
+#: inc/options-config.php:948
+msgid "Custom CSS Styles"
+msgstr "CSS personnalisé"
+
+#: inc/template-tags.php:37
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: inc/template-tags.php:37
+msgid "1 Comment"
+msgstr "Un commentaire"
+
+#: inc/template-tags.php:37
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: inc/template-tags.php:48
+msgid "Featured"
+msgstr "À la une"
+
+#: inc/template-tags.php:56 inc/template-tags.php:62
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:73
+msgid "Category: %s"
+msgstr "Catégorie : %s"
+
+#: inc/template-tags.php:75
+msgid "Tag: %s"
+msgstr "Mot-clé : %s"
+
+#: inc/template-tags.php:77
+msgid "Author: %s"
+msgstr "Auteur : %s"
+
+#: inc/template-tags.php:79
+msgid "Year: %s"
+msgstr "Année : %s"
+
+#: inc/template-tags.php:81
+msgid "Month: %s"
+msgstr "Mois : %s"
+
+#: inc/template-tags.php:83
+msgid "Day: %s"
+msgstr "Jour : %s"
+
+#: inc/template-tags.php:105
+msgid "Archives: %s"
+msgstr "Archives : %s"
+
+#: inc/template-tags.php:109
+msgid "%1$s: %2$s"
+msgstr "%1$s : %2$s"
+
+#: inc/template-tags.php:197
+msgid "Pingback:"
+msgstr "Ping&nbsp;:"
+
+#: inc/template-tags.php:213
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération"
+
+#: inc/template-tags.php:230
+msgid "Previous"
+msgstr "Précédente"
+
+#: inc/template-tags.php:231
+msgid "Next"
+msgstr "Suivante"
+
+#: inc/template-tags.php:244
+msgid "Page"
+msgstr "Page"
+
+#: inc/template-tags.php:250
+msgid "Older posts"
+msgstr "Articles plus anciens"
+
+#: inc/template-tags.php:254
+msgid "Newer posts"
+msgstr "Articles plus récents"
+
+#: inc/template-tags.php:306
+#, php-format
+msgid "Copyright &copy; %1$d %2$s."
+msgstr ""
+
+#: inc/template-tags.php:308
+msgid "Proudly powered by %s"
+msgstr "Fièrement propulsé par %s"
+
+#: inc/template-tags.php:311
+msgid "%1$s by %2$s."
+msgstr "<i>%1$s</i> par %2$s."
+
+#: inc/template-tags.php:312
+msgid "Corporate Business WordPress Theme"
+msgstr ""
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: searchform.php:8
+msgid "Search &hellip;"
+msgstr "Recherche&hellip;"
