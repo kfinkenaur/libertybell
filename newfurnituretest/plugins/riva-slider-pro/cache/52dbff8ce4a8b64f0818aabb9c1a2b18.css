@@ -1,0 +1,1683 @@
+.riva-slider-holder div,
+.riva-slider-holder ul,
+.riva-slider-holder .riva-slider li,
+.riva-slider-holder span,
+.riva-slider-holder a,
+.riva-slider-holder img,
+.riva-slider-holder iframe {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  max-width: none !important;
+  max-height: none !important;
+  list-style: none !important;
+  list-style-type: none !important;
+  list-style-image: none !important;
+  list-style-position: outside !important;
+}
+
+.riva-slider-holder iframe {
+  outline: none !important;
+  z-index: 7 !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.riva-slider-holder div.riva-slider-preload,
+.riva-slider-holder ul.riva-slider {
+  overflow: hidden !important;
+}
+
+div.riva-slider-holder {
+  position: relative !important;
+}
+
+div.riva-slider-preload {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: 7;
+}
+
+div.rs-pause-timer {
+  z-index: 2;
+}
+
+ul.riva-slider {
+  position: relative !important;
+}
+
+ul.riva-slider li {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 1;
+}
+
+ul.riva-slider li iframe {
+  display: none;
+  z-index: 7;
+}
+
+li.z-index {
+  z-index: 4 !important;
+}
+
+ul.riva-slider li div.rs-content {
+  position: absolute;
+  display: none;
+}
+
+ul.riva-slider li div.rs-content h2,
+ul.riva-slider li div.rs-content p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.riva-slider li div.rs-content .rs-content-holder {
+  overflow: hidden;
+}
+
+div.rs-next, div.rs-prev {
+  z-index: 5;
+  opacity: 0;
+  position: absolute !important;
+  cursor: pointer;
+  display: none;
+}
+
+div.rs-next.no-hide, div.rs-prev.no-hide {
+  opacity: 1 !important;
+  display: block !important;
+}
+
+ul.rs-control-nav {
+  visibility: hidden;
+  z-index: 6;
+}
+
+ul.rs-control-nav li {
+  cursor: pointer;
+  list-style: none !important;
+  list-style-type: none !important;
+  list-style-image: none !important;
+  list-style-position: outside !important;
+}
+
+ul.rs-control-nav li.rs-numbers {
+  background-image: none !important;
+}
+
+div.rs-pause-button {
+  z-index: 5;
+  cursor: pointer;
+  display: none;
+  opacity: 0;
+}
+
+div.rs-pause-button.no-hide {
+  opacity: 0.5;
+  display: block !important;
+}
+
+div.rs-video-button {
+  z-index: 5;
+  cursor: pointer;
+}
+
+div.rs-close-video {
+  z-index: 5;
+  cursor: pointer;
+}
+
+div.rs-pause-button.paused {
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* Important structural CSS for slideshow id: 1 */
+
+.slider-id-1,
+.slider-id-1 div.riva-slider-preload,
+.slider-id-1 ul.riva-slider {
+    width: 900px;
+    height: 245px;
+}
+
+.slider-id-1 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-1 ul.riva-slider li {
+    width: 900px;
+    height: 245px;
+}
+
+.slider-id-1 div.riva-slider-preload {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-1 div.rs-next,
+.slider-id-1 div.rs-prev {
+    top: 108.5px;
+}
+
+.slider-id-1 .rs-blind {
+    height: 245px;
+    width: 65px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-1 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-1 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-1 .rs-cube {
+    height: 62px;
+    width: 113px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-1 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-1 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-1 {
+    width: 900px;
+    height: 0px;
+}
+
+/* Important structural CSS for slideshow id: 3 */
+
+.slider-id-3,
+.slider-id-3 div.riva-slider-preload,
+.slider-id-3 ul.riva-slider {
+    width: 900px;
+    height: 245px;
+}
+
+.slider-id-3 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-3 ul.riva-slider li {
+    width: 900px;
+    height: 245px;
+}
+
+.slider-id-3 div.riva-slider-preload {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-3 div.rs-next,
+.slider-id-3 div.rs-prev {
+    top: 108.5px;
+}
+
+.slider-id-3 .rs-blind {
+    height: 245px;
+    width: 65px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-3 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-3 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-3 .rs-cube {
+    height: 62px;
+    width: 113px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-3 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-3 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-3 {
+    width: 900px;
+    height: 0px;
+}
+
+/* Important structural CSS for slideshow id: 4 */
+
+.slider-id-4,
+.slider-id-4 div.riva-slider-preload,
+.slider-id-4 ul.riva-slider {
+    width: 900px;
+    height: 245px;
+}
+
+.slider-id-4 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-4 ul.riva-slider li {
+    width: 900px;
+    height: 245px;
+}
+
+.slider-id-4 div.riva-slider-preload {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-4 div.rs-next,
+.slider-id-4 div.rs-prev {
+    top: 108.5px;
+}
+
+.slider-id-4 .rs-blind {
+    height: 245px;
+    width: 65px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-4 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-4 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-4 .rs-cube {
+    height: 62px;
+    width: 113px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-4 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-4 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-4 {
+    width: 900px;
+    height: 0px;
+}
+
+/* Important structural CSS for slideshow id: 5 */
+
+.slider-id-5,
+.slider-id-5 div.riva-slider-preload,
+.slider-id-5 ul.riva-slider {
+    width: 900px;
+    height: 245px;
+}
+
+.slider-id-5 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-5 ul.riva-slider li {
+    width: 900px;
+    height: 245px;
+}
+
+.slider-id-5 div.riva-slider-preload {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-5 div.rs-next,
+.slider-id-5 div.rs-prev {
+    top: 108.5px;
+}
+
+.slider-id-5 .rs-blind {
+    height: 245px;
+    width: 65px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-5 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-5 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-5 .rs-cube {
+    height: 62px;
+    width: 113px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-5 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-5 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-5 {
+    width: 900px;
+    height: 0px;
+}
+
+/* Important structural CSS for slideshow id: 6 */
+
+.slider-id-6,
+.slider-id-6 div.riva-slider-preload,
+.slider-id-6 ul.riva-slider {
+    width: 900px;
+    height: 245px;
+}
+
+.slider-id-6 ul.riva-slider {
+    display: none;
+}
+
+.slider-id-6 ul.riva-slider li {
+    width: 900px;
+    height: 245px;
+}
+
+.slider-id-6 div.riva-slider-preload {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/images/loading/circle_default.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF;
+}
+
+.slider-id-6 div.rs-next,
+.slider-id-6 div.rs-prev {
+    top: 108.5px;
+}
+
+.slider-id-6 .rs-blind {
+    height: 245px;
+    width: 65px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-6 .rs-blind.no-width {
+    width: 0px;
+}
+
+.slider-id-6 .rs-blind.no-height {
+    height: 0px;
+}
+
+.slider-id-6 .rs-cube {
+    height: 62px;
+    width: 113px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slider-id-6 .rs-cube.no-dim {
+    height: 0px;
+    width: 0px;
+}
+
+.slider-id-6 .rs-thumbnails {
+    height: 30px;
+    width: 50px;
+}
+
+.slider-shadow-6 {
+    width: 900px;
+    height: 0px;
+}
+
+/* Skin CSS for slideshow id: 1 */
+
+.slider-id-1 {
+    border: 3px solid #666;
+}
+
+.slider-id-1 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-1.rs-ie7 .rs-pause-timer,
+.slider-id-1.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-1 .rs-next {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/next.png) top right no-repeat;
+}
+
+.slider-id-1 .rs-prev {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/prev.png) top left no-repeat;
+}
+
+.slider-id-1 .rs-next,
+.slider-id-1 .rs-prev {
+    width: 25px;
+    height: 32px;
+}
+
+.slider-id-1 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-1 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-1 div.rs-next.outside {
+    left: 903px;
+}
+
+.slider-id-1 div.rs-prev.outside {
+    right: 903px;
+}
+
+.slider-id-1 div.rs-next.inside {
+    margin-right: 10px !important;
+}
+
+.slider-id-1 div.rs-prev.inside {
+    margin-left: 10px !important;
+}
+
+.slider-id-1 .rs-control-nav {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/controlnav_bg.jpg) !important;
+    background-position: repeat-x top !important;
+    background-repeat: left !important;
+    background-color: #ddd !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-1.rs-ie7 .rs-control-nav {
+    padding-bottom: 8px !important;
+}
+
+.slider-id-1 .bottom-left {
+    left: -3px;
+}
+
+.slider-id-1 .bottom-right {
+    right: -3px;
+}
+
+.slider-id-1 .rs-control-nav li {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/controlnav.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-1 .rs-control-nav li.rs-icons {
+    margin: 4px 4px 4px 4px !important;
+    width: 14px;
+    height: 14px;
+}
+
+.slider-id-1 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -28px !important;
+}
+
+.slider-id-1 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -14px !important;
+}
+
+.slider-id-1 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-1 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-1 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-1 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-1 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-1 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-1 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-1 .rs-content .rs-content-holder {
+    font-family: \"Helvetica Neue\", Arial, sans-serif !important;
+}
+
+.slider-id-1 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-1 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-1 .rs-text-left,
+.slider-id-1 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-1 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-1 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-1 .rs-text-left .rs-content-holder,
+.slider-id-1 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-1 .rs-text-top,
+.slider-id-1 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-1 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-1 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-1 .rs-text-top .rs-content-holder,
+.slider-id-1 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-1 {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=0&w=900&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 3 */
+
+.slider-id-3 {
+    border: 3px solid #666;
+}
+
+.slider-id-3 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-3.rs-ie7 .rs-pause-timer,
+.slider-id-3.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-3 .rs-next {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/next.png) top right no-repeat;
+}
+
+.slider-id-3 .rs-prev {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/prev.png) top left no-repeat;
+}
+
+.slider-id-3 .rs-next,
+.slider-id-3 .rs-prev {
+    width: 25px;
+    height: 32px;
+}
+
+.slider-id-3 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-3 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-3 div.rs-next.outside {
+    left: 903px;
+}
+
+.slider-id-3 div.rs-prev.outside {
+    right: 903px;
+}
+
+.slider-id-3 div.rs-next.inside {
+    margin-right: 10px !important;
+}
+
+.slider-id-3 div.rs-prev.inside {
+    margin-left: 10px !important;
+}
+
+.slider-id-3 .rs-control-nav {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/controlnav_bg.jpg) !important;
+    background-position: repeat-x top !important;
+    background-repeat: left !important;
+    background-color: #ddd !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-3.rs-ie7 .rs-control-nav {
+    padding-bottom: 8px !important;
+}
+
+.slider-id-3 .bottom-left {
+    left: -3px;
+}
+
+.slider-id-3 .bottom-right {
+    right: -3px;
+}
+
+.slider-id-3 .rs-control-nav li {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/controlnav.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-3 .rs-control-nav li.rs-icons {
+    margin: 4px 4px 4px 4px !important;
+    width: 14px;
+    height: 14px;
+}
+
+.slider-id-3 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -28px !important;
+}
+
+.slider-id-3 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -14px !important;
+}
+
+.slider-id-3 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-3 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-3 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-3 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-3 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-3 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-3 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-3 .rs-content .rs-content-holder {
+    font-family: \"Helvetica Neue\", Arial, sans-serif !important;
+}
+
+.slider-id-3 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-3 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-3 .rs-text-left,
+.slider-id-3 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-3 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-3 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-3 .rs-text-left .rs-content-holder,
+.slider-id-3 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-3 .rs-text-top,
+.slider-id-3 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-3 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-3 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-3 .rs-text-top .rs-content-holder,
+.slider-id-3 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-3 {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=0&w=900&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 4 */
+
+.slider-id-4 {
+    border: 3px solid #666;
+}
+
+.slider-id-4 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-4.rs-ie7 .rs-pause-timer,
+.slider-id-4.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-4 .rs-next {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/next.png) top right no-repeat;
+}
+
+.slider-id-4 .rs-prev {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/prev.png) top left no-repeat;
+}
+
+.slider-id-4 .rs-next,
+.slider-id-4 .rs-prev {
+    width: 25px;
+    height: 32px;
+}
+
+.slider-id-4 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-4 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-4 div.rs-next.outside {
+    left: 903px;
+}
+
+.slider-id-4 div.rs-prev.outside {
+    right: 903px;
+}
+
+.slider-id-4 div.rs-next.inside {
+    margin-right: 10px !important;
+}
+
+.slider-id-4 div.rs-prev.inside {
+    margin-left: 10px !important;
+}
+
+.slider-id-4 .rs-control-nav {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/controlnav_bg.jpg) !important;
+    background-position: repeat-x top !important;
+    background-repeat: left !important;
+    background-color: #ddd !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-4.rs-ie7 .rs-control-nav {
+    padding-bottom: 8px !important;
+}
+
+.slider-id-4 .bottom-left {
+    left: -3px;
+}
+
+.slider-id-4 .bottom-right {
+    right: -3px;
+}
+
+.slider-id-4 .rs-control-nav li {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/controlnav.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-4 .rs-control-nav li.rs-icons {
+    margin: 4px 4px 4px 4px !important;
+    width: 14px;
+    height: 14px;
+}
+
+.slider-id-4 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -28px !important;
+}
+
+.slider-id-4 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -14px !important;
+}
+
+.slider-id-4 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-4 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-4 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-4 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-4 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-4 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-4 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-4 .rs-content .rs-content-holder {
+    font-family: \"Helvetica Neue\", Arial, sans-serif !important;
+}
+
+.slider-id-4 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-4 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-4 .rs-text-left,
+.slider-id-4 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-4 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-4 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-4 .rs-text-left .rs-content-holder,
+.slider-id-4 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-4 .rs-text-top,
+.slider-id-4 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-4 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-4 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-4 .rs-text-top .rs-content-holder,
+.slider-id-4 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-4 {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=0&w=900&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 5 */
+
+.slider-id-5 {
+    border: 3px solid #666;
+}
+
+.slider-id-5 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-5.rs-ie7 .rs-pause-timer,
+.slider-id-5.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-5 .rs-next {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/next.png) top right no-repeat;
+}
+
+.slider-id-5 .rs-prev {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/prev.png) top left no-repeat;
+}
+
+.slider-id-5 .rs-next,
+.slider-id-5 .rs-prev {
+    width: 25px;
+    height: 32px;
+}
+
+.slider-id-5 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-5 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-5 div.rs-next.outside {
+    left: 903px;
+}
+
+.slider-id-5 div.rs-prev.outside {
+    right: 903px;
+}
+
+.slider-id-5 div.rs-next.inside {
+    margin-right: 10px !important;
+}
+
+.slider-id-5 div.rs-prev.inside {
+    margin-left: 10px !important;
+}
+
+.slider-id-5 .rs-control-nav {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/controlnav_bg.jpg) !important;
+    background-position: repeat-x top !important;
+    background-repeat: left !important;
+    background-color: #ddd !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-5.rs-ie7 .rs-control-nav {
+    padding-bottom: 8px !important;
+}
+
+.slider-id-5 .bottom-left {
+    left: -3px;
+}
+
+.slider-id-5 .bottom-right {
+    right: -3px;
+}
+
+.slider-id-5 .rs-control-nav li {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/controlnav.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-5 .rs-control-nav li.rs-icons {
+    margin: 4px 4px 4px 4px !important;
+    width: 14px;
+    height: 14px;
+}
+
+.slider-id-5 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -28px !important;
+}
+
+.slider-id-5 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -14px !important;
+}
+
+.slider-id-5 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-5 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-5 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-5 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-5 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-5 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-5 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-5 .rs-content .rs-content-holder {
+    font-family: \"Helvetica Neue\", Arial, sans-serif !important;
+}
+
+.slider-id-5 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-5 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-5 .rs-text-left,
+.slider-id-5 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-5 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-5 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-5 .rs-text-left .rs-content-holder,
+.slider-id-5 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-5 .rs-text-top,
+.slider-id-5 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-5 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-5 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-5 .rs-text-top .rs-content-holder,
+.slider-id-5 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-5 {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=0&w=900&zc=1) top center no-repeat;
+}
+
+/* Skin CSS for slideshow id: 6 */
+
+.slider-id-6 {
+    border: 3px solid #666;
+}
+
+.slider-id-6 .rs-pause-timer {
+    background-color: #000; 
+    height: 5px;
+    width: 0px;
+    opacity: 0.3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.slider-id-6.rs-ie7 .rs-pause-timer,
+.slider-id-6.rs-ie8 .rs-pause-timer {
+    filter: alpha(opacity=30);
+}
+
+.slider-id-6 .rs-next {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/next.png) top right no-repeat;
+}
+
+.slider-id-6 .rs-prev {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/prev.png) top left no-repeat;
+}
+
+.slider-id-6 .rs-next,
+.slider-id-6 .rs-prev {
+    width: 25px;
+    height: 32px;
+}
+
+.slider-id-6 div.rs-next.inside {
+    right: 0px;
+}
+
+.slider-id-6 div.rs-prev.inside {
+    left: 0px;
+}
+
+.slider-id-6 div.rs-next.outside {
+    left: 903px;
+}
+
+.slider-id-6 div.rs-prev.outside {
+    right: 903px;
+}
+
+.slider-id-6 div.rs-next.inside {
+    margin-right: 10px !important;
+}
+
+.slider-id-6 div.rs-prev.inside {
+    margin-left: 10px !important;
+}
+
+.slider-id-6 .rs-control-nav {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/controlnav_bg.jpg) !important;
+    background-position: repeat-x top !important;
+    background-repeat: left !important;
+    background-color: #ddd !important;
+    padding: 4px 4px 4px 4px !important;
+    margin: 0px 0px 0px 0px !important; 
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-6.rs-ie7 .rs-control-nav {
+    padding-bottom: 8px !important;
+}
+
+.slider-id-6 .bottom-left {
+    left: -3px;
+}
+
+.slider-id-6 .bottom-right {
+    right: -3px;
+}
+
+.slider-id-6 .rs-control-nav li {
+    background-image: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/controlnav.png) !important;
+    background-position: 0px 0px !important;
+    background-repeat: no-repeat !important;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle !important;
+    font-weight: bold;
+    float: left !important;
+}
+
+.slider-id-6 .rs-control-nav li.rs-icons {
+    margin: 4px 4px 4px 4px !important;
+    width: 14px;
+    height: 14px;
+}
+
+.slider-id-6 .rs-control-nav li.rs-icons.current {
+    background-position: 0px -28px !important;
+}
+
+.slider-id-6 .rs-control-nav li.rs-icons.hover {
+    background-position: 0px -14px !important;
+}
+
+.slider-id-6 .rs-control-nav li.rs-numbers {
+    color: #777 !important;
+    margin: 4px 4px 4px 4px !important;
+    font-weight: bold;
+}
+
+.slider-id-6 .rs-control-nav li.rs-numbers.current {
+    color: #000 !important;
+}
+
+.slider-id-6 .rs-control-nav li.rs-thumbnails {
+    border: 0px solid #000 !important;
+    margin: 4px 4px 4px 4px !important;
+}
+
+.slider-id-6 .rs-control-nav li.rs-thumbnails.current {
+    border: 3px solid #000 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.slider-id-6 .rs-pause-button {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/pause.png) 0px 0px no-repeat;
+}
+
+.slider-id-6 .rs-video-button {
+    width: 65px;
+    height: 65px;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/video_big.png) 0px 0px no-repeat;
+    position: absolute;
+    display: none;
+    opacity: 0;
+}
+
+.slider-id-6 .rs-close-video {
+    width: 28px;
+    height: 32px;
+    position: absolute;
+    bottom: -32px;
+    right: 10px;
+    display: none;
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/close.png) 0px 0px no-repeat;
+    -webkit-border-radius-top-left: 0px;
+    -webkit-border-radius-top-right: 0px;
+    -webkit-border-radius-bottom-left: 0px;
+    -webkit-border-radius-bottom-right: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.slider-id-6 .rs-content .rs-content-holder {
+    font-family: \"Helvetica Neue\", Arial, sans-serif !important;
+}
+
+.slider-id-6 .rs-content .rs-content-holder h2 {
+    font-size: 16px !important;
+    padding: 10px 10px 0px 10px !important;
+}
+
+.slider-id-6 .rs-content .rs-content-holder span {
+    display: block;
+    font-size: 12px !important;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.slider-id-6 .rs-text-left,
+.slider-id-6 .rs-text-right  {
+    top: 0px;
+    height: 100%;
+    width: 45%;
+}
+
+.slider-id-6 .rs-text-left {
+    left: 0px;
+}
+
+.slider-id-6 .rs-text-right {
+    right: 0px;
+}
+
+.slider-id-6 .rs-text-left .rs-content-holder,
+.slider-id-6 .rs-text-right .rs-content-holder {
+    height: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.slider-id-6 .rs-text-top,
+.slider-id-6 .rs-text-bottom {
+    left: 0px;
+    width: 100%;
+}
+
+.slider-id-6 .rs-text-top {
+    top: 0px;
+}
+
+.slider-id-6 .rs-text-bottom {
+    bottom: 0px;
+}
+
+.slider-id-6 .rs-text-top .rs-content-holder,
+.slider-id-6 .rs-text-bottom .rs-content-holder {
+    width: 100%;
+    margin: 10px 10px 10px 10px !important;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+
+.slider-shadow-6 {
+    background: url(http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/timthumb.php?src=http://www.libertybellfurniture.com/wp-content/plugins/riva-slider-pro/styles/skins/default/shadow.png&h=0&w=900&zc=1) top center no-repeat;
+}

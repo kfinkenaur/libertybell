@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fc-menu\n"
+"POT-Creation-Date: 2013-06-13 07:07-0400\n"
+"PO-Revision-Date: 2013-06-13 14:33-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Header and Footer Commander.php:81
+msgid "Header and Footer Commander"
+msgstr "Topp-og bunntekst sjef"
+
+#: Header and Footer Commander.php:90
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Du har ikke tilstrekkelige tillatelser til å få tilgang til denne siden."
+
+#: Header and Footer Commander.php:177
+msgid "settings saved."
+msgstr "innstillingene lagret."
+
+#: Header and Footer Commander.php:195
+msgid "Header and Footer Commander Settings"
+msgstr "Topp-og bunntekst sjef innstilling"
+
+#: Header and Footer Commander.php:200
+msgid ""
+"Supports HTML tags such as the ( a, img, blockquote, code, em, ul ) etc... "
+"Quotes ( \" ) are not allowed and do not leave ( Background color ) field "
+"blank."
+msgstr ""
+"Støtter HTML-koder som (a, img, blockquote, kode, em, ul) osv. .. "
+"Anførselstegn er ikke tillatt og ikke la (bakgrunnsfarge) feltet stå tomt."
+
+#: Header and Footer Commander.php:327
+msgid ""
+"Background colors: Click on each field to display the color picker. Click "
+"again to close it."
+msgstr ""
+"Bakgrunnsfarger: Klikk på hvert felt for å vise fargepaletten. Klikk igjen "
+"for å lukke det."
+
+#: Header and Footer Commander.php:339
+msgid "Header Text: "
+msgstr "hode tekst:"
+
+#: Header and Footer Commander.php:345 Commander.php:383
+msgid "Background color"
+msgstr "bakgrunnsfarge"
+
+#: Header and Footer Commander.php:351 Commander.php:389
+msgid "Text color"
+msgstr "tekst farge"
+
+#: Header and Footer Commander.php:357 Commander.php:396
+msgid "Choose Image"
+msgstr "Velg Bilde"
+
+#: Header and Footer Commander.php:361
+msgid "Enter an URL, upload or select an existing image for the banner."
+msgstr ""
+"Skriv inn en URL, laste opp eller velge et eksisterende bilde for banneret."
+
+#: Header and Footer Commander.php:375
+msgid "Footer Text: "
+msgstr "Bunntekst:"
+
+#: Header and Footer Commander.php:407
+msgid "Custom CSS: "
+msgstr "egendefinert CSS:"
+
+#: Header and Footer Commander.php:414
+msgid "Check to Enable Both Options: "
+msgstr "Sjekk for å bruke begge alternativene:"
+
+#: Header and Footer Commander.php:427
+msgid "Settings"
+msgstr ""

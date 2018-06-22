@@ -1,0 +1,487 @@
+/*
+Theme Name: Liberty Bell Furniture Thematic
+Author: Andy Beckmann
+Version: 1
+.
+The Thematic Theme is copyright Ian Stewart http://themeshaper.com/
+This work, like WordPress, is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+*/
+
+/* Reset browser defaults */
+@import url('library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('library/styles/images.css');
+
+/* Apply default theme styles and colors */
+@import url('library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('library/styles/plugins.css'); 
+
+.topinfo { font-size:16px; line-height:16px; color:#9c1e47; text-align:right; float:right; clear:both; }
+
+.filey { width:100px; }
+
+.toptext { font-size:16px; margin:0; }
+
+.error404 {color:#fff;}
+
+.type-post { background:#fff; padding:10px; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px; padding-top:10px; padding-left:10px; padding-right:10px; padding-bottom:5px; margin-bottom:10px; } 
+
+.wpcf7-file {
+	position: relative; width:150px;
+padding:5px; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+color:#999;
+width:50px;
+}
+
+a:active, a:link, a:visited { color:#A12525; text-decoration:none; }
+
+a:hover { color:#666; text-decoration:underline; }
+
+.style466 { font-size:12px; }
+
+div#page-bottom.aside {
+border: 1px solid #eee;
+}
+
+div#primary.aside {
+border: 1px solid #eee;
+background: #fff;
+}
+
+.custom ul#tabs .home-item a { color: #0FA7B3; }
+
+.current_page_item a, .current_page_item a:active, .current_page_item a:visited, .current_page_item a:hover, .current_page_item a:focus, .current-page-ancestor a, .current-page-ancestor a:visited, .current-page-ancestor a:hover, .current-page-ancestor a:focus { font-weight:bold; color:#fff; border-bottom:0; background-color:#6a2324; -webkit-border-top-left-radius:5px; -webkit-border-top-right-radius:5px; -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px; border-top-left-radius:5px; border-top-right-radius:5px; padding-bottom:10px;
+}
+
+#footer{
+background:#ccc; color:#999; padding-bottom:20px;
+}
+
+.advertisement { padding:10px; background: #eeeeee;
+background: -moz-linear-gradient(top,  #eeeeee 19%, #cccccc 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(19%,#eeeeee), color-stop(100%,#cccccc));
+background: -webkit-linear-gradient(top,  #eeeeee 19%,#cccccc 100%);
+background: -o-linear-gradient(top,  #eeeeee 19%,#cccccc 100%);
+background: -ms-linear-gradient(top,  #eeeeee 19%,#cccccc 100%);
+background: linear-gradient(top,  #eeeeee 19%,#cccccc 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+ }
+
+#kevinname { font: 1.1em Tahoma, Verdana, Sans-Serif, Arial; margin-left:10px; padding-left:10px; }
+
+#phone-top { width:415px;
+background: white;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+padding-top: 10px;
+padding-left: 4px;
+padding-right: 4px;
+padding-bottom: 5px;
+margin-top: -112px;
+float: right;
+ }
+
+.phone-top { font: .9em Tahoma, Verdana, Sans-Serif, Arial;
+margin-left:4px;
+padding-left:4px;
+ }
+
+#intrograph { width:550px; }
+
+.entry-content h3 { size:16px; color:#3335; font-style:normal; text-decoration:none; }
+
+h3 { size:16px; color:#333; font-style:normal; text-decoration:none; }
+
+h3.top { margin-top:-10px; }
+
+#blog-title a {
+display:block;
+text-indent:-9000px;
+height: 116px;
+width: 490px;
+background:url(http://www.libertybellfurniture.com/wp-content/uploads/2012/01/furniturelogo2.png) no-repeat top center;
+padding:0;
+margin-left:-40px;
+margin-top:-40px;
+clear:both;
+}
+
+.hometext { font-size:14px; }
+
+#blog-description {
+position:absolute;
+left:-9000px; /* We avoid display:none because it's bad for SEO */
+}
+
+tr,td,table,textarea,form,input { border:0; margin:0; padding:0; }
+
+textarea,input { background: #eee; border: 1px solid #ccc; }
+
+input { font: 1em Tahoma, Verdana, Sans-Serif, Arial; margin:0; padding:0; }
+
+body { background:url(http://www.libertybellfurniture.com/wp-content/uploads/2012/01/furniturebg.png) repeat-x; font: 1em Tahoma, Verdana, Sans-Serif, Arial; color: #333; }
+
+.style3 {color: #304D6F}
+.style6 {color: #FFFFFF}
+
+.style7 {
+	color: #F8F9F9
+}
+.style8 {color: #E0E0E0}
+.style9 {
+	color: #666;
+}
+.style10 {color: #1D2736}
+.style11 {color: #333333}
+.style12 {color: #812122}
+.style16 {font-size: 12px}
+.style18 {color: #5A79A5}
+.style23 {
+	color: #9B2525;
+	font-weight: bold;
+}
+.style25 {color: #112451}
+.style27 {
+color:transparent;
+margin-top:5px;
+	font-size: 14px;
+background:url(http://libertybellmoving.com/wp-content/uploads/2011/12/getquote2.png);
+width:105px;
+height:34px;
+border:0;
+}
+.style28 {color: #112451; font-weight: bold; }
+.style29 {color: #A12525}
+.style30 {font-size: 14px}
+.style31 {
+	color: #112451;
+	font-weight: bold;
+	font-size: 12px;
+}
+.style34 {font-size: 12px; color: #AB2828; }
+.style35 {
+	color: #436294;
+	font-weight: bold;
+}
+.style43 {font-size: 12px; color: #990000; }
+.style44 {
+	color: #1F456C;
+	font-size: 16px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.style45 {font-size: 18px}
+.style46 {color: #304D6F;}
+.style4677 {color: #304D6F; font-size:10px; margin-bottom:0px;}
+.style47 {width:100px; height:20px; }
+.style50 {color: #FFFFFF; font-weight: bold; }
+.style51 {color: #2A4E57} 
+
+#pitch {  padding-left:15px; margin-left:12px; margin-top:-40px; padding-top:-10px; background: url(http://www.libertybellfurniture.com/wp-content/uploads/2012/01/pitch.png) no-repeat; height: 290px; }
+#pitch h1 { font-size: 16px; color: #304D6F; }
+#pitch em { font-size: 1.3em; font-weight: bold; }
+
+
+#quoteform { width:300px; margin-left:10px; padding-left:15px; text-align:right; }
+
+#quoteform input { padding:5px; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+color:#999;
+width:220px;
+margin-left:10px; }
+
+#quotebox input.wpcf7-file {
+    border-radius: 5px 5px 5px 5px;
+    color: #999999;
+    padding: 5px;
+    width: 150px;
+}
+
+.quotetextname { margin-right:0px; }
+
+.quotetextemail { margin-right:0px; }
+
+.quotetextphone { margin-right:0px; }
+
+.quotetextdate { margin-right:0px; }
+
+.quotetextdetails { margin-right:0px; }
+
+.quotetextmoving { margin-right:0px; }
+
+.quotebox { margin-bottom:5px; }
+
+#quoteform h2 { margin-bottom:10px; }
+
+#submitbox input { width:140px; color:#fff; padding:5px;
+text-decoration:underline;
+margin-left:105px;
+
+margin-top:2px;
+border:0;
+
+background: rgb(31,71,111); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(31,71,111,1) 0%, rgba(22,50,78,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(31,71,111,1)), color-stop(100%,rgba(22,50,78,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(31,71,111,1) 0%,rgba(22,50,78,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(31,71,111,1) 0%,rgba(22,50,78,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(31,71,111,1) 0%,rgba(22,50,78,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(31,71,111,1) 0%,rgba(22,50,78,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f476f', endColorstr='#16324e',GradientType=0 ); /* IE6-9 */
+
+
+ }
+
+#submitlbf input { width:85px; color:#fff; padding:5px;
+border:0;
+background: rgb(147,62,62); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(147,62,62,1) 0%, rgba(104,43,43,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(147,62,62,1)), color-stop(100%,rgba(104,43,43,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(147,62,62,1) 0%,rgba(104,43,43,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(147,62,62,1) 0%,rgba(104,43,43,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(147,62,62,1) 0%,rgba(104,43,43,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(147,62,62,1) 0%,rgba(104,43,43,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#933e3e', endColorstr='#682b2b',GradientType=0 ); /* IE6-9 */
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+.entry-content img {
+    height:auto;
+    margin: 0 0 18px 0;
+    max-width:100%;
+}
+.alignleft,
+img.alignleft {
+	float: left;
+    margin-right:20px;
+}
+.alignright,
+img.alignright {
+	display: block;
+	float: right;
+    margin-left:20px;
+}
+#alignright,
+img#alignright {
+	float: right;
+text-align:right;
+font: 14px Tahoma, Verdana, Sans-Serif, Arial; color: #666;
+	display: block;
+margin:0 auto;
+margin-right:15px;
+margin-top:15px;
+}
+.aligncenter,
+img.aligncenter {
+	margin-left:5;
+	margin-right:5;
+clear:both;
+}
+.wp-caption {
+	text-align: center;
+	margin-bottom:18px;
+}
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+	margin: 0;
+	padding:5px;
+}
+.gallery img {
+    margin:0;
+}
+.wp-smiley { /* Prevent the smileys from breaking line-height */
+	max-height:12px;
+	margin:0 !important;
+}
+.wpcf7-form .wpcf7-validation-errors{
+    border:none;
+    background-color:#fffd75;
+    margin:0;
+    padding:20px;
+    border-radius:10px;
+}
+
+.wpcf7-form .wpcf7-mail-sent-ok{
+    border:none;
+    background-color:#fff;
+    margin:0;
+    padding:8px;
+    border-radius:10px;
+color:green;
+margin-top:10px;
+margin-left:27px;
+font-size:12px;
+}
+
+.wpcf7-form .wpcf7-mail-sent-ng{
+    border:none;
+background:#fff;
+    margin:0;
+    padding:8px;
+    border-radius:10px;
+color:red;
+margin-top:10px;
+margin-left:27px;
+font-size:12px;
+}
+
+.wpcf7-form span.wpcf7-not-valid-tip{
+    border:none;
+    color:red;
+    border-radius:10px;
+background:transparent;
+margin-top:-5px;
+margin-left:-140px;
+}
+
+.sf-menu li {
+	background:transparent; border:0;
+-webkit-border-top-left-radius:5px; -webkit-border-top-right-radius:5px; -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px; border-top-left-radius:5px; border-top-right-radius:5px; 
+
+background:#952F2F; margin-right:2px;
+
+background: rgb(191,61,61); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(191,61,61,1) 0%, rgba(127,43,43,1) 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(191,61,61,1)), color-stop(99%,rgba(127,43,43,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(191,61,61,1) 0%,rgba(127,43,43,1) 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(191,61,61,1) 0%,rgba(127,43,43,1) 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(191,61,61,1) 0%,rgba(127,43,43,1) 99%); /* IE10+ */
+background: linear-gradient(top,  rgba(191,61,61,1) 0%,rgba(127,43,43,1) 99%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf3d3d', endColorstr='#7f2b2b',GradientType=0 ); /* IE6-9 */
+
+}
+.sf-menu li li {
+	background:#416b95; border:0;
+-webkit-border-top-right-radius:0px; -moz-border-radius-topleft:0px; -moz-border-radius-topright:0px; border-top-left-radius:0px; border-top-right-radius:0px; color:#fff;
+}
+
+.sf-menu li li a:hover { color:#fff; }
+
+.sf-menu li li li {
+ border:0;
+background:#416b95; border:0;
+-webkit-border-top-right-radius:0px; -moz-border-radius-topleft:0px; -moz-border-radius-topright:0px; border-top-left-radius:0px; border-top-right-radius:0px; color:#fff;
+}
+
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:	#fff;
+	font-weight: bold;
+-webkit-border-top-left-radius:5px; -webkit-border-top-right-radius:5px; -moz-border-radius-topleft:5px; -moz-border-radius-topright:5px; border-top-left-radius:5px; border-top-right-radius:5px; border:0;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+background:#952F2F;
+	outline:0;
+}
+
+.sf-menu ul {
+    background: transparent; border:0;
+}
+
+.sf-menu ul a {
+        background: transparent; border:0;
+}
+
+.sf-menu ul a:hover {
+ border:0;
+}
+
+#access {
+border-bottom:0; }
+
+.sf-menu {
+    border-right:0;
+}
+
+div#siteinfo { padding-top:20px; padding-bottom:0; }
+
+.wpcf7-form .wpcf7-validation-errors{
+    border:none;
+    background-color:#fffd75;
+    margin:0;
+    padding:20px;
+    border-radius:10px;
+}
+
+.wpcf7-form .wpcf7-mail-sent-ok{
+    border:none;
+    background-color:#fff;
+    margin:0;
+    padding:8px;
+    border-radius:10px;
+color:green;
+margin-top:10px;
+margin-left:27px;
+font-size:12px;
+}
+
+.wpcf7-form .wpcf7-mail-sent-ng{
+    border:none;
+background:#fff;
+    margin:0;
+    padding:8px;
+    border-radius:10px;
+color:red;
+margin-top:10px;
+margin-left:27px;
+font-size:12px;
+}
+
+.wpcf7-form span.wpcf7-not-valid-tip{
+    border:none;
+    color:red;
+    border-radius:10px;
+background:transparent;
+margin-top:-5px;
+margin-left:-140px;
+}
+
+#quotebox { width:200px; text-align:left; }
+
+#quotebox input { padding:5px; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+color:#999;
+width:250px; }
+
+#submit input { padding:5px; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+color:#999;
+width:50px; }
+
+#quotebox input.wpcf7-file { padding:5px; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+color:#999;
+width:250px; }

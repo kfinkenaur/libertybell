@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<name>Liberty Bell Furniture Repair & Upholstery</name>
+<atom:author>
+<atom:name>Ritesh Khare</atom:name>
+</atom:author>
+<atom:link rel="related" href="http://www.libertybellfurniture.com" />
+<folder>
+<Document>
+<Placemark>
+<name><![CDATA[Liberty Bell Furniture Repair & Upholstery]]></name>
+<address><![CDATA[155 Rumery St #2,South Portland  , Maine,04106,United States]]></address>
+<description><![CDATA[Liberty Bell Furniture Repair &amp; Upholstery is simply the best Portland Maine furniture reupholstery company. Our Maine furniture repair experts are masters in restoration of furniture, furniture upholstery and wood refinishing.]]></description>
+<Point><coordinates>43.6269090,-70.2934352</coordinates></Point>
+</Placemark>
+</Document>
+</folder>
+</kml>

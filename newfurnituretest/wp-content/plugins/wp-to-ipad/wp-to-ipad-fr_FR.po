@@ -1,0 +1,287 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-to-iPad\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 16:15+0100\n"
+"PO-Revision-Date: 2011-09-26 16:15+0100\n"
+"Last-Translator: Barbara <dev@kinoa.com>\n"
+"Language-Team: Kinoa <dev@kinoa.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/apparences_themes_wpti.php:97
+#: classes/admin.class.php:83
+#: classes/admin.class.php:84
+msgid "Design"
+msgstr "Apparences"
+
+#: admin/apparences_themes_wpti.php:109
+msgid "Background color of the logo"
+msgstr "Couleur de fond du logo"
+
+#: admin/apparences_themes_wpti.php:117
+msgid "Border color of the logo"
+msgstr "Couleur de bordure du logo"
+
+#: admin/apparences_themes_wpti.php:125
+msgid "Text color of the logo"
+msgstr "Couleur de texte du logo"
+
+#: admin/apparences_themes_wpti.php:133
+msgid "Logo fonts"
+msgstr "Polices de caractères du logo"
+
+#: admin/apparences_themes_wpti.php:148
+msgid "Title fonts"
+msgstr "Polices de caractères des titres"
+
+#: admin/apparences_themes_wpti.php:163
+msgid "Show comments"
+msgstr "Afficher les commentaires"
+
+#: admin/apparences_themes_wpti.php:166
+#: admin/apparences_themes_wpti.php:175
+msgid "No"
+msgstr "Non"
+
+#: admin/apparences_themes_wpti.php:167
+#: admin/apparences_themes_wpti.php:176
+msgid "Yes"
+msgstr "Oui"
+
+#: admin/apparences_themes_wpti.php:172
+msgid "Show pages"
+msgstr "Afficher les commentaires"
+
+#: admin/apparences_themes_wpti.php:184
+#: admin/categories_settings.php:156
+#: admin/categories_settings.php:181
+#: admin/general_settings.php:99
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+#: admin/apparences_themes_wpti.php:187
+#: admin/general_settings.php:102
+msgid "If you use a plugin to optimize the performance of your blog, be sure to empty the cache for the changes to take effect."
+msgstr "Si vous utilisez un plugin pour optimiser les performances de votre blog, pensez à vider le cache pour appliquer les modifications."
+
+#: admin/categories_settings.php:39
+#: admin/categories_settings.php:171
+msgid "Background color"
+msgstr "Couleur de fond"
+
+#: admin/categories_settings.php:41
+#: admin/categories_settings.php:172
+msgid "Text color"
+msgstr "Couleur de texte"
+
+#: admin/categories_settings.php:43
+#: admin/categories_settings.php:174
+msgid "Delete"
+msgstr "Supprimer"
+
+#: admin/categories_settings.php:117
+msgid "Category management"
+msgstr "Gestion des catégories"
+
+#: admin/categories_settings.php:126
+#: admin/categories_settings.php:153
+#: classes/admin.class.php:74
+#: classes/admin.class.php:75
+msgid "Categories"
+msgstr "Catégories"
+
+#: admin/categories_settings.php:142
+msgid "Add"
+msgstr "Ajouter"
+
+#: admin/categories_settings.php:195
+msgid "You can choose which categories will be displayed and their order."
+msgstr "Vous pouvez choisir les catégories à afficher et ordonner leur ordre d'affichage."
+
+#: admin/categories_settings.php:197
+msgid "Colors can be applied to each category."
+msgstr "Des couleurs peuvent être appliquées à chaque catégories."
+
+#: admin/categories_settings.php:199
+msgid "Remember to save your changes."
+msgstr "Pensez à enregistrer vos modifications."
+
+#: admin/general_settings.php:2
+#: classes/admin.class.php:67
+#: classes/admin.class.php:68
+msgid "General options"
+msgstr "Options générales"
+
+#: admin/general_settings.php:4
+msgid "Here you can set up the look of your iPad magazine."
+msgstr "Vous pouvez ici paramétrer l'apparence de votre magazine sur iPad."
+
+#: admin/general_settings.php:16
+msgid "Select the theme of your choice."
+msgstr "Sélectionnez le thème de votre choix"
+
+#: admin/general_settings.php:46
+msgid "Description"
+msgstr "Description"
+
+#: admin/general_settings.php:51
+msgid "Allows you to describe your blog or magazine in a few lines."
+msgstr "Permet de décrire votre blog ou magazine en quelques lignes."
+
+#: admin/general_settings.php:56
+msgid "Number of default categories"
+msgstr "Nombre de catégories par défaut"
+
+#: admin/general_settings.php:60
+msgid "Are categories usend on your blog ?"
+msgstr "Les catégories sont-elles utilisées sur votre blog."
+
+#: admin/general_settings.php:65
+msgid "Number of posts by category"
+msgstr "Nombre de posts par catégorie."
+
+#: admin/general_settings.php:69
+msgid "Allows you to show the number of desired posts by category."
+msgstr "Permet d'afficher le nombre d'articles souhaité par catégorie."
+
+#: admin/general_settings.php:74
+msgid "Hide the Kinoa credits"
+msgstr "Masquez les crédits relatifs à Kinoa"
+
+#: admin/general_settings.php:78
+msgid "The \"information\" button will display an \"about Kinoa\". You can choose to hide the \"about\"."
+msgstr "The \"information\" button will display an \"about Kinoa\". You can choose to hide the \"about\". "
+
+#: admin/general_settings.php:83
+msgid "Generic image"
+msgstr "Image générique"
+
+#: admin/general_settings.php:91
+msgid "WP-to-iPad will automatically retrieve the images you use in your posts to create a a lead image. You can use a generic image that will be displayed by default if no picture is found in your articles."
+msgstr "WP-to-iPad récupère automatiquement les images que vous utilisez dans vos articles pour créer une \"image à la une\". Vous pouvez utiliser une image générique qui s'affichera par défaut si aucune image n'est trouvée dans vos articles."
+
+#: admin/post_page_box.php:42
+msgid "Update list"
+msgstr "Mettre à jour la liste"
+
+#: classes/admin.class.php:53
+msgid "WP-to-iPad"
+msgstr "WP-to-iPad"
+
+#: classes/admin.class.php:169
+#: classes/admin.class.php:174
+#, php-format
+msgid "Please check the rights on the directory '%s/images/'"
+msgstr "Veuillez vérifier les droits sur le répertoire '%s/images/'"
+
+#: classes/admin.class.php:190
+msgid "Please check the image file extension."
+msgstr "Veuillez vérifier l'extension du fichier image."
+
+#: classes/wpti.class.php:32
+msgid ""
+"This plugin is powered by Kinoa. For more information about WP-to-iPad, visit<a href=\"http://kinoa.com/wp-to-ipad\">http://kinoa.com/wp-to-ipad</a><br/><br/>\n"
+"\t\t\t\tKinoa, digital agency. <br/>\n"
+"\t\t\t\tDigital communication & 360-degree marketing. Web design. Social Media. Mobile applications. iPad. iPhone. Facebook. Twitter. SEO & SEM. Community management. Wordpress. Videos. Brand content.<br/><br/>\n"
+"\n"
+"\t\t\t\tLike us : <a href=\"http://www.facebook.com/kinoa\">http://www.facebook.com/kinoa</a><br/>\n"
+"\t\t\t\t\t\tFollow us on Twitter : <a href=\"http://twitter.com/#!/kinoa\">http://twitter.com/#!/kinoa</a><br/>\n"
+"\t\t\t\t\t\tThe Kinoa Blog : <a href=\"http://blog.kinoa.com/\">http://blog.kinoa.com/</a><br/>\n"
+"\t\t\t\t\t\tOur website : <a href=\"http://www.kinoa.com/\">http://www.kinoa.com/</a><br/>"
+msgstr "Ce plugin est propulsé par Kinoa. Pour en savoir plus sur WP-to-iPad, rendez-vous sur <a href=\"http://kinoa.com/wp-to-ipad\">http://kinoa.com/wp-to-ipad</a><br/><br/>\t\tKinoa, agence digitale conseil. <br/>\t\tCommunication digitale & 360. Conception de sites Web. Médias sociaux. Création d'applications mobiles. iPad. iPhone. Facebook. Twitter. SEO & SEM. Community management. Wordpress. Vidéos. Brand content.<br/><br/>Devenir Fan : <a href=\"http://www.facebook.com/kinoa\">http://www.facebook.com/kinoa</a><br/>\t\tNous suivre sur Twitter : <a href=\"http://twitter.com/#!/kinoa\">http://twitter.com/#!/kinoa</a><br/>\t\tLe blog Kinoa : <a href=\"http://blog.kinoa.com/\">http://blog.kinoa.com/</a><br/>\t\tLe site Web : <a href=\"http://www.kinoa.com/\">http://www.kinoa.com/</a><br/>"
+
+#: classes/wpti.class.php:168
+#: classes/wpti.class.php:220
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">dit:</span>"
+
+#: classes/wpti.class.php:170
+#: classes/wpti.class.php:229
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: classes/wpti.class.php:224
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: classes/wpti.class.php:246
+msgid "Pingback:"
+msgstr "Pingback :"
+
+#: themes/appzine/header.php:25
+#: themes/kinoa/header.php:26
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"
+
+#: themes/appzine/index.php:23
+msgid "TOP STORIES"
+msgstr "LES IMMANQUABLES"
+
+#: themes/appzine/index.php:83
+msgid "Last comments"
+msgstr "Les derniers commentaires"
+
+#: themes/appzine/index.php:93
+msgid "Pages"
+msgstr "Les pages"
+
+#: themes/appzine/index.php:137
+msgid "About"
+msgstr "A propos"
+
+#: themes/appzine/single.php:10
+#, php-format
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr "<span class=\"%1$s\">Posté le</span> %2$s <span class=\"meta-sep\">par</span> %3$s"
+
+#: themes/kinoa/footer.php:6
+msgid "Favorites"
+msgstr "Favoris"
+
+#: themes/kinoa/footer.php:7
+msgid "Info"
+msgstr "Infos"
+
+#: themes/kinoa/header.php:69
+msgid "Previous"
+msgstr "Précédent"
+
+#: themes/kinoa/header.php:71
+msgid "Next"
+msgstr "Suivant"
+
+#: themes/kinoa/header.php:88
+msgid "Home"
+msgstr "Sommaire"
+
+#, fuzzy
+#~ msgid ""
+#~ "Si vous utilisez un plugin pour optimiser les performances de votre blog, "
+#~ "pensez à vider le cache pour appliquer les modifications."
+#~ msgstr ""
+#~ "Si vous utilisez un plugin pour optimiser les performances de votre blog, "
+#~ "pensez à vider le cache pour appliquer les modifications."
+
+#~ msgid "Polices de caractères du logo"
+#~ msgstr "Logo fonts"
+
+#~ msgid ""
+#~ "This post is password protected. Enter the password to view any comments."
+#~ msgstr ""
+#~ "Le post est protégé par un mot de passe. Entrez un mot de passe pour voir "
+#~ "les commentaires."
+
+#~ msgid "Comments are closed."
+#~ msgstr "Les commentaires sont fermés."

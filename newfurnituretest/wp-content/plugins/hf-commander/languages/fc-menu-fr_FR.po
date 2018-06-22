@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fc-menu\n"
+"POT-Creation-Date: 2013-06-13 07:07-0400\n"
+"PO-Revision-Date: 2013-06-13 14:28-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Header and Footer Commander.php:81
+msgid "Header and Footer Commander"
+msgstr "En-tête et pied de page commandant"
+
+#: Header and Footer Commander.php:90
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les permissions suffisantes pour accéder à cette page."
+
+#: Header and Footer Commander.php:177
+msgid "settings saved."
+msgstr "Les paramètres enregistrés."
+
+#: Header and Footer Commander.php:195
+msgid "Header and Footer Commander Settings"
+msgstr "En-tête et pied de page Paramètres du commandant"
+
+#: Header and Footer Commander.php:200
+msgid ""
+"Supports HTML tags such as the ( a, img, blockquote, code, em, ul ) etc... "
+"Quotes ( \" ) are not allowed and do not leave ( Background color ) field "
+"blank."
+msgstr ""
+"Prise en charge des balises HTML tels que le (a, img, blockquote, code, em, "
+"ul), etc .. Citations ne sont pas autorisées et ne quittent pas (couleur de "
+"fond) champ vide."
+
+#: Header and Footer Commander.php:327
+msgid ""
+"Background colors: Click on each field to display the color picker. Click "
+"again to close it."
+msgstr ""
+"Les couleurs de fond: Cliquez sur chaque champ pour afficher le sélecteur de "
+"couleur. Cliquez à nouveau pour fermer."
+
+#: Header and Footer Commander.php:339
+msgid "Header Text: "
+msgstr "En-tête:"
+
+#: Header and Footer Commander.php:345 Commander.php:383
+msgid "Background color"
+msgstr "Couleur de fond"
+
+#: Header and Footer Commander.php:351 Commander.php:389
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: Header and Footer Commander.php:357 Commander.php:396
+msgid "Choose Image"
+msgstr "choisir l'image"
+
+#: Header and Footer Commander.php:361
+msgid "Enter an URL, upload or select an existing image for the banner."
+msgstr ""
+"Entrez une URL, télécharger ou sélectionner une image existante pour la "
+"bannière."
+
+#: Header and Footer Commander.php:375
+msgid "Footer Text: "
+msgstr "texte pied de page:"
+
+#: Header and Footer Commander.php:407
+msgid "Custom CSS: "
+msgstr "CSS personnalisé:"
+
+#: Header and Footer Commander.php:414
+msgid "Check to Enable Both Options: "
+msgstr "Cochez la case Activer deux options:"
+
+#: Header and Footer Commander.php:427
+msgid "Settings"
+msgstr ""

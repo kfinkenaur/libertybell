@@ -1,0 +1,6 @@
+Copyright: Best Contact Form, LLC - all rights reserved | http://www.bestcontactform.com
+------------------------------------------------------------------------------------------
+Best Contact Form.
+
+For details and latest version and other products, please visit us at http://www.bestcontactform.com/wordpress.php
+Please contact support for any issues, challenges or recommendations with our product via our contact form on our /contact.php page.

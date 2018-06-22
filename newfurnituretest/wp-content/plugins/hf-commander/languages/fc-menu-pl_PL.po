@@ -1,0 +1,84 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fc-menu\n"
+"POT-Creation-Date: 2013-06-13 07:07-0400\n"
+"PO-Revision-Date: 2013-06-13 07:12-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Header and Footer Commander.php:81
+msgid "Header and Footer Commander"
+msgstr "Dowódca Nagłówek i stopka"
+
+#: Header and Footer Commander.php:90
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nie masz wystarczających uprawnień, aby uzyskać dostęp do tej strony."
+
+#: Header and Footer Commander.php:177
+msgid "settings saved."
+msgstr "Ustawienia zapisane."
+
+#: Header and Footer Commander.php:195
+msgid "Header and Footer Commander Settings"
+msgstr "Ustawienia nagłówka i stopki Komandor"
+
+#: Header and Footer Commander.php:200
+msgid ""
+"Supports HTML tags such as the ( a, img, blockquote, code, em, ul ) etc... "
+"Quotes ( \" ) are not allowed and do not leave ( Background color ) field "
+"blank."
+msgstr ""
+"Obsługa tagów HTML, takich jak (a, img, blockquote, kod, em, ul) itp. .. "
+"Cytaty nie są dozwolone i nie pozostawiać (Kolor tła) pole puste."
+
+#: Header and Footer Commander.php:327
+msgid ""
+"Background colors: Click on each field to display the color picker. Click "
+"again to close it."
+msgstr ""
+"Kolory tła: Kliknij na każdym polu, aby wyświetlić próbnik kolorów. Kliknij "
+"ponownie, aby je zamknąć."
+
+#: Header and Footer Commander.php:339
+msgid "Header Text: "
+msgstr "Tekst nagłówka:"
+
+#: Header and Footer Commander.php:345 Commander.php:383
+msgid "Background color"
+msgstr "kolor tła"
+
+#: Header and Footer Commander.php:351 Commander.php:389
+msgid "Text color"
+msgstr "kolor tekstu"
+
+#: Header and Footer Commander.php:357 Commander.php:396
+msgid "Choose Image"
+msgstr "Wybierz obraz"
+
+#: Header and Footer Commander.php:361
+msgid "Enter an URL, upload or select an existing image for the banner."
+msgstr ""
+"Wpisz adres URL, przesłać lub wybrać istniejący obraz dla transparentu."
+
+#: Header and Footer Commander.php:375
+msgid "Footer Text: "
+msgstr "Stopka Tekst:"
+
+#: Header and Footer Commander.php:407
+msgid "Custom CSS: "
+msgstr "Niestandardowe CSS:"
+
+#: Header and Footer Commander.php:414
+msgid "Check to Enable Both Options: "
+msgstr "Sprawdź włączyć obie opcje:"
+
+#: Header and Footer Commander.php:427
+msgid "Settings"
+msgstr ""
