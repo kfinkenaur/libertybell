@@ -1,0 +1,2752 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Social SEO Booster v1.1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-24 13:19:46+0000\n"
+"Last-Translator: admin <dwaser@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:21
+#: includes/admin/forms/wps-seo-booster-general-settings.php:21
+#: includes/admin/forms/wps-seo-booster-google-settings.php:21
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:21
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:21
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:21
+#@ wpsseo
+msgid "Click to toggle"
+msgstr "Zum Öffnen klicken"
+
+#: includes/admin/forms/wps-seo-booster-google-settings.php:25
+#@ wpsseo
+msgid "Google Authorship Markup Settings"
+msgstr "Google Authorship Einstellungen"
+
+#: includes/admin/forms/wps-seo-booster-google-settings.php:34
+#@ wpsseo
+msgid "Homepage Author:"
+msgstr "Homepage Autor:"
+
+#: includes/admin/forms/wps-seo-booster-google-settings.php:37
+#@ wpsseo
+msgid "Don't show"
+msgstr "Nicht anzeigen"
+
+#: includes/admin/forms/wps-seo-booster-google-settings.php:38
+#@ wpsseo
+msgid "Choose a user for the homepage. This will be used for the <code>rel=\"author\"</code> on the homepage. Make sure the chosen user did enter his/her Google+ profile link on their profile page."
+msgstr "Wählen Sie einen Autor für die Homepage. Dies wird für den Homepage Meta Tag <code>rel=\"author\"</code> verwendet. Stellen Sie sicher, dass der verwendete Autor auch sein Google Plus Profil angegeben hat."
+
+#: includes/admin/forms/wps-seo-booster-google-settings.php:44
+#@ wpsseo
+msgid "Google Plus Publisher:"
+msgstr "Google Plus Publisher:"
+
+#: includes/admin/forms/wps-seo-booster-google-settings.php:48
+#@ wpsseo
+msgid "Enter your Google Plus page URL (example: <code>https://plus.google.com/105389611532237339285</code>) here if you have set up a \"Google+ Page\" for your organization or product, and the plugin will put a rel=\"publisher\" link to the specified Google+ page on your home page."
+msgstr "Geben Sie die URL (z.B.: <code>https://plus.google.com/105389611532237339285</code>) Ihrer Google Plus (Firmen) Seite ein, sofern Sie eine Google Plus Seite für Ihr Uternehmen/Produkt oder Ihre Dienstleistung haben. Das Plugin wird dann den Homepage Meta Tag <code>rel=\"publisher\"</code> als Link zu Ihrer Google Plus Seite einfügen. "
+
+#: includes/admin/forms/wps-seo-booster-general-settings.php:55
+#: includes/admin/forms/wps-seo-booster-google-settings.php:55
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:177
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:65
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:241
+#@ wpsseo
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:12
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:25
+#@ wpsseo
+msgid "Open Graph Settings"
+msgstr "Open Graph Einstellungen"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:38
+#@ wpsseo
+msgid "Uncheck the box to deactivate the open graph features."
+msgstr "Deaktivieren Sie die Checkbox um die Open Graph Optionen zu deaktivieren."
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:44
+#@ wpsseo
+msgid "Facebook App ID/API Key:"
+msgstr "Facebook App ID/API Schlüssel:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:47
+#@ default
+msgid "app_id"
+msgstr ""
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:48
+#@ wpsseo
+msgid "Enter the Facebook Application ID of the Fan Page which is associated with this website."
+msgstr "Geben Sie die ID Ihrer Facebook Applikation, welche Sie für diese Webseite erstellt haben, hier ein."
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:54
+#@ wpsseo
+msgid "Facebook Admins:"
+msgstr "Facebook Administratoren:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:57
+#@ default
+msgid "user_id"
+msgstr ""
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:58
+#@ wpsseo
+msgid "Enter the User ID of the Facebook Fan Page Admin. If you changed the URL of your profile and you have your name in this URL, then the ID can be found by typing the following URL in to your browser: http://graph.facebook.com/USERNAME. Replace USERNAME with your name. If you have mire than one admin for a Fan Page than enter all the ID's in a comma separated list. This will enable Facebook insights."
+msgstr "Geben Sie hier die Benutzer ID des Fan Page Administrators (oder mehreren) ein. Falls Sie die URL zu Ihrem Facebook Profil angepasst haben, können Sie die ID durch eingabe folgender URL in den Browser finden: http://graph.facebook.com/BENUTZERNAME. Ersetzen Sie BENUTZERNAME mit Ihrem eigentlich Facebook Profil Namen. Falls Sie mehr als ein Administrator für Ihre Fan Page haben, können Sie die ID's durch Kommas trennen. Diese Einstellung wird dann Facebook Insights für Sie aktivieren."
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:64
+#@ wpsseo
+msgid "About Image Usage:"
+msgstr "Über die Verwendung von Bildern:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:67
+#@ wpsseo
+msgid "The image is being used to post on the user's wall when he/she likes/shares your post. The plugin will use the images in the following order: First it will check if you have entered an image in \"Always Use This Image\". If that is empty it will check if you uploaded an image in the \"WPSocial SEO Booster Open Graph Metabox\". If this is empty too it will check for a thumbnail (featured image) and if the featured image is emtpy the plugin will scan your content and if you're using an image within your content the plugin will use the first image found."
+msgstr "Das Bild wird zur Publikation verwendet, sobald ein Benutzer auf den gefällt mir Button klickt. Das Plugin wird nach folgenden Kriterien nach einem Bild suchen: Zuerst wird es überprüfen, ob Sie ein Bild in der 'Verwende immer dieses Bild' Einstellung eingegeben haben. Falls nicht, wird es überprüfen, ob Sie ein Standard Bild festgelegt haben. Sollte dies auch nicht der Fall sein, wird das Plugin prüfen, ob Sie ein Artikelbild verwenden. Falls auch nicht, wird es Ihren publizierten Content nach einem Bild durchsuchen. Wird in einem dieser Schritte ein Bild gefunden, wird dieses für die Open Graph Einstellungen verwendet."
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:73
+#@ wpsseo
+msgid "Info:"
+msgstr "Information:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:82
+#@ wpsseo
+msgid "Always Use This Image:"
+msgstr "Verwende immer dieses Bild:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:94
+#@ wpsseo
+msgid "Default Image:"
+msgstr "Standard Bild:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:106
+#@ wpsseo
+msgid "Content Type:"
+msgstr "Content Typ:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:111
+#: includes/metabox/wps-seo-booster-meta.php:321
+#@ wpsseo
+msgid "Article"
+msgstr "Artikel"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:111
+#: includes/metabox/wps-seo-booster-meta.php:321
+#@ wpsseo
+msgid "Book"
+msgstr "Buch"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:111
+#: includes/metabox/wps-seo-booster-meta.php:321
+#@ wpsseo
+msgid "Profile"
+msgstr "Profil"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:111
+#: includes/metabox/wps-seo-booster-meta.php:321
+#: includes/schema/wps-seo-booster-schema-business.php:123
+#@ wpsseo
+msgid "Website"
+msgstr "Webseite"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:111
+#: includes/metabox/wps-seo-booster-meta.php:321
+#@ wpsseo
+msgid "Music Album"
+msgstr "Musik Album"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:111
+#: includes/metabox/wps-seo-booster-meta.php:321
+#@ wpsseo
+msgid "Song"
+msgstr "Lied"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:111
+#: includes/metabox/wps-seo-booster-meta.php:321
+#@ wpsseo
+msgid "Movie"
+msgstr "Film"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:111
+#: includes/metabox/wps-seo-booster-meta.php:321
+#@ wpsseo
+msgid "TV Show"
+msgstr "TV Show"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:127
+#@ wpsseo
+msgid "Homepage Settings:"
+msgstr "Homepage Einstellungen"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:130
+#@ wpsseo
+msgid "The following values will be used for the homepage. Here you can enter custom values and if you activate them then they will be used on the homepage, regardless what other settings you have for the home page. This is a great feature to customize the open graph settings for the homepage."
+msgstr "Die untenstehenden Angaben werden für die Homepage verwendet, sofern Sie sie ausfüllen und speichern. Wenn Sie diese verwenden, werden sie für die Homepage Open Graph Meta Tags immer angewendet, egal was für andere Einstellungen Sie haben/machen."
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:136
+#@ wpsseo
+msgid "Activate Homepage Values:"
+msgstr "Homepage Einträge anwenden:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:140
+#@ wpsseo
+msgid "Check the box to activate the homepage values."
+msgstr "Um die Homepage Meta Tag zu aktivieren, klicken Sie auf die Checkbox."
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:146
+#@ wpsseo
+msgid "Homepage Title:"
+msgstr "Homepage Titel:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:149
+#@ default
+msgid "home_title"
+msgstr ""
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:150
+#@ wpsseo
+msgid "Enter a title for the homepage."
+msgstr "Geben Sie einen Titel für die Homepage ein."
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:156
+#@ wpsseo
+msgid "Homepage Description:"
+msgstr "Homepage Beschrieb:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:159
+#@ default
+msgid "home_description"
+msgstr ""
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:160
+#@ wpsseo
+msgid "Enter a description for the homepage."
+msgstr "Geben Sie einen Beschrieb für die Homepage ein."
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:166
+#@ wpsseo
+msgid "Homepage Image:"
+msgstr "Homepage Bild:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:170
+#@ wpsseo
+msgid "Please use the FULL URL to the image (e.g. http://www.yourdomain.com/images/image.jpg). If set, this image will be used for the homepage."
+msgstr "Bitte geben Sie die komplette URL (z.B. http://www.ihredomain.de/bilder/bild.png) an. Falls hier ein Bild eingegeben wird, wird dieses immer für die Homepage verwendet."
+
+#: includes/admin/forms/wps-seo-booster-plugin-settings.php:21
+#@ wpsseo
+msgid "SEO Booster Settings"
+msgstr "SEO Booster Einstellungen"
+
+#: includes/admin/wps-seo-booster-about-box.php:53
+#@ wpsseo
+msgid "Plugin:"
+msgstr "Plugin:"
+
+#: includes/metabox/wps-seo-booster-meta.php:48
+#@ wpsseo
+msgid "WPSocial SEO Booster"
+msgstr "WPSocial SEO Booster"
+
+#: includes/admin/wps-seo-booster-about-box.php:62
+#@ wpsseo
+msgid "Version:"
+msgstr "Version:"
+
+#: includes/admin/wps-seo-booster-about-box.php:71
+#@ wpsseo
+msgid "Author:"
+msgstr "Autor:"
+
+#: includes/admin/wps-seo-booster-about-box.php:122
+#@ wpsseo
+msgid "No items."
+msgstr "Nichts gefunden."
+
+#: includes/admin/wps-seo-booster-about-box.php:144
+#@ wpsseo
+msgid "Subscribe with RSS"
+msgstr "RSS Feed"
+
+#: wpsocial-seo-booster.php:215
+#@ wpsseo
+msgid "WPSocial SEO Booster Settings"
+msgstr "WPSocial SEO Booster Einstellungen"
+
+#: includes/metabox/wps-seo-booster-meta.php:217
+#: includes/metabox/wps-seo-booster-meta.php:281
+#@ wpsseo
+msgid "Open Graph"
+msgstr "Open Graph"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:52
+#: includes/metabox/wps-seo-booster-meta.php:218
+#@ wpsseo
+msgid "Review"
+msgstr "Bewertung"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:56
+#: includes/metabox/wps-seo-booster-meta.php:219
+#: includes/schema/wps-seo-booster-schema-review.php:97
+#: includes/schema/wps-seo-booster-schema-software.php:73
+#@ wpsseo
+msgid "Product"
+msgstr "Produkt"
+
+#: includes/metabox/wps-seo-booster-meta.php:220
+#@ wpsseo
+msgid "Business"
+msgstr "Unternehmen"
+
+#: includes/metabox/wps-seo-booster-meta.php:221
+#@ wpsseo
+msgid "People"
+msgstr "Personen"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:60
+#: includes/metabox/wps-seo-booster-meta.php:222
+#@ wpsseo
+msgid "Recipes"
+msgstr "Rezepte"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:64
+#: includes/metabox/wps-seo-booster-meta.php:223
+#@ wpsseo
+msgid "Software"
+msgstr "Software"
+
+#: includes/admin/forms/wps-seo-booster-plugin-settings.php:47
+#: includes/metabox/wps-seo-booster-meta.php:224
+#@ wpsseo
+msgid "Videos"
+msgstr "Videos"
+
+#: includes/metabox/wps-seo-booster-meta.php:225
+#@ wpsseo
+msgid "Event"
+msgstr "Veranstaltungen"
+
+#: includes/metabox/wps-seo-booster-meta.php:285
+#@ wpsseo
+msgid "Open Graph Title: "
+msgstr "Open Graph Titel: "
+
+#: includes/metabox/wps-seo-booster-meta.php:289
+#@ wpsseo
+msgid "Add a custom title for your post. This will be used to post on an user's wall when they like/share your post. If you use any SEO plugin or if your theme does support a custom title for SEO, then the plugin will use the title you used within the plugin or the theme and you can leave that empty if you like. <strong>If you enter a value here, the plugin will use it, regardless if you have other values within the SEO plugin or theme.</strong>"
+msgstr "Geben Sie hier einen eigenen Open Graph Titel ein. Dieser wird als Link Titel verwendet, wenn ein Besucher auf den Gefällt mir Button klickt und der Snippet auf Facebook gepostet wird. Wenn Sie ein SEO Plugin verwenden, oder Ihr Theme SEO Optionen bietet, können Sie diese Einstellung leer lassen, wenn Sie möchten, dass das Plugin den SEO Titel verwenden soll. <strong>Wenn sie hier einen Titel eingeben, wird dieser immer verwendet, egal welche Einstellungen Sie sonst noch verwenden.</strong>"
+
+#: includes/metabox/wps-seo-booster-meta.php:295
+#@ wpsseo
+msgid "Open Graph Description:"
+msgstr "Open Graph Beschrieb:"
+
+#: includes/metabox/wps-seo-booster-meta.php:299
+#@ wpsseo
+msgid "Add a custom description for your post. This will be used to post on an user's wall when they like/share your post. If you use any SEO plugin or if your theme does support a custom description for SEO, then the plugin will use the description you used within the plugin or the theme and you can leave that empty if you like. <strong>If you enter a value here, the plugin will use it, regardless if you have other values within the SEO plugin or theme.</strong>"
+msgstr "Geben Sie hier einen eigenen Open Graph Beschrieb ein. Dieser wird als Link Beschrieb verwendet, wenn ein Besucher auf den Gefällt mir Button klickt und der Snippet auf Facebook gepostet wird. Wenn Sie ein SEO Plugin verwenden, oder Ihr Theme SEO Optionen bietet, können Sie diese Einstellung leer lassen, wenn Sie möchten, dass das Plugin den SEO Beschrieb verwenden soll. <strong>Wenn sie hier einen Beschrieb eingeben, wird dieser immer verwendet, egal welche Einstellungen Sie sonst noch verwenden.</strong>"
+
+#: includes/metabox/wps-seo-booster-meta.php:305
+#@ wpsseo
+msgid "Custom Open Graph Image: "
+msgstr "Open Graph Bild: "
+
+#: includes/metabox/wps-seo-booster-meta.php:316
+#@ wpsseo
+msgid "Open Graph Content Type: "
+msgstr "Open Graph Content Typ: "
+
+#: includes/metabox/wps-seo-booster-meta.php:332
+#@ wpsseo
+msgid "Choose a custom content type for your post from the list above. If you leave this empty the default value from the settings page will be taken."
+msgstr "Hier können Sie einen spezifischen Content Typ für den gerade erstellten Content angeben. Wenn Sie nichts angeben, wird das Plugin den Typ von der Einstellungs-Seite verwenden."
+
+#: includes/metabox/wps-seo-booster-meta.php:338
+#: includes/metabox/wps-seo-booster-meta.php:1547
+#@ wpsseo
+msgid "Video URL: "
+msgstr "Video URL: "
+
+#: includes/metabox/wps-seo-booster-meta.php:342
+#@ wpsseo
+msgid "Please use the FULL URL to the video (e.g. http://www.yourdomain.com/videos/video.mp4)."
+msgstr "Bitte geben Sie die komplette URL zum Video ein (z.B. http://www.ihredomain.de/video/video.mp4)."
+
+#: includes/metabox/wps-seo-booster-meta.php:348
+#@ wpsseo
+msgid "Video Height: "
+msgstr "Höhe des Videos: "
+
+#: includes/metabox/wps-seo-booster-meta.php:352
+#@ wpsseo
+msgid "Enter the height of your video. (Example: 320px)"
+msgstr "Geben Sie die Höhe des Videos an. (z.B. 320px)"
+
+#: includes/metabox/wps-seo-booster-meta.php:358
+#@ wpsseo
+msgid "Video Width: "
+msgstr "Breite des Videos: "
+
+#: includes/metabox/wps-seo-booster-meta.php:362
+#@ wpsseo
+msgid "Enter the width of your video. (Example: 640px)"
+msgstr "Geben Sie die Breite des Videos an. (z.B. 640px)"
+
+#: includes/metabox/wps-seo-booster-meta.php:368
+#@ wpsseo
+msgid "Audio URL: "
+msgstr "Audio URL: "
+
+#: includes/metabox/wps-seo-booster-meta.php:372
+#@ wpsseo
+msgid "Please use the FULL URL to the audio (e.g. http://www.yourdomain.com/audios/audio.mp3)."
+msgstr "Bitte geben Sie die komplette URL zur Audio Datei an. (z.B. http://www.ihredomain.de/audio/audio.mp3)"
+
+#: includes/metabox/wps-seo-booster-meta.php:378
+#@ wpsseo
+msgid "Audio Title: "
+msgstr "Audio Titel: "
+
+#: includes/metabox/wps-seo-booster-meta.php:382
+#@ wpsseo
+msgid "Enter the title for your audio."
+msgstr "Geben Sie den Audio Titel ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:388
+#@ wpsseo
+msgid "Audio Artist: "
+msgstr "Audio Künstler: "
+
+#: includes/metabox/wps-seo-booster-meta.php:392
+#@ wpsseo
+msgid "Enter the name of the artist of the audio."
+msgstr "Geben Sie den Namen des Audio Künstlers ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:398
+#@ wpsseo
+msgid "Audio Album: "
+msgstr "Audio Album: "
+
+#: includes/metabox/wps-seo-booster-meta.php:402
+#@ wpsseo
+msgid "Enter the name of the album for the audio."
+msgstr "Geben Sie den Namen des Audio Albums ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:408
+#@ wpsseo
+msgid "Facebook App ID: "
+msgstr "Facebook App ID: "
+
+#: includes/metabox/wps-seo-booster-meta.php:412
+#@ wpsseo
+msgid "Enter a custom Facebook App ID."
+msgstr "Geben Sie eine für diesen Content spezifische Facebook App Id ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:418
+#@ wpsseo
+msgid "Facebook Admins: "
+msgstr "Facebook Administrator: "
+
+#: includes/metabox/wps-seo-booster-meta.php:422
+#@ wpsseo
+msgid "Enter the ID of a Facebook admin."
+msgstr "Geben Sie eine für diesen Content spezifische Facebook Administrator Id ein. Wenn Sie mehr als eine ID eingeben möchten, trennen Sie diese mit einem Komma."
+
+#: includes/metabox/wps-seo-booster-meta.php:444
+#@ wpsseo
+msgid "Rich Snippets Review"
+msgstr "Rich Snippets Bewertung"
+
+#: includes/metabox/wps-seo-booster-meta.php:453
+#: includes/metabox/wps-seo-booster-meta.php:756
+#: includes/metabox/wps-seo-booster-meta.php:878
+#: includes/metabox/wps-seo-booster-meta.php:1020
+#: includes/metabox/wps-seo-booster-meta.php:1338
+#@ wpsseo
+msgid "Top"
+msgstr "Oben"
+
+#: includes/metabox/wps-seo-booster-meta.php:453
+#: includes/metabox/wps-seo-booster-meta.php:756
+#: includes/metabox/wps-seo-booster-meta.php:878
+#: includes/metabox/wps-seo-booster-meta.php:1020
+#: includes/metabox/wps-seo-booster-meta.php:1338
+#@ wpsseo
+msgid "Bottom"
+msgstr "Unten"
+
+#: includes/metabox/wps-seo-booster-meta.php:464
+#@ wpsseo
+msgid "Choose the position on where you want to show your review information. Top means above the actual post content, bottom means below the actual post content."
+msgstr "Wählen Sie die Position aus, an welcher die Bewertungs Informationen angezeigt werden sollen. Mit oben ist vor dem Content gemeint und mit unten, nach dem Content."
+
+#: includes/metabox/wps-seo-booster-meta.php:470
+#: includes/metabox/wps-seo-booster-meta.php:621
+#@ wpsseo
+msgid "Product Name: "
+msgstr "Produkt Name: "
+
+#: includes/metabox/wps-seo-booster-meta.php:474
+#@ wpsseo
+msgid "Enter the name of the product for which you're writing the review for."
+msgstr "Geben Sie den Namen des Produktes, welches Sie bewerten, ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:480
+#@ wpsseo
+msgid "Product Type (optional): "
+msgstr "Produkt Typ (optional): "
+
+#: includes/metabox/wps-seo-booster-meta.php:484
+#@ wpsseo
+msgid "Enter the type of the product. Example: if you're writing a review about WPSocial SEO Booster, the product type could be WordPress Plugin. This is optional and not used for the Google Rich Snippets."
+msgstr "Geben Sie den Typ des Produktes ein. z.B.: Wenn Sie eine Bewertung über WPSocial SEO Booster schreiben, können Sie WordPress Plugin als produkt Typ angeben. Dies ist optional und wird in den Google Rich Snippets nicht verwendet."
+
+#: includes/metabox/wps-seo-booster-meta.php:490
+#@ wpsseo
+msgid "Product Version (optional): "
+msgstr "Produkt Version (optional): "
+
+#: includes/metabox/wps-seo-booster-meta.php:494
+#@ wpsseo
+msgid "Enter the version of the product like: 1.0. This is optional and not used for the Google Rich Snippets."
+msgstr "geben sie die Version des Produktes ein. z.B.: 1.0. Dies ist optional und wird in den Google Rich Snippets nicht verwendet."
+
+#: includes/metabox/wps-seo-booster-meta.php:500
+#@ wpsseo
+msgid "Author Name:"
+msgstr "Autor Name: "
+
+#: includes/metabox/wps-seo-booster-meta.php:504
+#: includes/metabox/wps-seo-booster-meta.php:1481
+#@ wpsseo
+msgid "Enter the name of the author who wrote the review. Leave it empty if you want to use the author from WordPress."
+msgstr "Geben Sie den Namen des Autors an, welcher die Bewertung geschrieben hat. Lassen Sie dieses Feld leer, wenn der Autor Name von WordPress genommen werden soll."
+
+#: includes/metabox/wps-seo-booster-meta.php:510
+#: includes/metabox/wps-seo-booster-meta.php:1067
+#@ wpsseo
+msgid "Date: "
+msgstr "Datum: "
+
+#: includes/metabox/wps-seo-booster-meta.php:514
+#@ wpsseo
+msgid "Enter a publihing date for the review. Use the following date format: 2012-06-11. Leave it empty if you want to use the publishing date from WordPress."
+msgstr "Geben Sie ein Publikations Datum der Bewertung ein. Verwenden Sie folgendes Format: 2012-06-11. Lassen Sie es leer, wenn das Datum von WordPress übernommen werden soll."
+
+#: includes/metabox/wps-seo-booster-meta.php:520
+#: includes/metabox/wps-seo-booster-meta.php:1455
+#@ wpsseo
+msgid "Rating Value: "
+msgstr "Ihre Bewertung: "
+
+#: includes/metabox/wps-seo-booster-meta.php:525
+#: includes/metabox/wps-seo-booster-meta.php:1296
+#: includes/metabox/wps-seo-booster-meta.php:1460
+#@ wpsseo
+msgid "1 Star"
+msgstr "1 Stern"
+
+#: includes/metabox/wps-seo-booster-meta.php:525
+#: includes/metabox/wps-seo-booster-meta.php:1296
+#: includes/metabox/wps-seo-booster-meta.php:1460
+#@ wpsseo
+msgid "1.5 Stars"
+msgstr "1.5 Sterne"
+
+#: includes/metabox/wps-seo-booster-meta.php:525
+#: includes/metabox/wps-seo-booster-meta.php:1296
+#: includes/metabox/wps-seo-booster-meta.php:1460
+#@ wpsseo
+msgid "2.5 Stars"
+msgstr "2.5 Sterne"
+
+#: includes/metabox/wps-seo-booster-meta.php:525
+#: includes/metabox/wps-seo-booster-meta.php:1296
+#: includes/metabox/wps-seo-booster-meta.php:1460
+#@ wpsseo
+msgid "3 Stars"
+msgstr "3 Sterne"
+
+#: includes/metabox/wps-seo-booster-meta.php:525
+#: includes/metabox/wps-seo-booster-meta.php:1296
+#: includes/metabox/wps-seo-booster-meta.php:1460
+#@ wpsseo
+msgid "3.5 Stars"
+msgstr "3.5 Sterne"
+
+#: includes/metabox/wps-seo-booster-meta.php:525
+#: includes/metabox/wps-seo-booster-meta.php:1296
+#: includes/metabox/wps-seo-booster-meta.php:1460
+#@ wpsseo
+msgid "4 Stars"
+msgstr "4 Sterne"
+
+#: includes/metabox/wps-seo-booster-meta.php:525
+#: includes/metabox/wps-seo-booster-meta.php:1296
+#: includes/metabox/wps-seo-booster-meta.php:1460
+#@ wpsseo
+msgid "4.5 Stars"
+msgstr "4.5 Sterne"
+
+#: includes/metabox/wps-seo-booster-meta.php:525
+#: includes/metabox/wps-seo-booster-meta.php:1296
+#: includes/metabox/wps-seo-booster-meta.php:1460
+#@ wpsseo
+msgid "5 Stars"
+msgstr "5 Sterne"
+
+#: includes/metabox/wps-seo-booster-meta.php:536
+#@ wpsseo
+msgid "Choose your rating for the product."
+msgstr "Wählen Sie Ihre Bewertung für das Produkt aus."
+
+#: includes/metabox/wps-seo-booster-meta.php:542
+#@ wpsseo
+msgid "Product Author (optional): "
+msgstr "Produkt Autor (optional): "
+
+#: includes/metabox/wps-seo-booster-meta.php:546
+#@ wpsseo
+msgid "Enter the name of the Product Author/Company. Example: for the WPSocial SEO Booster plugin you could enter WPSocial.com here. This is optional and not used for the Google Rich Snippets."
+msgstr "Geben Sie den Namen des Produktherstellers ein. Dies ist optional und wird in den Google Rich Snippets nicht verwendet."
+
+#: includes/metabox/wps-seo-booster-meta.php:552
+#@ wpsseo
+msgid "Product Link (optional): "
+msgstr "Produkt Link (optional): "
+
+#: includes/metabox/wps-seo-booster-meta.php:556
+#@ wpsseo
+msgid "Enter the link to the product you're reviewing. This is optional and will only be used to add a link to the author. So if you don't use an author within the field above, you can leave that empty too. This is optional and not used for the Google Rich Snippets."
+msgstr "Geben Sie den zum Produkt, welches Sie bewerten ein. Dies ist optional und wird in den Google Rich Snippets nicht verwendet."
+
+#: includes/metabox/wps-seo-booster-meta.php:562
+#: includes/metabox/wps-seo-booster-meta.php:681
+#@ wpsseo
+msgid "Product Price: "
+msgstr "Produkt Preis: "
+
+#: includes/metabox/wps-seo-booster-meta.php:566
+#: includes/metabox/wps-seo-booster-meta.php:685
+#@ wpsseo
+msgid "Enter the price for the product."
+msgstr "Geben Sie den Preis des Produktes an."
+
+#: includes/metabox/wps-seo-booster-meta.php:572
+#@ wpsseo
+msgid "Price Curtrency: "
+msgstr "Währung: "
+
+#: includes/metabox/wps-seo-booster-meta.php:576
+#: includes/metabox/wps-seo-booster-meta.php:695
+#: includes/metabox/wps-seo-booster-meta.php:1449
+#@ wpsseo
+msgid "Enter the currency for the price. Example: if the currency is US Dollars enter USD."
+msgstr "Geben Sie die Währung an. z.B. wenn der Preis in Euro angegeben wird geben EUR ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:582
+#: includes/metabox/wps-seo-booster-meta.php:1077
+#@ wpsseo
+msgid "Summary: "
+msgstr "Zusammenfassung: "
+
+#: includes/metabox/wps-seo-booster-meta.php:586
+#@ wpsseo
+msgid "Enter a summary for your review."
+msgstr "Geben Sie eine Zusammenfassung Ihrer Bewertung ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:608
+#@ wpsseo
+msgid "Rich Snippets Product"
+msgstr "Rich Snippets Produkt"
+
+#: includes/metabox/wps-seo-booster-meta.php:612
+#: includes/metabox/wps-seo-booster-meta.php:1507
+#: includes/metabox/wps-seo-booster-meta.php:1597
+#@ wpsseo
+msgid "Info: "
+msgstr "Information: "
+
+#: includes/metabox/wps-seo-booster-meta.php:615
+#@ wpsseo
+msgid "The Rich Snippets for Products are only being added to the code and won't be displayed within your content."
+msgstr "Die Rich Snippets für Produkte werden nur im Code angegeben und können im Content nicht gesehen werden."
+
+#: includes/metabox/wps-seo-booster-meta.php:625
+#@ wpsseo
+msgid "Enter the name of the product."
+msgstr "Geben Sie den Namen des Produktes ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:631
+#@ wpsseo
+msgid "Product Brand: "
+msgstr "Produkt Marke: "
+
+#: includes/metabox/wps-seo-booster-meta.php:635
+#@ wpsseo
+msgid "Enter the name of the brand for the product."
+msgstr "Geben Sie die Marke des Produktes ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:641
+#@ wpsseo
+msgid "Product Image: "
+msgstr "Produkt Bild: "
+
+#: includes/metabox/wps-seo-booster-meta.php:651
+#@ wpsseo
+msgid "Product Description: "
+msgstr "Produkt Beschrieb: "
+
+#: includes/metabox/wps-seo-booster-meta.php:655
+#@ wpsseo
+msgid "Enter a short description for the product."
+msgstr "Geben Sie eine Kurzbeschrieb für das Produkt ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:661
+#@ wpsseo
+msgid "Product SKU:"
+msgstr "Produkt Nummer:"
+
+#: includes/metabox/wps-seo-booster-meta.php:665
+#@ wpsseo
+msgid "If the product has a SKU, enter it here."
+msgstr "Wenn das Produk eine spezifische Nummer hat, geben Sie diese hier ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:671
+#@ wpsseo
+msgid "Product Category: "
+msgstr "Produkt Kategorie: "
+
+#: includes/metabox/wps-seo-booster-meta.php:675
+#@ wpsseo
+msgid "Enter a product category. For example, Books-Fiction, Tools, or Cars. You can include multiple categories like: Hardware > Tools > Anvils. Any value is accepted, but Google recognizes the categories described <a href=\"http://support.google.com/merchants/bin/answer.py?hl=en&answer=160081\" target=\"_blank\">in this article</a>."
+msgstr "Geben Sie eine Kategorie für das Produkt an. Weiter Informationen zu den Produkt Kategorien können Sie <a href=\"http://support.google.com/merchants/bin/answer.py?hl=de&hlrm=en&answer=160081\" target=\"_blank\">hier</a> finden."
+
+#: includes/metabox/wps-seo-booster-meta.php:691
+#: includes/metabox/wps-seo-booster-meta.php:1445
+#@ wpsseo
+msgid "Price Currency: "
+msgstr "Währung: "
+
+#: includes/metabox/wps-seo-booster-meta.php:701
+#@ wpsseo
+msgid "On Sale Price: "
+msgstr "Aktionspreis: "
+
+#: includes/metabox/wps-seo-booster-meta.php:705
+#@ wpsseo
+msgid "If the product is on sale or has a special offer (price reduction), enter the special price here."
+msgstr "Falls das Produkt einen Aktionspreis hat, geben Sie diesen hier ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:711
+#@ wpsseo
+msgid "On Sale Ends: "
+msgstr "Ende des Aktionspreises: "
+
+#: includes/metabox/wps-seo-booster-meta.php:715
+#@ wpsseo
+msgid "If the product is on sale but for limited time only, then enter the end date of the offer here. The date should have the following format: 2012-12-31."
+msgstr "Falls das angegebene Produkt einen Aktionspreis hat und diese Aktion an einem bestimmten Datum zu ende ist, geben Sie dieses Datum mit folgendem Format hier ein: 2012-01-31."
+
+#: includes/metabox/wps-seo-booster-meta.php:721
+#@ wpsseo
+msgid "Name of the Seller: "
+msgstr "Names des Verkäufers: "
+
+#: includes/metabox/wps-seo-booster-meta.php:725
+#@ wpsseo
+msgid "Enter the name of the seller here."
+msgstr "Geben sie hier den Namen des Produkte Verkäufers ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:747
+#@ wpsseo
+msgid "Rich Snippets Business"
+msgstr "Rich Snippets Unternehmen"
+
+#: includes/metabox/wps-seo-booster-meta.php:773
+#@ wpsseo
+msgid "Business Name: "
+msgstr "Geschäftsname: "
+
+#: includes/metabox/wps-seo-booster-meta.php:777
+#@ wpsseo
+msgid "Enter the business name."
+msgstr "Geben Sie den Namen des Unternehmens ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:783
+#: includes/metabox/wps-seo-booster-meta.php:915
+#@ wpsseo
+msgid "Street: "
+msgstr "Strasse: "
+
+#: includes/metabox/wps-seo-booster-meta.php:787
+#: includes/metabox/wps-seo-booster-meta.php:919
+#@ wpsseo
+msgid "Enter the street address."
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:793
+#: includes/metabox/wps-seo-booster-meta.php:925
+#: includes/metabox/wps-seo-booster-meta.php:1676
+#@ wpsseo
+msgid "Locality: "
+msgstr "Ort: "
+
+#: includes/metabox/wps-seo-booster-meta.php:797
+#: includes/metabox/wps-seo-booster-meta.php:929
+#@ wpsseo
+msgid "Enter the locality."
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:803
+#: includes/metabox/wps-seo-booster-meta.php:935
+#: includes/metabox/wps-seo-booster-meta.php:1686
+#@ wpsseo
+msgid "Region: "
+msgstr "Region: "
+
+#: includes/metabox/wps-seo-booster-meta.php:807
+#: includes/metabox/wps-seo-booster-meta.php:939
+#@ wpsseo
+msgid "Enter the region."
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:813
+#: includes/metabox/wps-seo-booster-meta.php:945
+#@ wpsseo
+msgid "Postal Code:"
+msgstr "PLZ: "
+
+#: includes/metabox/wps-seo-booster-meta.php:817
+#: includes/metabox/wps-seo-booster-meta.php:949
+#@ wpsseo
+msgid "Enter the postal code."
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:823
+#: includes/metabox/wps-seo-booster-meta.php:955
+#@ wpsseo
+msgid "Telephone: "
+msgstr "Telefon: "
+
+#: includes/metabox/wps-seo-booster-meta.php:827
+#: includes/metabox/wps-seo-booster-meta.php:959
+#@ wpsseo
+msgid "Enter the telephone number"
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:833
+#: includes/metabox/wps-seo-booster-meta.php:965
+#@ wpsseo
+msgid "Email: "
+msgstr "Email: "
+
+#: includes/metabox/wps-seo-booster-meta.php:837
+#: includes/metabox/wps-seo-booster-meta.php:969
+#@ wpsseo
+msgid "Enter the email address."
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:843
+#@ wpsseo
+msgid "URL: "
+msgstr "URL: "
+
+#: includes/metabox/wps-seo-booster-meta.php:847
+#@ wpsseo
+msgid "Enter the URL of the business website."
+msgstr "Geben Sie die URL der Unternehmens Webseite ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:869
+#@ wpsseo
+msgid "Rich Snippets Person"
+msgstr "Rich Snippets Person"
+
+#: includes/metabox/wps-seo-booster-meta.php:889
+#: includes/metabox/wps-seo-booster-meta.php:1031
+#: includes/metabox/wps-seo-booster-meta.php:1349
+#@ wpsseo
+msgid "Choose the position on where you want to show your information. Top means above the actual post content, bottom means below the actual post content."
+msgstr "Wählen Sie die Position aus, an welcher die Personen Informationen angezeigt werden sollen. Mit oben ist vor dem Content gemeint und mit unten, nach dem Content."
+
+#: includes/metabox/wps-seo-booster-meta.php:895
+#: includes/metabox/wps-seo-booster-meta.php:1355
+#: includes/metabox/wps-seo-booster-meta.php:1516
+#@ wpsseo
+msgid "Name: "
+msgstr "Name: "
+
+#: includes/metabox/wps-seo-booster-meta.php:899
+#@ wpsseo
+msgid "Enter the full name."
+msgstr "Geben Sie den Vor- und Nachnamen ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:905
+#@ wpsseo
+msgid "Nick Name: "
+msgstr "Spitzname: "
+
+#: includes/metabox/wps-seo-booster-meta.php:909
+#@ wpsseo
+msgid "Enter a nick name if you have one."
+msgstr "Geben sie hier Ihren Spitznamen an, sofern Sie einen haben."
+
+#: includes/metabox/wps-seo-booster-meta.php:975
+#@ wpsseo
+msgid "Job Title: "
+msgstr "Job Position: "
+
+#: includes/metabox/wps-seo-booster-meta.php:979
+#@ wpsseo
+msgid "Enter your job title."
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:985
+#@ wpsseo
+msgid "Business: "
+msgstr "Unternehmen: "
+
+#: includes/metabox/wps-seo-booster-meta.php:989
+#@ wpsseo
+msgid "Enter the name of the business you work for."
+msgstr "Geben Sie den Namen des Unternehmens an, für welches Sie arbeiten."
+
+#: includes/metabox/wps-seo-booster-meta.php:1011
+#@ wpsseo
+msgid "Rich Snippets Recipes"
+msgstr "Rich Snippets Rezepte"
+
+#: includes/metabox/wps-seo-booster-meta.php:1037
+#@ wpsseo
+msgid "Name of the Recipe: "
+msgstr "Rezept Name: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1041
+#@ wpsseo
+msgid "Enter the name for the recipe."
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:1047
+#: includes/metabox/wps-seo-booster-meta.php:1375
+#@ wpsseo
+msgid "Image: "
+msgstr "Bild: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1057
+#@ wpsseo
+msgid "Author Name: "
+msgstr "Autor Name: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1061
+#@ wpsseo
+msgid "Enter the name of the author for the recipe."
+msgstr "Geben Sie den Namen des Rezept Autors hier ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1071
+#@ wpsseo
+msgid "Enter a publishing date for the recipe. To use the one from the post, just leave it empty. If you're using a date it should have the following format: 2012-05-11."
+msgstr "Geben Sie ein Publikations Datum des Rezeptes ein. Verwenden Sie folgendes Format: 2012-06-11. Lassen Sie es leer, wenn das Datum von WordPress übernommen werden soll."
+
+#: includes/metabox/wps-seo-booster-meta.php:1081
+#@ wpsseo
+msgid "Enter a summary for the recipe."
+msgstr "Geben Sie eine Zusammenfassung für das Rezept ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1087
+#@ wpsseo
+msgid "Prep Time: "
+msgstr "Vorbereitungsdauer: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1097
+#@ wpsseo
+msgid "Cooke Time: "
+msgstr "Kochdauer: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1107
+#@ wpsseo
+msgid "Total Time: "
+msgstr "Gesamtdauer: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1117
+#@ wpsseo
+msgid "Yield: "
+msgstr "Portion: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1121
+#@ wpsseo
+msgid "Example: 1 9\" pie (8 servings)"
+msgstr "Geben Sie hier an, welche Menge für wieviele Portionen gerechnet werden."
+
+#: includes/metabox/wps-seo-booster-meta.php:1127
+#@ wpsseo
+msgid "Serving Size: "
+msgstr "Portionsgrösse: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1131
+#@ wpsseo
+msgid "Example: 1 medium slice"
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:1137
+#@ wpsseo
+msgid "Calories: "
+msgstr "Kalorien: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1141
+#@ wpsseo
+msgid "Enter the calories per serving. Example: 250"
+msgstr "Geben Sie die Kalorienmenge pro Portion an. z.B. 450"
+
+#: includes/metabox/wps-seo-booster-meta.php:1147
+#@ wpsseo
+msgid "Fat: "
+msgstr "Fett: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1151
+#@ wpsseo
+msgid "Enter the fat per serving. Example: 12g"
+msgstr "Geben Sie hier den Fettgehalt pro Portion an. z.B. 12g"
+
+#: includes/metabox/wps-seo-booster-meta.php:1157
+#@ wpsseo
+msgid "Ingredients: "
+msgstr "Zutaten. "
+
+#: includes/metabox/wps-seo-booster-meta.php:1229
+#@ wpsseo
+msgid "Directions: "
+msgstr "Zubereitung: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1236
+#@ wpsseo
+msgid "Enter the directions here."
+msgstr "Geben Sie hier die Zubereitungsschritte ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1329
+#@ wpsseo
+msgid "Rich Snippets Software"
+msgstr "Rich Snippets Software"
+
+#: includes/metabox/wps-seo-booster-meta.php:1359
+#@ wpsseo
+msgid "The name of the software."
+msgstr "Name der Software:"
+
+#: includes/metabox/wps-seo-booster-meta.php:1365
+#: includes/metabox/wps-seo-booster-meta.php:1526
+#@ wpsseo
+msgid "Description: "
+msgstr "Beschrieb: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1369
+#@ wpsseo
+msgid "The description of the software."
+msgstr "Beschrieb der Software."
+
+#: includes/metabox/wps-seo-booster-meta.php:1385
+#@ wpsseo
+msgid "Author: "
+msgstr "Autor: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1389
+#@ wpsseo
+msgid "The author of the software."
+msgstr "Geben sie hier den Namen des Software Autors/Entwicklers ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1395
+#@ wpsseo
+msgid "Version: "
+msgstr "Version: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1399
+#@ wpsseo
+msgid "The software version."
+msgstr "Geben Sie die Version der Software ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1405
+#@ wpsseo
+msgid "Language: "
+msgstr "Sprache: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1409
+#@ wpsseo
+msgid "The language of the software"
+msgstr "Geben sie die Sprache der Software ein. z.B. Deutsch, Englisch usw."
+
+#: includes/metabox/wps-seo-booster-meta.php:1415
+#@ wpsseo
+msgid "Operating System: "
+msgstr "Betriebssystem: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1419
+#@ wpsseo
+msgid "Operating systems required (for example, \"Windows 7\", \"OSX 10.6\", \"Android 1.6\")"
+msgstr "Geben Sie hier das Betriebssystem ein, für welches die Software geschrieben wurde. (z.B. Windows 7, OSX 10.6, Android 1.6"
+
+#: includes/metabox/wps-seo-booster-meta.php:1425
+#@ wpsseo
+msgid "Category: "
+msgstr "Kategorie: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1429
+#@ wpsseo
+msgid "The type of software application (for example, BusinessApplication or GameApplication). Must be one of the <a href=\"http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1645527\" target=\"_blank\">supported software application types</a>."
+msgstr "Geben Sie eine oder mehrere Kategorien für die Software an. Weitere Informationen zu den Kategorien finden Sie <a href=\"http://support.google.com/webmasters/bin/answer.py?hl=de&answer=1645527&topic=1088474&ctx=topic\" target=\"_blank\">hier</a>"
+
+#: includes/metabox/wps-seo-booster-meta.php:1435
+#@ wpsseo
+msgid "Price: "
+msgstr "Preis: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1439
+#@ wpsseo
+msgid "Enter the price for the software."
+msgstr "Geben Sie den Preis für die Software ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1471
+#@ wpsseo
+msgid "Your rating for the software."
+msgstr "Geben Sie Ihre Bewertung für die Software ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1477
+#@ wpsseo
+msgid "Rating Author Name:"
+msgstr "Autor Name:"
+
+#: includes/metabox/wps-seo-booster-meta.php:1503
+#@ wpsseo
+msgid "Rich Snippets Videos"
+msgstr "Rich Snippets Videos"
+
+#: includes/metabox/wps-seo-booster-meta.php:1510
+#@ wpsseo
+msgid "Note that while Google supports video markup, they currently use it only to improve their video search results."
+msgstr "Bemerkung: Google unterstützt zwar die Video Rich Snippets Markup, verwendet Sie aber ausschliesslich zur Indexierung von Videos."
+
+#: includes/metabox/wps-seo-booster-meta.php:1520
+#@ wpsseo
+msgid "The title of the video."
+msgstr "Video Titel."
+
+#: includes/metabox/wps-seo-booster-meta.php:1530
+#@ wpsseo
+msgid "The description of the video."
+msgstr "Geben Sie einen Beschrieb für das Video ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1551
+#@ wpsseo
+msgid "A URL pointing to the actual video media file. This file should be in .mpg, .mpeg, .mp4, .m4v, .mov, .wmv, .asf, .avi, .ra, .ram, .rm, .flv, or other video file format. All files must be accessible via HTTP. Example: http://www.example.com/video123.flv"
+msgstr "Geben Sie hier die komplette URL zu Ihrem Video ein. Die Videodatei sollte eines der folgenden Formate enthalten: .mpg, .mpeg, .mp4, .m4v, .mov, .wmv, .asf, .avi, .ra, .ram, .rm, .flv. Alle Videodateien müssen über HTTP erreichbar sein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1557
+#@ wpsseo
+msgid "Embed URL: "
+msgstr "Embed URL: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1561
+#@ wpsseo
+msgid "A URL pointing to a player for the specific video. Usually this is the information in the src element of an <code>< embed ></code> tag. Example: Dailymotion: http://www.dailymotion.com/swf/x1o2g"
+msgstr ""
+"Eine URL, die auf einen Player zum Abspielen eines bestimmten Videos verweist. In der Regel sind dies die Informationen im Element \\\"src\\\" eines <embed>-Tags. Beispiel:\n"
+"Dailymotion:http://www.dailymotion.com/swf/x1o2g"
+
+#: includes/metabox/wps-seo-booster-meta.php:1567
+#@ wpsseo
+msgid "Video Type: "
+msgstr "Video Typ: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1571
+#@ wpsseo
+msgid "Enter the type of the video. Example: application/x-shockwave-flash"
+msgstr "Geben Sie den Typ des Videos an. (z.B. application/x-shockwave-flash)"
+
+#: includes/metabox/wps-seo-booster-meta.php:1593
+#@ wpsseo
+msgid "Rich Snippets Event"
+msgstr "Rich Snippets Veranstaltung/Ereignisse"
+
+#: includes/metabox/wps-seo-booster-meta.php:1600
+#@ wpsseo
+msgid "The Rich Snippets for an Event are only being added to the code and won't be displayed within your content."
+msgstr "Die Rich Snippets für die Veranstaltung werden nur dem Code hinzugefügt und sind auf der Seite nicht ersichtlich."
+
+#: includes/metabox/wps-seo-booster-meta.php:1606
+#@ wpsseo
+msgid "Event Name: "
+msgstr "Veranstaltungs Name: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1610
+#@ wpsseo
+msgid "Enter the name of the event."
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:1616
+#@ wpsseo
+msgid "Event Image: "
+msgstr "Veranstaltungs Bild: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1626
+#@ wpsseo
+msgid "Event Description: "
+msgstr "Veranstaltungs Beschrieb: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1630
+#@ wpsseo
+msgid "Enter a short description for the event."
+msgstr "Geben Sie einen Beschrieb für die Veranstaltung ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1636
+#@ wpsseo
+msgid "Start Date: "
+msgstr "Beginn: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1640
+#@ wpsseo
+msgid "Enter the start date for the event. The date format has to be like: 2012-10-15T19:00:00"
+msgstr "Datum und Uhrzeit des Veranstaltungsbeginns im ISO-Datumsformat. (z.B. 2012-10-15T19:00:00)"
+
+#: includes/metabox/wps-seo-booster-meta.php:1646
+#@ wpsseo
+msgid "End Date: "
+msgstr "Ende: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1650
+#@ wpsseo
+msgid "Enter the end date for the event. The date format has to be like: 2012-10-15T19:00:00"
+msgstr "Datum und Uhrzeit des Veranstaltungsendes im ISO-Datumsformat. (z.B. 2012-10-15T19:00:00)"
+
+#: includes/metabox/wps-seo-booster-meta.php:1656
+#@ wpsseo
+msgid "Event Location: "
+msgstr "Veranstaltungsort: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1660
+#@ wpsseo
+msgid "Enter the location for the event. Example: Warfield Theatre"
+msgstr "Geben Sie den Ort der Veranstaltung ein. Für Einzelveranstaltungen erforderlich."
+
+#: includes/metabox/wps-seo-booster-meta.php:1666
+#@ wpsseo
+msgid "Street:"
+msgstr "Strasse:"
+
+#: includes/metabox/wps-seo-booster-meta.php:1670
+#@ wpsseo
+msgid "Enter the street of the event location."
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:1680
+#@ wpsseo
+msgid "Enter the locality of the event location"
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:1690
+#@ wpsseo
+msgid "Enter the region of the event location."
+msgstr " "
+
+#: includes/metabox/wps-seo-booster-meta.php:1696
+#@ wpsseo
+msgid "Event Type: "
+msgstr "Veranstaltungsart: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1700
+#@ wpsseo
+msgid "Enter the type of the event. Example: Concert"
+msgstr "Die Kategorie der Veranstaltung wie \\\"Festival\\\", \\\"Konzert\\\" oder \\\"Lesung\\\"."
+
+#: includes/metabox/wps-seo-booster-meta.php:1706
+#@ wpsseo
+msgid "Ticket Price: "
+msgstr "Ticket Preis: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1710
+#@ wpsseo
+msgid "Enter the price for a ticket here. If there are different price classes available use the fields below for the lowest and highest price."
+msgstr "Geben Sie den Preis für ein Ticket ein. Gibt es mehere Preisklassen, geben Sie diese in den untenstehenden Feldern ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1716
+#@ wpsseo
+msgid "Ticket Price Low: "
+msgstr "Tiefster Ticketpreis: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1720
+#@ wpsseo
+msgid "Enter the lowest ticket price."
+msgstr "Geben Sie hier den tiefsten Ticketpreis ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1726
+#@ wpsseo
+msgid "Ticket Price High: "
+msgstr "Höchster Ticketpreis: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1730
+#@ wpsseo
+msgid "Enter the highest ticket price."
+msgstr "Geben Sie hier den höchsten Ticketpreis ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1736
+#@ wpsseo
+msgid "Ticket Price Currency: "
+msgstr "Währung: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1740
+#@ wpsseo
+msgid "Enter the currency for the ticket price. Example: if the price is in US Dollars enter USD."
+msgstr "Geben Sie die Währung an. z.B. wenn der Preis in Euro angegeben wird geben EUR ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1746
+#@ wpsseo
+msgid "Tickets Available: "
+msgstr "Verfügbarkeit Tickets: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1750
+#@ wpsseo
+msgid "Enter the amount of available tickets."
+msgstr "Geben Sie die Anzahl verfügbarer Tickets ein."
+
+#: includes/metabox/wps-seo-booster-meta.php:1756
+#@ wpsseo
+msgid "Ticket URL: "
+msgstr "Ticket URL: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1760
+#@ wpsseo
+msgid "Enter the URL from where the tickets can be purchased."
+msgstr "Geben Sie die URL ein, von welcher die Tickets erworben werden können."
+
+#: includes/schema/wps-seo-booster-schema-business.php:73
+#@ wpsseo
+msgid "Name"
+msgstr "Name"
+
+#: includes/schema/wps-seo-booster-schema-business.php:80
+#: includes/schema/wps-seo-booster-schema-person.php:52
+#@ wpsseo
+msgid "Address"
+msgstr "Adresse"
+
+#: includes/schema/wps-seo-booster-schema-business.php:87
+#: includes/schema/wps-seo-booster-schema-business.php:94
+#: includes/schema/wps-seo-booster-schema-business.php:101
+#: includes/schema/wps-seo-booster-schema-person.php:59
+#: includes/schema/wps-seo-booster-schema-person.php:66
+#: includes/schema/wps-seo-booster-schema-person.php:73
+#: includes/schema/wps-seo-booster-schema-software.php:79
+#@ wpsseo
+#@ default
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: includes/schema/wps-seo-booster-schema-business.php:109
+#: includes/schema/wps-seo-booster-schema-person.php:81
+#@ wpsseo
+msgid "Tel."
+msgstr "Tel."
+
+#: includes/schema/wps-seo-booster-schema-business.php:116
+#: includes/schema/wps-seo-booster-schema-person.php:88
+#@ wpsseo
+msgid "Email"
+msgstr "Email"
+
+#: includes/schema/wps-seo-booster-schema-person.php:38
+#@ wpsseo
+msgid "My Name"
+msgstr "Mein Name"
+
+#: includes/schema/wps-seo-booster-schema-person.php:44
+#@ wpsseo
+msgid "People call me"
+msgstr "Meine Freunde nennen mcih auch"
+
+#: includes/schema/wps-seo-booster-schema-person.php:95
+#@ wpsseo
+msgid "Job Title"
+msgstr "Job Position"
+
+#: includes/schema/wps-seo-booster-schema-person.php:102
+#@ wpsseo
+msgid "I work for"
+msgstr "Ich arbeite für"
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:157
+#: includes/schema/wps-seo-booster-schema-review.php:154
+#@ wpsseo
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:227
+#@ wpsseo
+msgid "Yield"
+msgstr "Zutaten"
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:202
+#@ wpsseo
+msgid "Ingredients"
+msgstr "Zutaten"
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:215
+#@ wpsseo
+msgid "Directions"
+msgstr "Zubereitung"
+
+#: includes/schema/wps-seo-booster-schema-review.php:103
+#: includes/schema/wps-seo-booster-schema-software.php:102
+#@ wpsseo
+msgid "Version"
+msgstr "Version"
+
+#: includes/schema/wps-seo-booster-schema-review.php:110
+#@ wpsseo
+msgid "Type"
+msgstr "Typ"
+
+#: includes/schema/wps-seo-booster-schema-review.php:117
+#@ wpsseo
+msgid "Product Author"
+msgstr "Produkt Autor"
+
+#: includes/schema/wps-seo-booster-schema-review.php:123
+#: includes/schema/wps-seo-booster-schema-software.php:139
+#@ wpsseo
+msgid "Reviewed by"
+msgstr "Bewertet von"
+
+#: includes/schema/wps-seo-booster-schema-review.php:126
+#@ wpsseo
+msgid "on"
+msgstr "am"
+
+#: includes/admin/wps-seo-booster-admin.php:177
+#: includes/schema/wps-seo-booster-schema-recipe.php:249
+#: includes/schema/wps-seo-booster-schema-review.php:130
+#: includes/schema/wps-seo-booster-schema-software.php:146
+#@ wpsseo
+msgid "Rating"
+msgstr "Bewertung"
+
+#: includes/schema/wps-seo-booster-schema-review.php:142
+#: includes/schema/wps-seo-booster-schema-software.php:130
+#@ wpsseo
+msgid "Price"
+msgstr "Preis"
+
+#: includes/schema/wps-seo-booster-schema-software.php:87
+#@ wpsseo
+msgid "Author"
+msgstr "Autor"
+
+#: includes/schema/wps-seo-booster-schema-software.php:95
+#@ wpsseo
+msgid "Description"
+msgstr "Beschrieb"
+
+#: includes/schema/wps-seo-booster-schema-software.php:109
+#@ wpsseo
+msgid "Language"
+msgstr "Sprache"
+
+#: includes/schema/wps-seo-booster-schema-software.php:116
+#@ wpsseo
+msgid "Operating System"
+msgstr "Betriebssystem"
+
+#: includes/schema/wps-seo-booster-schema-software.php:123
+#@ wpsseo
+msgid "Category"
+msgstr "Kategorie"
+
+#: includes/widgets/vcard-widget-business.php:38
+#@ wpsseo
+msgid "Use this widget to add a business vCard. It does support the Microdata Rich Snippets. These snippets are used by Google, Yahoo & Bing for their listings."
+msgstr "Verwenden Sie diese Widget um eine virtuelle Businesskarte anzuzeigen. Dies unterstützt ebenfalls die Rich Snippets."
+
+#: includes/widgets/vcard-widget-business.php:220
+#@ wpsseo
+msgid "Title (optional):"
+msgstr "Titel (optional):"
+
+#: includes/widgets/vcard-widget-business.php:224
+#@ wpsseo
+msgid "Business Name:"
+msgstr "Name des Unternehmens:"
+
+#: includes/widgets/vcard-widget-business.php:228
+#@ wpsseo
+msgid "Street Address:"
+msgstr "Strasse:"
+
+#: includes/widgets/vcard-widget-business.php:232
+#@ wpsseo
+msgid "City/Locality:"
+msgstr "Ort:"
+
+#: includes/widgets/vcard-widget-business.php:236
+#@ wpsseo
+msgid "State/Region:"
+msgstr "Region:"
+
+#: includes/widgets/vcard-widget-business.php:240
+#@ wpsseo
+msgid "Zipcode/Postal Code:"
+msgstr "PLZ:"
+
+#: includes/widgets/vcard-widget-business.php:245
+#@ wpsseo
+msgid "Postal Code on front of City?"
+msgstr "PLZ vor dem Ort anzeigen?"
+
+#: includes/widgets/vcard-widget-business.php:248
+#@ wpsseo
+msgid "Country:"
+msgstr "Land:"
+
+#: includes/widgets/vcard-widget-business.php:252
+#@ wpsseo
+msgid "Telephone:"
+msgstr "Telefon:"
+
+#: includes/widgets/vcard-widget-business.php:256
+#@ wpsseo
+msgid "Email:"
+msgstr "Email:"
+
+#: includes/widgets/vcard-widget-business.php:264
+#@ wpsseo
+msgid "Website Name:"
+msgstr "Name der Webseite:"
+
+#: includes/wps-seo-booster-google-authorship.php:48
+#@ wpsseo
+msgid "WPSocial Google+ Profile URL"
+msgstr "WPSocial Google+ Profil URL"
+
+#: includes/wps-seo-booster-twitter-card.php:17
+#@ wpsseo
+msgid "WPSocial Twitter ID"
+msgstr "WPSocial Twitter Name"
+
+#: includes/admin/forms/wps-seo-booster-plugin-settings.php:45
+#: wpsocial-seo-booster.php:171
+#@ wpsseo
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/metabox/wps-seo-booster-meta.php:525
+#: includes/metabox/wps-seo-booster-meta.php:1296
+#@ wpsseo
+msgid "2 Stars"
+msgstr "2 Sterne"
+
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:24
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:75
+#@ wpsseo
+msgid "Flush Rating"
+msgstr "Bewertung zurücksetzen"
+
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:33
+#@ wpsseo
+msgid "Reset the Ratings:"
+msgstr "Alle Bewertungen zurücksetzen:"
+
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:49
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:79
+#@ wpsseo
+msgid "Choose individual"
+msgstr "Einzelne auswählen"
+
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:91
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:130
+#@ wpsseo
+msgid "Check all"
+msgstr "Alle aktivieren"
+
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:93
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:132
+#@ wpsseo
+msgid "Uncheck all"
+msgstr "Alle deaktivieren"
+
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:123
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:163
+#@ wpsseo
+msgid "No Entries for this type."
+msgstr "Keine Einträge für diesen Content Typ gefunden"
+
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:133
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:173
+#@ wpsseo
+msgid "Select for which post type or individual entry you want to reset the received ratings to zero."
+msgstr "Wählen Sie, für welchen Content Typ oder einzelnen Eintrag Sie die erhaltenen Bewertungen auf Null zurücksetzen wollen."
+
+#: includes/admin/forms/wps-seo-booster-general-settings.php:25
+#@ wpsseo
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: includes/admin/forms/wps-seo-booster-general-settings.php:34
+#@ wpsseo
+msgid "Delete Options:"
+msgstr "Einstellungen löschen:"
+
+#: includes/admin/forms/wps-seo-booster-general-settings.php:38
+#@ wpsseo
+msgid "Check this box, if you want to delete all the options from your database when you deactivate the plugin."
+msgstr "Aktivieren Sie diese Box, wenn Sie alle Einstellungen löschen möchten, sobald Sie das Plugin deaktivieren."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:3
+#@ wpsseo
+msgid "Thank You"
+msgstr "Danke vielmals"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:5
+#@ wpsseo
+msgid "Thank you for using WP Social SEO Booster. We hope you enjoy it as much as we do."
+msgstr "Danke, dass Sie WP Social SEO Booster verwenden. Wir hoffen, dass Sie mit diesem Plugin soviel Spass haben wie wir es haben."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:6
+#@ wpsseo
+msgid "We already added as much information as possible to each setting to make them easy to use. But to make it even easier for you to understand how to use the plugin, we created the manual below with some additional information where we thought it was needed."
+msgstr "Wir haben bereits soviele Informationen wie möglich zu den einzelnen Einstellungen dazugefügt, um die Verwendung des Plugins möglichst zu vereinfachen. Trotzdem fanden wir, dass es nötig ist, für einzelne Einstellungen weitere Informationen zur Anwendung des Plugins zur Verfügung zu stellen."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:8
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:25
+#@ wpsseo
+msgid "Performance Settings"
+msgstr "Performance Einstellungn"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:10
+#@ wpsseo
+msgid "We included some of the recommended settings from the HTML5 Boilerplate and if you activate this option, then the plugin will automatically add them to your site's .htaccess file. We also included some more security settings to make your site a bit more secure. But that doesn't mean, that your site is now secure. These are just the beginnings and you should take some time to make your site secure. Hackers are everywhere and 3 out of 4 WordPress sites get hacked. If you want to learn more on how you can secure your site, we recommend that you check out the following site:"
+msgstr "Wir haben die wichtigsten Einstellungen von den von HTML5 Boilerplate empfohlenen .htaccess Einstellungen in einer Datei zusammengefeasst. Falls Sie nun diese Option aktivieren, werden diese Einstellungen automatisch der .htaccess Datei Ihrer Webseite hinzugefügt. Dies erhöht nicht nur die Performance Ihrer Websiete, sondern wir haben auch ein paar Sicherheitseinstellungen hinzugefügt, um Ihre Webseite ein klein wenig vor hackerangriffen sicherer zu machen. Dies heisst aber noch lange nicht, dass Ihre Webseite nun sicher vor Angriffen ist. Falls Sie noch nichts zur Sicherheit Ihrer Webseite vorgenommen haben, schlagen wir Ihnen vor, dass Sie sich für dies ernstahft etwas Zeit nehmen. Unter folgender Webseite können Sie mehr über die Sicherheit für Ihre Webseite erfahren. "
+
+#: includes/admin/forms/wps-seo-booster-manual.php:10
+#@ wpsseo
+msgid "WordPress Security for Webmasters"
+msgstr "WordPress Sicherheit für Webmasters"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:14
+#: includes/admin/forms/wps-seo-booster-manual.php:37
+#@ wpsseo
+msgid "Info"
+msgstr "Information"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:15
+#@ wpsseo
+msgid "We recommend that you fill out the information on the plugin settings page. These information will then be taken as default. With that you don't need to go and change all the written content. If the WP Social SEO Booster plugin can't find any information entered within the meta box, it will take the information from the settings page. These are also the information which will be used for the home page if you don't use a static page as your home page."
+msgstr "Wir empfehlen Ihnen möglichst alle Informationen auf dieser Seite auszufüllen. Je mehr Sie ausfüllen, desto besser kann Facebook diese verarbeiten. Diese Einstellungen werden dann auch als Standardwerte verwendet, wenn jemand Ihre Webseite auf Facebook oder anderene Social Netzwerken teilt, falls keine anderen Werte für den jeweiligen Content eingegeben wurden. Diese Einstellungen werden ebenfalls für die Homepage verwendet, falls Sie keine statische Homepage verwenden, oder keine andere Einträge für die Homepage angegeben haben."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:17
+#@ wpsseo
+msgid "Use the Open Graph settings the same way as you use the SEO settings for your site. Google and most other search engines do use the Open Graph meta tags for their listings too and MOST important, Facebook does use ONLY the Open Graph meta tags when a user likes your post/page/site. The better Open Graph meta tags you have the better it will look on Facebook and it can become much more viral."
+msgstr "Stellen Sie die Open Grapg Einträge denjenigen der SEO Einträge gleich. Sie sind genauso wichtig. Google, wie auch andere Suchmaschinen, verwenden die Open Graph Einträge ebenfalls und sehr wichtig zu wissen ist, dass Facebook NUR die Open Graph  Einträge verwendet. Als je genauer und besser Sie diese verwenden, desto mehr Traffic kann daraus resultieren, wenn Ihr Content auf den Sozialen Netzwerken geteilt wird."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:19
+#@ wpsseo
+msgid "SEO Plugin Support"
+msgstr "Unterstützung anderer SEO Plugins"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:20
+#@ wpsseo
+msgid "WP Social SEO Booster does support ANY SEO plugin for Wordpress and it does even support the SEO features from your theme if they are built in. The plugin will scan the code of your site and check if there are any SEO description and if it can find some, it will use it."
+msgstr "WP Social SEO Booster arbeitet hand in hand mit ALLEN SEO Plugins für WordPress, da es den Header Code Ihrer Webeite abscannt und nach Meta Titel und Meta Beschrieb Einträgen sucht. Werden solche Einträge gefunden, werden diese automatisch für die Open Graph, Google itemprop und Twitter Card Einträge verwendet, ausser Sie haben für den jeweiligen Content individuelle Social Einträge in der Metabox eingegeben."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:22
+#@ wpsseo
+msgid "With that feature, you don't need to go and edit any content at all. If you have proper SEO Title and SEO Description on your site, WP Social SEO Booster will use it for the Open Graph Meta tags as well as for the Google itemprop information."
+msgstr "Dieses Feature des Plugins ermöglicht es Ihnen, dass jeder bereits veröffentlichte Content, für Social SEO otpimiert wird, ohne dass Sie jeden einelnen Artikel editieren müssen und sobald die Suchmaschinen Bots Ihre Webseite das nächste mal Besuchen, werden Sie diese neuen Einstellungen lesen und Ihr Content neu indexieren, was zu besseren Platzierungen in den Suchmaschinen führen kann."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:24
+#@ wpsseo
+msgid "Image Usage"
+msgstr "Verwendung der Bilder"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:25
+#@ wpsseo
+msgid "The image is being used to post on the user's wall when he/she likes/shares your post. The plugin will use the images in the following order:"
+msgstr "Dieses Bild wird verwendet, wenn ein Webseitenbesucher Ihren Content auf Social Netzwerken teilt, Das Plugin wird die Bilder in folgender Reihenfolge verwenden:"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:26
+#@ wpsseo
+msgid "First it will check if you have entered an image in \"Always Use This Image\" within the plugin settings."
+msgstr "Das Plugin schaut zuerst, ob Sie ein Bild im Feld “Verwende immer dieses Bild” in den Plugin Einstellungen eingetragen haben."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:27
+#@ wpsseo
+msgid "If that is empty it will check if you uploaded an image in the \"WP Social SEO Booster Open Graph Metabox\"."
+msgstr "Sollte dies leer sein, wird überprüft, ob Sie ein Bild in der Open Graph Meta Box angegeben haben."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:28
+#@ wpsseo
+msgid "If this is empty too it will check for a thumbnail (featured image)."
+msgstr " Sollte dies ebenfalls leer sein, prüft das Plugin ob Sie ein Bild als Artikelbild verwenden."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:29
+#@ wpsseo
+msgid "If the featured image is emtpy the plugin will scan your content."
+msgstr "Sollte dies ebenfalls leer sein, scannt das Plugin den Text nach Bildern ab."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:30
+#@ wpsseo
+msgid "If you're using an image within your content the plugin will use the first image found."
+msgstr "Wenn es Bilder findet, wird das Erste verwendet."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:31
+#@ wpsseo
+msgid "If you don't use any images within your content, then the plugin will check if you have set a defualt image within the plugin settings page and if so, it will use that one."
+msgstr "Sollte kein Bild im Text vorhanden sein, überprüft das Plugin ob ein Bild im Feld Standard Bild in den Plugin Einstellungen vorhanden ist und falls eines vorhanden ist, wird dieses verwendet."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:33
+#: includes/admin/forms/wps-seo-booster-manual.php:46
+#@ wpsseo
+msgid "Important"
+msgstr "Wichtig"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:34
+#@ wpsseo
+msgid "Default Open Graph Images need to be at least 200 x 200 pixels for Facebook to recognize them as significant objects for enhancing Facebook \"EdgeRank\"."
+msgstr "Alle Bilder, welche für Open Graph verwendet werden, müssen mindesten eine Grösse von 200 x 200 Pixel aufweisen, damit sie von Facebook für den Edge Rank verwendet und angezeigt werden."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:36
+#@ wpsseo
+msgid "Google Authorship"
+msgstr "Google Authorship"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:38
+#@ wpsseo
+msgid "WP Social SEO Booster will also add all the needed meta tags for the Google Authorship. This means, that you can have your picture beside the Search Engine listings as well as all other, by Google supported, meta tags such as Reviews, Product Offers, Business Listings, People, Recipes, Software, Videos and Events."
+msgstr "WP Social SEO Booster fügt ebenfalls automatisch die benötigten Google Authorship Meta Tags Ihrer Webseite hinzu. Dies bedeutet, dass Ihr Bild neben den Suchmaschinen Einträgen Ihrer Webseite erscheinen kann. Alle anderen Rich Snippets, welche von Google unterstützt werden, wie Bewertungen, Produkt, Business, Personen, Rezepte, Software, Videos und Veranstaltungen werden ebenfalls vom Plugin unterstützt."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:40
+#@ wpsseo
+msgid "After you integrated that in to your site, your listings can look like the one shown in the image below:"
+msgstr "Nachdem Sie dies in Ihre Webseite eingebunden haben, können die Suchmaschinen Einträge Ihrer Webseite wie im untenstehenden Bild, angezeigt werden:"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:44
+#@ wpsseo
+msgid "This is the listing for WP Social, where I added my Google+ profile to the site."
+msgstr "Hier ist ein Beispiel von WP Social, wo ich mein Google + Profil mit der Seite verbunden habe."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:47
+#@ wpsseo
+msgid "Note that there is no guarantee that a Rich Snippet will be shown on actual search results and sometimes it can take quite a while until Google does display them. If it doesn't show up, then it's nothing wrong with the plugin and you will need to do more SEO for your site to get them shwoing up on your search engine listings. Also not all of the Rich Snippets do directly show up on search result pages. Some of them, such as Business, People &amp; Video will Google only use to better understand the content on your site. That doesn't mean that they won't have any affect for your site's ranking."
+msgstr "Bemerkung: Es gibt keine Garantie, dass die Rich Snippets in den Suchmaschinen Einträgen angezeigt werden. Falls diese bei Ihren Suchmaschinen Einträgen nicht erscheinen, ist es wichtig, dass Sie weiterhin an den Suchmaschinen Optimierungen für Ihre Webseite arbeiten. Es kann eine Weile dauern, bis dann die Rich Snippets von Google auch angezeigt werden. Ebefalls zu beachten ist, dass nicht alle Rich Snippets bei den Suchmaschinen Einträgen erscheinen. Einige sind dazu da, damit Google und die anderen Suchmaschinen Ihren Content besser verstehen und bewerten können, was aber nicht heisst, dass diese keinen positiven Einfluss auf das Ranking haben."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:49
+#@ wpsseo
+msgid "Examples"
+msgstr "Beispiele"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:50
+#@ wpsseo
+msgid "Below are some example listings for the different Rich Snippets integration. They all have been tested with the Google Webmaster Rich Snippets Testing Tool which you can find on the following site:"
+msgstr "Unten aufgeführt sehen Sie ein paar Beispiele von Google Rich Snippets. All diese wurden mit dem Testing Tootl von Google getestet. Sie können dieses Tool unter folgender Seite finden:"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:68
+#@ wpsseo
+msgid "The plugin makes it easy to add your Google+ Profile to your site and this not only for you but for ALL your authors as well, if you have a multi author site."
+msgstr "Das Plugin ermöglicht es Ihnen gan einfach Ihr Google+ Profil mit Ihrer Webseite zu verbinden und dies nicht nur für Sie selbst, sondern für alle Autoren Ihrer Webseite."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:70
+#@ wpsseo
+msgid "Setting Up Your Google+ Profile"
+msgstr "Google+ Profil einrichten"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:71
+#@ wpsseo
+msgid "If you have an account for Gmail, Google Docs, Google Webmaster Tools etc, then you already have the basics for a Google+ Profile. To get it ready for the Google authorship markup you need to have some specific data in your profile."
+msgstr "Falls Sie bereits über ein Konto bei Google (Gmail, Drive etc.) verfügen, haben Sie bereits die Basis für ein Google+ Profil. Um dieses für Google Authorship bereit zu machen, müssen Sie gewisse Daten im Profil ausfüllen."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:73
+#@ wpsseo
+msgid "Go and visit"
+msgstr "Besuchen Sie"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:74
+#@ wpsseo
+msgid "Sign in to your Google account if you have one or create one."
+msgstr "Melden Sie sich bei Google an oder erstellen Sie ein gratis Konto."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:75
+#@ wpsseo
+msgid "Upload a Profile photo. This must be a clear facial, head shot photo. Cartoons, abstract arts etc aren't allowed."
+msgstr "Laden Sie ein Profilbild hoch. Dies muss ein Bild von Ihnen (Portätbild) sein, und darf keine Grafik oder Logo sein."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:76
+#@ wpsseo
+msgid "Then click Continue until Finish appears, and then click Finish."
+msgstr "Klicken Sie danach immer auf weiter, bis Ihr Profil erstellt wurde."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:77
+#@ wpsseo
+msgid "Click on Continue to Google+."
+msgstr "Klicken Sie auf weiter um zu Google+ zu gelangen."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:78
+#@ wpsseo
+msgid "Then click on Profile (on the left hand side)."
+msgstr "Klicken Sie danach auf Profil (auf der linken Seite)."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:79
+#@ wpsseo
+msgid "Now click on the blue Edit Profile button at the top of the site."
+msgstr "Klicken Sie nun auf den blauen Profil bearbeiten Button oben an der Seite."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:80
+#@ wpsseo
+msgid "Click on the +1 Tab and check the box \"Show this tab on your profile\" and click on the Save button."
+msgstr "Klicken Sie nun auf den +1 Tab und aktivieren Sie die Checkbox für: Diesen Tab in meinem Profil anzeigen. Klicken Sie nun auf Speichern,"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:84
+#@ wpsseo
+msgid ""
+"After you saved the changes within the +1 Tab click on the \"About\" Tab and enter as many information as you like.\n"
+"\tThe one you NEED to enter is the \"Contributor to\"."
+msgstr "Nachdem Sie dies gespeichert haben, gehen Sie zum 'Über mich' Tab und tragen Sie dort die Informationen ein, welche Sie möchten. Was Sie unbedingt ausfüllen müssen ist: Macht mit bei"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:89
+#@ wpsseo
+msgid ""
+"Click on it and then click on \"Add custom link\" and enter the Label and URL of your site and then click on save.\n"
+"\tYou can add as many site as you like. Just repeat that step. Make sure that you enter the correct URL, which means if your site is domain.com and you enter www.domain.com, that won't work, because for Google these are two different sites. So with that said, if your site is domain.com then you need to enter domain.com."
+msgstr "Klicken Sie auf 'Macht mit bei' und dann auf 'Benutzerdefinierten Link hinzufügen'. Geben Sie nun den Namen Ihrer Webseite unter Label ein und dann den Link ud klicken Sie auf 'Speichern'. Wenn Sie mehr als eine Webseite hinzufügen möchten, wiederholen Sie dies einfach. Achten Sie darauf, dass Sie die richtige URL zu Ihrer Webseite eingeben. Das heisst, wenn Ihre Webseite domain.com ist, ohne www. am Anfang, dann müssen Sie die URL so eintragen, ansonsten ist es für Google eine andere Webseite und Google Authorship wird nicht funktionieren."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:91
+#@ wpsseo
+msgid "After you added your site(s) click on \"Done editing\" at the top of the page."
+msgstr "Wenn Sie dies alles gemacht haben, klicken Sie auf Fertig, oben auf der Seite."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:95
+#@ wpsseo
+msgid "Click on the Profile button at the top left hand side and copy your Profile URL in to a notepad or other text editor file. The Profile URL should look similar to the one below:"
+msgstr "Klicken Sie nun auf den Profil Button oben links und kopieren Sie die URL Ihres Profils. Die URL sollte wie unten abgebildet aussehen:"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:99
+#@ wpsseo
+msgid "Now go back to the WordPress admin area and go to your profile, Users &gt; Your Profile"
+msgstr "Kehren Sie nun zu Ihrer WordPress Seite zurück und gehen Sie zu Benutzer > Ihr Profil."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:103
+#@ wpsseo
+msgid "Scroll down the page and enter your Google+ Profile URL in to the given field."
+msgstr "Unten auf Ihrer Profilseite können Sie nun die URL Ihres Google+ Profils in das vorgegebene Google+ Feld eingeben."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:107
+#@ wpsseo
+msgid "Scroll to the bottom of your Profile page and click on \"Update Profile\"."
+msgstr "Klicken Sie nun auf 'Profil aktualisieren' ganz unten auf dieser Seite."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:108
+#@ wpsseo
+msgid "That's it. Your site is now ready for the Google+ Authorship Markup."
+msgstr "Nun ist Ihre Seite für den Google+ Authorship Markup bereit."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:110
+#@ wpsseo
+msgid "Homepage Settings"
+msgstr "Einstellungen Startseite"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:111
+#@ wpsseo
+msgid "You have the ability to choose which author you want to show on your home page if you don't have a static home page. To do that, go to the plugins settings page. Scroll down to the Google Authorship Markup Settings and choose the author you want to use on the homepage. Make sure that this author has setup his profile, like we described above."
+msgstr "Sie haben die Möglichkeit, einen betsimmten Autor für die Startseite festzulegen, falls Sie keine statische Startseite verwenden. Gehen Sie zu den Plugin Einstellungen. Bei den Google Authorhip Markup Einstellungen können Sie dann den Autor für die Startseite festlegen. Stellen Sie sicher, dass der ausgewählte Author sein Google+ Profil aufgesetzt hat."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:115
+#@ wpsseo
+msgid "Google Plus Publisher Markup"
+msgstr "Google Plus Publisher Markup"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:116
+#@ wpsseo
+msgid "With the Google+ markup you're not only limited to a personal profile. You can also add a Google +1 page to your site. The plugin will add the needed meta tag to the header's code automatically."
+msgstr "Das Google+ Markup ist nicht nur auf Personen beschränkt. Sie können ebenfalls eine Google +1 Firmeseite hinzufügen. Das Plugin wird dann automatisch die notwendigen Meta Tags Ihrer Seite hinzufügen."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:118
+#@ wpsseo
+msgid "If your site is a personal blog, then you can skip these steps. This is only for sites, who also have a Google Plus Publisher (Business) page and want to connect this business page with their site."
+msgstr "Falls Ihre Webseite ein persönlicher Blog ist, können Sie dies weglassen. Dies ist vor allem für Webseiten, für welche der Betreiber eine Google +1 Firmenseite besitzt und diese mit der Webseite verbinden möchte."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:120
+#@ wpsseo
+msgid "Go to your Google +1 page. If you don't have one you can create one. It's easy. Just follow the steps Google does provide and you're done within minutes."
+msgstr "Gehen Sie zu Ihrer Google +1 Firmenseite. Falls Sie noch keine haben, können Sie ganz einfach eine erstellen. Folgen Sie dazu einfach den Anweisungen von Google und innerhalb ein paar Minuten haben Sie eine solche Firmenseite erstellt."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:121
+#@ wpsseo
+msgid "Copy the URL of your Google +1 page and paste it in to the Google Plus Publisher field within the plugins settings page (Google Authorship Markup Settings) and save your changes. The URL of your Google +1 page should look like the following one:"
+msgstr "Kopieren Sie dann die URL der Google +1 Firmenseite und fügen Sie diese in den Plugin Einstellungen beim Google Plus Publisher Feld ein und speichern Sie die Änderungen. Die URL Ihrer Google +1 Firmenseite sollte wie unten abgebildet aussehen:"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:122
+#@ wpsseo
+msgid "Go back to your Google +1 page and click on the blue \"Edit profile\" button at the top of the page."
+msgstr "Gehen Sie zu Ihrer Google +1 Firmenseite zurück und klicken Sie auf den blauen 'Profil bearbeiten' button oben an der Seite."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:123
+#@ wpsseo
+msgid "Scroll down and go to the \"About\" tab."
+msgstr "Klicken Sie nun auf den 'Info' Tab."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:124
+#@ wpsseo
+msgid "Click on Website and add the URL of your site."
+msgstr "Klicken Sie auf Webseite und geben Sie die URL Ihrer Webseite ein."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:125
+#@ wpsseo
+msgid "Click save."
+msgstr "Speichern Sie nun die Änderungen."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:126
+#@ wpsseo
+msgid "Now click on the gray \"Link website\" button next to the URL."
+msgstr "Klicken Sie nun auf den grauen 'Webseite verknüpfen' Button."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:127
+#@ wpsseo
+msgid "A new window will popup. You don't need to enter any code in to your website. The plugin has done that for you. Just click on the blue \"Test website\" button and then click on \"Done\"."
+msgstr "Im neu geöffneten Fenster brauchen Sie nichts zu machen. Das Plugin hat dies bereits für Sie erledigt. Klicken Sie einfach auf den blauen 'Webseite testen' Button und danach auf den blauen 'Fertig' Button."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:128
+#@ wpsseo
+msgid "Click on \"Done editing\" at the top of the Google +1 page. That's it. Your site is ready."
+msgstr "Klicken Sie nun auf den grauen 'Fertig' Button ganz oben auf der Seite. Nun haben Sie Ihre Google +1 Firmenseite mit Ihrer ebseite verbunden."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:130
+#@ wpsseo
+msgid "Twitter Card"
+msgstr "Twitter Card"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:131
+#@ wpsseo
+msgid "Twitter Meta Tags"
+msgstr "Twitter Meta Tags"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:132
+#@ wpsseo
+msgid "Twitter recently released their own meta tags, just like Facebook with Open Graph and Google with the rich snippets."
+msgstr "Twitter hat, wie bereits Facebook mit Open Graph und Google mit Rich Snippets, ebenfalls ihre eigenen Meta Tags lanciert."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:134
+#@ wpsseo
+msgid "The plugin will also add all the needed code for Twitter. The only thing you need to do is adding your Twitter account to your profile page."
+msgstr "Das Plugin fügt alle Twitter Meta Tags Ihrer Webseite hinzu. Das einzige, was Sie machen müssen, ist, Ihr Twitter Konto in Ihrem Profil anzugeben."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:136
+#@ wpsseo
+msgid "Go to Users &gt; Your Profile and add your Twitter account and update your profile. That's all you need to do for it."
+msgstr "Gehen Sie dazu zu Benutzer > Ihr Profil und geben Sie Ihr Twitter Konto im dazugehörigen Feld ein. Aktuelisieren Sie Ihr Profil und nun ist alles für Twitter SEO bereit."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:140
+#@ wpsseo
+msgid "Star Rating"
+msgstr "Bewertungen"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:142
+#@ wpsseo
+msgid "We also included a star rating system in to the plugin which allows you to add the star rating to all your content. The star rating does also support the Google Rich Snippets Aggregate Rating. So when your visitors do rate your content, then this will show up on the search listings for your site."
+msgstr "Wir haben ebenfalls ein Bewertungssystem ins Plugin eingebaut, welches Ihren besuchern erlaubt, Ihren Content zu bewerten. Dieses Bewertungssystem ist ebenflass mit Google Rich Snippets ausgestattet. Wenn nun die Besucher Ihren Content bewerten, wird dies ebenfalls in den Suchmaschinen Ergebnissen angezeigt."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:146
+#@ wpsseo
+msgid "To enable the star rating for individual posts, click on the \"Choose Individual\" link beside the content type you want the star rating being enabled. A pop up window with your content will show up, where you have the ability to choose on which of these entries you want to enable the star rating. To enable the star ratings for all entries within a content type, just click on the first checkbox which appears at the left of the content type."
+msgstr "Um die Bewertungssterne für einzelne Artikel zu aktivieren, klicken Sie auf 'Einzelne auswählen'. Ein neuse Fenster öffnet sich, bei welchem Sie die erstellten Artikel sehen können. Nun können Sie einzelne Artikel aktivieren. Falls Sie alle Artikel innerhalb eines Content Types mit den Bewertungssternen versehen wollen, klicken Sie auf die Checkbox, links neben dem Content Typen Namen,"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:148
+#@ wpsseo
+msgid "You also have the ability to enable the star ratings manually for each content you create."
+msgstr "Sie haben ebefalls die Möglichkeit, das Bewertungssystem Manuell für jeden Content, den Sie veröffentlichen zu aktivieren."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:150
+#@ wpsseo
+msgid "If you want to reset the star rating for your content, you can do that either within the settings page and do it for all entries within a content type, or choose individual entries to reset them. You also have the ability to reset the received ratings for each content, within the star rating meta box."
+msgstr "Falls Sie die erhaltenen Bewertungen für Ihren Content zurücksetzen möchten, können Sie dies entweder in den Plugin Einstellungen machen, oder beim einzelnen Artikel selbst. Das vorgehen ist das Selbe wie beim aktivieren."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:152
+#@ wpsseo
+msgid "We Love to Get Your Feedback"
+msgstr "Wir freuen uns über Ihr Feedback"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:154
+#@ wpsseo
+msgid "If you enjoy the plugin, please like us on Facebook: <a href=\"//www.facebook.com/WPSocial\" target=\"_blank\">www.facebook.com/WPSocial</a>"
+msgstr "Falls Sie das Plugin mögen, zeigen Sie uns dies doch, indem Sie uns auf Facebook folgen: <a href=\"//www.facebook.com/WPSocialDE\" target=\"_blank\">www.facebook.com/WPSocialDE</a>"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:156
+#@ wpsseo
+msgid "and/or <a href=\"//wpsocial.com/plugins/wpsocial-seo-booster/\" target=\"_blank\"> submit a review</a> on our site."
+msgstr "und/oder <a href=\"//www.wpsocial.de/plugins/wp-social-seo-booster/\" target=\"_blank\">übermitteln Sie eine Bewertung</a> auf unserer Seite."
+
+#: includes/admin/forms/wps-seo-booster-manual.php:158
+#@ wpsseo
+msgid "Thank you,"
+msgstr "Danke,"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:160
+#@ wpsseo
+msgid "Daniel"
+msgstr "Daniel"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:34
+#@ wpsseo
+msgid "Activate Open Graph:"
+msgstr "Open Graph aktivieren:"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:76
+#@ wpsseo
+msgid "Default Open Graph images need to be at least 200 pixels wide for Facebook to recognize them as significant objects for enhancing Facebook \"EdgeRank\"."
+msgstr "Alle Facebook Open Graph Bilder müssen mindestens eine Grösse von 200 x 200 Pixelns aufweisen, um von Facebook verwendet zu werden."
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:86
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:98
+#: includes/metabox/wps-seo-booster-meta.php:309
+#: includes/metabox/wps-seo-booster-meta.php:645
+#: includes/metabox/wps-seo-booster-meta.php:1051
+#: includes/metabox/wps-seo-booster-meta.php:1379
+#: includes/metabox/wps-seo-booster-meta.php:1540
+#: includes/metabox/wps-seo-booster-meta.php:1620
+#@ wpsseo
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:88
+#@ wpsseo
+msgid "If an image is uploaded, this will always be used on Facebook for content sharing."
+msgstr "Falls hier ein Bild hochgeladen wird, wird dieses immer für Facebook verwendet, wenn Ihr Content geteilt wird."
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:100
+#@ wpsseo
+msgid "If an image is uploaded, this will be used on Facebook for content sharing if you don't upload a custom image with your content."
+msgstr "Falls hier ein Bild hochgeladen wird, wird dieses immer dann für Facebook verwendet, wenn Ihr Content geteilt wird und Sie kein eigenes Bild für diesen Content verwenden."
+
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:111
+#: includes/metabox/wps-seo-booster-meta.php:321
+#@ wpsseo
+msgid "Video"
+msgstr "Video"
+
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:34
+#@ wpsseo
+msgid "Cleanup Header:"
+msgstr "Code im Header aufräumen"
+
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:38
+#@ wpsseo
+msgid "Check this box to get the source code of the header cleaned up."
+msgstr "Aktivieren Sie diese Box, um den Code im Header Ihrer Webseite aufzuräumen."
+
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:44
+#@ wpsseo
+msgid "Dashboard Widgets:"
+msgstr "Dashboard Widgets:"
+
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:48
+#@ wpsseo
+msgid "Check this box to remove some of the dashboard widgets."
+msgstr "Aktivieren Sie diese Box um ein paar Widgets vom Dashboard zu entfernen."
+
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:54
+#@ wpsseo
+msgid "HTML5 Boilerplate .htaccess:"
+msgstr "HTML5 Boilerplate .htaccess:"
+
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:58
+#@ wpsseo
+msgid "Check this box, if you want to add the HTML5 Boilerplate optimized performance entries to your site's .htaccess file. This will also add a bit more of security to your site."
+msgstr "Aktivieren Sie diese Box, wenn Sie die optimierten .htaccess Einstellungen für bessere Webseitenperformance zu der .htaccess Datei Ihrer Webseite hinzufügen wollen. Wir haben ebenfalls ein paar Einträge für etwas mehr Sicherheit zu dieser Datei hinzugefügt."
+
+#: includes/admin/forms/wps-seo-booster-plugin-settings.php:46
+#@ wpsseo
+msgid "Manual"
+msgstr "Anleitung"
+
+#: includes/admin/forms/wps-seo-booster-plugin-settings.php:48
+#@ wpsseo
+msgid "WP Social"
+msgstr "WP Social"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:25
+#@ wpsseo
+msgid "Star Rating Settings"
+msgstr "Bewertungs Einstellungen"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:34
+#@ wpsseo
+msgid "Enable Star Rating:"
+msgstr "Bewertungssterne aktivieren:"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:44
+#@ wpsseo
+msgid "Enable Ratings on:"
+msgstr "Bwertungen für folgenden Content aktivieren:"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:47
+#@ wpsseo
+msgid "Home"
+msgstr "Startseite"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:90
+#@ wpsseo
+msgid "Selected"
+msgstr "Ausgewählt"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:114
+#@ wpsseo
+msgid "Enable Rating"
+msgstr "Bewertung aktivieren"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:179
+#@ wpsseo
+msgid "Placement:"
+msgstr "Platzierung:"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:185
+#: includes/metabox/wps-seo-booster-meta.php:453
+#: includes/metabox/wps-seo-booster-meta.php:756
+#: includes/metabox/wps-seo-booster-meta.php:878
+#: includes/metabox/wps-seo-booster-meta.php:1338
+#: includes/metabox/wps-seo-booster-meta.php:1827
+#@ wpsseo
+msgid "Top Left"
+msgstr "Oben links"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:186
+#: includes/metabox/wps-seo-booster-meta.php:453
+#: includes/metabox/wps-seo-booster-meta.php:756
+#: includes/metabox/wps-seo-booster-meta.php:878
+#: includes/metabox/wps-seo-booster-meta.php:1338
+#: includes/metabox/wps-seo-booster-meta.php:1828
+#@ wpsseo
+msgid "Top Right"
+msgstr "Oben rechts"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:187
+#: includes/metabox/wps-seo-booster-meta.php:1829
+#@ wpsseo
+msgid "Bottom Left"
+msgstr "Unten links"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:188
+#: includes/metabox/wps-seo-booster-meta.php:1830
+#@ wpsseo
+msgid "Bottom Right"
+msgstr "Unten rechts"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:200
+#@ wpsseo
+msgid "Choose the position for the rating stars."
+msgstr "Wählen Sie die Platzierung für die Bewertungs Sterne aus."
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:206
+#@ wpsseo
+msgid "Animation:"
+msgstr "Animation:"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:210
+#@ wpsseo
+msgid "Check the box if you want enable an animation for the rating stars."
+msgstr "Aktivieren Sie diese Box, wenn Sie die Bewertungssterne mit einer Animation vershene wollen."
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:216
+#@ wpsseo
+msgid "Unique Rating:"
+msgstr "Einzigartige Bewertung:"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:221
+#: includes/metabox/wps-seo-booster-meta.php:1902
+#@ wpsseo
+msgid "Based on IP"
+msgstr "Basierend auf User IP"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:222
+#: includes/metabox/wps-seo-booster-meta.php:1904
+#@ wpsseo
+msgid "Based on User's Browser"
+msgstr "Browser basierend (Cookies)"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:224
+#@ wpsseo
+msgid "Check this box if you want to enable unique ratings ( Based on IP or User's Browser ) which means, that the user can only rate each content one time."
+msgstr "Aktivieren Sie diese Box, wenn Sie einzigartige Bewertungen (basierend auf der User IP oder Cookies) aktivieren wollen. Dies bedeutet, dass ein Besucher jeden einzelnen Artikel jeweils nur einmal bewerten kann."
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:230
+#@ wpsseo
+msgid "Set Cookie:"
+msgstr "Cookie setzen:"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:233
+#@ wpsseo
+msgid "days"
+msgstr "Tage"
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:234
+#@ wpsseo
+msgid "If the cookie is set, then the user won't be able to rate each content more than one time."
+msgstr "Wenn das Cookie einmal gesetzt ist, wird der Besucher den Artikel kein zweites Mal mehr bewerten können."
+
+#: includes/admin/forms/wps-seo-booster-videos.php:3
+#@ wpsseo
+msgid "Listed below are the training videos for the WP Social SEO Booster Plugin. Use these Videos to help you get setup and ready to maximize your Blog's ability to quickly boost your Rankings in Google via Social Media Integration."
+msgstr "Hier finden Sie ein paar Training Videos, welche Ihnen zeigen, wie man WP Social SEO Booster am Besten anwendet. Schauen Sie sich diese Videos an, um das Plugin besser verstehen und Ihrer Webseite einen Boost in den Suchmaschinen geben zu können."
+
+#: includes/admin/forms/wps-seo-booster-videos.php:10
+#@ wpsseo
+msgid "Facebook Open Graph SEO Setup"
+msgstr "Facebook Open Graph"
+
+#: includes/admin/forms/wps-seo-booster-videos.php:20
+#@ wpsseo
+msgid "Setting Up Your Blog as a Google Plus Publisher"
+msgstr "Ihre Webseite für Google Plus Publisher (Firmenseite) enrichten"
+
+#: includes/admin/forms/wps-seo-booster-videos.php:15
+#@ wpsseo
+msgid "Setting Up Your Blog for Google Plus Authorship"
+msgstr "Ihre Webseite für Google Plus Authorship enrichten"
+
+#: includes/admin/forms/wps-seo-booster-videos.php:25
+#@ wpsseo
+msgid "Setting Up Google Rich Snippets for SEO"
+msgstr "Google Rich Snippets für SEO einrichten"
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:3
+#@ wpsseo
+msgid "Here are some of our other WordPress plugins which you might want to check out."
+msgstr "Hier finden Sie einen Kurzbeschrieb weiterer Plugins von WP Social, welche Sie vielleicht auch noch interessieren könnten."
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:26
+#@ wpsseo
+msgid "This is the same plugin as the one you have installed but with more features such as:"
+msgstr "Dies ist das gleiche Plugin, welches Sie bereits verwenden. Es hat aber folgende Mehrfunktionen:"
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:28
+#@ wpsseo
+msgid "Supports All Post Types"
+msgstr "Alle Content Typen (Artikel, Seiten & Eigene) werden unterstützt"
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:29
+#@ wpsseo
+msgid "Shortcodes for the Rich Snippets Templates"
+msgstr "Shortcodes für Rich Snippets Vorlagen"
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:34
+#@ wpsseo
+msgid "Unlimited Priority Support"
+msgstr "Unlimitierter Prioritäts Support"
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:35
+#@ wpsseo
+msgid "Unlimited Pro Updates"
+msgstr "Unlimitierte Pro Aktualisierungen"
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:36
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:40
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:44
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:48
+#@ wpsseo
+msgid "Learn More >>"
+msgstr "Weiterlesen >>"
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:39
+#@ wpsseo
+msgid "Add FB Review Engine to Your Blog and Turn Every Review into a Viral Profit Traffic Storm! Instantly Create a Viral Stream of Never Ending \"Buyer\" Traffic to ANY Product or Service and Watch Your Conversion Rates Explode!"
+msgstr "WP Social Review Engine ermöglicht es Ihnen, Bewertungen von Besuchern via Social Netzwerke zu erhalten. Dies können 'normale' Bewertungen vie auch Kundenrezensionen sein. Die Power im Plugin liegt darin, dass dann diese Bewertungen beim Besucher auf dessen Social Newtzwerk Profil gepostet wird und somit viralen Traffic für Ihre Webseite auslösen kann. Diese Bewertungen, welche dann Social geprüft sind, können ebenfalls zu einer besseren Conversion und mehr Verkäufen führen."
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:43
+#@ wpsseo
+msgid "Google now looks at how \"Social\" your blog is and the next Step in the Social process is getting your Blog more \"Shares\".  Without Social Sharing on Your Blog, you are going nowhere and just adding a bunch of Social Buttons to each post isn't going to get people clicking and sharing. You have to Give Your Visitors a REASON to want to Share your Content. With WP Social Traffic Blaster you can Turn on the Traffic Faucet and Never Turn it Off!"
+msgstr "Google schaut immer mehr, wie Social Ihre Webseite ist und wie of die Besucher Ihrer Webseite Ihren Content auch wirklich teilen. Mit WP Social Traffic Blaster können Sie dies verbessern, indem Sie die Möglichkeit haben, gesamten oder teilweisen Content zu verbergen und erst dann anzuzeigen, wenn der User den Content geteilt hat. Dies kann einem niemals endenden Traffic Sturm auslösen, was zu mehr Besuchern, mehr Verkäufe und somit zu mehr Erfolg führen kann. Ebenfalls wird dann Ihre Webseite in den Suchmaschinen mit besseren Platzierungen profitieren."
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:47
+#@ wpsseo
+msgid "FB Member Lock allows you to create Facebook connect enabled membership sites which allow you to quickly turn ANY content you have on your blog into a squeeze page."
+msgstr "FB Member Lock erlaubt es Ihnen, aus Ihrer Webseite eine Facebook Membership Seite zu kreieren. Somit können Sie ganz einfach und schnell Ihren Content in unendliche Optin Seiten verwandeln."
+
+#: includes/admin/wps-seo-booster-about-box.php:112
+#@ wpsseo
+msgid "Latest News from WPSocial.com"
+msgstr "WPSocial.de News"
+
+#: includes/admin/wps-seo-booster-about-box.php:141
+#@ wpsseo
+msgid "Like WP Social on Facebook"
+msgstr "Folge WP Social auf Facebook"
+
+#: includes/admin/wps-seo-booster-about-box.php:142
+#@ wpsseo
+msgid "Circle WP Social on Google+"
+msgstr "Folge WP Social auf Google +"
+
+#: includes/admin/wps-seo-booster-about-box.php:143
+#@ wpsseo
+msgid "Follow WP Social on Twitter"
+msgstr "Folge WP Social auf Twitter"
+
+#: includes/admin/wps-seo-booster-admin.php:33
+#@ wpsseo
+msgid "WP Social SEO Booster Settings Page"
+msgstr "WP Social SEO Booster Einstellungen"
+
+#. translators: plugin header field 'Name'
+#: includes/admin/wps-seo-booster-admin.php:33
+#: wpsocial-seo-booster.php:0
+#: wpsocial-seo-booster.php:32
+#@ wpsseo
+msgid "WP Social SEO Booster"
+msgstr "WP Social SEO Booster"
+
+#: includes/metabox/wps-seo-booster-meta.php:60
+#@ wpsseo
+msgid "WPSocial SEO Booster Star Rating"
+msgstr "WPSocial SEO Booster Bewertungs-Sterne"
+
+#: includes/metabox/wps-seo-booster-meta.php:310
+#@ wpsseo
+msgid "If an image is uploaded, then this will be used when this content is being shared."
+msgstr "Falls ein Bild hochgeladen wurde, wird dieses verwendet, wenn ein besucher diesen Content auf Social Netzwerken teitl."
+
+#: includes/metabox/wps-seo-booster-meta.php:448
+#: includes/metabox/wps-seo-booster-meta.php:751
+#: includes/metabox/wps-seo-booster-meta.php:873
+#: includes/metabox/wps-seo-booster-meta.php:1015
+#: includes/metabox/wps-seo-booster-meta.php:1333
+#@ wpsseo
+msgid "Display Position: "
+msgstr "Anzeigeposition: "
+
+#: includes/metabox/wps-seo-booster-meta.php:525
+#: includes/metabox/wps-seo-booster-meta.php:1296
+#: includes/metabox/wps-seo-booster-meta.php:1460
+#@ wpsseo
+msgid "Select a Rating"
+msgstr "Bewertung auswählen"
+
+#: includes/metabox/wps-seo-booster-meta.php:767
+#@ wpsseo
+msgid "Choose the position on where you want to show your review information. Top means above the actual post content, bottom means below the actual post content and hidden means that the info is only being added to the html code but can't be seen on the content."
+msgstr "Wählen Sie die Position für die Bewertungsinformation aus. Oben bedeutet, oberhalb des Contents, Unten bedeutet, unterhalb des Contents und versteckt bedeutet, dass die Bewertungsinformationen dem Besucher nicht angezeigt werden, aber von Google immer noch gelesen werden können."
+
+#: includes/metabox/wps-seo-booster-meta.php:1091
+#@ wpsseo
+msgid "Enter the time for the preparation in minutes. The time will automatically be converted in hours and minutes if the value is higher than 60."
+msgstr "Geben Sie die Zubereitungszeit in Minuten an. Das Plugin wird dann die Minuten automatisch in Stunden umwandeln, sofern sie mehr als 60 Minuten betragen."
+
+#: includes/metabox/wps-seo-booster-meta.php:1101
+#@ wpsseo
+msgid "Enter the cooking time in minutes. The time will automatically be converted in hours and minutes if the value is higher than 60."
+msgstr "Geben Sie die Kochzeit in Minuten an. Das Plugin wird dann die Minuten automatisch in Stunden umwandeln, sofern sie mehr als 60 Minuten betragen."
+
+#: includes/metabox/wps-seo-booster-meta.php:1111
+#@ wpsseo
+msgid "Enter the total time in minutes. The time will automatically be converted in hours and minutes if the value is higher than 60."
+msgstr "Geben Sie die Gesamtzeit in Minuten an. Das Plugin wird dann die Minuten automatisch in Stunden umwandeln, sofern sie mehr als 60 Minuten betragen."
+
+#: includes/metabox/wps-seo-booster-meta.php:1160
+#@ wpsseo
+msgid "Enter the ingredients. In the first field the amount (example: 1/2 ). In the second field the size (example: cup). In the third field the ingredient (example: white sugar). To add more ingredients, click on the green plus icon."
+msgstr "Geben Sie die Zutaten ein. Im ersten Feld die Anzahl (z.B. 1/2). Im zweiten Feld die Grösse (z.B. Teelöffel) und im dritten Feld die Zutat (z.B. weisser Zucker). Um mehr Zutaten hinzuzufügen, klicken Sie einfach auf den grünen plus Icon."
+
+#: includes/metabox/wps-seo-booster-meta.php:1166
+#@ wpsseo
+msgid "Amount"
+msgstr "Anzahl"
+
+#: includes/metabox/wps-seo-booster-meta.php:1169
+#@ wpsseo
+msgid "Size"
+msgstr "Grösse"
+
+#: includes/metabox/wps-seo-booster-meta.php:1172
+#@ wpsseo
+msgid "Ingredient"
+msgstr "Zutaten"
+
+#: includes/metabox/wps-seo-booster-meta.php:1176
+#: includes/metabox/wps-seo-booster-meta.php:1240
+#@ wpsseo
+msgid "add more"
+msgstr "weitere hinzufügen"
+
+#: includes/metabox/wps-seo-booster-meta.php:1199
+#: includes/metabox/wps-seo-booster-meta.php:1257
+#@ wpsseo
+msgid "delete"
+msgstr "löschen"
+
+#: includes/metabox/wps-seo-booster-meta.php:1281
+#@ wpsseo
+msgid "Rating Title: "
+msgstr "Bewertungstitel: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1285
+#@ wpsseo
+msgid "Enter the title for the rating."
+msgstr "Geben Sie den Titel für die Bewertung ein:"
+
+#: includes/metabox/wps-seo-booster-meta.php:1291
+#@ wpsseo
+msgid "Your Rating: "
+msgstr "Ihre Bewertung: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1307
+#@ wpsseo
+msgid "Choose your rating for the recipe."
+msgstr "Wählen Sie Ihre Bewertung für dieses Rezept aus."
+
+#: includes/metabox/wps-seo-booster-meta.php:1536
+#@ wpsseo
+msgid "Video Thumbnail Image: "
+msgstr "Video Vorschaubild: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1541
+#@ wpsseo
+msgid "Images must be at least 160 x 90 pixels and at most 1920x1080 pixels. We recommend images in .jpg, .png, or. gif formats."
+msgstr "Bilder müssen mindestens eine Grösse von 160 x 90 Pixel aufweisen und dürfen maximal 1920 x 1080 Pixels gross sein. Wir empfehlen die Verwenung folgender Bilddateien: .jpg, .png oder .gif."
+
+#: includes/metabox/wps-seo-booster-meta.php:1808
+#@ wpsseo
+msgid "Enable: "
+msgstr "Aktivieren: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1812
+#@ wpsseo
+msgid "Check this box to enable the rating stars for this post."
+msgstr "Aktivieren Sie diese Box, um die Bewertungs-Sterne für diesen Content anzuzeigen."
+
+#: includes/metabox/wps-seo-booster-meta.php:1819
+#@ wpsseo
+msgid "Placement: "
+msgstr "Platzierung: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1843
+#@ wpsseo
+msgid "Choose a custom position for the rating stars."
+msgstr "Wählen Sie eine Position für die Bewertungs-Sterne aus."
+
+#: includes/metabox/wps-seo-booster-meta.php:1849
+#@ wpsseo
+msgid "Animation: "
+msgstr "Animation: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1857
+#: includes/metabox/wps-seo-booster-meta.php:1886
+#@ wpsseo
+msgid "On"
+msgstr "An"
+
+#: includes/metabox/wps-seo-booster-meta.php:1858
+#: includes/metabox/wps-seo-booster-meta.php:1887
+#@ wpsseo
+msgid "Off"
+msgstr "Aus"
+
+#: includes/metabox/wps-seo-booster-meta.php:1872
+#@ wpsseo
+msgid "Choose wheter you want to use an animation for the rating stars."
+msgstr "Wählen Sie, ob sie eine Animation für die Bewertungs-Sterne verwenden möchten."
+
+#: includes/metabox/wps-seo-booster-meta.php:1878
+#@ wpsseo
+msgid "Unique Rating : "
+msgstr "Einzigartigkeit der Bewertung: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1906
+#@ wpsseo
+msgid "Choose if you want to enable unique ratings ( Based on IP or User's Browser ) which means, that the user can only rate each content one time."
+msgstr "Wählen Sie, ob Sie einzigartige Bewertungen aktivieren wollen. Diese basieren entweder auf der IP des Besuchers oder werden durch Cookies gerelegt. Falls aktiviert, kann jeder Besucher nur einmal den jeweiligen Artikel berwerten."
+
+#: includes/metabox/wps-seo-booster-meta.php:1912
+#@ wpsseo
+msgid "Flush the Ratings: "
+msgstr "Alle Bewertungen zurücksetzen: "
+
+#: includes/metabox/wps-seo-booster-meta.php:1916
+#@ wpsseo
+msgid "Flush Now!"
+msgstr "Jetzt zurücksetzen!"
+
+#: includes/metabox/wps-seo-booster-meta.php:1917
+#@ wpsseo
+msgid "If you want to clear all the received ratings for this post, then click on the Flush Now button. This will then delete all the ratings in the database and this post won't show any ratings anymore."
+msgstr "Falls Sie alle erhaltenen Bewertungen für diesen Artikel löschen wollen, klicken Sie auf den 'Bewertungen jetzt zurücksetzen' Button. Dies löscht dann alle erhaltennen Bewertungen für diesen Artikel aus der Datenbank."
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:32
+#@ wpsseo
+msgid "hrs"
+msgstr "std."
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:33
+#@ wpsseo
+msgid "mins"
+msgstr "min."
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:34
+#@ wpsseo
+msgid "hr"
+msgstr "std."
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:35
+#@ wpsseo
+msgid "min"
+msgstr "min."
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:116
+#: includes/schema/wps-seo-booster-schema-review.php:70
+#: includes/schema/wps-seo-booster-schema-software.php:63
+#: includes/wps-seo-booster-star-rating.php:33
+#: includes/wps-seo-booster-star-rating.php:205
+#: includes/wps-seo-booster-star-rating.php:385
+#@ wpsseo
+msgid " rating"
+msgstr "Bewertung"
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:118
+#: includes/schema/wps-seo-booster-schema-review.php:72
+#: includes/schema/wps-seo-booster-schema-software.php:65
+#: includes/wps-seo-booster-star-rating.php:35
+#: includes/wps-seo-booster-star-rating.php:207
+#: includes/wps-seo-booster-star-rating.php:387
+#@ wpsseo
+msgid " ratings"
+msgstr "Bewertungen"
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:129
+#@ wpsseo
+msgid "By: "
+msgstr "Von: "
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:133
+#@ wpsseo
+msgid "Published: "
+msgstr "Publiziert: "
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:139
+#@ wpsseo
+msgid "Prep time: "
+msgstr "Zubereitungszeit: "
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:143
+#@ wpsseo
+msgid "Cook time: "
+msgstr "Kochzeit: "
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:147
+#@ wpsseo
+msgid "Total time: "
+msgstr "Arbeitszeit: "
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:234
+#@ wpsseo
+msgid "Serving size: "
+msgstr "Anz. Portionen: "
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:238
+#@ wpsseo
+msgid "Calories per serving: "
+msgstr "Kalorien pro Portion: "
+
+#: includes/schema/wps-seo-booster-schema-recipe.php:242
+#@ wpsseo
+msgid "Fat per serving: "
+msgstr "Fettanteil p. P.: "
+
+#: includes/widgets/vcard-widget-business.php:41
+#@ wpsseo
+msgid "SEO Booster: Business vCard"
+msgstr "SEO Booster: Business vCard"
+
+#: includes/widgets/wps-seo-booster-ratings-widget.php:58
+#@ wpsseo
+msgid "A rating widget, which will display your top rated content."
+msgstr "Bewertungswidget. Dieses zeigt die best bewerteten Artikel an."
+
+#: includes/widgets/wps-seo-booster-ratings-widget.php:61
+#@ wpsseo
+msgid "SEO Booster: Top Rated Content"
+msgstr "SEO Booster: Top Bewertungen"
+
+#: includes/widgets/wps-seo-booster-ratings-widget.php:130
+#@ wpsseo
+msgid "Read"
+msgstr "Lesen"
+
+#: includes/widgets/wps-seo-booster-ratings-widget.php:173
+#@ wpsseo
+msgid "Title:"
+msgstr "Titel"
+
+#: includes/widgets/wps-seo-booster-ratings-widget.php:178
+#@ wpsseo
+msgid "Number of Posts:"
+msgstr "Anzahl Artikel:"
+
+#: includes/widgets/wps-seo-booster-ratings-widget.php:183
+#@ wpsseo
+msgid "Filter by Category:"
+msgstr "Bei Kategorie sortieren:"
+
+#: includes/widgets/wps-seo-booster-ratings-widget.php:185
+#@ wpsseo
+msgid "Select"
+msgstr "Auswählen"
+
+#: includes/wps-seo-booster-htaccess.php:26
+#, php-format
+#@ wpsseo
+msgid "Please make sure your <a href=\"%s\">.htaccess</a> file is writable "
+msgstr "Bitte stellen Sie sicher, dass Ihre <a href=\"%s\">.htaccess</a> Datei beschreibbar ist "
+
+#: includes/wps-seo-booster-star-rating.php:83
+#: includes/wps-seo-booster-star-rating.php:90
+#: includes/wps-seo-booster-star-rating.php:242
+#: includes/wps-seo-booster-star-rating.php:249
+#: includes/wps-seo-booster-star-rating.php:393
+#@ wpsseo
+msgid "based on "
+msgstr "basierend auf "
+
+#: includes/wps-seo-booster-star-rating.php:97
+#: includes/wps-seo-booster-star-rating.php:256
+#@ wpsseo
+msgid "Thanks!"
+msgstr "Danke!"
+
+#. translators: plugin header field 'PluginURI'
+#: wpsocial-seo-booster.php:0
+#@ wpsseo
+msgid "http://wpsocial.com"
+msgstr "http://wpsocial.com"
+
+#. translators: plugin header field 'Description'
+#: wpsocial-seo-booster.php:0
+#: wpsocial-seo-booster.php:33
+#@ wpsseo
+msgid "WP Social SEO Booster adds Facebook Open Graph, Twitter Card and Google Rich Snippets to your site to boost your sites search engine visibility."
+msgstr "WP Social SEO Booster optimiert automatisch Ihre Webseite mit Social Meta Tags durch die Integration von Facebook Open Graph, Google Rich Snippets und Twitter Card für bessere Sichtbarkeit und bessere Platzierungen in den Suchmaschinen,"
+
+#. translators: plugin header field 'Author'
+#: wpsocial-seo-booster.php:0
+#: wpsocial-seo-booster.php:34
+#@ wpsseo
+msgid "Daniel Waser"
+msgstr "Daniel Waser"
+
+#. translators: plugin header field 'AuthorURI'
+#: wpsocial-seo-booster.php:0
+#@ wpsseo
+msgid "http://www.danielwaser.com"
+msgstr "http://www.danielwaser.com"
+
+#: wpsocial-seo-booster.php:35
+#@ wpsseo
+msgid "http://wpsocial.com/"
+msgstr "http://www.wpsocial.de/"
+
+#: includes/admin/forms/wps-seo-booster-manual.php:144
+#@ wpsseo
+msgid "You also have the ability to display the rating stars using the following shortcode: [wps_ratings]. This will place the rating stars on the left hand side of the content. If you want to display it on the right hand side, use the following shortcode: [wps_ratings position=\"right\"]. If you're using the shortcode, youu don't need to activate the rating for that post."
+msgstr "Sie haben auch die Möglichkeit, die Bewertungssterne mit folgendem Shortcode anzuzeigen: [wps_ratings]. Dies zeigt dann die Sterne auf der linken Seite an. Wenn Sie die Sterne rechts platzieren möchten, verwenden Sie folgenden Shortcode: [wps_ratings position=\"right\"]. Falls Sie den Shortcode verwenden, müssen Sie die Bewertungsstrene für den Artikel nicht aktivieren, dies wird dann automatisch durch den Shortcode gemacht."
+
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:38
+#@ wpsseo
+msgid "Check the box to enable the star rating. You can also use the following shortcode for custom placement for the rating stars. [wps_ratings]. If you are using the shortcode, you don't need to activate the rating for this post."
+msgstr "Aktivieren Sie diese Box um die Bewertungssterne zu anzuzeigen. Sie können auch folgenden Shortcode für eine eigene Platzierung der Bewertungssterne verwenden: [wps_ratings]. Falls Sie den Shortcode verwenden, müssen Sie die Bewertungsstrene für den Artikel nicht aktivieren, dies wird dann automatisch durch den Shortcode gemacht."
+
+#: includes/admin/forms/wps-seo-booster-videos.php:5
+#@ wpsseo
+msgid "WP Social SEO Booster Overview"
+msgstr "WP Social SEO Booster Übersicht"
+
+#: includes/widgets/vcard-widget-business.php:261
+#@ wpsseo
+msgid "Link Email Address?"
+msgstr "Email Adresse verlinken?"
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:27
+#@ wpsseo
+msgid "Supports Pages"
+msgstr "Unterstützt Seiten"
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:30
+#@ wpsseo
+msgid "Includes styling options for all the different boxes (Reviews, Software, Recipres etc.)"
+msgstr "Beinhaltet Design Optionen für die verschiedenen Boxen (Bewertungen, Software, Rezepte etc.) "
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:31
+#@ wpsseo
+msgid "Includes the option to add a call to action button with link within the review box"
+msgstr "Beinhaltet die Option zum Anbringen eines Buttons mit Link innerhalb der Bewertungs-Box"
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:32
+#@ wpsseo
+msgid "Supports Custom Google Itemprop entries"
+msgstr "Unterstützt Google Plus Itemprop Einträge"
+
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:33
+#@ wpsseo
+msgid "Supports all Twitter Card types"
+msgstr "Unterstützt alle Twitter Card Typen"
+
+#: includes/metabox/wps-seo-booster-meta.php:216
+#: includes/metabox/wps-seo-booster-meta.php:242
+#@ wpsseo
+msgid "General"
+msgstr "Allgemein"
+
+#: includes/metabox/wps-seo-booster-meta.php:246
+#@ wpsseo
+msgid "Disable SEO Booster: "
+msgstr "SEO Booste deaktivieren:"
+
+#: includes/metabox/wps-seo-booster-meta.php:251
+#@ wpsseo
+msgid "No"
+msgstr "Nein"
+
+#: includes/metabox/wps-seo-booster-meta.php:251
+#@ wpsseo
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/metabox/wps-seo-booster-meta.php:262
+#@ wpsseo
+msgid "Choose \"Yes\" if you want to disable all of the SEO Booster features for this post."
+msgstr "Wählen Sie \\\"ja\\\" aus, um SEO Booster für diesen Artikel zu deaktivieren."
+
+#: includes/admin/forms/wps-seo-booster-general-settings.php:44
+#@ wpsseo
+msgid "Hide Admin Bar Menu:"
+msgstr "Admin Bar Menu verbergen:"
+
+#: includes/admin/forms/wps-seo-booster-general-settings.php:48
+#@ wpsseo
+msgid "Check this box, if you want to hide the admin bar entry."
+msgstr "Aktivieren Sie diese Box um den Menu-Eintrag in der Admin Bar zu verbergen."
+
+#: includes/admin/wps-seo-booster-about-box.php:145
+#@ wpsseo
+msgid "Subscribe by email"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: wpsocial-seo-booster.php:0
+#@ wpsseo
+msgid "1.1.4"
+msgstr ""
+

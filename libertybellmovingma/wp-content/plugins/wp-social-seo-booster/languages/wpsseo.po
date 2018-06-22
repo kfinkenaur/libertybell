@@ -1,0 +1,2339 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1883
+#: includes/widgets/vcard-widget-business.php:1
+msgid ""
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "1 Star"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "1.5 Stars"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "2 Stars"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "2.5 Stars"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "3 Stars"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "3.5 Stars"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "4 Stars"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "4.5 Stars"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "5 Stars"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1561
+msgid "A URL pointing to a player for the specific video. Usually this is the information in the src element of an <code>< embed ></code> tag. Example: Dailymotion: http://www.dailymotion.com/swf/x1o2g"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1551
+msgid "A URL pointing to the actual video media file. This file should be in .mpg, .mpeg, .mp4, .m4v, .mov, .wmv, .asf, .avi, .ra, .ram, .rm, .flv, or other video file format. All files must be accessible via HTTP. Example: http://www.example.com/video123.flv"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:127
+msgid "A new window will popup. You don\\'t need to enter any code in to your website. The plugin has done that for you. Just click on the blue \"Test website\" button and then click on \"Done\"."
+msgstr ""
+
+#. Text in function
+#: includes/widgets/wps-seo-booster-ratings-widget.php:1
+msgid "A rating widget, which will display your top rated content."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:64
+msgid "About Image Usage:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:136
+msgid "Activate Homepage Values:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:34
+msgid "Activate Open Graph:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:39
+msgid "Add FB Review Engine to Your Blog and Turn Every Review into a Viral Profit Traffic Storm! Instantly Create a Viral Stream of Never Ending \"Buyer\" Traffic to ANY Product or Service and Watch Your Conversion Rates Explode!"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1620
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:86
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:98
+msgid "Add Image"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:299
+msgid "Add a custom description for your post. This will be used to post on an user\\'s wall when they like/share your post. If you use any SEO plugin or if your theme does support a custom description for SEO, then the plugin will use the description you used within the plugin or the theme and you can leave that empty if you like. <strong>If you enter a value here, the plugin will use it, regardless if you have other values within the SEO plugin or theme.</strong>"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:289
+msgid "Add a custom title for your post. This will be used to post on an user\\'s wall when they like/share your post. If you use any SEO plugin or if your theme does support a custom title for SEO, then the plugin will use the title you used within the plugin or the theme and you can leave that empty if you like. <strong>If you enter a value here, the plugin will use it, regardless if you have other values within the SEO plugin or theme.</strong>"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:91
+msgid "After you added your site(s) click on \"Done editing\" at the top of the page."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:40
+msgid "After you integrated that in to your site, your listings can look like the one shown in the image below:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:84
+msgid "After you saved the changes within the +1 Tab click on the \"About\" Tab and enter as many information as you like.
+	The one you NEED to enter is the \"Contributor to\"."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:82
+msgid "Always Use This Image:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1166
+msgid "Amount"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:206
+msgid "Animation:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1849
+msgid "Animation: "
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:110
+msgid "Article"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:398
+msgid "Audio Album: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:388
+msgid "Audio Artist: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:378
+msgid "Audio Title: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:368
+msgid "Audio URL: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:500
+msgid "Author Name:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1057
+msgid "Author Name: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/wps-seo-booster-about-box.php:71
+msgid "Author:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1385
+msgid "Author: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1902
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:221
+msgid "Based on IP"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1904
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:222
+msgid "Based on User\\'s Browser"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:50
+msgid "Below are some example listings for the different Rich Snippets integration. They all have been tested with the Google Webmaster Rich Snippets Testing Tool which you can find on the following site:"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:110
+msgid "Book"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "Bottom"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1883
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:183
+msgid "Bottom Left"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1883
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:183
+msgid "Bottom Right"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:220
+msgid "Business"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:224
+msgid "Business Name:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:773
+msgid "Business Name: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:985
+msgid "Business: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1137
+msgid "Calories: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1425
+msgid "Category: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:91
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:130
+msgid "Check all"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:210
+msgid "Check the box if you want enable an animation for the rating stars."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:140
+msgid "Check the box to activate the homepage values."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:38
+msgid "Check the box to enable the star rating. You can also use the following shortcode for custom placement for the rating stars. [wps_ratings]. If you are using the shortcode, you don\\'t need to activate the rating for this post."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:224
+msgid "Check this box if you want to enable unique ratings ( Based on IP or User\\'s Browser ) which means, that the user can only rate each content one time."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1812
+msgid "Check this box to enable the rating stars for this post."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:38
+msgid "Check this box to get the source code of the header cleaned up."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:48
+msgid "Check this box to remove some of the dashboard widgets."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:58
+msgid "Check this box, if you want to add the HTML5 Boilerplate optimized performance entries to your site\\'s .htaccess file. This will also add a bit more of security to your site."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-general-settings.php:38
+msgid "Check this box, if you want to delete all the options from your database when you deactivate the plugin."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-general-settings.php:48
+msgid "Check this box, if you want to hide the admin bar entry."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:262
+msgid "Choose \"Yes\" if you want to disable all of the SEO Booster features for this post."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:332
+msgid "Choose a custom content type for your post from the list above. If you leave this empty the default value from the settings page will be taken."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1843
+msgid "Choose a custom position for the rating stars."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-google-settings.php:38
+msgid "Choose a user for the homepage. This will be used for the <code>rel=\"author\"</code> on the homepage. Make sure the chosen user did enter his/her Google+ profile link on their profile page."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1906
+msgid "Choose if you want to enable unique ratings ( Based on IP or User\\'s Browser ) which means, that the user can only rate each content one time."
+msgstr ""
+
+#. Text in function
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:37
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:50
+msgid "Choose individual"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:200
+msgid "Choose the position for the rating stars."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1349
+msgid "Choose the position on where you want to show your information. Top means above the actual post content, bottom means below the actual post content."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:767
+msgid "Choose the position on where you want to show your review information. Top means above the actual post content, bottom means below the actual post content and hidden means that the info is only being added to the html code but can\\'t be seen on the content."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:464
+msgid "Choose the position on where you want to show your review information. Top means above the actual post content, bottom means below the actual post content."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1872
+msgid "Choose wheter you want to use an animation for the rating stars."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:536
+msgid "Choose your rating for the product."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1307
+msgid "Choose your rating for the recipe."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/wps-seo-booster-about-box.php:142
+msgid "Circle WP Social on Google+"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:232
+msgid "City/Locality:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:34
+msgid "Cleanup Header:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:128
+msgid "Click on \"Done editing\" at the top of the Google +1 page. That\\'s it. Your site is ready."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:77
+msgid "Click on Continue to Google+."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:124
+msgid "Click on Website and add the URL of your site."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:89
+msgid "Click on it and then click on \"Add custom link\" and enter the Label and URL of your site and then click on save.
+	You can add as many site as you like. Just repeat that step. Make sure that you enter the correct URL, which means if your site is domain.com and you enter www.domain.com, that won\\'t work, because for Google these are two different sites. So with that said, if your site is domain.com then you need to enter domain.com."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:80
+msgid "Click on the +1 Tab and check the box \"Show this tab on your profile\" and click on the Save button."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:95
+msgid "Click on the Profile button at the top left hand side and copy your Profile URL in to a notepad or other text editor file. The Profile URL should look similar to the one below:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:125
+msgid "Click save."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-general-settings.php:21
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:21
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:21
+#: includes/admin/forms/wps-seo-booster-google-settings.php:21
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:21
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:21
+msgid "Click to toggle"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:106
+msgid "Content Type:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1097
+msgid "Cooke Time: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:121
+msgid "Copy the URL of your Google +1 page and paste it in to the Google Plus Publisher field within the plugins settings page (Google Authorship Markup Settings) and save your changes. The URL of your Google +1 page should look like the following one:"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:248
+msgid "Country:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:305
+msgid "Custom Open Graph Image: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:160
+msgid "Daniel"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:44
+msgid "Dashboard Widgets:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:510
+#: includes/metabox/wps-seo-booster-meta.php:1067
+msgid "Date: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:94
+msgid "Default Image:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:34
+msgid "Default Open Graph Images need to be at least 200 x 200 pixels for Facebook to recognize them as significant objects for enhancing Facebook \"EdgeRank\"."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:76
+msgid "Default Open Graph images need to be at least 200 pixels wide for Facebook to recognize them as significant objects for enhancing Facebook \"EdgeRank\"."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-general-settings.php:34
+msgid "Delete Options:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1365
+#: includes/metabox/wps-seo-booster-meta.php:1526
+msgid "Description: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1229
+msgid "Directions: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:246
+msgid "Disable SEO Booster: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:448
+#: includes/metabox/wps-seo-booster-meta.php:751
+#: includes/metabox/wps-seo-booster-meta.php:873
+#: includes/metabox/wps-seo-booster-meta.php:1015
+#: includes/metabox/wps-seo-booster-meta.php:1333
+msgid "Display Position: "
+msgstr ""
+
+#. Text in function
+#: includes/admin/forms/wps-seo-booster-google-settings.php:37
+msgid "Don\\'t show"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:256
+msgid "Email:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:833
+#: includes/metabox/wps-seo-booster-meta.php:965
+msgid "Email: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1557
+msgid "Embed URL: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:114
+msgid "Enable Rating"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:44
+msgid "Enable Ratings on:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:34
+msgid "Enable Star Rating:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1808
+msgid "Enable: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1646
+msgid "End Date: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:412
+msgid "Enter a custom Facebook App ID."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:160
+msgid "Enter a description for the homepage."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:909
+msgid "Enter a nick name if you have one."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:675
+msgid "Enter a product category. For example, Books-Fiction, Tools, or Cars. You can include multiple categories like: Hardware > Tools > Anvils. Any value is accepted, but Google recognizes the categories described <a href=\"http://support.google.com/merchants/bin/answer.py?hl=en&answer=160081\" target=\"_blank\">in this article</a>."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:514
+msgid "Enter a publihing date for the review. Use the following date format: 2012-06-11. Leave it empty if you want to use the publishing date from WordPress."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1071
+msgid "Enter a publishing date for the recipe. To use the one from the post, just leave it empty. If you\\'re using a date it should have the following format: 2012-05-11."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1630
+msgid "Enter a short description for the event."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:655
+msgid "Enter a short description for the product."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1081
+msgid "Enter a summary for the recipe."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:586
+msgid "Enter a summary for your review."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:150
+msgid "Enter a title for the homepage."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:48
+msgid "Enter the Facebook Application ID of the Fan Page which is associated with this website."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:422
+msgid "Enter the ID of a Facebook admin."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1760
+msgid "Enter the URL from where the tickets can be purchased."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:847
+msgid "Enter the URL of the business website."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:58
+msgid "Enter the User ID of the Facebook Fan Page Admin. If you changed the URL of your profile and you have your name in this URL, then the ID can be found by typing the following URL in to your browser: http://graph.facebook.com/USERNAME. Replace USERNAME with your name. If you have mire than one admin for a Fan Page than enter all the ID\\'s in a comma separated list. This will enable Facebook insights."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1750
+msgid "Enter the amount of available tickets."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:777
+msgid "Enter the business name."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1141
+msgid "Enter the calories per serving. Example: 250"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1101
+msgid "Enter the cooking time in minutes. The time will automatically be converted in hours and minutes if the value is higher than 60."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1449
+msgid "Enter the currency for the price. Example: if the currency is US Dollars enter USD."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1740
+msgid "Enter the currency for the ticket price. Example: if the price is in US Dollars enter USD."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1236
+msgid "Enter the directions here."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:969
+msgid "Enter the email address."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1650
+msgid "Enter the end date for the event. The date format has to be like: 2012-10-15T19:00:00"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1151
+msgid "Enter the fat per serving. Example: 12g"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:899
+msgid "Enter the full name."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:352
+msgid "Enter the height of your video. (Example: 320px)"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1730
+msgid "Enter the highest ticket price."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1160
+msgid "Enter the ingredients. In the first field the amount (example: 1/2 ). In the second field the size (example: cup). In the third field the ingredient (example: white sugar). To add more ingredients, click on the green plus icon."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:556
+msgid "Enter the link to the product you\\'re reviewing. This is optional and will only be used to add a link to the author. So if you don\\'t use an author within the field above, you can leave that empty too. This is optional and not used for the Google Rich Snippets."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1680
+msgid "Enter the locality of the event location"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:929
+msgid "Enter the locality."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1660
+msgid "Enter the location for the event. Example: Warfield Theatre"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1720
+msgid "Enter the lowest ticket price."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1041
+msgid "Enter the name for the recipe."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:546
+msgid "Enter the name of the Product Author/Company. Example: for the WPSocial SEO Booster plugin you could enter WPSocial.com here. This is optional and not used for the Google Rich Snippets."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:402
+msgid "Enter the name of the album for the audio."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:392
+msgid "Enter the name of the artist of the audio."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1061
+msgid "Enter the name of the author for the recipe."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1481
+msgid "Enter the name of the author who wrote the review. Leave it empty if you want to use the author from WordPress."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:635
+msgid "Enter the name of the brand for the product."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:989
+msgid "Enter the name of the business you work for."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1610
+msgid "Enter the name of the event."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:474
+msgid "Enter the name of the product for which you\\'re writing the review for."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:625
+msgid "Enter the name of the product."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:725
+msgid "Enter the name of the seller here."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:949
+msgid "Enter the postal code."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1710
+msgid "Enter the price for a ticket here. If there are different price classes available use the fields below for the lowest and highest price."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:685
+msgid "Enter the price for the product."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1439
+msgid "Enter the price for the software."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1690
+msgid "Enter the region of the event location."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:939
+msgid "Enter the region."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1640
+msgid "Enter the start date for the event. The date format has to be like: 2012-10-15T19:00:00"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:919
+msgid "Enter the street address."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1670
+msgid "Enter the street of the event location."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:959
+msgid "Enter the telephone number"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1091
+msgid "Enter the time for the preparation in minutes. The time will automatically be converted in hours and minutes if the value is higher than 60."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1285
+msgid "Enter the title for the rating."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:382
+msgid "Enter the title for your audio."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1111
+msgid "Enter the total time in minutes. The time will automatically be converted in hours and minutes if the value is higher than 60."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1700
+msgid "Enter the type of the event. Example: Concert"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:484
+msgid "Enter the type of the product. Example: if you\\'re writing a review about WPSocial SEO Booster, the product type could be WordPress Plugin. This is optional and not used for the Google Rich Snippets."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1571
+msgid "Enter the type of the video. Example: application/x-shockwave-flash"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:494
+msgid "Enter the version of the product like: 1.0. This is optional and not used for the Google Rich Snippets."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:362
+msgid "Enter the width of your video. (Example: 640px)"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-google-settings.php:48
+msgid "Enter your Google Plus page URL (example: <code>https://plus.google.com/105389611532237339285</code>) here if you have set up a \"Google+ Page\" for your organization or product, and the plugin will put a rel=\"publisher\" link to the specified Google+ page on your home page."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:979
+msgid "Enter your job title."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:225
+msgid "Event"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1626
+msgid "Event Description: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1616
+msgid "Event Image: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1656
+msgid "Event Location: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1606
+msgid "Event Name: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1696
+msgid "Event Type: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1121
+msgid "Example: 1 9\" pie (8 servings)"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1131
+msgid "Example: 1 medium slice"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:49
+msgid "Examples"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:47
+msgid "FB Member Lock allows you to create Facebook connect enabled membership sites which allow you to quickly turn ANY content you have on your blog into a squeeze page."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:54
+msgid "Facebook Admins:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:418
+msgid "Facebook Admins: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:44
+msgid "Facebook App ID/API Key:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:408
+msgid "Facebook App ID: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-videos.php:10
+msgid "Facebook Open Graph SEO Setup"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1147
+msgid "Fat: "
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/wps-seo-booster-ratings-widget.php:183
+msgid "Filter by Category:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:26
+msgid "First it will check if you have entered an image in \"Always Use This Image\" within the plugin settings."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1916
+msgid "Flush Now!"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:24
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:75
+msgid "Flush Rating"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1912
+msgid "Flush the Ratings: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/wps-seo-booster-about-box.php:143
+msgid "Follow WP Social on Twitter"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:216
+#: includes/metabox/wps-seo-booster-meta.php:242
+msgid "General"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-general-settings.php:25
+msgid "General Settings"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:73
+msgid "Go and visit"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:122
+msgid "Go back to your Google +1 page and click on the blue \"Edit profile\" button at the top of the page."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:136
+msgid "Go to Users &gt; Your Profile and add your Twitter account and update your profile. That\\'s all you need to do for it."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:120
+msgid "Go to your Google +1 page. If you don\\'t have one you can create one. It\\'s easy. Just follow the steps Google does provide and you\\'re done within minutes."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:36
+msgid "Google Authorship"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-google-settings.php:25
+msgid "Google Authorship Markup Settings"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:115
+msgid "Google Plus Publisher Markup"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-google-settings.php:44
+msgid "Google Plus Publisher:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:43
+msgid "Google now looks at how \"Social\" your blog is and the next Step in the Social process is getting your Blog more \"Shares\".  Without Social Sharing on Your Blog, you are going nowhere and just adding a bunch of Social Buttons to each post isn\\'t going to get people clicking and sharing. You have to Give Your Visitors a REASON to want to Share your Content. With WP Social Traffic Blaster you can Turn on the Traffic Faucet and Never Turn it Off!"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:54
+msgid "HTML5 Boilerplate .htaccess:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:3
+msgid "Here are some of our other WordPress plugins which you might want to check out."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-general-settings.php:44
+msgid "Hide Admin Bar Menu:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:47
+msgid "Home"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-google-settings.php:34
+msgid "Homepage Author:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:156
+msgid "Homepage Description:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:166
+msgid "Homepage Image:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:110
+msgid "Homepage Settings"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:127
+msgid "Homepage Settings:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:146
+msgid "Homepage Title:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:310
+msgid "If an image is uploaded, then this will be used when this content is being shared."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:88
+msgid "If an image is uploaded, this will always be used on Facebook for content sharing."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:100
+msgid "If an image is uploaded, this will be used on Facebook for content sharing if you don\\'t upload a custom image with your content."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:27
+msgid "If that is empty it will check if you uploaded an image in the \"WP Social SEO Booster Open Graph Metabox\"."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:234
+msgid "If the cookie is set, then the user won\\'t be able to rate each content more than one time."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:29
+msgid "If the featured image is emtpy the plugin will scan your content."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:665
+msgid "If the product has a SKU, enter it here."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:715
+msgid "If the product is on sale but for limited time only, then enter the end date of the offer here. The date should have the following format: 2012-12-31."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:705
+msgid "If the product is on sale or has a special offer (price reduction), enter the special price here."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:28
+msgid "If this is empty too it will check for a thumbnail (featured image)."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:31
+msgid "If you don\\'t use any images within your content, then the plugin will check if you have set a defualt image within the plugin settings page and if so, it will use that one."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:154
+msgid "If you enjoy the plugin, please like us on Facebook: <a href=\"//www.facebook.com/WPSocial\" target=\"_blank\">www.facebook.com/WPSocial</a>"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:71
+msgid "If you have an account for Gmail, Google Docs, Google Webmaster Tools etc, then you already have the basics for a Google+ Profile. To get it ready for the Google authorship markup you need to have some specific data in your profile."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1917
+msgid "If you want to clear all the received ratings for this post, then click on the Flush Now button. This will then delete all the ratings in the database and this post won\\'t show any ratings anymore."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:150
+msgid "If you want to reset the star rating for your content, you can do that either within the settings page and do it for all entries within a content type, or choose individual entries to reset them. You also have the ability to reset the received ratings for each content, within the star rating meta box."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:30
+msgid "If you\\'re using an image within your content the plugin will use the first image found."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:118
+msgid "If your site is a personal blog, then you can skip these steps. This is only for sites, who also have a Google Plus Publisher (Business) page and want to connect this business page with their site."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:24
+msgid "Image Usage"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1047
+#: includes/metabox/wps-seo-booster-meta.php:1375
+msgid "Image: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1541
+msgid "Images must be at least 160 x 90 pixels and at most 1920x1080 pixels. We recommend images in .jpg, .png, or. gif formats."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:46
+msgid "Important"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:30
+msgid "Includes styling options for all the different boxes (Reviews, Software, Recipres etc.)"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:31
+msgid "Includes the option to add a call to action button with link within the review box"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:37
+msgid "Info"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:73
+msgid "Info:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1597
+msgid "Info: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1172
+msgid "Ingredient"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1157
+msgid "Ingredients: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:975
+msgid "Job Title: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1405
+msgid "Language: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/wps-seo-booster-about-box.php:112
+msgid "Latest News from WPSocial.com"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:36
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:40
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:44
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:48
+msgid "Learn More >>"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/wps-seo-booster-about-box.php:141
+msgid "Like WP Social on Facebook"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:261
+msgid "Link Email Address?"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-videos.php:3
+msgid "Listed below are the training videos for the WP Social SEO Booster Plugin. Use these Videos to help you get setup and ready to maximize your Blog\\'s ability to quickly boost your Rankings in Google via Social Media Integration."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:793
+#: includes/metabox/wps-seo-booster-meta.php:925
+#: includes/metabox/wps-seo-booster-meta.php:1676
+msgid "Locality: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-plugin-settings.php:46
+msgid "Manual"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:110
+msgid "Movie"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:110
+msgid "Music Album"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1037
+msgid "Name of the Recipe: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:721
+msgid "Name of the Seller: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:895
+#: includes/metabox/wps-seo-booster-meta.php:1355
+#: includes/metabox/wps-seo-booster-meta.php:1516
+msgid "Name: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:905
+msgid "Nick Name: "
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "No"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:123
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:163
+msgid "No Entries for this type."
+msgstr ""
+
+#. Text in function
+#: includes/admin/wps-seo-booster-about-box.php:121
+msgid "No items."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:47
+msgid "Note that there is no guarantee that a Rich Snippet will be shown on actual search results and sometimes it can take quite a while until Google does display them. If it doesn\\'t show up, then it\\'s nothing wrong with the plugin and you will need to do more SEO for your site to get them shwoing up on your search engine listings. Also not all of the Rich Snippets do directly show up on search result pages. Some of them, such as Business, People &amp; Video will Google only use to better understand the content on your site. That doesn\\'t mean that they won\\'t have any affect for your site\\'s ranking."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1510
+msgid "Note that while Google supports video markup, they currently use it only to improve their video search results."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:79
+msgid "Now click on the blue Edit Profile button at the top of the site."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:126
+msgid "Now click on the gray \"Link website\" button next to the URL."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:99
+msgid "Now go back to the WordPress admin area and go to your profile, Users &gt; Your Profile"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/wps-seo-booster-ratings-widget.php:178
+msgid "Number of Posts:"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1883
+msgid "Off"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1883
+msgid "On"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:711
+msgid "On Sale Ends: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:701
+msgid "On Sale Price: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:217
+#: includes/metabox/wps-seo-booster-meta.php:281
+msgid "Open Graph"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:316
+msgid "Open Graph Content Type: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:295
+msgid "Open Graph Description:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:25
+#: includes/admin/forms/wps-seo-booster-manual.php:12
+msgid "Open Graph Settings"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:285
+msgid "Open Graph Title: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1415
+msgid "Operating System: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1419
+msgid "Operating systems required (for example, \"Windows 7\", \"OSX 10.6\", \"Android 1.6\")"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:221
+msgid "People"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:8
+#: includes/admin/forms/wps-seo-booster-performace-settings.php:25
+msgid "Performance Settings"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:179
+msgid "Placement:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1819
+msgid "Placement: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:372
+msgid "Please use the FULL URL to the audio (e.g. http://www.yourdomain.com/audios/audio.mp3)."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:170
+msgid "Please use the FULL URL to the image (e.g. http://www.yourdomain.com/images/image.jpg). If set, this image will be used for the homepage."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:342
+msgid "Please use the FULL URL to the video (e.g. http://www.yourdomain.com/videos/video.mp4)."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/wps-seo-booster-about-box.php:53
+msgid "Plugin:"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:245
+msgid "Postal Code on front of City?"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:813
+#: includes/metabox/wps-seo-booster-meta.php:945
+msgid "Postal Code:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1087
+msgid "Prep Time: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:691
+#: includes/metabox/wps-seo-booster-meta.php:1445
+msgid "Price Currency: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:572
+msgid "Price Curtrency: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1435
+msgid "Price: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:219
+#: includes/admin/forms/wps-seo-booster-manual.php:56
+msgid "Product"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:542
+msgid "Product Author (optional): "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:631
+msgid "Product Brand: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:671
+msgid "Product Category: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:651
+msgid "Product Description: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:641
+msgid "Product Image: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:552
+msgid "Product Link (optional): "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:470
+#: includes/metabox/wps-seo-booster-meta.php:621
+msgid "Product Name: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:562
+#: includes/metabox/wps-seo-booster-meta.php:681
+msgid "Product Price: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:661
+msgid "Product SKU:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:480
+msgid "Product Type (optional): "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:490
+msgid "Product Version (optional): "
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:110
+msgid "Profile"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1477
+msgid "Rating Author Name:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1281
+msgid "Rating Title: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:520
+#: includes/metabox/wps-seo-booster-meta.php:1455
+msgid "Rating Value: "
+msgstr ""
+
+#. Text in function
+#: includes/widgets/wps-seo-booster-ratings-widget.php:1
+msgid "Read"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:222
+#: includes/admin/forms/wps-seo-booster-manual.php:60
+msgid "Recipes"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:803
+#: includes/metabox/wps-seo-booster-meta.php:935
+#: includes/metabox/wps-seo-booster-meta.php:1686
+msgid "Region: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:33
+msgid "Reset the Ratings:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:218
+#: includes/admin/forms/wps-seo-booster-manual.php:52
+msgid "Review"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:747
+msgid "Rich Snippets Business"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1593
+msgid "Rich Snippets Event"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:869
+msgid "Rich Snippets Person"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:608
+msgid "Rich Snippets Product"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1011
+msgid "Rich Snippets Recipes"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:444
+msgid "Rich Snippets Review"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1329
+msgid "Rich Snippets Software"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1503
+msgid "Rich Snippets Videos"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-plugin-settings.php:21
+msgid "SEO Booster Settings"
+msgstr ""
+
+#. Text in function
+#: includes/widgets/vcard-widget-business.php:1
+msgid "SEO Booster: Business vCard"
+msgstr ""
+
+#. Text in function
+#: includes/widgets/wps-seo-booster-ratings-widget.php:1
+msgid "SEO Booster: Top Rated Content"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:19
+msgid "SEO Plugin Support"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:123
+msgid "Scroll down and go to the \"About\" tab."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:103
+msgid "Scroll down the page and enter your Google+ Profile URL in to the given field."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:107
+msgid "Scroll to the bottom of your Profile page and click on \"Update Profile\"."
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/wps-seo-booster-ratings-widget.php:185
+msgid "Select"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "Select a Rating"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:133
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:173
+msgid "Select for which post type or individual entry you want to reset the received ratings to zero."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:90
+msgid "Selected"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1127
+msgid "Serving Size: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:230
+msgid "Set Cookie:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-videos.php:25
+msgid "Setting Up Google Rich Snippets for SEO"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-videos.php:20
+msgid "Setting Up Your Blog as a Google Plus Publisher"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-videos.php:15
+msgid "Setting Up Your Blog for Google Plus Authorship"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:70
+msgid "Setting Up Your Google+ Profile"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-plugin-settings.php:45
+msgid "Settings"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:29
+msgid "Shortcodes for the Rich Snippets Templates"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:74
+msgid "Sign in to your Google account if you have one or create one."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1169
+msgid "Size"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:223
+#: includes/admin/forms/wps-seo-booster-manual.php:64
+msgid "Software"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:110
+msgid "Song"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:140
+msgid "Star Rating"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:25
+msgid "Star Rating Settings"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1636
+msgid "Start Date: "
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:236
+msgid "State/Region:"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:228
+msgid "Street Address:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1666
+msgid "Street:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:783
+#: includes/metabox/wps-seo-booster-meta.php:915
+msgid "Street: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/wps-seo-booster-about-box.php:145
+msgid "Subscribe by email"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/wps-seo-booster-about-box.php:144
+msgid "Subscribe with RSS"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:582
+#: includes/metabox/wps-seo-booster-meta.php:1077
+msgid "Summary: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:28
+msgid "Supports All Post Types"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:32
+msgid "Supports Custom Google Itemprop entries"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:27
+msgid "Supports Pages"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:33
+msgid "Supports all Twitter Card types"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:110
+msgid "TV Show"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:252
+msgid "Telephone:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:823
+#: includes/metabox/wps-seo-booster-meta.php:955
+msgid "Telephone: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:3
+msgid "Thank You"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:5
+msgid "Thank you for using WP Social SEO Booster. We hope you enjoy it as much as we do."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:158
+msgid "Thank you,"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:108
+msgid "That\\'s it. Your site is now ready for the Google+ Authorship Markup."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:615
+msgid "The Rich Snippets for Products are only being added to the code and won\\'t be displayed within your content."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1600
+msgid "The Rich Snippets for an Event are only being added to the code and won\\'t be displayed within your content."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1389
+msgid "The author of the software."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1369
+msgid "The description of the software."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1530
+msgid "The description of the video."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:130
+msgid "The following values will be used for the homepage. Here you can enter custom values and if you activate them then they will be used on the homepage, regardless what other settings you have for the home page. This is a great feature to customize the open graph settings for the homepage."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:25
+msgid "The image is being used to post on the user\\'s wall when he/she likes/shares your post. The plugin will use the images in the following order:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:67
+msgid "The image is being used to post on the user\\'s wall when he/she likes/shares your post. The plugin will use the images in the following order: First it will check if you have entered an image in \"Always Use This Image\". If that is empty it will check if you uploaded an image in the \"WPSocial SEO Booster Open Graph Metabox\". If this is empty too it will check for a thumbnail (featured image) and if the featured image is emtpy the plugin will scan your content and if you\\'re using an image within your content the plugin will use the first image found."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1409
+msgid "The language of the software"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1359
+msgid "The name of the software."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:68
+msgid "The plugin makes it easy to add your Google+ Profile to your site and this not only for you but for ALL your authors as well, if you have a multi author site."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:134
+msgid "The plugin will also add all the needed code for Twitter. The only thing you need to do is adding your Twitter account to your profile page."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1399
+msgid "The software version."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1520
+msgid "The title of the video."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1429
+msgid "The type of software application (for example, BusinessApplication or GameApplication). Must be one of the <a href=\"http://support.google.com/webmasters/bin/answer.py?hl=en&answer=1645527\" target=\"_blank\">supported software application types</a>."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:76
+msgid "Then click Continue until Finish appears, and then click Finish."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:78
+msgid "Then click on Profile (on the left hand side)."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:44
+msgid "This is the listing for WP Social, where I added my Google+ profile to the site."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:26
+msgid "This is the same plugin as the one you have installed but with more features such as:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1736
+msgid "Ticket Price Currency: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1726
+msgid "Ticket Price High: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1716
+msgid "Ticket Price Low: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1706
+msgid "Ticket Price: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1756
+msgid "Ticket URL: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1746
+msgid "Tickets Available: "
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:220
+msgid "Title (optional):"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/wps-seo-booster-ratings-widget.php:173
+msgid "Title:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:146
+msgid "To enable the star rating for individual posts, click on the \"Choose Individual\" link beside the content type you want the star rating being enabled. A pop up window with your content will show up, where you have the ability to choose on which of these entries you want to enable the star rating. To enable the star ratings for all entries within a content type, just click on the first checkbox which appears at the left of the content type."
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "Top"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+#: includes/metabox/wps-seo-booster-meta.php:1883
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:183
+msgid "Top Left"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+#: includes/metabox/wps-seo-booster-meta.php:1883
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:183
+msgid "Top Right"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1107
+msgid "Total Time: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:130
+msgid "Twitter Card"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:131
+msgid "Twitter Meta Tags"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:132
+msgid "Twitter recently released their own meta tags, just like Facebook with Open Graph and Google with the rich snippets."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:843
+msgid "URL: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-flush-rating-settings.php:93
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:132
+msgid "Uncheck all"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:38
+msgid "Uncheck the box to deactivate the open graph features."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1878
+msgid "Unique Rating : "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:216
+msgid "Unique Rating:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:34
+msgid "Unlimited Priority Support"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-wpsocial.php:35
+msgid "Unlimited Pro Updates"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:75
+msgid "Upload a Profile photo. This must be a clear facial, head shot photo. Cartoons, abstract arts etc aren\\'t allowed."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:17
+msgid "Use the Open Graph settings the same way as you use the SEO settings for your site. Google and most other search engines do use the Open Graph meta tags for their listings too and MOST important, Facebook does use ONLY the Open Graph meta tags when a user likes your post/page/site. The better Open Graph meta tags you have the better it will look on Facebook and it can become much more viral."
+msgstr ""
+
+#. Text in function
+#: includes/widgets/vcard-widget-business.php:1
+msgid "Use this widget to add a business vCard. It does support the Microdata Rich Snippets. These snippets are used by Google, Yahoo & Bing for their listings."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/wps-seo-booster-about-box.php:62
+msgid "Version:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1395
+msgid "Version: "
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:110
+msgid "Video"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:348
+msgid "Video Height: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1536
+msgid "Video Thumbnail Image: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1567
+msgid "Video Type: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:338
+#: includes/metabox/wps-seo-booster-meta.php:1547
+msgid "Video URL: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:358
+msgid "Video Width: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:224
+#: includes/admin/forms/wps-seo-booster-plugin-settings.php:47
+msgid "Videos"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-plugin-settings.php:48
+msgid "WP Social"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-videos.php:5
+msgid "WP Social SEO Booster Overview"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:20
+msgid "WP Social SEO Booster does support ANY SEO plugin for Wordpress and it does even support the SEO features from your theme if they are built in. The plugin will scan the code of your site and check if there are any SEO description and if it can find some, it will use it."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:38
+msgid "WP Social SEO Booster will also add all the needed meta tags for the Google Authorship. This means, that you can have your picture beside the Search Engine listings as well as all other, by Google supported, meta tags such as Reviews, Product Offers, Business Listings, People, Recipes, Software, Videos and Events."
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1
+msgid "WPSocial SEO Booster"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1
+msgid "WPSocial SEO Booster Star Rating"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:152
+msgid "We Love to Get Your Feedback"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:6
+msgid "We already added as much information as possible to each setting to make them easy to use. But to make it even easier for you to understand how to use the plugin, we created the manual below with some additional information where we thought it was needed."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:142
+msgid "We also included a star rating system in to the plugin which allows you to add the star rating to all your content. The star rating does also support the Google Rich Snippets Aggregate Rating. So when your visitors do rate your content, then this will show up on the search listings for your site."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:10
+msgid "We included some of the recommended settings from the HTML5 Boilerplate and if you activate this option, then the plugin will automatically add them to your site\\'s .htaccess file. We also included some more security settings to make your site a bit more secure. But that doesn\\'t mean, that your site is now secure. These are just the beginnings and you should take some time to make your site secure. Hackers are everywhere and 3 out of 4 WordPress sites get hacked. If you want to learn more on how you can secure your site, we recommend that you check out the following site:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:15
+msgid "We recommend that you fill out the information on the plugin settings page. These information will then be taken as default. With that you don\\'t need to go and change all the written content. If the WP Social SEO Booster plugin can\\'t find any information entered within the meta box, it will take the information from the settings page. These are also the information which will be used for the home page if you don\\'t use a static page as your home page."
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+#: includes/admin/forms/wps-seo-booster-ogp-settings.php:110
+msgid "Website"
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:264
+msgid "Website Name:"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:22
+msgid "With that feature, you don\\'t need to go and edit any content at all. If you have proper SEO Title and SEO Description on your site, WP Social SEO Booster will use it for the Open Graph Meta tags as well as for the Google itemprop information."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:116
+msgid "With the Google+ markup you\\'re not only limited to a personal profile. You can also add a Google +1 page to your site. The plugin will add the needed meta tag to the header\\'s code automatically."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:10
+msgid "WordPress Security for Webmasters"
+msgstr ""
+
+#. Text in function
+#: includes/metabox/wps-seo-booster-meta.php:1459
+msgid "Yes"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1117
+msgid "Yield: "
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:144
+msgid "You also have the ability to display the rating stars using the following shortcode: [wps_ratings]. This will place the rating stars on the left hand side of the content. If you want to display it on the right hand side, use the following shortcode: [wps_ratings position=\"right\"]. If you\\'re using the shortcode, youu don\\'t need to activate the rating for that post."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:148
+msgid "You also have the ability to enable the star ratings manually for each content you create."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:111
+msgid "You have the ability to choose which author you want to show on your home page if you don\\'t have a static home page. To do that, go to the plugins settings page. Scroll down to the Google Authorship Markup Settings and choose the author you want to use on the homepage. Make sure that this author has setup his profile, like we described above."
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1291
+msgid "Your Rating: "
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1471
+msgid "Your rating for the software."
+msgstr ""
+
+#. Text in echo
+#: includes/widgets/vcard-widget-business.php:240
+msgid "Zipcode/Postal Code:"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1176
+#: includes/metabox/wps-seo-booster-meta.php:1240
+msgid "add more"
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-manual.php:156
+msgid "and/or <a href=\"//wpsocial.com/plugins/wpsocial-seo-booster/\" target=\"_blank\"> submit a review</a> on our site."
+msgstr ""
+
+#. Text in echo
+#: includes/admin/forms/wps-seo-booster-star-rating-settings.php:233
+msgid "days"
+msgstr ""
+
+#. Text in echo
+#: includes/metabox/wps-seo-booster-meta.php:1199
+#: includes/metabox/wps-seo-booster-meta.php:1257
+msgid "delete"
+msgstr ""

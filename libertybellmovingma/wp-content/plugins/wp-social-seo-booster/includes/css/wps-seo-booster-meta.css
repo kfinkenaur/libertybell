@@ -1,0 +1,99 @@
+/**
+ * Metabox Tabs
+ */
+.wps-seo-booster-metabox-tabs-div ul.metabox-tabs {
+	display: none;
+	margin-top: 12px;
+	margin-bottom: 3px;
+}
+.wps-seo-booster-metabox-tabs-div ul {
+	list-style: none;
+}
+.wps-seo-booster-metabox-tabs-div ul.metabox-tabs li {
+	display: inline;
+}
+.wps-seo-booster-metabox-tabs-div ul.metabox-tabs li.active {
+	border-style: solid solid none;
+	border-width: 1px 1px 0;
+	background: #fff;
+}
+.wps-seo-booster-metabox-tabs-div ul.metabox-tabs li {
+	padding: 5px;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-khtml-border-top-left-radius: 3px;
+	-khtml-border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.wps-seo-booster-metabox-tabs-div ul.metabox-tabs a {
+	text-decoration: none;
+}
+.wps-seo-booster-metabox-tabs-div div.tabs-panel {
+	overflow: auto;
+	padding: 0.5em 0.9em;
+	border-style: solid;
+	border-width: 1px;
+}
+.wps-seo-booster-metabox-tabs-div .heading {
+	padding-left:10px;
+}
+.wps-seo-booster-metabox-tabs-div .tab-content{
+	overflow: auto;
+	padding: 0.5em 0.9em;
+	border-style: solid;
+	border-width: 1px;
+	background: #fff;
+}
+.wps-seo-booster-metabox-tabs-div ul.metabox-tabs li.active {
+	background-color: #fff;
+}
+.wps-seo-booster-metabox-tabs-div ul.metabox-tabs li.active, div.tab-content {
+	border-color: #D1E5EE;
+}
+.wps-seo-booster-metabox-tabs-div ul.metabox-tabs .active a {
+	color: #333;
+}
+.wps-seo-booster-metabox-tabs-div ul.metabox-tabs li.active, div.tab-content {
+	border-color: #DFDFDF;
+}
+.wps-seo-booster-metabox-tabs-div ul.metabox-tabs .active a {
+	color: #333;
+}
+
+/********** Added for rating box *******/
+#wps_seo_booster_flush_label {
+	padding-top: 5px;
+}
+.wps-seo-rating-loader {
+	padding: 6px 0px 0px 45px !important;
+	display: none;
+	float: left;
+}
+.wps-seo-meta-flush-btn{
+	float: right;
+}
+#wps_seo_booster_flush_message {
+	clear: both;
+}
+.wps-seo-booster-hidden-controls {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	-moz-opacity: 0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;		
+}
+.wps_star_rating_span {
+	margin-left: 5px;
+}
+#wps_seo_booster_unique_base {
+	padding-top: 5px;
+}
+/********* Added for repeating group ingredients Start *************/
+.wps_seo_booster_recipe_ingredients_add_more,
+.wps_seo_booster_recipe_ingredients_minus,
+.wps_seo_booster_recipe_directions_add_more,
+.wps_seo_booster_recipe_directions_minus {
+	cursor: pointer;
+}
