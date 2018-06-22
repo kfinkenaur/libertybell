@@ -1,0 +1,1 @@
+[25-Apr-2018 13:28:40 America/Denver] PHP Fatal error:  Call to undefined function is_admin() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/includes/main.php on line 3

@@ -1,0 +1,19 @@
+[25-Apr-2018 13:27:04 America/Denver] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php on line 142
+[25-Apr-2018 19:05:27 America/Denver] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php on line 142
+[26-Apr-2018 01:24:03 America/Denver] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php on line 142
+[26-Apr-2018 04:32:59 America/Denver] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php on line 142
+[26-Apr-2018 07:37:16 America/Denver] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php on line 142
+[26-Apr-2018 10:19:22 America/Denver] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php on line 142
+[26-Apr-2018 13:20:05 America/Denver] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php on line 142
+[12-Jun-2018 15:13:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php:142
+Stack trace:
+#0 {main}
+  thrown in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php on line 142
+[13-Jun-2018 02:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php:142
+Stack trace:
+#0 {main}
+  thrown in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php on line 142
+[13-Jun-2018 11:37:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php:142
+Stack trace:
+#0 {main}
+  thrown in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/ultra-hide-comments-box/ultra-hide-comment-box.php on line 142

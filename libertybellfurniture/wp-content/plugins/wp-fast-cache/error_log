@@ -1,0 +1,17 @@
+[24-Apr-2018 13:27:43 America/Denver] PHP Fatal error:  Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/wp-fast-cache/wp-fast-cache.php on line 30
+[16-Jun-2018 21:50:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/wp-fast-cache/wp-fast-cache.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/wp-fast-cache/wp-fast-cache.php on line 30
+[17-Jun-2018 05:47:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/wp-fast-cache/wp-fast-cache.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/wp-fast-cache/wp-fast-cache.php on line 30
+[17-Jun-2018 11:50:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/wp-fast-cache/wp-fast-cache.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/wp-fast-cache/wp-fast-cache.php on line 30
+[17-Jun-2018 21:01:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_activation_hook() in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/wp-fast-cache/wp-fast-cache.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/liberuy2/public_html/libertybellfurniture/wp-content/plugins/wp-fast-cache/wp-fast-cache.php on line 30

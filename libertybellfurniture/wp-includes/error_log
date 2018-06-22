@@ -1,0 +1,2 @@
+[14-Mar-2018 13:22:37 America/Denver] PHP Fatal error:  Class 'Walker' not found in /home/liberuy2/public_html/libertybellfurniture/wp-includes/class-walker-nav-menu.php on line 17
+[22-Mar-2018 22:56:23 America/Denver] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/liberuy2/public_html/libertybellfurniture/wp-includes/locale.php on line 10
