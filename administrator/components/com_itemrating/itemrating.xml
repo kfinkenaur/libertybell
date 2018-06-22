@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_itemrating</name>
+    <creationDate>2014-06-19</creationDate>
+    <copyright>Copyright (C) 2014. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>Joomunited</author>
+    <authorEmail>contact@joomunited.com</authorEmail>
+    <authorUrl>www.joomunited.com</authorUrl>
+    <version>1.2.2</version>
+    <description>COM_ITEMRATING_XML_DESCRIPTION</description>
+    
+    
+    
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+       <update>
+        <schemas>
+          <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+    <scriptfile>script.itemrating.php</scriptfile>
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>itemrating.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+	<folder>assets</folder>
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+    </files>
+    <languages folder="site">
+        
+			<language tag="en-GB">language/en-GB/en-GB.com_itemrating.ini</language>
+			<language tag="fr-FR">language/fr-FR/fr-FR.com_itemrating.ini</language>
+    </languages>
+    <administration>
+        <menu img="components/com_itemrating/assets/images/s_com_itemrating.png" >COM_ITEMRATING</menu>
+        <submenu>
+            
+			<menu link="option=com_itemrating&amp;view=items" view="items" img="components/com_itemrating/assets/images/s_items.png" alt="Itemrating/Items">COM_ITEMRATING_TITLE_ITEMS</menu>
+			<menu link="option=com_itemrating&amp;view=groups" view="groups" img="components/com_itemrating/assets/images/s_groups.png" alt="Itemrating/Groups">COM_ITEMRATING_TITLE_GROUPS</menu>
+			<menu link="option=com_itemrating&amp;view=reports" view="report" img="components/com_itemrating/assets/images/s_groups.png" alt="Itemrating/Reports">Report</menu>
+
+        </submenu>
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>itemrating.php</filename>
+            <folder>controllers</folder>
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+	    <folder>extensions</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+            <folder>language</folder>
+        </files>
+        <languages folder="administrator">
+            
+			<language tag="en-GB">language/en-GB/en-GB.com_itemrating.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_itemrating.sys.ini</language>
+			<language tag="fr-FR">language/fr-FR/fr-FR.com_itemrating.ini</language>
+			<language tag="fr-FR">language/fr-FR/fr-FR.com_itemrating.sys.ini</language>
+        </languages>
+    </administration>
+    <extensions>
+	<extension folder="plg_community_itemrating" group="itemrating" enable="true"/>
+    <extension folder="plg_content_itemrating" group="itemrating" enable="true"/>
+    <extension folder="plg_hikashop_itemrating" group="itemrating" enable="true"/>
+    <extension folder="plg_k2_itemrating" group="itemrating" enable="true"/>
+    <extension folder="plg_vm_itemrating" group="itemrating" enable="true"/>
+    <extension folder="plg_mtree_itemrating" group="itemrating" enable="true"/>
+	<extension folder="plg_gmapfp_itemrating" group="itemrating" enable="true"/>
+	<extension folder="plg_adsmanager_itemrating" group="itemrating" enable="true"/>
+	<extension folder="plg_flexicontent_itemrating" group="itemrating" enable="true"/>
+	<extension folder="mod_itemrating" element="mod_itemrating" group="" enable="false" type="module"/>
+	<extension folder="itemrating-juupdater" enable="true"/>
+  </extensions>
+	  <updateservers>
+    <server type="extension" priority="2" name="Item Rating Updates">https://www.joomunited.com/juupdater_files/itemrating-update.xml</server>
+    </updateservers>
+</extension>

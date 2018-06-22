@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_CUBIC_FORM_LBL_ITEM_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_CUBIC_FORM_LBL_ITEM_CREATED_BY"
+            description="COM_CUBIC_FORM_DESC_ITEM_CREATED_BY"  /> 
+
+       <field name="item_name" type="text" size="40" class="inputbox"
+                                                    
+            label="COM_CUBIC_FORM_LBL_ITEM_ITEM_NAME"
+            description="COM_CUBIC_FORM_DESC_ITEM_ITEM_NAME" 
+                                                    
+                                                    
+                                                     required="true" 
+                                                    filter="safehtml" />
+
+        <field name="item_subtitle" type="text" size="40" class="inputbox"
+                                                    
+            label="COM_CUBIC_FORM_LBL_ITEM_SUBTITLE"
+            description="COM_CUBIC_FORM_DESC_ITEM_ITEM_SUBTITLE" 
+                                                    
+                                                    
+                                                     required="true" 
+                                                    filter="safehtml" />
+
+        <field name="item_type" type="list" default="0" label="Select an item type" description="">
+          <option value="0">Simple Item</option>
+          <option value="1">Box</option>
+        </field> 
+
+ 
+		<field name="category" type="sql" label="Category" description="" query="SELECT id, cat_name
+FROM (
+
+SELECT IF( p.cat_name IS NULL , c.cat_name, CONCAT( p.cat_name, ' > ', c.cat_name ) ) AS 'cat_name', c.id AS id FROM `vxbvn_cubic_categories` c
+LEFT JOIN `vxbvn_cubic_categories` p ON c.parent_category = p.id
+WHERE (c.state=1 AND c.parent_category=0) OR (c.state=1 AND p.state=1 AND c.parent_category>0))s
+ORDER BY cat_name" key_field="id" value_field="cat_name"  required="true" /> 
+
+       <!-- <field name="thumb" type="media"
+                
+            label="COM_CUBIC_FORM_LBL_ITEM_THUMB"
+            description="COM_CUBIC_FORM_DESC_ITEM_THUMB" 
+                
+                
+                 required="true" 
+            upload_directory="images/cubic/"
+            accept="jpg,png,jpeg,gif"
+            max_size="10" /> --> 
+
+            <field name="thumb" type="file" required="true" label="COM_CUBIC_FORM_LBL_ITEM_THUMB" description="COM_CUBIC_FORM_DESC_ITEM_THUMB" size="10" />
+
+       <field name="cost" type="text" size="40" class="inputbox"
+                                                    
+            label="COM_CUBIC_FORM_LBL_ITEM_COST"
+            description="COM_CUBIC_FORM_DESC_ITEM_COST" 
+                                                    
+                                                    
+                                                    
+                                                    filter="safehtml" /> 
+
+       <field name="item_size" type="text" size="40" class="inputbox"
+                                                    
+            label="COM_CUBIC_FORM_LBL_ITEM_ITEM_SIZE"
+            description="COM_CUBIC_FORM_DESC_ITEM_ITEM_SIZE" 
+                                                    
+                                                    
+                                                     required="true" 
+                                                    filter="safehtml" /> 
+
+													
+		<field name="item_weight" type="text" size="40" class="inputbox"
+                                                    
+            label="COM_CUBIC_FORM_LBL_ITEM_ITEM_WEIGHT"
+            description="COM_CUBIC_FORM_LBL_ITEM_ITEM_WEIGHT" 
+                                                                                                      
+                                                     required="true" 
+                                                    filter="safehtml" /> 											
+
+       <field name="uid" type="text" size="40" class="inputbox"
+                                                    
+            label="COM_CUBIC_FORM_LBL_ITEM_UID"
+            description="COM_CUBIC_FORM_DESC_ITEM_UID" 
+                                                    
+                                                    
+                                                    
+                                                    filter="safehtml" /> 
+
+         <field
+        name="state"
+        type="list"
+        label="JSTATUS"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="1">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
+        <option value="2">JARCHIVED</option>
+        <option value="-2">JTRASHED</option>
+    </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" /> 
+
+ </fieldset> 
+
+ <fieldset
+                        name="accesscontrol">
+                       <field name="asset_id" type="hidden" filter="unset" />
+                       <field name="rules"
+                            type="rules"
+                            label="JFIELD_RULES_LABEL"
+                            translate_label="false"
+                            filter="rules"
+                            validate="rules"
+                            class="inputbox"
+                            component="com_cubic"
+                            section="item"
+                        />
+
+	</fieldset>
+
+</form>

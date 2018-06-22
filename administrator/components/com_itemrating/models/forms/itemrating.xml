@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <form>
+        <fields name="attribs">
+         <fieldset name="rating" label="Rating Item Setting" addfieldpath="/administrator/components/com_itemrating/models/fields">
+          <field name="lang" type="lang"/>
+               <field name="groupdata" type="groupselect" label="COM_ITEMRATING_FORM_LBL_ITEM_GROUP" description="COM_ITEMRATING_FORM_DESC_ITEM_GROUP"/>
+               <field name="textforscore" type="text"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_TEXTFORSCORE"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_TEXTFORSCORE" 
+                 /> 
+	<field name="reviewsummary" type="textarea"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_REVIEWSUMMARY"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_REVIEWSUMMARY" 
+            cols="100"
+            rows="2" filter="html" />
+         </fieldset>
+      </fields>
+   </form>

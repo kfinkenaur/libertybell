@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="component"
+		label="COM_ITEMRATING_COMPONENT_LABEL"
+		description="COM_ITEMRATING_COMPONENT_DESC" addfieldpath="/administrator/components/com_itemrating/models/fields">
+			 <field name="lang" type="lang" />
+			 <field name="guest_usergroup" type="usergroup"
+        label="COM_ITEMRATING_ALLOWED"
+        description="COM_ITEMRATING_ALLOWD_DESC" 
+        multiple="true" />
+                         <field name="ip_restriction"  type="radio"
+               class="btn-group btn-group-yesno"
+               default="1"
+	label="IP Address Resctrition"
+        description="IP Address Resctrition" >
+		<option value="0" >JNO</option>
+            <option value="1">JYES</option>
+			 </field>
+                         <field name="cookie_restriction"  type="radio"
+               class="btn-group btn-group-yesno"
+               default="0"
+	label="Cookie Restrcition"
+        description="Cookie Restriction" >
+		<option value="0" >JNO</option>
+            <option value="1">JYES</option>
+			 </field>
+                         <field name="cookie_restriction_hour"  type="text"
+               default="24"
+	label="Cookie Hours"
+        description="Cookie Hours" filter="float">
+			 </field>
+
+		<field name="show_text"   type="radio"
+               class="btn-group btn-group-yesno"
+               default="0"
+	label="COM_ITEMRATING_SHOW_TEXT"
+        description="COM_ITEMRATING_SHOW_TEXT_DESC" >
+		<option value="0" >JNO</option>
+            <option value="1">JYES</option>
+			 </field>
+                         <field
+			name="show_form_alert"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="1"
+			label="Prompt on form Submit"
+			description="Alert on form Submit">
+			<option value="0">JNO</option>
+                        <option value="1">JYES</option>
+		</field>
+	<field
+			name="show_category"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_ITEMRATING_CATEGORY_VIEW"
+			description="COM_ITEMRATING_CATEGORY_VIEW">
+			<option value="1">JSHOW</option>
+			<option value="0">JHIDE</option>
+		</field>
+	<field
+			name="show_form_category"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_ITEMRATING_FORM_CATEGORY_VIEW"
+			description="COM_ITEMRATING_FORM_CATEGORY_VIEW">
+			<option value="1">JSHOW</option>
+			<option value="0">JHIDE</option>
+		</field>
+	<field
+			name="show_category_view"
+			type="radio"
+			class="btn-group btn-group-yesno"
+			default="0"
+			label="COM_ITEMRATING_CATEGORY_VIEW_LAYOUT"
+			description="COM_ITEMRATING_CATEGORY_VIEW_LAYOUT">
+			<option value="0">COM_ITEMRATING_COMPACT</option>
+			<option value="1">COM_ITEMRATING_FULL</option>
+		</field>
+		<field name="score_type" type="list"
+            label="COM_ITEMRATING_FORM_LBL_SCORE_TYPE"
+            description="COM_ITEMRATING_FORM_DESC_TYPE_SCORE" 
+            filter="raw" default="2" showon="show_category_view:0">
+		<option value="9">Text</option>	
+		<option value="2">COM_ITEMRATING_STARS</option>
+		<option value="3">COM_ITEMRATING_HEART</option>
+		<option value="4">COM_ITEMRATING_THUMB</option>
+		<option value="6">COM_ITEMRATING_ARROWS</option>
+		<option value="7">COM_ITEMRATING_CHECK</option>
+		<option value="8">COM_ITEMRATING_LIGHT</option>
+		<option value="5">COM_ITEMRATING_BAR</option>
+		
+        </field>
+	
+	</fieldset>
+	  <fieldset 
+                name="liveupdate"
+		label="Live update"
+		description="Live update" 
+                addfieldpath="administrator/components/com_itemrating/models/fields"> 
+                <field name="liveupdate" label="Live update status" type="updaterstatus" /> 
+        </fieldset> 
+
+	<fieldset name="permissions"
+		description="JCONFIG_PERMISSIONS_DESC"
+		label="JCONFIG_PERMISSIONS_LABEL"
+	>
+		<field 
+            name="rules" 
+            type="rules"
+			component="com_itemrating"
+            class="inputbox"
+			filter="rules"
+			validate="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			section="component" />
+	</fieldset>
+
+</config>

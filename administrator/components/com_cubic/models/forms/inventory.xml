@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_CUBIC_FORM_LBL_ITEM_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="text" default="" 
+            label="COM_CUBIC_FORM_LBL_ITEM_CREATED_BY"
+            description="COM_CUBIC_FORM_DESC_ITEM_CREATED_BY"  /> 
+			<field name="created" type="text" default="" 
+            label="Created"
+            description="Created"  /> 
+			<field name="last_update" type="text" default="" 
+            label="Last Update"
+            description="Last Update"  /> 
+
+       <field name="username" type="text" size="40" class="inputbox" label="Username" description="Username"
+required="true" filter="safehtml" /> 
+
+       <field name="rooms" type="text" size="40" class="inputbox"
+                                                    
+            label="Number Of Rooms"
+            description="Number Of Rooms" 
+                                                    
+                                                    
+                                                    
+                                                    filter="safehtml" /> 
+
+      <field name="zip_from" type="text" size="40" class="inputbox" label="Zip From" description="Zip From" required="true" filter="safehtml" /> 
+ <field name="zip_to" type="text" size="40" class="inputbox" label="Zip To" description="Zip To" required="true" filter="safehtml" /> 
+<field name="date_move" type="calendar" size="40" class="inputbox" label="Date Move" description="Date Move" required="true" filter="safehtml" /> 
+<field name="phone" type="text" size="40" class="inputbox" label="Phone" description="Phone" required="true" filter="safehtml" /> 
+<field name="email" type="text" size="40" class="inputbox" label="Email" description="Email" required="true" filter="safehtml" /> 
+<field name="user_id" type="sql" size="40" query="select id,name from #__users where order by name" key_field="id" value_field="name" class="inputbox" label="User" description="User" required="true" filter="safehtml" /> 		
+
+ </fieldset> 
+
+ <fieldset
+                        name="accesscontrol">
+                       <field name="asset_id" type="hidden" filter="unset" />
+                       <field name="rules"
+                            type="rules"
+                            label="JFIELD_RULES_LABEL"
+                            translate_label="false"
+                            filter="rules"
+                            validate="rules"
+                            class="inputbox"
+                            component="com_cubic"
+                            section="item"
+                        />
+
+	</fieldset>
+
+</form>

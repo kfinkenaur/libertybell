@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_ITEMRATING_FORM_LBL_GROUP_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_ITEMRATING_FORM_LBL_GROUP_CREATED_BY"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_CREATED_BY"  /> 
+
+       <field name="title" type="text"
+                
+            label="COM_ITEMRATING_FORM_LBL_GROUP_TITLE"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_TITLE" 
+                
+                
+                 required="true" 
+            menu_published="0"
+            filter="raw" /> 
+
+       <field name="display"  type="radio"
+               class="btn-group btn-group-yesno"
+               
+            label="COM_ITEMRATING_FORM_LBL_GROUP_DISPLAY"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_DISPLAY" 
+            default="1" >
+             <option value="0" >JNO</option>
+            <option value="1">JYES</option>
+       </field> 
+
+       <field name="textforscore" type="text"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_TEXTFORSCORE"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_TEXTFORSCORE" 
+                 /> 
+
+       <field name="reviewsummary" type="textarea"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_REVIEWSUMMARY"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_REVIEWSUMMARY" 
+            cols="100"
+            rows="2" /> 
+
+       <field name="customcategory" type="customcategory"
+            label="JCATEGORY"
+            description="JCATEGORY_DESC" 
+            cols="100"
+            rows="2" />
+       
+       <field name="styling" type="textarea"
+                
+            label="COM_ITEMRATING_FORM_LBL_GROUP_STYLING"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_STYLING"                 
+            cols="100"
+            rows="8" /> 
+        <field name="position" type="list"
+            label="COM_ITEMRATING_FORM_LBL_ITEM_POSITION"
+            description="COM_ITEMRATING_FORM_DESC_POSITION_TYPE" 
+            filter="raw" default="0">
+                <option value="0">COM_ITEMRATING_TOPLEFT</option>
+                <option value="1">COM_ITEMRATING_TOPRIGHT</option>
+		<option value="2">COM_ITEMRATING_TOP</option>
+		<option value="3">COM_ITEMRATING_BOTTOM</option>
+        </field>
+		 <field name="snippettype" type="list"
+            label="Rich snippet Defination"
+            description="A Standard way to annotate your content so search engines can understand it and display ratings in search results" 
+            filter="raw" default="0">
+                <option value="0">Product</option>
+                <option value="1">NewsArticle</option>
+		</field>
+		 
+	<field name="score_position" type="list"
+            label="COM_ITEMRATING_FORM_LBL_SCORE_POSITION"
+            description="COM_ITEMRATING_FORM_DESC_POSITION_SCORE" 
+            filter="raw" default="3">
+                <option value="1">COM_ITEMRATING_LEFT</option>
+		<option value="2">COM_ITEMRATING_RIGHT</option>
+		<option value="3">COM_ITEMRATING_BOTTOM</option>
+        </field>
+	<field name="score_type" type="list"
+            label="COM_ITEMRATING_FORM_LBL_SCORE_TYPE"
+            description="COM_ITEMRATING_FORM_DESC_TYPE_SCORE" 
+            filter="raw" default="0">
+                <option value="0">COM_ITEMRATING_CIRCLE</option>
+                <option value="1">COM_ITEMRATING_PERCENTAGE</option>
+		<option value="2">COM_ITEMRATING_STARS</option>
+		<option value="3">COM_ITEMRATING_HEART</option>
+		<option value="4">COM_ITEMRATING_THUMB</option>
+		<option value="6">COM_ITEMRATING_ARROWS</option>
+		<option value="7">COM_ITEMRATING_CHECK</option>
+		<option value="8">COM_ITEMRATING_LIGHT</option>
+		<option value="5">COM_ITEMRATING_BAR</option>		
+        </field>
+	<field name="position" type="list"
+            label="COM_ITEMRATING_FORM_LBL_ITEM_POSITION"
+            description="COM_ITEMRATING_FORM_DESC_POSITION_TYPE" 
+            filter="raw">
+                <option value="0">COM_ITEMRATING_TOP</option>
+                <option value="1">COM_ITEMRATING_TOPRIGHT</option>
+		<option value="2">COM_ITEMRATING_BOTTOM</option>
+        </field> 
+	<field name="show_vote"  type="radio"
+               class="btn-group btn-group-yesno"
+               
+            label="COM_ITEMRATING_VOTE_SHOW"
+            description="COM_ITEMRATING_VOTE_SHOW" 
+            default="1" >
+             <option value="0" >JNO</option>
+            <option value="1">JYES</option>
+       </field> 
+
+       <field name="customcss" type="textarea"
+                
+            label="COM_ITEMRATING_FORM_LBL_GROUP_CUSTOMCSS"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_CUSTOMCSS" 
+                
+                
+                
+            cols="100"
+            rows="8" /> 
+
+         <field
+        name="state"
+        type="list"
+        label="JSTATUS"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="1">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
+    </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>

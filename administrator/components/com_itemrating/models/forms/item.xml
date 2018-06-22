@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_ITEMRATING_FORM_LBL_ITEM_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_ITEMRATING_FORM_LBL_ITEM_CREATED_BY"
+            description="COM_ITEMRATING_FORM_DESC_ITEM_CREATED_BY"  /> 
+
+       <field name="title" type="text"
+                
+            label="COM_ITEMRATING_FORM_LBL_ITEM_TITLE"
+            description="COM_ITEMRATING_FORM_DESC_ITEM_TITLE" 
+                
+                
+                 required="true"  /> 
+
+       <field name="rating" type="text"
+                
+            label="COM_ITEMRATING_FORM_LBL_ITEM_RATING"
+            description="COM_ITEMRATING_FORM_DESC_ITEM_RATING" 
+                 default="100" 
+                
+                 /> 
+
+       <field name="label"   type="radio"
+                       default="1"
+                       class="btn-group btn-group-yesno"
+                     
+            label="COM_ITEMRATING_FORM_LBL_ITEM_LABEL"
+            description="COM_ITEMRATING_FORM_DESC_ITEM_LABEL" >
+	
+	<option value="0">JNO</option>
+            <option value="1">JYES</option>
+       </field>
+
+       <field name="group_id" type="sql" query="SELECT id, title FROM #__itemrating_group where state=1"
+            label="COM_ITEMRATING_FORM_LBL_ITEM_GROUP"
+            description="COM_ITEMRATING_FORM_DESC_ITEM_GROUP" key_field="id" value_field="title">
+	<option value="">JSELECT</option>
+       </field>
+
+       <field name="type" type="list"
+            label="COM_ITEMRATING_FORM_LBL_ITEM_TYPE"
+            description="COM_ITEMRATING_FORM_DESC_ITEM_TYPE" 
+            menu_published="0"
+			default="3"
+            filter="raw">
+                <option value="1">COM_ITEMRATING_RATING</option>
+                <option value="0">COM_ITEMRATING_VOTE</option>
+				<option value="2">COM_ITEMRATING_BAR</option>
+				<option value="3">Font Awsome</option>
+        </field>
+	   <field name="faval" type="list"
+            label="Select Font Awsome Icon"
+            description="Select Font Awsome Icon"
+			  default="&#xf005;">
+        <option value="&#xf069;">asterisk</option>
+        <option value="&#xf0fc;">beer</option>
+        <option value="&#xf0f3;">bell</option>
+        <option value="&#xf0e7;">bolt</option>
+        <option value="&#xf02d;">book</option>
+        <option value="&#xf0b1;">briefcase</option>
+        <option value="&#xf0a1;">bullhorn</option>
+        <option value="&#xf073;">calendar</option>
+        <option value="&#xf030;">camera</option>
+        <option value="&#xf083;">camera-retro</option>
+        <option value="&#xf0a3;">certificate</option>
+        <option value="&#xf00c;">check</option>
+        <option value="&#xf0c2;">cloud</option>
+        <option value="&#xf0f4;">coffee</option>
+        <option value="&#xf013;">cog</option>
+        <option value="&#xf085;">cogs</option>
+        <option value="&#xf09d;">credit-card</option>
+        <option value="&#xf0e4;">dashboard</option>
+        <option value="&#xf108;">desktop</option>
+        <option value="&#xf019;">download</option>
+        <option value="&#xf044;">edit</option>
+        <option value="&#xf0e0;">envelope</option>
+        <option value="&#xf0ec;">exchange</option>
+        <option value="&#xf08e;">external-link</option>
+        <option value="&#xf0fb;">fighter-jet</option>
+        <option value="&#xf008;">film</option>
+        <option value="&#xf0b0;">filter</option>
+        <option value="&#xf06d;">fire</option>
+        <option value="&#xf024;">flag</option>
+        <option value="&#xf07c;">folder-open</option>
+        <option value="&#xf06b;">gift</option>
+        <option value="&#xf000;">glass</option>
+        <option value="&#xf0ac;">globe</option>
+        <option value="&#xf004;">heart</option>
+        <option value="&#xf015;">home</option>
+        <option value="&#xf084;">key</option>
+        <option value="&#xf06c;">leaf</option>
+        <option value="&#xf109;">laptop</option>
+        <option value="&#xf0e3;">legal</option>
+        <option value="&#xf023;">lock</option>
+        <option value="&#xf0d0;">magic</option>
+        <option value="&#xf076;">magnet</option>
+        <option value="&#xf041;">map-marker</option>
+        <option value="&#xf0d6;">money</option>
+        <option value="&#xf001;">music</option>
+        <option value="&#xf072;">plane</option>
+        <option value="&#xf07a;">shopping-cart</option>
+        <option value="&#xf005;" selected="selected">star</option>
+		<option value="&#xf10a;">tablet</option>
+        <option value="&#xf164;">thumbs-up</option>
+        <option value="&#xf091;">trophy</option>
+        <option value="&#xf0d1;">truck</option>
+        <option value="&#xf0e9;">umbrella</option>
+        <option value="&#xf007;">user</option>
+        <option value="&#xf0f0;">user-md</option>
+        <option value="&#xf0ad;">wrench</option>
+        <option value="&#xf09a;">facebook</option>
+        <option value="&#xf099;">twitter</option>
+        <option value="&#xf09b;">github</option>
+        <option value="&#xf0e1;">linkedin</option>
+        <option value="&#xf0d2;">pinterest</option>
+        <option value="&#xf0d5;">google-plus</option>
+        <option value="&#xf0f9;">ambulance</option>
+        <option value="&#xf0fa;">medkit</option>
+        <option value="&#xf0f1;">stethoscope</option>
+	</field>
+	
+		<field name="misc" type="hidden" label="misc"/>
+		<field name="fasetting" type="hidden" label="fasetting"/>
+		<field name="activecolor" type="color" default="#ffc500"
+	label="Active Color"
+	description="Active Color" />
+		<field name="inactivecolor" type="color" default="#8a9091"
+	label="Inactive Color"
+	description="Inactive Color" />
+			
+       <field name="icon" type="list"
+                
+            label="COM_ITEMRATING_FORM_LBL_ITEM_ICON"
+            description="COM_ITEMRATING_FORM_DESC_ITEM_ICON" 
+                 default="0" 
+                >
+                <option value="stars">COM_ITEMRATING_STARS</option>
+                <option value="hearts">COM_ITEMRATING_HEART</option>
+                <option value="thumbs">COM_ITEMRATING_THUMB</option>
+		<option value="arrows">COM_ITEMRATING_ARROWS</option>
+		<option value="check">COM_ITEMRATING_CHECK</option>
+		<option value="light">COM_ITEMRATING_LIGHT</option>
+		<option value="medals">Medal</option>
+		<option value="bulbs">Bulb</option>
+		
+        </field> 
+
+       <field name="number" type="text" size="40" class="inputbox"
+        
+            label="COM_ITEMRATING_FORM_LBL_ITEM_NUMBER"
+            description="COM_ITEMRATING_FORM_DESC_ITEM_NUMBER" 
+         default="5" 
+        
+        
+        filter="safehtml" /> 
+
+       <field name="hits" type="text" size="40" class="inputbox"
+        default="1"
+            label="COM_ITEMRATING_FORM_LBL_ITEM_HITS"
+            description="COM_ITEMRATING_FORM_DESC_ITEM_HITS" 
+        
+        
+        
+        filter="safehtml" /> 
+
+         <field
+        name="state"
+        type="list"
+        label="JSTATUS"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="1">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
+    </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>

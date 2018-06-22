@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="3.0.0" method="upgrade" mosetsExtension="mtreeFieldtype">
+	<name>itemrating</name>
+	<caption>Item Rating</caption>
+	<author>Joomunited</author>
+	<creationDate>August 2014</creationDate>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<author>Joomunited</author>
+	<authorEmail>contact@joomunited.com</authorEmail>
+	<authorUrl>www.joomunited.com</authorUrl>
+	<version>1.2.2</version>
+	<description>Moset Tree plugin used for Rating Box</description>
+	<useElements>1</useElements>
+	<useSize>0</useSize>
+	<taggable>0</taggable>
+	<fileset>
+		<files folder="." target="administrator/components/com_mtree/fieldtypes/itemrating">
+			<filename>itemrating.php</filename>
+			<filename>itemrating.xml</filename>
+			<filename>index.html</filename>
+		</files>
+	</fileset>
+	<config>
+		<fields>
+			<fieldset name="basic" addfieldpath="/administrator/components/com_itemrating/models/fields">
+				<field name="lang" type="lang"/>
+		 <field name="groupdata" type="groupselect" label="Group Data" description="Group Data"/>
+		 <field name="textforscore" type="text"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_TEXTFORSCORE"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_TEXTFORSCORE" 
+                 /> 
+	<field name="reviewsummary" type="textarea"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_REVIEWSUMMARY"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_REVIEWSUMMARY" 
+            cols="100"
+            rows="2" filter="html" />
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

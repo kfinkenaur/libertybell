@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="itemrating" group="Social" orderable="true">
+	<name>Zoo-Item Rating</name>
+	<author>Joomunited</author>
+	<creationDate>August 2014</creationDate>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<author>Joomunited</author>
+	<authorEmail>contact@joomunited.com</authorEmail>
+	<authorUrl>www.joomunited.com</authorUrl>
+	<version>1.2.2</version>
+	<description>Zoo Element for Item Rating</description>
+	<params>
+	 <param name="textforscore" type="text"
+            label="Text under the total score"
+                 /> 
+	<param name="reviewsummary" type="textarea"
+            label="Review summary"
+		filter="html" />
+	</params>
+	<params group="render">
+	<param name="textforscore" type="text"
+            label="Text under the total score"
+                 /> 
+	<param name="reviewsummary" type="textarea"
+            label="Review summary"
+		filter="html" />
+	</params>
+</element>

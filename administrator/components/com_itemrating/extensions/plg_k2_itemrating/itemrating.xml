@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7" type="plugin" group="k2" method="upgrade">
+	<name>K2-Item Rating</name>
+	<author>Joomunited</author>
+	<creationDate>August 2014</creationDate>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<author>Joomunited</author>
+	<authorEmail>contact@joomunited.com</authorEmail>
+	<authorUrl>www.joomunited.com</authorUrl>
+	<version>1.2.2</version>
+	<description>K2 plugin used for Rating Box</description>
+	<files>
+		<filename plugin="itemrating">itemrating.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+	</config>
+	<fields group="item-content">
+		<fieldset name="basic" addfieldpath="/administrator/components/com_itemrating/models/fields">
+		<field name="lang" type="lang"/>
+		 <field name="groupdata" type="groupselect" label="Group Data" description="Group Data"/>
+		 <field name="textforscore" type="text"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_TEXTFORSCORE"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_TEXTFORSCORE" 
+                 /> 
+	<field name="reviewsummary" type="textarea"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_REVIEWSUMMARY"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_REVIEWSUMMARY" 
+            cols="100"
+            rows="2" filter="html" />
+		</fieldset>
+	</fields>
+</extension>

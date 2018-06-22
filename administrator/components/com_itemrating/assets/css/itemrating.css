@@ -1,0 +1,87 @@
+.icon-48-items {
+      background-image: url(../images/l_items.png);
+      padding-left:60px!important;
+}
+
+.icon-48-item {
+      background-image: url(../images/l_items.png);
+      padding-left:60px!important;
+}
+.style-box {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: none;
+    border-radius: 1px;
+    clear: both;
+    margin: 0 0 20px;
+    position: relative;
+}
+.style-box h3 {
+    background-color: #F1F1F1;
+    cursor: default !important;
+    font-size: 16px;
+    margin: 0 0 10px;
+    padding: 8px 10px;
+}
+
+.com_itemrating .control-group.style-box h3 label {
+	font-weight: bold;
+	font-size: 17px;
+	color: #444;
+}
+
+.style-box-item {
+    clear: both;
+    overflow: hidden;
+    padding: 8px 15px;
+    position: relative;
+}
+
+.com_itemrating div.control-group  {
+	padding: 5px;
+}
+
+.com_itemrating div.well {
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	padding: 10px 0;
+}
+
+.com_itemrating div.control-group div.control-label {
+	width: 200px;
+}
+
+.com_itemrating .slider.slider-horizontal .slider-selection, .com_itemrating .slider-selection, .com_itemrating .slider-handle {
+	background-image: linear-gradient(to bottom, #3AA0D4, #3AA0D4);	
+	border-radius: 2px;
+	opacity: 1;
+}
+
+.fa-icon-show
+{
+	font-family: "FontAwesome";
+}
+.fa-icon-show .glyph-large::before {
+    content: attr(data-content);
+}
+.fa-icon-show .glyph-large{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+	font-size: 20px;
+	}
+	
+.fa-icon-show .glyph-large span::before {
+    content: attr(data-content);
+}
+
+.fa-icon-show .glyph-large span{
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transition: all 0.25s ease-out 0s;
+    white-space: nowrap;
+	font-size: 20px;
+	}

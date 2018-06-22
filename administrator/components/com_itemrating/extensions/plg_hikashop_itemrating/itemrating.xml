@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.0" method="upgrade" group="hikashop">
+	<name>Item Rating Plugin for Hikashop</name>
+	<author>Joomunited</author>
+	<creationDate>August 2014</creationDate>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<author>Joomunited</author>
+	<authorEmail>contact@joomunited.com</authorEmail>
+	<authorUrl>www.joomunited.com</authorUrl>
+	<version>1.2.2</version>
+	<description>Hikashop plugin used for Rating Box</description>
+	<files>
+		<filename plugin="itemrating">itemrating.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params" >
+			<fieldset name="basic" addfieldpath="/administrator/components/com_itemrating/models/fields">
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>
