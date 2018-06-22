@@ -1,0 +1,135 @@
+<style>
+.datepickerdemoBasicUsage {
+  /** Demo styles for mdCalendar. */ }
+  .datepickerdemoBasicUsage md-content {
+    padding-bottom: 200px; }
+  .datepickerdemoBasicUsage .validation-messages {
+    font-size: 11px;
+    color: darkred;
+    margin: 10px 0 0 25px; }
+
+</style>
+
+<div class="row">
+<div class="col-sm-12 col-md-12">
+
+  <div id="form-container">
+  
+      <div class="progressWizard" style="display:none;">
+          <!-- the links to our nested states using relative paths -->
+          <!-- add the active class if the state matches our ui-sref -->
+          
+          <div class="steps">
+              <a class="step bold current" ui-sref-active="active" ui-sref=".inventory"><div>1</div><span>Inventory</span></a>
+              <a class="step bold" ui-sref-active="active" ui-sref=".details"><div>2</div><span>Details</span></a>
+              <a class="step bold" ui-sref-active="active" ui-sref=".review"><div>3</div><span>Review</span></a>
+          </div>
+      </div>
+      
+      <!-- use ng-submit to catch the form submission and use our Angular function -->
+      <form id="signup-form" ng-submit="processForm()">
+          <!-- our nested state views will be injected here -->
+          <div id="form-views" ui-view></div>
+      </form>
+  
+  </div>
+  
+  <!-- show our formData as it is being typed -->
+  <pre style="display:none;" class="testing">
+    {{ formData }}
+  </pre>
+
+</div>
+</div>
+
+
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Email your Move</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row-fluid">
+          <div id="mail_message"></div>
+          Enter email:
+          <input type="email" ng-model="toemail" name="toemail" id="toemail" required="required" />
+          <input type="btn" class="btn btn-default" value="Send" ng-click="emailPlan()" ng-disabled="!toemail" />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="editModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+        <form role="form" ng-submit="addCustomItem()" name="add-custom-item" id="add-custom-item" method="post">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" id="custom_item_popup_close">&times;</button>
+            <h4 class="modal-title">ADD CUSTOM ITEM</h4>
+          </div>
+          <div class="modal-body">
+            <div id="custom_mail_message"></div>
+            <div class="form-group">
+                <label class="sr-only" for="email">Email address:</label>
+                <input type="text" placeholder="Item Name" ng-model="item_name" name="item_name" class="form-control" id="item_name" required="required" >
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Item Subtitle" ng-model="item_subtitle" name="item_subtitle" class="form-control" id="item_subtitle" required="required" >
+            </div>
+            <div class="form-group">
+                <input type="number" placeholder="Item Weight" ng-model="item_weight"  name="item_weight" class="form-control custom-item-size" id="item_weight" required="required" >
+                <input type="number" placeholder="Item Size" ng-model="item_size" name="item_size" class="form-control custom-item-size" id="item_size" required="required" step="any" >
+                <input type="number" placeholder="Item Price" ng-model="item_price" name="item_price" class="form-control custom-item-size" id="item_price" required="required">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" name="add_custom_item_cancel" id="add_custom_item_cancel">Cancel</button>
+            &nbsp;&nbsp; OR &nbsp;&nbsp;
+            <button type="submit" class="add-item-btn btn-hollow btn-color-orange btn-add-item" id="add_cutom_item_submit">Add Item</button>
+          </div>
+        </form>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="usersignInModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+        <form role="form" ng-submit="submit()" name="add-custom-item" id="add-custom-item" method="post">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Login/Register</h4>
+          </div>
+          <div class="modal-body">
+            <a ng-href="{{loginUrl}}" class="btn btn-block btn-info" id="login_btn">
+            Login <span class="glyphicon glyphicon-copy"></span>
+            </a>
+            <a ng-href="{{regUrl}}" class="btn btn-block btn-info" id="register_btn">
+            Register <span class="glyphicon glyphicon-copy"></span>
+            </a>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </form>
+    </div>
+
+  </div>
+</div>
+

@@ -1,0 +1,1917 @@
+<div class="text-center">
+   <div class="plan-page move-plan tab-section">
+      <div class="plan-header clearfix">
+         <div id="message"></div>
+         <div class="clearfix action-header-btns">
+            <div class="plan-action back show-for-medium-up">
+               <a ui-sref="form.details" class="cta-button pa-button gray filled back-to-compare">Back to detail</a>
+            </div>
+            <div class="plan-action ctas clearfix">
+               <a class="cta-button pa-button filled save-for-later" ng-click="httpPost();">Save For Later</a>
+               <a class="cta-button pa-button filled finalize" ng-click="submitPlan();">Reserve My Move</a>
+            </div>
+         </div>
+         <div class="title-container clearfix">
+            <h1 class="funnel-title uppercase">Reserve your move! Your move is not booked yet.</h1>
+         </div>
+         <div class="header-txt">
+            <p class="subtitle">Guaranteed price <ngcart-review></ngcart-review></p>
+            <p class="times">
+               <span class="times-detail" ng-show="formData.date">
+               Moving on {{ formData.date }} (mm/dd/yyyy)
+               </span>
+               <span class="times-detail" ng-show="formData.time">Movers will arrive between {{ formData.time }}
+               </span>
+               <span class="times-detail ng-hide">
+               <span ng-show="movePlan.details.storage_move_out_date" class="ng-hide">Moving out of storage on Thursday, January 1, 1970
+               	<span ng-show="movePlan.reschedule_request &amp;&amp; movePlan.reschedule_request.requested_sit_date" class="ng-hide">(pending reschedule for: Invalid date)</span>
+               </span>
+               <span ng-hide="movePlan.details.storage_move_out_date">
+               <span ng-show="movePlan.reschedule_request &amp;&amp; movePlan.reschedule_request.requested_sit_date" class="ng-hide">Pending storage rental request for: Invalid date</span>
+               </span>
+               </span>
+               <span class="times-detail">Delivery estimate: 3 - 14 business days</span>
+            </p>
+         </div>
+         <div class="owner-info">
+            <span class="capitalize">&nbsp;</span>
+            <span class="ng-hide">&nbsp;</span>
+            <a href="mailto:chintan@raindropsinfotech.com">chintan@raindropsinfotech.com</a>
+         </div>
+      </div>
+      <div class="moving-info">
+         <div class="help-info">
+            <b>Need help?</b><br>Call 1-855-2UNPAKT
+         </div>
+         Moving on 01/28/2016<br>Mover will arrive between 9:00 AM - 11:00 AM<br><br>
+         <span >Your boxes will be delivered on </span>
+      </div>
+      <section class="plan-section info">
+         <div class="section-header clearfix email-print-btns">
+            <ul class="buttons">
+               <li class="btn email" data-toggle="modal" data-target="#myModal"><a class="gray-button">Email</a></li>
+               <li ng-click="printPlan()" class="btn print"><a class="gray-button">Print</a></li>
+            </ul>
+         </div>
+         <div class="section-content">
+            <div class="content-container plan-top clearfix">
+               <div class="plan-id">
+                  <div class="id-container">
+                     <span class="id-number" style="text-transform:uppercase;">{{formData.move_id}}</span><br>
+                     <span class="id-label">Your Move Plan ID</span>
+                  </div>
+                  <span class="support-number">Liberty Support: 1-855-20000000</span>
+               </div>
+               <div class="company-profile medium-only-padded-top small-only-padded-top clearfix">
+                  <div class="company-logo">
+                     <img width="86" height="86" alt="Liberty Bell Moving & Storage" ng-src="http://www.libertybellmoving.com/images/LBMS.Bell2.png" class="logo-image" src="http://www.libertybellmoving.com/images/LBMS.Bell2.png">
+                     <a target="_blank" class="profile-link" href="#">View profile</a>
+                  </div>
+                  <div class="company-info small-only-padded-top medium-only-padded-top">
+                     <h2 class="company-title">Liberty Bell Moving & Storage</h2>
+                     <h3 class="company-subtitle">207.890.7475<br>service@libertybellmoving.com</h3>
+                  </div>
+               </div>
+            </div>
+            <div class="content-container plan-route">
+               <div class="route-section route-header clearfix">
+                  <h4 class="home-size">{{ formData.home_type }}</h4>
+                  <p class="items-info">1 items of furniture, 1 boxes (21.5 cubic ft.)</p>
+                  <span class="counters">
+                  <span class="counter-num">308.2</span>
+                  <span class="counter-label">miles</span>
+                  </span>
+               </div>
+               <div class="steps clearfix">
+                  <div class="step step-1">
+                     <div class="route-section-header clearfix">
+                        <h4 class="route-subtitle">Moving From</h4>
+                     </div>
+                     <div class="step-body">
+                        <p class="step-address">
+                           <span class="block capitalize" ng-show="formData.fromAddress">{{ formData.fromAddress }} 
+                           <span ng-show="formData.fromApt">, {{ formData.fromApt }}</span>
+                           </span>
+                           <span class="block">
+                              <span ng-show="formData.fromCity">{{ formData.fromCity }} </span>
+                              <span ng-show="formData.fromState">{{ formData.fromState }} </span>
+                           </span>
+                           <span ng-show="formData.fromZip">{{ formData.fromZip }} </span>
+                        </p>
+                        <div class="small-map" ng-show="formData.fromCity">
+                           <img src="http://maps.googleapis.com/maps/api/staticmap?center={{ formData.fromCity }}&size=400x200&style=element:labels|visibility:off&style=element:geometry.stroke|visibility:off&style=feature:landscape|element:geometry|saturation:-100&style=feature:water|saturation:-100|invert_lightness:true&key=AIzaSyAY2EUHP3otWWkaF01lJS6cVEY091aq6Cg">
+                        </div>
+                        <div class="step-insurance">
+                           <div class="clearfix">
+                              <div class="step-insurance-question left">Does this building require a certificate of insurance?</div>
+                              <div ns-popover-theme="ns-popover-tooltip-theme" ns-popover-timeout="0" ns-popover-trigger="mouseenter" ns-popover-placement="right" ns-popover-template="coiTip" ns-popover="" class="ques-mark left"></div>
+                           </div>
+                           <div class="coi-details clearfix">
+                              <div class="step-insurance-answer left">No.</div>
+                           </div>
+                           <div>
+                              <div data-spinner-size="150" data-spinner-color="#000" ng-class="{'loading': routes[routeKey].loading}" ladda="routes[routeKey].loading" class="ladda-button" data-style="zoom-in">
+                                 <span class="ladda-label"></span>
+                                 <span class="ladda-spinner"></span>
+                              </div>
+                              <div class="animate-show"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="step step-2">
+                     <div class="route-section-header clearfix">
+                        <h4 class="route-subtitle">Moving To</h4>
+                     </div>
+                     <div class="step-body">
+                        <p class="step-address">
+                           <span class="block capitalize" ng-show="formData.toAddress">{{ formData.toAddress }}
+                           <span ng-show="formData.toApt">, {{ formData.toApt }}</span>
+                           </span>
+                           <span class="block">
+                              <span ng-show="formData.toCity">{{ formData.toCity }}</span>
+                              <span ng-show="formData.toState">{{ formData.toState }}</span>
+                            </span>
+                            <span ng-show="formData.toZip">{{ formData.toZip }}</span>
+                        </p>
+                        <div class="small-map" ng-show="formData.toCity">
+                            <img src="http://maps.googleapis.com/maps/api/staticmap?center={{ formData.toCity }}&size=400x200&style=element:labels|visibility:off&style=element:geometry.stroke|visibility:off&style=feature:landscape|element:geometry|saturation:-100&style=feature:water|saturation:-100|invert_lightness:true&key=AIzaSyAY2EUHP3otWWkaF01lJS6cVEY091aq6Cg">
+                           <!--<img ng-src="https://maps.googleapis.com/maps/api/staticmap?scale=2&amp;size=400x200&amp;maptype=roadmap&amp;zoom=16&amp;style=feature:all%7Celement:all%7Cweight:1%7Chue:0x00c3ff%7Cgamma:0.84%7Csaturation:53%7Clightness:-16&amp;style=feature:all%7Celement:labels%7Cvisibility:on%7Chue:0x00b2ff%7Cgamma:1.37%7Csaturation:43%7Clightness:7&amp;markers=icon:http://unpakt.com/client_assets/images/plan/map-marker.png%7C29.5334599, -81.2477201&amp;key=AIzaSyAY2EUHP3otWWkaF01lJS6cVEY091aq6Cg" src="https://maps.googleapis.com/maps/api/staticmap?scale=2&amp;size=400x200&amp;maptype=roadmap&amp;zoom=16&amp;style=feature:all%7Celement:all%7Cweight:1%7Chue:0x00c3ff%7Cgamma:0.84%7Csaturation:53%7Clightness:-16&amp;style=feature:all%7Celement:labels%7Cvisibility:on%7Chue:0x00b2ff%7Cgamma:1.37%7Csaturation:43%7Clightness:7&amp;markers=icon:http://unpakt.com/client_assets/images/plan/map-marker.png%7C29.5334599, -81.2477201&amp;key=AIzaSyAY2EUHP3otWWkaF01lJS6cVEY091aq6Cg">-->
+                        </div>
+                        <div class="step-insurance">
+                           <div class="clearfix">
+                              <div class="step-insurance-question left">Does this building require a certificate of insurance?</div>
+                              <div ns-popover-theme="ns-popover-tooltip-theme" ns-popover-timeout="0" ns-popover-trigger="mouseenter" ns-popover-placement="right" ns-popover-template="coiTip" ns-popover="" class="ques-mark left"></div>
+                           </div>
+                           <div class="coi-details clearfix">
+                              <div class="step-insurance-answer left">No.</div>
+                           </div>
+                           <div>
+                              <div data-spinner-size="150" data-spinner-color="#000" ladda="routes[routeKey].loading" class="ladda-button" data-style="zoom-in">
+                                 <span class="ladda-label"></span>
+                                 <span class="ladda-spinner"></span>
+                              </div>
+                              <div class="animate-show">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <ngcart-summary></ngcart-summary>
+      <div class="clearfix action-footer-btns">
+         <div class="plan-action back show-for-medium-up"><a class="cta-button pa-button gray filled back-to-compare" ui-sref="form.details">Back to detail</a></div>
+         <div class="plan-action ctas clearfix">
+            <a class="cta-button pa-button filled save-for-later" ng-click="httpPost();">Save For Later</a>
+            <a class="cta-button pa-button filled finalize" ng-click="submitPlan();">Reserve My Move</a>
+         </div>
+      </div>
+      <div id="form_review_data" style="display:none;">
+         <style>
+         .funnel-wrapper .funnel-subtitle, .funnel-wrapper .funnel-title, .funnel-title {
+           -x-system-font: none;
+           font-family: UnpaktHelvetica,sans-serif;
+           font-feature-settings: normal;
+           font-kerning: auto;
+           font-language-override: normal;
+           font-size-adjust: none;
+           font-stretch: normal;
+           font-style: normal;
+           font-synthesis: weight style;
+           font-variant-alternates: normal;
+           font-variant-caps: normal;
+           font-variant-east-asian: normal;
+           font-variant-ligatures: normal;
+           font-variant-numeric: normal;
+           font-variant-position: normal;
+           font-weight: normal;
+           font-size: 18px;
+         }
+         .uppercase {
+           text-transform: uppercase;
+         }
+         .form_review_data .header-txt .times-detail {
+           display: block;
+         }
+         /*.form_review_data .header-txt .times {
+           font-family: ProximaNovaBold,sans-serif;
+           font-size: 16px;
+           line-height: 20px;
+         }*/
+         .form_review_data .header-txt p {
+           padding-bottom: 15px;
+         }
+         .par-text{
+           font-size: 12px;
+         }
+         .moving-company-and-id-detail-box, .moving-from-to-detail-box {
+           padding-bottom: 10px;
+           padding-left: 10px;
+           padding-right: 10px;
+           padding-top: 10px;
+         }
+         .moving-company-and-id-detail-box, .moving-from-to-detail-box {
+           border-color: #c4c5c5;
+           border-style: solid;
+           border-width: 1px;
+         }
+         .plan-id {
+           font-size: 13px;
+           text-align: center;
+           float: right;
+           max-width: 25%;
+         }
+         .plan-id .id-container {
+           text-align: center;
+         }
+         .plan-id .id-container {
+           background-attachment: scroll;
+           background-clip: border-box;
+           background-image: none;
+           background-origin: padding-box;
+           background-position: 0 0;
+           background-repeat: repeat;
+           background-size: auto auto;
+           border-bottom-left-radius: 2px;
+           border-bottom-right-radius: 2px;
+           border-top-left-radius: 2px;
+           border-top-right-radius: 2px;
+           box-shadow: 0 1px 3px 0 rgba(18, 16, 11, 0.1);
+           margin-bottom: 10px;
+           margin-left: auto;
+           margin-right: auto;
+           margin-top: 0;
+           padding-bottom: 8px;
+           padding-left: 0;
+           padding-right: 0;
+           padding-top: 8px;
+         }
+         .plan-id .support-number {
+           padding-top: 6px;
+         }
+         .moving-company-and-id-detail-box .plan-id .id-number {
+           font-family: UnpaktHelveticaBold,sans-serif;
+           font-size: 16px;
+         }
+         .company-profile .company-logo {
+           float: left;
+         }
+         .company-profile .company-info {
+           position: relative;
+         }
+         .company-profile .company-info {
+           height: 85px;
+           padding-left: 96px;
+         }
+         .company-profile .company-logo .logo-image {
+           display: block;
+           height: 86px;
+           width: 86px;
+         }
+         .company-profile .company-logo .profile-link {
+           margin-bottom: 0;
+           text-align: center;
+         }
+         .company-profile .company-logo .profile-link {
+           display: block;
+           font-size: 12px;
+           margin-top: 5px;
+           text-decoration-color: -moz-use-text-color;
+           text-decoration-line: underline;
+           text-decoration-style: solid;
+         }
+         .moving-company-and-id-detail-box .company-title{
+            font-size: 13px;
+         }
+         .moving-company-and-id-detail-box .dev-email-id{
+            font-size: 8px !important;
+         }
+         .moving-company-and-id-detail-box .small-detail{
+            font-size: 10px !important;
+         }
+         .bold{
+            font-weight: bold;
+         }
+         .moving-from-to-detail-box .route-section {
+          padding-bottom: 20px;
+         }
+         .moving-from-to-detail-box .home-size {
+          float: left;
+          font-size: 12px;
+          margin-bottom: 0;
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 0;
+          width: 50%;
+        }
+        .moving-from-to-detail-box .counters{
+          font-size: 12px;
+        }
+        .moving-from-to-detail-box .route-section.route-header .counters {
+          padding-left: 6%;
+          width: 50%;
+          float: left;
+        }
+        .moving-from-to-detail-box .step.step-1, .moving-from-to-detail-box .step.step-3 {
+          margin-right: 12%;
+        }
+        .moving-from-to-detail-box .step {
+          display: inline-block;
+          float: left;
+          vertical-align: top;
+          width: 44%;
+        }
+        .steps{
+          font-size: 12px;
+        }
+        .moving-from-to-detail-box .route-section-header {
+          border-bottom-color: #c4c5c5;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          line-height: 30px;
+          vertical-align: middle;
+        }
+        .moving-from-to-detail-box .route-subtitle {
+          display: inline;
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 12px;
+          font-weight: bold;
+        }
+        .printsummary-my-inventory .data-table tbody td, .printsummary-my-inventory .data-table thead td, .printsummary-my-inventory .data-table thead th {
+          border-bottom-color: #d9d9d9;
+          border-bottom-style: solid;
+          border-bottom-width: 0;
+          border-left-color: #d9d9d9;
+          border-left-style: solid;
+          border-left-width: 0;
+          border-right-color: #d9d9d9;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: #d9d9d9;
+          border-top-style: solid;
+          border-top-width: 1px;
+          height: 50px;
+          padding-bottom: 4px;
+          padding-left: 15px;
+          padding-right: 10px;
+          padding-top: 4px;
+        }
+        .printsummary-my-inventory .plan-section {
+          padding-bottom: 50px;
+        }
+        .printsummary-my-inventory .section-header {
+          padding-bottom: 10px;
+        }
+        .printsummary-my-inventory .scroller {
+          overflow-x: auto;
+          overflow-y: auto;
+        }
+        .printsummary-my-inventory .section-title {
+          display: inline;
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 12px;
+          padding-right: 5px;
+          font-weight: bold;
+        }
+        .printsummary-my-inventory .counters {
+          float: right;
+          font-family: UnpaktHelveticaBold,sans-serif;
+          font-weight: bold;
+        }
+        .printsummary-my-inventory .counter.furniture {
+          padding-right: 20px;
+        }
+        .printsummary-my-inventory .counter {
+          float: left;
+        }
+        .printsummary-my-inventory .counters .counter-num {
+          font-size: 12px;
+        }
+        .printsummary-my-inventory .counters .counter-label {
+          font-family: ProximaNovaBold;
+          font-size: 12px;
+          text-transform: uppercase;
+        }
+        .printsummary-my-inventory .data-table.my-inventory-table {
+          min-width: 640px;
+        }
+        .printsummary-my-inventory .data-table, .printsummary-my-inventory .data-table.no-footer {
+          border-bottom-color: #d9d9d9;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-left-color: #d9d9d9;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: #d9d9d9;
+          border-right-style: solid;
+          border-right-width: 0;
+          border-top-color: #d9d9d9;
+          border-top-style: solid;
+          border-top-width: 0;
+          font-size: 10px;
+        }
+        .printsummary-my-inventory table {
+          background-color: transparent;
+          max-width: 100%;
+          border-collapse: collapse;
+          border-spacing: 0;
+          display: table;
+          text-indent: 0;
+        }
+        .printsummary-my-inventory thead {
+          display: table-header-group;
+          vertical-align: middle;
+        }
+        .printsummary-my-inventory tbody {
+          display: table-row-group;
+          vertical-align: middle;
+        }
+        .printsummary-my-inventory tr {
+          display: table-row;
+          vertical-align: inherit;
+        }
+        .printsummary-my-inventory .plan-section {
+          padding-bottom: 50px;
+        }
+        .printsummary-my-inventory .section-header {
+          padding-bottom: 10px;
+        }
+        .printsummary-my-inventory .scroller {
+          overflow-x: auto;
+          overflow-y: auto;
+        }
+        .printsummary-my-inventory h3.section-title {
+          display: inline;
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 16px !important;
+          padding-right: 5px;
+        }
+        .printsummary-my-inventory .flat-list {
+          border-bottom-color: #dbdbdb;
+          border-bottom-style: solid;
+          border-bottom-width: 0;
+          border-left-color: #dbdbdb;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: #dbdbdb;
+          border-right-style: solid;
+          border-right-width: 0;
+          border-top-color: #dbdbdb;
+          border-top-style: solid;
+          border-top-width: 1px;
+        }
+        .printsummary-my-inventory .flat-list .table-titles {
+          background-attachment: scroll;
+          background-clip: border-box;
+          background-color: #eff1f3;
+          background-image: none;
+          background-origin: padding-box;
+          background-position: 0 0;
+          background-repeat: repeat;
+          background-size: auto auto;
+          color: #042b3b;
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 8px;
+          height: 50px;
+          text-transform: uppercase;
+          vertical-align: middle;
+        }
+        .printsummary-my-inventory .flat-list li, .printsummary-my-inventory .flat-list ul {
+          margin-bottom: 0;
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 0;
+          padding-bottom: 0;
+          padding-left: 0;
+          padding-right: 0;
+          padding-top: 0;
+        }
+        .printsummary-my-inventory li, .printsummary-my-inventory p, .printsummary-my-inventory ul {
+          -moz-border-bottom-colors: none;
+          -moz-border-left-colors: none;
+          -moz-border-right-colors: none;
+          -moz-border-top-colors: none;
+          border-bottom-color: -moz-use-text-color;
+          border-bottom-style: none;
+          border-bottom-width: medium;
+          border-image-outset: 0 0 0 0;
+          border-image-repeat: stretch stretch;
+          border-image-slice: 100% 100% 100% 100%;
+          border-image-source: none;
+          border-image-width: 1 1 1 1;
+          border-left-color: -moz-use-text-color;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: -moz-use-text-color;
+          border-right-style: none;
+          border-right-width: medium;
+          border-top-color: -moz-use-text-color;
+          border-top-style: none;
+          border-top-width: medium;
+          outline-color: -moz-use-text-color;
+          outline-style: none;
+          outline-width: 0;
+        }
+        .printsummary-my-inventory .flat-list .column.big {
+          width: 34%;
+        }
+        .printsummary-my-inventory .flat-list .column.regular {
+          width: 22%;
+        }
+        .printsummary-my-inventory .flat-list .table-titles .table-title {
+          height: 100%;
+          line-height: 16px;
+          padding-bottom: 5px;
+          padding-left: 12px;
+          padding-right: 12px;
+          padding-top: 5px;
+        }
+        .printsummary-my-inventory .flat-list .column {
+          border-bottom-color: #dbdbdb;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-left-color: #dbdbdb;
+          border-left-style: solid;
+          border-left-width: 0;
+          border-right-color: #dbdbdb;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: #dbdbdb;
+          border-top-style: solid;
+          border-top-width: 0;
+        }
+        .printsummary-my-inventory .flat-list li, .printsummary-my-inventory .flat-list ul {
+          margin-bottom: 0;
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 0;
+        }
+        .printsummary-my-inventory .special-handling-add-items {
+          -moz-border-bottom-colors: none;
+          -moz-border-left-colors: none;
+          -moz-border-right-colors: none;
+          -moz-border-top-colors: none;
+          background-color: #eff1f3;
+          border-bottom-color: #ddd;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-image-outset: 0 0 0 0;
+          border-image-repeat: stretch stretch;
+          border-image-slice: 100% 100% 100% 100%;
+          border-image-source: none;
+          border-image-width: 1 1 1 1;
+          border-left-color: -moz-use-text-color;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: #ddd;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: -moz-use-text-color;
+          border-top-style: none;
+          border-top-width: medium;
+          font-size: 12px;
+          padding-bottom: 15px;
+          padding-left: 15px;
+          padding-right: 15px;
+          text-transform: uppercase;
+        }
+        .animate-show {
+          opacity: 1;
+        }
+        .printsummary-my-inventory .special-handling-subtotal {
+          -moz-border-bottom-colors: none;
+          -moz-border-left-colors: none;
+          -moz-border-right-colors: none;
+          -moz-border-top-colors: none;
+          border-bottom-color: #ddd;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-image-outset: 0 0 0 0;
+          border-image-repeat: stretch stretch;
+          border-image-slice: 100% 100% 100% 100%;
+          border-image-source: none;
+          border-image-width: 1 1 1 1;
+          border-left-color: -moz-use-text-color;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: #ddd;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: -moz-use-text-color;
+          border-top-style: none;
+          border-top-width: medium;
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 12px;
+          padding-bottom: 15px;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-top: 15px;
+        }
+        .printsummary-my-inventory .special-handling-subtotal {
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 13px;
+        }
+        .printsummary-my-inventory .disable {
+          color: #8f8f8f;
+        }
+        .printsummary-my-inventory .two-columns-table {
+          border-bottom-color: #dbdbdb;
+          border-bottom-style: solid;
+          border-bottom-width: 0;
+          border-left-color: #dbdbdb;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: #dbdbdb;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: #dbdbdb;
+          border-top-style: solid;
+          border-top-width: 1px;
+          margin-bottom: 0;
+        }
+        .printsummary-my-inventory .two-columns-table .item-column {
+          border-bottom-color: #dbdbdb;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          float: none !important;
+          font-size: 10px;
+          height: 46px;
+          padding-bottom: 5px;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-top: 5px;
+        }
+        .plan-page .two-columns-table .item-column {
+          float: none !important;
+        }
+        .additional-services-tabels{
+          font-size: 12px !important;
+        }
+        .num {
+           font-weight: bold !important;
+         }
+         </style>
+         <div class="clearfix">
+            <h1 class="funnel-title uppercase">Reserve your move! Your move is not booked yet.</h1>
+         </div>
+         <div class="header-txt">
+            <p class="subtitle par-text bold">Guaranteed price <ngcart-printreview></ngcart-printreview></p>
+            <p class="times">
+               <p><span class="times-detail par-text bold" ng-show="formData.date">
+               Moving on {{ formData.date }} (mm/dd/yyyy)
+               </span></p>
+               <p><span class="times-detail par-text bold" ng-show="formData.time">Movers will arrive between {{ formData.time }}
+               </span></p>
+               <p><span class="times-detail par-text bold">Delivery estimate: 3 - 14 business days</span></p>
+            </p>
+         </div>
+         <p class="dev-email-id"><a href="mailto:chintan@raindropsinfotech.com">chintan@raindropsinfotech.com</a></p>
+         <div class="content-container plan-top clearfix moving-company-and-id-detail-box">
+            <div class="plan-id">
+               <div class="id-container">
+                  <span class="id-number" style="text-transform:uppercase;">{{formData.move_id}}</span><br>
+                  <span class="id-label dev-email-id">Your Move Plan ID</span>
+               </div>
+               <span class="support-number dev-email-id">Liberty Support: 1-855-20000000</span>
+            </div>
+            <div class="company-profile medium-only-padded-top small-only-padded-top clearfix">
+               <div class="company-logo">
+                  <img width="86" height="86" alt="Liberty Bell Moving & Storage" ng-src="http://www.libertybellmoving.com/images/LBMS.Bell2.png" class="logo-image" src="http://www.libertybellmoving.com/images/LBMS.Bell2.png">
+               </div>
+               <div class="company-info small-only-padded-top medium-only-padded-top">
+                  <h2 class="company-title">Liberty Bell Moving & Storage</h2>
+                  <div class="company-subtitle small-detail">207.890.7475<br>service@libertybellmoving.com</div>
+               </div>
+            </div>
+         </div>
+         <div class="content-container plan-route moving-from-to-detail-box">
+            <div class="route-section route-header clearfix">
+               <h4 class="home-size">{{ formData.home_type }}</h4>
+               <span class="counters">
+               <span class="counter-num">308.2</span>
+               <span class="counter-label">miles</span>
+               </span>
+            </div>
+            <div class="steps clearfix">
+               <div class="step step-1">
+                  <div class="route-section-header clearfix">
+                     <h4 class="route-subtitle">Moving From</h4>
+                  </div>
+                  <div class="step-body">
+                     <p class="step-address">
+                        <p><span class="block capitalize" ng-show="formData.fromAddress">{{ formData.fromAddress }},</span></p>
+                        <p ng-show="formData.fromApt"><span ng-show="formData.fromApt">{{ formData.fromApt }},</span></p>
+                        <p><span class="block">
+                           <span ng-show="formData.fromCity">{{ formData.fromCity }} </span>
+                           <span ng-show="formData.fromState">{{ formData.fromState }} </span>
+                        </span></p>
+                        <p><span ng-show="formData.fromZip">{{ formData.fromZip }} </span></p>
+                     </p>
+                  </div>
+               </div>
+               <div class="step step-2">
+                  <div class="route-section-header clearfix">
+                     <h4 class="route-subtitle">Moving To</h4>
+                  </div>
+                  <div class="step-body">
+                     <p class="step-address">
+                        <p><span class="block capitalize" ng-show="formData.toAddress">{{ formData.toAddress }},</span></p>
+                        <p ng-show="formData.toApt"><span ng-show="formData.toApt">{{ formData.toApt }},</span></p>
+                        <p ng-show="formData.toCity">
+                          <span class="block">
+                            <span ng-show="formData.toCity">{{ formData.toCity }}</span>
+                            <span ng-show="formData.toState">{{ formData.toState }}</span>
+                          </span>
+                        </p>
+                        <p><span ng-show="formData.toZip">{{ formData.toZip }}</span></p>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <ngcart-printsummary></ngcart-printsummary>         
+      </div>
+      <div id="form_email_data" style="display:none;">
+        <div style="float:left;margin:0px;padding:0px;width:100%;background:#eeeeee;color:#2E4F5C;">
+         <style>
+         .funnel-wrapper .funnel-subtitle, .funnel-wrapper .funnel-title, .funnel-title {
+           -x-system-font: none;
+           font-family: UnpaktHelvetica,sans-serif;
+           font-feature-settings: normal;
+           font-kerning: auto;
+           font-language-override: normal;
+           font-size-adjust: none;
+           font-stretch: normal;
+           font-style: normal;
+           font-synthesis: weight style;
+           font-variant-alternates: normal;
+           font-variant-caps: normal;
+           font-variant-east-asian: normal;
+           font-variant-ligatures: normal;
+           font-variant-numeric: normal;
+           font-variant-position: normal;
+           font-weight: normal;
+           font-size: 18px;
+         }
+         .uppercase {
+           text-transform: uppercase;
+         }
+         .form_review_data .header-txt .times-detail {
+           display: block;
+         }
+         /*.form_review_data .header-txt .times {
+           font-family: ProximaNovaBold,sans-serif;
+           font-size: 16px;
+           line-height: 20px;
+         }*/
+         .form_review_data .header-txt p {
+           padding-bottom: 15px;
+         }
+         .par-text{
+           font-size: 12px;
+         }
+         .moving-company-and-id-detail-box, .moving-from-to-detail-box {
+           padding-bottom: 10px;
+           padding-left: 10px;
+           padding-right: 10px;
+           padding-top: 10px;
+         }
+         .moving-company-and-id-detail-box, .moving-from-to-detail-box {
+           border-color: #c4c5c5;
+           border-style: solid;
+           border-width: 1px;
+         }
+         .plan-id {
+           font-size: 13px;
+           text-align: center;
+           float: right;
+           max-width: 25%;
+         }
+         .plan-id .id-container {
+           text-align: center;
+         }
+         .plan-id .id-container {
+           background-attachment: scroll;
+           background-clip: border-box;
+           background-image: none;
+           background-origin: padding-box;
+           background-position: 0 0;
+           background-repeat: repeat;
+           background-size: auto auto;
+           border-bottom-left-radius: 2px;
+           border-bottom-right-radius: 2px;
+           border-top-left-radius: 2px;
+           border-top-right-radius: 2px;
+           box-shadow: 0 1px 3px 0 rgba(18, 16, 11, 0.1);
+           margin-bottom: 10px;
+           margin-left: auto;
+           margin-right: auto;
+           margin-top: 0;
+           padding-bottom: 8px;
+           padding-left: 0;
+           padding-right: 0;
+           padding-top: 8px;
+         }
+         .plan-id .support-number {
+           padding-top: 6px;
+         }
+         .moving-company-and-id-detail-box .plan-id .id-number {
+           font-family: UnpaktHelveticaBold,sans-serif;
+           font-size: 16px;
+         }
+         .company-profile .company-logo {
+           float: left;
+         }
+         .company-profile .company-info {
+           position: relative;
+         }
+         .company-profile .company-info {
+           height: 85px;
+           padding-left: 96px;
+         }
+         .company-profile .company-logo .logo-image {
+           display: block;
+           height: 86px;
+           width: 86px;
+         }
+         .company-profile .company-logo .profile-link {
+           margin-bottom: 0;
+           text-align: center;
+         }
+         .company-profile .company-logo .profile-link {
+           display: block;
+           font-size: 12px;
+           margin-top: 5px;
+           text-decoration-color: -moz-use-text-color;
+           text-decoration-line: underline;
+           text-decoration-style: solid;
+         }
+         .moving-company-and-id-detail-box .company-title{
+            font-size: 13px;
+         }
+         .moving-company-and-id-detail-box .dev-email-id{
+            font-size: 8px !important;
+         }
+         .moving-company-and-id-detail-box .small-detail{
+            font-size: 10px !important;
+         }
+         .bold{
+            font-weight: bold;
+         }
+         .moving-from-to-detail-box .route-section {
+          padding-bottom: 20px;
+         }
+         .moving-from-to-detail-box .home-size {
+          float: left;
+          font-size: 12px;
+          margin-bottom: 0;
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 0;
+          width: 50%;
+        }
+        .moving-from-to-detail-box .counters{
+          font-size: 12px;
+        }
+        .moving-from-to-detail-box .route-section.route-header .counters {
+          padding-left: 6%;
+          width: 50%;
+          float: left;
+        }
+        .moving-from-to-detail-box .step.step-1, .moving-from-to-detail-box .step.step-3 {
+          margin-right: 12%;
+        }
+        .moving-from-to-detail-box .step {
+          display: inline-block;
+          float: left;
+          vertical-align: top;
+          width: 44%;
+        }
+        .steps{
+          font-size: 12px;
+        }
+        .moving-from-to-detail-box .route-section-header {
+          border-bottom-color: #c4c5c5;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          line-height: 30px;
+          vertical-align: middle;
+        }
+        .moving-from-to-detail-box .route-subtitle {
+          display: inline;
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 12px;
+          font-weight: bold;
+        }
+        .printsummary-my-inventory .data-table tbody td, .printsummary-my-inventory .data-table thead td, .printsummary-my-inventory .data-table thead th {
+          border-bottom-color: #d9d9d9;
+          border-bottom-style: solid;
+          border-bottom-width: 0;
+          border-left-color: #d9d9d9;
+          border-left-style: solid;
+          border-left-width: 0;
+          border-right-color: #d9d9d9;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: #d9d9d9;
+          border-top-style: solid;
+          border-top-width: 1px;
+          height: 50px;
+          padding-bottom: 4px;
+          padding-left: 15px;
+          padding-right: 10px;
+          padding-top: 4px;
+        }
+        .printsummary-my-inventory .plan-section {
+          padding-bottom: 50px;
+        }
+        .printsummary-my-inventory .section-header {
+          padding-bottom: 10px;
+        }
+        .printsummary-my-inventory .scroller {
+          overflow-x: auto;
+          overflow-y: auto;
+        }
+        .printsummary-my-inventory .section-title {
+          display: inline;
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 12px;
+          padding-right: 5px;
+          font-weight: bold;
+        }
+        .printsummary-my-inventory .counters {
+          float: right;
+          font-family: UnpaktHelveticaBold,sans-serif;
+          font-weight: bold;
+        }
+        .printsummary-my-inventory .counter.furniture {
+          padding-right: 20px;
+        }
+        .printsummary-my-inventory .counter {
+          float: left;
+        }
+        .printsummary-my-inventory .counters .counter-num {
+          font-size: 12px;
+        }
+        .printsummary-my-inventory .counters .counter-label {
+          font-family: ProximaNovaBold;
+          font-size: 12px;
+          text-transform: uppercase;
+        }
+        .printsummary-my-inventory .data-table.my-inventory-table {
+          min-width: 640px;
+        }
+        .printsummary-my-inventory .data-table, .printsummary-my-inventory .data-table.no-footer {
+          border-bottom-color: #d9d9d9;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-left-color: #d9d9d9;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: #d9d9d9;
+          border-right-style: solid;
+          border-right-width: 0;
+          border-top-color: #d9d9d9;
+          border-top-style: solid;
+          border-top-width: 0;
+          font-size: 10px;
+        }
+        .printsummary-my-inventory table {
+          background-color: transparent;
+          max-width: 100%;
+          border-collapse: collapse;
+          border-spacing: 0;
+          display: table;
+          text-indent: 0;
+        }
+        .printsummary-my-inventory thead {
+          display: table-header-group;
+          vertical-align: middle;
+        }
+        .printsummary-my-inventory tbody {
+          display: table-row-group;
+          vertical-align: middle;
+        }
+        .printsummary-my-inventory tr {
+          display: table-row;
+          vertical-align: inherit;
+        }
+        .printsummary-my-inventory .plan-section {
+          padding-bottom: 50px;
+        }
+        .printsummary-my-inventory .section-header {
+          padding-bottom: 10px;
+        }
+        .printsummary-my-inventory .scroller {
+          overflow-x: auto;
+          overflow-y: auto;
+        }
+        .printsummary-my-inventory h3.section-title {
+          display: inline;
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 16px !important;
+          padding-right: 5px;
+        }
+        .printsummary-my-inventory .flat-list {
+          border-bottom-color: #dbdbdb;
+          border-bottom-style: solid;
+          border-bottom-width: 0;
+          border-left-color: #dbdbdb;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: #dbdbdb;
+          border-right-style: solid;
+          border-right-width: 0;
+          border-top-color: #dbdbdb;
+          border-top-style: solid;
+          border-top-width: 1px;
+        }
+        .printsummary-my-inventory .flat-list .table-titles {
+          background-attachment: scroll;
+          background-clip: border-box;
+          background-color: #eff1f3;
+          background-image: none;
+          background-origin: padding-box;
+          background-position: 0 0;
+          background-repeat: repeat;
+          background-size: auto auto;
+          color: #042b3b;
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 8px;
+          height: 50px;
+          text-transform: uppercase;
+          vertical-align: middle;
+        }
+        .printsummary-my-inventory .flat-list li, .printsummary-my-inventory .flat-list ul {
+          margin-bottom: 0;
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 0;
+          padding-bottom: 0;
+          padding-left: 0;
+          padding-right: 0;
+          padding-top: 0;
+        }
+        .printsummary-my-inventory li, .printsummary-my-inventory p, .printsummary-my-inventory ul {
+          -moz-border-bottom-colors: none;
+          -moz-border-left-colors: none;
+          -moz-border-right-colors: none;
+          -moz-border-top-colors: none;
+          border-bottom-color: -moz-use-text-color;
+          border-bottom-style: none;
+          border-bottom-width: medium;
+          border-image-outset: 0 0 0 0;
+          border-image-repeat: stretch stretch;
+          border-image-slice: 100% 100% 100% 100%;
+          border-image-source: none;
+          border-image-width: 1 1 1 1;
+          border-left-color: -moz-use-text-color;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: -moz-use-text-color;
+          border-right-style: none;
+          border-right-width: medium;
+          border-top-color: -moz-use-text-color;
+          border-top-style: none;
+          border-top-width: medium;
+          outline-color: -moz-use-text-color;
+          outline-style: none;
+          outline-width: 0;
+        }
+        .printsummary-my-inventory .flat-list .column.big {
+          width: 34%;
+        }
+        .printsummary-my-inventory .flat-list .column.regular {
+          width: 22%;
+        }
+        .printsummary-my-inventory .flat-list .table-titles .table-title {
+          height: 100%;
+          line-height: 16px;
+          padding-bottom: 5px;
+          padding-left: 12px;
+          padding-right: 12px;
+          padding-top: 5px;
+        }
+        .printsummary-my-inventory .flat-list .column {
+          border-bottom-color: #dbdbdb;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-left-color: #dbdbdb;
+          border-left-style: solid;
+          border-left-width: 0;
+          border-right-color: #dbdbdb;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: #dbdbdb;
+          border-top-style: solid;
+          border-top-width: 0;
+        }
+        .printsummary-my-inventory .flat-list li, .printsummary-my-inventory .flat-list ul {
+          margin-bottom: 0;
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 0;
+        }
+        .printsummary-my-inventory .special-handling-add-items {
+          -moz-border-bottom-colors: none;
+          -moz-border-left-colors: none;
+          -moz-border-right-colors: none;
+          -moz-border-top-colors: none;
+          background-color: #eff1f3;
+          border-bottom-color: #ddd;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-image-outset: 0 0 0 0;
+          border-image-repeat: stretch stretch;
+          border-image-slice: 100% 100% 100% 100%;
+          border-image-source: none;
+          border-image-width: 1 1 1 1;
+          border-left-color: -moz-use-text-color;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: #ddd;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: -moz-use-text-color;
+          border-top-style: none;
+          border-top-width: medium;
+          font-size: 12px;
+          padding-bottom: 15px;
+          padding-left: 15px;
+          padding-right: 15px;
+          text-transform: uppercase;
+        }
+        .animate-show {
+          opacity: 1;
+        }
+        .printsummary-my-inventory .special-handling-subtotal {
+          -moz-border-bottom-colors: none;
+          -moz-border-left-colors: none;
+          -moz-border-right-colors: none;
+          -moz-border-top-colors: none;
+          border-bottom-color: #ddd;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          border-image-outset: 0 0 0 0;
+          border-image-repeat: stretch stretch;
+          border-image-slice: 100% 100% 100% 100%;
+          border-image-source: none;
+          border-image-width: 1 1 1 1;
+          border-left-color: -moz-use-text-color;
+          border-left-style: none;
+          border-left-width: medium;
+          border-right-color: #ddd;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: -moz-use-text-color;
+          border-top-style: none;
+          border-top-width: medium;
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 12px;
+          padding-bottom: 15px;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-top: 15px;
+        }
+        .printsummary-my-inventory .special-handling-subtotal {
+          font-family: ProximaNovaBold,sans-serif;
+          font-size: 13px;
+        }
+        .printsummary-my-inventory .disable {
+          color: #8f8f8f;
+        }
+        .printsummary-my-inventory .two-columns-table {
+          border-bottom-color: #dbdbdb;
+          border-bottom-style: solid;
+          border-bottom-width: 0;
+          border-left-color: #dbdbdb;
+          border-left-style: solid;
+          border-left-width: 1px;
+          border-right-color: #dbdbdb;
+          border-right-style: solid;
+          border-right-width: 1px;
+          border-top-color: #dbdbdb;
+          border-top-style: solid;
+          border-top-width: 1px;
+          margin-bottom: 0;
+        }
+        .printsummary-my-inventory .two-columns-table .item-column {
+          border-bottom-color: #dbdbdb;
+          border-bottom-style: solid;
+          border-bottom-width: 1px;
+          float: none !important;
+          font-size: 10px;
+          height: 46px;
+          padding-bottom: 5px;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-top: 5px;
+        }
+        .plan-page .two-columns-table .item-column {
+          float: none !important;
+        }
+        .additional-services-tabels{
+          font-size: 12px !important;
+        }
+        .num {
+           font-weight: bold !important;
+         }
+         </style>
+         <div style="width:650px;margin:0px auto; color:#2E4F5C;background:#ffffff;padding:0px 25px;">
+         <div style="width:96%;background:#16374A;height:45px;padding:10px 15px;"><p style="margin:0px;font-size:36px;color:#ffffff;">Liberty Bell Moving & Storage</p></div>
+         <h1 style="color:#F38200;" id="booking_email_headings_main">Your move is not booked yet!</h1><h4 style="color:#F38200;font-weight:normal;" id="booking_email_headings_secondary">Log in and complete your booking to lock in your price.</h4>
+         <div class="clearfix"style="margin-bottom:50px;">
+            <h1 id="booking_email_headings_title" class="funnel-title uppercase" style="color:#042B3B;border-top:1px solid;border-bottom:1px solid;margin:6px 0px;padding:10px 0px;font-size:22px;">Reserve your move! Your move is not booked yet.</h1>
+         </div>
+         <div class="header-txt" style="float:left;margin:0px;padding:0px;width:50%;">
+            <p class="subtitle par-text bold">Guaranteed price <ngcart-printreview></ngcart-printreview></p>
+            <p class="times">
+               <p><span class="times-detail par-text bold" ng-show="formData.date">
+               Moving on {{ formData.date }} (mm/dd/yyyy)
+               </span></p>
+               <p><span class="times-detail par-text bold" ng-show="formData.time">Movers will arrive between {{ formData.time }}
+               </span></p>
+              <!--  <p><span class="times-detail par-text bold">Delivery estimate: 3 - 14 business days</span></p> -->
+            </p>
+         </div>
+         <div class="content-container plan-top clearfix moving-company-and-id-detail-box"style="float:left;margin:0px 0px 50px 0px;padding:0px;width:50%;">
+            <div class="plan-id">
+               <div class="id-container"style="height:100px;width:115px;border-radius:8px;border:1px solid;float:right;text-align:center;padding:15px 7px;">
+                <span class="id-label dev-email-id" style="margin-bottom:50px;">Your Move Plan ID</span><br><br><br><br>
+                  <span class="id-number" style="text-transform:uppercase;color:#042B3B;font-size:24px;padding-top:30px;">{{formData.move_id}}</span><br>
+               </div>
+              <!--  <span class="support-number dev-email-id">Liberty Support: 1-855-20000000</span> -->
+            </div>
+            <div ng-class="{'show-print':movePlan.is_booked}" ng-show="::movePlan.mover" class="company-profile medium-only-padded-top small-only-padded-top clearfix">
+               <!-- <div class="company-logo">
+                  <img width="86" height="86" alt="Liberty Bell Moving & Storage" ng-src="http://www.libertybellmoving.com/images/LBMS.Bell2.png" class="logo-image" src="http://www.libertybellmoving.com/images/LBMS.Bell2.png">
+               </div> 
+               <div class="company-info small-only-padded-top medium-only-padded-top">
+                  <h2 class="company-title">Liberty Bell Moving & Storage</h2>
+                  <div class="company-subtitle small-detail">207.890.7475<br>service@libertybellmoving.com</div>
+               </div>-->
+            </div>
+         </div>
+
+         <div class="route-section route-header clearfix" id="email_customer_summary">
+             <h1 style="color:#042B3B;border-top:1px solid;border-bottom:1px solid;margin:6px 0px 30px 0px;padding:10px 0px;float:left;width:100%;font-size:22px;">Customer Summary</h1>
+               <span class="counters">
+               <span class="counter-num">Name : {{ formData.cur_user_name }}</span><br>
+               <span class="counter-num">Email : {{ formData.cur_user_email }}</span>
+               </span>
+            </div>
+       
+         <div class="content-container plan-route moving-from-to-detail-box">
+            <div class="route-section route-header clearfix">
+             <h1 style="color:#042B3B;border-top:1px solid;border-bottom:1px solid;margin:6px 0px 30px 0px;padding:10px 0px;float:left;width:100%;font-size:22px;">Move Summary</h1>
+            <p class="dev-email-id" style=""><a href="mailto:chintan@raindropsinfotech.com">chintan@raindropsinfotech.com</a></p>
+               <h4 class="home-size">{{ formData.home_type }}</h4>
+               <span class="counters">
+               <span class="counter-num">308.2</span>
+               <span class="counter-label">miles</span>
+               </span>
+            </div>
+            <div class="steps clearfix" style="width:100%;padding-bottom:30px;">
+               <div class="step step-1" style="float:left;margin:0px;padding:0px;width:50%;">
+                  <div class="route-section-header clearfix">
+                     <h4 class="route-subtitle"style="color:#042B3B">Moving From:</h4>
+                  </div>
+                  <div class="step-body">
+                     <p class="step-address">
+                        <p><span class="block capitalize" ng-show="formData.fromAddress">{{ formData.fromAddress }},</span></p>
+                        <p ng-show="formData.fromApt"><span ng-show="formData.fromApt">{{ formData.fromApt }},</span></p>
+                        <p><span class="block">
+                           <span ng-show="formData.fromCity">{{ formData.fromCity }} </span>
+                           <span ng-show="formData.fromState">{{ formData.fromState }} </span>
+                        </span></p>
+                        <p><span ng-show="formData.fromZip">{{ formData.fromZip }} </span></p>
+                     </p>
+                  </div>
+               </div>
+               <div class="step step-2" style="float:left;margin:0px;padding:0px;width:50%;">
+                  <div class="route-section-header clearfix">
+                     <h4 class="route-subtitle"style="color:#042B3B">Moving To:</h4>
+                  </div>
+                  <div class="step-body">
+                     <p class="step-address">
+                        <p><span class="block capitalize" ng-show="formData.toAddress">{{ formData.toAddress }},</span></p>
+                        <p ng-show="formData.toApt"><span ng-show="formData.toApt">{{ formData.toApt }},</span></p>
+                        <p ng-show="formData.toCity">
+                          <span class="block">
+                            <span ng-show="formData.toCity">{{ formData.toCity }}</span>
+                            <span ng-show="formData.toState">{{ formData.toState }}</span>
+                          </span>
+                        </p>
+                        <p><span ng-show="formData.toZip">{{ formData.toZip }}</span></p>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <ngcart-emailsummary></ngcart-emailsummary>         
+      </div>
+</div>
+
+<script type="text/ng-template" id="template/ngCart/review.html">
+${{ $parent.formData.totalcost }}
+</script>
+
+<script type="text/ng-template" id="template/ngCart/printreview.html">
+${{ $parent.formData.totalcost }}
+</script>
+<script type="text/ng-template" id="template/ngCart/summary.html">
+    <section class="plan-section my-inventory">
+         <div class="section-header clearfix">
+            <h3 class="section-title">Inventory &amp; Boxes</h3>
+            <div class="counters">
+               <span class="counter furniture">
+               <span class="counter-num">{{ ngCart.getTotalItems() }}</span>
+               <span class="counter-label">Furniture</span>
+               </span>
+               <span class="counter furniture">
+               <span class="counter-num">{{ ngCart.getTotalBoxes() }}</span>
+               <span class="counter-label">Boxes</span>
+               </span>
+               <span class="counter boxes">
+               <span class="counter-num">{{ ngCart.totalCF() }}</span>
+               <span class="counter-label">Cubic Feet</span>
+               </span>
+            </div>
+         </div>
+         <div class="scroller">
+            <table width="100%" cellspacing="0" class="data-table my-inventory-table" st-safe-src="remoteItems" st-table="flatItems">
+               <thead>
+                  <tr>
+                     <th st-sort="name">Item</th>
+                     <th st-sort="handling_fee">Handling fee</th>
+                     <th st-sort="volume_fee">Volume fee</th>
+                     <th st-sort="count">QTY</th>
+                     <th st-sort="total_fee">Total price</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr class="" ng-repeat="item in ngCart.getItems()">
+                     <td class="item">
+                        <span class="item-image inventory_icons-Club_Chair_small"></span>
+                        <span class="item-title">{{ item._name }}</span>
+                        <span class="item-desc"></span>
+                     </td>
+                     <td class="num">$0.00</td>
+                     <td class="num">${{ (item._price | number:0) || 0 }}.00</td>
+                     <td class="num">{{ item._quantity }}</td>
+                     <td class="num">${{ (item._price*item._quantity | number:0) || 0 }}.00</td>
+                  </tr>
+                  <tr class="" ng-repeat="box in ngCart.getBoxes()">
+                     <td class="item">
+                        <span class="item-image inventory_icons-Club_Chair_small"></span>
+                        <span class="item-title">{{ box._name }}</span>
+                        <span class="item-desc"></span>
+                     </td>
+                     <td class="num">$0.00</td>
+                     <td class="num">${{ (box._price | number:0) || 0 }}.00</td>
+                     <td class="num">{{ box._quantity }}</td>
+                     <td class="num">${{ (box._price*box._quantity | number:0) || 0 }}.00</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </section>
+      <section class="plan-section handling">
+         <div class="section-header">
+            <h3 class="section-title">Special Handling</h3>
+         </div>
+         <div class="scroller">
+            <div class="flat-list special-handling">
+               <ul class="table-titles">
+                  <li class="column big table-title title-item">Item</li>
+                  <li class="column regular table-title title-assembly">Assembly &amp; disassembly <i ns-popover-theme="ns-popover-tooltip-theme" ns-popover-timeout="0" ns-popover-trigger="mouseenter" ns-popover-placement="right" ns-popover-template="assemblyTip" ns-popover="" class="ques-mark"></i></li>
+                  <li class="column regular table-title title-wall">Wall dismounting <i ns-popover-theme="ns-popover-tooltip-theme" ns-popover-timeout="0" ns-popover-trigger="mouseenter" ns-popover-placement="right" ns-popover-template="wallTip" ns-popover="" class="ques-mark"></i></li>
+                  <li class="column regular table-title title-crating" >Wood crating <i ns-popover-theme="ns-popover-tooltip-theme" ns-popover-timeout="0" ns-popover-trigger="mouseenter" ns-popover-placement="right" ns-popover-template="woodTip" ns-popover="" class="ques-mark"></i></li>
+               </ul>
+               <ul class="table-items">
+                  <li ng-init="roomIndex = $index" class="table"></li>
+                  <li ng-init="roomIndex = $index" class="table">
+                  </li>
+                  <li ng-init="roomIndex = $index" class="table">
+                  </li>
+                  <li ng-init="roomIndex = $index" class="table">
+                  </li>
+                  <li ng-init="roomIndex = $index" class="table">
+                  </li>
+                  <li ng-init="roomIndex = $index" class="table">
+                  </li>
+                  <li ng-init="roomIndex = $index" class="table">
+                  </li>
+                  <li ng-init="roomIndex = $index" class="table"></li>
+               </ul>
+               <div class="special-handling-add-items add-items animate-show">
+                  <span class="add-label">Add items from</span>
+                  <a class="gray-button add-button">My Inventory</a>
+                  <button class="save-button btn-hollow btn-color-orange-gradient continue" style="">Save</button>
+               </div>
+               <div ng-class="{disable: !movePlan.pricing.special_handling_cost}" class="special-handling-subtotal disable">Subtotal
+                  <span class="price">
+                  <span data-spinner-color="#000" ladda="updatingMovePlan()" class="ladda-button" data-style="zoom-in">
+                  <span class="ladda-label">&nbsp;</span>
+                  <span class="ladda-spinner"></span>
+                  </span>
+                  <span ng-hide="updatingMovePlan()">$0.00</span>
+                  </span>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="plan-section services">
+         <div class="section-header">
+            <h3 class="section-title">Packing Services</h3>
+         </div>
+         <table width="100%" cellspacing="0" cellpadding="0" class="two-columns-table services-table">
+            <tbody>
+               <tr class="service-item odd packing-service">
+                  <td class="item-column item-huge service-details">
+                     <div class="packing-service-select">
+                        <div class="no-boxes-selected ng-hide">You have not selected any boxes</div>
+                        <div class="unpakt-radio">
+                           <label class="packing-label">
+                           <input type="radio" value="$parent.formData.packing_service_pack_yourself" name="services" class="selectPackingService ng-pristine ng-untouched ng-valid" ng-checked="$parent.formData.packing_service==$parent.formData.packing_service_pack_yourself" ng-click="$parent.selectPackingService($parent.formData.packing_service_pack_yourself)"> Pack yourself
+                           <span class="service-not-supported-label ng-hide"></span>
+                           </label>
+                           <label class="packing-label">
+                           <input type="radio" ng-selected="selected" value="$parent.formData.packing_service_professional_packing" name="services" class="selectPackingService ng-pristine ng-untouched ng-valid" ng-checked="$parent.formData.packing_service==$parent.formData.packing_service_professional_packing" ng-click="$parent.selectPackingService($parent.formData.packing_service_professional_packing)"> Professional packing
+                           <span ng-show="packingServices[service].showDisabledNotice" class="service-not-supported-label ng-hide">&mdash; The mover you've selected doesn't support packing</span>
+                           </label>
+                           <label class="packing-label">
+                           <input type="radio" ng-selected="selected" value="$parent.formData.packing_service_professional_packing_and_unpacking" name="services" class="selectPackingService ng-pristine ng-untouched ng-valid" ng-checked="$parent.formData.packing_service==$parent.formData.packing_service_professional_packing_and_unpacking" ng-click="$parent.selectPackingService($parent.formData.packing_service_professional_packing_and_unpacking)">
+                           Professional packing &amp; unpacking
+                           <span class="service-not-supported-label ng-hide">&mdash; The mover you've selected doesn't support unpacking
+                           </span>
+                           </label>
+                        </div>
+                        <div class="box-options clearfix ng-hide">
+                           <div class="box clearfix" disabled="disabled" update="update()" show-image="!isCompare" box-model="getBox(box.id)" box="box" ng-repeat="box in boxes">
+                              <div class="box-image-container" ng-if="showImage">
+                                 <div class="box-image linen"></div>
+                              </div>
+                              <span class="box-title">Small Box</span>
+                              <span class="result">0</span>
+                              <div class="btns-counter clearfix orange " remove="remove()" add="add()" css-class="orange ">
+                                 <span ng-click="remove()" class="minus left">-</span>
+                                 <span class="separator"></span>
+                                 <span ng-click="add()" class="plus right">+</span>
+                              </div>
+                           </div>
+                           <div ng-class="{'disabled': disabled }" class="box clearfix" disabled="disabled" update="update()" show-image="!isCompare" box-model="getBox(box.id)" box="box" ng-repeat="box in boxes">
+                              <div class="box-image-container" ng-if="showImage">
+                                 <div class="box-image medium"></div>
+                              </div>
+                              <span class="box-title">Medium Box</span>
+                              <span class="result">0</span>
+                              <div class="btns-counter clearfix orange " remove="remove()" add="add()" css-class="orange ">
+                                 <span ng-click="remove()" class="minus left">-</span>
+                                 <span class="separator"></span>
+                                 <span ng-click="add()" class="plus right">+</span>
+                              </div>
+                           </div>
+                           <div class="box clearfix" disabled="disabled" update="update()" show-image="!isCompare" box-model="getBox(box.id)" box="box" ng-repeat="box in boxes">
+                              <div class="box-image-container" ng-if="showImage">
+                                 <div class="box-image large"></div>
+                              </div>
+                              <span class="box-title">Large Box</span>
+                              <span class="result">0</span>
+                              <div class="btns-counter clearfix orange " remove="remove()" add="add()" css-class="orange ">
+                                 <span ng-click="remove()" class="minus left">-</span>
+                                 <span class="separator"></span>
+                                 <span ng-click="add()" class="plus right">+</span>
+                              </div>
+                           </div>
+                           <div ng-class="{'disabled': disabled }" class="box clearfix" disabled="disabled" update="update()" show-image="!isCompare" box-model="getBox(box.id)" box="box" ng-repeat="box in boxes">
+                              <div class="box-image-container" ng-if="showImage">
+                                 <div class="box-image china"></div>
+                              </div>
+                              <span class="box-title">China/Dish Box</span>
+                              <span class="result">0</span>
+                              <div class="btns-counter clearfix orange " remove="remove()" add="add()" css-class="orange ">
+                                 <span ng-click="remove()" class="minus left">-</span>
+                                 <span class="separator"></span>
+                                 <span ng-click="add()" class="plus right">+</span>
+                              </div>
+                           </div>
+                           <!-- end ngRepeat: box in boxes -->
+                           <div ng-class="{'disabled': disabled }" class="box clearfix" disabled="disabled" update="update()" show-image="!isCompare" box-model="getBox(box.id)" box="box" ng-repeat="box in boxes">
+                              <!-- ngIf: showImage -->
+                              <div class="box-image-container" ng-if="showImage">
+                                 <div class="box-image wardrobe"></div>
+                              </div>
+                              <!-- end ngIf: showImage -->
+                              <span class="box-title">Wardrobe Box</span>
+                              <span class="result">0</span>
+                              <div class="btns-counter clearfix orange " remove="remove()" add="add()" css-class="orange ">
+                                 <span ng-click="remove()" class="minus left">-</span>
+                                 <span class="separator"></span>
+                                 <span ng-click="add()" class="plus right">+</span>
+                              </div>
+                           </div>
+                           <!-- end ngRepeat: box in boxes -->
+                           <div ng-class="{'disabled': disabled }" class="box clearfix" disabled="disabled" update="update()" show-image="!isCompare" box-model="getBox(box.id)" box="box" ng-repeat="box in boxes">
+                              <!-- ngIf: showImage -->
+                              <div class="box-image-container" ng-if="showImage">
+                                 <div class="box-image letter"></div>
+                              </div>
+                              <!-- end ngIf: showImage -->
+                              <span class="box-title">File Box</span>
+                              <span class="result">0</span>
+                              <div class="btns-counter clearfix orange " remove="remove()" add="add()" css-class="orange ">
+                                 <span ng-click="remove()" class="minus left">-</span>
+                                 <span class="separator"></span>
+                                 <span ng-click="add()" class="plus right">+</span>
+                              </div>
+                           </div>
+                           <!-- end ngRepeat: box in boxes -->
+                           <div class="box clearfix" disabled="disabled" update="update()" show-image="!isCompare" box="box">
+                              <!-- ngIf: showImage -->
+                              <div class="box-image-container">
+                                 <div class="box-image legal"></div>
+                              </div>
+                              <!-- end ngIf: showImage -->
+                              <span class="box-title">Legal File Box</span>
+                              <span class="result">0</span>
+                              <div class="btns-counter clearfix orange " remove="remove()" add="add()" css-class="orange ">
+                                 <span ng-click="remove()" class="minus left">-</span>
+                                 <span class="separator"></span>
+                                 <span ng-click="add()" class="plus right">+</span>
+                              </div>
+                           </div>
+                           <!-- end ngRepeat: box in boxes -->
+                           <div class="datepicker-wrapper pika-static-parent clearfix">
+                              <label for="box-delivery-date" class="box-delivery-label">Delivery on:</label> <input readonly="" placeholder="mm/dd/yy" class="unpakt-textbox delivery-date ng-untouched ng-valid ng-dirty ng-valid-parse" id="box-delivery-date" default-date="01/27/2016" max-date="01/25/2016" min-date="01/27/2016" container="boxDeliveryDateContainer" ng-model="movePlan.details.box_delivery_date" pikaday="boxDelivery"> <span data-icon="O" class="icon datepicker datepicker-icon"></span>
+                              <div id="boxDeliveryDateContainer" class="pika-container pika-right-field">
+                                 <div class="pika-single is-hidden is-bound" style="position: static; left: auto; top: auto;"></div>
+                              </div>
+                           </div>
+                           <div class="actions clearfix animate-show ng-hide">
+                              <a ng-disabled="boxPurchaseLoader" class="gray-button cancel-box-purchase">
+                                Cancel
+                              </a>
+                              <a data-spinner-size="24" data-spinner-color="#fff" ladda="boxPurchaseLoader"  class="cta-button filled small update-box-purchase ladda-button" data-style="zoom-in">
+                                <span class="ladda-label">
+                                  <span>Update</span>
+                                </span>
+                                <span class="ladda-spinner">
+                                </span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </td>
+                  <td  class="item-column item-tiny service-price disable">
+                     <div class="order-box-count ng-hide">0 Boxes</div>
+                     <span>${{ ($parent.formData.packing_service | number:2) || (0.00 | number:2) }}</span>
+                  </td>
+                  <!-- end ngIf: !updatingMovePlan() --><!-- ngIf: updatingMovePlan() -->
+               </tr>
+            </tbody>
+         </table>
+      </section>
+      <section class="plan-section billing-information ng-hide">
+         <div class="section-header">
+            <h3 class="section-title">Billing Information</h3>
+         </div>
+         <div class="datum"><span class="title">Payment method:</span> </div>
+         <!-- ngIf: movePlan.billing.last_four_digits && movePlan.billing.payment_method !== 'Paypal account' --><!-- ngIf: ::movePlan.billing.payer_email -->
+      </section>
+      <section class="plan-section adjustments ng-hide">
+         <div class="section-header">
+            <h3 class="section-title">Adjustments</h3>
+         </div>
+         <div class="adjustments-list scroller">
+            <table class="flat-table">
+               <thead>
+                  <tr class="table-titles">
+                     <td class="table-title">Date</td>
+                     <td class="table-title">Description</td>
+                     <td class="table-title">Amount in dollars</td>
+                  </tr>
+               </thead>
+               <tbody class="table-items">
+                  <!-- ngRepeat: adjustment in movePlan.pricing.admin_adjustments -->
+               </tbody>
+            </table>
+         </div>
+      </section>
+      <section class="plan-section special-requests ng-hide">
+         <div class="section-header">
+            <h3 class="section-title">Special Requests</h3>
+         </div>
+         <div class="user-note">
+            <p class="note-body"></p>
+         </div>
+      </section>
+      <section class="plan-section pricing">
+         <div class="section-header">
+            <h3 class="section-title">Pricing</h3>
+         </div>
+         <table width="100%" cellspacing="0" cellpadding="0" class="two-columns-table pricing-table">
+            <tbody>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details">Moving<br><span class="desc">Includes fees for inventory and handling</span></td>
+                  <td class="item-column item-small item-price">${{ (ngCart.totalCost() | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" >Travel</td>
+                  <td class="item-column item-small item-price">$0.00</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details">
+                     Special Handling
+                     <p class="desc"></p>
+                  </td>
+                  <td class="item-column item-small item-price">${{ ($parent.formData.pricing_special_handling | number:2) || (0.00 | number:2)  }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details">Storage</td>
+                  <td class="item-column item-small item-price ">${{ ($parent.formData.pricing_storage | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details">Packing services</td>
+                  <td class="item-column item-small item-price">${{ ($parent.formData.packing_service | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details">Boxes for packing</td>
+                  <td class="item-column item-small item-price">${{ ($parent.formData.pricing_boxes_for_storage | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <!-- ngIf: movePlan.pricing.surcharge_cubic_feet_cost -->
+               <tr class="price-item">
+                  <td class="item-column item-big item-details">Minimum cubic feet surcharge</td>
+                  <td class="item-column item-small item-price">$0.00</td>
+               </tr>
+            </tbody>
+         </table>
+         <table width="100%" cellspacing="0" cellpadding="0" class="two-columns-table pricing-table total">
+            <tbody>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details"><span class="item-title">Grand total</span></td>
+                  <td class="item-column item-small item-price">${{ $parent.formData.totalcost }}</td>
+               </tr>
+            </tbody>
+         </table>
+      </section>
+      <section class="plan-section payments ng-hide">
+         <div class="section-header">
+            <h3 class="section-title">Payments</h3>
+         </div>
+         <table width="100%" cellspacing="0" cellpadding="0" class="two-columns-table payments-table">
+            <tbody>
+               <!-- ngRepeat: payment in movePlan.billing.payments --><!-- ngRepeat: refund in movePlan.billing.refunds -->
+            </tbody>
+         </table>
+         <table width="100%" cellspacing="0" cellpadding="0" class="two-columns-table payments-table total">
+            <tbody>
+              <tr class="price-item">
+                <td class="item-column item-big item-details"><span class="item-title">Balance</span></td>
+                <td ng-if="!updatingMovePlan()" class="item-column item-small item-price"></td>
+              </tr>
+            </tbody>
+         </table>
+      </section> 
+      <div class="clearfix action-footer-btns" style="display:none;">
+         <div class="plan-action back show-for-medium-up"><a class="cta-button pa-button gray filled back-to-compare" ui-sref="form.details">Back to detail</a></div>
+         <div class="plan-action ctas clearfix">
+            <a class="cta-button pa-button filled save-for-later" ng-click="httpPost();">Save For Later</a>
+            <a class="cta-button pa-button filled finalize" ng-click="submitPlan();">Reserve My Move</a>
+         </div>
+      </div>
+    </div>
+</script>
+
+<script type="text/ng-template" id="template/ngCart/printsummary.html">
+    <div class="printsummary-my-inventory">
+    <section class="plan-section my-inventory">
+         <div class="section-header clearfix">
+            <h3 class="section-title">Inventory &amp; Boxes</h3>
+            <div class="counters">
+               <span class="counter furniture">
+               <span class="counter-num">{{ ngCart.getTotalItems() }}</span>
+               <span class="counter-label">Furniture</span>
+               </span>
+               <span class="counter furniture">
+               <span class="counter-num">{{ ngCart.getTotalBoxes() }}</span>
+               <span class="counter-label">Boxes</span>
+               </span>
+               <span class="counter boxes">
+               <span class="counter-num">{{ ngCart.totalCF() }}</span>
+               <span class="counter-label">Cubic Feet</span>
+               </span>
+            </div>
+         </div>
+         <div class="scroller" class="inventory-table-print">
+            <table width="100%" cellspacing="0" class="data-table my-inventory-table" st-safe-src="remoteItems" st-table="flatItems" border="1">
+               <thead>
+                  <tr>
+                     <th st-sort="name">Item</th>
+                     <th st-sort="handling_fee">Handling fee</th>
+                     <th st-sort="volume_fee">Volume fee</th>
+                     <th st-sort="count">QTY</th>
+                     <th st-sort="total_fee">Total price</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr class="" ng-repeat="item in ngCart.getItems()">
+                     <td class="item">
+                        <span class="item-image inventory_icons-Club_Chair_small"></span>
+                        <span class="item-title">{{ item._name }}</span>
+                        <span class="item-desc"></span>
+                     </td>
+                     <td class="num">$0.00</td>
+                     <td class="num">${{ (item._price | number:0) || 0 }}.00</td>
+                     <td class="num">{{ item._quantity }}</td>
+                     <td class="num">${{ (item._price*item._quantity | number:0) || 0 }}.00</td>
+                  </tr>
+                  <tr class="" ng-repeat="box in ngCart.getBoxes()">
+                     <td class="item">
+                        <span class="item-image inventory_icons-Club_Chair_small"></span>
+                        <span class="item-title">{{ box._name }}</span>
+                        <span class="item-desc"></span>
+                     </td>
+                     <td class="num">$0.00</td>
+                     <td class="num">${{ (box._price | number:0) || 0 }}.00</td>
+                     <td class="num">{{ box._quantity }}</td>
+                     <td class="num">${{ (box._price*box._quantity | number:0) || 0 }}.00</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </section>
+      <section class="plan-section pricing">
+         <div class="section-header">
+            <h3 class="section-title">Pricing</h3>
+         </div>
+         <table width="100%" cellspacing="0" cellpadding="0" class="two-columns-table pricing-table">
+            <tbody>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="border-right: 1px solid #dbdbdb !important;
+          width: 65% !important;">Moving<br><span class="desc">Includes fees for inventory and handling</span></td>
+                  <td class="item-column item-small item-price bold">${{ (ngCart.totalCost() | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="border-right: 1px solid #dbdbdb !important;
+          width: 65% !important;">Travel</td>
+                  <td class="item-column item-small item-price bold">$0.00</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="border-right: 1px solid #dbdbdb !important;
+          width: 65% !important;">
+                     Special Handling
+                     <p class="desc"></p>
+                  </td>
+                  <td class="item-column item-small item-price bold">${{ ($parent.formData.pricing_special_handling | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="border-right: 1px solid #dbdbdb !important;
+          width: 65% !important;">Storage</td>
+                  <td class="item-column item-small item-price bold">${{ ($parent.formData.pricing_boxes_for_storage | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="border-right: 1px solid #dbdbdb !important;
+          width: 65% !important;">Packing services</td>
+                  <td class="item-column item-small item-price bold">${{ ($parent.formData.packing_service | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="border-right: 1px solid #dbdbdb !important;
+          width: 65% !important;">Boxes for packing</td>
+                  <td class="item-column item-small item-price bold">${{ ($parent.formData.pricing_storage | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <!-- ngIf: movePlan.pricing.surcharge_cubic_feet_cost -->
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="border-right: 1px solid #dbdbdb !important;
+          width: 65% !important;">Minimum cubic feet surcharge</td>
+                  <td class="item-column item-small item-price bold">$0.00</td>
+               </tr>
+            </tbody>
+         </table>
+         <table width="100%" cellspacing="0" cellpadding="0" class="two-columns-table pricing-table total">
+            <tbody>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details bold" style="border-right: 1px solid #dbdbdb !important;
+          width: 65% !important;"><span class="item-title">Grand total</span></td>
+                  <td class="item-column item-small item-price bold">${{ $parent.formData.totalcost }}</td>
+               </tr>
+            </tbody>
+         </table>
+      </section>
+    </div>
+    </div>
+</script>
+
+<script type="text/ng-template" id="template/ngCart/emailsummary.html">
+    <div class="printsummary-my-inventory">
+    <section class="plan-section pricing" style="padding-bottom:0px;">
+         <div class="section-header">
+            <h1 style="color:#042B3B;border-top:1px solid;border-bottom:1px solid;margin:6px 0px;padding:10px 0px;">Pricing</h1>
+         </div>
+         <table width="100%" cellspacing="0" cellpadding="4" style="float:left;" class="two-columns-table pricing-table">
+            <tbody>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="width: 65% !important;">Moving<br><span class="desc">Includes fees for inventory and handling</span></td>
+                  <td class="item-column item-small item-price bold">${{ (ngCart.totalCost() | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="width: 65% !important;">Travel</td>
+                  <td class="item-column item-small item-price bold">$0.00</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="width: 65% !important;">
+                     Special Handling
+                     <p class="desc"></p>
+                  </td>
+                  <td class="item-column item-small item-price bold">${{ ($parent.formData.pricing_special_handling | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="width: 65% !important;">Storage</td>
+                  <td class="item-column item-small item-price bold">${{ ($parent.formData.pricing_boxes_for_storage | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="width: 65% !important;">Packing services</td>
+                  <td class="item-column item-small item-price bold">${{ ($parent.formData.packing_service | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="width: 65% !important;">Boxes for packing</td>
+                  <td class="item-column item-small item-price bold">${{ ($parent.formData.pricing_storage | number:2) || (0.00 | number:2) }}</td>
+               </tr>
+               <!-- ngIf: movePlan.pricing.surcharge_cubic_feet_cost -->
+               <tr class="price-item">
+                  <td class="item-column item-big item-details" style="width: 65% !important;">Minimum cubic feet surcharge</td>
+                  <td class="item-column item-small item-price bold">$0.00</td>
+               </tr>
+            </tbody>
+         </table>
+         <table width="100%" cellspacing="0" cellpadding="0" class="two-columns-table pricing-table total">
+            <tbody>
+               <tr class="price-item">
+                  <td class="item-column item-big item-details bold" style="width: 65% !important;"><span class="item-title">Grand total</span></td>
+                  <td class="item-column item-small item-price bold">${{ $parent.formData.totalcost }}</td>
+               </tr>
+            </tbody>
+         </table>
+      </section>
+    <section class="plan-section my-inventory" style="padding-bottom:50px;">
+         <div class="section-header clearfix">
+            <h1 style="color:#042B3B;border-top:1px solid;border-bottom:1px solid;margin:6px 0px;padding:10px 0px;float:left;width:100%;">Inventory &amp; Boxes</h1>
+            <div class="counters">
+               <span class="counter furniture">
+               <span class="counter-num">{{ ngCart.getTotalItems() }}</span>
+               <span class="counter-label">Furniture</span>
+               </span>
+               <span class="counter furniture">
+               <span class="counter-num">{{ ngCart.getTotalBoxes() }}</span>
+               <span class="counter-label">Boxes</span>
+               </span>
+               <span class="counter boxes">
+               <span class="counter-num">{{ ngCart.totalCF() }}</span>
+               <span class="counter-label">Cubic Feet</span>
+               </span>
+            </div>
+         </div>
+         <div class="scroller" class="inventory-table-print">
+            <table width="100%" cellspacing="0" class="data-table my-inventory-table" st-safe-src="remoteItems" st-table="flatItems" border="1">
+               <thead>
+                  <tr>
+                     <th st-sort="name">Item</th>
+                     <th st-sort="handling_fee">Handling fee</th>
+                     <th st-sort="volume_fee">Volume fee</th>
+                     <th st-sort="count">QTY</th>
+                     <th st-sort="total_fee">Total price</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr class="" ng-repeat="item in ngCart.getItems()">
+                     <td class="item" style="background:#F9F9F9;">
+                        <span class="item-image inventory_icons-Club_Chair_small"></span>
+                        <span class="item-title">{{ item._name }}</span>
+                        <span class="item-desc"></span>
+                     </td>
+                     <td class="num" style="background:#F9F9F9;">$0.00</td>
+                     <td class="num" style="background:#F9F9F9;">${{ (item._price | number:0) || 0 }}.00</td>
+                     <td class="num" style="background:#F9F9F9;">{{ item._quantity }}</td>
+                     <td class="num" style="background:#F9F9F9;">${{ (item._price*item._quantity | number:0) || 0 }}.00</td>
+                  </tr>
+                  <tr class="" ng-repeat="box in ngCart.getBoxes()">
+                     <td class="item">
+                        <span class="item-image inventory_icons-Club_Chair_small"></span>
+                        <span class="item-title">{{ box._name }}</span>
+                        <span class="item-desc"></span>
+                     </td>
+                     <td class="num">$0.00</td>
+                     <td class="num">${{ (box._price | number:0) || 0 }}.00</td>
+                     <td class="num">{{ box._quantity }}</td>
+                     <td class="num">${{ (box._price*box._quantity | number:0) || 0 }}.00</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </section>
+    </div>
+    </div>
+</script>

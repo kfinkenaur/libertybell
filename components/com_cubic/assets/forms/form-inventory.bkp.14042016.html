@@ -1,0 +1,1711 @@
+<script>
+$(document).ready(function(){
+    //console.log('loaded!');
+
+})
+</script>
+<div id="message" class="col-md-12"></div>
+<div id="wait" style="display:none;">
+  <style>
+
+  .ei_validation {
+    float: left;
+    line-height: 0;
+    width: 100%;
+  }
+
+  .ei_label {
+    padding-top: 10px !important;
+  }
+
+  #spinningSquaresG{
+    position:relative;
+    width:234px;
+    height:28px;
+    margin:auto;
+  }
+
+  .spinningSquaresG{
+    position:absolute;
+    top:0;
+    background-color:rgb(24,50,68);
+    width:28px;
+    height:28px;
+    animation-name:bounce_spinningSquaresG;
+      -o-animation-name:bounce_spinningSquaresG;
+      -ms-animation-name:bounce_spinningSquaresG;
+      -webkit-animation-name:bounce_spinningSquaresG;
+      -moz-animation-name:bounce_spinningSquaresG;
+    animation-duration:1.5s;
+      -o-animation-duration:1.5s;
+      -ms-animation-duration:1.5s;
+      -webkit-animation-duration:1.5s;
+      -moz-animation-duration:1.5s;
+    animation-iteration-count:infinite;
+      -o-animation-iteration-count:infinite;
+      -ms-animation-iteration-count:infinite;
+      -webkit-animation-iteration-count:infinite;
+      -moz-animation-iteration-count:infinite;
+    animation-direction:normal;
+      -o-animation-direction:normal;
+      -ms-animation-direction:normal;
+      -webkit-animation-direction:normal;
+      -moz-animation-direction:normal;
+    transform:scale(.3);
+      -o-transform:scale(.3);
+      -ms-transform:scale(.3);
+      -webkit-transform:scale(.3);
+      -moz-transform:scale(.3);
+  }
+
+  #spinningSquaresG_1{
+    left:0;
+    animation-delay:0.6s;
+      -o-animation-delay:0.6s;
+      -ms-animation-delay:0.6s;
+      -webkit-animation-delay:0.6s;
+      -moz-animation-delay:0.6s;
+  }
+
+  #spinningSquaresG_2{
+    left:29px;
+    animation-delay:0.75s;
+      -o-animation-delay:0.75s;
+      -ms-animation-delay:0.75s;
+      -webkit-animation-delay:0.75s;
+      -moz-animation-delay:0.75s;
+  }
+
+  #spinningSquaresG_3{
+    left:58px;
+    animation-delay:0.9s;
+      -o-animation-delay:0.9s;
+      -ms-animation-delay:0.9s;
+      -webkit-animation-delay:0.9s;
+      -moz-animation-delay:0.9s;
+  }
+
+  #spinningSquaresG_4{
+    left:88px;
+    animation-delay:1.05s;
+      -o-animation-delay:1.05s;
+      -ms-animation-delay:1.05s;
+      -webkit-animation-delay:1.05s;
+      -moz-animation-delay:1.05s;
+  }
+
+  #spinningSquaresG_5{
+    left:117px;
+    animation-delay:1.2s;
+      -o-animation-delay:1.2s;
+      -ms-animation-delay:1.2s;
+      -webkit-animation-delay:1.2s;
+      -moz-animation-delay:1.2s;
+  }
+
+  #spinningSquaresG_6{
+    left:146px;
+    animation-delay:1.35s;
+      -o-animation-delay:1.35s;
+      -ms-animation-delay:1.35s;
+      -webkit-animation-delay:1.35s;
+      -moz-animation-delay:1.35s;
+  }
+
+  #spinningSquaresG_7{
+    left:175px;
+    animation-delay:1.5s;
+      -o-animation-delay:1.5s;
+      -ms-animation-delay:1.5s;
+      -webkit-animation-delay:1.5s;
+      -moz-animation-delay:1.5s;
+  }
+
+  #spinningSquaresG_8{
+    left:205px;
+    animation-delay:1.64s;
+      -o-animation-delay:1.64s;
+      -ms-animation-delay:1.64s;
+      -webkit-animation-delay:1.64s;
+      -moz-animation-delay:1.64s;
+  }
+  .arrow-left{
+    position:relative;
+    border: 1px dashed #28afe8;
+    top:300px;
+  }
+  .arrow-left:before {
+  bottom: -9px;
+  color: #28afe8;
+  content: "▶";
+  font-size: 11px;
+  left: -9px;
+  position: absolute;
+  transform: rotate(182deg);
+}
+
+
+  @keyframes bounce_spinningSquaresG{
+    0%{
+      transform:scale(1);
+      background-color:rgb(244,142,0);
+    }
+
+    100%{
+      transform:scale(.3) rotate(90deg);
+      background-color:rgb(24,50,68);
+    }
+  }
+
+  @-o-keyframes bounce_spinningSquaresG{
+    0%{
+      -o-transform:scale(1);
+      background-color:rgb(244,142,0);
+    }
+
+    100%{
+      -o-transform:scale(.3) rotate(90deg);
+      background-color:rgb(24,50,68);
+    }
+  }
+
+  @-ms-keyframes bounce_spinningSquaresG{
+    0%{
+      -ms-transform:scale(1);
+      background-color:rgb(244,142,0);
+    }
+
+    100%{
+      -ms-transform:scale(.3) rotate(90deg);
+      background-color:rgb(24,50,68);
+    }
+  }
+
+  @-webkit-keyframes bounce_spinningSquaresG{
+    0%{
+      -webkit-transform:scale(1);
+      background-color:rgb(244,142,0);
+    }
+
+    100%{
+      -webkit-transform:scale(.3) rotate(90deg);
+      background-color:rgb(24,50,68);
+    }
+  }
+
+  @-moz-keyframes bounce_spinningSquaresG{
+    0%{
+      -moz-transform:scale(1);
+      background-color:rgb(244,142,0);
+    }
+
+    100%{
+      -moz-transform:scale(.3) rotate(90deg);
+      background-color:rgb(24,50,68);
+    }
+  }
+  </style>
+  <div id="spinningSquaresG">
+    <div id="spinningSquaresG_1" class="spinningSquaresG"></div>
+    <div id="spinningSquaresG_2" class="spinningSquaresG"></div>
+    <div id="spinningSquaresG_3" class="spinningSquaresG"></div>
+    <div id="spinningSquaresG_4" class="spinningSquaresG"></div>
+    <div id="spinningSquaresG_5" class="spinningSquaresG"></div>
+    <div id="spinningSquaresG_6" class="spinningSquaresG"></div>
+    <div id="spinningSquaresG_7" class="spinningSquaresG"></div>
+    <div id="spinningSquaresG_8" class="spinningSquaresG"></div>
+  </div>
+</div>
+<div class="form-group" style="display:none;">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" name="name" ng-model="formData.name">
+</div>
+
+<div class="form-group" style="display:none;">
+    <label for="email">Email</label>
+    <input type="text" class="form-control" name="email" ng-model="formData.email">
+</div>
+
+<div class="row funnel-wrapper">
+    <div class="col-xs-12 col-sm-9 col-md-9 funnel-header">
+        <div class="inventory-header">
+        <section class="funnel-header-top clearfix">
+        <section class="funnel-titles left">
+            <h1 class="funnel-title uppercase">Tell Us What You're Moving</h1>
+        </section>
+        </section>
+        <p class="funnel-header-text">
+            Add furniture and boxes from the catalog on the left to get exact prices for your move. <strong>Don't worry if you forget something now, you can update your inventory right up to your move day.</strong></p><p class="funnel-header-text">Want a quick quote? You can also add typical furniture items and boxes based on your home size.
+       </p>
+      </div>
+
+    </div>
+    <div class="col-xs-12 col-sm-3 col-md-3 funnel-right bgset">
+        <div class="mp-section sidebar-header">
+        <div class="head clearfix">
+            <h2 class="title">my Move plan</h2>
+            <span class="id" >ID: {{formData.move_id}}</span>
+        </div>
+        <!-- Action Bar // -->
+        <nav class="mp-section-content actions clearfix">
+            <a title="Save" class="gray-button save" ng-hide="currentUser" ng-click="httpPost();"><span class="save-progress">Save for later</span></a>
+            <ul class="alist">
+                <li ng-show="allowedToVisit('confirm')" class="item view"><a data-icon="I" title="View" class="link" ui-sref="moving.plan({uuid: uuid})" href="/moving/dbf5c9b6-bf7f-11e5-37bc-3795b44d01c6/plan"><span class="text">View</span></a></li>
+                <li class="item email"><a data-icon="M" title="Send Email" class="link" data-toggle="modal" data-target="#myModal"><span class="text">Email</span></a></li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+</div>
+
+    <div class="funnel-wrapper">
+        <div class="col-xs-12 col-sm-2 col-md-2 items-categories funnel-left inventory-left sidetogglemenu" id="togglemenu1">
+            <div class="search"><input ng-model="searchquery" type="text" name="itemSearch" id="itemSearch" placeholder="Search an item..." class="ng-pristine ng-valid ng-touched"> <label for="itemSearch"></label></div>
+            <?php
+            $all_categories = array();
+            ?>
+
+            <div class="category category-common-items"><a ng-click="filters.category = ''" style="cursor:pointer;"><span> <img class="cat-image" src="{{imagesUrl}}images/star-empty.png" alt="common-items"  /></span>Common Items</a></div> 
+            <div class="category-area" ng-repeat="cat_result in json_catresults" ng-class="{active: $index == selectedcate}">
+                <div class="category"><a ng-click="selectcategory($index, cat_result)" style="cursor:pointer;"><span> <img class="cat-image" src="{{imagesUrl}}{{cat_result.thumb}}" alt="{{cat_result.cat_name}}"  /></span>{{cat_result.cat_name}}<ngcart-summary id="{{cat_result.id}}"></ngcart-summary></a></div>
+                <ul class="categories-list animate-show" style="display:none;">
+                    <li class="item" ng-repeat="subcat_result in cat_result.items" ng-class="{active: $index == selectedsubcate}">
+                      <span ng-click="selectsubcategory($index, subcat_result)" class="title">{{subcat_result.cat_name}}</span><ngcart-summary id="{{subcat_result.id}}"></ngcart-summary>
+                    </li>
+                </ul>
+                <!--<div class="category subcategory" ng-repeat="subcat_result in cat_result.items">
+                    <a ng-click="selectcategory($index, subcat_result)" style="cursor:pointer;"><span> <img class="cat-image" src="{{subcat_result.thumb}}" alt="{{subcat_result.cat_name}}"  /></span>{{subcat_result.cat_name}}</a>
+                </div>-->
+            </div>
+        
+        </div>
+        <div ng-show="filters.category" class="col-xs-12 col-sm-7 col-md-7 items-list page-section">
+            <div ng-switch="filters.category">
+                <div ng-switch-when="25">
+                    <div ng-repeat="item_result in json_results | filter:filters:true | filter:searchquery" class="col-xs-3 col-sm-3 col-md-3 move-item">
+                        <div class="proimage-item"><span> <img ng-src="{{imagesUrl}}{{item_result.proimage}}" alt="{{item_result.item_name}}" /></span></div>
+                        <div class="item-details">
+                            <div class="title" ng-bind="item_result.item_name"></div>
+                            <div class="desc" ng-bind="item_result.item_subtitle"></div>
+                            <div class="cate" ng-bind="item_result.category" ng-hide="1"></div>
+                        </div>
+                        <div class="add-action">
+                            <ngcart-addboxtocart id="item{{item_result.id}}" name="{{item_result.item_name}}" price="{{item_result.cost}}" weight="{{item_result.item_weight}}" size="{{item_result.item_size}}" quantity-max="10" quantity="1" category="{{item_result.category}}" categoryname="{{item_result.cat_name}}" categoryquantity="1">Add Box</ngcart-addboxtocart>
+                        </div>
+                    </div>
+                </div>
+                <div ng-switch-default>
+                    <div ng-repeat="item_result in json_results | filter:filters:true | filter:searchquery" class="col-xs-3 col-sm-3 col-md-3 move-item">
+                        <div class="proimage-item"><span> <img ng-src="{{imagesUrl}}{{item_result.proimage}}" alt="{{item_result.item_name}}" /></span></div>
+                        <div class="item-details">
+                            <div class="title" ng-bind="item_result.item_name"></div>
+                            <div class="desc" ng-bind="item_result.item_subtitle"></div>
+                            <div class="cate" ng-bind="item_result.category" ng-hide="1"></div>
+                        </div>
+                        <div class="add-action" ng-show="item_result.item_type">
+                            <ngcart-addboxtocart id="item{{item_result.id}}" name="{{item_result.item_name}}" price="{{item_result.cost}}" weight="{{item_result.item_weight}}" size="{{item_result.item_size}}" quantity-max="10" quantity="1" category="{{item_result.category}}" categoryname="{{item_result.cat_name}}" categoryquantity="1">Add Box</ngcart-addboxtocart>
+                        </div>
+                        <div class="add-action" ng-hide="item_result.item_type">
+                            <ngcart-addtocart id="item{{item_result.id}}" name="{{item_result.item_name}}" price="{{item_result.cost}}" weight="{{item_result.item_weight}}" size="{{item_result.item_size}}" quantity-max="10" quantity="1" category="{{item_result.category}}" categoryname="{{item_result.cat_name}}" categoryquantity="1">Add Item</ngcart-addtocart>
+                        </div>
+                    </div>
+
+                    <div class="item-square item-custom move-item col-xs-3 col-sm-3 col-md-3">
+                        <div class="proimage-item"><span><img src="{{imagesUrl}}images/custom-item.png" alt="custom-item" /></span></div>
+                        <div class="item-details">
+                            <div class="title">Couldn't find your furniture <span class="question-mark">?</span> <i class="has-tooltip" ns-popover="" ns-popover-template="noResultTip" ns-popover-trigger="mouseenter" ns-popover-timeout="0" ns-popover-theme="ns-popover-tooltip-theme"></i></div>
+                            <div class="desc">Add Custom Item</div>
+                        </div>
+                        <div class="item-controls clearfix"><a class="add-item-btn btn-hollow btn-color-orange btn-add-item" ng-click="showAddCustomItemModal()" data-toggle="modal" data-target="#editModal">custom item</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div ng-hide="filters.category" class="col-xs-12 col-sm-7 col-md-7 items-list page-section" style="min-height:566px;">
+          <br><br>
+            <h1 style="text-align:center;font-weight">Go ahead start moving!</h1>
+            <br>  
+            <div class="col-md-12">
+              <div style="float:left;width:42%;"><img src="{{imagesUrl}}images/step1.svg"></div><div style="float:left;width:45%;text-align:right;font-size:18px;line-height:28px;padding-top:90px;">Select your furniture and boxes by using rooms and categories from our catalog</div>
+              <div class="arrow-left"></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 funnel-right inventory-right sidetogglemenu" id="togglemenu2">
+            <ngcart-cart></ngcart-cart>
+            
+            <div class="col-xs-12 col-sm-3 col-md-3 mp-section plan-right-cta animate-show show-for-large-up scroll">
+                <!--<ngcart-checkout service="log">Continue</ngcart-checkout>-->
+                <a ui-sref="form.details" class="btn btn-block btn-info cta-button filled" style="display:none;">
+                Continue 
+                </a>
+                <a class="btn btn-block btn-info cta-button filled" ng-click="showReviewModal()" style="display:none;">Review Order</a>
+                <a class="btn btn-block btn-info cta-button filled" ng-click="submitPlan();" style="display:none;">
+                Place Order 
+                </a>
+                <form ng-app="myApp" ng-controller="myCtrl" name="emailInventoryForm" novalidate> <!-- ng-app="myApp" ng-controller="myCtrl" -->
+
+                <p class="ei_label">Enter Firstname(*):<br>
+                <input type="text" name="ei_firstname" ng-model="ei_firstname" required>
+                <span style="color:red" ng-show="ei_firstname.$dirty && ei_firstname.$invalid">
+                <span class="ei_validation" ng-show="ei_firstname.$error.required">Firstname is required.</span>
+                </span>
+                </p>
+
+                <p class="ei_label">Enter Lastname(*):<br>
+                <input type="text" name="ei_lastname" ng-model="ei_lastname" required>
+                <span style="color:red" ng-show="emailInventoryForm.ei_lastname.$dirty && emailInventoryForm.ei_lastname.$invalid">
+                <span class="ei_validation" ng-show="emailInventoryForm.ei_lastname.$error.required">Lastname is required.</span>
+                </span>
+                </p>
+
+                <p class="ei_label">Enter Email(*):<br>
+                <input type="email" name="ei_email" ng-model="ei_email" required>
+                <span style="color:red" ng-show="emailInventoryForm.ei_email.$dirty && emailInventoryForm.ei_email.$invalid">
+                <span class="ei_validation" ng-show="emailInventoryForm.ei_email.$error.required">Email is required.</span>
+                <span class="ei_validation" ng-show="emailInventoryForm.ei_email.$error.email">Invalid email address.</span>
+                </span>
+                </p>
+
+                <p>
+                <input type="submit"
+                ng-disabled="emailInventoryForm.ei_firstname.$dirty && emailInventoryForm.ei_firstname.$invalid || emailInventoryForm.ei_lastname.$dirty && emailInventoryForm.ei_lastname.$invalid ||  
+                emailInventoryForm.ei_email.$dirty && emailInventoryForm.ei_email.$invalid" ng-click="emailInventoryPlan();" value="Email Inventory" class="btn btn-block btn-info cta-button filled">
+                </p>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <hr/>
+
+<div class="row graybg">
+    <div class="col-md-12">        
+        <div class="row">
+          <div class="col-xs-4" style="display:none;">
+              <h4>service 'log'</h4>
+              <ngcart-checkout service="log">Continue</ngcart-checkout>
+          </div>
+          <div class="col-xs-4" style="display:none;">
+              <h4>service 'http'</h4>
+              <ngcart-checkout service="http" settings="httpSettings">Continue </ngcart-checkout>
+          </div>
+          <div class="col-xs-4" style="display:none;">
+              <h4>service 'paypal'</h4>
+              <ngcart-checkout service="paypal" settings="payPalSettings"></ngcart-checkout>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div id="reviewModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Review your Move</h4>
+      </div>
+      <div class="modal-body">
+
+<div id="form_review_data" style="display:none;">
+     <style>
+     .funnel-wrapper .funnel-subtitle, .funnel-wrapper .funnel-title, .funnel-title {
+       -x-system-font: none;
+       font-family: UnpaktHelvetica,sans-serif;
+       font-feature-settings: normal;
+       font-kerning: auto;
+       font-language-override: normal;
+       font-size-adjust: none;
+       font-stretch: normal;
+       font-style: normal;
+       font-synthesis: weight style;
+       font-variant-alternates: normal;
+       font-variant-caps: normal;
+       font-variant-east-asian: normal;
+       font-variant-ligatures: normal;
+       font-variant-numeric: normal;
+       font-variant-position: normal;
+       font-weight: bold;
+       font-size: 28px;
+     }
+     .uppercase {
+       text-transform: uppercase;
+     }
+     .form_review_data .header-txt .times-detail {
+       display: block;
+     }
+     /*.form_review_data .header-txt .times {
+       font-family: ProximaNovaBold,sans-serif;
+       font-size: 16px;
+       line-height: 20px;
+     }*/
+     .form_review_data .header-txt p {
+       padding-bottom: 15px;
+     }
+     .par-text{
+       font-size: 12px;
+     }
+     .moving-company-and-id-detail-box, .moving-from-to-detail-box {
+       padding-bottom: 10px;
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-top: 10px;
+     }
+     .moving-company-and-id-detail-box, .moving-from-to-detail-box {
+       border-color: #c4c5c5;
+       border-style: solid;
+       border-width: 1px;
+     }
+     .plan-id {
+       font-size: 13px;
+       text-align: center;
+       float: right;
+       max-width: 25%;
+     }
+     .plan-id .id-container {
+       text-align: center;
+     }
+     .plan-id .id-container {
+       background-attachment: scroll;
+       background-clip: border-box;
+       background-image: none;
+       background-origin: padding-box;
+       background-position: 0 0;
+       background-repeat: repeat;
+       background-size: auto auto;
+       border-bottom-left-radius: 2px;
+       border-bottom-right-radius: 2px;
+       border-top-left-radius: 2px;
+       border-top-right-radius: 2px;
+       box-shadow: 0 1px 3px 0 rgba(18, 16, 11, 0.1);
+       margin-bottom: 10px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 0;
+       padding-bottom: 8px;
+       padding-left: 0;
+       padding-right: 0;
+       padding-top: 8px;
+     }
+     .plan-id .support-number {
+       padding-top: 6px;
+     }
+     .moving-company-and-id-detail-box .plan-id .id-number {
+       font-family: UnpaktHelveticaBold,sans-serif;
+       font-size: 16px;
+     }
+     .company-profile .company-logo {
+       float: left;
+     }
+     .company-profile .company-info {
+       position: relative;
+     }
+     .company-profile .company-info {
+       height: 85px;
+       padding-left: 96px;
+     }
+     .company-profile .company-logo .logo-image {
+       display: block;
+       height: 86px;
+       width: 86px;
+     }
+     .company-profile .company-logo .profile-link {
+       margin-bottom: 0;
+       text-align: center;
+     }
+     .company-profile .company-logo .profile-link {
+       display: block;
+       font-size: 12px;
+       margin-top: 5px;
+       text-decoration-color: -moz-use-text-color;
+       text-decoration-line: underline;
+       text-decoration-style: solid;
+     }
+     .moving-company-and-id-detail-box .company-title{
+        font-size: 13px;
+     }
+     .moving-company-and-id-detail-box .dev-email-id{
+        font-size: 8px !important;
+     }
+     .moving-company-and-id-detail-box .small-detail{
+        font-size: 10px !important;
+     }
+     .bold{
+        font-weight: bold;
+     }
+     .moving-from-to-detail-box .route-section {
+      padding-bottom: 20px;
+     }
+     .moving-from-to-detail-box .home-size {
+      float: left;
+      font-size: 12px;
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+      width: 50%;
+    }
+    .moving-from-to-detail-box .counters{
+      font-size: 12px;
+    }
+    .moving-from-to-detail-box .route-section.route-header .counters {
+      padding-left: 6%;
+      width: 50%;
+      float: left;
+    }
+    .moving-from-to-detail-box .step.step-1, .moving-from-to-detail-box .step.step-3 {
+      margin-right: 12%;
+    }
+    .moving-from-to-detail-box .step {
+      display: inline-block;
+      float: left;
+      vertical-align: top;
+      width: 44%;
+    }
+    .steps{
+      font-size: 12px;
+    }
+    .moving-from-to-detail-box .route-section-header {
+      border-bottom-color: #c4c5c5;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      line-height: 30px;
+      vertical-align: middle;
+    }
+    .moving-from-to-detail-box .route-subtitle {
+      display: inline;
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .printsummary-my-inventory .data-table tbody td, .printsummary-my-inventory .data-table thead td, .printsummary-my-inventory .data-table thead th {
+      border-bottom-color: #d9d9d9;
+      border-bottom-style: solid;
+      border-bottom-width: 0;
+      border-left-color: #d9d9d9;
+      border-left-style: solid;
+      border-left-width: 0;
+      border-right-color: #d9d9d9;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: #d9d9d9;
+      border-top-style: solid;
+      border-top-width: 1px;
+      height: 50px;
+      padding-bottom: 4px;
+      padding-left: 15px;
+      padding-right: 10px;
+      padding-top: 4px;
+    }
+    .printsummary-my-inventory .plan-section {
+      padding-bottom: 50px;
+    }
+    .printsummary-my-inventory .section-header {
+      padding-bottom: 10px;
+    }
+    .printsummary-my-inventory .scroller {
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+    .printsummary-my-inventory .section-title {
+      display: inline;
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 12px;
+      padding-right: 5px;
+      font-weight: bold;
+    }
+    .printsummary-my-inventory .counters {
+      float: right;
+      font-family: UnpaktHelveticaBold,sans-serif;
+      font-weight: bold;
+    }
+    .printsummary-my-inventory .counter.furniture {
+      padding-right: 20px;
+    }
+    .printsummary-my-inventory .counter {
+      float: left;
+    }
+    .printsummary-my-inventory .counters .counter-num {
+      font-size: 12px;
+    }
+    .printsummary-my-inventory .counters .counter-label {
+      font-family: ProximaNovaBold;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .printsummary-my-inventory .data-table.my-inventory-table {
+      min-width: 640px;
+    }
+    .printsummary-my-inventory .data-table, .printsummary-my-inventory .data-table.no-footer {
+      border-bottom-color: #d9d9d9;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: #d9d9d9;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: #d9d9d9;
+      border-right-style: solid;
+      border-right-width: 0;
+      border-top-color: #d9d9d9;
+      border-top-style: solid;
+      border-top-width: 0;
+      font-size: 10px;
+    }
+    .printsummary-my-inventory table {
+      background-color: transparent;
+      max-width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      display: table;
+      text-indent: 0;
+    }
+    .printsummary-my-inventory thead {
+      display: table-header-group;
+      vertical-align: middle;
+    }
+    .printsummary-my-inventory tbody {
+      display: table-row-group;
+      vertical-align: middle;
+    }
+    .printsummary-my-inventory tr {
+      display: table-row;
+      vertical-align: inherit;
+    }
+    .printsummary-my-inventory .plan-section {
+      padding-bottom: 50px;
+    }
+    .printsummary-my-inventory .section-header {
+      padding-bottom: 10px;
+    }
+    .printsummary-my-inventory .scroller {
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+    .printsummary-my-inventory h3.section-title {
+      display: inline;
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 16px !important;
+      padding-right: 5px;
+    }
+    .printsummary-my-inventory .flat-list {
+      border-bottom-color: #dbdbdb;
+      border-bottom-style: solid;
+      border-bottom-width: 0;
+      border-left-color: #dbdbdb;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: #dbdbdb;
+      border-right-style: solid;
+      border-right-width: 0;
+      border-top-color: #dbdbdb;
+      border-top-style: solid;
+      border-top-width: 1px;
+    }
+    .printsummary-my-inventory .flat-list .table-titles {
+      background-attachment: scroll;
+      background-clip: border-box;
+      background-color: #eff1f3;
+      background-image: none;
+      background-origin: padding-box;
+      background-position: 0 0;
+      background-repeat: repeat;
+      background-size: auto auto;
+      color: #042b3b;
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 8px;
+      height: 50px;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
+    .printsummary-my-inventory .flat-list li, .printsummary-my-inventory .flat-list ul {
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+    }
+    .printsummary-my-inventory li, .printsummary-my-inventory p, .printsummary-my-inventory ul {
+      -moz-border-bottom-colors: none;
+      -moz-border-left-colors: none;
+      -moz-border-right-colors: none;
+      -moz-border-top-colors: none;
+      border-bottom-color: -moz-use-text-color;
+      border-bottom-style: none;
+      border-bottom-width: medium;
+      border-image-outset: 0 0 0 0;
+      border-image-repeat: stretch stretch;
+      border-image-slice: 100% 100% 100% 100%;
+      border-image-source: none;
+      border-image-width: 1 1 1 1;
+      border-left-color: -moz-use-text-color;
+      border-left-style: none;
+      border-left-width: medium;
+      border-right-color: -moz-use-text-color;
+      border-right-style: none;
+      border-right-width: medium;
+      border-top-color: -moz-use-text-color;
+      border-top-style: none;
+      border-top-width: medium;
+      outline-color: -moz-use-text-color;
+      outline-style: none;
+      outline-width: 0;
+    }
+    .printsummary-my-inventory .flat-list .column.big {
+      width: 34%;
+    }
+    .printsummary-my-inventory .flat-list .column.regular {
+      width: 22%;
+    }
+    .printsummary-my-inventory .flat-list .table-titles .table-title {
+      height: 100%;
+      line-height: 16px;
+      padding-bottom: 5px;
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 5px;
+    }
+    .printsummary-my-inventory .flat-list .column {
+      border-bottom-color: #dbdbdb;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: #dbdbdb;
+      border-left-style: solid;
+      border-left-width: 0;
+      border-right-color: #dbdbdb;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: #dbdbdb;
+      border-top-style: solid;
+      border-top-width: 0;
+    }
+    .printsummary-my-inventory .flat-list li, .printsummary-my-inventory .flat-list ul {
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+    }
+    .printsummary-my-inventory .special-handling-add-items {
+      -moz-border-bottom-colors: none;
+      -moz-border-left-colors: none;
+      -moz-border-right-colors: none;
+      -moz-border-top-colors: none;
+      background-color: #eff1f3;
+      border-bottom-color: #ddd;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-image-outset: 0 0 0 0;
+      border-image-repeat: stretch stretch;
+      border-image-slice: 100% 100% 100% 100%;
+      border-image-source: none;
+      border-image-width: 1 1 1 1;
+      border-left-color: -moz-use-text-color;
+      border-left-style: none;
+      border-left-width: medium;
+      border-right-color: #ddd;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: -moz-use-text-color;
+      border-top-style: none;
+      border-top-width: medium;
+      font-size: 12px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-transform: uppercase;
+    }
+    .animate-show {
+      opacity: 1;
+    }
+    .printsummary-my-inventory .special-handling-subtotal {
+      -moz-border-bottom-colors: none;
+      -moz-border-left-colors: none;
+      -moz-border-right-colors: none;
+      -moz-border-top-colors: none;
+      border-bottom-color: #ddd;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-image-outset: 0 0 0 0;
+      border-image-repeat: stretch stretch;
+      border-image-slice: 100% 100% 100% 100%;
+      border-image-source: none;
+      border-image-width: 1 1 1 1;
+      border-left-color: -moz-use-text-color;
+      border-left-style: none;
+      border-left-width: medium;
+      border-right-color: #ddd;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: -moz-use-text-color;
+      border-top-style: none;
+      border-top-width: medium;
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 12px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 15px;
+    }
+    .printsummary-my-inventory .special-handling-subtotal {
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 13px;
+    }
+    .printsummary-my-inventory .disable {
+      color: #8f8f8f;
+    }
+    .printsummary-my-inventory .two-columns-table {
+      border-bottom-color: #dbdbdb;
+      border-bottom-style: solid;
+      border-bottom-width: 0;
+      border-left-color: #dbdbdb;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: #dbdbdb;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: #dbdbdb;
+      border-top-style: solid;
+      border-top-width: 1px;
+      margin-bottom: 0;
+    }
+    .printsummary-my-inventory .two-columns-table .item-column {
+      border-bottom-color: #dbdbdb;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      float: none !important;
+      font-size: 10px;
+      height: 46px;
+      padding-bottom: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+    }
+    .plan-page .two-columns-table .item-column {
+      float: none !important;
+    }
+    .additional-services-tabels{
+      font-size: 12px !important;
+    }
+    .num {
+       font-weight: bold !important;
+     }
+     </style>
+     <div class="clearfix">
+        <h1 class="funnel-title uppercase">Reserve your move! Your move is not booked yet.</h1>
+     </div>
+     <div class="header-txt">
+        <p class="subtitle par-text bold">Guaranteed price <ngcart-printreview></ngcart-printreview></p>
+     </div>
+     <p class="dev-email-id"><a href="mailto:chintan@raindropsinfotech.com">chintan@raindropsinfotech.com</a></p>
+     <div class="content-container plan-top clearfix moving-company-and-id-detail-box">
+        <div class="plan-id">
+           <div class="id-container">
+              <span class="id-number" style="text-transform:uppercase;">{{formData.move_id}}</span><br>
+              <span class="id-label dev-email-id">Your Move Plan ID</span>
+           </div>
+           <span class="support-number dev-email-id">Liberty Support: 1-855-20000000</span>
+        </div>
+        <div class="company-profile medium-only-padded-top small-only-padded-top clearfix">
+           <div class="company-logo">
+              <img width="86" height="86" alt="Liberty Bell Moving & Storage" ng-src="http://www.libertybellmoving.com/images/LBMS.Bell2.png" class="logo-image" src="http://www.libertybellmoving.com/images/LBMS.Bell2.png">
+           </div>
+           <div class="company-info small-only-padded-top medium-only-padded-top">
+              <h2 class="company-title">Liberty Bell Moving & Storage</h2>
+              <div class="company-subtitle small-detail">207.890.7475<br>service@libertybellmoving.com</div>
+           </div>
+        </div>
+     </div>
+     <br>
+     <br>
+     <ngcart-printsummary></ngcart-printsummary>         
+    </div>
+
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <div id="form_email_data" style="display:none;">
+    <div style="float:left;margin:0px;padding:0px;width:100%;background:#eeeeee;color:#2E4F5C;">
+     <style>
+     .funnel-wrapper .funnel-subtitle, .funnel-wrapper .funnel-title, .funnel-title {
+       -x-system-font: none;
+       font-family: UnpaktHelvetica,sans-serif;
+       font-feature-settings: normal;
+       font-kerning: auto;
+       font-language-override: normal;
+       font-size-adjust: none;
+       font-stretch: normal;
+       font-style: normal;
+       font-synthesis: weight style;
+       font-variant-alternates: normal;
+       font-variant-caps: normal;
+       font-variant-east-asian: normal;
+       font-variant-ligatures: normal;
+       font-variant-numeric: normal;
+       font-variant-position: normal;
+       font-weight: bold;
+       font-size: 28px;
+       color:#042b3b;
+     }
+     .uppercase {
+       text-transform: uppercase;
+     }
+     .form_review_data .header-txt .times-detail {
+       display: block;
+     }
+     /*.form_review_data .header-txt .times {
+       font-family: ProximaNovaBold,sans-serif;
+       font-size: 16px;
+       line-height: 20px;
+     }*/
+     .form_review_data .header-txt p {
+       padding-bottom: 15px;
+     }
+     .par-text{
+       font-size: 12px;
+     }
+     .moving-company-and-id-detail-box, .moving-from-to-detail-box {
+       padding-bottom: 10px;
+       padding-left: 10px;
+       padding-right: 10px;
+       padding-top: 10px;
+     }
+     .moving-company-and-id-detail-box, .moving-from-to-detail-box {
+       border-color: #c4c5c5;
+       border-style: solid;
+       border-width: 1px;
+     }
+     .plan-id {
+       font-size: 13px;
+       text-align: center;
+       float: right;
+       max-width: 25%;
+     }
+     .plan-id .id-container {
+       text-align: center;
+     }
+     .plan-id .id-container {
+       background-attachment: scroll;
+       background-clip: border-box;
+       background-image: none;
+       background-origin: padding-box;
+       background-position: 0 0;
+       background-repeat: repeat;
+       background-size: auto auto;
+       border-bottom-left-radius: 2px;
+       border-bottom-right-radius: 2px;
+       border-top-left-radius: 2px;
+       border-top-right-radius: 2px;
+       box-shadow: 0 1px 3px 0 rgba(18, 16, 11, 0.1);
+       margin-bottom: 10px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 0;
+       padding-bottom: 8px;
+       padding-left: 0;
+       padding-right: 0;
+       padding-top: 8px;
+     }
+     .plan-id .support-number {
+       padding-top: 6px;
+     }
+     .moving-company-and-id-detail-box .plan-id .id-number {
+       font-family: UnpaktHelveticaBold,sans-serif;
+       font-size: 16px;
+     }
+     .company-profile .company-logo {
+       float: left;
+     }
+     .company-profile .company-info {
+       position: relative;
+     }
+     .company-profile .company-info {
+       height: 85px;
+       padding-left: 96px;
+     }
+     .company-profile .company-logo .logo-image {
+       display: block;
+       height: 86px;
+       width: 86px;
+     }
+     .company-profile .company-logo .profile-link {
+       margin-bottom: 0;
+       text-align: center;
+     }
+     .company-profile .company-logo .profile-link {
+       display: block;
+       font-size: 12px;
+       margin-top: 5px;
+       text-decoration-color: -moz-use-text-color;
+       text-decoration-line: underline;
+       text-decoration-style: solid;
+     }
+     .moving-company-and-id-detail-box .company-title{
+        font-size: 13px;
+     }
+     .moving-company-and-id-detail-box .dev-email-id{
+        font-size: 8px !important;
+     }
+     .moving-company-and-id-detail-box .small-detail{
+        font-size: 10px !important;
+     }
+     .bold{
+        font-weight: bold;
+     }
+     .moving-from-to-detail-box .route-section {
+      padding-bottom: 20px;
+     }
+     .moving-from-to-detail-box .home-size {
+      float: left;
+      font-size: 12px;
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+      width: 50%;
+    }
+    .moving-from-to-detail-box .counters{
+      font-size: 12px;
+    }
+    .moving-from-to-detail-box .route-section.route-header .counters {
+      padding-left: 6%;
+      width: 50%;
+      float: left;
+    }
+    .moving-from-to-detail-box .step.step-1, .moving-from-to-detail-box .step.step-3 {
+      margin-right: 12%;
+    }
+    .moving-from-to-detail-box .step {
+      display: inline-block;
+      float: left;
+      vertical-align: top;
+      width: 44%;
+    }
+    .steps{
+      font-size: 12px;
+    }
+    .moving-from-to-detail-box .route-section-header {
+      border-bottom-color: #c4c5c5;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      line-height: 30px;
+      vertical-align: middle;
+    }
+    .moving-from-to-detail-box .route-subtitle {
+      display: inline;
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .printsummary-my-inventory .data-table tbody td, .printsummary-my-inventory .data-table thead td, .printsummary-my-inventory .data-table thead th {
+      border-bottom-color: #d9d9d9;
+      border-bottom-style: solid;
+      border-bottom-width: 0;
+      border-left-color: #d9d9d9;
+      border-left-style: solid;
+      border-left-width: 0;
+      border-right-color: #d9d9d9;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: #d9d9d9;
+      border-top-style: solid;
+      border-top-width: 1px;
+      height: 50px;
+      padding-bottom: 4px;
+      padding-left: 15px;
+      padding-right: 10px;
+      padding-top: 4px;
+    }
+    .printsummary-my-inventory .plan-section {
+      padding-bottom: 50px;
+    }
+    .printsummary-my-inventory .section-header {
+      padding-bottom: 10px;
+    }
+    .printsummary-my-inventory .scroller {
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+    .printsummary-my-inventory .section-title {
+      display: inline;
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 12px;
+      padding-right: 5px;
+      font-weight: bold;
+    }
+    .printsummary-my-inventory .counters {
+      float: right;
+      font-family: UnpaktHelveticaBold,sans-serif;
+      font-weight: bold;
+    }
+    .printsummary-my-inventory .counter.furniture {
+      padding-right: 20px;
+    }
+    .printsummary-my-inventory .counter {
+      float: left;
+    }
+    .printsummary-my-inventory .counters .counter-num {
+      font-size: 12px;
+    }
+    .printsummary-my-inventory .counters .counter-label {
+      font-family: ProximaNovaBold;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .printsummary-my-inventory .data-table.my-inventory-table {
+      min-width: 640px;
+    }
+    .printsummary-my-inventory .data-table, .printsummary-my-inventory .data-table.no-footer {
+      border-bottom-color: #d9d9d9;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: #d9d9d9;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: #d9d9d9;
+      border-right-style: solid;
+      border-right-width: 0;
+      border-top-color: #d9d9d9;
+      border-top-style: solid;
+      border-top-width: 0;
+      font-size: 10px;
+    }
+    .printsummary-my-inventory table {
+      background-color: transparent;
+      max-width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      display: table;
+      text-indent: 0;
+    }
+    .printsummary-my-inventory thead {
+      display: table-header-group;
+      vertical-align: middle;
+    }
+    .printsummary-my-inventory tbody {
+      display: table-row-group;
+      vertical-align: middle;
+    }
+    .printsummary-my-inventory tr {
+      display: table-row;
+      vertical-align: inherit;
+    }
+    .printsummary-my-inventory .plan-section {
+      padding-bottom: 50px;
+    }
+    .printsummary-my-inventory .section-header {
+      padding-bottom: 10px;
+    }
+    .printsummary-my-inventory .scroller {
+      overflow-x: auto;
+      overflow-y: auto;
+    }
+    .printsummary-my-inventory h3.section-title {
+      display: inline;
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 16px !important;
+      padding-right: 5px;
+    }
+    .printsummary-my-inventory .flat-list {
+      border-bottom-color: #dbdbdb;
+      border-bottom-style: solid;
+      border-bottom-width: 0;
+      border-left-color: #dbdbdb;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: #dbdbdb;
+      border-right-style: solid;
+      border-right-width: 0;
+      border-top-color: #dbdbdb;
+      border-top-style: solid;
+      border-top-width: 1px;
+    }
+    .printsummary-my-inventory .flat-list .table-titles {
+      background-attachment: scroll;
+      background-clip: border-box;
+      background-color: #eff1f3;
+      background-image: none;
+      background-origin: padding-box;
+      background-position: 0 0;
+      background-repeat: repeat;
+      background-size: auto auto;
+      color: #042b3b;
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 8px;
+      height: 50px;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
+    .printsummary-my-inventory .flat-list li, .printsummary-my-inventory .flat-list ul {
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+    }
+    .printsummary-my-inventory li, .printsummary-my-inventory p, .printsummary-my-inventory ul {
+      -moz-border-bottom-colors: none;
+      -moz-border-left-colors: none;
+      -moz-border-right-colors: none;
+      -moz-border-top-colors: none;
+      border-bottom-color: -moz-use-text-color;
+      border-bottom-style: none;
+      border-bottom-width: medium;
+      border-image-outset: 0 0 0 0;
+      border-image-repeat: stretch stretch;
+      border-image-slice: 100% 100% 100% 100%;
+      border-image-source: none;
+      border-image-width: 1 1 1 1;
+      border-left-color: -moz-use-text-color;
+      border-left-style: none;
+      border-left-width: medium;
+      border-right-color: -moz-use-text-color;
+      border-right-style: none;
+      border-right-width: medium;
+      border-top-color: -moz-use-text-color;
+      border-top-style: none;
+      border-top-width: medium;
+      outline-color: -moz-use-text-color;
+      outline-style: none;
+      outline-width: 0;
+    }
+    .printsummary-my-inventory .flat-list .column.big {
+      width: 34%;
+    }
+    .printsummary-my-inventory .flat-list .column.regular {
+      width: 22%;
+    }
+    .printsummary-my-inventory .flat-list .table-titles .table-title {
+      height: 100%;
+      line-height: 16px;
+      padding-bottom: 5px;
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 5px;
+    }
+    .printsummary-my-inventory .flat-list .column {
+      border-bottom-color: #dbdbdb;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-left-color: #dbdbdb;
+      border-left-style: solid;
+      border-left-width: 0;
+      border-right-color: #dbdbdb;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: #dbdbdb;
+      border-top-style: solid;
+      border-top-width: 0;
+    }
+    .printsummary-my-inventory .flat-list li, .printsummary-my-inventory .flat-list ul {
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+    }
+    .printsummary-my-inventory .special-handling-add-items {
+      -moz-border-bottom-colors: none;
+      -moz-border-left-colors: none;
+      -moz-border-right-colors: none;
+      -moz-border-top-colors: none;
+      background-color: #eff1f3;
+      border-bottom-color: #ddd;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-image-outset: 0 0 0 0;
+      border-image-repeat: stretch stretch;
+      border-image-slice: 100% 100% 100% 100%;
+      border-image-source: none;
+      border-image-width: 1 1 1 1;
+      border-left-color: -moz-use-text-color;
+      border-left-style: none;
+      border-left-width: medium;
+      border-right-color: #ddd;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: -moz-use-text-color;
+      border-top-style: none;
+      border-top-width: medium;
+      font-size: 12px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-transform: uppercase;
+    }
+    .animate-show {
+      opacity: 1;
+    }
+    .printsummary-my-inventory .special-handling-subtotal {
+      -moz-border-bottom-colors: none;
+      -moz-border-left-colors: none;
+      -moz-border-right-colors: none;
+      -moz-border-top-colors: none;
+      border-bottom-color: #ddd;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-image-outset: 0 0 0 0;
+      border-image-repeat: stretch stretch;
+      border-image-slice: 100% 100% 100% 100%;
+      border-image-source: none;
+      border-image-width: 1 1 1 1;
+      border-left-color: -moz-use-text-color;
+      border-left-style: none;
+      border-left-width: medium;
+      border-right-color: #ddd;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: -moz-use-text-color;
+      border-top-style: none;
+      border-top-width: medium;
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 12px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 15px;
+    }
+    .printsummary-my-inventory .special-handling-subtotal {
+      font-family: ProximaNovaBold,sans-serif;
+      font-size: 13px;
+    }
+    .printsummary-my-inventory .disable {
+      color: #8f8f8f;
+    }
+    .printsummary-my-inventory .two-columns-table {
+      border-bottom-color: #dbdbdb;
+      border-bottom-style: solid;
+      border-bottom-width: 0;
+      border-left-color: #dbdbdb;
+      border-left-style: solid;
+      border-left-width: 1px;
+      border-right-color: #dbdbdb;
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-top-color: #dbdbdb;
+      border-top-style: solid;
+      border-top-width: 1px;
+      margin-bottom: 0;
+    }
+    .printsummary-my-inventory .two-columns-table .item-column {
+      border-bottom-color: #dbdbdb;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      float: none !important;
+      font-size: 10px;
+      height: 46px;
+      padding-bottom: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+    }
+    .plan-page .two-columns-table .item-column {
+      float: none !important;
+    }
+    .additional-services-tabels{
+      font-size: 12px !important;
+    }
+    .num {
+       font-weight: bold !important;
+     }
+     </style>
+     <div style="width:650px;margin:0px auto; color:#2E4F5C;background:#ffffff;padding:0px 25px;">
+     <div style="width:96%;background:#16374A;height:45px;padding:10px 15px;"><p style="margin:0px;font-size:36px;color:#ffffff;">Liberty Bell Moving & Storage</p></div>
+     <h1 style="color:#F38200;" id="booking_email_headings_main">Your move is not booked yet!</h1><h4 style="color:#F38200;font-weight:normal;" id="booking_email_headings_secondary">Log in and complete your booking to lock in your price.</h4>
+     <div class="clearfix"style="margin-bottom:50px;">
+        <h1 id="booking_email_headings_title" class="funnel-title uppercase" style="color:#042B3B;border-top:1px solid;border-bottom:1px solid;margin:6px 0px;padding:10px 0px;font-size:22px;">Reserve your move! Your move is not booked yet.</h1>
+     </div>
+     <div class="header-txt" style="float:left;margin:0px;padding:0px;width:50%;">
+     </div>
+
+     <h1 style="color:#042B3B;border-top:1px solid;border-bottom:1px solid;margin:6px 0px 30px 0px;padding:10px 0px;float:left;width:100%;font-size:22px;text-transform:uppercase;">DATE RECEIVED : {{date | date:'MM-dd-yyyy'}}</h1>
+
+     <div class="route-section route-header clearfix" id="email_customer_summary"> <!-- ng-show="formData.cur_user_name" -->
+         <h1 style="color:#042B3B;border-top:1px solid;border-bottom:1px solid;margin:6px 0px 30px 0px;padding:10px 0px;float:left;width:100%;font-size:22px;text-transform:uppercase;">Customer Name :
+           <span class="counters">
+           <span class="counter-num"><span ng-bind="ei_firstname" id="input_ei_firstname"></span></span>&nbsp;
+           <span class="counter-num"><span ng-bind="ei_lastname" id="input_ei_lastname"></span></span>
+           </span>
+           </h1>
+        </div>
+
+     <ngcart-emailsummary></ngcart-emailsummary>
+
+      <div class="footer_one_text" style="line-height: 22px;margin-bottom: 12px;font-size:12px:font-weight:bold;">LIBERTY BELL WILL EMAIL YOU AN ESTIMATE TODAY IF WE RECEIVE THIS INVENTORY PRIOR TO 7PM EST. OTHERWISE, WE WILL EMAIL YOU AN ESTIMATE FIRST THING IN THE MORNING.</div> 
+
+      <div class="footer_two_text" style="line-height: 22px;margin-bottom: 12px;font-size:12px:font-weight:bold;">PLEASE CALL OR EMAIL SHOULD YOU HAVE QUESTIONS.</div>
+
+      <div class="footer_three_text" style="line-height: 22px;margin-bottom: 12px;font-size: 10px;">Liberty Bell Moving & Storage is now affiliated with American Red Ball World Wide Movers and can now offer our premium moving services to the entire continental United States and beyond. Give Us a Ring for all of your local and long distance moving needs!</div>
+
+      <div class="footer_four_text" style="background:#16374A;color: #fff;padding:10px 15px;min-height:70px;">
+        <p class="footer_co_name" style="float:left;width:50%;">Liberty Bell Moving & Storage</p>
+        <p class="footer_co_email" style="float:left;width:50%;text-align:right;"><a style="color:#F38900;" href="mailto:service@libertybellmoving.com">service@libertybellmoving.com</a></p>
+        <p class="footer_co_phone" style="float:left;width:50%;">Phone: (207) 890-7475</p>
+        <p style="float:left;width:50%;text-align:right;">Website:<a style="color:#F38900;" href="http://www.libertybellmoving.com/">www.libertybellmoving.com</a></p>
+      </div>        
+    </div>
+
+<!--  TEMPALATES -->
+
+<script type="text/ng-template" id="template/ngCart/summary.html">
+
+    <span class="number right">{{ ngCart.countCategoryQuantities(id) }}</span>
+
+    <!--<div class="row">
+    <div class="col-md-6">{{ ngCart.getTotalItems() }}
+        <ng-pluralize count="ngCart.getTotalItems()" when="{1: 'item', 'other':'items'}"></ng-pluralize>
+        <br />{{ ngCart.totalCost() | currency }}
+    </div>
+    </div>-->
+</script>
+
+<script type="text/ng-template" id="template/ngCart/cart.html">
+
+{{ json_results }}
+    
+    <a class="btn btn-large gray-button uppercase my-inventory-btn active" ng-class="{active: sidebar.selectedSection == 'inventory'}"><span class="title left">My Inventory</span> <span class="number right">{{ ngCart.getTotalInventoryItems() }}</span> <span class="right-popover" ns-popover="" ns-popover-template="noItemsTip" ns-popover-placement="left|center" ns-popover-angular-event="showNoItemsTip" ns-popover-timeout="0" ns-popover-theme="ns-popover-tooltip-theme">&nbsp;</span><!--<span class="right-popover"--><!--ns-popover--><!--ns-popover-template="addedTypicalItemsTip"--><!--ns-popover-placement="left|center"--><!--ns-popover-angular-event="showAddedTypicalItemsTip"--><!--ns-popover-timeout="0"--><!--ns-popover-theme="ns-popover-tooltip-theme">&nbsp;</span>--></a>
+    <br>
+    <ul class="btn-group counter clearfix hoverable-counter" style=""><li class="btn item furniture"><div class="num">{{ ngCart.getTotalItems() }}</div><div class="desc">Items</div></li><li class="btn item weight"><div class="num">{{ ngCart.totalCF() }}</div><div class="desc">c.f</div></li><li class="btn item boxes"><div class="num">{{ ngCart.getTotalBoxes() }}</div><div class="desc">Boxes</div></li></ul>
+
+</script>
+
+<script type="text/ng-template" id="template/ngCart/addtocart.html">
+    <div ng-hide="attrs.id">
+    <a class="btn btn-lg btn-primary" ng-disabled="true" ng-transclude></a>
+
+</div>
+<div ng-show="attrs.id">
+    <div class="item-actions">
+        <span ng-show="quantityMax" style="display:none;">
+            <select class="form-control" ng-hide="inCart()" name="quantity" id="quantity" ng-model="q"
+                    ng-options=" v for v in qtyOpt"></select>
+        </span>
+        <a class="add-item-btn" ng-hide="inCart()"
+           ng-click="ngCart.addItem(id, name, price, weight, size, q, category, categoryname, categoryquantity, data)"
+           ng-transclude></a>
+        <div class="add-remove-quantity plus-minus-holder clearfix" ng-show="inCart()">
+            <div class="btns-counter clearfix orange left">
+            <span class="glyphicon glyphicon-minus minus left" ng-class="{'hide':ngCart.getItemById(id).getQuantity()==1}"
+                      ng-click="ngCart.getItemById(id).setQuantity(-1, true)"></span>
+            <span class="glyphicon glyphicon-minus minus left" ng-class="{'hide':ngCart.getItemById(id).getQuantity()>1}"
+                      ng-click="ngCart.removeItemById(id)"></span>
+            <span class="separator"></span>
+            <span class="glyphicon glyphicon-plus plus right" ng-show="inCart()" ng-click="ngCart.getItemById(id).setQuantity(1, true)"></span>
+            </div>
+            <div class="result">{{ ngCart.getItemById(id).getQuantity() | number }}</div>
+            <!--<a ng-click="ngCart.removeItemById(id)" ng-show="inCart()" class="remove-item-btn">
+                <span class="glyphicon glyphicon-trash"></span>
+                </a>
+                <mark ng-show="inCart()"><a title="Delete Item" ng-click="ngCart.removeItemById(id)" style="cursor: pointer;">X</a>
+                </mark>-->
+        </div>
+    </div>
+</div>
+</script>
+
+<script type="text/ng-template" id="template/ngCart/addboxtocart.html">
+    <div ng-hide="attrs.id">
+    <a class="btn btn-lg btn-primary" ng-disabled="true" ng-transclude></a>
+
+</div>
+<div ng-show="attrs.id">
+    <div class="item-actions">
+        <span ng-show="quantityMax" style="display:none;">
+            <select class="form-control" ng-hide="inCart()" name="quantity" id="quantity" ng-model="q"
+                    ng-options=" v for v in qtyOpt"></select>
+        </span>
+        <a class="add-item-btn" ng-hide="inCart()"
+           ng-click="ngCart.addBox(id, name, price, weight, size, q, category, categoryname, categoryquantity, data)"
+           ng-transclude></a>
+        <div class="add-remove-quantity plus-minus-holder clearfix" ng-show="inCart()">
+            <div class="btns-counter clearfix orange left">
+            <span class="glyphicon glyphicon-minus minus left" ng-class="{'hide':ngCart.getBoxById(id).getQuantity()==1}"
+                      ng-click="ngCart.getBoxById(id).setQuantity(-1, true)"></span>
+            <span class="glyphicon glyphicon-minus minus left" ng-class="{'hide':ngCart.getBoxById(id).getQuantity()>1}"
+                      ng-click="ngCart.removeBoxById(id)"></span>
+            <span class="separator"></span>
+            <span class="glyphicon glyphicon-plus plus right" ng-show="inCart()" ng-click="ngCart.getBoxById(id).setQuantity(1, true)"></span>
+            </div>
+            <div class="result">{{ ngCart.getBoxById(id).getQuantity() | number }}</div>
+            <!--<a ng-click="ngCart.removeBoxById(id)" ng-show="inCart()" class="remove-item-btn">
+                <span class="glyphicon glyphicon-trash"></span>
+                </a>
+                <mark ng-show="inCart()"><a title="Delete Box" ng-click="ngCart.removeBoxById(id)" style="cursor: pointer;">X</a>
+                </mark>-->
+        </div>
+    </div>
+</div>
+</script>
+
+<script type="text/ng-template" id="template/ngCart/checkout.html">
+    
+<div class="clearfix" ng-if="service=='http' || service == 'log'">
+    <button class="mp-section plan-right-cta animate-show show-for-large-up scroll" ng-click="checkout()" ng-disabled="!ngCart.getTotalItems()" ng-transclude>Checkout</button>
+</div>
+
+
+<div ng-if="service=='paypal'">
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" ng-show="ngCart.getTotalItems()">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="{{ settings.paypal.business }}">
+        <input type="hidden" name="lc" value="CA">
+        <input type="hidden" name="item_name" value="{{ settings.paypal.item_name }}">
+        <input type="hidden" name="item_number" value="{{ settings.paypal.item_number }}">
+        <input type="hidden" name="amount" value="{{ ngCart.getSubTotal()}}">
+        <input type="hidden" name="currency_code" value="{{ settings.paypal.currency_code }}">
+        <input type="hidden" name="button_subtype" value="services">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="tax_rate" value="{{ ngCart.getTaxRate()}}">
+        <input type="hidden" name="shipping" value="{{ ngCart.getShipping()}}">
+        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+</div>
+    
+</script>
+
+<script type="text/ng-template" id="template/ngCart/review.html">
+${{ $parent.formData.totalcost }}
+</script>
+
+<script type="text/ng-template" id="template/ngCart/printreview.html">
+${{ $parent.formData.totalcost }}
+</script>
+
+<script type="text/ng-template" id="template/ngCart/printsummary.html">
+    <div class="printsummary-my-inventory">
+    <section class="plan-section my-inventory">
+         <div class="section-header clearfix">
+            <h3 class="section-title">Inventory &amp; Boxes</h3>
+            <div class="counters">
+               <span class="counter furniture">
+               <span class="counter-num">{{ ngCart.getTotalItems() }}</span>
+               <span class="counter-label">Furniture</span>
+               </span>
+               <span class="counter furniture">
+               <span class="counter-num">{{ ngCart.getTotalBoxes() }}</span>
+               <span class="counter-label">Boxes</span>
+               </span>
+               <span class="counter boxes">
+               <span class="counter-num">{{ ngCart.totalCF() }}</span>
+               <span class="counter-label">Cubic Feet</span>
+               </span>
+            </div>
+         </div>
+         <div class="scroller" class="inventory-table-print">
+            <table width="100%" cellspacing="0" class="data-table my-inventory-table" st-safe-src="remoteItems" st-table="flatItems" border="1">
+               <thead>
+                  <tr>
+                     <th st-sort="name">Item</th>
+                     <th st-sort="handling_fee">Cubic Feet</th>
+                     <th st-sort="count">QTY</th>
+                     <th st-sort="total_fee">Total Cubic Feet</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr class="" ng-repeat="item in ngCart.getItems()">
+                     <td class="item" style="background:#F9F9F9;">
+                        <span class="item-image inventory_icons-Club_Chair_small"></span>
+                        <span class="item-title">{{ item._name }}</span>
+                        <span class="item-desc"></span>
+                     </td>
+                     <td class="num" style="background:#F9F9F9;">{{ (item._size) || 0 }}</td>
+                     <td class="num" style="background:#F9F9F9;">{{ item._quantity }}</td>
+                     <td class="num" style="background:#F9F9F9;">{{ (item._size*item._quantity) || 0 }}</td>
+                  </tr>
+                  <tr class="" ng-repeat="box in ngCart.getBoxes()">
+                     <td class="item">
+                        <span class="item-image inventory_icons-Club_Chair_small"></span>
+                        <span class="item-title">{{ box._name }}</span>
+                        <span class="item-desc"></span>
+                     </td>
+                     <td class="num">{{ (box._size) || 0 }}</td>
+                     <td class="num">{{ box._quantity }}</td>
+                     <td class="num">{{ (box._size*box._quantity) || 0 }}</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </section>
+    </div>
+    </div>
+</script>
+
+<script type="text/ng-template" id="template/ngCart/emailsummary.html">
+    <div class="printsummary-my-inventory">
+    <section class="plan-section my-inventory" style="padding-bottom:50px;">
+         <h1 style="color:#042B3B;border-top:1px solid;border-bottom:1px solid;margin:6px 0px 30px 0px;padding:10px 0px;float:left;width:100%;font-size:22px;text-transform:uppercase;">Total Cubic Feet
+ : {{ngCart.totalCF()}}</h1>
+ <h1 style="color:#042B3B;border-top:1px solid;border-bottom:1px solid;margin:6px 0px;padding:10px 0px;float:left;width:100%;text-transform:uppercase;">FURNITURE BY ROOM</h1>
+         <!--<div class="section-header clearfix">
+            <h1 style="color:#042B3B;border-top:1px solid;border-bottom:1px solid;margin:6px 0px;padding:10px 0px;float:left;width:100%;">Inventory &amp; Boxes</h1>  
+            <div class="counters">
+               <span class="counter furniture">
+               <span class="counter-num">{{ ngCart.getTotalItems() }}</span>
+               <span class="counter-label">Furniture</span>
+               </span>
+               <span class="counter furniture">
+               <span class="counter-num">{{ ngCart.getTotalBoxes() }}</span>
+               <span class="counter-label">Boxes</span>
+               </span>
+               <span class="counter boxes">
+               <span class="counter-num" ng-bind="ngCart.totalCF()"></span>
+               <span class="counter-label">Total Cubic Feet</span>
+               </span>
+            </div>
+         </div>-->
+         <span ng-bind-html="ngCart.getCategorizeItemsHtml()"></span>
+         <!--<div class="scroller" class="inventory-table-print">
+            <table width="100%" cellspacing="0" class="data-table my-inventory-table" st-safe-src="remoteItems" st-table="flatItems" border="1">
+               <thead>
+                  <tr>
+                     <th st-sort="name">Item</th>
+                     <th st-sort="handling_fee">Cubic Feet</th>
+                     <th st-sort="count">QTY</th>
+                     <th st-sort="total_fee">Total Cubic Feet</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr class="" ng-repeat="item in ngCart.getItems()">
+                     <td class="item" style="background:#F9F9F9;">
+                        <span class="item-image inventory_icons-Club_Chair_small"></span>
+                        <span class="item-title">{{ item._name }}</span>
+                        <span class="item-desc"></span>
+                     </td>
+                     <td class="num" style="background:#F9F9F9;">{{ (item._size) || 0 }}</td>
+                     <td class="num" style="background:#F9F9F9;">{{ item._quantity }}</td>
+                     <td class="num" style="background:#F9F9F9;">{{ (item._size*item._quantity) || 0 }}</td>
+                  </tr>
+                  <tr class="" ng-repeat="box in ngCart.getBoxes()">
+                     <td class="item">
+                        <span class="item-image inventory_icons-Club_Chair_small"></span>
+                        <span class="item-title">{{ box._name }}</span>
+                        <span class="item-desc"></span>
+                     </td>
+                     <td class="num">{{ (box._size) || 0 }}</td>
+                     <td class="num">{{ box._quantity }}</td>
+                     <td class="num">{{ (box._size*box._quantity) || 0 }}</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>-->
+      </section>
+    </div>
+    </div>
+</script>

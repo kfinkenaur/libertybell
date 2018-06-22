@@ -1,0 +1,861 @@
+@font-face {
+
+    font-family: proximanova;
+
+    src: url(../fonts/ProximaNova-Semibold.otf);
+
+}
+
+@font-face {
+
+    font-family: "UnpaktHelvetica";
+
+    font-style: normal;
+
+    font-weight: 400;
+
+    src: url("../fonts/Helvetica-Bold.otf");
+
+}
+
+div.funnel-wrapper div.items-categories{background:#F2F2F2;border: 1px solid #d9d9d9;}
+
+div.funnel-left div.category{padding:5px 15px;}
+
+div.funnel-left div.category:hover{background:#D9D9D9;}
+
+div.funnel-left .active div.category{background:#D9D9D9;}
+
+div.funnel-left div.category a.ng-binding{display:inline-block; width:100%;}
+
+div.funnel-left div.category a.ng-binding:hover,div.funnel-left div.category a:hover{text-decoration:none;}
+
+div.funnel-left .cat-image {padding-right:5px; height:35px; width:45px;padding-left:5px; margin-right: 10px;}
+
+div.page-section div.ng-scope{border-color: #ddd;border-style: solid;border-width: 0 1px 1px 0; height:220px;}
+
+.proimage-item {margin-bottom: 10px; margin-top:20px;}
+
+.funnel-wrapper .page-section {padding: 0px;}
+
+div.page-section .add-item-btn {
+
+  border: 1px solid #f7801e;
+
+  color: #f7801e;
+
+  font-size: 0.8rem;
+
+  height: 30px;
+
+  line-height: 30px;
+
+  padding: 5px 25px;
+
+  text-shadow: none;
+
+  text-transform: uppercase;
+
+  border-radius:3px;
+
+  -webkit-border-radius:3px;
+
+  -moz-border-radius:3px;
+
+  cursor:pointer; 
+
+  text-decoration:none;
+
+}
+
+div.page-section .add-item-btn:hover{background:#f7801e; color:#FFFFFF;}
+
+
+
+#add-custom-item .add-item-btn {
+
+  border: 1px solid #f7801e;
+
+  color: #f7801e;
+
+  font-size: 0.8rem;
+
+  height: 30px;
+
+  line-height: 30px;
+
+  padding: 5px 25px;
+
+  text-shadow: none;
+
+  text-transform: uppercase;
+
+  border-radius:3px;
+
+  -webkit-border-radius:3px;
+
+  -moz-border-radius:3px;
+
+  cursor:pointer; 
+
+  text-decoration:none;
+
+}
+
+#add-custom-item .add-item-btn:hover{background:#f7801e; color:#FFFFFF;}
+
+
+
+div.funnel-left div.search input{height:40px !important; width:100%; margin-top:20px;}
+
+.funnel-left a {color: #042b3b; font-size:13px; font-weight:bold;}
+
+.proimage-item img {height: 100px;width: auto;}
+
+
+
+.ng-isolate-scope  .plan-right-cta {
+
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #f59400 0px, #f17000 100%) repeat scroll 0 0;
+
+  color: #fff;
+
+  padding: 9px 10px 6px;
+
+  text-rendering: optimizelegibility;
+
+  text-shadow: 0 1px 1px #e67200;
+
+  cursor:pointer;
+
+  border:none;
+
+  border-radius:5px;
+
+  -moz-border-radius:5px;
+
+  -webkit-border-radius:5px;
+
+   border: 1px solid #bc5300;
+
+    cursor: pointer;
+
+    display: block;
+
+    font-family: UnpaktHelvetica,sans-serif;
+
+    width:100%; margin-top:10px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+	font-size:19px;
+
+	font-weight:bold;
+
+}
+
+.ng-isolate-scope  .plan-right-cta:hover {
+
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #f59c00 0px, #f37f00 100%) repeat scroll 0 0;
+
+    color: #fff;
+
+    text-shadow: none !important;
+
+}
+
+
+
+div.funnel-wrapper .my-inventory-btn.gray-button {
+
+  display: block;
+
+  line-height:40px;
+
+  padding: 0;
+
+  text-align: center;
+
+  text-shadow: 1px 1px 0 #fff;
+
+  width: 100%;
+
+  font-size:17px;
+
+  font-weight:bold;
+
+  text-transform:uppercase;
+
+  height:40px;
+
+  margin-top:20px;
+
+}
+
+div.funnel-wrapper .my-inventory-btn.gray-button:hover {
+
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #dbdbdb 0px, #fdfdfd 73%) repeat scroll 0 0;
+
+  color: #042b3b;
+
+}
+
+.title.left {float: left;padding: 0 0 0 12px;}
+
+
+
+.funnel-right ul.btn-group li.btn .num {
+
+  background: #fff url(../images/plan-right-counters-bg.png) repeat-x scroll center center;border: 1px solid #c7c8ca;border-radius: 4px;font-family: UnpaktHelveticaBold,sans-serif;
+
+  font-size: 30px;height: 55px;line-height: 55px;margin-bottom: 4px;width: 100%;color:#042B3B;}
+
+.funnel-right ul.btn-group li.btn{float:left; width:33.33%; border:none;box-shadow:none !important;}
+
+.funnel-right ul.btn-group li.btn .num:hover {background: #e7f8ff url(../images/plan-right-counters-bg.png) repeat-x scroll center center;}
+
+.funnel-right {background: #E3E4E6; padding:20px 30px;}
+
+.btn.item {
+
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+
+  padding: 0px 2px;
+
+}
+
+
+
+.items-list .move-item .item-actions .btns-counter {
+
+    width: 110px;
+
+    height: 30px;
+
+    line-height: 30px;
+
+    padding: 0;
+
+}
+
+
+
+.btns-counter.orange {
+
+    color: #f7801e;
+
+}
+
+
+
+.btns-counter {
+
+    position: relative;
+
+    border: 1px solid #ddd;
+
+    border-radius: 3px;
+
+    font-family: UnpaktHelvetica,sans-serif;
+
+    line-height: 100%;
+
+    min-width: 40px;
+
+    min-height: 15px;
+
+}
+
+
+
+.left {
+
+    float: left!important;
+
+}
+
+.right {
+
+    float: right!important;
+
+}
+
+
+
+.category-area .category .number{
+
+  font-family: UnpaktHelveticaBold,sans-serif;
+
+  font-size: 15px !important;
+
+  line-height: 32px;
+
+}
+
+
+
+.category-area .categories-list .item .number{
+
+  font-family: UnpaktHelveticaBold,sans-serif;
+
+  font-size: 10px !important;
+
+}
+
+
+
+
+
+.btns-counter .minus, .btns-counter .plus {
+
+    width: 50%;
+
+    height: 100%;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    line-height: 28px;
+
+	font-size:9px;
+
+}
+
+
+
+.btns-counter .separator {
+
+    position: absolute;
+
+    width: 1px;
+
+    height: 70%;
+
+    top: 15%;
+
+    left: 50%;
+
+    margin: auto -.5px;
+
+    background-color: #ddd;
+
+}
+
+
+
+.items-list .move-item .item-actions .result {
+
+  font-family: UnpaktHelveticaBold,sans-serif;
+
+  float: right;
+
+  font-size: 1.5em;
+
+  line-height: 30px;
+
+}
+
+
+
+.add-remove-quantity.plus-minus-holder.clearfix {
+
+    width: 150px;
+
+}
+
+
+
+.funnel-left .categories-list .item {
+
+    position: relative;
+
+    display: block;
+
+    cursor: pointer;
+
+    overflow: hidden;
+
+}
+
+
+
+li {
+
+    display: list-item;
+
+    text-align: -webkit-match-parent;
+
+}
+
+
+
+.funnel-left .categories-list {
+
+    margin: 0;
+
+    padding: 5px 0 0 45px;
+
+    font-size: .8em;
+
+    line-height: 22px;
+
+}
+
+
+
+.funnel-left .categories-list .item .title {
+
+    position: relative;
+
+    margin-left: 15px;
+
+}
+
+
+
+@media only screen and (min-width: 64.063em){
+
+  .items-list .move-item .item-actions .btns-counter {
+
+      width: 110px;
+
+      height: 30px;
+
+      line-height: 30px;
+
+      padding: 0;
+
+  }
+
+  .items-list .move-item .item-actions .btns-counter .plus {
+
+      line-height: 28px;
+
+  }
+
+  .items-list .move-item .item-actions .result {
+
+    font-family: UnpaktHelveticaBold,sans-serif;
+
+    float: right;
+
+    font-size: 2em;
+
+    line-height: 30px;
+
+	color:#042b3b;
+
+	font-weight:bold;
+
+  }
+
+}
+
+.funnel-wrapper .page-section {max-height: 564px;overflow: scroll;   border-color: #ddd;border-style: solid;border-width: 1px 0 1px 0px; overflow-x: hidden;}
+
+div.body .container{ width:100%; max-width:100%; padding:0px 0px;}
+
+.desc.ng-binding {min-height: 25px; color: #cacaca;font-size: 11px; padding-bottom:5px;}
+
+.btns-counter:hover{border:#F7801E solid 1px;}
+
+.btns-counter:hover .separator{background-color:#F7801E;}
+
+body.site{padding:0px;}
+
+.ng-scope .row{margin:0px;}
+
+.hoverable-counter {float: left;margin:0px 0px 15px 0 !important;padding: 0;width: 100%;}
+
+.number.right.ng-binding {float: right;font-size: 27px;padding-right: 10px;}
+
+
+
+.item-square.item-custom .item-image {
+
+    background: url(client_assets/images/inventory/custom-item.png) center 10px no-repeat;
+
+    margin-bottom: 23px;
+
+}
+
+
+
+#add-custom-item select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+
+  height: auto !important;
+
+}
+
+
+
+#add-custom-item .custom-item-size{
+
+    width: 30%;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    padding: .6em;
+
+    margin: 2% 2% 0 0;
+
+}
+
+
+
+/* add css by developer */
+
+
+
+.funnel-wrapper .categories-list .item.active::before{border-color: transparent transparent transparent #28afe8; border-style: solid; border-width: 5px 0 5px 7px; content: ""; height: 0; left: 2px; position: absolute; top: 5px; width: 0; }
+
+.funnel-left .categories-list .item.active .title {border-bottom: 1px dotted;font-weight: bold;}
+
+.funnel-left .categories-list .item .title:hover{border-bottom: 1px dotted;font-weight: bold;}
+
+.funnel-wrapper .inventory-left {padding: 0;}
+
+
+
+body.plans_index .plans_index h2 {
+
+    font-size: 25px;
+
+    line-height: 23px;
+
+}
+
+
+
+.bold-title, body.plans_index .plans_index .myhome-accordion-card [data-content] h3 {
+
+    text-transform: uppercase;
+
+    font-family: "UnpaktHelvetica", sans-serif;
+
+    font-size: 20px;
+
+}
+
+
+
+.modal-body #toemail { margin-bottom: 0px;}
+
+.item-custom .item-controls .add-item-btn{line-height: 20px;}
+
+
+
+#editModal #add-custom-item .modal-title{color:#000000;}
+
+#editModal #add-custom-item .modal-footer{color:#000000;}
+
+#editModal #add-custom-item .add-item-btn{line-height: 20px;}
+
+.email a.link{cursor:pointer;}
+
+.email a.link:hover{text-decoration: none;}
+
+.header .sourcecoast a.btn-primary{background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #f59400 0px, #f17000 100%) repeat scroll 0 0;
+
+    color: #fff; border-radius:2px; text-transform:uppercase; text-shadow:0px 0px 0px 0px; font-size:12px; border:1px solid #f59400;}
+
+div.sclogin-joomla-login a.btn-primary{background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #f59400 0px, #f17000 100%) repeat scroll 0 0;
+
+    color: #fff; border-radius:2px; text-transform:uppercase; text-shadow:0px 0px 0px 0px; font-size:12px; border:1px solid #f59400;}
+
+	div.registration .btn.btn-primary {background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #f59400 0px, #f17000 100%) repeat scroll 0 0;
+
+    color: #fff; border-radius:2px; text-transform:uppercase; text-shadow:0px 0px 0px 0px; font-size:12px; border:1px solid #f59400;}
+
+
+
+.item-custom .item-details .desc {margin-bottom: 8px;}
+
+
+
+.toggle-group{display: none;}
+
+.funnel-right .plan-right-cta.scroll{width: 100%;}
+
+#mobile_menu_show {
+
+  padding: 8px 31px 8px 6px;
+  width:25px;
+
+}
+
+
+
+
+
+#form-container .funnel-right .plan-right-cta.scroll{box-shadow: none;}
+
+#form-container .categories-list li.active{color: #28AFE8;}
+.funnel-titles .funnel-title-mobile {font-size: 18px;}
+.funnel-title-mobile .red-text {color: #aa0000;}
+/* responsive media Query for custome */
+
+
+
+@media (min-width: 959px) and (max-width: 1200px){
+
+.toggle-group{display: block;}
+
+#form-views .items-list.page-section{width: 100%;}
+
+.funnel-wrapper .funnel-header{display: block !important;width: 100%;height: auto !important;float: left;width: 68%;}
+
+.funnel-right.bgset{position: inherit !important;min-height: 158px;width: 100% !important;padding: 0 20px 1px 10px !important;}
+
+.funnel-wrapper .funnel-right .sidebar-header .head .title{font-size: 23px;}
+
+.logo .papyrus{font-size: 23px;}
+
+.toggle-group .sideviewtoggle1, .toggle-group .sideviewtoggle2 {background: #042b3b; border: medium none; cursor: pointer; margin: 0px 4px; padding: 9px 15px;float: left; }
+
+.funnel-wrapper .funnel-header{display: block !important;height: auto !important;}
+
+.navigation.left div {float: left;}
+
+.navigation .toggle-group {float: left !important; margin: 0; padding: 0; width: 95%; }
+
+.view-reservation .header { margin-top: 46px;}
+
+#form-views .items-list.page-section .col-xs-3.col-sm-3.col-md-3.move-item.ng-scope {text-align: center;}
+
+#form-views .funnel-wrapper .funnel-header{border-bottom: none;}
+
+#togglemenu2{top: 48px !important;}
+
+div.funnel-wrapper div.items-categories{height: 660px !important;top: 48px !important;}
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 959px){
+
+.toggle-group{display: block;}
+
+#form-views .items-list.page-section{width: 100%;}
+
+.funnel-wrapper .funnel-header{display: block !important;width: 100%;height: auto !important;float: left;width: 61%;}
+
+.funnel-right.bgset{position: inherit !important;min-height: 175px;width: 100% !important;padding: 0 20px 1px 10px !important;}
+
+.funnel-wrapper .funnel-right .sidebar-header .head .title{font-size: 23px;}
+
+.logo .papyrus{font-size: 23px;line-height: 32px;}
+
+.toggle-group .sideviewtoggle1, .toggle-group .sideviewtoggle2 {background: #042b3b; border: medium none; cursor: pointer; margin: 0px 4px; padding: 9px 15px;float: left; }
+
+.funnel-wrapper .funnel-header{display: block !important;height: auto !important;}
+
+.navigation.left div {float: left;}
+
+.navigation .toggle-group {float: left !important; margin: 0; padding: 0; width: 95%; }
+
+.inventory-header .funnel-title{font-size: 23px !important;}
+
+.view-reservation .header {margin-top: 46px;}
+
+#form-views .items-list.page-section .col-xs-3.col-sm-3.col-md-3.move-item.ng-scope {text-align: center;}
+
+}
+
+
+
+@media (min-width: 720px) and (max-width: 768px){
+
+.toggle-group{display: block;} 
+
+#form-views .items-list.page-section{width: 100%;} 
+
+.toggle-group .sideviewtoggle1, .toggle-group .sideviewtoggle2 {background: #042b3b; border: medium none; cursor: pointer; margin: 0px 4px; padding: 9px 15px;float: left; }
+
+.funnel-wrapper .funnel-header{display: block !important;max-width: 50%;height: auto;}
+
+.navigation.left div {float: left;}
+
+.navigation .toggle-group {float: left !important; margin: 0; padding: 0; width: 94%; }
+
+.funnel-right.bgset{position: inherit !important;min-height: 191px;width: 100% !important;padding: 0 20px 1px 10px !important;}
+
+.view-reservation .header {margin-top: 46px;}
+
+#form-views .items-list.page-section .col-xs-3.col-sm-3.col-md-3.move-item.ng-scope {text-align: center;}
+
+.inventory-header .funnel-title{font-size: 20px !important;}
+
+div.funnel-wrapper div.items-categories{height: 880px !important;top: 48px !important;}
+
+#togglemenu2{top: 48px !important;}
+div.m_t_new { width:30px !important;}
+div.m_t_new #mobile_menu_show { padding:8px 7px !important;width:38px !important;}
+}
+
+
+
+@media (min-width: 480px) and (max-width: 720px){
+
+.toggle-group{display: block;}
+
+.logobanner .logo h2{line-height: 16px;font-size: 10px;margin: 17px 0px;} 
+
+.socialmedia-top_main .socialmedia-top img {width: 19px;}
+
+.pull-right.socialmedia-top{float: left !important;}
+
+.socialmedia-top_main .social-ip{font-size: 17px;}
+
+.socialmedia-top_main .email-social{font-size: 10px;}
+
+.toggle-group{display: block;}  
+
+#form-views .items-list.page-section .col-xs-3.col-sm-3.col-md-3.move-item.ng-scope {width: 33%;}
+
+.funnel-right.bgset{position: inherit !important;min-height: 142px;max-width: 100% !important;padding: 0 20px 1px 10px !important;}
+
+.toggle-group .sideviewtoggle1, .toggle-group .sideviewtoggle2 {background: #042b3b; border: medium none; cursor: pointer; margin: 0px 4px; padding: 9px 15px;float: left; }
+
+.funnel-wrapper .funnel-header{display: block !important;width: 100%;height: auto !important;}
+
+.navigation.left div {float: left;}
+
+.navigation .toggle-group {float: left !important; margin: 0; padding: 0; width: 93%; }
+
+.funnel-wrapper #togglemenu2{position: absolute !important;height: 490px !important;z-index: 0 !important;}
+
+.btn.btn-block.btn-info.cta-button {font-size: 14px;}
+
+#form-views .funnel-wrapper{overflow-y:auto; }
+
+.funnel-wrapper #togglemenu1{top: 47px;}
+
+.add-remove-quantity.plus-minus-holder.clearfix {margin: 0 auto; width: 150px; }
+
+.view-reservation .header {margin-top: 46px; }
+div.m_t_new { width:30px !important;}
+div.m_t_new #mobile_menu_show { padding:8px 7px !important;width:38px !important;}
+}
+
+
+
+@media (min-width: 300px) and (max-width: 480px){
+
+.logobanner .logo h2{line-height: 16px;font-size: 16px;margin: 9px 0px !important;} 
+
+.socialmedia-top_main .socialmedia-top img {width: 16px;}
+
+.pull-right.socialmedia-top{float: left !important;}
+
+.socialmedia-top_main .social-ip{font-size: 17px;}
+
+.socialmedia-top_main .email-social{font-size: 10px;}
+
+.toggle-group{display: block;}
+
+#form-views .items-list.page-section .col-xs-3.col-sm-3.col-md-3.move-item.ng-scope {width: 100%;text-align: center;}
+
+.funnel-right.bgset{position: inherit !important;min-height: 125px;width: 100% !important;padding: 0 20px 1px 10px !important;}
+
+.funnel-right .plan-right-cta.scroll input{width: 100%;}
+
+.toggle-group .sideviewtoggle1, .toggle-group .sideviewtoggle2 {background: #042b3b; border: medium none; cursor: pointer; margin: 0px 4px; padding: 9px 12px;float: left;}
+
+.funnel-wrapper .funnel-header{display: block !important;width: 100%;height: auto !important;}
+
+.navigation.left div {float: left;}
+
+.navigation .toggle-group {float: left !important; margin: 0; padding: 0; width: 80%; }
+
+.funnel-title.uppercase {font-size: 16px !important;}
+
+.funnel-right .mp-section .head {padding-bottom: 0px !important;}
+
+.funnel-wrapper #togglemenu2{top:47px !important;}
+
+.mp-section p.ei_label{padding-top: 0px !important;}
+
+/*.funnel-wrapper #togglemenu2{position: absolute !important;height: 490px !important;z-index: 0 !important;top: 0px !important;}*/
+
+.btn.btn-block.btn-info.cta-button {font-size: 14px;}
+
+#form-views .funnel-wrapper{overflow-y:auto; }
+
+.funnel-wrapper #togglemenu1{top: 47px;}
+
+.add-remove-quantity.plus-minus-holder.clearfix {margin: 0 auto; width: 150px; }
+
+.view-reservation .header {margin-top: 46px; }
+
+div.m_t_new { width:30px !important;}
+div.m_t_new #mobile_menu_show { padding:8px 7px !important;width:38px !important;}
+.view-reservation .header {margin-top: 46px; }
+.logobanner .test-center {margin: 30px auto;position: relative;width: 100%;}
+.logobanner .logo img {float: left;margin-right: 10px;width: 48%;}
+.funnel-right .sidebar-header .head .id{padding-top: 18px !important;}
+.funnel-right .sidebar-header .head .title{font-size: 23px !important;}
+.funnel-right .sidebar-header{height: 58px !important;}
+.funnel-right.bgset{min-height: 67px !important}
+}
+
+
+
+@media (min-width: 260px) and (max-width: 300px){
+
+.toggle-group{display: block;}  
+
+.logobanner .logo h2{line-height: 16px;font-size: 14px;margin: 9px 0px !important;} 
+
+.socialmedia-top_main .socialmedia-top img {width: 16px;}
+
+.pull-right.socialmedia-top{float: left !important;}
+
+.socialmedia-top_main .social-ip{font-size: 17px;}
+
+.socialmedia-top_main .email-social{font-size: 10px;}
+
+.toggle-group .sideviewtoggle1, .toggle-group .sideviewtoggle2{background: #042b3b; border: medium none; cursor: pointer; margin: 0px 4px; padding: 9px 12px;float: left; }
+
+#form-views .items-list.page-section .col-xs-3.col-sm-3.col-md-3.move-item.ng-scope {width: 100%;}
+
+.funnel-right.bgset{position: inherit !important;min-height: 125px;width: 100% !important}
+
+.funnel-wrapper .funnel-header{display: block !important;width: 100%;height: auto !important;}
+
+.navigation.left div {float: left;}
+
+.navigation .toggle-group {float: left !important; margin: 0; padding: 0; width: 80%; }
+
+.funnel-title.uppercase {font-size: 16px !important;}
+
+.funnel-wrapper #togglemenu2{position: absolute !important;height: 490px !important;z-index: 0 !important;}
+
+.btn.btn-block.btn-info.cta-button {font-size: 14px;}
+
+#form-views .funnel-wrapper{overflow-y:auto; }
+
+.funnel-wrapper #togglemenu1{top: 47px;}
+
+.add-remove-quantity.plus-minus-holder.clearfix {margin: 0 auto; width: 150px; }
+
+.view-reservation .header {margin-top: 46px; }
+div.m_t_new { width:30px !important;}
+div.m_t_new #mobile_menu_show { padding:8px 7px !important;width:38px !important;}
+.logobanner .test-center {margin: 43px auto;position: relative;width: 100%;}
+.logobanner .logo img {float: left;margin-right: 10px;width: 38%;}
+.view-reservation .header {margin-top: 46px; }
+.logobanner .test-center {margin: 30px auto;position: relative;width: 100%;}
+.logobanner .logo img {float: left;margin-right: 10px;width: 42%;}
+.funnel-right .sidebar-header .head .id{padding-top: 18px !important;}
+.funnel-right .sidebar-header .head .title{font-size: 23px !important;}
+.funnel-right .sidebar-header{height: 58px !important;}
+.funnel-right.bgset{min-height: 67px !important}
+
+}

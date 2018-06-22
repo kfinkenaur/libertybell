@@ -1,0 +1,377 @@
+<!-- <label>What's Your Console of Choice?</label>-->
+<script>
+$(function() {
+$( "#datepicker" ).datepicker();
+});
+</script>
+<div class="form-group" style="display:none;">
+    <div class="radio">
+        <label>
+           <input type="radio" ng-model="formData.type" value="xbox" checked>
+           I like XBOX
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.type" value="ps">
+            I like PS4
+        </label>
+    </div>
+</div>
+
+<div class="row funnel-wrapper">
+        <div class="col-xs-12 col-sm-9 col-md-9 funnel-header">
+            <div class="inventory-header">
+            <section class="funnel-header-top clearfix">
+                <section class="funnel-titles left">
+                    <h1 class="funnel-title uppercase">Almost Done! Enter the details of your move.</h1>
+                </section>
+            </section>
+            <p class="funnel-header-text">Final step! just make sure your location details are correct.<br>Prices are right around the corner!</p>
+            </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 funnel-right bgset">
+            <div id="message"></div>
+            <div class="mp-section sidebar-header">
+            <div class="head clearfix">
+                <h2 class="title">my Move plan</h2>
+                <span class="id" >ID: {{formData.move_id}}</span>
+            </div>
+            <!-- Action Bar // -->
+            <nav class="mp-section-content actions clearfix">
+                <a title="Save" class="gray-button save" ng-hide="currentUser" ng-click="httpPost();"><span class="save-progress">Save for later</span></a>
+                <ul class="alist">
+                    <li ng-show="allowedToVisit('confirm')" class="item view"><a data-icon="I" title="View" class="link" ui-sref="moving.plan({uuid: uuid})" href="/moving/dbf5c9b6-bf7f-11e5-37bc-3795b44d01c6/plan"><span class="text">View</span></a></li>
+                    <li class="item email"><a data-icon="M" title="Send Email" class="link" data-toggle="modal" data-target="#myModal"><span class="text">Email</span></a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+</div>
+
+<div class="row funnel-wrapper col-xs-12 col-sm-9 col-md-9">
+    <form id="locationForm" class="location-form" name="locationForm">
+        <div class="rollback-loader ladda-button">
+            <span class="ladda-label"></span>
+            <span class="ladda-spinner"></span>
+        </div>
+        <fieldset class="fieldset row fields home clearfix">
+            <div class="columns large-6 medium-12 show-for-medium-up field home-size">
+                <h4 class="field-title" data-icon="">Home size:</h4>
+                <select name="home_type" class="select_list" ng-model="formData.home_type">
+                    <option class="select_item" value="Just a few items">Just a few items</option>
+                    <option class="select_item" value="Studio (400-600 sq ft)">Studio (400-600 sq ft)</option>
+                    <option class="select_item" value="Studio Alcove (600-700 sq ft)">Studio Alcove (600-700 sq ft)</option>
+                    <option class="select_item" value="1 Bedroom, Small (600-800 sq ft)">1 Bedroom, Small (600-800 sq ft)</option>
+                    <option class="select_item" value="1 Bedroom, Large (800-1000 sq ft)">1 Bedroom, Large (800-1000 sq ft)</option>
+                    <option class="select_item" value="2 Bedroom (1000 to 1500 sq ft)">2 Bedroom (1000 to 1500 sq ft)</option>
+                    <option class="select_item" value="3 Bedroom (1500 to 2000 sq ft)">3 Bedroom (1500 to 2000 sq ft)</option>
+                    <option class="select_item" value="4 Bedroom (2000 to 3000 sq ft)">4 Bedroom (2000 to 3000 sq ft)</option>
+                </select>
+            </div>
+            <div class="columns large-6 medium-12 field time-date">
+                <h4 class="field-title" data-icon="">
+                    <span>Preferred date &amp; time frame for mover arrival:</span>
+                </h4>
+                
+                <div ng-show="movePlan.reschedule_request &amp;&amp; (movePlan.reschedule_request.requested_date || movePlan.reschedule_request.requested_time)" class="ng-hide">
+                    <span class="pending-reschedule">Pending reschedule for: <span ng-show="movePlan.reschedule_request.requested_date &amp;&amp; movePlan.reschedule_request.requested_time" class="ng-hide">Invalid date, </span> <span ng-show="movePlan.reschedule_request.requested_time &amp;&amp; !movePlan.reschedule_request.requested_date" class="ng-hide"></span> <span ng-show="!movePlan.reschedule_request.requested_time &amp;&amp; movePlan.reschedule_request.requested_date" class="ng-hide">Invalid date</span>
+                    </span>
+                </div>
+                <div class="datepicker-wrapper">
+                    <span class="icon datepicker" data-icon=""></span>
+                    <input id="datepicker" class="datepicker" data-date-format="mm/dd/yyyy" placeholder="mm/dd/yy" ng-model="formData.date">
+                </div>
+                <div class="timeline-wrapper">
+                    <!--<div class="clock" style="left: 20px;">
+                        <div class="dial" style="transform: rotate(240deg);"></div>
+                        <div class="dial"></div>
+                    </div>
+                    <div class="frame active" ng-class="{'active':ngModel == frame.full_time}" ng-style="{'width': 100/frames.length + '%'}" emit-when-finished="" style="width: 25%;">
+                        <span class="time-choice" ng-click="updateModel($event,frame.full_time)"></span>
+                        <div class="bg first" ng-class="{'first': $first}"></div>
+                        <p class="data">8-10 AM</p>
+                    </div>
+                    <div ng-repeat="frame in frames" class="frame" ng-class="{'active':ngModel == frame.full_time}" ng-style="{'width': 100/frames.length + '%'}" emit-when-finished="" style="width: 25%;">
+                        <span class="time-choice" ng-click="updateModel($event,frame.full_time)"></span>
+                        <div class="bg" ng-class="{'first': $first}"></div>
+                        <p class="data">9-11 AM</p>
+                    </div>
+                    <div ng-repeat="frame in frames" class="frame" ng-class="{'active':ngModel == frame.full_time}" ng-style="{'width': 100/frames.length + '%'}" emit-when-finished="" style="width: 25%;">
+                        <span class="time-choice" ng-click="updateModel($event,frame.full_time)"></span>
+                        <div class="bg" ng-class="{'first': $first}"></div>
+                        <p class="data">1-4 PM</p>
+                    </div>
+                    <div ng-repeat="frame in frames" class="frame" ng-class="{'active':ngModel == frame.full_time}" ng-style="{'width': 100/frames.length + '%'}" emit-when-finished="" style="width: 25%;">
+                        <span class="time-choice" ng-click="updateModel($event,frame.full_time)"></span>
+                        <div class="bg" ng-class="{'first': $first}"></div>
+                        <p class="data">2-5 PM</p>
+                    </div>-->
+                    <ul>
+                    <li><input type="radio" name="timeline" value="8:00 AM" ng-model="formData.time" class="ng-pristine ng-untouched ng-valid"> 8 AM </li>
+                    <li><input type="radio" name="timeline" value="1:00 PM - 5:00 PM" ng-model="formData.time" class="ng-pristine ng-untouched ng-valid"> 1-5 PM </li>
+                    </ul>
+                </div>
+            </div>
+        </fieldset>
+        <!--<partial src="views/location/_location_routes_form.html"></partial>-->
+        <div class="row fields from-to">
+            <div class="columns large-6 medium-12">
+                <fieldset class="fieldset from clearfix">
+                    <h4 class="field-title" data-icon="">Moving from:</h4>
+                    <div class="form-row clearfix">
+                        <input type="text" id="fromAddress" name="fromAddress" class="unpakt-textbox address" ng-class="{'field-error': locationForm.fromAddress.$error.required &amp;&amp; showLocationFormErrors}" placeholder="Address" ng-model="formData.fromAddress" required="">
+                        <input type="text" id="fromApt" name="fromApt" class="unpakt-textbox apt from-apt ng-pristine ng-valid ng-touched" placeholder="Apt" ng-model="formData.fromApt">
+                    </div>
+                    <div class="form-row clearfix">
+                        <input type="text" id="fromCity" name="fromCity" class="unpakt-textbox city from-city ng-pristine ng-untouched ng-valid ng-valid-required" ng-class="{'field-error': locationForm.fromCity.$error.required &amp;&amp; showLocationFormErrors}" placeholder="City" ng-model="formData.fromCity" required="">
+                        <select id="fromState" name="fromState" ng-model="formData.fromState" required="true" style="width:25% !important;margin-left: 12px;">
+                            <option value="AL">AL</option>
+                            <option value="AL">AL</option>
+                            <option value="AZ">AZ</option>
+                            <option value="AR">AR</option>
+                            <option value="CA">CA</option>
+                            <option value="CO">CO</option>
+                            <option value="CT">CT</option>
+                            <option value="DE">DE</option>
+                            <option value="DC">DC</option>
+                            <option value="FL">FL</option>
+                            <option value="GA">GA</option>
+                            <option value="HI">HI</option>
+                            <option value="ID">ID</option>
+                            <option value="IL">IL</option>
+                            <option value="IN">IN</option>
+                            <option value="IA">IA</option>
+                            <option value="KS">KS</option>
+                            <option value="KY">KY</option>
+                            <option value="LA">LA</option>
+                            <option value="ME">ME</option>
+                            <option value="MD">MD</option>
+                            <option value="MA">MA</option>
+                            <option value="MI">MI</option>
+                            <option value="MN">MN</option>
+                            <option value="MS">MS</option>
+                            <option value="MO">MO</option>
+                            <option value="MT">MT</option>
+                            <option value="NE">NE</option>
+                            <option value="NV">NV</option>
+                            <option value="NH">NH</option>
+                            <option value="NJ">NJ</option>
+                            <option value="NM">NM</option>
+                            <option value="NY">NY</option>
+                            <option value="NC">NC</option>
+                            <option value="ND">ND</option>
+                            <option value="OH">OH</option>
+                            <option value="OK">OK</option>
+                            <option value="OR">OR</option>
+                            <option value="PA">PA</option>
+                            <option value="RI">RI</option>
+                            <option value="SC">SC</option>
+                            <option value="SD">SD</option>
+                            <option value="TN">TN</option>
+                            <option value="TX">TX</option>
+                            <option value="UT">UT</option>
+                            <option value="VT">VT</option>
+                            <option value="VA">VA</option>
+                            <option value="WA">WA</option>
+                            <option value="WV">WV</option>
+                            <option value="WI">WI</option>
+                            <option value="WY">WY</option>
+                        </select>
+                    </div>
+                    <div class="form-row clearfix">
+                        <input type="text" id="fromZip" name="fromZip" class="unpakt-textbox zip from-zip ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern" ng-class="{'field-error': (locationForm.fromZip.$error.required || locationForm.fromZip.$error.pattern) &amp;&amp; showLocationFormErrors}" placeholder="Zip code" ng-model="formData.fromZip" ng-pattern="/^\d{5,6}(?:[-\s]\d{4})?$/" required="">
+                    </div>
+                    <div class="form-row clearfix" ng-show="movePlan.details.pick_up.geocoded_address">
+                        <span class="geo-address">System recognized this address as: San Diego, CA, USA</span>
+                    </div>
+                </fieldset>
+                <!-- ngIf: movePlan.details.extra_pick_up_enabled -->
+            </div>
+            <div class="columns large-6 medium-12">
+                <fieldset class="fieldset to clearfix">
+                    <h4 class="field-title" data-icon="">
+                        <span>Moving to: <span ng-show="movePlan.details.move_into_storage" class="ng-hide">Storage</span></span>
+                    </h4>
+                    <!-- ngIf: !movePlan.details.move_into_storage -->
+                    <div ng-if="!movePlan.details.move_into_storage" class="">
+                        <div class="form-row clearfix">
+                            <input type="text" id="toAddress" name="toAddress" class="unpakt-textbox address to-address ng-pristine ng-untouched ng-invalid ng-invalid-required" ng-class="{'field-error': locationForm.toAddress.$error.required &amp;&amp; showLocationFormErrors}" placeholder="Address" ng-model="formData.toAddress" required="">
+                            <input type="text" id="toNumber" name="toNumber" class="unpakt-textbox apt to-apt ng-pristine ng-untouched ng-valid" placeholder="Apt" ng-model="formData.toNumber">
+                        </div>
+                        <div class="form-row clearfix">
+                            <input type="text" id="toCity" name="toCity" class="unpakt-textbox city to-city ng-pristine ng-untouched ng-valid ng-valid-required" ng-class="{'field-error': locationForm.toCity.$error.required &amp;&amp; showLocationFormErrors}" placeholder="City" ng-model="formData.toCity" required="">
+                            <select id="toState" name="toState" ng-model="formData.toState" required="true" style="width:25% !important;margin-left: 12px;">
+                                <option value="AL">AL</option>
+                                <option value="AL">AL</option>
+                                <option value="AZ">AZ</option>
+                                <option value="AR">AR</option>
+                                <option value="CA">CA</option>
+                                <option value="CO">CO</option>
+                                <option value="CT">CT</option>
+                                <option value="DE">DE</option>
+                                <option value="DC">DC</option>
+                                <option value="FL">FL</option>
+                                <option value="GA">GA</option>
+                                <option value="HI">HI</option>
+                                <option value="ID">ID</option>
+                                <option value="IL">IL</option>
+                                <option value="IN">IN</option>
+                                <option value="IA">IA</option>
+                                <option value="KS">KS</option>
+                                <option value="KY">KY</option>
+                                <option value="LA">LA</option>
+                                <option value="ME">ME</option>
+                                <option value="MD">MD</option>
+                                <option value="MA">MA</option>
+                                <option value="MI">MI</option>
+                                <option value="MN">MN</option>
+                                <option value="MS">MS</option>
+                                <option value="MO">MO</option>
+                                <option value="MT">MT</option>
+                                <option value="NE">NE</option>
+                                <option value="NV">NV</option>
+                                <option value="NH">NH</option>
+                                <option value="NJ">NJ</option>
+                                <option value="NM">NM</option>
+                                <option value="NY">NY</option>
+                                <option value="NC">NC</option>
+                                <option value="ND">ND</option>
+                                <option value="OH">OH</option>
+                                <option value="OK">OK</option>
+                                <option value="OR">OR</option>
+                                <option value="PA">PA</option>
+                                <option value="RI">RI</option>
+                                <option value="SC">SC</option>
+                                <option value="SD">SD</option>
+                                <option value="TN">TN</option>
+                                <option value="TX">TX</option>
+                                <option value="UT">UT</option>
+                                <option value="VT">VT</option>
+                                <option value="VA">VA</option>
+                                <option value="WA">WA</option>
+                                <option value="WV">WV</option>
+                                <option value="WI">WI</option>
+                                <option value="WY">WY</option>
+                            </select>
+                        </div>
+                        <div class="form-row clearfix">
+                            <input type="text" id="toZip" name="toZip" class="unpakt-textbox zip to-zip ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern" ng-class="{'field-error': (locationForm.toZip.$error.required || locationForm.toZip.$error.pattern) &amp;&amp; showLocationFormErrors}" placeholder="Zip code" ng-model="formData.toZip" ng-pattern="/^\d{5,6}(?:[-\s]\d{4})?$/" required="">
+                        </div>
+                        <div class="form-row clearfix" ng-show="movePlan.details.drop_off.geocoded_address">
+                            <span class="geo-address">System recognized this address as: Los Angeles, CA, USA</span>
+                        </div>
+                        <div class="form-row clearfix" style="display:none;">
+                            <div class="unpakt-checkbox-container">
+                                <label><input type="checkbox" id="additionalDropoff" name="additionalDropoff" class="unpakt-checkbox additional to-additional ng-pristine ng-untouched ng-valid" value="additional stop" ng-model="movePlan.details.extra_drop_off_enabled"> Additional drop off stop</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end ngIf: !movePlan.details.move_into_storage -->
+                </fieldset>
+                <!-- ngIf: movePlan.details.extra_drop_off_enabled && !movePlan.details.move_into_storage -->
+            </div>
+        </div>
+        <div class="row" style="display:none;">
+            <div class="columns medium-12">
+                <fieldset class="fieldset storage clearfix">
+                    <div class="form-row storage-checkbox clearfix">
+                        <div class="unpakt-checkbox-container">
+                            <label>
+                                <input type="checkbox" id="storage" name="storage" class="unpakt-checkbox ng-pristine ng-untouched ng-valid" ng-model="storage_enabled" ng-disabled="movePlan.mover.additional_services.does_storage === false &amp;&amp; !isAdmin()"> Would you like to add storage?
+                            </label>
+                        </div>
+                        <div class="services-not-supported ng-hide" ng-show="movePlan.mover.additional_services.does_storage === false">The mover you've selected doesn't support storage</div>
+                    </div>
+                    <div class="form-row storage-actions clearfix ng-hide" ng-show="storage_enabled">
+                        <div class="unpakt-radio">
+                            <label class="unpakt-radio-container">
+                                <input type="radio" name="storageAction" value="move_into_storage" ng-model="storage_type" class="ng-pristine ng-untouched ng-valid"> Move to storage <span>Includes moving in and first month storage</span>
+                            </label>
+                            <label class="unpakt-radio-container">
+                                <input type="radio" name="storageAction" value="storage_in_transit" ng-model="storage_type" class="ng-pristine ng-untouched ng-valid"> Move to storage for a short time (up to 45 days) <span>Includes moving in, storage and moving out</span>
+                            </label>
+                            <div ng-show="storage_enabled &amp;&amp; movePlan.details.storage_in_transit" class="animate-show storage-date-wrapper ng-hide">
+                                <h4 class="field-title" data-icon="H">Out of storage delivery date?</h4>
+                                <span ng-show="movePlan.reschedule_request &amp;&amp; movePlan.reschedule_request.requested_sit_date" class="pending-sit-reschedule ng-hide">Pending reschedule for: Invalid date</span>
+                                <input pikaday="storageMoveOutDate" ng-model="movePlan.details.storage_move_out_date" min-date="01/27/2016" max-date="03/11/2016" default-date="" ng-class="{'field-error': locationForm.storageMoveOutDate.$invalid &amp;&amp; showLocationFormErrors, 'disabled': movePlan.is_booked &amp;&amp; !clickedSITReschedule}" validate-date="storage_enabled &amp;&amp; movePlan.details.storage_in_transit" ng-disabled="movePlan.is_booked &amp;&amp; !clickedSITReschedule" ng-required="storage_enabled &amp;&amp; movePlan.details.storage_in_transit" id="storageMoveOutDate" name="storageMoveOutDate" class="unpakt-textbox storage-date ng-pristine ng-untouched ng-valid ng-valid-valid-date ng-valid-required" placeholder="When?" readonly=""> <!-- ngIf: movePlan.is_booked -->
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="row" style="display:none;">
+            <span class="field-error-message ng-hide" ng-show="showLocationFormErrors &amp;&amp; locationForm.$invalid">Please fill all required fields</span>
+            <div class="columns medium-12 actions clearfix">
+                <a ui-sref="moving.inventory({uuid: uuid})" class="back" href="/moving/b0b90a4a-c0f8-11e5-3493-cf0bf439ead1/inventory">Back to inventory</a>
+                <a ng-click="submitLocation()" ladda="requestingReschedule || submitting" class="cta-button filled continue-booking submit animate-show ladda-button" data-style="zoom-in">
+                    <span class="ladda-label">
+                        <span>Compare movers</span>
+                    </span>
+                    <span class="ladda-spinner"></span>
+                </a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="col-xs-12 col-sm-3 col-md-3 funnel-right inventory-right">
+    <ngcart-cart></ngcart-cart>
+    <!--<ngcart-checkout service="log">Continue</ngcart-checkout>-->
+</div>
+
+<div class="col-xs-12 col-sm-3 col-md-3 mp-section plan-right-cta animate-show show-for-large-up scroll">
+    <a ui-sref="form.review" class="btn btn-block btn-info cta-button filled">
+    Continue
+    </a>
+</div>
+
+<div class="form-group row">
+<div class="col-xs-6 col-xs-offset-3">
+    <a ui-sref="form.review" class="btn btn-block btn-info" id="next_section_btn">
+    Next Section <span class="glyphicon glyphicon-circle-arrow-right"></span>
+    </a>
+</div>
+</div>
+
+<script type="text/ng-template" id="template/ngCart/cart.html">
+
+{{ json_results }}
+    
+    <a class="btn btn-large gray-button uppercase my-inventory-btn active" ng-class="{active: sidebar.selectedSection == 'inventory'}"><span class="title left">My Inventory</span> <span class="number right">{{ ngCart.getTotalInventoryItems() }}</span> <span class="right-popover" ns-popover="" ns-popover-template="noItemsTip" ns-popover-placement="left|center" ns-popover-angular-event="showNoItemsTip" ns-popover-timeout="0" ns-popover-theme="ns-popover-tooltip-theme">&nbsp;</span><!--<span class="right-popover"--><!--ns-popover--><!--ns-popover-template="addedTypicalItemsTip"--><!--ns-popover-placement="left|center"--><!--ns-popover-angular-event="showAddedTypicalItemsTip"--><!--ns-popover-timeout="0"--><!--ns-popover-theme="ns-popover-tooltip-theme">&nbsp;</span>--></a>
+    <br>
+    <ul class="btn-group counter clearfix hoverable-counter" style=""><li class="btn item furniture"><div class="num">{{ ngCart.getTotalItems() }}</div><div class="desc">Items</div></li><li class="btn item weight"><div class="num">{{ ngCart.totalCF() }}</div><div class="desc">c.f</div></li><li class="btn item boxes"><div class="num">{{ ngCart.getTotalBoxes() }}</div><div class="desc">Boxes</div></li></ul>
+
+</script>
+
+<script type="text/ng-template" id="template/ngCart/checkout.html">
+    
+<div class="clearfix" ng-if="service=='http' || service == 'log'">
+    <button class="mp-section plan-right-cta animate-show show-for-large-up scroll" ng-click="checkout()" ng-disabled="!ngCart.getTotalItems()" ng-transclude>Checkout</button>
+</div>
+
+
+<div ng-if="service=='paypal'">
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" ng-show="ngCart.getTotalItems()">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="{{ settings.paypal.business }}">
+        <input type="hidden" name="lc" value="CA">
+        <input type="hidden" name="item_name" value="{{ settings.paypal.item_name }}">
+        <input type="hidden" name="item_number" value="{{ settings.paypal.item_number }}">
+        <input type="hidden" name="amount" value="{{ ngCart.getSubTotal()}}">
+        <input type="hidden" name="currency_code" value="{{ settings.paypal.currency_code }}">
+        <input type="hidden" name="button_subtype" value="services">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="tax_rate" value="{{ ngCart.getTaxRate()}}">
+        <input type="hidden" name="shipping" value="{{ ngCart.getShipping()}}">
+        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+</div>
+    
+</script>

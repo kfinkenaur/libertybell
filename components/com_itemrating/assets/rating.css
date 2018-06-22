@@ -1,0 +1,449 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot?v=4.5.0');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.review-box{ background-color:#eee; padding:5px; color:#FFF; font-size:12px;}
+#review-box h1, #review-box h2, #review-box h3, #review-box h4, #review-box h5, #review-box h6 , #review-box p , #review-box strong{margin:0; color:#FFF; }
+#review-box br{display: none;}
+.review-bottom{clear:both;}	
+.itemrate-clear{clear:both;}	
+#review-box h2.review-box-header {
+	font-size: 20px;
+	color: #FFF;
+	margin-bottom: 2px;
+	background: #2b2b2b;
+	font-size: 22px;
+	padding: 6px 8px;
+	margin-bottom: 2px ;
+	font-weight:bold;
+}
+.review-container {
+	float:left;
+	width:100%;
+}
+
+.review-item{
+	margin-bottom:2px;
+	opacity:1;
+	-webkit-transition: all ease-in-out 0.2s;
+	-moz-transition: all ease-in-out 0.2s;
+	-o-transition: all ease-in-out 0.2s;
+	transition: all ease-in-out 0.2s;
+}
+
+#review-box .review-item h5 {
+	font-size:12px;
+	color:#FFF;
+	position:relative;
+	z-index:2;
+	line-height: 20px;
+}
+
+#review-box.review-percentage .review-item h5,#review-box.review-percentage .review-item h5{line-height:34px;padding: 0 8px;}
+.review-percentage .review-item span{
+	position: relative;
+	background: #3a3a3a;
+	display: block;
+	height: 34px;
+}
+
+.review-percentage .review-item span span {
+	top: 0;
+	position: absolute;
+	background-color: #00a9b0;
+	background-image: url(images/stripes.png);
+	display: block;
+	height: 34px;
+	-webkit-animation: wentrance 2s;
+	animation: wentrance 2s;
+
+}
+
+.review-item .progress {
+	width:100%;
+	float:left;
+	margin: 10px 0;
+	cursor:pointer;
+}
+
+.progress .progress-bar {
+    -webkit-transition: width 3s ease-in-out;
+    -moz-transition: width 3s ease-in-out;
+    -ms-transition: width 3s ease-in-out;
+    -o-transition: width 3s ease-in-out;
+    transition: width 3s ease-in-out;
+}
+
+@-webkit-keyframes wentrance { 0% {opacity: 0; } 100% {opacity: 1;}}
+@keyframes wentrance { 0% {opacity: 0;} 100% {opacity: 1;}}
+
+.review-stars .review-item { 
+	background:#3a3a3a; 
+	margin-bottom:0;
+	border-bottom: 1px dashed #eee; 
+	overflow:hidden; 
+	padding: 8px;
+}
+
+
+#review-box.review-stars .review-item h5{
+	float:left;
+	font-weight: 500;
+}
+
+.review-stars .stars-large, .review-stars .hearts-large, .review-stars .thumbs-large {
+	float:right;
+}
+
+.review-final-score .stars-large, .review-final-score .hearts-large, .review-final-score .thumbs-large {
+	float: none !important;
+	margin: 0 auto 10px;
+}
+
+.review-summary {
+	background-color:#3a3a3a;
+	overflow:hidden; 
+	position:relative; 
+	min-height: 85px;
+}
+
+.review-short-summary{padding:10px;vertical-align: top; padding-right:122px;}
+.review-short-summary a{color:#ccc; text-decoration:underline;}
+.review-short-summary a:hover{color:#fff;}
+.review-final-score{
+	background-color: #00a9b0;
+	width:110px;
+	height:auto !important;
+	position:relative;
+	float: right;
+	text-align:center;
+	color:#fff;
+	padding: 10px 5px 10px 15px;
+	border-color: #eee;
+	border-style:solid;
+	border-width:0 0 0 2px;
+}
+.review-final-score .post-large-rate{margin-top:5px;}
+#review-box .review-final-score h3{font-size: 44px;color: #FFF;font-weight: bold;}
+#review-box .review-final-score h3 span{font-size: 24px;}
+#review-box .review-final-score h4{
+	margin-bottom:0;
+	font-size: 20px;
+	color:#FFF;
+}
+.review-top {
+	float:left;
+	width:60%; 
+	margin-right:20px;
+	border-radius: 2px;
+}
+
+span.post-small-rate, span.post-small-rate span, span.post-large-rate, span.post-large-rate span{
+	-webkit-transition: 0 none;
+	-moz-transition: 0 none;
+	-ms-transition: 0 none;
+	-o-transition: 0 none;
+	transition: 0 none;	
+}
+
+span.post-small-rate{
+	width:54px;
+	display:block;
+	height:15px;
+	background-position: left bottom;
+	background-repeat:no-repeat;	
+}
+span.post-small-rate span{
+	width:100%;
+	display:block;
+	height:15px;
+	background-position: left top;
+	background-repeat:no-repeat;
+	float: left;
+}
+span.stars-small, span.stars-small span{background-image:url(images/stars-small.png);}
+span.hearts-small, span.hearts-small span{background-image:url(images/hearts-small.png);}
+span.thumbs-small, span.thumbs-small span{background-image:url(images/thumbs-small.png);}
+
+
+span.post-large-rate {
+	width:98px;
+	display:block;
+	height:23px;
+	background-position: left bottom;
+	background-repeat:no-repeat;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+span.post-large-rate span {
+	width:100%;
+	display:block;
+	height:22px;
+	background-position: left top;
+	background-repeat:no-repeat;
+	float: left;
+}
+
+span.stars-large, span.stars-large span{background-image:url(images/stars-large.png) ;}
+span.hearts-large, span.hearts-large span{background-image:url(images/hearts-large.png) ;}
+span.thumbs-large, span.thumbs-large span{background-image:url(images/thumbs-large.png) ;}
+span.bulbs-large, span.bulbs-large span{background-image:url(images/bulbs-large.png) ;background-repeat: repeat-x;}
+span.medals-large, span.medals-large span{background-image:url(images/medals-large.png) ;background-repeat: repeat-x;}
+
+span.arrows-large, span.arrows-large span{background-image:url(images/arrows-large.png) ;}
+span.check-large, span.check-large span{background-image:url(images/check-large.png) ;}
+span.light-large, span.light-large span{background-image:url(images/light-large.png) ;}
+
+.post-single-rate{float:left; margin-right:5px;}
+
+.user-rate-wrap{
+	background: #2b2b2b;
+	margin-top: 2px;
+	padding: 7px 8px;
+}
+.user-rate{	float:right; width: 98px;}
+.user-rate-wrap .user-rating-text{ float:left;}
+
+ul.reviews-posts{list-style:none;}
+ul.reviews-posts li{ overflow:hidden;}
+ul.reviews-posts .review-thumbnail{
+	float:left;
+	margin-right:10px;
+}
+ul.reviews-posts h3{ margin-bottom:5px;}
+
+.user-rate-active span.post-large-rate span{cursor:pointer;}
+
+.itemrate-load{
+	background:url(images/ajax-loader.gif) no-repeat center;
+	width: 98px;
+	height: 22px;
+	display: block;
+}
+body.rtl .review-top{ float:right; margin-right:0; margin-left:20px;}
+body.rtl .review-stars .stars-large, body.rtl .review-stars .hearts-large, body.rtl .review-stars .thumbs-large , body.rtl .user-rate , 
+body.rtl .stars-large span, body.rtl .hearts-large span, body.rtl .thumbs-large span{ float:left;}
+body.rtl #review-box.review-stars .review-item h5, body.rtl .user-rate-wrap .user-rating-text{float:right;}
+body.rtl .review-final-score{border-width:0 2px 0 0; right:auto; left:0;}
+body.rtl .post-single-rate {float: right;margin-left: 5px; margin-right:0;}
+body.rtl ul.reviews-posts .review-thumbnail {float: right;margin-left: 10px;margin-right: 0;}
+body.rtl .review-short-summary {padding-right: 10px;padding-left: 122px;}
+
+@media only screen and (max-width: 768px){
+	.review-top, body.rtl .review-top {
+		float: none;
+		width: auto;
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.review-final-score, body.rtl .review-final-score {
+		width: auto;
+		display:block;
+		border-width: 0 0 2px 0;
+		height: auto;
+		position: relative;
+	}
+	.review-short-summary, body.rtl .review-short-summary{padding: 10px;}
+	.user-rate-wrap, body.rtl .user-rate-wrap {text-align: center;}
+	.user-rate, body.rtl .user-rate {float: right !important;margin: 5px auto 0;}
+	.user-rate-wrap .user-rating-text, body.rtl .user-rate-wrap .user-rating-text{float:none;}
+}
+.rateWrapper {
+	float: right;
+	border-radius: 2px;
+	color:#444;
+}
+.rate,.rateDone {	
+	display: block;
+	float: left;
+	background: none;
+	text-decoration: none;
+	background-image: url(images/sprite.png);
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+.rate {
+	cursor: pointer;
+}
+.rateDone {
+	cursor: default;
+}
+.rateUp {
+	background-position: 0 0;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	padding: 3px 10px 0 35px;
+	height: 21px;
+}
+.rateDown {
+	background-position: 0 -48px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	padding: 3px 10px 0 35px;
+	height: 21px;
+}
+.rateUp:hover,.rateUp.active {
+	background-position: 0 -24px;
+}
+.rateDown:hover,.rateDown.active {
+	background-position: 0 -72px;
+}
+
+#review-box .alert.alert-error
+{
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	background-color: #97C730;
+	padding: 8px 35px 8px 14px;
+}
+#review-box .item-warning
+{
+	z-index: 10000;
+}
+#review-box button.btn-close {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    padding: 0;
+}
+#review-box .btn-close {
+    color: #000000;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #ffffff;
+}
+.progress {
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #f7f7f7;
+  background-image: -moz-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#f9f9f9));
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: -o-linear-gradient(top, #f5f5f5, #f9f9f9);
+  background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
+  background-repeat: repeat-x;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#fff9f9f9', GradientType=0);
+  box-shadow: none;
+  		  cursor: pointer;
+}
+
+.progress .bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 20px;
+  text-shadow: none;
+  box-shadow: none;
+  background-color: #0e90d2;
+  background-image: -moz-linear-gradient(top, #149bdf, #0480be);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#149bdf), to(#0480be));
+  background-image: -webkit-linear-gradient(top, #149bdf, #0480be);
+  background-image: -o-linear-gradient(top, #149bdf, #0480be);
+  background-image: linear-gradient(to bottom, #149bdf, #0480be);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: width 0.6s ease;
+     -moz-transition: width 0.6s ease;
+       -o-transition: width 0.6s ease;
+          transition: width 0.6s ease;
+		  		  cursor: pointer;
+}
+
+.progress .bar + .bar {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* Admin preview fix
+----------------------------------------------------*/
+
+.admin.com_content.view-article div.review_wrap div#review-box {
+  float: left;
+  width: 70%;
+}
+
+.admin.com_content.view-article div.review-final-score h4 {
+	line-height: 28px;
+}
+.review-snippet
+{
+	display:none;
+}
+.review-final-score *,.review-final-score
+{
+	box-sizing: content-box !important;
+}
+.ratingdata
+{
+	clear: both;
+    display: inline-block;
+    font-weight: 400;
+	width: 100%;
+	    text-align: center;
+	
+}
+.br-current-rating
+{
+
+	width: auto;
+	display: inline-block;
+}
+.faw
+{
+	font-family: "FontAwesome";
+}
+.faw .glyph-large::before {
+    content: attr(data-content);
+}
+.faw .glyph-large{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+	font-size: 20px;
+	 border-radius: 0 !important;
+	}
+	
+.faw .glyph-large span::before {
+    content: attr(data-content);
+}
+
+.faw .glyph-large span{
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transition: all 0.25s ease-out 0s;
+    white-space: nowrap;
+	font-size: 20px;
+	}
+	.faw .user-rate,.faw .glyph-large
+	{
+	  width:100px;
+	}
+	.fc_beforeDisplayContent .review_wrap {
+    display: none;
+	}

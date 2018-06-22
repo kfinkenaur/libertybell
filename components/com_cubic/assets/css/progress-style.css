@@ -1,0 +1,217 @@
+/* BASIC STYLINGS
+============================================================================= */
+body                            { padding-top:20px; }
+pre                             { margin-bottom:20px; }
+
+/* form styling */
+#form-container                { background:#fff; margin-bottom:20px;
+    border-radius:5px; }
+#form-container .page-header   { background:#151515; margin:0; padding:0px; 
+    border-top-left-radius:5px; border-top-right-radius:5px; }
+
+/* numbered buttons */
+#status-buttons                 {  }
+#status-buttons a               { color:#FFF; display:inline-block; font-size:12px; margin-right:10px; text-align:center; text-transform:uppercase; }
+#status-buttons a:hover         { text-decoration:none; }
+#status-buttons span            { background:#080808; display:block; height:30px; margin:0 auto 10px; padding-top:5px; width:30px; 
+    border-radius:50%; }
+
+/* active buttons */
+#status-buttons a.active span   { background:#00BC8C; }
+
+/* ANIMATION STYLINGS
+============================================================================= */
+#signup-form            { position:relative; min-height:300px; overflow:hidden; /*padding:30px;*/border-top: 1px solid #BABABA; background:#f2f2f2;}
+
+/* basic styling for entering and leaving */
+/* left and right added to ensure full width */
+#form-views.ng-enter,
+#form-views.ng-leave      { position:absolute; left:30px; right:30px;
+    transition:0.5s all ease; -moz-transition:0.5s all ease; -webkit-transition:0.5s all ease; 
+}
+    
+/* enter animation */
+#form-views.ng-enter            { 
+    -webkit-animation:slideInRight 0.5s both ease;
+	-moz-animation:slideInRight 0.5s both ease;
+	animation:slideInRight 0.5s both ease; 
+}
+
+/* leave animation */
+#form-views.ng-leave            { 
+    -webkit-animation:slideOutLeft 0.5s both ease;
+	-moz-animation:slideOutLeft 0.5s both ease;
+	animation:slideOutLeft 0.5s both ease;   
+}
+
+/* ANIMATIONS
+============================================================================= */
+/* slide out to the left */
+@keyframes slideOutLeft {
+	to 		{ transform: translateX(-200%); }
+}
+@-moz-keyframes slideOutLeft {	
+	to 		{ -moz-transform: translateX(-200%); }
+}
+@-webkit-keyframes slideOutLeft {
+	to 		{ -webkit-transform: translateX(-200%); }
+}
+
+/* slide in from the right */
+@keyframes slideInRight {
+	from 	{ transform:translateX(200%); }
+	to 		{ transform: translateX(0); }
+}
+@-moz-keyframes slideInRight {
+	from 	{ -moz-transform:translateX(200%); }
+	to 		{ -moz-transform: translateX(0); }
+}
+@-webkit-keyframes slideInRight {
+	from 	{ -webkit-transform:translateX(200%); }
+	to 		{ -webkit-transform: translateX(0); }
+}
+
+.progressWizard {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.progressWizard .step {
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+}
+.progressWizard .step.bold.current {
+  color: #21C17F;
+}
+.progressWizard .step.bold {
+  color: #042b3b	;
+}
+.progressWizard .step.bold > div {
+  background: none repeat scroll 0 0 #21c17f;
+  border-radius: 50%;
+  color: #fff;
+  float: left;
+  height: 28px;
+  width: 28px;
+  padding-top: 4px;
+}
+.progressWizard .step.bold > span {
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.ng-isolate-scope .my-inventory-btn {
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+}
+.my-inventory-btn .title,.my-inventory-btn .number {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 0px;
+}
+.my-inventory-btn .title:hover,.my-inventory-btn .number:hover{color:#042b3b;}
+.location-details-content .location-form .row {
+  border-bottom: 1px solid #d6d6d6;
+  margin: 0;
+  max-width: none;
+  padding: 22px 0;
+}
+.location-details-content .location-form .fields .columns:first-child {
+  padding-right: 6%;
+}
+#locationForm .field-title {
+  font-family: ProximaNovaBold,sans-serif;
+  font-size: 16px;
+  height: auto;
+  line-height: 16px;
+  margin: 0;
+  padding-bottom: 8px;
+  text-transform: capitalize;
+}
+.large-6 {
+  width: 50%;
+}
+.timeline-wrapper li {
+  display: inline-block;
+  margin-right: 6px;
+}
+.timeline-wrapper > ul {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+#locationForm select {
+  width: 85%;
+  height: 38px;
+  background:linear-gradient(to bottom, #fff 0px, #f2f2f2 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-color: #829ca1;
+  outline:none;
+}
+#locationForm select:hover {border-color: #042b3b;outline:none;}
+.datepicker-wrapper input {
+  height: 38px;
+  width: 90%;
+  border-radius: 3px;
+  border:1px solid #829ca1;
+}
+.datepicker-wrapper input:hover{border-color: #829ca1 !important;}
+
+.datepicker-wrapper {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+}
+.timeline-wrapper {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 70%;
+}
+
+#locationForm .form-row {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#locationForm #fromAddress,#locationForm #fromCity,#locationForm #fromZip,#locationForm #toAddress,#locationForm #toCity,#locationForm #toZip {
+  border-color: #829ca1;
+  border-radius: 3px;
+  padding: 10px 5px;
+  width: 55%;
+}
+#locationForm #fromAddress:hover,#locationForm #fromCity:hover,#locationForm #toNumber:hover,#locationForm #fromZip:hover ,#locationForm #fromApt:hover,#locationForm #toAddress:hover,#locationForm #toCity:hover,#locationForm #toZip:hover{border-color: #042b3b;}
+#locationForm #fromApt, #locationForm #toNumber{
+  border-color: #829ca1;
+  border-radius: 3px;
+  margin-left: 12px;
+  padding: 10px 5px;
+  width: 27%;
+}
+#locationForm {
+  margin-top: 15px;
+}
+#locationForm {
+  border-bottom: 1px solid #d6d6d6;
+  margin: 0;
+  max-width: none;
+  padding: 22px 0;
+}
+.fieldset.row.fields.home {
+  border-bottom: 1px solid #d6d6d6;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+.btn.btn-large.gray-button.my-inventory-btn {
+  margin-top: 20px;
+}
+
+.row.funnel-wrapper {
+  border: 1px solid #d6d6d6;
+  border-top: none;
+}
