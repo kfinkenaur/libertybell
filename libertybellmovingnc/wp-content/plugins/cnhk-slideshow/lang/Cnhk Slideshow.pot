@@ -1,0 +1,426 @@
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cnhk Slideshow\n"
+"POT-Creation-Date: 2013-11-26 07:43+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: classes/cnhkss.class.php:35
+msgid "Slides"
+msgstr ""
+
+#: classes/cnhkss.class.php:36
+msgid "Slideshow"
+msgstr ""
+
+#: classes/cnhkss.class.php:37
+msgid "Settings"
+msgstr ""
+
+#: classes/cnhkss.class.php:38
+msgid "Select"
+msgstr ""
+
+#: classes/cnhkss.class.php:39
+#, php-format
+msgid ""
+"You are using the flash uploader. Problems? Try the <a href=\"%s\">browser "
+"uploader</a> instead."
+msgstr ""
+
+#: classes/cnhkss.class.php:40
+#, php-format
+msgid ""
+"You are using the default browser uploader. <a href=\"%s\" id=\"switch-to-"
+"flash\">Switch to the flash uploader ?</a>"
+msgstr ""
+
+#: classes/cnhkss.class.php:41
+msgid "Please refresh the page and try again."
+msgstr ""
+
+#: classes/cnhkss.class.php:42
+msgid "This file type is not allowed."
+msgstr ""
+
+#: classes/cnhkss.class.php:43
+msgid "Edit"
+msgstr ""
+
+#: classes/cnhkss.class.php:44
+msgid "Delete"
+msgstr ""
+
+#: classes/cnhkss.class.php:45
+msgid "Cancel"
+msgstr ""
+
+#: classes/cnhkss.class.php:46
+msgid "Create"
+msgstr ""
+
+#: classes/cnhkss.class.php:47
+msgid "Save"
+msgstr ""
+
+#: classes/cnhkss.class.php:48
+msgid "Proceed ?"
+msgstr ""
+
+#: classes/cnhkss.class.php:49 classes/cnhkss_widget.class.php:46
+msgid "Title"
+msgstr ""
+
+#: classes/cnhkss.class.php:50
+msgid "Link"
+msgstr ""
+
+#: classes/cnhkss.class.php:51
+msgid "No Link"
+msgstr ""
+
+#: classes/cnhkss.class.php:52
+msgid "Data updated."
+msgstr ""
+
+#: classes/cnhkss.class.php:53
+msgid "The chosen title matches another existing slide's filename."
+msgstr ""
+
+#: classes/cnhkss.class.php:54
+msgid "No Caption"
+msgstr ""
+
+#: classes/cnhkss.class.php:55
+msgid "An error occurred. No data updated"
+msgstr ""
+
+#: classes/cnhkss.class.php:176
+msgid "Cnhk Slideshow"
+msgstr ""
+
+#: classes/cnhkss.class.php:251
+msgid "Slides order"
+msgstr ""
+
+#: classes/cnhkss.class.php:306
+msgid "Slides Admin Page"
+msgstr ""
+
+#: classes/cnhkss.class.php:307
+msgid ""
+"You can use any title you want but remember that the filename is derived "
+"from the title, and each filename must be unique."
+msgstr ""
+
+#: classes/cnhkss.class.php:308
+msgid ""
+"For instance, \"A $100 bill\" and \"A £100 bill\" will result to the same "
+"filename."
+msgstr ""
+
+#: classes/cnhkss.class.php:309
+msgid ""
+"If you encounter problems with the dynamic title or link edition, refresh "
+"the page or use the links on the \"Action\" column."
+msgstr ""
+
+#: classes/cnhkss.class.php:310
+msgid ""
+"When you delete a slide, it will be removed automatically from any slideshow "
+"where it's used."
+msgstr ""
+
+#: classes/cnhkss.class.php:313
+msgid "Overview"
+msgstr ""
+
+#: classes/cnhkss.class.php:319 classes/cnhkss.class.php:325
+msgid "Slideshow Admin Page"
+msgstr ""
+
+#: classes/cnhkss.class.php:320
+msgid "Like for slides names, you can use any name you want for slideshows."
+msgstr ""
+
+#: classes/cnhkss.class.php:321
+msgid ""
+"But using some sensible characters such as \"(double quote), '(single "
+"quote), <(less than) >(greater than) and some others will make the slideshow "
+"not callable via shortcode."
+msgstr ""
+
+#: classes/cnhkss.class.php:322
+msgid ""
+"You are still able to use it as Widget or with direct template tag, but if "
+"you plan to use the slideshow via shortcode within the content of a page or "
+"post, avoid using those characters in your slideshow's name."
+msgstr ""
+
+#: classes/cnhkss.class.php:323
+msgid "Deleting a slideshow does not affect slides data and files."
+msgstr ""
+
+#: classes/cnhkss.class.php:326
+msgid ""
+"Drag a thumbnail from the left to the right column to add it in a slideshow."
+msgstr ""
+
+#: classes/cnhkss.class.php:327
+msgid "Always check that you are currently editing the correct slideshow."
+msgstr ""
+
+#: classes/cnhkss.class.php:328
+msgid "Drag the slide back to the left column to remove it from the slideshow."
+msgstr ""
+
+#: classes/cnhkss.class.php:329
+msgid ""
+"Each slide can be used any time you want, in single or multiple slideshow."
+msgstr ""
+
+#: classes/cnhkss.class.php:330
+msgid "Do not forget to save changes you've made."
+msgstr ""
+
+#: classes/cnhkss.class.php:474
+msgid "The file could not be renamed."
+msgstr ""
+
+#: classes/cnhkss.class.php:501
+msgid "The file could not be removed."
+msgstr ""
+
+#: classes/cnhkss.class.php:517
+msgid ""
+"Another slideshow uses an approximately similar name. Please choose another "
+"one."
+msgstr ""
+
+#: classes/cnhkss.class.php:600
+msgid "Please choose a file."
+msgstr ""
+
+#: classes/cnhkss.class.php:630
+msgid "New slide added"
+msgstr ""
+
+#: classes/cnhkss.class.php:632
+msgid "There was a problem when processing. Please try again."
+msgstr ""
+
+#: classes/cnhkss_data.class.php:76
+msgid ""
+"Cnhk Slideshow could not access to the WordPress Upload Directory. The "
+"plugin can not work correctly."
+msgstr ""
+
+#: classes/cnhkss_widget.class.php:17
+msgid "Use this widget to add one slideshow to one of your sidebar."
+msgstr ""
+
+#: classes/cnhkss_widget.class.php:49
+msgid "Slideshow to display"
+msgstr ""
+
+#: classes/cnhkss_widget.class.php:58
+msgid "You need to create at least one slideshow"
+msgstr ""
+
+#: incl/admin-slides-delete.php:23
+msgid "Delete permanently:"
+msgstr ""
+
+#: incl/admin-slides-delete.php:28
+#, php-format
+msgid "Are you sure to delete permanently \"%s\"?"
+msgstr ""
+
+#: incl/admin-slides-edit.php:24
+#, php-format
+msgid "Edit %s?"
+msgstr ""
+
+#: incl/admin-slides-edit.php:31
+msgid ""
+"The title is used to identify the slide. It is also used for building the "
+"filename."
+msgstr ""
+
+#: incl/admin-slides-edit.php:34
+msgid "The link toward which this slide leads"
+msgstr ""
+
+#: incl/admin-slides-edit.php:35 incl/admin-slides.php:54
+#: incl/admin-slides.php:86
+msgid "Caption"
+msgstr ""
+
+#: incl/admin-slides.php:37
+msgid "Add new slide or edit existing ones."
+msgstr ""
+
+#: incl/admin-slides.php:43
+msgid "Upload a new slide."
+msgstr ""
+
+#: incl/admin-slides.php:45
+msgid "Upload"
+msgstr ""
+
+#: incl/admin-slides.php:51
+msgid "Slide"
+msgstr ""
+
+#: incl/admin-slides.php:55
+msgid "Action"
+msgstr ""
+
+#: incl/admin-slides.php:72
+msgid "There is no slide yet!"
+msgstr ""
+
+#: incl/admin-slideshow-delete.php:19
+#, php-format
+msgid "Delete slideshow: \"%s\""
+msgstr ""
+
+#: incl/admin-slideshow-delete.php:24
+msgid "Deleting slideshow does not affect slides and other slideshows."
+msgstr ""
+
+#: incl/admin-slideshow-delete.php:26
+msgid "Delete it?"
+msgstr ""
+
+#: incl/admin-slideshow-delete.php:33
+#, php-format
+msgid "The slideshow \"%1$s\" contains %2$s slides."
+msgstr ""
+
+#: incl/admin-slideshow-delete.php:38
+msgid "This slideshow does not contain any slides."
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:11
+#, php-format
+msgid "Settings for \"%s\""
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:16
+msgid "Effect"
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:23
+msgid "The transition effect used when switching between two slides."
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:25
+msgid "Speed"
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:26 incl/admin-slideshow-setting.php:30
+msgid "(in milliseconds)"
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:27
+msgid "The speed of the transition effect."
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:29
+msgid "Timeout"
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:31
+msgid "The timeout before auto-switching to next slide"
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:33
+msgid "Pager"
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:35
+msgid "Tick to display paged navigations buttons."
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:37
+msgid "Prev/Next navigation"
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:39
+msgid "Tick to display previous and next navigation buttons."
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:41
+msgid "Delay"
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:42
+msgid "(in seconds)"
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:43
+msgid ""
+"Delay before launching slideshow, if all the images are loaded before this "
+"timeout, the slideshow is launched. A negative value prevents the slideshow "
+"to be launched before all images are loaded."
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:44
+msgid "A \"Loading\" image will be shown until the launch."
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:45
+msgid "Set it to 0 (zero) to prevent preloading images with javascript."
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:47
+msgid "Skip unloaded images"
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:49
+msgid ""
+"Skip all incompletely loaded images before starting the slideshow (after "
+"delay)."
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:53 incl/admin-slideshow-slides.php:47
+msgid "Please select a slideshow."
+msgstr ""
+
+#: incl/admin-slideshow-setting.php:55 incl/admin-slideshow-slides.php:49
+msgid "Please create a slideshow first."
+msgstr ""
+
+#: incl/admin-slideshow-slides.php:21
+msgid "Available Slides"
+msgstr ""
+
+#: incl/admin-slideshow-slides.php:22
+#, php-format
+msgid "Slides order (from top to bottom) in \"%s\""
+msgstr ""
+
+#: incl/admin-slideshow.php:33
+msgid "Add a new slideshow <em>(the name must be unique)</em> :"
+msgstr ""
+
+#: incl/admin-slideshow.php:39
+msgid "Select a slideshow to edit :"
+msgstr ""
+
+#: incl/admin-slideshow.php:41
+msgid "Available slideshows"
+msgstr ""
+
+#: incl/admin-slideshow.php:41
+msgid "No slideshow available"
+msgstr ""
+
+#: incl/admin-slideshow.php:49
+msgid "Save Changes"
+msgstr ""

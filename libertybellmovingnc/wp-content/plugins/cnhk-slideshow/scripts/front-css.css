@@ -1,0 +1,84 @@
+/**
+*   Plugin Name: Cnhk Slideshow
+*
+*   Cnhk Slideshow plugin for WordPress, Copyright (C) 2013 Rija Rajaonah
+*   Cnhk Slideshow plugin for WordPress is licensed under the GPL License version 3.
+*   [http://www.gnu.org/licenses/gpl-3.0.html]
+*/
+
+.cnhk-slideshow {
+    width: 100%;
+    height: auto !important;
+}
+
+.cnhk-slide img {
+    z-index: 110000;
+    width: 100%;
+    height: auto !important;
+}
+
+.slide-overlay {
+    z-index: 111000;
+    position: absolute;
+}
+
+.cnhk-slideshow .loading-image{
+    width: 90px;
+    position: absolute;
+}
+
+.slideshow-wrapper {
+    position: relative;
+}
+
+.slideshow-wrapper.with-pager {
+    margin-bottom: 26px;
+}
+
+.cycle-pager {
+    position: absolute;
+}
+
+.pager-nav {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 5px 1px;
+    background-image: url('../img/pager.png');
+}
+
+.active-pager,
+.pager-nav:hover {
+    background-image: url('../img/pager-active.png');
+    cursor: pointer;
+}
+
+.cycle-prev,
+.cycle-next {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 112000;
+    position: absolute;
+    opacity: 0.3;
+    visibility: hidden;
+}
+
+.cnhk-slideshow:hover .cycle-next,
+.cnhk-slideshow:hover .cycle-prev {
+    visibility: visible;
+}
+
+.cycle-next:hover,
+.cycle-prev:hover {
+    opacity: 0.7;
+}
+
+.cycle-next {
+    background-image: url('../img/next.png');
+}
+
+.cycle-prev {
+    background-image: url('../img/prev.png');
+}

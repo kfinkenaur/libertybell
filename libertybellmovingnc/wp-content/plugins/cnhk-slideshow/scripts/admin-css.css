@@ -1,0 +1,268 @@
+/**
+*   Plugin Name: Cnhk Slideshow
+*
+*   Cnhk Slideshow plugin for WordPress, Copyright (C) 2013 Rija Rajaonah
+*   Cnhk Slideshow plugin for WordPress is licensed under the GPL License version 3.
+*   [http://www.gnu.org/licenses/gpl-3.0.html]
+*/
+
+.main-desc {
+    font-style: italic;
+    font-weight: normal;
+}
+
+fieldset {
+    border: 1px solid #f0f0f0;
+    padding: 0.3em 0.6em;
+    margin: 0.6em inherit;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#icon-slides {
+    background-image: url('../img/slides.png');
+}
+
+#icon-slideshow {
+    background-image: url('../img/slideshow.png');
+}
+
+.nothing {
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.2em;
+}
+
+#slides-list {
+    margin: 1.5em inherit;
+}
+
+#slides-list td{
+    max-width: 220px;
+}
+
+.thumb-400 {
+    width: 400px;
+    height: auto !important;
+}
+
+.thumb-220 {
+    width: 220px;
+    height: auto !important;
+}
+
+.wrap .thumb {
+    width: 420px;
+}
+
+.yesno {
+    border: 1px solid #f0f0f0;
+    padding: 0.4em 0.8em;
+    margin: 1em 0.4em;
+    background-color: #fbfbfb;
+    min-width: 180px;
+}
+
+.yesno .button {
+    margin-left: 12px;
+    margin-left: 12px;
+}
+
+.clickable {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.clickable:hover {
+    text-decoration: underline;
+}
+
+#wrap-edit input[type="text"] {
+    width: 95%;
+}
+
+#wrap-edit label,
+#wrap-slideshow label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+#wrap-slideshow input[type="submit"] {
+    margin: 5px 12px;
+}
+
+#wrap-slideshow label em {
+    font-weight: normal;
+}
+
+#wrap-slideshow #setting-field{
+    padding: 0.3em 1.8em;
+}
+
+#wrap-slideshow .desc{
+    font-style: italic;
+    margin: 0 0 1.5em;
+}
+
+.splash {
+    font-size: 1.3em !important;
+    color: #9c9c9c;
+}
+
+.tab-content {
+    margin: 1.2em inherit;
+}
+
+#left-col,
+#right-col {
+    min-width: 420px;
+    min-height: 400px;
+}
+
+#right-col .slideOff-placeholder,
+#right-col .slideIn-placeholder {
+    width: 420px;
+    background-color: #feb;
+    border: 1px solid #ec8;
+}
+
+#left-col .slideOff-placeholder {
+    width: 420px;
+    background-color: #f99;
+    border: 1px solid #e55;
+}
+
+#left-col .slideIn-placeholder {
+    width: 420px;
+    background-color: transparent;
+    border: 1px solid #e8e8e8;
+}
+
+/**
+* Pop-over boxes
+*/
+
+.line-edit {
+    position: absolute;
+    background-color: #fff;
+}
+
+.out-border {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.thick-border {
+    border: 3px solid #c4c4c4;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.line-edit label {
+    font-weight: bold;
+    margin: 0 1em;
+}
+
+.line-edit .popup-yesno {
+    margin-top: 0.8em;
+}
+
+.line-edit #popup-cancel {
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+}
+
+.line-edit-form {
+    background-color: #f9f9f9;
+}
+
+#loading16 {
+    position: absolute;
+}
+
+.popup {
+    position: absolute;
+}
+
+.success-msg {
+    background-color: #ffffe0;
+    border: 1px solid #e6db55;
+    border-radius: 3px;
+}
+
+.error-msg {
+    background-color: #ffebe8;
+    border: 1px solid #e6654f;
+    border-radius: 3px;
+}
+
+.error-msg p,
+.success-msg p {
+    border: 0;
+    padding: 0.3em 0.5em;
+    margin: 5px !important;
+}
+
+.staticBox {
+    background-color: #222;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    position: absolute;
+    padding: 2px;
+    opacity: 0.75;
+}
+
+.staticBox p {
+    border: 3px solid #c4c4c4;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #000;
+    opacity: 1;
+    margin: 4px !important;
+    z-index: 99999;
+}
+
+/**
+* Caption's Modal Box
+*/
+
+.editor-overlay {
+    position: fixed;
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    z-index: 154000;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: none;
+}
+
+.editor-overlay #live-container {
+    position: relative;
+    width: 720px;
+    height: auto;
+    max-height: 90%;
+    margin: auto;
+    margin-top: 35px;
+    padding: 15px;
+    border: 3px solid #777;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+
+.editor-overlay #live-container {
+    background-color: #fff;
+}
+
+.editor-overlay #livecaption_tbl {
+    background-color: #fff;
+}

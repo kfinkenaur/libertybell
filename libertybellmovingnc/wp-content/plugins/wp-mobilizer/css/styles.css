@@ -1,0 +1,19 @@
+/* ----------------------------------- */
+/**
+ * @package WP-Mobilizer
+ * @link http://www.wp-mobilizer.com
+ * @copyright Copyright &copy; 2013, Kilukru Media
+ * @version: 1.0.6
+ */
+/* ----------------------------------- */
+
+/* ----------------------------------- */
+/* Commons Frontend Styles */
+.mblzr_force_mobile{
+	display: block;
+	font-size: 0.85em;
+	outline: none;
+	padding: 10px 0;
+	text-align: center;
+}
+/* ----------------------------------- */

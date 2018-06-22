@@ -1,0 +1,16 @@
+/* ----------------------------------- */
+/**
+ * @package WP-Mobilizer
+ * @link http://www.wp-mobilizer.com
+ * @copyright Copyright &copy; 2013, Kilukru Media
+ * @version: 1.0.6
+ */
+/* ----------------------------------- */
+
+/* ----------------------------------- */
+.mblzr_wrap .form-table th,
+.mblzr_wrap .form-table td{
+	border:none; /* !important*/
+	padding: 0;
+}
+/* ----------------------------------- */
