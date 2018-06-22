@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade" client="site">
+	<name>CjBlog Tags Cloud</name>
+	<author>CoreJoomla</author>
+	<creationDate>2013-Mar-01</creationDate>
+	<copyright>All rights reserved by www.corejoomla.com 2009-11.</copyright>
+	<license>GPL 2.0</license>
+	<authorEmail>support@corejoomla.com</authorEmail>
+	<authorUrl>www.corejoomla.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Displays tag cloud of article tags.</description>
+	<files>
+		<filename module="mod_cjblogtagcloud">mod_cjblogtagcloud.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<media destination="mod_cjblogtagcloud" folder=".">
+		<filename>index.html</filename>
+		<filename>jquery.tagcloud.js</filename>
+	</media>
+	
+	<languages></languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="count" type="text" default="20" label="Tags" description="Number of tags to be displayed" />
+				
+				<field name="start_font" type="text" default="9" label="Start Font Size" description="Start Font Size" />
+				<field name="end_font" type="text" default="18" label="Start Font Size" description="End Font Size" />
+				<field name="start_color" type="text" default="#cde" label="Start Color" description="Starting font color" />
+				<field name="end_color" type="text" default="#f52" label="End Color" description="Ending font color" />
+				<field name="font_unit" type="list" default="px" label="Font unit" description="Font size unit">
+					<option value="px">px</option>
+					<option value="pt">pt</option>
+					<option value="em">em</option>
+				</field>
+			</fieldset>
+		</fields>
+		<fieldset name="advanced">
+			<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+			<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			<field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC"> 
+				<option value="1">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+			</field>
+			<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+		</fieldset>
+	</config>
+</extension>

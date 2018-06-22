@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+    type="module"
+    version="3.0"
+    client="site"
+    method="upgrade">
+    <name>Item Rating Module</name>
+    <description>Most Rated Item Rating Module</description>
+    <creationDate>2014-06-19</creationDate>
+    <copyright>Copyright (C) 2014. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>Joomunited</author>
+    <authorEmail>contact@joomunited.com</authorEmail>
+    <authorUrl>www.joomunited.com</authorUrl>
+    <version>1.2.2</version>
+    <files>
+        <filename module="mod_itemrating">mod_itemrating.php</filename>
+        <folder>tmpl</folder>
+        <filename>index.html</filename>
+        <filename>mod_itemrating.xml</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic" addfieldpath="/administrator/components/com_itemrating/models/fields">
+                <field name="lang" type="lang"   description="" />
+                <field
+					name="count"
+					type="text"
+					default="5"
+					label="Number of Articles"
+					description="Number of Articles" />
+                <field
+					name="context"
+					type="list"
+					default="com_content"
+					label="Select Context"
+					description="Select Context Type"
+				>
+					<option value="com_content">Joomla Articles</option>
+					<option value="com_k2">K2</option>
+				</field>
+				<field name="ordering" type="list"
+					default="published" label="Ordering">
+					<option	value="rating">Top Rating</option>
+					<option	value="user">Highest User Count</option>
+					<option	value="random">Random</option>
+				</field>
+				<field name="score_type" type="list"
+            label="COM_ITEMRATING_FORM_LBL_SCORE_TYPE"
+            description="COM_ITEMRATING_FORM_DESC_TYPE_SCORE" 
+            filter="raw" default="2" showon="show_category_view:0">
+		<option value="9">Text</option>	
+		<option value="2">COM_ITEMRATING_STARS</option>
+		<option value="3">COM_ITEMRATING_HEART</option>
+		<option value="4">COM_ITEMRATING_THUMB</option>
+		<option value="6">COM_ITEMRATING_ARROWS</option>
+		<option value="7">COM_ITEMRATING_CHECK</option>
+		<option value="8">COM_ITEMRATING_LIGHT</option>
+		<option value="5">COM_ITEMRATING_BAR</option>	
+        </field>
+	
+            </fieldset>
+            <fieldset
+                name="advanced">
+                <field
+                    name="layout"
+                    type="modulelayout"
+                    label="JFIELD_ALT_LAYOUT_LABEL"
+                    description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+                <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+                <field
+                    name="cache"
+                    type="list"
+                    default="1"
+                    label="COM_MODULES_FIELD_CACHING_LABEL"
+                    description="COM_MODULES_FIELD_CACHING_DESC">
+                    <option
+                        value="1">JGLOBAL_USE_GLOBAL
+                    </option>
+                    <option
+                        value="0">COM_MODULES_FIELD_VALUE_NOCACHING
+                    </option>
+                </field>
+                <field
+                    name="cache_time"
+                    type="text"
+                    default="900"
+                    label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                    description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+                <field
+                    name="cachemode"
+                    type="hidden"
+                    default="itemid">
+                    <option
+                        value="itemid">
+                    </option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

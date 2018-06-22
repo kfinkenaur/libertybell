@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade" client="site">
+	<name>CjBlog My Badges</name>
+	<author>CoreJoomla</author>
+	<creationDate>2014-Mar-19</creationDate>
+	<copyright>All rights reserved by www.corejoomla.com 2009-14.</copyright>
+	<license>GPL 2.0</license>
+	<authorEmail>support@corejoomla.com</authorEmail>
+	<authorUrl>www.corejoomla.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Displays user badges.</description>
+	<files>
+		<filename module="mod_cjblogmybadges">mod_cjblogmybadges.php</filename>
+		<folder>tmpl</folder>
+		<filename>index.html</filename>
+	</files>
+	
+	<languages></languages>
+
+	<config>
+	    <fields name="params">
+			<fieldset name="basic">
+				<field name="num_badges" type="text" default="20" label="# of badges" description="Number of badges to be displayed" />
+			</fieldset>
+		</fields>
+		<fieldset name="advanced">
+			<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+			<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			<field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC"> 
+				<option value="1">JGLOBAL_USE_GLOBAL</option>
+				<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+			</field>
+			<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+		</fieldset>
+	</config>
+</extension>

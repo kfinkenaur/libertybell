@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.x"
+	client="site"
+	method="upgrade">
+	
+    <name>Monialsfader</name>
+    <author>Gauti Creator</author>
+	<creationDate>13-may-2012</creationDate>
+	<authorUrl>http://gauti.info/</authorUrl>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <version>3.0.2</version>
+    <description><![CDATA[
+			<style>
+			.freakishthemes h3{text-transform: uppercase;	margin: 20px 0px 10px 0px;	}	
+			.freakishthemes img{float:left;	margin:5px 10px 5px 0px;	}	
+			.freakishthemes p,.freakishthemes li{padding: 5px 5px 5px 30px;list-style: none outside none;}		
+			.freakishthemes ul.list-style li{	background:url(../modules/mod_monialsfader/images/admin/tick.png) 0px 6px no-repeat;	padding-left:30px;	line-height:15px;	}
+			</style>
+			<div class="freakishthemes">
+			<h3>Monials Fader 1.0</h3>			
+			<a href="http://freakishthemes.com/" target="_blank"><img src="../modules/mod_monialsfader/images/admin/logo.png"></a>
+			<p>This module is used to add testimonials to your website. You can add unlimited number of testimonials, and the corresponding authors, title and date for it. You can also add images to authors which you won’t find in any similar module. There are lots of customizing options using which you can make this modules look like anything you need.</p>
+			<br clear="both" />
+			<h3>Features</h3>
+			<ul class="list-style">
+			<li>Compatibility with Joomla 1.6, 1.7 and Joomla 2.5</li>
+			<li>Light weight module. </li>
+			<li>Unlimited number of testimonials.</li>
+			<li>You can add testimonial titles, authors and date to all testimonials. You also have the ability to leave the titles blank. For eg. You can enter titles for 1st and 3rd testimonials and leave the 2nd one blank. This can be done to titles, author names, dates and also to images.</li>
+			<li>You can also add images to the authors.</li>
+			<li>The Title, author, image for author facilities make the testimonials more comprehensive. There are 8 different styles of layout for image. </li>
+			<li>Full control over all display settings.</li>
+			<li>Blink/fade effects. Time of fade/blink and waiting time between two testimonials can be specified, according as to how you want the testimonials to appear on the site.</li>
+			<li>Optional footer link.</li>
+			<li>Turn on/off quotes image, quote image position setting.</li>
+			<li>Ability to add your own quote image. </li>
+			<li>You can select fonts of your desire for the testimonials, wide range of options are available (over 65 fonts). Also color, font-size, font-style of the testimonials can be kept as per our wish. </li>
+			<li>Easy configuration and self explanatory settings.</li>
+			<li>jQuery.noConflict() for safe execution of script without conflicting with other extensions.</li>
+			<li>W3C valid.</li>
+			<li>Easy and friendly back-end administration.</li>
+			<li>Used Javascript Framework:  Jquery latest version</li>
+			<li>Fully compatible: Firefox, IE6+, Opera, Safari & Google Chrome.</li>		
+			</ul>
+			<h3>Upgrade versions</h3>
+			<p>Your current versions is 3.0.2 <a target="_blank" href="http://freakishthemes.com/">Find our latest versions now</a></p>
+			<h3>Userful links</h3>
+			<ul>
+			<li><a target="_blank" href="http://freakishthemes.com/2012-05-18-16-54-33/contact-me.html">Report bug</a></li>
+			<li><a target="_blank" href="http://freakishthemes.com/forum.html">Forum support</a></li>
+			</ul>
+			<h3>About Freakish Themes, Gauti Creator & copyright</h3>	
+			<div>
+			<a href="http://freakishthemes.com/" target="_blank"><img src="../modules/mod_monialsfader/images/admin/ftlogo.png"></a>
+			<p>Freakish Themes is Professional website template provider.</p>
+			<p><a href="http://freakishthemes.com/" target="_blank">Click Here to visit Freakishthemes.</a></p>
+			<br/>
+			</div>
+			<a href="http://gauti.info/" target="_blank"><img src="../modules/mod_monialsfader/images/admin/gauticreator.png"></a>
+			<p>Gauti Creator, that's me is a freelance web designer and developer. I am available for all kind of web designing and web developing works. You can contact me through <a href="mailto:me@gauti.info" />me@gauti.info</a></p>
+			<p>Copyright 2009 - 2013 <a href="http://gauti.info" target="_blank">Gauti Creator</a> & <a href="http://freakishthemes.com/" target="_blank">Freakish Themes.</a></p>
+			</div>
+	]]>
+	</description>
+    <files>
+        <filename>mod_monialsfader.xml</filename>
+        <filename module="mod_monialsfader">mod_monialsfader.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>		
+        <folder>tmpl</folder>	
+		<folder>images</folder>
+		<folder>authors</folder>
+    </files>
+	
+	<languages>
+		<language tag="en-GB">en-GB.mod_monialsfader.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="content" label="MOD_MONIALSFADER_CONTENT">
+			
+				<field 
+					name="titles" 
+					type="textarea" 
+					default="Game Changer\\Nice software\\You can't beat the price" 
+					rows="8" 
+					cols="40" 
+					filter="raw"
+					label="MOD_MONIALSFADER_TITLES_LABEL" 
+					description="MOD_MONIALSFADER_TITLES_DESC" />
+					
+				<field 
+					name="testimonials" 
+					type="textarea" 
+					default="It has been a game-changer for us—We didn't really have a way to scale the customer experience before\\This is the kind of software the internet has been crying out for.\\ave used them for quite a few projects and LOVE them. They've been very easy to work with and you can't beat the price." 
+					rows="8" 
+					cols="40" 
+					filter="raw"
+					label="MOD_MONIALSFADER_TESTIMONIALS_LABEL" 
+					description="MOD_MONIALSFADER_TESTIMONIALS_DESC" />		
+					
+				<field 
+					name="authors" 
+					type="textarea" 
+					default="iamkcjones\\lkieksi\\sepiariver" 
+					rows="8" 
+					cols="40"
+					label="MOD_MONIALSFADER_AUTHORS_LABEL" 
+					description="MOD_MONIALSFADER_AUTHORS_DES" />
+
+				<field 
+					name="dates" 
+					type="textarea" 
+					default="May 8, 2012\\Apr 18, 2012\\May 7, 2012" 
+					rows="8" 
+					cols="40"
+					label="MOD_MONIALSFADER_DATES_LABEL" 
+					description="MOD_MONIALSFADER_DATES_DES" />
+					
+				<field 
+					name="images" 
+					type="textarea" 
+					default="modules/mod_monialsfader/authors/1.jpg\\modules/mod_monialsfader/authors/2.jpg\\modules/mod_monialsfader/authors/3.jpg" 
+					rows="8"
+					cols="40" 
+					label="MOD_MONIALSFADER_IMAGES_LABEL" 
+					description="MOD_MONIALSFADER_IMAGES_DES" />
+			
+				<field 
+					name="displaylink" 
+					type="radio" 
+					default="1" 
+					label="MOD_MONIALSFADER_DIAPLAY_LINK_LABEL" 
+					description="MOD_MONIALSFADER_DIAPLAY_LINK_DESC">
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+				</field>
+				
+				<field 
+					name="displaylinknw" 
+					type="radio" 
+					default="1" 
+					label="MOD_MONIALSFADER_DIAPLAY_LINK_NW_LABEL" 
+					description="MOD_MONIALSFADER_DIAPLAY_LINK_NW_DESC">
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+				</field>
+				
+				<field 
+					name="link_text" 
+					type="text" 
+					filter="raw"
+					default="More Testimonials" 
+					label="MOD_MONIALSFADER_LINK_TEXT_LABEL" 
+					description="MOD_MONIALSFADER_LINK_TEXT_DESC" />
+					
+				<field 
+					name="link_url" 
+					type="text" 
+					filter="raw"
+					default="http://gauti.info/" 
+					label="MOD_MONIALSFADER_LINK_URL_LABEL" 
+					description="MOD_MONIALSFADER_LINK_URL_DESC" />
+					
+				<field 
+					name="callback" 
+					type="radio" 
+					default="1" 
+					label="MOD_MONIALSFADER_CALLBACK_LINK_LABEL" 
+					description="MOD_MONIALSFADER_CALLBACK_LINK_DESC">
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+				</field>	
+				
+				
+			</fieldset>
+			
+			<fieldset name="fader_settings" label="MOD_MONIALSFADER_FADER_SETTINGS">
+			
+			<field 
+					name="fade_blink" 
+					type="radio" 
+					default="0" 
+					label="MOD_MONIALSFADER_FADER_BLINKER" 
+					description="MOD_MONIALSFADER_FADER_BLINKER_DESC">
+						<option value="0">Fader</option>
+						<option value="1">Blinker</option>
+				</field>	
+			
+			<field 
+					name="wait_time" 
+					type="text" 
+					default="6" 
+					label="MOD_MONIALSFADER_WAIT_TIME_LABEL" 
+					description="MOD_MONIALSFADER_WAIT_TIME_DESC" />
+					
+			<field 
+					name="fader_time" 
+					type="text" 
+					default="2.5" 
+					label="MOD_MONIALSFADER_FADER_TIME_LABEL" 
+					description="MOD_MONIALSFADER_FADER_TIME_DESC" />		
+			
+			<field type="spacer" name="fis" hr="true" />
+
+			<field 
+					name="faderimage" 
+					type="list" 
+					default="1" 
+					label="MOD_MONIALSFADER_FADER_IMAGE" 
+					description="MOD_MONIALSFADER_FADER_IMAGE_DESC">
+						<option value="0">None</option>
+						<option value="1">On Hover</option>
+						<option value="2">Always</option>
+			</field>
+
+			<field type="spacer" name="left_arrow_pos" label="MOD_MONIALSFADER_L_ARROW_POS" />
+
+			<field 
+					name="left_arrow_left" 
+					type="text" 
+					default="15px" 
+					label="MOD_MONIALSFADER_LEFT_ARROW_LEFT" 
+					description="MOD_MONIALSFADER_LEFT_ARROW_LEFT" />
+
+			<field 
+					name="left_arrow_top" 
+					type="text" 
+					default="120px" 
+					label="MOD_MONIALSFADER_LEFT_ARROW_TOP" 
+					description="MOD_MONIALSFADER_LEFT_ARROW_TOP" />
+
+			<field type="spacer" name="right_arrow_pos" label="MOD_MONIALSFADER_R_ARROW_POS" />
+
+			<field 
+					name="right_arrow_right" 
+					type="text" 
+					default="15px" 
+					label="MOD_MONIALSFADER_RIGHT_ARROW_RIGHT" 
+					description="MOD_MONIALSFADER_RIGHT_ARROW_RIGHT" />
+
+			<field 
+					name="right_arrow_top" 
+					type="text" 
+					default="120px" 
+					label="MOD_MONIALSFADER_RIGHT_ARROW_TOP" 
+					description="MOD_MONIALSFADER_RIGHT_ARROW_TOP" />		
+			
+			</fieldset>
+			
+			<fieldset name="display_settings" label="MOD_MONIALSFADER_DISPLAY_SETTINGS">
+
+				<field 
+					name="mod_height" 
+					type="text" 
+					default="200px" 
+					label="MOD_MONIALSFADER_HEIGHT_LABEL" 
+					description="MOD_MONIALSFADER_HEIGHT_DESC" />
+					
+				<field 
+					name="mod_width" 
+					type="text" 
+					default="350px" 
+					label="MOD_MONIALSFADER_WIDTH_LABEL" 
+					description="MOD_MONIALSFADER_WIDTH_DESC" />
+					
+				<field 
+					name="background" 
+					type="text" 
+					default="" 
+					label="MOD_MONIALSFADER_BACKGROUND_LABEL" 
+					description="MOD_MONIALSFADER_BACKGROUND_DESC" />	
+					
+				<field 
+					name="rounded_corners" 
+					type="text" 
+					default="0px" 
+					label="MOD_MONIALSFADER_ROUND_COR_LAB" 
+					description="MOD_MONIALSFADER_ROUND_COR_DESC" />
+				<field 
+					name="image_s_no" 
+					type="radio" 
+					default="1" 
+					label="MOD_MONIALSFADER_IMAGESN" 
+					description="MOD_MONIALSFADER_FADER_IMAGESN_DESC">
+						<option value="0">No Image</option>
+						<option value="1">Image Present</option>
+				</field>
+				
+				<field 
+					name="style" 
+					type="list" 
+					default="2" 
+					label="MOD_MONIALSFADER_STYLE" 
+					description="MOD_MONIALSFADER_STYLE_IMAGE">
+						<option value="0">Style-1</option>
+						<option value="1">Style-2</option>
+						<option value="2">Style-3</option>
+						<option value="3">Style-4</option>
+						<option value="4">Style-5</option>
+						<option value="5">Style-6</option>
+						<option value="6">Style-7</option>
+						<option value="7">Style-8</option>
+				</field>
+				
+				<field 
+					name="imgwidth" 
+					type="text" 
+					default="80px" 
+					label="MOD_MONIALSFADER_IMGWID" 
+					description="MOD_MONIALSFADER_IMGWID_DESC" />	
+				
+			</fieldset>	
+			
+			
+			<fieldset name="quote_settings" label="MOD_MONIALSFADER_QUOTE_SETTINGS">
+			
+				<field 
+					name="quoteimage" 
+					type="list" 
+					default="0" 
+					label="MOD_MONIALSFADER_QUOTE_IMAGE" 
+					description="MOD_MONIALSFADER_QUOTE_IMAGE">
+						<option value="0">No Quote Image</option>
+						<option value="1">Existing Image</option>
+						<option value="2">Your Own Image</option>
+				</field>
+						
+				<field type="spacer" name="eihr" hr="true" />
+					
+				<field type="spacer" name="MOD_MONIALSFADER_QUOTE_IMAGE_EXIS" label="MOD_MONIALSFADER_QUOTE_IMAGE_EXIS" />			
+						
+				<field 
+					name="quote_type" 
+					type="list" 
+					default="Red" 
+					label="MOD_MONIALSFADER_QUOTE_TYPE_LABEL" 
+					description="MOD_MONIALSFADER_QUOTE_TYPE_DESC">
+						<option value="Red">Red</option>
+						<option value="Blue">Blue</option>
+						<option value="Brown">Brown</option>
+						<option value="Green">Green</option>
+						<option value="White">White</option>
+						<option value="Black">Black</option>
+						<option value="Grey">Grey</option>
+						<option value="Sliver">Sliver</option>
+				</field>	
+				
+				<field type="spacer" name="oihr" hr="true" />
+					
+				<field type="spacer" name="quo_img_own" label="MOD_MONIALSFADER_QUOTE_IMAGE_EXIS_OWN" />	
+				
+				<field name="own_image" type="media" directory="/" label="MOD_MONIALSFADER_QUOTE_IMAGE_OWN_UP" description="MOD_MONIALSFADER_QUOTE_IMAGE_OWN_UP"/>
+				
+				<field type="spacer" name="eiqhr" hr="true" />
+					
+				<field type="spacer" name="MOD_MONIALSFADER_QUOTES_POS" label="MOD_MONIALSFADER_QUOTES_POS" />	
+				
+				<field 
+					name="qleft" 
+					type="text" 
+					default="0px" 
+					label="MOD_MONIALSFADER_QUOTES_LEFT" 
+					description="MOD_MONIALSFADER_QUOTES_LEFT_DESC" />	
+					
+				<field 
+					name="qtop" 
+					type="text" 
+					default="0px" 
+					label="MOD_MONIALSFADER_QUOTES_TOP" 
+					description="MOD_MONIALSFADER_QUOTES_TOP_DESC" />
+				
+			</fieldset>		
+			
+			<fieldset name="testi_title_settings" label="MOD_MONIALSFADER_TESTI_TITLE_DISPLAY_SETTINGS">
+					
+				<field 
+					name="title_font" 
+					type="list" 
+					default="" 
+					label="MOD_MONIALSFADER_TITLE_FONT_LABEL" 
+					description="MOD_MONIALSFADER_TITLE_FONT_DESC">
+						<option value="0">Inherit from website</option>
+						<option value="1">Andale Mono</option>
+						<option value="2">Arial</option>
+						<option value="2">Arial Black</option>
+						<option value="4">Book Antiqua</option>
+						<option value="5">Comic Sans MS</option>
+						<option value="6">Couries New</option>
+						<option value="7">Georgia</option>
+						<option value="8">Helvetica</option>
+						<option value="9">Impact</option>
+						<option value="10">Tahoma</option>
+						<option value="11">Terminal</option>
+						<option value="12">Times New Roman</option>
+						<option value="13">Trebuchet</option>
+						<option value="14">Vernada</option>
+						<option value="Andale Mono">Andale Mono</option>
+						<option value="Questrial">Questrial</option>
+						<option value="Kristi">Kristi</option>
+						<option value="Lekton">Lekton</option>
+						<option value="Nova+Round">Nova Round</option>
+						<option value="Nova+Oval">Nova Oval</option>
+						<option value="League+Script">League Script</option>
+						<option value="Caudex">Caudex</option>
+						<option value="Puritan">Puritan</option>
+						<option value="Prociono">Prociono</option>
+						<option value="Abel">Abel</option>
+						<option value="Snippet">Snippet</option>
+						<option value="Mako">Mako</option>
+						<option value="Ubuntu+Mono">Ubuntu Mono</option>
+						<option value="Nova+Slim">Nova Slim</option>
+						<option value="Unkempt">Unkempt</option>
+						<option value="Lato">Lato</option>
+						<option value="Arvo">Arvo</option>
+						<option value="Cabin">Cabin</option>
+						<option value="Crushed">Crushed</option>
+						<option value="Asset">Asset</option>
+						<option value="Julee">Julee</option>
+						<option value="Judson">Judson</option>
+						<option value="Neuton">Neuton</option>
+						<option value="Mate">Mate</option>
+						<option value="Michroma">Michroma</option>
+						<option value="Lora">Lora</option>
+						<option value="Pompiere">Pompiere</option>
+						<option value="Andika">Andika</option>
+						<option value="Coustard">Coustard</option>
+						<option value="Syncopate">Syncopate</option>
+						<option value="Montez">Montez</option>
+						<option value="Tinos">Tinos</option>
+						<option value="Philosopher">Philosopher</option>
+						<option value="Neucha">Neucha</option>
+						<option value="Corben">Corben</option>
+						<option value="Federo">Federo</option>
+						<option value="Petrona">Petrona</option>
+						<option value="Arimo">Arimo</option>
+						<option value="Quicksand">Quicksand</option>
+						<option value="Ubuntu">Ubuntu</option>
+						<option value="Smokum">Smokum</option>
+						<option value="Federant">Federant</option>
+						<option value="Podkova">Podkova</option>
+						<option value="Artifika">Artifika</option>
+						<option value="Bitter">Bitter</option>
+						<option value="Limelight">Limelight</option>
+						<option value="Lobster">Lobster</option>
+						<option value="Kreon">Kreon</option>
+						<option value="Rationale">Rationale</option>
+						<option value="Ovo">Ovo</option>
+						<option value="Monofett">Monofett</option>
+						<option value="Antic">Antic</option>
+				</field>	
+					
+				<field 
+					name="title_color" 
+					type="text" 
+					default="#770000" 
+					label="MOD_MONIALSFADER_TITLE_COLOR_LABEL" 
+					description="MOD_MONIALSFADER_TITLE_COLOR_DESC" />
+
+				<field 
+					name="title_font_size" 
+					type="text" 
+					default="18px" 
+					label="MOD_MONIALSFADER_TITLE_FONT_SIZE_LABEL" 
+					description="MOD_MONIALSFADER_TITLE_FONT_SIZE_DESC" />
+					
+				<field type="spacer" name="s12" hr="true" />	
+
+				<field 
+					name="title_text_align" 
+					type="radio" 
+					default="Center" 
+					label="MOD_MONIALSFADER_TITLE_TEXT_ALIGN_LABEL" 
+					description="MOD_MONIALSFADER_TITLE_TEXT_ALIGN_DESC">
+						<option value="Left">Left</option>
+						<option value="Right">Right</option>
+						<option value="Center">Center</option>
+						<option value="Justify">Justify</option>
+				</field>
+
+				<field type="spacer" name="s1" hr="true" />
+				
+				<field 
+					name="title_font_weight" 
+					type="radio" 
+					default="Bold" 
+					label="MOD_MONIALSFADER_TITLE_FONT_WEIGHT_LABEL" 
+					description="MOD_MONIALSFADER_TITLE_FONT_WEIGHT_DESC">
+						<option value="Normal">Normal</option>
+						<option value="Bold">Bold</option>
+				</field>
+				
+				<field type="spacer" name="s2" hr="true" />
+				
+				<field 
+					name="title_font_style" 
+					type="radio" 
+					default="Normal" 
+					label="MOD_MONIALSFADER_TITLE_FONT_STYLE_LABEL" 
+					description="MOD_MONIALSFADER_TITLE_FONT_STYLE_DESC">
+						<option value="Normal">Normal</option>
+						<option value="Italic">Italic</option>
+				</field>
+			
+			</fieldset>		
+			
+			<fieldset name="testi_settings" label="MOD_MONIALSFADER_TESTI_DISPLAY_SETTINGS">
+			
+				<field 
+					name="testi_font" 
+					type="list" 
+					default="" 
+					label="MOD_MONIALSFADER_TESTI_FONT_LABEL" 
+					description="MOD_MONIALSFADER_TESTI_FONT_DESC">
+						<option value="0">Inherit from website</option>
+						<option value="1">Andale Mono</option>
+						<option value="2">Arial</option>
+						<option value="2">Arial Black</option>
+						<option value="4">Book Antiqua</option>
+						<option value="5">Comic Sans MS</option>
+						<option value="6">Couries New</option>
+						<option value="7">Georgia</option>
+						<option value="8">Helvetica</option>
+						<option value="9">Impact</option>
+						<option value="10">Tahoma</option>
+						<option value="11">Terminal</option>
+						<option value="12">Times New Roman</option>
+						<option value="13">Trebuchet</option>
+						<option value="14">Vernada</option>
+						<option value="Andale Mono">Andale Mono</option>
+						<option value="Questrial">Questrial</option>
+						<option value="Kristi">Kristi</option>
+						<option value="Lekton">Lekton</option>
+						<option value="Nova+Round">Nova Round</option>
+						<option value="Nova+Oval">Nova Oval</option>
+						<option value="League+Script">League Script</option>
+						<option value="Caudex">Caudex</option>
+						<option value="Puritan">Puritan</option>
+						<option value="Prociono">Prociono</option>
+						<option value="Abel">Abel</option>
+						<option value="Snippet">Snippet</option>
+						<option value="Mako">Mako</option>
+						<option value="Ubuntu+Mono">Ubuntu Mono</option>
+						<option value="Nova+Slim">Nova Slim</option>
+						<option value="Unkempt">Unkempt</option>
+						<option value="Lato">Lato</option>
+						<option value="Arvo">Arvo</option>
+						<option value="Cabin">Cabin</option>
+						<option value="Crushed">Crushed</option>
+						<option value="Asset">Asset</option>
+						<option value="Julee">Julee</option>
+						<option value="Judson">Judson</option>
+						<option value="Neuton">Neuton</option>
+						<option value="Mate">Mate</option>
+						<option value="Michroma">Michroma</option>
+						<option value="Lora">Lora</option>
+						<option value="Pompiere">Pompiere</option>
+						<option value="Andika">Andika</option>
+						<option value="Coustard">Coustard</option>
+						<option value="Syncopate">Syncopate</option>
+						<option value="Montez">Montez</option>
+						<option value="Tinos">Tinos</option>
+						<option value="Philosopher">Philosopher</option>
+						<option value="Neucha">Neucha</option>
+						<option value="Corben">Corben</option>
+						<option value="Federo">Federo</option>
+						<option value="Petrona">Petrona</option>
+						<option value="Arimo">Arimo</option>
+						<option value="Quicksand">Quicksand</option>
+						<option value="Ubuntu">Ubuntu</option>
+						<option value="Smokum">Smokum</option>
+						<option value="Federant">Federant</option>
+						<option value="Podkova">Podkova</option>
+						<option value="Artifika">Artifika</option>
+						<option value="Bitter">Bitter</option>
+						<option value="Limelight">Limelight</option>
+						<option value="Lobster">Lobster</option>
+						<option value="Kreon">Kreon</option>
+						<option value="Rationale">Rationale</option>
+						<option value="Ovo">Ovo</option>
+						<option value="Monofett">Monofett</option>
+						<option value="Antic">Antic</option>
+				</field>
+				
+				<field 
+					name="testimonials_color" 
+					type="text" 
+					default="#C0C0C0" 
+					label="MOD_MONIALSFADER_TESTIMONIAL_COLOR_LABEL" 
+					description="MOD_MONIALSFADER_TESTIMONIAL_COLOR_DESC" />
+
+				<field 
+					name="testimonials_font_size" 
+					type="text" 
+					default="14px" 
+					label="MOD_MONIALSFADER_TESTIMONIAL_FONT_SIZE_LABEL" 
+					description="MOD_MONIALSFADER_TESTIMONIAL_FONT_SIZE_DESC" />
+					
+				<field type="spacer" name="s11" hr="true" />	
+
+				<field 
+					name="testimonials_text_align" 
+					type="radio" 
+					default="Left" 
+					label="MOD_MONIALSFADER_TESTIMONIAL_TEXT_ALIGN_LABEL" 
+					description="MOD_MONIALSFADER_TESTIMONIAL_TEXT_ALIGN_DESC">
+						<option value="Left">Left</option>
+						<option value="Right">Right</option>
+						<option value="Center">Center</option>
+						<option value="Justify">Justify</option>
+				</field>
+				
+				<field type="spacer" name="s3" hr="true" />
+
+				<field 
+					name="testimonials_font_weight" 
+					type="radio" 
+					default="Normal" 
+					label="MOD_MONIALSFADER_TESTIMONIAL_FONT_WEIGHT_LABEL" 
+					description="MOD_MONIALSFADER_TESTIMONIAL_FONT_WEIGHT_DESC">
+						<option value="Normal">Normal</option>
+						<option value="Bold">Bold</option>
+				</field>
+				
+				<field type="spacer" name="s4" hr="true" />
+				
+				<field 
+					name="testimonials_font_style" 
+					type="radio" 
+					default="Normal" 
+					label="MOD_MONIALSFADER_TESTIMONIAL_FONT_STYLE_LABEL" 
+					description="MOD_MONIALSFADER_TESTIMONIAL_FONT_STYLE_DESC">
+						<option value="Normal">Normal</option>
+						<option value="Italic">Italic</option>
+				</field>
+				
+			</fieldset>		
+			
+			<fieldset name="testi_author_settings" label="MOD_MONIALSFADER_TESTI_AUTH_DISPLAY_SETTINGS">
+			
+				<field 
+					name="auth_font" 
+					type="list" 
+					default="" 
+					label="MOD_MONIALSFADER_AUTH_FONT_LABEL" 
+					description="MOD_MONIALSFADER_AUTH_FONT_DESC">
+						<option value="0">Inherit from website</option>
+						<option value="1">Andale Mono</option>
+						<option value="2">Arial</option>
+						<option value="2">Arial Black</option>
+						<option value="4">Book Antiqua</option>
+						<option value="5">Comic Sans MS</option>
+						<option value="6">Couries New</option>
+						<option value="7">Georgia</option>
+						<option value="8">Helvetica</option>
+						<option value="9">Impact</option>
+						<option value="10">Tahoma</option>
+						<option value="11">Terminal</option>
+						<option value="12">Times New Roman</option>
+						<option value="13">Trebuchet</option>
+						<option value="14">Vernada</option>
+						<option value="Andale Mono">Andale Mono</option>
+						<option value="Questrial">Questrial</option>
+						<option value="Kristi">Kristi</option>
+						<option value="Lekton">Lekton</option>
+						<option value="Nova+Round">Nova Round</option>
+						<option value="Nova+Oval">Nova Oval</option>
+						<option value="League+Script">League Script</option>
+						<option value="Caudex">Caudex</option>
+						<option value="Puritan">Puritan</option>
+						<option value="Prociono">Prociono</option>
+						<option value="Abel">Abel</option>
+						<option value="Snippet">Snippet</option>
+						<option value="Mako">Mako</option>
+						<option value="Ubuntu+Mono">Ubuntu Mono</option>
+						<option value="Nova+Slim">Nova Slim</option>
+						<option value="Unkempt">Unkempt</option>
+						<option value="Lato">Lato</option>
+						<option value="Arvo">Arvo</option>
+						<option value="Cabin">Cabin</option>
+						<option value="Crushed">Crushed</option>
+						<option value="Asset">Asset</option>
+						<option value="Julee">Julee</option>
+						<option value="Judson">Judson</option>
+						<option value="Neuton">Neuton</option>
+						<option value="Mate">Mate</option>
+						<option value="Michroma">Michroma</option>
+						<option value="Lora">Lora</option>
+						<option value="Pompiere">Pompiere</option>
+						<option value="Andika">Andika</option>
+						<option value="Coustard">Coustard</option>
+						<option value="Syncopate">Syncopate</option>
+						<option value="Montez">Montez</option>
+						<option value="Tinos">Tinos</option>
+						<option value="Philosopher">Philosopher</option>
+						<option value="Neucha">Neucha</option>
+						<option value="Corben">Corben</option>
+						<option value="Federo">Federo</option>
+						<option value="Petrona">Petrona</option>
+						<option value="Arimo">Arimo</option>
+						<option value="Quicksand">Quicksand</option>
+						<option value="Ubuntu">Ubuntu</option>
+						<option value="Smokum">Smokum</option>
+						<option value="Federant">Federant</option>
+						<option value="Podkova">Podkova</option>
+						<option value="Artifika">Artifika</option>
+						<option value="Bitter">Bitter</option>
+						<option value="Limelight">Limelight</option>
+						<option value="Lobster">Lobster</option>
+						<option value="Kreon">Kreon</option>
+						<option value="Rationale">Rationale</option>
+						<option value="Ovo">Ovo</option>
+						<option value="Monofett">Monofett</option>
+						<option value="Antic">Antic</option>
+				</field>
+				
+				<field 
+					name="authors_color" 
+					type="text" 
+					default="#440000" 
+					label="MOD_MONIALSFADER_AUTHORS_COLOR_LABEL" 
+					description="MOD_MONIALSFADER_AUTHORS_COLOR_DESC" />
+
+				<field 
+					name="authors_font_size" 
+					type="text" 
+					default="11px" 
+					label="MOD_MONIALSFADER_AUTHORS_FONT_SIZE_LABEL" 
+					description="MOD_MONIALSFADER_AUTHORS_FONT_SIZE_DESC" />
+
+				<field type="spacer" name="s10" hr="true" />	
+					
+				<field 
+					name="authors_text_align" 
+					type="radio" 
+					default="Right" 
+					label="MOD_MONIALSFADER_AUTHORS_TEXT_ALIGN_LABEL" 
+					description="MOD_MONIALSFADER_AUTHORS_TEXT_ALIGN_DESC">
+						<option value="Left">Left</option>
+						<option value="Right">Right</option>
+						<option value="Center">Center</option>
+						<option value="Justify">Justify</option>
+				</field>
+				
+				<field type="spacer" name="s5" hr="true" />
+
+				<field 
+					name="authors_font_weight" 
+					type="radio" 
+					default="Normal" 
+					label="MOD_MONIALSFADER_AUTHORS_FONT_WEIGHT_LABEL" 
+					description="MOD_MONIALSFADER_AUTHORS_FONT_WEIGHT_DESC">
+						<option value="Normal">Normal</option>
+						<option value="Bold">Bold</option>
+				</field>
+				
+				<field type="spacer" name="s6" hr="true" />
+				
+				<field 
+					name="authors_font_style" 
+					type="radio" 
+					default="Italic" 
+					label="MOD_MONIALSFADER_AUTHORS_FONT_STYLE_LABEL" 
+					description="MOD_MONIALSFADER_AUTHORS_FONT_STYLE_DESC">
+						<option value="Normal">Normal</option>
+						<option value="Italic">Italic</option>
+				</field>
+				
+			</fieldset>		
+			
+			<fieldset name="bot_link_settings" label="MOD_MONIALSFADER_BOT_LINK_DISPLAY_SETTINGS">
+				
+				<field 
+					name="link_font" 
+					type="list" 
+					default="" 
+					label="MOD_MONIALSFADER_LINK_FONT_LABEL" 
+					description="MOD_MONIALSFADER_LINK_FONT_DESC">
+						<option value="0">Inherit from website</option>
+						<option value="1">Andale Mono</option>
+						<option value="2">Arial</option>
+						<option value="2">Arial Black</option>
+						<option value="4">Book Antiqua</option>
+						<option value="5">Comic Sans MS</option>
+						<option value="6">Couries New</option>
+						<option value="7">Georgia</option>
+						<option value="8">Helvetica</option>
+						<option value="9">Impact</option>
+						<option value="10">Tahoma</option>
+						<option value="11">Terminal</option>
+						<option value="12">Times New Roman</option>
+						<option value="13">Trebuchet</option>
+						<option value="14">Vernada</option>						
+						<option value="Andale Mono">Andale Mono</option>
+						<option value="Questrial">Questrial</option>
+						<option value="Kristi">Kristi</option>
+						<option value="Lekton">Lekton</option>
+						<option value="Nova+Round">Nova Round</option>
+						<option value="Nova+Oval">Nova Oval</option>
+						<option value="League+Script">League Script</option>
+						<option value="Caudex">Caudex</option>
+						<option value="Puritan">Puritan</option>
+						<option value="Prociono">Prociono</option>
+						<option value="Abel">Abel</option>
+						<option value="Snippet">Snippet</option>
+						<option value="Mako">Mako</option>
+						<option value="Ubuntu+Mono">Ubuntu Mono</option>
+						<option value="Nova+Slim">Nova Slim</option>
+						<option value="Unkempt">Unkempt</option>
+						<option value="Lato">Lato</option>
+						<option value="Arvo">Arvo</option>
+						<option value="Cabin">Cabin</option>
+						<option value="Crushed">Crushed</option>
+						<option value="Asset">Asset</option>
+						<option value="Julee">Julee</option>
+						<option value="Judson">Judson</option>
+						<option value="Neuton">Neuton</option>
+						<option value="Mate">Mate</option>
+						<option value="Michroma">Michroma</option>
+						<option value="Lora">Lora</option>
+						<option value="Pompiere">Pompiere</option>
+						<option value="Andika">Andika</option>
+						<option value="Coustard">Coustard</option>
+						<option value="Syncopate">Syncopate</option>
+						<option value="Montez">Montez</option>
+						<option value="Tinos">Tinos</option>
+						<option value="Philosopher">Philosopher</option>
+						<option value="Neucha">Neucha</option>
+						<option value="Corben">Corben</option>
+						<option value="Federo">Federo</option>
+						<option value="Petrona">Petrona</option>
+						<option value="Arimo">Arimo</option>
+						<option value="Quicksand">Quicksand</option>
+						<option value="Ubuntu">Ubuntu</option>
+						<option value="Smokum">Smokum</option>
+						<option value="Federant">Federant</option>
+						<option value="Podkova">Podkova</option>
+						<option value="Artifika">Artifika</option>
+						<option value="Bitter">Bitter</option>
+						<option value="Limelight">Limelight</option>
+						<option value="Lobster">Lobster</option>
+						<option value="Kreon">Kreon</option>
+						<option value="Rationale">Rationale</option>
+						<option value="Ovo">Ovo</option>
+						<option value="Monofett">Monofett</option>
+						<option value="Antic">Antic</option>
+				</field>
+				
+				<field 
+					name="link_color" 
+					type="text" 
+					default="#005500" 
+					label="MOD_MONIALSFADER_LINK_COLOR_LABEL" 
+					description="MOD_MONIALSFADER_LINK_COLOR_DESC" />
+
+				<field 
+					name="link_font_size" 
+					type="text" 
+					default="10px" 
+					label="MOD_MONIALSFADER_LINK_FONT_SIZE_LABEL" 
+					description="MOD_MONIALSFADER_LINK_FONT_SIZE_DESC" />
+					
+				<field type="spacer" name="s9" hr="true" />
+
+				<field 
+					name="link_text_align" 
+					type="radio" 
+					default="Right" 
+					label="MOD_MONIALSFADER_LINK_TEXT_ALIGN_LABEL" 
+					description="MOD_MONIALSFADER_LINK_TEXT_ALIGN_DESC">
+						<option value="Left">Left</option>
+						<option value="Right">Right</option>
+						<option value="Center">Center</option>
+						<option value="Justify">Justify</option>
+				</field>
+				
+				<field type="spacer" name="s7" hr="true" />
+
+				<field 
+					name="link_font_weight" 
+					type="radio" 
+					default="Normal" 
+					label="MOD_MONIALSFADER_LINK_FONT_WEIGHT_LABEL" 
+					description="MOD_MONIALSFADER_LINK_FONT_WEIGHT_DESC">
+						<option value="Normal">Normal</option>
+						<option value="Bold">Bold</option>
+				</field>
+				
+				<field type="spacer" name="s8" hr="true" />
+				
+				<field 
+					name="link_font_style" 
+					type="radio" 
+					default="Normal" 
+					label="MOD_MONIALSFADER_LINK_FONT_STYLE_LABEL" 
+					description="MOD_MONIALSFADER_LINK_FONT_STYLE_DESC">
+						<option value="Normal">Normal</option>
+						<option value="Italic">Italic</option>
+				</field>
+			
+			</fieldset>
+			
+		</fields>
+	</config>
+</extension>
