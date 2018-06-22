@@ -1,0 +1,49 @@
+{% extends '@slider/view.twig' %}
+
+{% macro checked(expected, actual, default) %}
+    {% if actual is empty and default %}
+        checked="checked"
+    {% elseif expected == actual %}
+        checked="checked"
+    {% endif %}
+{% endmacro %}
+
+
+
+{% block form %}
+    {% import '@core/form.twig' as form %}
+
+    {% import _self as macro %}
+
+    <table class="form-table swiper-options-general">
+        <tr>
+            <th scope="row">
+                <label for="">
+                    {{ translate('Cyclically') }}
+                    {{ form.tooltip('swiper-general-loop') }}
+                </label>
+            </th>
+            <td>
+                <label for="loopTrue">
+                    <input type="radio" name="general[loop]"
+                           id="loopTrue"
+                           value="true" {{ macro.checked('true', slider.settings.general.loop, 'true') }}/>
+                    <span>{{ translate('Enable') }}</span>
+                </label>
+                <label for="loopFalse">
+                    <input type="radio" name="general[loop]"
+                           id="loopFalse"
+                           value="false" {{ macro.checked('false', slider.settings.general.loop, 'false') }}/>
+                    <span>{{ translate('Disable') }}</span>
+                </label>
+            </td>
+        </tr>
+
+
+
+    </table>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,312 @@
+{% set float = '' %}
+{% set margin = '' %}
+{% set shadow = '' %}
+
+{% if slider.settings.properties.position == 'left' %}
+    {% set float = 'float: left;' %}
+{% elseif slider.settings.properties.position == 'right' %}
+    {% set float = 'float: right;' %}
+{% endif %}
+
+{% if slider.settings.properties.shadow != 'disable' %}
+    {% set shadow = slider.settings.properties.shadow %}
+{% endif %}
+
+{% if slider.settings.properties.widthType != '%' %}
+    {% if slider.settings.effects.caption.position == 'left' %}
+        {% set margin = 'margin-left: %spx;'|format(slider.settings.properties.width / 4) %}
+    {% elseif slider.settings.effects.caption.position == 'right' %}
+        {% set margin = 'margin-right: %spx;'|format(slider.settings.properties.width / 4) %}
+    {% elseif slider.settings.effects.caption.position == 'bottom' %}
+        {% set margin = 'margin-bottom: %spx;'|format(slider.settings.properties.height / 3) %}
+    {% endif %}
+{% endif %}
+
+{% if slider.settings.general.mode == 'carousel' %}
+    {% set imageWidth = slider.settings.properties.width / slider.settings.general.carousel.parts|default(4) %}
+{% else %}
+    {% set imageWidth = slider.settings.properties.width %}
+{% endif %}
+{% if slider.settings.properties.widthType == '%' %}
+    {% set imageWidth = null %}
+    {% set thumbWidth = slider.settings.properties.width %}
+    {% set thumbHeight = slider.settings.properties.width * 0.7 %}
+{% else %}
+    {% set thumbWidth = slider.settings.properties.width / 6 %}
+    {% set thumbHeight = slider.settings.properties.width / 9 %}
+{% endif %}
+
+{% set slideId = 1 %}
+
+<div id="supsystic-slider-wrapper-{{ slider.viewId }}" class="supsystic-slider-wrapper">
+    <div class="slider-sharing-top"></div>
+    <div id="supsystic-jssor-slider-{{ slider.viewId }}"
+         class="supsystic-plugin jssor-slider slider-container {{ shadow }}"
+         data-font="{{ slider.settings.effects.caption.font.family }}"
+         test="{{ slider.settings.properties.widthType }}"
+         style="position: relative;
+                 width: {{ slider.settings.properties.width }}px;
+                 height: {{ slider.settings.properties.height }}px;
+                 margin: 0 auto;
+                 {{ margin }}
+                 {{ float }}"
+         {% if slider.settings.effects.responsive == 'true' %}slider-responsive{% endif %}>
+        <div u="slides"
+             id="supsystic-slider-{{ slider.viewId }}"
+			{% if slider.settings.properties.integrationId is not null %}
+				data-integrate-id="{{ slider.settings.properties.integrationId }}"
+			{% endif %}
+             class="supsystic-slider supsystic-slider-{{ slider.id }} supsystic-slider-{{ slider.plugin }}"
+             data-type="{{ slider.plugin }}"
+             data-settings="{{ slider.settings|json_encode|e }}"
+             style="cursor: move; position: absolute; left: 0; top: 0; width: {{ slider.settings.properties.width }}px;height: {{ slider.settings.properties.height }}px; overflow: hidden;">
+
+            {% for index, image in slider.entities %}
+                <div class="slide jssor-html-captions" data-id="{{ slideId }}" style="opacity: 0.0">
+                    {% if image.type == 'image' %}
+                        {% if image.attachment.external_link and not image.attachment.html %}
+                            <a class="link" href="{{ image.attachment.external_link }}" target="{{ image.attachment.target }}">
+                        {% endif %}
+                                <img u=image src2="{{ image|image_size(imageWidth, slider.settings.properties.height, image.attachment.cropPosition) }}" alt="{{ image.attachment.alt }}" style="transform:translateZ(0)" />
+                        {% if image.attachment.external_link and not image.attachment.html %}
+                            </a>
+                        {% endif %}
+
+                        {# Caption #}{# if slider.settings.effects.caption.position != 'none' #}
+                        {% if slider.settings.general.captions == 'true' %}
+                            <div class="jssor-caption" u="thumb" style="padding: 10px; background-color: rgba(0, 0, 0, 0.47); color: #ffffff;">{{ image.attachment.description|raw }}</div>
+                        {% else %}
+                            <img u=thumb src2="{{ image|image_size(thumbWidth, thumbHeight) }}" alt="{{ image.attachment.alt }}"/>
+                        {% endif %}
+                    {% elseif image.type == 'map' %}
+                        <img u="image" src2="{{ environment.getModule('slider').getLocationUrl() }}/assets/images/transparent.png" />
+                        <div u="caption" class="slide-html jssor-map-container" style="position: relative; top: 0; left: 0; width: {{ slider.settings.properties.width }}px; height: {{ slider.settings.properties.height }}px;">
+                            [google_map_easy id="{{ image.map_id }}" width="100" width_units="%" height="{{ slider.settings.properties.height }}"]
+                        </div>
+                    {% elseif image.type == 'video' %}
+                        {% set autoplay = slider.settings.properties.videoAutoplay == 'true' ? true : false %}
+                        <div u="player" data-autoplay="{{ autoplay ? 1 : 0 }}" style="position: relative; top: 0; left: 0; width: {{ slider.settings.properties.width }}{{ slider.settings.properties.widthType }}; height: {{ slider.settings.properties.height }}px; overflow: hidden;">
+                            <video
+                                    id="video-{{ slider.id }}-{{ index }}"
+                                    data-video-id="{{ image.video_id }}"
+                                    data-service="{{ entity.attachment.service }}"
+                                    data-width="{{ slider.settings.properties.width }}"
+                                    data-height="{{ slider.settings.properties.height }}"
+                                    style="width: 100%;"></video>
+                        </div>
+                    {% endif %}
+
+                    {# Caption #}
+                    {% if slider.settings.general.captions == 'true' and image.attachment.description is not empty and slider.settings.effects.caption.position is empty %}
+                        <div class="jssor-caption" style="padding: 10px; background-color: rgba(0, 0, 0, 0.47); color: #ffffff;">{{ image.attachment.description|raw }}</div>
+                    {% endif %}
+
+                    {#{{ image.attachment.html|raw }}#}
+                    {# redo styles attachment #}
+                    {% if image.attachment.html %}
+                        <div style="display: table; height: 100%;">
+                            <div class="slide-html" u="caption" t="{{ image.attachment.html.effect }}" du="{{ image.attachment.html.effectDuration|default(800) }}" style="position: relative; display:table-cell; vertical-align: middle; top: 0; left: 0; width: {{ imageWidth }}px; height: {{ slider.settings.properties.height }}px; text-align: center;">
+                                <div class="slide-html-caption" style="font-size: {{ image.attachment.html.caption.fontSize|default(24) }}px; color: {{ image.attachment.html.caption.fontColor }}; margin-bottom: 20px;">{{ image.attachment.html.caption.text|raw }}</div>
+                                <div class="slide-html-content" style="font-size: {{ image.attachment.html.content.fontSize|default(14) }}px; color: {{ image.attachment.html.content.fontColor }}; margin-bottom: 20px;">{{ do_shortcode(image.attachment.html.content.text)|raw }}</div>
+                                {% if image.attachment.html.buttons %}
+                                    {% set buttonsWPos = 0 %}
+                                    {% for button in image.attachment.html.buttons %}
+                                        {% if button.position %}
+                                            {% set buttonsWPos = buttonsWPos + 1 %}
+                                        {% endif %}
+                                    {% endfor %}
+                                    {% if buttonsWPos > 0 %}
+                                        <div class="buttons-container" style="display: table; position: absolute; left: 0; top: 0; width: {{ slider.settings.properties.width }}px; height:{{ slider.settings.properties.height }}px;">
+                                            {% for row in 0..2 %}
+                                                <div style="display: table-row; position: relative;">
+                                                    {% for cell in 0..2 %}
+                                                        <div style="display: table-cell; position: relative;
+                                                                {% if row == 0 %}
+                                                                    vertical-align: top; padding-top: 20px;
+                                                                {% elseif row == 1 %}
+                                                                    vertical-align: middle;
+                                                                {% elseif row == 2 %}
+                                                                    vertical-align: bottom; padding-bottom: 20px;
+                                                                {% endif %}
+                                                                {% if cell == 0 %}
+                                                                        text-align: left; padding-left: 20px;
+                                                                {% elseif cell == 1 %}
+                                                                        text-align: center;
+                                                                {% elseif cell == 2 %}
+                                                                        text-align: right; padding-right: 20px;
+                                                                {% endif %}
+                                                                ">
+                                                            {% for button in image.attachment.html.buttons %}
+                                                                {% if row == 0 and cell == 0 and button.position == 'TL' %}
+                                                                    <a href="{{ button.link }}" target="{% if button.target == 'on' %}_blank{% endif %}" class="{{ button.class }}" data-oc="{{ button.color }}" data-ob="{{ button.background }}" data-coh="{{ button.coh }}" data-boh="{{ button.boh }}" style="color: {{ button.color }}; background: {{ button.background }};">{{ button.text|split('❯')[0] }}{% if button.class|split(' ')[0] == 'button02'%}<span class="button02-arrow">&#10095</span>{% endif %}</a>
+                                                                {% endif %}
+                                                                {% if row == 0 and cell == 1 and button.position == 'TC' %}
+                                                                    <a href="{{ button.link }}" target="{% if button.target == 'on' %}_blank{% endif %}" class="{{ button.class }}" data-oc="{{ button.color }}" data-ob="{{ button.background }}" data-coh="{{ button.coh }}" data-boh="{{ button.boh }}" style="color: {{ button.color }}; background: {{ button.background }};">{{ button.text|split('❯')[0] }}{% if button.class|split(' ')[0] == 'button02'%}<span class="button02-arrow">&#10095</span>{% endif %}</a>
+                                                                {% endif %}
+                                                                {% if row == 0 and cell == 2 and button.position == 'TR' %}
+                                                                    <a href="{{ button.link }}" target="{% if button.target == 'on' %}_blank{% endif %}" class="{{ button.class }}" data-oc="{{ button.color }}" data-ob="{{ button.background }}" data-coh="{{ button.coh }}" data-boh="{{ button.boh }}" style="color: {{ button.color }}; background: {{ button.background }};">{{ button.text|split('❯')[0] }}{% if button.class|split(' ')[0] == 'button02'%}<span class="button02-arrow">&#10095</span>{% endif %}</a>
+                                                                {% endif %}
+                                                                {% if row == 1 and cell == 0 and button.position == 'CL' %}
+                                                                    <a href="{{ button.link }}" target="{% if button.target == 'on' %}_blank{% endif %}" class="{{ button.class }}" data-oc="{{ button.color }}" data-ob="{{ button.background }}" data-coh="{{ button.coh }}" data-boh="{{ button.boh }}" style="color: {{ button.color }}; background: {{ button.background }};">{{ button.text|split('❯')[0] }}{% if button.class|split(' ')[0] == 'button02'%}<span class="button02-arrow">&#10095</span>{% endif %}</a>
+                                                                {% endif %}
+                                                                {% if row == 1 and cell == 1 and button.position == 'C' %}
+                                                                    <a href="{{ button.link }}" target="{% if button.target == 'on' %}_blank{% endif %}" class="{{ button.class }}" data-oc="{{ button.color }}" data-ob="{{ button.background }}" data-coh="{{ button.coh }}" data-boh="{{ button.boh }}" style="color: {{ button.color }}; background: {{ button.background }};">{{ button.text|split('❯')[0] }}{% if button.class|split(' ')[0] == 'button02'%}<span class="button02-arrow">&#10095</span>{% endif %}</a>
+                                                                {% endif %}
+                                                                {% if row == 1 and cell == 2 and button.position == 'CR' %}
+                                                                    <a href="{{ button.link }}" target="{% if button.target == 'on' %}_blank{% endif %}" class="{{ button.class }}" data-oc="{{ button.color }}" data-ob="{{ button.background }}" data-coh="{{ button.coh }}" data-boh="{{ button.boh }}" style="color: {{ button.color }}; background: {{ button.background }};">{{ button.text|split('❯')[0] }}{% if button.class|split(' ')[0] == 'button02'%}<span class="button02-arrow">&#10095</span>{% endif %}</a>
+                                                                {% endif %}
+                                                                {% if row == 2 and cell == 0 and button.position == 'BL' %}
+                                                                    <a href="{{ button.link }}" target="{% if button.target == 'on' %}_blank{% endif %}" class="{{ button.class }}" data-oc="{{ button.color }}" data-ob="{{ button.background }}" data-coh="{{ button.coh }}" data-boh="{{ button.boh }}" style="color: {{ button.color }}; background: {{ button.background }};">{{ button.text|split('❯')[0] }}{% if button.class|split(' ')[0] == 'button02'%}<span class="button02-arrow">&#10095</span>{% endif %}</a>
+                                                                {% endif %}
+                                                                {% if row == 2 and cell == 1 and button.position == 'BC' %}
+                                                                    <a href="{{ button.link }}" target="{% if button.target == 'on' %}_blank{% endif %}" class="{{ button.class }}" data-oc="{{ button.color }}" data-ob="{{ button.background }}" data-coh="{{ button.coh }}" data-boh="{{ button.boh }}" style="color: {{ button.color }}; background: {{ button.background }};">{{ button.text|split('❯')[0] }}{% if button.class|split(' ')[0] == 'button02'%}<span class="button02-arrow">&#10095</span>{% endif %}</a>
+                                                                {% endif %}
+                                                                {% if row == 2 and cell == 2 and button.position == 'BR' %}
+                                                                    <a href="{{ button.link }}" target="{% if button.target == 'on' %}_blank{% endif %}" class="{{ button.class }}" data-oc="{{ button.color }}" data-ob="{{ button.background }}" data-coh="{{ button.coh }}" data-boh="{{ button.boh }}" style="color: {{ button.color }}; background: {{ button.background }};">{{ button.text|split('❯')[0] }}{% if button.class|split(' ')[0] == 'button02'%}<span class="button02-arrow">&#10095</span>{% endif %}</a>
+                                                                {% endif %}
+                                                            {% endfor %}
+                                                        </div>
+                                                    {% endfor %}
+                                                </div>
+                                            {% endfor %}
+                                        </div>
+                                    {% else %}
+                                        <div class="slide-html-buttons">
+                                            {% for button in image.attachment.html.buttons %}
+                                                <a href="{{ button.link }}" target="{% if button.target == 'on' %}_blank{% endif %}" class="{{ button.class }}" data-oc="{{ button.color }}" data-ob="{{ button.background }}" data-coh="{{ button.colorOnHover }}" data-boh="{{ button.backgroundOnHover }}" style="color: {{ button.color }}; background: {{ button.background }};">{{ button.text|split('❯')[0] }}{% if button.class|split(' ')[0] == 'button02'%}<span class="button02-arrow">&#10095</span>{% endif %}</a>
+                                            {% endfor %}
+                                        </div>
+                                    {% endif %}
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+                {% set slideId = slideId + 1 %}
+            {% endfor %}
+            {% for post in slider.posts %}
+                {% set image = post.image %}
+                {% set title = post.title %}
+                {% if slider.settings.post_settings.optimize_title == 'true' %}
+                    {% set title = post.title|capitalize %}
+                {% endif %}
+                <div class="slide post-slide" data-id="{{ slideId }}">
+                    <a href="{{ post.url }}"><img u=image src2="{{ image|image_size(imageWidth, slider.settings.properties.height) }}" alt="{{ image.attachment.alt }}"></a>
+                    {% if slider.settings.general.captions == 'true' and slider.settings.effects.caption.position != 'default' %}
+                        <div u="thumb" class="post-caption">
+                            {% if slider.settings.post_settings.title == 'true' %}
+                                <h3 style="margin-left: 10px; padding-top: 4px;">{{ title }}</h3>
+                            {% endif %}
+                            {% if slider.settings.post_settings.date == 'true' %}
+                                <div style="margin-left: 10px;">{{ post.date }}</div>
+                            {% endif %}
+                            {% if slider.settings.post_settings.excerpt == 'true' %}
+                                <div style="margin-left: 10px;">{{ post.excerpt }}</div>
+                            {% endif %}
+                            {% if slider.settings.post_settings.read_more == 'true' %}
+                                <a href="{{ post.url }}" target="_blank" style="margin-left: 10px; font-size: 16px;">Read more...</a>
+                            {% endif %}
+                        </div>
+                    {% else %}
+                        <div class="post-caption">
+                            {% if slider.settings.post_settings.title == 'true' %}
+                                <h3 style="margin-left: 10px; padding-top: 4px;">{{ title }}</h3>
+                            {% endif %}
+                            {% if slider.settings.post_settings.date == 'true' %}
+                                <div style="margin-left: 10px;">{{ post.date }}</div>
+                            {% endif %}
+                            {% if slider.settings.post_settings.excerpt == 'true' %}
+                                <div style="margin-left: 10px;">{{ post.excerpt }}</div>
+                            {% endif %}
+                            {% if slider.settings.post_settings.read_more == 'true' %}
+                                <a href="{{ post.url }}" target="_blank" style="margin-left: 10px; font-size: 16px;">Read more...</a>
+                            {% endif %}
+                        </div>
+                        <img u=thumb src2="{{ image|image_size(thumbWidth, thumbHeight) }}" alt="{{ image.attachment.alt }}">
+                    {% endif %}
+                </div>
+                {% set slideId = slideId + 1 %}
+            {% endfor %}
+        </div>
+
+        {# Arrows #}
+        {% if slider.settings.effects.arrows != 'disable' %}
+            <span u="arrowleft" class="{{ slider.settings.effects.arrows }}l" style="width: 55px!important; height: 55px!important; top: 40%!important; left: 8px;!important"></span>
+            <span u="arrowright" class="{{ slider.settings.effects.arrows }}r" style="width: 55px!important; height: 55px!important; top: 40%!important; right: 8px!important"></span>
+        {% endif %}
+
+        {# Bullets #}
+        {% if slider.settings.effects.bullet != 'disable' %}
+            <div u="navigator" class="{{ slider.settings.effects.bullet }}" style="position: absolute; bottom: 4px; left: 6px;">
+                <div u="prototype" style="position: absolute; width: 21px; height: 21px; text-align:center; line-height:21px; color:white; font-size:12px;"><div u="numbertemplate"></div></div>
+            </div>
+        {% endif %}
+
+        {# Caption #}
+        {% if slider.settings.general.captions == 'true' %}
+            {% if slider.settings.effects.caption.position == 'bottom' %}
+                <div u="thumbnavigator" class="jssort07" style="position: absolute; width: {{ slider.settings.properties.width }}px; height: {{ slider.settings.properties.height / 3 }}px; left: 0; bottom: -{{ slider.settings.properties.height / 3 }}px; overflow: hidden;">
+                    <div u="slides" class="slider-caption-wrapper">
+                        <div u="prototype" class="slider-caption " style="background-color: {{ slider.settings.effects.caption.background.color.rgba|default('rgba(0, 0, 0, 0.5)') }};display: table; position: absolute; width: {{ slider.settings.properties.width }}px; height: {{ slider.settings.properties.height / 3 }}px; top: 0; left: 0; text-align: {{ slider.settings.effects.caption.text.align|default('auto') }};">
+                            <div u="thumbnailtemplate" style="display: table-cell; vertical-align: {{ slider.settings.effects.caption.text['vertical-align']|default('top') }}; font-family: '{{ slider.settings.effects.caption.font.family|default('Open Sans') }}', serif; font-weight: normal; position: relative; width: 100%; height: 100%; top: 0; left: 0; padding: 10px; color: {{ slider.settings.effects.caption.text.color|default('#000000') }}; font-size: {{ slider.settings.effects.caption.font.size|default('14') }}px;"></div>
+                        </div>
+                    </div>
+                </div>
+            {% elseif slider.settings.effects.caption.position == 'left' %}
+                <div u="thumbnavigator" class="jssort07" style="position: absolute;width: {{ slider.settings.properties.width / 3 }}px; height: {{ slider.settings.properties.height }}px; left: -{{ slider.settings.properties.width / 3 }}px; bottom: 0; overflow: hidden;">
+                    <div u="slides">
+                        <div u="prototype" style="background-color: {{ slider.settings.effects.caption.background.color.rgba|default('rgba(0, 0, 0, 0.5)') }};display: table; position: absolute; width: {{ slider.settings.properties.width / 3 }}px; height: {{ slider.settings.properties.height }}px; left: -{{ slider.settings.properties.width / 3 }}px; bottom: 0; text-align: {{ slider.settings.effects.caption.text.align|default('auto') }};">
+                            <div u="thumbnailtemplate" style="display: table-cell; vertical-align: {{ slider.settings.effects.caption.text['vertical-align']|default('top') }}; font-family: '{{ slider.settings.effects.caption.font.family|default('Open Sans') }}', serif; font-weight: normal; position: relative; width: inherit; height: inherit; top: 0; left: 0; padding: 10px; color: {{ slider.settings.effects.caption.text.color|default('#000000') }}; font-size: {{ slider.settings.effects.caption.font.size|default('14') }}px;"></div>
+                        </div>
+                    </div>
+                </div>
+            {% elseif slider.settings.effects.caption.position == 'right' %}
+                <div u="thumbnavigator" class="jssort07" style="position: absolute;width: {{ slider.settings.properties.width / 3 }}px; height: {{ slider.settings.properties.height }}px; right: -{{ slider.settings.properties.width / 3 }}px; bottom: 0; overflow: hidden;">
+                    <div u="slides">
+                        <div u="prototype" style="background-color: {{ slider.settings.effects.caption.background.color.rgba|default('rgba(0, 0, 0, 0.5)') }};display: table; position: absolute; width: {{ slider.settings.properties.width / 3 }}px; height: {{ slider.settings.properties.height }}px; right: -{{ slider.settings.properties.width / 3 }}px; bottom: 0; text-align: {{ slider.settings.effects.caption.text.align|default('auto') }};">
+                            <div u="thumbnailtemplate" style="display: table-cell; vertical-align: {{ slider.settings.effects.caption.text['vertical-align']|default('top') }}; font-family: '{{ slider.settings.effects.caption.font.family|default('Open Sans') }}', serif; font-weight: normal; position: relative; width: inherit; height: inherit; top: 0; left: 0; padding: 10px; color: {{ slider.settings.effects.caption.text.color|default('#000000') }}; font-size: {{ slider.settings.effects.caption.font.size|default('14') }}px;"></div>
+                        </div>
+                    </div>
+                </div>
+            {% elseif slider.settings.effects.caption.position == 'default' %}
+                <div u="thumbnavigator" class="jssort07" style="position: absolute;width: {{ slider.settings.properties.width }}px; height: {{ slider.settings.properties.height / 4 }}px; left: 0; top: 0; overflow: hidden;">
+                    <div u="slides" class="slider-caption-wrapper">
+                        <div u="prototype" class="slider-caption " style="  background-color: {{ slider.settings.effects.caption.background.color.rgba|default('rgba(0, 0, 0, 0.5)') }};position: absolute; width: {{ slider.settings.properties.width }}px; height: {{ slider.settings.properties.height / 4 }}px; top: 0; left: 0; text-align: {{ slider.settings.effects.caption.text.align|default('auto') }};">
+                            <div u="thumbnailtemplate" style="position: absolute; width: inherit; height: inherit; top: 0; left: 0; padding: 10px; font-family: '{{ slider.settings.effects.caption.font.family|default('Open Sans') }}', serif; font-weight: normal; color: {{ slider.settings.effects.caption.text.color|default('#000000') }}; font-size: {{ slider.settings.effects.caption.font.size|default('14') }}px;"></div>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        {% endif %}
+
+        {# Thumbnails #}
+        {% if slider.settings.general.captions != 'true' and slider.settings.effects.thumbnails.enable == 'true' %}
+            {% if slider.settings.effects.thumbnails.type == 'horizontal' %}
+                <div u="thumbnavigator" class="jssort07" style="position: absolute;width: {{ slider.settings.properties.width }}px; height: {{ slider.settings.properties.width/9 + 10 }}px; left: 0; bottom: 0; overflow: hidden; ">
+                    <div style="width: 100%; height:100%;"></div>
+                    <div u="slides" style="cursor: pointer;">
+                        <div u="prototype" class="p" style="position: absolute; width: {{ slider.settings.properties.width/6 }}px; height: {{ slider.settings.properties.width/9 }}px; top: 0; left: 0;">
+                            <div u="thumbnailtemplate" class="i" style="position:absolute;"></div>
+                            <div class="o"></div>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <div u="thumbnavigator" class="jssort02" style="{% if slider.settings.effects.thumbnails.type == 'vertical-left' %}left: -100px;{% else %}right: -100px;{% endif %} bottom: 0; height: {{ slider.settings.properties.height }}px;">
+                    <div u="slides" style="cursor: default;">
+                        <div u="prototype" class="p">
+                            <div class=w><div u="thumbnailtemplate" class="t"></div></div>
+                            <div class=c></div>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        {% endif %}
+    </div>
+    {% if slider.settings.socialSharing is not empty and slider.settings.socialSharing.status == 'enable' %}
+        <div class="slider-social-share-html" style="display:none;">
+            {{ slider.settings.socialSharing.html|raw }}
+        </div>
+    {% endif %}
+    <div class="slider-sharing-bottom"></div>
+</div>

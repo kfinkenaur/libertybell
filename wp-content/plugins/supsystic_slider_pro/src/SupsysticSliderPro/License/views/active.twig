@@ -1,0 +1,23 @@
+{% extends 'base.twig' %}
+
+{% block breadcrumbs %}
+
+    <nav id="supsystic-breadcrumbs" class="supsystic-breadcrumbs" xmlns="http://www.w3.org/1999/html">
+        <a href="{{ environment.generateUrl('slider') }}">{{ environment.translate('Slider by Supsystic') }}</a>
+        <i class="fa fa-angle-right"></i>
+        <a href="{{ environment.generateUrl('license') }}">{{ environment.translate('License') }}</a>
+    </nav>
+
+{% endblock %}
+
+{% block toolbar_wrap %}{% endblock %}
+
+{% block content %}
+    {% import '@core/form.twig' as form %}
+
+    <div class="supsystic-license">
+        <h3 style="margin-left: 20px; line-height: 2;">{{ translate('Congratulations! You have successfully installed and activated PRO version of Slider by Supsystic plugin.') }}</h3>
+        <div style="text-align: center;">{{ translate('Your premium support is expired in ' ~ days ~ ' days') }}</div>
+        <div class="description" style="text-align: center;">{{ environment.translate('You will not be able to update your pro version with expired license') }}</div>
+    </div>
+{% endblock %}

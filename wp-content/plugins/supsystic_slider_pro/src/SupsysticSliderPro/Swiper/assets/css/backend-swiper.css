@@ -1,0 +1,11 @@
+.effect-option {
+    display: none;
+}.effect-option th label{
+     margin-left:1rem;
+}
+ table.swiper-options-advanced {
+     display: none;
+ }
+ tr#transition-speed {
+     display:none;
+ }

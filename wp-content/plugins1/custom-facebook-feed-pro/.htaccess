@@ -1,0 +1,4 @@
+# Allow the plugin to access the following files via Ajax requests as they're required for certain functionality
+<Files ~ "query.php$|comments.php$|thumbs.php$">
+Allow from all
+</Files>

@@ -1,0 +1,123 @@
+/*
+	Supsystic slider slide HTML editor styles
+*/
+
+.editor-wrapper .slide-wrapper {
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.editor-wrapper .settings-wrapper {
+    float: right;
+    position: relative;
+    text-align: center;
+    width: 210px;
+    height: 315px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.59);
+}
+
+.editor-wrapper .content-caption {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    width: 400px;
+    height: 40px;
+    background: transparent;
+    font-size: 24px;
+}
+
+.editor-wrapper .content-text {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 500px;
+    height: 100px;
+    background: transparent;
+    resize: none;
+}
+
+.editor-wrapper .editor-buttons {
+    width: 500px;
+    position: absolute;
+    top: 220px;
+    left: 30px;
+}
+
+.editor-buttons .button {
+    margin-right: 10px !important;
+}
+
+.settings-wrapper .settings-nav {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.19);
+}
+
+.settings-wrapper .settings-nav .nav-wrapper {
+    margin-left: 32px;
+}
+
+.settings-wrapper .settings-nav .nav-button {
+    position: relative;
+    float: left;
+    padding: 4px;
+    margin: 0 4px;
+    text-decoration: none;
+    top: 2px;
+    border-bottom: 2px solid rgba(218, 218, 218, 0.94);
+}
+
+.settings-wrapper .settings-nav .nav-button:hover,
+.settings-wrapper .settings-nav .nav-button.active {
+    border-bottom: 2px solid #ffffff;
+}
+
+.settings-wrapper .save {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+.settings-wrapper .preview {
+    position: absolute;
+    bottom: 4px;
+    right: 80px;
+}
+
+.editor-wrapper .settings-content,
+.editor-wrapper .settings-line,
+.editor-wrapper .settings-element {
+    float: left;
+}
+
+.settings-content {
+    width: 100%;
+}
+
+.settings-element {
+    margin-left: 6px;
+}
+
+.settings-description {
+    font-weight: 600;
+}
+
+.settings-label {
+    line-height: 1.8;
+}
+
+.button-editor table {
+    background: none !important;
+}
+
+.button-editor th {
+    background: none !important;
+    text-align: left;
+}
+
+.button-editor tr {
+    height: auto !important;
+}

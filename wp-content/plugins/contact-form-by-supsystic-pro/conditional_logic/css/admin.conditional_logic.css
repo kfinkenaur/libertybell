@@ -1,0 +1,43 @@
+#cfsClBlockShellEx {
+	display: none;
+}
+.cfsClInnerShell {
+	display: none;
+}
+.cfsClBlockToggleIcon {
+	display: none;
+}
+#cfsClConditionShellEx {
+	display: none;
+}
+.cfsClCond, .cfsClUserCond {
+	display: none;
+}
+.cfsClCondNextEqShell {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: calc(100% + 60px);
+}
+.cfsClConditionShell,
+.cfsClLogicShell {
+	margin: 5px 0;
+}
+.cfsClCondition {
+	position: relative;
+	display: inline-block;
+	min-width: 460px;
+}
+#cfsClShell .chosen-container .chosen-drop {
+	min-width: 100px;
+}
+#cfsClLogicShellEx {
+	display: none;
+}
+.supsystic-plugin #cfsFormConditionalLogic .chosen-container.chosen-container-multi {
+	min-width: 160px;
+}
+.cfsClSubLabel {
+	font-size: 16px;
+}
+

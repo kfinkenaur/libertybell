@@ -1,0 +1,7 @@
+.cfsFieldIcon {
+	position: absolute;
+}
+button .cfsFieldIcon {
+	position: static;
+	margin-right: 5px;
+}

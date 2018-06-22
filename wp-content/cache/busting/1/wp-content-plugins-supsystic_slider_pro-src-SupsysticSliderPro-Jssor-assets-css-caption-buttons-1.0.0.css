@@ -1,0 +1,77 @@
+/*
+	Supsystic slider slide HTML editor styles
+*/
+
+.button01 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 300;
+    margin-right: 10px;
+
+    padding: 20px 0;
+    width: 220px;
+    height:30px;
+
+    background: #0D6;
+    border: 1px none #0D6;
+    color: #FFF;
+    overflow: hidden;
+
+    transition: all 0.5s;
+    line-height: 0;
+}
+
+a.button01 {
+    padding: 10px 30px !important;
+    text-decoration: none !important;
+}
+
+/*.button01:hover, .button01:active {
+    text-decoration: none;
+    color: #000000 !important;
+    /*border-color: #0C5;*/
+    /*background: #FFF !important;
+}*/
+
+.button02 {
+    display: inline-block;
+    background: #e2e2e2;
+    border: 0;
+    line-height: 2.5em;
+    padding: 0 0 0 1em;
+    margin-left: 10px;
+    outline: none;
+    text-decoration: none;
+    color: #666;
+}
+
+a.button02 {
+    text-decoration: none !important;
+}
+
+.button02 .button02-arrow {
+    display: inline-block;
+    line-height: 2.5em;
+    text-align: center;
+    background: #333;
+    color: white;
+    font-size: 1em;
+    width: 2.5em;
+    -webkit-transition: margin 200ms;
+    transition: margin 200ms;
+    margin-left: .75em;
+}
+/*.button02:hover {
+    background: white;
+}*/
+.button02:hover .button02-arrow {
+    margin-left: 1.25em;
+    background-color: #262626;
+}
+/*.button02:active {
+    background: #ccc;
+}*/
+.button02:active .button02-arrow {
+    margin-left: 1.5em;
+}

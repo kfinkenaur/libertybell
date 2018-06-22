@@ -1,0 +1,59 @@
+=== START empty 2016-12-29 16:10:25 ===
+Users deleted
+WordPress content removed
+=== END empty 2016-12-29 16:10:25 ===
+
+=== START import 2016-12-29 16:12:42 ===
+Connected with success to the Joomla database
+Joomla data found:
+6 categories
+520 articles
+16 users
+
+Importing categories...
+6 categories imported
+Importing posts...
+520 pages imported
+2 medias imported
+Importing users...
+15 users imported
+Importing menus...
+=== START import 2016-12-29 16:24:06 ===
+Connected with success to the Joomla database
+Joomla data found:
+6 categories
+520 articles
+16 users
+
+Importing categories...
+0 categories imported
+Importing posts...
+0 pages imported
+0 medias imported
+Importing users...
+0 users imported
+Importing menus...
+502 menu items imported
+Importing modules...
+13 menu items imported
+Importing modules...
+50 modules imported
+0 tags imported
+Don't forget to modify internal links.
+IMPORT COMPLETE
+=== END import 2016-12-29 16:24:49 ===
+
+50 modules imported
+0 tags imported
+Don't forget to modify internal links.
+IMPORT COMPLETE
+=== END import 2016-12-29 16:24:49 ===
+
+=== START modify_links 2016-12-29 16:30:04 ===
+0 internal links modified
+=== END modify_links 2016-12-29 16:30:04 ===
+
+=== START modify_links 2017-01-03 19:20:54 ===
+1 internal link modified
+=== END modify_links 2017-01-03 19:20:54 ===
+

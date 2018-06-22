@@ -1,0 +1,2013 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: panoramic\n"
+"POT-Creation-Date: 2018-05-16 10:06+0200\n"
+"PO-Revision-Date: 2016-10-24 23:24+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:23 library/template-parts/content-none.php:36
+msgid "Back to Homepage"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35 comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36 comments.php:50
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:51
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: customizer/customizer-library/custom-controls/dropdown-image-sizes.php:36
+msgid "Full"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:18
+msgid "Standard Fonts"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:20
+msgid "Google Fonts"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:125
+msgid "All"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:126
+msgid "Cyrillic"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:127
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:128
+msgid "Devanagari"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:129
+msgid "Greek"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:130
+msgid "Greek Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:131
+msgid "Khmer"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:132
+msgid "Latin"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:133
+msgid "Latin Extended"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:134
+msgid "Vietnamese"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:214
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:218
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: customizer/customizer-library/extensions/fonts.php:222
+msgctxt "font style"
+msgid "Monospaced"
+msgstr ""
+
+#: customizer/customizer-options.php:40
+msgid "Site Identity"
+msgstr ""
+
+#: customizer/customizer-options.php:47
+msgid "Logo"
+msgstr ""
+
+#: customizer/customizer-options.php:55
+msgid "Expand the logo to fill the header"
+msgstr ""
+
+#: customizer/customizer-options.php:64
+msgid "Display the site title and tagline with the logo"
+msgstr ""
+
+#: customizer/customizer-options.php:77
+msgid "Title and Tagline Position"
+msgstr ""
+
+#: customizer/customizer-options.php:87
+msgid "Content to link your logo / site title to"
+msgstr ""
+
+#: customizer/customizer-options.php:90
+msgid ""
+"Select the page or post you would like your logo / site title to link "
+"to."
+msgstr ""
+
+#: customizer/customizer-options.php:96
+msgid "Padding Top"
+msgstr ""
+
+#: customizer/customizer-options.php:105
+msgid "Padding Bottom"
+msgstr ""
+
+#: customizer/customizer-options.php:118
+#: customizer/customizer-options.php:265
+#: customizer/customizer-options.php:1414
+#: customizer/customizer-options.php:1759
+msgid "Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:128
+#: customizer/customizer-options.php:278
+msgid "Bound"
+msgstr ""
+
+#: customizer/customizer-options.php:141
+msgid "Mode"
+msgstr ""
+
+#: customizer/customizer-options.php:150
+msgid "Pages"
+msgstr ""
+
+#: customizer/customizer-options.php:153
+msgid ""
+"Select the pages that you want to display on the front page. They will "
+"display in the same order as the navigation menu. If you choose to "
+"display any pages that are not in the navigation they will be "
+"displayed last. Hold down the Ctrl (windows) / Command (Mac) button to "
+"select multiple categories."
+msgstr ""
+
+#: customizer/customizer-options.php:158
+msgid "Zebra stripe"
+msgstr ""
+
+#: customizer/customizer-options.php:166
+msgid "Zebra stripe even color"
+msgstr ""
+
+#: customizer/customizer-options.php:174
+msgid "Highlight the first menu item by default"
+msgstr ""
+
+#: customizer/customizer-options.php:182
+msgid "Display page titles"
+msgstr ""
+
+#: customizer/customizer-options.php:200
+msgid "Display the title of the first page"
+msgstr ""
+
+#: customizer/customizer-options.php:208
+msgid "Show a dividing line between pages"
+msgstr ""
+
+#: customizer/customizer-options.php:216
+msgid "Display Featured Images as header images on pages"
+msgstr ""
+
+#: customizer/customizer-options.php:224
+msgid "Show the back to top button"
+msgstr ""
+
+#: customizer/customizer-options.php:256
+msgid "Header"
+msgstr ""
+
+#: customizer/customizer-options.php:294
+msgid "Top Bar Left"
+msgstr ""
+
+#: customizer/customizer-options.php:303
+msgid "Select the Top Bar Left menu"
+msgstr ""
+
+#: customizer/customizer-options.php:306
+#: customizer/customizer-options.php:336
+#: customizer/customizer-options.php:366
+#: customizer/customizer-options.php:396
+msgid "Create menus at Appearance > Menus"
+msgstr ""
+
+#: customizer/customizer-options.php:318
+msgid "Top Bar Right"
+msgstr ""
+
+#: customizer/customizer-options.php:333
+msgid "Select the Top Bar Right menu"
+msgstr ""
+
+#: customizer/customizer-options.php:348
+msgid "Top Right"
+msgstr ""
+
+#: customizer/customizer-options.php:363
+msgid "Select the Top Right menu"
+msgstr ""
+
+#: customizer/customizer-options.php:378
+msgid "Bottom Right"
+msgstr ""
+
+#: customizer/customizer-options.php:393
+msgid "Select the Bottom Right menu"
+msgstr ""
+
+#: customizer/customizer-options.php:401
+msgid "Sticky"
+msgstr ""
+
+#: customizer/customizer-options.php:409
+msgid "Disable the sticky header on mobile devices"
+msgstr ""
+
+#: customizer/customizer-options.php:417
+msgid "Set a deactivation width for the sticky header"
+msgstr ""
+
+#: customizer/customizer-options.php:425
+msgid "Deactivation Width"
+msgstr ""
+
+#: customizer/customizer-options.php:429
+msgid ""
+"The screen width in pixels at which the header will stop being sticky"
+msgstr ""
+
+#: customizer/customizer-options.php:444
+msgid "Show Top Bar"
+msgstr ""
+
+#: customizer/customizer-options.php:451
+msgid "Info Text"
+msgstr ""
+
+#: customizer/customizer-options.php:454
+msgid "<strong><em>CALL US:</em></strong> 555-PANORAMIC"
+msgstr ""
+
+#: customizer/customizer-options.php:458
+msgid "Show Search"
+msgstr ""
+
+#: customizer/customizer-options.php:479
+msgid "Navigation Menu"
+msgstr ""
+
+#: customizer/customizer-options.php:485
+#: customizer/customizer-options.php:1903
+msgid "Opacity"
+msgstr ""
+
+#: customizer/customizer-options.php:499
+msgid "Animated submenus"
+msgstr ""
+
+#: customizer/customizer-options.php:510
+msgid "Social Media Links"
+msgstr ""
+
+#: customizer/customizer-options.php:520
+msgid "Are you an individual or a group?"
+msgstr ""
+
+#: customizer/customizer-options.php:529
+msgid "Email Address"
+msgstr ""
+
+#: customizer/customizer-options.php:535
+msgid "Skype Name"
+msgstr ""
+
+#: customizer/customizer-options.php:541
+msgid "Facebook"
+msgstr ""
+
+#: customizer/customizer-options.php:547
+msgid "Twitter"
+msgstr ""
+
+#: customizer/customizer-options.php:553
+msgid "Google Plus"
+msgstr ""
+
+#: customizer/customizer-options.php:559
+msgid "YouTube"
+msgstr ""
+
+#: customizer/customizer-options.php:565
+msgid "Instagram"
+msgstr ""
+
+#: customizer/customizer-options.php:571
+msgid "Pinterest"
+msgstr ""
+
+#: customizer/customizer-options.php:577
+msgid "LinkedIn"
+msgstr ""
+
+#: customizer/customizer-options.php:583
+msgid "Tumblr"
+msgstr ""
+
+#: customizer/customizer-options.php:589
+msgid "Flickr"
+msgstr ""
+
+#: customizer/customizer-options.php:595
+msgid "Yelp"
+msgstr ""
+
+#: customizer/customizer-options.php:601
+msgid "Vimeo"
+msgstr ""
+
+#: customizer/customizer-options.php:607
+msgid "Etsy"
+msgstr ""
+
+#: customizer/customizer-options.php:613
+msgid "TripAdvisor"
+msgstr ""
+
+#: customizer/customizer-options.php:619
+msgid "Yahoo! Groups"
+msgstr ""
+
+#: customizer/customizer-options.php:625
+msgid "Snapchat"
+msgstr ""
+
+#: customizer/customizer-options.php:631
+msgid "Behance"
+msgstr ""
+
+#: customizer/customizer-options.php:637
+msgid "SoundCloud"
+msgstr ""
+
+#: customizer/customizer-options.php:643
+msgid "Xing"
+msgstr ""
+
+#: customizer/customizer-options.php:649
+msgid "Custom Icon Font Awesome Code"
+msgstr ""
+
+#: customizer/customizer-options.php:652
+msgid ""
+"Insert the code of the Font Awesome icon you wish to display eg. fa-"
+"suitcase. \n"
+"    \t\t\t\t\t\tYou can view all available icons <a href=\"http://"
+"fontawesome.io/cheatsheet/\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: customizer/customizer-options.php:657
+msgid "Custom Icon URL"
+msgstr ""
+
+#: customizer/customizer-options.php:660
+msgid "Insert the URL that you would like your custom icon to link to."
+msgstr ""
+
+#: customizer/customizer-options.php:664
+msgid "Custom Icon Hover Text"
+msgstr ""
+
+#: customizer/customizer-options.php:667
+msgid ""
+"Insert the text that you would like to appear on mouseover of your "
+"custom icon."
+msgstr ""
+
+#: customizer/customizer-options.php:676
+msgid "Search"
+msgstr ""
+
+#: customizer/customizer-options.php:693 functions.php:990
+#: functions.php:1005 functions.php:1032
+msgid "Header Image"
+msgstr ""
+
+#: customizer/customizer-options.php:700
+msgid "Header ImageText"
+msgstr ""
+
+#: customizer/customizer-options.php:703
+#: customizer/customizer-options.php:1293 functions.php:942
+#: functions.php:983
+msgid ""
+"Use <h2></h2> tags around heading text and <p></p> tags around body "
+"text."
+msgstr ""
+
+#: customizer/customizer-options.php:708
+msgid "Full width search results page"
+msgstr ""
+
+#: customizer/customizer-options.php:716
+msgid "Default Search Field Text"
+msgstr ""
+
+#: customizer/customizer-options.php:719
+msgid "Search..."
+msgstr ""
+
+#: customizer/customizer-options.php:724
+msgid "No Search Results Heading"
+msgstr ""
+
+#: customizer/customizer-options.php:727
+msgid "Nothing Found!"
+msgstr ""
+
+#: customizer/customizer-options.php:731
+msgid "No Search Results Message"
+msgstr ""
+
+#: customizer/customizer-options.php:734
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"some different keywords."
+msgstr ""
+
+#: customizer/customizer-options.php:743
+msgid "Mobile"
+msgstr ""
+
+#: customizer/customizer-options.php:749
+msgid "Mobile Logo"
+msgstr ""
+
+#: customizer/customizer-options.php:756
+msgid "Display the site title and tagline with the mobile logo"
+msgstr ""
+
+#: customizer/customizer-options.php:764
+msgid "Expand the mobile logo to fill the header"
+msgstr ""
+
+#: customizer/customizer-options.php:772
+msgid "Mobile Logo Activation Width"
+msgstr ""
+
+#: customizer/customizer-options.php:776
+msgid "The screen width in pixels at which the mobile logo will appear"
+msgstr ""
+
+#: customizer/customizer-options.php:781
+msgid "Enable the mobile menu"
+msgstr ""
+
+#: customizer/customizer-options.php:789
+msgid ""
+"Activate the mobile menu on all mobile devices regardless of width"
+msgstr ""
+
+#: customizer/customizer-options.php:797
+msgid "Mobile Menu Activation Width"
+msgstr ""
+
+#: customizer/customizer-options.php:801
+msgid ""
+"The screen width in pixels at which the menu will go into mobile mode"
+msgstr ""
+
+#: customizer/customizer-options.php:806
+msgid "Mobile Menu Button Color"
+msgstr ""
+
+#: customizer/customizer-options.php:818
+msgid "Mobile Menu Color Scheme"
+msgstr ""
+
+#: customizer/customizer-options.php:827
+msgid "Show the header video on mobile"
+msgstr ""
+
+#: customizer/customizer-options.php:835
+msgid "Show the back to top button on mobile"
+msgstr ""
+
+#: customizer/customizer-options.php:843
+msgid "Enable FitVids"
+msgstr ""
+
+#: customizer/customizer-options.php:847
+msgid "Include FitVids.js for fluid width video embeds"
+msgstr ""
+
+#: customizer/customizer-options.php:856
+#: customizer/customizer-options.php:867
+msgid "Slider"
+msgstr ""
+
+#: customizer/customizer-options.php:882
+msgid "Post Categories"
+msgstr ""
+
+#: customizer/customizer-options.php:885
+msgid ""
+"Select the categories of the posts you want to display in the slider. "
+"The featured image will be the slide image and the post content will "
+"display over it. Hold down the Ctrl (windows) / Command (Mac) button "
+"to select multiple categories."
+msgstr ""
+
+#: customizer/customizer-options.php:890
+#: customizer/customizer-options.php:1282
+msgid "Smart mode (increased responsiveness)"
+msgstr ""
+
+#: customizer/customizer-options.php:898
+msgid "Display the slider on all pages"
+msgstr ""
+
+#: customizer/customizer-options.php:905
+msgid "Display the slider on the blog posts"
+msgstr ""
+
+#: customizer/customizer-options.php:913
+msgid "Display prev / next buttons"
+msgstr ""
+
+#: customizer/customizer-options.php:921
+msgid "Display pagination"
+msgstr ""
+
+#: customizer/customizer-options.php:933
+msgid "Button Style"
+msgstr ""
+
+#: customizer/customizer-options.php:942
+msgid "Text Overlay and Button Rollover Color"
+msgstr ""
+
+#: customizer/customizer-options.php:950
+#: customizer/customizer-options.php:1321
+msgid "Text Overlay Opacity"
+msgstr ""
+
+#: customizer/customizer-options.php:1097
+#: customizer/customizer-options.php:1342
+msgid "Responsive"
+msgstr ""
+
+#: customizer/customizer-options.php:1100
+#: customizer/customizer-options.php:1345
+msgid ""
+"Select the elements to hide for smaller screens. Please ensure that "
+"all content is properly formatted with the correct HTML tags in order "
+"for this to work correctly."
+msgstr ""
+
+#: customizer/customizer-options.php:1105
+#: customizer/customizer-options.php:1350
+msgid "Text Overlay"
+msgstr ""
+
+#: customizer/customizer-options.php:1113
+#: customizer/customizer-options.php:1358
+msgid "Headings"
+msgstr ""
+
+#: customizer/customizer-options.php:1121
+#: customizer/customizer-options.php:1366
+msgid "Paragraphs"
+msgstr ""
+
+#: customizer/customizer-options.php:1129
+#: customizer/customizer-options.php:1374
+msgid "Buttons"
+msgstr ""
+
+#: customizer/customizer-options.php:1137
+msgid "Slider image has a minimum width"
+msgstr ""
+
+#: customizer/customizer-options.php:1145
+#: customizer/customizer-options.php:1390
+msgid "Minimum Width"
+msgstr ""
+
+#: customizer/customizer-options.php:1197
+msgid "Transition Speed"
+msgstr ""
+
+#: customizer/customizer-options.php:1201
+msgid ""
+"The speed it takes to transition between slides in milliseconds. 1000 "
+"milliseconds equals 1 second."
+msgstr ""
+
+#: customizer/customizer-options.php:1215
+msgid "Transition Effect"
+msgstr ""
+
+#: customizer/customizer-options.php:1223
+msgid "Slideshow"
+msgstr ""
+
+#: customizer/customizer-options.php:1227
+msgid "Autoscroll the slider to create a slideshow effect."
+msgstr ""
+
+#: customizer/customizer-options.php:1231
+msgid "Slideshow Speed"
+msgstr ""
+
+#: customizer/customizer-options.php:1235
+msgid ""
+"The speed of the slideshow in milliseconds. 1000 milliseconds equals 1 "
+"second."
+msgstr ""
+
+#: customizer/customizer-options.php:1240 functions.php:988
+msgid "Slider Shortcode"
+msgstr ""
+
+#: customizer/customizer-options.php:1243
+msgid "Enter the shortcode given by the slider plugin you're using."
+msgstr ""
+
+#: customizer/customizer-options.php:1252
+msgid "Header Media"
+msgstr ""
+
+#: customizer/customizer-options.php:1264
+msgid ""
+"Please note: The header media will not display on your site as the "
+"slider is currently enabled. To make the header media visible you will "
+"first need to disable the slider."
+msgstr ""
+
+#: customizer/customizer-options.php:1272
+msgid ""
+"Please note: The header media will not display on your site as you "
+"have a shortcode set in the Slider Shortcode field of your homepage. "
+"To make the header media visible you will first need to remove this."
+msgstr ""
+
+#: customizer/customizer-options.php:1290
+msgid "Text"
+msgstr ""
+
+#: customizer/customizer-options.php:1300
+#: library/template-parts/slider.php:195
+msgid ""
+"<h2>Beautiful. Simple. Fresh.</h2><p>Panoramic is a stunning new theme "
+"that provides an easy way for companies or web developers to spring "
+"into action online!</p>"
+msgstr ""
+
+#: customizer/customizer-options.php:1305 functions.php:987
+msgid "Content to link to"
+msgstr ""
+
+#: customizer/customizer-options.php:1308
+msgid ""
+"Select the page or post you would like your Header Image to link to."
+msgstr ""
+
+#: customizer/customizer-options.php:1313
+msgid "Text Overlay Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1382
+msgid "Header image has a minimum width"
+msgstr ""
+
+#: customizer/customizer-options.php:1405
+msgid "WooCommerce"
+msgstr ""
+
+#: customizer/customizer-options.php:1421
+msgid "Display breadcrumbs"
+msgstr ""
+
+#: customizer/customizer-options.php:1432
+msgid "Product Catalog"
+msgstr ""
+
+#: customizer/customizer-options.php:1439
+#: customizer/customizer-options.php:1467
+#: customizer/customizer-options.php:1493
+#: customizer/customizer-options.php:1732
+#: customizer/customizer-options.php:2027
+msgid "Full width"
+msgstr ""
+
+#: customizer/customizer-options.php:1448
+msgid "Products per page"
+msgstr ""
+
+#: customizer/customizer-options.php:1452
+msgid "How many products should be shown per page?"
+msgstr ""
+
+#: customizer/customizer-options.php:1460
+msgid "Product"
+msgstr ""
+
+#: customizer/customizer-options.php:1475
+msgid "Enable zoom on product image"
+msgstr ""
+
+#: customizer/customizer-options.php:1486
+msgid "Product Category and Tag Page"
+msgstr ""
+
+#: customizer/customizer-options.php:1522
+msgid "Colors"
+msgstr ""
+
+#: customizer/customizer-options.php:1557
+msgid "Page Content Background Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1565
+msgid "Top Bar Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1573
+msgid "Header Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1581
+msgid "Primary Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1588
+msgid "Secondary Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1595
+msgid "Footer Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1608
+msgid "Fonts"
+msgstr ""
+
+#: customizer/customizer-options.php:1614
+msgid "Site Title Font"
+msgstr ""
+
+#: customizer/customizer-options.php:1630
+msgid "Site Title Font Weight"
+msgstr ""
+
+#: customizer/customizer-options.php:1666
+msgid "Heading Font"
+msgstr ""
+
+#: customizer/customizer-options.php:1674
+msgid "Heading Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1682
+msgid "Body Font"
+msgstr ""
+
+#: customizer/customizer-options.php:1695
+msgid "Body Font Weight"
+msgstr ""
+
+#: customizer/customizer-options.php:1704
+msgid "Body Font Color"
+msgstr ""
+
+#: customizer/customizer-options.php:1716
+msgid "Blog"
+msgstr ""
+
+#: customizer/customizer-options.php:1725
+msgid "Post List"
+msgstr ""
+
+#: customizer/customizer-options.php:1746
+msgid "Display post titles"
+msgstr ""
+
+#: customizer/customizer-options.php:1774
+msgid "Number of columns"
+msgstr ""
+
+#: customizer/customizer-options.php:1783
+msgid "Maintain horizontal left-to-right order"
+msgstr ""
+
+#: customizer/customizer-options.php:1791
+msgid "Display a border around posts"
+msgstr ""
+
+#: customizer/customizer-options.php:1799
+msgid "Post Gutter"
+msgstr ""
+
+#: customizer/customizer-options.php:1815
+msgid "Featured Image"
+msgstr ""
+
+#: customizer/customizer-options.php:1822
+msgid "Size"
+msgstr ""
+
+#: customizer/customizer-options.php:1836
+msgid "Shape"
+msgstr ""
+
+#: customizer/customizer-options.php:1852
+msgid "Height"
+msgstr ""
+
+#: customizer/customizer-options.php:1866
+#: customizer/customizer-options.php:1880
+msgid "Alignment"
+msgstr ""
+
+#: customizer/customizer-options.php:1894
+msgid "Rollover Effect"
+msgstr ""
+
+#: customizer/customizer-options.php:1917
+msgid "Disable image style on smaller screens"
+msgstr ""
+
+#: customizer/customizer-options.php:1925
+msgid "Fit to thumbnail size"
+msgstr ""
+
+#: customizer/customizer-options.php:1933
+msgid "Stretch"
+msgstr ""
+
+#: customizer/customizer-options.php:1941
+msgid "Link to post"
+msgstr ""
+
+#: customizer/customizer-options.php:1971
+msgid "Text Length"
+msgstr ""
+
+#: customizer/customizer-options.php:1980
+msgid "Excerpt Length"
+msgstr ""
+
+#: customizer/customizer-options.php:1988
+msgid "Display a Read More Link"
+msgstr ""
+
+#: customizer/customizer-options.php:1996
+msgid "Read More Text"
+msgstr ""
+
+#: customizer/customizer-options.php:1999
+msgid "Read More"
+msgstr ""
+
+#: customizer/customizer-options.php:2008
+msgid "Read More Position"
+msgstr ""
+
+#: customizer/customizer-options.php:2020
+msgid "Post"
+msgstr ""
+
+#: customizer/customizer-options.php:2042
+msgid "Display the featured image"
+msgstr ""
+
+#: customizer/customizer-options.php:2050
+msgid "Display the title"
+msgstr ""
+
+#: customizer/customizer-options.php:2061
+msgid "Meta Data"
+msgstr ""
+
+#: customizer/customizer-options.php:2068
+msgid "Select the meta data to display:"
+msgstr ""
+
+#: customizer/customizer-options.php:2075
+msgid "Date"
+msgstr ""
+
+#: customizer/customizer-options.php:2083
+msgid "Author"
+msgstr ""
+
+#: customizer/customizer-options.php:2091
+msgid "Tags and categories"
+msgstr ""
+
+#: customizer/customizer-options.php:2099
+msgid "Comment count"
+msgstr ""
+
+#: customizer/customizer-options.php:2110
+msgid "Page Title Prefixes"
+msgstr ""
+
+#: customizer/customizer-options.php:2117
+msgid "Title prefixes will display on the following:"
+msgstr ""
+
+#: customizer/customizer-options.php:2124
+msgid "Category page"
+msgstr ""
+
+#: customizer/customizer-options.php:2132
+msgid "Tag page"
+msgstr ""
+
+#: customizer/customizer-options.php:2144
+msgid "Recent Posts Widget Extended"
+msgstr ""
+
+#: customizer/customizer-options.php:2154
+msgid "Site Content Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:2167
+msgid "Website Text"
+msgstr ""
+
+#: customizer/customizer-options.php:2172
+msgid "404 Page Heading"
+msgstr ""
+
+#: customizer/customizer-options.php:2175
+msgid "404!"
+msgstr ""
+
+#: customizer/customizer-options.php:2179
+msgid "404 Page Message"
+msgstr ""
+
+#: customizer/customizer-options.php:2182
+msgid "The page you were looking for cannot be found!"
+msgstr ""
+
+#: customizer/customizer-options.php:2191 functions.php:256
+msgid "Footer"
+msgstr ""
+
+#: customizer/customizer-options.php:2197
+msgid "Display the footer widgets"
+msgstr ""
+
+#: customizer/customizer-options.php:2212
+msgid "Number of widgets to display per row"
+msgstr ""
+
+#: customizer/customizer-options.php:2221
+msgid "Display the footer bottom bar"
+msgstr ""
+
+#: customizer/customizer-options.php:2233
+msgid "Bottom Bar Layout"
+msgstr ""
+
+#: customizer/customizer-options.php:2242
+msgid "Copyright Text"
+msgstr ""
+
+#: customizer/customizer-options.php:2245
+msgid ""
+"Theme by <a href=\"http://www.outtheboxthemes.com\">Out the Box</a>"
+msgstr ""
+
+#: customizer/customizer-options.php:2246
+msgid ""
+"You can add the site title or current year with the following tags:<br "
+"\\> <strong>Site title:</strong> {site-title} <br \\> <strong>Current "
+"year:</strong> {year}"
+msgstr ""
+
+#: customizer/customizer-options.php:2255
+msgid "Media"
+msgstr ""
+
+#: customizer/customizer-options.php:2261
+msgid "Crisp images"
+msgstr ""
+
+#: customizer/customizer-options.php:2265
+msgid ""
+"<p>This will remove the default anti-aliasing done to scaled images by "
+"browsers creating a more crisp image.</p>"
+msgstr ""
+
+#: customizer/customizer-options.php:2270
+msgid "Image compression"
+msgstr ""
+
+#: customizer/customizer-options.php:2274
+#, php-format
+msgid ""
+"<p>By default WordPress compresses resized images to 82% for increased "
+"page load speed. To retain the quality of your images \n"
+"    \t\t\t\t\t\tafter resizing them in WordPress, you can simply "
+"disable image compression.</p><p><strong>Please note:</strong> This "
+"change won't \n"
+"    \t\t\t\t\t\taffect existing images in your media library.</p>"
+msgstr ""
+
+#: functions.php:59
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:60
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:226
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:236
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: functions.php:246
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:645
+msgid "Out of Stock"
+msgstr ""
+
+#: functions.php:961 functions.php:1044
+msgid "Remove header image"
+msgstr ""
+
+#: functions.php:969 functions.php:1008 functions.php:1052
+msgid "Set header image"
+msgstr ""
+
+#: functions.php:969 functions.php:1008 functions.php:1052
+msgid "Choose an image"
+msgstr ""
+
+#: functions.php:989
+msgid "Featured Image Text"
+msgstr ""
+
+#: functions.php:991 functions.php:1073 functions.php:1091
+msgid "Header Image Text"
+msgstr ""
+
+#: functions.php:1011 functions.php:1059
+msgid ""
+"Choose the header image to display when viewing the archive page of "
+"this category"
+msgstr ""
+
+#: functions.php:1076 functions.php:1094
+msgid "Enter a value for this field"
+msgstr ""
+
+#: functions.php:1222
+msgid ""
+"This post is assigned to the same category as your Default Slider "
+"category and will not show in your blog."
+msgstr ""
+
+#: functions.php:1395
+msgid "Panoramic Social Media Links"
+msgstr ""
+
+#: functions.php:1398
+msgid ""
+"Displays the social media links set at Appearance > Customize > Social "
+"Media Links"
+msgstr ""
+
+#: functions.php:1424
+msgid "Contact Us"
+msgstr ""
+
+#: functions.php:1430
+msgid "Title:"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to "
+"ensure maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to "
+"ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural ""
+"There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural ""
+"The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural ""
+"The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the "
+"%1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the "
+"%1$s plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:399
+#: library/includes/class-tgm-plugin-activation.php:3021
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:400
+#: library/includes/class-tgm-plugin-activation.php:2824
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:820
+#: library/includes/class-tgm-plugin-activation.php:3430
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:927
+msgid ""
+"The remote plugin package does not contain a folder with the desired "
+"slug and renaming did not work."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:927
+#: library/includes/class-tgm-plugin-activation.php:930
+msgid ""
+"Please contact the plugin provider and ask them to package their "
+"plugin according to the WordPress guidelines."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:930
+msgid ""
+"The remote plugin package consists of more than one file, but the "
+"files are not packaged in a folder."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1108
+#: library/includes/class-tgm-plugin-activation.php:2820
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:1873
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2159
+msgid "Required"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2162
+msgid "Recommended"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2178
+msgid "WordPress Repository"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2181
+msgid "External Source"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2184
+msgid "Pre-Packaged"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2201
+msgid "Not Installed"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2205
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2207
+msgid "Active"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2213
+msgid "Required Update not Available"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2216
+msgid "Requires Update"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2219
+msgid "Update recommended"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2227
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2272
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:2275
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:2278
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:2281
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/class-tgm-plugin-activation.php:2363
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2371
+msgid "Installed version:"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2379
+msgid "Minimum required version:"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2391
+msgid "Available version:"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2414
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to "
+"the Dashboard</a>"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2428
+msgid "Plugin"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2429
+msgid "Source"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2430
+msgid "Type"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2434
+msgid "Version"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2435
+msgid "Status"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2483
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2487
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2492
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2562
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2595
+msgid "Install"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2601
+msgid "Update"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2604
+msgid "Activate"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2635
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2637
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2673
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2675
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2780
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:2806
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3020
+msgid "Plugin activation failed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3354
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3356
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3357
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3361
+msgid ""
+"The installation and activation process is starting. This process may "
+"take a while on some hosts, so please be patient."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3362
+#: library/includes/class-tgm-plugin-activation.php:3368
+msgid "Show Details"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3362
+#: library/includes/class-tgm-plugin-activation.php:3368
+msgid "Hide Details"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3363
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3367
+msgid ""
+"The installation process is starting. This process may take a while on "
+"some hosts, so please be patient."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3368
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3369
+msgid "All installations have been completed."
+msgstr ""
+
+#: library/includes/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/includes/extras.php:64
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: library/includes/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: library/includes/template-tags.php:25
+msgid "Older posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: library/includes/template-tags.php:29
+msgid "<span class=\"meta-nav\">&larr;</span> Newer posts "
+msgstr ""
+
+#: library/includes/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: library/includes/template-tags.php:63
+msgctxt "Previous post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: library/includes/template-tags.php:64
+msgctxt "Next post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr ""
+
+#: library/includes/template-tags.php:94
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: library/includes/template-tags.php:105
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: library/includes/template-tags.php:123
+#: library/includes/template-tags.php:129
+msgid ", "
+msgstr ""
+
+#: library/includes/template-tags.php:125
+#, php-format
+msgid "Posted in %1$s "
+msgstr ""
+
+#: library/includes/template-tags.php:131
+#, php-format
+msgid "Tagged %1$s "
+msgstr ""
+
+#: library/includes/template-tags.php:137
+msgid "Leave a comment "
+msgstr ""
+
+#: library/includes/template-tags.php:137
+msgid "1 Comment "
+msgstr ""
+
+#: library/includes/template-tags.php:137
+msgid "% Comments "
+msgstr ""
+
+#: library/includes/template-tags.php:141
+#: library/includes/template-tags.php:215
+#: library/includes/template-tags.php:243
+#: library/template-parts/content-page.php:22
+#: library/template-parts/content-section.php:82
+msgid "Edit"
+msgstr ""
+
+#: library/includes/template-tags.php:215
+msgid "Pingback:"
+msgstr ""
+
+#: library/includes/template-tags.php:225
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: library/includes/template-tags.php:229
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: library/includes/template-tags.php:240
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: library/includes/woocommerce-inc.php:7
+#: library/template-parts/shop-links.php:22
+msgid "View your shopping cart"
+msgstr ""
+
+#: library/includes/woocommerce-inc.php:9
+#: library/template-parts/shop-links.php:24
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/includes/woocommerce-inc.php:12
+#: library/template-parts/shop-links.php:27
+msgid "Checkout"
+msgstr ""
+
+#: library/template-parts/content-none.php:26
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</"
+"a>."
+msgstr ""
+
+#: library/template-parts/content-none.php:42
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: library/template-parts/content-page.php:15
+#: library/template-parts/content-search.php:65
+#: library/template-parts/content-single.php:29
+#: library/template-parts/content.php:59
+msgid "Pages:"
+msgstr ""
+
+#: library/template-parts/content-search.php:54
+#: library/template-parts/content.php:48
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: library/template-parts/content-section.php:65
+msgid "View all products"
+msgstr ""
+
+#: library/template-parts/shop-links.php:7
+#: library/template-parts/shop-links.php:8
+msgid "My Account"
+msgstr ""
+
+#: library/template-parts/shop-links.php:13
+msgid "Login"
+msgstr ""
+
+#: library/template-parts/shop-links.php:14
+msgid "Sign In / Register"
+msgstr ""
+
+#: library/template-parts/slider.php:191
+#: library/template-parts/slider.php:213
+msgid "Demo Slide One"
+msgstr ""
+
+#: library/template-parts/slider.php:202
+msgid "Demo Slide Two"
+msgstr ""
+
+#: library/template-parts/slider.php:206
+msgid ""
+"<h2>Fully Responsive</h2><p>Panoramic is fully responsive which means "
+"it adapts seamlessly to all screen sizes, from a desktop computer to a "
+"mobile device.</p>"
+msgstr ""
+
+#: library/template-parts/slider.php:217
+msgid ""
+"<h2>Easy to customise</h2><p>So easy to use, even novice users can "
+"have an online presence up and running in next to no time! If you run "
+"into trouble, our legendary support is FREE!</p>"
+msgstr ""
+
+#: library/template-parts/social-links.php:3
+msgid "us"
+msgstr ""
+
+#: library/template-parts/social-links.php:4
+msgid "our"
+msgstr ""
+
+#: library/template-parts/social-links.php:6
+msgid "me"
+msgstr ""
+
+#: library/template-parts/social-links.php:7
+msgid "my"
+msgstr ""
+
+#: library/template-parts/social-links.php:15
+#, php-format
+msgid "Send %1$s an email"
+msgstr ""
+
+#: library/template-parts/social-links.php:21
+#, php-format
+msgid "Contact %1$s on Skype"
+msgstr ""
+
+#: library/template-parts/social-links.php:27
+#, php-format
+msgid "Find %1$s on Facebook"
+msgstr ""
+
+#: library/template-parts/social-links.php:33
+#, php-format
+msgid "Follow %1$s on Twitter"
+msgstr ""
+
+#: library/template-parts/social-links.php:39
+#, php-format
+msgid "Add %1$s on Google Plus"
+msgstr ""
+
+#: library/template-parts/social-links.php:45
+#, php-format
+msgid "View %1$s YouTube Channel"
+msgstr ""
+
+#: library/template-parts/social-links.php:51
+#, php-format
+msgid "Follow %1$s on Instagram"
+msgstr ""
+
+#: library/template-parts/social-links.php:57
+#, php-format
+msgid "Pin %1$s on Pinterest"
+msgstr ""
+
+#: library/template-parts/social-links.php:63
+#, php-format
+msgid "Find %1$s on LinkedIn"
+msgstr ""
+
+#: library/template-parts/social-links.php:69
+#, php-format
+msgid "Find %1$s on Tumblr"
+msgstr ""
+
+#: library/template-parts/social-links.php:75
+#, php-format
+msgid "Find %1$s on Flickr"
+msgstr ""
+
+#: library/template-parts/social-links.php:81
+#, php-format
+msgid "Find %1$s on Yelp"
+msgstr ""
+
+#: library/template-parts/social-links.php:87
+#, php-format
+msgid "Follow %1$s on Vimeo"
+msgstr ""
+
+#: library/template-parts/social-links.php:93
+#, php-format
+msgid "Find %1$s on Etsy"
+msgstr ""
+
+#: library/template-parts/social-links.php:99
+#, php-format
+msgid "Find %1$s on TripAdvisor"
+msgstr ""
+
+#: library/template-parts/social-links.php:105
+#, php-format
+msgid "Find %1$s on Yahoo! Groups"
+msgstr ""
+
+#: library/template-parts/social-links.php:111
+#, php-format
+msgid "Find %1$s on Snapchat"
+msgstr ""
+
+#: library/template-parts/social-links.php:117
+#, php-format
+msgid "Find %1$s on Behance"
+msgstr ""
+
+#: library/template-parts/social-links.php:123
+#, php-format
+msgid "Find %1$s on SoundCloud"
+msgstr ""
+
+#: library/template-parts/social-links.php:129
+#, php-format
+msgid "Find %1$s on Xing"
+msgstr ""
+
+#: library/template-parts/social-links.php:141
+#, php-format
+msgid "Search %1$s website"
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:4
+#: premium/premium.php:14 premium/premium.php:15
+msgid "Panoramic Premium"
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:9
+msgid "Premium Features"
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:13
+msgid "You now have access to some very handy features:"
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:17
+msgid "Turn your site into a one page website by enabling One Page mode."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:20
+msgid "Choose between a boxed layout or a full width layout."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:23
+msgid ""
+"Enable the Sticky Header so that your logo and navigation menu are "
+"always visible when scrolling."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:26
+msgid "Choose a second mobile menu color scheme."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:29
+msgid ""
+"Enable the slideshow mode for the slider so that it scrolls "
+"automatically."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:32
+msgid "Select the transition effect of the slider."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:35
+msgid ""
+"Change the style of the slider navigation button from square to round."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:38
+msgid ""
+"Set the rollover color of the slider navigation buttons and slider "
+"text block."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:41
+msgid "Link to all your social media profiles."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:44
+msgid ""
+"Choose between a side image layout or top image layout for the Blog "
+"page."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:47
+msgid ""
+"Disable the displaying of the featured image on your single Blog post "
+"page."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:50
+msgid "Display a \"back to top\" button."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:53
+msgid "Change the footer text."
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:65
+msgid "Premium Support"
+msgstr ""
+
+#: premium/library/template-parts/content-premium.php:69
+msgid ""
+"Upgrading to Panoramic premium gives you prioritized support ensuring "
+"that we get to your queries first.<br /><br />We have growing <a href="
+"\"http://www.outtheboxthemes.com/documentation/panoramic/\" target="
+"\"_blank\">documentation</a> on our website as well as <a href="
+"\"http://www.outtheboxthemes.com/contact-us/\" target=\"_blank\">email "
+"support</a> to assist you with any queries you may have."
+msgstr ""
+
+#: search.php:25
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:8
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:9
+msgctxt "submit button"
+msgid "&nbsp;"
+msgstr ""
+
+#: update.php:79
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a "
+"href=\"?\" onclick=\"document.location.reload(); return false;\">Try "
+"again</a>"
+msgstr ""
+
+#: update.php:84
+msgid "An unknown error occurred"
+msgstr ""

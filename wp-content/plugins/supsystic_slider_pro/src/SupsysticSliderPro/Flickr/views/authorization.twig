@@ -1,0 +1,24 @@
+{% extends 'base.twig' %}
+
+{% block breabcrumbs %}
+
+    <nav id="supsystic-breadcrumbs" class="supsystic-breadcrumbs">
+        <a href="{{ environment.generateUrl('slider') }}">{{ translate('Slider by Supsystic') }}</a>
+        <i class="fa fa-angle-right"></i>
+        <a href="{{ environment.generateUrl('flickr', 'authorization') }}">{{ translate('Flickr') }}</a>
+    </nav>
+
+{% endblock %}
+
+{% block content %}
+
+    <h2 id="gg-alrt" style="text-align: center; color: #bfbfbf; margin: 50px 0 25px 0;">
+		<span style="margin-bottom: 20px; display: block;">
+			{{ translate('Upload your images from the Flickr Media Library') }}
+		</span>
+        <a class="button button-primary button-hero bordered" href="{{ url }}">
+            <i class="fa fa-fw fa-flickr"></i>
+            {{ translate('Upload from Flickr') }}
+        </a>
+    </h2>
+{% endblock %}

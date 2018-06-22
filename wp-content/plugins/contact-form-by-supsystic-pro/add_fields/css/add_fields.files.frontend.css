@@ -1,0 +1,13 @@
+.cfsFileRemoveBtn {
+	float: right;
+}
+.cfsFileUploadProgressFull {
+	width: 100%;
+	background-color: transparent;
+	height: 10px;
+}
+.cfsFileUploadProgress {
+	height: 100%;
+	width: 0;
+	background-color: #7abeef;
+}

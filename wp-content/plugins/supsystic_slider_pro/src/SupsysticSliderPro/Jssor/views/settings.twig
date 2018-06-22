@@ -1,0 +1,627 @@
+{% extends '@slider/view.twig' %}
+
+{% macro checked(expected, actual, default) %}
+    {% if actual is empty %}
+        {% if default %}checked="checked"{% endif %}
+    {% elseif expected == actual %}
+        checked="checked"
+    {% else %}
+        {% if default %}checked="checked"{% endif %}
+    {% endif %}
+{% endmacro %}
+
+{% block buttons %}
+    {# {% import '@slider/macro/tabs.twig' as tabs %}
+
+    {{ tabs.button(translate('Effects'), 'effects', 'gears') }}
+    <div class="separator">|</div>
+    {{ tabs.button(translate('Controls'), 'controls', 'laptop') }} #}
+{% endblock %}
+
+{% block form %}
+    {% import '@core/form.twig' as form %}
+
+    {% import _self as macro %}
+
+    <table class="form-table" data-tab="effects" id="effects">
+        <thead>
+
+        {{ form.row(translate('Mode'),
+        form.select('general[mode]', {'horizontal': 'Horizontal', 'vertical': 'Vertical', 'carousel': 'Carousel'}, slider.settings.general.mode, {'id': 'generalMode' }), 'general-mode') }}
+        
+        <tr style="display: none;">
+            <th scope="row">
+                <label for="carouselMargin">
+                    {{ translate('Distance') }}
+                    {{ form.tooltip('carousel-margin') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="number"
+                       name="general[carousel][margin]" id="carouselMargin" value="{{ slider.settings.general.carousel.margin }}" min="0" max="10" step="1" style="width: 110px;"/>
+            </td>
+        </tr>
+
+        <tr style="display: none;">
+            <th scope="row">
+                <label for="carouselParts">
+                    {{ translate('Parts') }}
+                    {{ form.tooltip('carousel-parts') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="number"
+                       name="general[carousel][parts]" id="carouselParts" value="{{ slider.settings.general.carousel.parts|default(4) }}" min="1" max="20" step="1" style="width: 110px;"/>
+            </td>
+        </tr>
+
+        <tr style="display: none;">
+            <th scope="row">
+                <label for="carouselSteps">
+                    {{ translate('Steps') }}
+                    {{ form.tooltip('carousel-steps') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="number"
+                       name="general[carousel][steps]" id="carouselSteps" value="{{ slider.settings.general.carousel.steps|default(4) }}" min="1" max="20" step="1" style="width: 110px;"/>
+            </td>
+        </tr>
+        {{ form.row(translate('Autoplay video'), 
+            form.select(
+                'properties[videoAutoplay]', 
+                {'false':translate('Disable'), 'true':translate('Enable')},
+                slider.settings.properties.videoAutoplay
+            ), 
+            'videoAutoplay') 
+        }}
+        <tr>
+            <th scope="row">
+                <label for="effectsEffectArrows">
+                    {{ translate('Arrows') }}
+                    {{ form.tooltip('general-arrows') }}
+                </label>
+            </th>
+            <td>
+                <input id="arrowType" name="effects[arrows]" value="{{ slider.settings.effects.arrows }}" hidden>
+                <button id="select-arrow" class="button button-primary">
+                    <i class="fa fa-fw fa-check"></i>
+                    {{ translate('Select Arrows') }}
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="effectsBulletControl">
+                    {{ translate('Bullet Control') }}
+                    {{ form.tooltip('effects-bullet-control') }}
+                </label>
+            </th>
+            <td>
+                <input id="bulletType" name="effects[bullet]" value="{{ slider.settings.effects.bullet }}" hidden>
+                <button id="select-bullet" class="button button-primary">
+                    <i class="fa fa-fw fa-check"></i>
+                    {{ translate('Select Bullet Control') }}
+                </button>
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row">
+                <label for="effectsResponsive">
+                    {{ translate('Responsive Size Slider') }}
+                    {{ form.tooltip('general-responsive-size') }}
+                </label>
+            </th>
+            <td>
+                {% for value in ['true', 'false'] %}
+                    <label for="effectsResponsive{{ value|capitalize }}" style="margin-right: 10px;">
+                        <input type="radio" name="effects[responsive]"
+                               id="effectsResponsive{{ value|capitalize }}"
+                               value="{{ value }}"
+                                {% if slider.settings.effects.responsive == value %}
+                            checked="checked"
+                                {% endif %}/>
+                        <span>
+                            {{ translate(value|replace({ 'true': 'Enable', 'false': 'Disable' })) }}
+                        </span>
+                    </label>
+                {% endfor %}
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row">
+                <label for="generalCaptions">
+                    {{ translate('Captions') }}
+                    {{ form.tooltip('general-captions') }}
+                </label>
+            </th>
+            <td class="caption">
+                <div style="display: inline-block; margin-bottom: 5px;">
+                    {% for value in ['true', 'false'] %}
+                        <label for="generalCaptions{{ value|capitalize }}" style="margin-right: 10px;">
+                            <input type="radio" name="general[captions]"
+                                   id="generalCaptions{{ value|capitalize }}"
+                                   value="{{ value }}"
+                                    {% if slider.settings.general.captions == value or (slider.settings.general.captions is empty and value == 'false') %}
+                                checked="checked"
+                                    {% endif %}/>
+                        <span>
+                            {{ translate(value|replace({ 'true': 'Enable', 'false': 'Disable' })) }}
+                        </span>
+                        </label>
+                    {% endfor %}
+                </div>
+                {% if slider.settings.general.captions == 'true' %}
+                    {% set display = '' %}
+                {% else %}
+                    {% set display = 'display: none;' %}
+                {% endif %}
+                <button id="show-caption-settings" class="button button-primary" style="{{ display }} vertical-align: middle;">{{ translate('Show caption settings') }}</button>
+                <input type="text" name="effects[caption][text][color]" value="{{ slider.settings.effects.caption.text.color|default('#ffffff') }}" hidden>
+                <input type="text" name="effects[caption][font][size]" value="{{ slider.settings.effects.caption.font.size|default('14') }}" hidden>
+                <input type="text" name="effects[caption][text][align]" value="{{ slider.settings.effects.caption.text.align|default('auto') }}" hidden>
+                <input type="text" name="effects[caption][text][vertical-align]" value="{{ slider.settings.effects.caption.text['vertical-align']|default('top') }}" hidden>
+                <input type="text" name="effects[caption][font][family]" value="{{ slider.settings.effects.caption.font.family|default('Open Sans') }}" hidden>
+                <input type="text" name="effects[caption][background][color][hex]" value="{{ slider.settings.effects.caption.background.color.hex|default('#000') }}" hidden>
+                <input type="text" name="effects[caption][background][color][rgba]" value="{{ slider.settings.effects.caption.background.color.rgba|default('rgba(0, 0, 0, 0.5)') }}" hidden>
+                <input type="text" name="effects[caption][background][transparency]" value="{{ slider.settings.effects.caption.background.transparency|default('0.5') }}" hidden>
+            </td>
+        </tr>
+
+        <tr id="captionPosOpt" style="{{ display }};">
+            <th scope="row">
+                <label for="effectsCaption">
+                    {{ translate('Caption position') }}
+                </label>
+            </th>
+            <td>
+                <input id="captionPosition" name="effects[caption][position]" value="{{ slider.settings.effects.caption.position|default('default') }}" hidden>
+                <button id="select-caption-position" class="button button-primary">
+                    <i class="fa fa-fw fa-check"></i>
+                    {{ translate('Select Caption position') }}
+                </button>
+            </td>
+        </tr>
+
+        <tr data-tab="controls" id="controls">
+            <th scope="row">
+                <label for="effectsThumbs">
+                    {{ translate('Thumbnails Slider Navigation') }}
+                    {{ form.tooltip('general-thumbnails-navigation') }}
+                </label>
+            </th>
+            <td>
+                {% for value in ['true', 'false'] %}
+                    <label for="effectsThumbs{{ value|capitalize }}" style="margin-right: 10px;">
+                        <input type="radio" name="effects[thumbnails][enable]"
+                               id="effectsThumbs{{ value|capitalize }}"
+                               value="{{ value }}"
+                                {% if slider.settings.effects.thumbnails.enable == value %}
+                            checked="checked"
+                                {% endif %}/>
+                        <span>
+                            {{ translate(value|replace({ 'true': 'Enable', 'false': 'Disable' })) }}
+                        </span>
+                    </label>
+                {% endfor %}
+            </td>
+        </tr>
+
+        <tr id="effectsThumbsType" style="display: none;">
+            <th scope="row">
+                <label for="effectsThumbs">
+                    {{ translate('Thumbnails Type') }}
+                    {{ form.tooltip('general-thumbnails-type') }}
+                </label>
+            </th>
+            <td>
+                {% for value in ['horizontal', 'vertical-left', 'vertical-right'] %}
+                    <label for="effectsThumbs{{ value|capitalize }}" style="margin-right: 24px;">
+                        <input type="radio" name="effects[thumbnails][type]"
+                               id="effectsThumbs{{ value|capitalize }}"
+                               value="{{ value }}"
+                                {% if slider.settings.effects.thumbnails.type == value %}
+                            checked="checked"
+                                {% endif %}/>
+                        <span>
+                            {{ translate(value|capitalize) }}
+                        </span>
+                    </label>
+                    <br />
+                {% endfor %}
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row">
+                <label for="effectsSlideshow">
+                    {{ translate('Enable Slideshow') }}
+                    {{ form.tooltip('general-slideshow') }}
+                </label>
+            </th>
+            <td>
+                {% for value in ['true', 'false'] %}
+                    <label for="effectsSlideshow{{ value|capitalize }}" style="margin-right: 10px;">
+                        <input type="radio" name="effects[slideshow]"
+                               id="effectsSlideshow{{ value|capitalize }}"
+                               value="{{ value }}"
+                                {% if slider.settings.effects.slideshow == value %}
+                            checked="checked"
+                                {% endif %}/>
+                        <span>
+                            {{ translate(value|replace({ 'true': 'Enable', 'false': 'Disable' })) }}
+                        </span>
+                    </label>
+                {% endfor %}
+            </td>
+        </tr>
+		
+		<tr>
+            <th scope="row">
+                <label for="DisableAnimationSlideshow">
+                    {{ translate('Disable animation of slide transition') }}
+                </label>
+            </th>
+            <td>
+                {% for value in ['true', 'false'] %}
+                    <label for="DisableAnimationSlideshow{{ value|capitalize }}" style="margin-right: 10px;">
+                        <input type="radio" name="effects[slideshowDisableEffects]"
+                               id="DisableAnimationSlideshow{{ value|capitalize }}"
+                               value="{{ value }}"
+                                {% if slider.settings.effects.slideshowDisableEffects == value %}
+									checked="checked" 
+                                {% endif %}
+								{% if (value=="false") and (slider.settings.effects.slideshowDisableEffects =='') %} 
+									checked="checked" 	
+								{% endif %}/> 
+                        <span>
+                            {{ translate(value|replace({ 'true': 'Enable', 'false': 'Disable' })) }}
+                        </span>
+                    </label>
+                {% endfor %}
+            </td>
+        </tr>
+		
+        {{ form.row(translate('Slideshow Speed'),
+        form.input('text', 'effects[slideshowSpeed]', slider.settings.effects.slideshowSpeed|default(1500), {'id': 'effectsSlideshowSpeeed', 'class': 'regular-text', 'style': 'width: 140px;' }) ~ ' ms', 'effects-slideshowSpeed') }}
+
+        <tr>
+            <th scope="row">
+                <label for="propertiesShadow">
+                    {{ translate('Select Shadow') }}
+                    {{ form.tooltip('properties-shadow') }}
+                </label>
+            </th>
+            <td>
+                <input id="propertiesShadow" name="properties[shadow]" value="{{ slider.settings.properties.shadow|default('disabled') }}" hidden>
+                <button id="select-shadow" class="button button-primary">
+                    <i class="fa fa-fw fa-check"></i>
+                    {{ translate('Select Shadow') }}
+                </button>
+            </td>
+        </tr>
+
+        </thead>
+    </table>
+
+    <div id="selectArrowsDialog" title="{{ translate('Select arrows') }}" style="background-color: silver !important; display: none;">
+        <div id="arrowImg" style="border-bottom: 1px solid gray;">
+            <img id="arrowImg" data-src="holder.js/400x90?text=None" data-value="disable" data-selected="{% if slider.settings.effects.arrows == 'disable' %}selected{% endif %}">
+        </div>
+        {% set description = 'Check this awesome arrow ' %}
+        {% for i in 1..22 %}
+            {% if i != 5 %}
+                {% if i > 9 %}
+                    {% set val = 'jssora' ~ i %}
+                    <div id="arrowImg" style="border-bottom: 1px solid gray;">
+                        <img id="arrowImg" src="{{ environment.getModule('jssor').getLocationUrl() }}/assets/css/img/a{{ i }}.png" data-value="{{ val }}" data-description="{{ description }}{{ val }}" data-selected="{% if slider.settings.effects.arrows == val %}selected{% endif %}">
+                    </div>
+                {% else %}
+                    {% set val = 'jssora0' ~ i %}
+                    <div id="arrowImg" style="border-bottom: 1px solid gray;">
+                        <img id="arrowImg" src="{{ environment.getModule('jssor').getLocationUrl() }}/assets/css/img/a0{{ i }}.png" data-value="{{ val }}" data-description="{{ description }}{{ val }}" data-selected="{% if slider.settings.effects.arrows == val %}selected{% endif %}">
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <div id="selectBulletDialog" title="{{ translate('Select bullet control') }}" style="background-color: silver !important; display: none;">
+        <div id="bulletImg" style="border-bottom: 1px solid gray;">
+            <img id="bulletImg" data-src="holder.js/120x30?text=None" data-value="disable" data-selected="{% if slider.settings.effects.bullet == 'disable' %}selected{% endif %}">
+        </div>
+        {% set description = 'Check this awesome bullet ' %}
+        {% for i in 1..21 %}
+            {% if i != 1 and i != 4 and i != 8 and i != 9 and i != 15 and i != 19 %}
+                {% if i > 9 %}
+                    {% set val = 'jssorb' ~ i %}
+                    <div id="bulletImg" style="border-bottom: 1px solid gray;">
+                        <img id="bulletImg" src="{{ environment.getModule('jssor').getLocationUrl() }}/assets/css/img/b{{ i }}.png" data-value="{{ val }}" data-description="{{ description }}{{ val }}" data-selected="{% if slider.settings.effects.bullet == val %}selected{% endif %}">
+                    </div>
+                {% else %}
+                    {% set val = 'jssorb0' ~ i %}
+                    <div id="bulletImg" style="border-bottom: 1px solid gray;">
+                        <img id="bulletImg" src="{{ environment.getModule('jssor').getLocationUrl() }}/assets/css/img/b0{{ i }}.png" data-value="{{ val }}" data-description="{{ description }}{{ val }}" data-selected="{% if slider.settings.effects.bullet == val %}selected{% endif %}">
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    {% set shadowEffects = {
+        'lifted': 'Lifted',
+        'perspective': 'Perspective',
+        'raised': 'Raised',
+        'curved-vt-1': 'Curved-vt-1',
+        'curved-vt-2': 'Curved-vt-2',
+        'curved-hz-1': 'Curved-hz-1',
+        'curved-hz-2': 'Curved-hz-2'
+    } %}
+
+    <div id="selectShadowDialog" title="{{ translate('Select shadow effect') }}" style="display: none;">
+        <img src="http://placehold.it/400x100/e8eded&text=Disable" data-value="disable" style="position: relative; margin-bottom: 20px; margin-left: 50px; cursor: move;">
+        {% for effect in shadowEffects %}
+            <img src="{{ environment.getConfig().get('plugin_url') }}/app/assets/css/images/{{ effect|lower }}.jpg" data-value="{{ effect|lower }}" style="position: relative; margin-bottom: 20px; margin-left: 50px; cursor: pointer;">
+        {% endfor %}
+    </div>
+
+    <div id="slide-editor-dialog" title="{{ translate('Customize slide content') }}" style="display: none;">
+        <div class="editor-wrapper" style="width: 100%; height: 100%;">
+            <div class="slide-wrapper" style="width: 560px; height: 300px;">
+                <img src="http://placehold.it/560x300/e8eded&text=Slide">
+                <input type="text" class="content-caption" data-element="caption" placeholder="Title"/>
+                <textarea class="content-text" data-element="content" placeholder="Content"></textarea>
+                <div class="editor-buttons">
+                </div>
+            </div>
+            <div class="settings-wrapper">
+                <nav class="settings-nav">
+                    <div class="nav-wrapper">
+                        <a href="#" class="nav-button active" data-nav="main">
+                            <i class="fa fa-home"></i>
+                            {{ translate('Main') }}
+                        </a>
+                        <span class="nav-separator" style="float: left; line-height: 1.8;">|</span>
+                        <a href="#" class="nav-button" data-nav="buttons">
+                            <i class="fa fa-gear"></i>
+                            {{ translate('Buttons') }}
+                        </a>
+                    </div>
+                </nav>
+                <div class="settings-content main-settings" data-settings="main">
+                    <div class="settings-group title">
+                        <span class="settings-description">{{ translate('Title') }}</span>
+                        <div class="settings-line">
+                            <label class="settings-element settings-label">{{ translate('Font size: ') }}</label>
+                            <input type="number" class="settings-element" name="caption[fontSize]" max="40" min="1" style="width: 100px; margin-left: 10px;">
+                            <label class="settings-element settings-label">{{ translate('Font color: ') }}</label>
+                            <input type="color" class="settings-element" name="caption[fontColor]" style="width: 100px;">
+                        </div>
+                    </div>
+
+                    <div class="settings-group content">
+                        <span class="settings-description">{{ translate('Content') }}</span>
+                        <div class="settings-line">
+                            <label class="settings-element settings-label">{{ translate('Font size: ') }}</label>
+                            <input type="number" class="settings-element" name="content[fontSize]" max="40" min="1" style="width: 100px; margin-left: 10px;">
+                            <label class="settings-element settings-label">{{ translate('Font color: ') }}</label>
+                            <input type="color" class="settings-element" name="content[fontColor]" style="width: 100px;">
+                        </div>
+                    </div>
+
+                    <div class="settings-group effect">
+                        <span class="settings-description">{{ translate('Transition') }}</span>
+                        <div class="settings-line" style="width: 100%">
+                            {#Replace this with select list#}
+                            <label class="settings-element settings-label">{{ translate('Effect: ') }}</label>
+                            <select name="effect">
+                                <option value="L">Appear Left</option>
+                                <option value="R">Appear Right</option>
+                                <option value="T">Appear Top</option>
+                                <option value="B">Appear Bottom</option>
+                                <option value="TL">Top Left</option>
+                                <option value="TR">Top Right</option>
+                                <option value="BL">Bottom Left</option>
+                                <option value="BR">Bottom Right</option>
+                            </select>
+                            <label class="settings-element settings-label">{{ translate('Duration: ') }}</label>
+                            <input type="number" class="settings-element" name="effectDuration" min="1" max="2000" style="width: 100px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="settings-content button-settings" data-settings="buttons" hidden>
+                    <div class="description">Click button to add to the slide</div>
+                    <button class="add-button button01" data-type="button01" style="width: 180px; float: left; margin-left: 10px;">
+                        {{ translate('Add button') }}
+                    </button>
+                    <button class="add-button button02" data-type="button02" style="width: 180px; float: left; margin-left: 10px; margin-top: 10px;">
+                        <span class="button02-arrow">❯</span>
+                        {{ translate('Add button') }}
+                    </button>
+                </div>
+                <button id="save-button" class="button button-primary save">
+                    <i class="fa fa-save"></i>
+                    {{ translate('Save') }}
+                </button>
+                <button id="save-button" class="button button-primary preview" disabled>
+                    <i class="fa fa-eye"></i>
+                    {{ translate('Preview') }}
+                </button>
+            </div>
+            <div class="settings-content button-editor" style="margin-top: 20px; padding-bottom: 20px; background: rgba(0, 0, 0, 0.13); display: none;">
+                <h3 class="settings-description" style="margin-left: 10px;">{{ translate('Button properties') }}</h3>
+                <table style="margin-left: 10px;">
+                    <thead>
+                    <tr>
+                        <th>
+                            <label>{{ translate('Text: ') }}</label>
+                        </th>
+                        <td>
+                            <input type="text" class="settings-element" name="button[content]" max="40" min="1" style="width: 200px; margin-left: 10px;">
+                        </td>
+                        <th>
+                            <label>{{ translate('Link: ') }}</label>
+                        </th>
+                        <td>
+                            <input type="text" class="settings-element" name="button[link]" style="width: 200px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>{{ translate('Color: ') }}</label>
+                        </th>
+                        <td>
+                            <input type="color" class="settings-element" name="button[color]" style="width: 200px;">
+                        </td>
+                        <th>
+                            <label class="settings-element settings-label">{{ translate('Background: ') }}</label>
+                        </th>
+                        <td>
+                            <input type="color" class="settings-element" name="button[background]" style="width: 200px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>{{ translate('Color on hover: ') }}</label>
+                        </th>
+                        <td>
+                            <input type="color" class="settings-element" name="button[coh]" style="width: 200px;">
+                        </td>
+                        <th>
+                            <label class="settings-element settings-label">{{ translate('Background on hover: ') }}</label>
+                        </th>
+                        <td>
+                            <input type="color" class="settings-element" name="button[boh]" style="width: 200px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label class="settings-element settings-label">{{ translate('Position: ') }}</label>
+                        </th>
+                        <td>
+                            {% set positions = {
+                                'TL': 'Top Left',
+                                'TC': 'Top Center',
+                                'TR': 'Top Right',
+                                'CL': 'Center Left',
+                                'C':  'Center',
+                                'CR': 'Center Right',
+                                'BL': 'Bottom Left',
+                                'BC': 'Bottom Center',
+                                'BR': 'Bottom Right'
+                            } %}
+                            {{ form.select('button[position]', positions, '') }}
+                        </td>
+                        <th>
+                            <label>{{ translate('Open in new window: ') }}</label>
+                            <input type="checkbox" class="settings-element" name="button[target]" style="margin: 6px;">
+                        </th>
+                        <td style="text-align: right;">
+                            <button class="remove-button">{{ translate('Remove') }}</button>
+                        </td>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="jssor-caption-settings-editor supsystic-plugin" title="{{ translate('Caption settings editor') }}" style="display: none;">
+        <table>
+            <thead>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Text color: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" class="gg-color-picker" name="effects[caption][text][color]" value="{{ slider.settings.effects.caption.text.color|default('#ffffff') }}" style="width: 200px;">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Font size: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" class="settings-element" name="effects[caption][font][size]" value="{{ slider.settings.effects.caption.font.size|default('14') }}" style="width: 190px;">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Text align: ') }}
+                    </label>
+                </th>
+                <td>
+                    {{ form.select('effects[caption][text][align]', {'left': 'Left', 'right': 'Right', 'center': 'Center', 'auto': 'Auto'}, slider.settings.effects.caption.text.align|default('auto'), { 'style': 'width: 190px;' }) }}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Vertical align: ') }}
+                    </label>
+                </th>
+                <td>
+                    {{ form.select('effects[caption][text][vertical-align]', {'top': 'Top', 'middle': 'Middle', 'bottom': 'Bottom'}, slider.settings.effects.caption.text['vertical-align']|default('top'), { 'style': 'width: 190px;' }) }}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Font family: ') }}
+                    </label>
+                </th>
+                <td>
+                    {{ form.selectv('effects[caption][font][family]', fontList, slider.settings.effects.caption.font.family|default('Open Sans'), { 'style': 'width: 190px;' }) }}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Background color: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" class="gg-color-picker" name="effects[caption][background][color][hex]" value="{{ slider.settings.effects.caption.background.color.hex|default('#000000') }}"/>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>
+                        {{ translate('Background opacity: ') }}
+                    </label>
+                </th>
+                <td>
+                    <input type="text" id="captionOpacity" name="effects[caption][background][transparency]" value="{{ slider.settings.effects.caption.background.transparency|default('0.5') }}" style="width: 190px;"/>
+                    <div id="caption-opacity"></div>
+                </td>
+            </tr>
+            </thead>
+        </table>
+    </div>
+
+    {% set captionPositions = {
+        'default': 'Default',
+        'left': 'Left',
+        'bottom': 'Bottom',
+        'right': 'Right'
+    } %}
+
+    <div id="selectCaptionPositionDialog" title="{{ translate('Select Caption position') }}" style="display: none;">
+        {% for key,value in captionPositions %}
+            <div id="captionPositionPrev" class="line preset {% if slider.settings.effects.caption.position == key or (slider.settings.effects.caption.position is empty and key == 'default') %}selected{% endif %}">
+                <img id="captionPositionPrev" class="preset-image" src="{{ environment.getModule('jssor').getLocationUrl() }}/assets/css/img/caption-position-{{ key }}.jpg" data-value="{{ key }}">
+                <div class="rs-preset-overlay">
+                    <h3>{{ value }}</h3>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

@@ -1,0 +1,99 @@
+=== START test_database 2016-12-27 19:45:26 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 19:45:26 ===
+
+=== START test_database 2016-12-27 19:45:42 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 19:45:42 ===
+
+=== START test_database 2016-12-27 19:45:54 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 19:45:54 ===
+
+=== START test_database 2016-12-27 19:46:07 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 19:46:07 ===
+
+=== START test_database 2016-12-27 19:46:44 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 19:46:44 ===
+
+=== START test_database 2016-12-27 19:49:52 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 19:49:52 ===
+
+=== START test_database 2016-12-27 19:50:24 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 19:50:24 ===
+
+=== START test_database 2016-12-27 19:57:24 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 19:57:24 ===
+
+=== START test_database 2016-12-27 19:57:59 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 19:57:59 ===
+
+=== START test_database 2016-12-27 20:07:26 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 20:07:26 ===
+
+=== START test_database 2016-12-27 20:11:47 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 20:11:47 ===
+
+=== START test_database 2016-12-27 20:12:00 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_lsm'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 20:12:00 ===
+
+=== START test_database 2016-12-27 20:14:27 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_tralon'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 20:14:27 ===
+
+=== START test_database 2016-12-27 20:14:43 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_tralon'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 20:14:43 ===
+
+=== START test_database 2016-12-27 20:14:56 ===
+[ERROR] Couldn't connect to the Joomla database. Please check your parameters. And be sure the WordPress server can access the Joomla database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'liberuy2_tralon'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-joomla-to-wordpress/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2016-12-27 20:14:56 ===
+
+=== START test_database 2016-12-27 20:17:01 ===
+Connected with success to the Joomla database
+Joomla data found:
+6 categories
+520 articles
+
+[WARNING] Your Joomla database contains several users. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/" target="_blank">Premium version</a> to import them.
+=== END test_database 2016-12-27 20:17:02 ===
+

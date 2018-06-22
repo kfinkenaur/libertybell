@@ -1,0 +1,434 @@
+{% extends '@slider/view.twig' %}
+
+{% macro checked(expected, actual, default) %}
+    {% if actual is empty and default %}
+        checked="checked"
+    {% elseif expected == actual %}
+        checked="checked"
+    {% endif %}
+{% endmacro %}
+
+
+
+{% block form %}
+    {% import '@core/form.twig' as form %}
+
+    {% import _self as macro %}
+
+    <table class="form-table swiper-options-general">
+        <tr>
+            <th scope="row">
+                <label for="">
+                    {{ translate('Cyclically') }}
+                    {{ form.tooltip('swiper-general-loop') }}
+                </label>
+            </th>
+            <td>
+                <label for="loopTrue">
+                    <input type="radio" name="general[loop]"
+                           id="loopTrue"
+                           value="true" {{ macro.checked('true', slider.settings.general.loop, 'true') }}/>
+                    <span>{{ translate('Enable') }}</span>
+                </label>
+                <label for="loopFalse">
+                    <input type="radio" name="general[loop]"
+                           id="loopFalse"
+                           value="false" {{ macro.checked('false', slider.settings.general.loop, 'false') }}/>
+                    <span>{{ translate('Disable') }}</span>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="slidesPerView">
+                    {{ translate('Slides Per View') }}
+                    {{ form.tooltip('swiper-general-slidesPerView') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="number" name="general[slidesPerView]"
+                       id="effectsDelay" value="{{ slider.settings.general.slidesPerView }}" min="0" />
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="paginationType">
+                    {{ translate('Pagination Type') }}
+                    {{ form.tooltip('general-paginationType') }}
+                </label>
+            </th>
+            <td>
+                <select id="paginationType" style="max-width: 240px;" name="general[paginationType]">
+                    <option {% if slider.settings.general.paginationType == 'bullets' %} selected="selected" {% endif %} value="bullets">{{ translate('bullets') }}</option>
+                    <option {% if slider.settings.general.paginationType == 'fraction' %} selected="selected" {% endif %} value="fraction">{{ translate('fraction') }}</option>                                     <option {% if slider.settings.general.paginationType == 'progress' %} selected="selected" {% endif %} value="progress">{{ translate('progress') }}</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="mousewheelControl">
+                    {{ translate('Mousewheel control') }}
+                    {{ form.tooltip('general-mousewheelControl') }}
+                </label>
+            </th>
+            <td>
+                <label for="mousewheelControlTrue">
+                    <input type="radio" name="general[mousewheelControl]"
+                           id="mousewheelControlTrue"
+                           value="true" {{ macro.checked('true', slider.settings.general.mousewheelControl, 'true') }}/>
+                    <span>{{ translate('Enable') }}</span>
+                </label>
+                <label for="mousewheelControllFalse">
+                    <input type="radio" name="general[mousewheelControl]"
+                           id="mousewheelControlFalse"
+                           value="false" {{ macro.checked('false', slider.settings.general.mousewheelControl, 'false') }}/>
+                    <span>{{ translate('Disable') }}</span>
+                </label>
+            </td>
+        </tr>
+        <!-- Effects -->
+        <tr data-tab="effects" id="effects">
+            <th scope="row">
+                <label for="effectsEffect">
+                    {{ translate('Effect') }}
+                    {{ form.tooltip('general-effect') }}
+                </label>
+            </th>
+            <td>
+                <button id="showSwiperEffectsPreview" class="button" style="vertical-align: middle;">
+                    {{ translate('Select effect') }}
+                </button>
+                <span id="effectName" style="position: relative; vertical-align: middle; margin-left: 5px;">{{ slider.settings.general.effect |title }}</span>
+                <input name="general[effect]" value="{{ slider.settings.general.effect }}" type="hidden"/>
+            </td>
+        </tr>
+
+        <tr class="coverflow-effect-option effect-option">
+            <th scope="row">
+                <label for="">
+                    {{ translate('Rotate') }}
+                    {{ form.tooltip('coverflow-rotate') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="number" name="effects[coverflow][rotate]"
+                       id="" value="{{ slider.settings.effects.coverflow.rotate }}"  min="0" />
+            </td>
+        </tr>
+        <tr class="coverflow-effect-option effect-option">
+            <th scope="row">
+                <label for="">
+                    {{ translate('Stretch') }}
+                    {{ form.tooltip('coverflow-stretch') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="number" name="effects[coverflow][stretch]"
+                       id="" value="{{ slider.settings.effects.coverflow.stretch }}"  min="0" />
+            </td>
+        </tr>
+        <tr class="coverflow-effect-option effect-option">
+            <th scope="row">
+                <label for="">
+                    {{ translate('Depth') }}
+                    {{ form.tooltip('coverflow-depth') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="number" name="effects[coverflow][depth]"
+                       id="" value="{{ slider.settings.effects.coverflow.depth| default(1) }}"  min="0" />
+            </td>
+        </tr>
+        <tr class="coverflow-effect-option effect-option">
+            <th scope="row">
+                <label for="">
+                    {{ translate('SlideShadows') }}
+                    {{ form.tooltip('coverflow-slideShadows') }}
+                </label>
+            </th>
+            <td>
+                <label for="">
+                    <input type="radio" name="effects[coverflow][slideShadows]"
+                           id="setWrapperSizeTrue"
+                           value="true" {{ macro.checked('true', slider.settings.effects.coverflow.slideShadows, 'false') }}/>
+                    <span>{{ translate('Enable') }}</span>
+                </label>
+                <label for="setWrapperSizeFalse">
+                    <input type="radio" name="effects[coverflow][slideShadows]"
+                           id="setWrapperSizeFalse"
+                           value="false" {{ macro.checked('false', slider.settings.effects.coverflow.slideShadows, 'false') }}/>
+                    <span>{{ translate('Disable') }}</span>
+                </label>
+            </td>
+        </tr>
+
+        <tr class="flip-effect-option effect-option">
+            <th scope="row">
+                <label for="">
+                    {{ translate('Slide Shadows') }}
+                    {{ form.tooltip('flip-slideShadows') }}
+                </label>
+            </th>
+            <td>
+                <label for="">
+                    <input type="radio" name="effects[flip][slideShadows]"
+                           id="setWrapperSizeTrue"
+                           value="true" {{ macro.checked('true', slider.settings.effects.flip.slideShadows, 'true') }}/>
+                    <span>{{ translate('Enable') }}</span>
+                </label>
+                <label for="setWrapperSizeFalse">
+                    <input type="radio" name="effects[flip][slideShadows]"
+                           id="setWrapperSizeFalse"
+                           value="false" {{ macro.checked('false', slider.settings.effects.flip.slideShadows, 'false') }}/>
+                    <span>{{ translate('Disable') }}</span>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="arrows-color">
+                    {{ translate('Arrows color') }}
+                    {{ form.tooltip('advanced-arrows-color') }}
+                </label>
+            </th>
+            <td>
+                <input type="text" class="" id="advanced-arrows-color" name="advanced[arrows_color]" value="{{ slider.settings.advanced.arrows_color }}">
+            </td>
+        </tr>
+
+        <tr>
+            <th scope="row">
+                <label>
+                    {{ translate('Autostart Slideshow') }}
+                </label>
+            </th>
+            <td>
+                {% for value in ['enable', 'disable'] %}
+                    <label style="margin-right: 10px;">
+                        <input type="radio" name="general[auto]"
+                               value="{{ value }}"
+                                {% if slider.settings.general.auto == value or (slider.settings.general.auto is empty and value == 'disable') %}
+                            checked="checked"
+                                {% endif %}/>
+                        <span>
+                        {{ translate(value|capitalize) }}
+                    </span>
+                    </label>
+                {% endfor %}
+            </td>
+        </tr>
+        {#<tr class="flip-effect-option effect-option">#}
+        {#<th scope="row">#}
+        {#<label for="">#}
+        {#{{ translate('flip-limitRotation') }}#}
+        {#{{ form.tooltip('flip-limitRotation') }}#}
+        {#</label>#}
+        {#</th>#}
+        {#<td>#}
+        {#<label for="">#}
+        {#<input type="radio" name="effects[flip][limitRotation]"#}
+        {#id="setWrapperSizeTrue"#}
+        {#value="true" {{ macro.checked('true', slider.settings.effects.flip.limitRotation, 'true') }}/>#}
+        {#<span>{{ translate('Enable') }}</span>#}
+        {#</label>#}
+        {#<label for="setWrapperSizeFalse">#}
+        {#<input type="radio" name="effects[flip][limitRotation]"#}
+        {#id="setWrapperSizeFalse"#}
+        {#value="false" {{ macro.checked('false', slider.settings.effects.flip.limitRotation, 'false') }}/>#}
+        {#<span>{{ translate('Disable') }}</span>#}
+        {#</label>#}
+        {#</td>#}
+        {#</tr>#}
+    </table>
+
+    <p><button id="swiper-options-advanced-switch">{{ translate('Advanced options') }}</button></p>
+
+    <table class="form-table swiper-options-advanced">
+
+
+        <tr>
+            <th scope="row">
+                <label for="nextButton">
+                    {{ translate('Next Button class selector') }}
+                    {{ form.tooltip('advanced-nextButton') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="text" name="advanced[nextButton]"
+                       id="effectsDelay" value="{{ slider.settings.advanced.nextButton }}" />
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="prevButton">
+                    {{ translate('Prev Button class selector') }}
+                    {{ form.tooltip('advanced-prevButton') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="text" name="advanced[prevButton]"
+                       id="effectsDelay" value="{{ slider.settings.advanced.prevButton }}"  />
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="scrollbar">
+                    {{ translate('Scrollbar selector class selector') }}
+                    {{ form.tooltip('advanced-scrollbar') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="text" name="advanced[scrollbar]"
+                       id="effectsDelay" value="{{ slider.settings.advanced.scrollbar }}"  />
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="">
+                    {{ translate('Scroll bar Hide') }}
+                    {{ form.tooltip('advanced-scrollbarHide') }}
+                </label>
+            </th>
+            <td>
+                <label for="scrollbarHideTrue">
+                    <input type="radio" name="advanced[scrollbarHide]"
+                           id="scrollbarHideTrue"
+                           value="true" {{ macro.checked('true', slider.settings.advanced.scrollbarHide, 'false') }}/>
+                    <span>{{ translate('Enable') }}</span>
+                </label>
+                <label for="scrollbarHidetFalse">
+                    <input type="radio" name="advanced[scrollbarHide]"
+                           id="scrollbarHidetFalse"
+                           value="false" {{ macro.checked('false', slider.settings.advanced.scrollbarHide, 'false') }}/>
+                    <span>{{ translate('Disable') }}</span>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="Pagination">
+                    {{ translate('Pagination selector class selector') }}
+                    {{ form.tooltip('advanced-pagination') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="text" name="advanced[pagination]"
+                       id="effectsDelay" value="{{ slider.settings.advanced.pagination }}"  />
+            </td>
+        </tr>
+
+
+        <tr>
+            <th scope="row">
+                <label for="spaceBetween">
+                    {{ translate('Space Between') }}
+                    {{ form.tooltip('advanced-spaceBetween') }}
+                </label>
+            </th>
+            <td>
+                <input class="regular-text" type="number" name="advanced[spaceBetween]"
+                       id="effectsDelay" value="{{ slider.settings.advanced.spaceBetween }}" min="0" />
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="autoHeight">
+                    {{ translate('Set auto Height') }}
+                    {{ form.tooltip('advanced-autoHeight') }}
+                </label>
+            </th>
+            <td>
+                <label for="autoHeightTrue">
+                    <input type="radio" name="advanced[autoHeight]"
+                           id="autoHeightTrue"
+                           value="true" {{ macro.checked('true', slider.settings.advanced.autoHeight, 'false') }}/>
+                    <span>{{ translate('Enable') }}</span>
+                </label>
+                <label for="autoHeightFalse">
+                    <input type="radio" name="advanced[autoHeight]"
+                           id="autoHeightFalse"
+                           value="false" {{ macro.checked('false', slider.settings.advanced.autoHeight, 'false') }}/>
+                    <span>{{ translate('Disable') }}</span>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="freeMode">
+                    {{ translate('Free Mode') }}
+                    {{ form.tooltip('advanced-freeMode') }}
+                </label>
+            </th>
+            <td>
+                <label for="freeModeTrue">
+                    <input type="radio" name="advanced[freeMode]"
+                           id="freeModeTrue"
+                           value="true" {{ macro.checked('true', slider.settings.advanced.freeMode, 'true') }}/>
+                    <span>{{ translate('Enable') }}</span>
+                </label>
+                <label for="freeModeFalse">
+                    <input type="radio" name="advanced[freeMode]"
+                           id="freeModeFalse"
+                           value="false" {{ macro.checked('false', slider.settings.advanced.freeMode, 'false') }}/>
+                    <span>{{ translate('Disable') }}</span>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="lazyLoading">
+                    {{ translate('Prevent Clicks') }}
+                    {{ form.tooltip('advanced-lazyLoading') }}
+                </label>
+            </th>
+            <td>
+                <label for="lazyLoadingTrue">
+                    <input type="radio" name="advanced[lazyLoading]"
+                           id="lazyLoadingTrue"
+                           value="true" {{ macro.checked('true', slider.settings.advanced.lazyLoading, 'true') }}/>
+                    <span>{{ translate('Enable') }}</span>
+                </label>
+                <label for="lazyLoadingFalse">
+                    <input type="radio" name="advanced[lazyLoading]"
+                           id="lazyLoadingFalse"
+                           value="false" {{ macro.checked('false', slider.settings.advanced.lazyLoading, 'false') }}/>
+                    <span>{{ translate('Disable') }}</span>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="preventClicks">
+                    {{ translate('Prevent accidental unwanted clicks') }}
+                    {{ form.tooltip('advanced-preventClicks') }}
+                </label>
+            </th>
+            <td>
+                <label for="preventClicksTrue">
+                    <input type="radio" name="advanced[preventClicks]"
+                           id="preventClicksTrue"
+                           value="true" {{ macro.checked('true', slider.settings.advanced.preventClicks, 'true') }}/>
+                    <span>{{ translate('Enable') }}</span>
+                </label>
+                <label for="preventClicksFalse">
+                    <input type="radio" name="advanced[preventClicks]"
+                           id="preventClicksFalse"
+                           value="false" {{ macro.checked('false', slider.settings.advanced.preventClicks, 'false') }}/>
+                    <span>{{ translate('Disable') }}</span>
+                </label>
+            </td>
+        </tr>
+    </table>
+    <!-- Effect preview modal window -->
+    <div id="previewEffectsWindow" style="display: none" title="Effects">
+        <div id="effectPreviewVariants" style="margin-top: 20px;">
+            {% for effect in ['slide', 'cube', 'coverflow' ,'flip'] %}
+                <label style="width: 190px; float: left; margin-bottom: 10px;" for="effect{{ effect|title }}">
+                    <input type="radio" name="unsusedvalueradiobutton" value="{{ effect }}" id="effect{{ effect|title }}" class="changeEffect" {% if slider.settings.effects.effect == effect %}checked="checked"{% endif %}/>
+                    <span>{{ effect|title }}</span>
+                </label>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends '@bx/settings.twig' %}
+
+{% block form %}
+    {{ parent() }}
+
+    <input name="pro[video]" type="hidden" value="{{ slider.settings.pro.video|default(true) }}"/>
+    <input name="pro[useCSS]" type="hidden" value="{{ slider.settings.pro.useCSS|default(false) }}"/>
+{% endblock %}

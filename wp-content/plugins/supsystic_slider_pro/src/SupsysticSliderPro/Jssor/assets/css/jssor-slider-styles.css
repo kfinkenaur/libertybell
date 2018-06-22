@@ -1,0 +1,673 @@
+/*
+	Jssor Slider jQuery plugin CSS styles
+*/
+
+
+.jssor-slider { /*overflow: hidden;*/ zoom: 1; position: relative; top: 0; left: 0; }
+.jssor-loading { position: absolute; top: 0; left: 0; }
+.supsystic-slider-jssor { cursor: default !important; }
+
+/*Arrows*/
+.jssora01l, .jssora01r, .jssora01ldn, .jssora01rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a01.png') no-repeat;
+	overflow:hidden;
+}
+.jssora01l { background-position: -3px -33px; }
+.jssora01r { background-position: -63px -33px; }
+.jssora01l:hover { background-position: -123px -33px; }
+.jssora01r:hover { background-position: -183px -33px; }
+.jssora01ldn { background-position: -243px -33px; }
+.jssora01rdn { background-position: -303px -33px; }
+
+.jssora02l, .jssora02r, .jssora02ldn, .jssora02rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a02.png') no-repeat;
+	overflow:hidden;
+}
+.jssora02l { background-position: -3px -33px; }
+.jssora02r { background-position: -63px -33px; }
+.jssora02l:hover { background-position: -123px -33px; }
+.jssora02r:hover { background-position: -183px -33px; }
+.jssora02ldn { background-position: -243px -33px; }
+.jssora02rdn { background-position: -303px -33px; }
+
+.jssora03l, .jssora03r, .jssora03ldn, .jssora03rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a03.png') no-repeat;
+	overflow:hidden;
+}
+.jssora03l { background-position: -3px -33px; }
+.jssora03r { background-position: -63px -33px; }
+.jssora03l:hover { background-position: -123px -33px; }
+.jssora03r:hover { background-position: -183px -33px; }
+.jssora03ldn { background-position: -243px -33px; }
+.jssora03rdn { background-position: -303px -33px; }
+
+.jssora04l, .jssora04r, .jssora04ldn, .jssora04rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a04.png') no-repeat;
+	overflow:hidden;
+}
+.jssora04l { background-position: -3px -33px; }
+.jssora04r { background-position: -63px -33px; }
+.jssora04l:hover { background-position: -123px -33px; }
+.jssora04r:hover { background-position: -183px -33px; }
+.jssora04ldn { background-position: -243px -33px; }
+.jssora04rdn { background-position: -303px -33px; }
+
+.jssora06l, .jssora06r, .jssora06ldn, .jssora06rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a06.png') no-repeat;
+	overflow:hidden;
+}
+.jssora06l { background-position: -3px -33px; }
+.jssora06r { background-position: -63px -33px; }
+.jssora06l:hover { background-position: -123px -33px; }
+.jssora06r:hover { background-position: -183px -33px; }
+.jssora06ldn { background-position: -243px -33px; }
+.jssora06rdn { background-position: -303px -33px; }
+
+.jssora07l, .jssora07r, .jssora07ldn, .jssora07rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a07.png') no-repeat;
+	overflow:hidden;
+}
+.jssora07l { background-position: -3px -33px; }
+.jssora07r { background-position: -63px -33px; }
+.jssora07l:hover { background-position: -123px -33px; }
+.jssora07r:hover { background-position: -183px -33px; }
+.jssora07ldn { background-position: -243px -33px; }
+.jssora07rdn { background-position: -303px -33px; }
+
+.jssora08l, .jssora08r, .jssora08ldn, .jssora08rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a08.png') no-repeat;
+	overflow:hidden;
+}
+.jssora08l { background-position: -3px -33px; }
+.jssora08r { background-position: -63px -33px; }
+.jssora08l:hover { background-position: -123px -33px; }
+.jssora08r:hover { background-position: -183px -33px; }
+.jssora08ldn { background-position: -243px -33px; }
+.jssora08rdn { background-position: -303px -33px; }
+
+.jssora09l, .jssora09r, .jssora09ldn, .jssora09rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a09.png') no-repeat;
+	overflow:hidden;
+}
+.jssora09l { background-position: -3px -33px; }
+.jssora09r { background-position: -63px -33px; }
+.jssora09l:hover { background-position: -123px -33px; }
+.jssora09r:hover { background-position: -183px -33px; }
+.jssora09ldn { background-position: -243px -33px; }
+.jssora09rdn { background-position: -303px -33px; }
+
+.jssora10l, .jssora10r, .jssora10ldn, .jssora10rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a10.png') no-repeat;
+	overflow:hidden;
+}
+.jssora10l { background-position: -3px -33px; }
+.jssora10r { background-position: -63px -33px; }
+.jssora10l:hover { background-position: -123px -33px; }
+.jssora10r:hover { background-position: -183px -33px; }
+.jssora10ldn { background-position: -243px -33px; }
+.jssora10rdn { background-position: -303px -33px; }
+
+.jssora11l, .jssora11r, .jssora11ldn, .jssora11rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a11.png') no-repeat;
+	overflow:hidden;
+}
+.jssora11l { background-position: -3px -33px; }
+.jssora11r { background-position: -63px -33px; }
+.jssora11l:hover { background-position: -123px -33px; }
+.jssora11r:hover { background-position: -183px -33px; }
+.jssora11ldn { background-position: -243px -33px; }
+.jssora11rdn { background-position: -303px -33px; }
+
+.jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a12.png') no-repeat;
+	overflow:hidden;
+}
+.jssora12l { background-position: -3px -33px; }
+.jssora12r { background-position: -63px -33px; }
+.jssora12l:hover { background-position: -123px -33px; }
+.jssora12r:hover { background-position: -183px -33px; }
+.jssora12ldn { background-position: -243px -33px; }
+.jssora12rdn { background-position: -303px -33px; }
+
+.jssora13l, .jssora13r, .jssora13ldn, .jssora13rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a13.png') no-repeat;
+	overflow:hidden;
+}
+.jssora13l { background-position: -3px -33px; }
+.jssora13r { background-position: -63px -33px; }
+.jssora13l:hover { background-position: -123px -33px; }
+.jssora13r:hover { background-position: -183px -33px; }
+.jssora13ldn { background-position: -243px -33px; }
+.jssora13rdn { background-position: -303px -33px; }
+
+.jssora14l, .jssora14r, .jssora14ldn, .jssora14rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a14.png') no-repeat;
+	overflow:hidden;
+}
+.jssora14l { background-position: -3px -33px; }
+.jssora14r { background-position: -63px -33px; }
+.jssora14l:hover { background-position: -123px -33px; }
+.jssora14r:hover { background-position: -183px -33px; }
+.jssora14ldn { background-position: -243px -33px; }
+.jssora14rdn { background-position: -303px -33px; }
+
+.jssora15l, .jssora15r, .jssora15ldn, .jssora15rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a15.png') no-repeat;
+	overflow:hidden;
+}
+.jssora15l { background-position: -3px -33px; }
+.jssora15r { background-position: -63px -33px; }
+.jssora15l:hover { background-position: -123px -33px; }
+.jssora15r:hover { background-position: -183px -33px; }
+.jssora15ldn { background-position: -243px -33px; }
+.jssora15rdn { background-position: -303px -33px; }
+
+.jssora16l, .jssora16r, .jssora16ldn, .jssora16rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a16.png') no-repeat;
+	overflow:hidden;
+}
+.jssora16l { background-position: -3px -33px; }
+.jssora16r { background-position: -63px -33px; }
+.jssora16l:hover { background-position: -123px -33px; }
+.jssora16r:hover { background-position: -183px -33px; }
+.jssora16ldn { background-position: -243px -33px; }
+.jssora16rdn { background-position: -303px -33px; }
+
+.jssora17l, .jssora17r, .jssora17ldn, .jssora17rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a17.png') no-repeat;
+	overflow:hidden;
+}
+.jssora17l { background-position: -3px -33px; }
+.jssora17r { background-position: -63px -33px; }
+.jssora17l:hover { background-position: -123px -33px; }
+.jssora17r:hover { background-position: -183px -33px; }
+.jssora17ldn { background-position: -243px -33px; }
+.jssora17rdn { background-position: -303px -33px; }
+
+.jssora18l, .jssora18r, .jssora18ldn, .jssora18rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a18.png') no-repeat;
+	overflow:hidden;
+}
+.jssora18l { background-position: -3px -33px; }
+.jssora18r { background-position: -63px -33px; }
+.jssora18l:hover { background-position: -123px -33px; }
+.jssora18r:hover { background-position: -183px -33px; }
+.jssora18ldn { background-position: -243px -33px; }
+.jssora18rdn { background-position: -303px -33px; }
+
+.jssora19l, .jssora19r, .jssora19ldn, .jssora19rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a19.png') no-repeat;
+	overflow:hidden;
+}
+.jssora19l { background-position: -3px -33px; }
+.jssora19r { background-position: -63px -33px; }
+.jssora19l:hover { background-position: -123px -33px; }
+.jssora19r:hover { background-position: -183px -33px; }
+.jssora19ldn { background-position: -243px -33px; }
+.jssora19rdn { background-position: -303px -33px; }
+
+.jssora20l, .jssora20r, .jssora20ldn, .jssora20rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a20.png') no-repeat;
+	overflow:hidden;
+}
+.jssora20l { background-position: -3px -33px; }
+.jssora20r { background-position: -63px -33px; }
+.jssora20l:hover { background-position: -123px -33px; }
+.jssora20r:hover { background-position: -183px -33px; }
+.jssora20ldn { background-position: -243px -33px; }
+.jssora20rdn { background-position: -303px -33px; }
+
+.jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a21.png') no-repeat;
+	overflow:hidden;
+}
+.jssora21l { background-position: -3px -33px; }
+.jssora21r { background-position: -63px -33px; }
+.jssora21l:hover { background-position: -123px -33px; }
+.jssora21r:hover { background-position: -183px -33px; }
+.jssora21ldn { background-position: -243px -33px; }
+.jssora21rdn { background-position: -303px -33px; }
+
+.jssora22l, .jssora22r, .jssora22ldn, .jssora22rdn
+{
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url('img/a22.png') no-repeat;
+	overflow:hidden;
+}
+.jssora22l { background-position: -3px -33px; }
+.jssora22r { background-position: -63px -33px; }
+.jssora22l:hover { background-position: -123px -33px; }
+.jssora22r:hover { background-position: -183px -33px; }
+.jssora22ldn { background-position: -243px -33px; }
+.jssora22rdn { background-position: -303px -33px; }
+
+/*Bullets*/
+
+.jssorb02 div, .jssorb02 div:hover, .jssorb02 .av
+{
+	background: url('img/b02.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb02 div { background-position: -5px -4px; }
+.jssorb02 div:hover, .jssorb02 .av:hover { background-position: -35px -4px; }
+.jssorb02 .av { background-position: -65px -4px; }
+.jssorb02 .dn, .jssorb02 .dn:hover { background-position: -95px -4px; }
+
+.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av
+{
+	background: url('img/b03.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb03 div { background-position: -5px -4px; }
+.jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
+.jssorb03 .av { background-position: -65px -4px; }
+.jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
+
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av
+{
+	background: url('img/b05.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb05 div { background-position: -5px -4px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -35px -4px; }
+.jssorb05 .av { background-position: -65px -4px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -95px -4px; }
+
+.jssorb06 div, .jssorb06 div:hover, .jssorb06 .av
+{
+	background: url('img/b03.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb06 div { background-position: -5px -4px; }
+.jssorb06 div:hover, .jssorb06 .av:hover { background-position: -35px -4px; }
+.jssorb06 .av { background-position: -65px -4px; }
+.jssorb06 .dn, .jssorb06 .dn:hover { background-position: -95px -4px; }
+
+.jssorb07 div, .jssorb07 div:hover, .jssorb07 .av
+{
+	background: url('img/b07.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb07 div { background-position: -5px -4px; }
+.jssorb07 div:hover, .jssorb07 .av:hover { background-position: -35px -4px; }
+.jssorb07 .av { background-position: -65px -4px; }
+.jssorb07 .dn, .jssorb07 .dn:hover { background-position: -95px -4px; }
+
+.jssorb10 div, .jssorb10 div:hover, .jssorb10 .av
+{
+	background: url('img/b10.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb10 div { background-position: -5px -4px; }
+.jssorb10 div:hover, .jssorb10 .av:hover { background-position: -35px -4px; }
+.jssorb10 .av { background-position: -65px -4px; }
+.jssorb10 .dn, .jssorb10 .dn:hover { background-position: -95px -4px; }
+
+.jssorb11 div, .jssorb11 div:hover, .jssorb11 .av
+{
+	background: url('img/b11.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb11 div { background-position: -5px -4px; }
+.jssorb11 div:hover, .jssorb11 .av:hover { background-position: -35px -4px; }
+.jssorb11 .av { background-position: -65px -4px; }
+.jssorb11 .dn, .jssorb11 .dn:hover { background-position: -95px -4px; }
+
+.jssorb12 div, .jssorb12 div:hover, .jssorb12 .av
+{
+	background: url('img/b12.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb12 div { background-position: -5px -4px; }
+.jssorb12 div:hover, .jssorb12 .av:hover { background-position: -35px -4px; }
+.jssorb12 .av { background-position: -65px -4px; }
+.jssorb12 .dn, .jssorb12 .dn:hover { background-position: -95px -4px; }
+
+.jssorb13 div, .jssorb13 div:hover, .jssorb13 .av
+{
+	background: url('img/b13.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb13 div { background-position: -5px -4px; }
+.jssorb13 div:hover, .jssorb13 .av:hover { background-position: -35px -4px; }
+.jssorb13 .av { background-position: -65px -4px; }
+.jssorb13 .dn, .jssorb13 .dn:hover { background-position: -95px -4px; }
+
+.jssorb14 div, .jssorb14 div:hover, .jssorb14 .av
+{
+	background: url('img/b14.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb14 div { background-position: -5px -4px; }
+.jssorb14 div:hover, .jssorb14 .av:hover { background-position: -35px -4px; }
+.jssorb14 .av { background-position: -65px -4px; }
+.jssorb14 .dn, .jssorb14 .dn:hover { background-position: -95px -4px; }
+
+.jssorb16 div, .jssorb16 div:hover, .jssorb16 .av
+{
+	background: url('img/b16.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb16 div { background-position: -5px -4px; }
+.jssorb16 div:hover, .jssorb16 .av:hover { background-position: -35px -4px; }
+.jssorb16 .av { background-position: -65px -4px; }
+.jssorb16 .dn, .jssorb16 .dn:hover { background-position: -95px -4px; }
+
+.jssorb17 div, .jssorb17 div:hover, .jssorb17 .av
+{
+	background: url('img/b17.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb17 div { background-position: -5px -4px; }
+.jssorb17 div:hover, .jssorb17 .av:hover { background-position: -35px -4px; }
+.jssorb17 .av { background-position: -65px -4px; }
+.jssorb17 .dn, .jssorb17 .dn:hover { background-position: -95px -4px; }
+
+.jssorb18 div, .jssorb18 div:hover, .jssorb18 .av
+{
+	background: url('img/b18.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb18 div { background-position: -5px -4px; }
+.jssorb18 div:hover, .jssorb18 .av:hover { background-position: -35px -4px; }
+.jssorb18 .av { background-position: -65px -4px; }
+.jssorb18 .dn, .jssorb18 .dn:hover { background-position: -95px -4px; }
+
+.jssorb20 div, .jssorb20 div:hover, .jssorb20 .av
+{
+	background: url('img/b20.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb20 div { background-position: -5px -4px; }
+.jssorb20 div:hover, .jssorb20 .av:hover { background-position: -35px -4px; }
+.jssorb20 .av { background-position: -65px -4px; }
+.jssorb20 .dn, .jssorb20 .dn:hover { background-position: -95px -4px; }
+
+.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av
+{
+	background: url('img/b21.png') no-repeat;
+	overflow:hidden;
+	cursor: pointer;
+}
+.jssorb21 div { background-position: -5px -4px; }
+.jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -4px; }
+.jssorb21 .av { background-position: -65px -4px; }
+.jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -4px; }
+
+/*Thumbnails navigation*/
+
+.jssort02 {
+    position: absolute;
+    /* size of thumbnail navigator container */
+    width: 100px;
+    height: 340px;
+    overflow: hidden !important;
+}
+.jssort02 .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99px;
+    height: 60px;
+}
+.jssort02 .t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.jssort02 .w {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.jssort02 .c {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height: 62px;
+    box-sizing: content-box;
+    background: url('img/t01.png') -800px -800px no-repeat;
+    _background: none;
+}
+.jssort02 .pav .c {
+    top: 2px;
+    _top: 0;
+    left: 2px;
+    _left: 0;
+    width: 95px;
+    height: 60px;
+    background-position: 50% 50%;
+}
+.jssort02 .p:hover .c {
+    top: 0;
+    left: 0;
+    width: 97px;
+    height: 62px;
+    border: #fff 1px solid;
+    background-position: 50% 50%;
+}
+.jssort02 .p.pdn .c {
+    background-position: 50% 50%;
+    width: 95px;
+    height: 60px;
+}
+* html .jssort02 .c, * html .jssort02 .pdn .c, * html .jssort02 .pav .c {
+    /* ie quirks mode adjust */
+    width /**/: 99px;
+    height /**/: 60px;
+}
+
+.jssort07 .i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	filter: alpha(opacity=80);
+	opacity: .8;
+}
+.jssort07 .p:hover .i, .jssort07 .pav .i {
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+.jssort07 .o {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 97px;
+	height: 64px;
+}
+* html .jssort07 .o {
+	/* ie quirks mode adjust */
+	width /**/: 99px;
+	height /**/: 66px;
+}
+
+.jssort07 .p:hover .o {
+	transition: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: none;
+}
+
+/*Caption effects*/
+
+.caption-list {
+    position: absolute;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+/*buttons*/
+.supsystic-plugin .supsystic-slider-jssor .button,
+.supsystic-plugin .supsystic-slider-jssor .button-primary {
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+    color: #000000;
+    background-color: white;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #FFF !important;
+    line-height: 32px;
+    padding: 10px;
+    text-decoration: none;
+}
+.supsystic-plugin .supsystic-slider-jssor .button.hover,
+.supsystic-plugin .supsystic-slider-jssor .button:hover,
+.supsystic-plugin .supsystic-slider-jssor .button.focus,
+.supsystic-plugin .supsystic-slider-jssor .button:focus,
+.supsystic-plugin .supsystic-slider-jssor .button:active,
+.supsystic-plugin .supsystic-slider-jssor .button.active {
+    background: black !important;
+    border-color: black !important;
+    color: white;
+}
+.supsystic-plugin .supsystic-slider-jssor .button[disabled],
+.supsystic-plugin .supsystic-slider-jssor .button:disabled,
+.supsystic-plugin .supsystic-slider-jssor .button.disabled,
+.supsystic-plugin .supsystic-slider-jssor .button-secondary[disabled],
+.supsystic-plugin .supsystic-slider-jssor .button-secondary:disabled,
+.supsystic-plugin .supsystic-slider-jssor .button-secondary.disabled,
+.supsystic-plugin .supsystic-slider-jssor .button-disabled {
+    color: #a4aaac !important;
+    border-color: #a4aaac !important;
+    background-color: transparent !important;
+}
+
+.supsystic-plugin .supsystic-slider-jssor .post-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.47);
+    color: #ffffff;
+}
+
+.supsystic-plugin .supsystic-slider-jssor .post-caption h3 {
+    font-size: 20px;
+}
+
+#effectsBulletControl a,
+#effectsEffectArrows a{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.92);
+}
+
+#effectsBulletControl li,
+#effectsEffectArrows li {
+    margin-bottom: 0 !important;
+}
+
+.supsystic-slider .slide .link {
+	display: block;
+}
+.supsystic-plugin img[u="thumb"] {
+	height: auto !important;
+}

@@ -1,0 +1,38 @@
+<div class="slider-sharing-top"></div>
+
+<div id="supsystic-slider-wrapper-{{ slider.viewId }}" class="supsystic-slider-wrapper comparison-container">
+    <div id="supsystic-slider-{{ slider.viewId }}"
+            {% if slider.settings.properties.integrationId is not null %}
+                data-integrate-id="{{ slider.settings.properties.integrationId }}"
+            {% endif %}
+         class="comparison-wrapper supsystic-slider supsystic-slider-{{ slider.id }} supsystic-slider-{{ slider.plugin }}"
+         data-type="{{ slider.plugin }}"
+         data-settings="{{ slider.settings|json_encode|e }}"
+         style="margin: 0 auto 5px; visibility: hidden;"
+         data-position="{{ float }}">
+
+        <div class="cocoen">
+            {% for entity in slider.entities %}
+                {% if entity.type == 'image' %}
+                    {% if entity.attachment.external_link %}
+                        {% set url = entity.attachment.external_link %}
+                    {% else %}
+                        {% set url = entity.attachment.sizes.full.url %}
+                    {% endif %}
+                    <img src="{{ entity|image_size(slider.settings.properties.width, slider.settings.properties.height, entity.attachment.cropPosition) }}"
+                         alt="{{ image.attachment.alt }}">
+                {% endif %}
+                {% set slideId = slideId + 1 %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% if slider.settings.socialSharing is not empty and slider.settings.socialSharing.status == 'enable' %}
+    <div class="slider-social-share-html" style="display:none;">
+        {{ slider.settings.socialSharing.html|raw }}
+    </div>
+{% endif %}
+
+<div class="slider-sharing-bottom"></div>

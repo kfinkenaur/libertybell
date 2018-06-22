@@ -1,0 +1,30 @@
+{% extends 'grid-gallery.twig' %}
+
+{% block header %}
+
+    <nav id="supsystic-breadcrumbs" class="supsystic-breadcrumbs">
+        <a href="{{ environment.generateUrl('slider') }}">{{ translate('Slider by Supsystic') }}</a>
+        <i class="fa fa-angle-right"></i>
+        <a href="{{ environment.generateUrl('slider') }}">{{ translate('Sliders') }}</a>
+        <i class="fa fa-angle-right"></i>
+        <a href="{{ environment.generateUrl('slider', 'view', { 'id': id }) }}">{{ galleryName|capitalize }}</a>
+        <i class="fa fa-angle-right"></i>
+        <a href="{{ environment.generateUrl('slider', 'view', { 'id': id }) }}">{{ translate('Import images') }}</a>
+        <i class="fa fa-angle-right"></i>
+        <a href="{{ environment.generateUrl('googledrive', 'authorization', { 'id': id }) }}">{{ translate('Google Drive authorization') }}</a>
+    </nav>
+
+{% endblock %}
+
+{% block content %}
+
+    <h2 id="gg-alrt" style="text-align: center; color: #bfbfbf; margin: 50px 0 25px 0;">
+		<span style="margin-bottom: 20px; display: block;">
+			{{ translate('Upload your images from Google Drive CDN') }}
+		</span>
+        <a class="button button-primary button-hero bordered" href="{{ url }}">
+            <i class="fa fa-fw fa-google"></i>
+            {{ translate('Upload from Google Drive') }}
+        </a>
+    </h2>
+{% endblock %}

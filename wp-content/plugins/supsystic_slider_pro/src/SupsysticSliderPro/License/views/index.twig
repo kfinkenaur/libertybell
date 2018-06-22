@@ -1,0 +1,48 @@
+{% extends 'base.twig' %}
+
+{% block breadcrumbs %}
+
+    <nav id="supsystic-breadcrumbs" class="supsystic-breadcrumbs" xmlns="http://www.w3.org/1999/html" style="margin-left: 0;">
+        <a href="{{ environment.generateUrl('slider') }}">{{ environment.translate('Slider by Supsystic') }}</a>
+        <i class="fa fa-angle-right"></i>
+        <a href="{{ environment.generateUrl('license') }}">{{ environment.translate('License') }}</a>
+    </nav>
+
+{% endblock %}
+
+{% block toolbar_wrap %}{% endblock %}
+
+{% block content %}
+    {% import '@core/form.twig' as form %}
+
+    <div class="supsystic-license">
+        <h3 style="margin-left: 20px; line-height: 2;">Congratulations! You have successfully installed PRO version of Slider by Supsystic plugin. Final step to finish Your PRO version setup - is to enter your Email and License Key on this page. This will activate Your copy of software on this site.</h3>
+        <hr/>
+        <form class="license-form">
+            <table class="form-table" style="margin-left:20px; width:auto;">
+            <tr>
+                <th class="line-title" style="width:auto;">
+                    <label for="license-email">Email</label>
+                    {{ form.tooltip('license-email') }}
+                </th>
+                <td>
+                    <input id="license-email" type="text" name="license[email]" style="width:400px;">
+                </td>
+            </tr>
+            <tr>
+                <th class="line-title" style="width:auto;">
+                    <label for="license-key">License Key</label>
+                    {{ form.tooltip('license-key') }}
+                </th>
+                <td>
+                    <input id="license-key" type="text" name="license[key]" style="width:400px;">
+                </td>
+            </tr>
+            </table>
+        </form>
+        <button id="send-license" class="button button-primary button-hero" style="margin: 20px;">
+            {{ environment.translate('Activate') }}
+            <i class="fa fa-check"></i>
+        </button>
+    </div>
+{% endblock %}

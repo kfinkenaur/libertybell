@@ -1,0 +1,132 @@
+body{
+    color: #888888 !important;
+    font-size: 16px !important;
+    line-height: 28px !important;
+}
+
+.reviews
+{
+border: 1px solid #e1e8ed;
+border-radius: 4px;-webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;
+background: #fbfbfb;padding: 10px;
+width:97%;
+height:auto;
+float:left;
+margin-top:-4px;
+margin-right:2px;
+}
+.review_area
+{
+width:25%;
+float:left;
+padding: 2px 0 0 2px;
+min-width:260px;
+}
+h3
+{
+	    color: #007acc !important;
+    font: normal 26px/42px 'Roboto', sans-serif !important;
+    
+
+}
+p
+{
+  margin:0px 0px 14px !important;	
+}
+.review_area img
+{
+    width: 109px;
+    /*float: left;*/
+    margin-right: 3%;
+    /*border: 1px solid #CCCCCC;*/
+    border-radius: 56px;
+    max-height: 109px;
+}
+.author_name a
+{
+	    font-size: 24px;
+		text-decoration:none;
+        		margin-top: 0em;
+    margin-bottom: 0em;
+color:#000 !important;
+}
+.ratings h3
+{
+	color:#000 !important;
+}
+.entry-content h2
+{
+ 		margin-top: 0em !important;
+    margin-bottom: 0em !important;	
+}
+.entry-content a
+{
+	    box-shadow: none !important;
+}
+.author_name
+{
+    font-family: Trebuchet MS,Sans-Serif;
+    float: left;
+    min-width: 260px;
+    margin-top: 3px;
+    text-align:center;
+}
+.reviews_results
+{
+width:60%; 
+float:left; 
+padding:2%;
+min-width:260px;
+}
+.ratings
+{
+float:left;
+min-width:260px;
+margin-top: 5px;
+}
+.ratings img
+{
+width:120px;
+margin-bottom:1%;
+}
+ .business_logo
+  {  
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+        margin: 0px 1px 7px 66px;
+    border-radius: 72px;
+  }
+@media(max-width: 480px)
+{
+.reviews_results
+{
+width:280px; 
+float:left; 
+padding:2%;
+min-width:260px;
+}
+}
+@media screen and (max-width: 768px) and (min-width: 481px)
+{ 
+.reviews_results
+{
+width:300px; 
+float:left; 
+padding:2%;
+min-width:260px;
+}
+    
+}
+@media screen and (min-width:769px) and (max-width: 1024px){ 
+.reviews_results{
+width:400px; 
+float:left; 
+padding:2%;
+min-width:260px;
+}
+   
+}

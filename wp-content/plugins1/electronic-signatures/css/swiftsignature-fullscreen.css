@@ -1,0 +1,170 @@
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.swiftsign-fullscreen-container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background: #475365;
+    z-index: 3000;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.swiftsign-modal{
+    z-index: 3500;
+}
+.swiftsign-fullscreen-sign-left .affix{
+    background: #475365;
+    height: 100%;
+    padding: 15px 15px 0;
+    max-width: 340px;
+}
+.swiftsign-fullscreen-sign-left h1, .swiftsign-fullscreen-sign-right h1{
+    font-family: "Open Sans",​sans-serif;
+}
+.swiftsign-fullscreen-sign-left h1{
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.swiftsign-fullscreen-sign-right {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.7) inset;
+    background-color: #fff;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.m-t-10{margin-top: 10px;}
+.swiftsign-fullscreen-userinfo-right{
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+}
+.swiftsign-fullscreen-userinfo-right p{font-weight: 700;margin-bottom: 5px;}
+.swiftsign-fullscreen-userinfo-right a:hover{color: #1074b7;}
+.swiftsign-fullscreen-user-img{
+    max-height: 50px;
+    max-width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.swiftsign-fullscreen-user-img > img{
+    width: 30px;
+    height: 30px;
+}
+.swiftsign-fullscreen-btn-round {
+    background-color: #E0E0E0;
+    border: medium none;
+    border-radius: 50% !important;
+    color: #1f4c71 !important;
+    font-size: 14px !important;
+    height: 30px;
+    margin-right: 5px;
+    padding: 0;
+    width: 30px;
+    line-height: 30px;
+}
+.swiftsign-fullscreen-btn-round:hover{
+    color: #1074b7;
+    background-color: #FFF;
+}
+a.swiftsign-fullscreen-btn-round{
+    padding: 5px 0;
+}
+.swiftsign-fullscreen-logo img{
+    width: 80%;
+    max-width: 310px;
+    opacity: 0.75;
+    float: right;
+}
+.swiftsign-fullscreen-logo a:hover img{
+    opacity: 1;
+}
+#swiftsign-fullscreen-fixed-row-1{
+    bottom: 20px;
+    max-width: 340px;
+    position: fixed;
+    width: 100%;
+}
+#swiftsign-fullscreen-fixed-row-2{
+    bottom: 80px;
+    max-width: 340px;
+    position: fixed;
+    width: 100%;
+}
+.swiftsign-fullscreen-sign-in-as{
+    color: #e0e0e0;
+    float: left;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* sign form */
+label.ss-radioset,
+label.ss-checkboxset{
+    display: block;
+}
+label.ss-radioset a,
+#sc_Frmswift label.ss-checkboxset a{
+    vertical-align: middle;
+}
+.ss-swfit-form select {
+    background: #fffdeb none repeat scroll 0 0;
+    border: 1px solid #333;
+    padding: 10px 7px;
+    width: 260px;
+}
+/* mob*/
+.swiftsign-fullscreen-container .swiftsign-fullscreen-mob-header{
+    background-color: #475365;
+}
+.swiftsign-fullscreen-mob-header .swiftsign-fullscreen-mob-logo{
+    text-align: center;
+}
+.swiftsign-fullscreen-mob-logo img {
+    max-width: 250px;
+    width: 100%;
+}
+.swiftsign-fullscreen-mob-header .swiftsign-fullscreen-mob-header-btns{
+    position: fixed;
+    bottom: 5px;right: 5px;z-index: 9999;
+}
+#swiftsign-fullscreen-submitBtn{
+    font-size: 18px;
+    padding: 10px 16px;
+}
+#swift_sign_submit{
+    display: none;
+}
+@media (max-width: 1024px) {
+    .swiftsign-fullscreen-sign-left .affix{
+        position: static;
+    }
+    .swiftsign-fullscreen-btn-container{
+        position: static;
+        margin-bottom: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .swiftsign-fullscreen-envelop-title{font-size: 22px;}
+}
+@media (max-width: 767px) {
+    .swiftsign-fullscreen-logo{
+        text-align: center;
+    }
+}

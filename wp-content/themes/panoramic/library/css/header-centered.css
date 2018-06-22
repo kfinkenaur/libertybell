@@ -1,0 +1,255 @@
+/*--------------------------------------------------------------
+Panoramic - Header Centered Styling
+--------------------------------------------------------------*/
+
+.panoramic-header-layout-centered .site-top-bar .site-container {
+	z-index: 10;
+	background-color: #ffffff;
+}
+
+.panoramic-header-layout-centered .site-top-bar-left {
+    float: left;
+    padding: 5px 0;
+    position: relative;
+    width: 50%;
+    background-color: #ffffff;
+    font-size: 12px;
+}
+.panoramic-header-layout-centered .site-top-bar-left a {
+    margin: 0 7px 0 0;
+    font-size: 12px;
+}
+.panoramic-header-layout-centered .info-text {
+    display: inline-block;
+    margin: 0 0 0 4px;
+    padding: 1px 0 0;
+	padding: 5px 0 5px 0;
+    vertical-align: middle;
+    font-size: 12px;
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.panoramic-header-layout-centered .site-top-bar-right {
+    float: right;
+    font-size: 12px;
+    padding: 5px 0;
+	position: relative;
+	right: 6px;
+    width: 50%;
+    text-align: right;
+    background-color: #ffffff;
+}
+.panoramic-header-layout-centered .site-top-bar-right a {
+    display: inline-block;
+    vertical-align: top;
+	
+    -webkit-transition: all 0.1s linear 0s;
+     -moz-transition: all 0.1s linear 0s;
+      -ms-transition: all 0.1s linear 0s;
+       -o-transition: all 0.1s linear 0s;
+          transition: all 0.1s linear 0s;
+}
+
+.panoramic-header-layout-centered .search-btn {
+    margin: 0 0 0 1px;
+	display: block;
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: uppercase;
+    padding: 0 4px;	
+}
+.panoramic-header-layout-centered .site-top-bar-left ul,
+.panoramic-header-layout-centered .site-top-bar-right ul {
+    display: inline-block;
+    vertical-align: middle;
+	padding: 6px 0 4px 0;
+}
+
+.panoramic-header-layout-centered .site-top-bar-left ul.social-links,
+.panoramic-header-layout-centered .site-top-bar-right ul.social-links {
+	height: 24px;
+	margin: -1px 0 0 0;
+}
+.panoramic-header-layout-centered .site-top-bar-left ul.social-links li a,
+.panoramic-header-layout-centered .site-top-bar-right ul.social-links li a {
+    font-size: 15px;
+	margin: 0;
+}
+
+.panoramic-header-layout-centered .site-top-bar-left ul li a
+.panoramic-header-layout-centered .site-top-bar-right ul li a {
+    line-height: 14px;
+}
+.panoramic-header-layout-centered .header-cart {
+    padding: 0 0 0 8px;
+}
+.panoramic-header-layout-centered .header-cart-contents {
+	font-size: 12px;
+	display: inline-block;
+    vertical-align: top;	
+}
+
+.panoramic-header-layout-centered .branding {
+    min-height: 91px;
+    width: 100%;
+    text-align: center;
+}
+.panoramic-header-layout-centered .branding a {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 100%;
+}
+.panoramic-header-layout-centered .branding img {
+    display: block;
+    margin: 0;
+}
+
+.panoramic-header-layout-centered .shop-links {
+	margin: 3px 0 3px 0;
+}
+
+.panoramic-header-layout-centered .account-link {
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.08);
+    display: inline-block;
+    margin: 2px 0 0;
+    padding: 0 5px 0 0;
+    line-height: 14px;
+}
+.panoramic-header-layout-centered .account-link a {
+    padding: 0 5px 0px;
+    border-radius: 3px;
+    font-size: 12px;
+	line-height: 20px;
+	
+	display: inline-block;
+    vertical-align: top;	
+	
+    -webkit-transition: all 0.05s linear 0s;
+     -moz-transition: all 0.05s linear 0s;
+      -ms-transition: all 0.05s linear 0s;
+       -o-transition: all 0.05s linear 0s;
+          transition: all 0.05s linear 0s;
+}
+
+.panoramic-header-layout-centered .search-block {
+    position: absolute;
+	right: 20px;
+    top: -56px;
+	z-index: 0;
+}
+
+.panoramic-header-layout-centered .site-title {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 100;
+    margin: 0;
+    padding: 17px 0 0;
+}
+.panoramic-header-layout-centered .description {
+    margin: 0;
+    padding: 4px 0 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.panoramic-header-layout-centered .main-menu-container {
+	text-align: center;
+}
+
+.panoramic-header-layout-centered .branding.title-below img {
+	margin: 0 0 10px 0;
+}
+.panoramic-header-layout-centered .branding.title-right {
+	width: auto;
+}
+.panoramic-header-layout-centered .branding.title-right img {
+	margin: 0 10px 0 0;
+	float: left;
+}
+.panoramic-header-layout-centered .branding.title-right .title_and_tagline {
+	text-align: left;
+	display: inline-block;
+}
+
+@media screen and (max-width: 780px) {
+	.panoramic-header-layout-centered .branding.title-right img {
+		margin: 0 auto 10px auto;
+		display: block;
+		float: none;
+	}
+	.panoramic-header-layout-centered .branding.title-right .title_and_tagline {
+		width: 100%;
+		text-align: center;
+	}
+
+	.search-block {
+	    position: absolute;
+	    left: 50%;
+		width: 316px;
+	    margin-left: -157px;
+	}
+	.panoramic-header-layout-centered .site-top-bar-left {
+		padding-bottom: 2px;
+	}
+	.panoramic-header-layout-centered .info-text {
+		padding: 0;
+		font-size: 12px;
+	}
+	
+    .site-top-bar-left {
+        float: none !important;
+        width: 100% !important;
+        text-align: center;
+    }
+    .panoramic-header-layout-centered .site-top-bar-right {
+    	padding: 2px 0 4px 0;
+        float: none !important;
+        width: 100% !important;
+        text-align: center !important;
+    	right: 0;
+	}
+    
+	.panoramic-header-layout-centered .site-top-bar-right .info-text,
+	.panoramic-header-layout-centered .site-top-bar-right ul.social-links,
+	.panoramic-header-layout-centered .site-top-bar-right .shop-links {
+		margin-bottom: 2px;
+	}    
+	.panoramic-header-layout-standard .info-text {
+		text-align: center !important;
+	}
+
+	.panoramic-header-layout-centered .account-link {
+		margin-top: 0px;
+		padding: 0 3px 0 0;
+	}
+	.panoramic-header-layout-centered .header-cart {
+		font-size: 10px;
+		padding: 0 0 0 9px;
+	}
+	.panoramic-header-layout-centered .site-top-bar-right ul {
+		padding: 4px 0 4px 0;
+	}
+	.panoramic-header-layout-centered .site-top-bar-right a {
+	    margin: 0 3px 0 0;
+	    font-size: 12px;
+	}
+	.panoramic-header-layout-centered .site-top-bar-right .header-cart a {
+		font-size: 12px;
+	}
+	.panoramic-header-layout-centered .site-top-bar-right .social-links {
+		margin-top: 4px;
+	}
+	.panoramic-header-layout-centered .site-top-bar-right .social-links a {
+	    margin: 0 0 0 0;
+	    font-size: 15px;
+	}
+	.social-links li {
+		font-size: 16px;
+	    float: left;
+	    padding: 1px 0 0 13px;
+	}
+	.site-top-bar ul li {
+		box-shadow: 0;
+	}
+}
