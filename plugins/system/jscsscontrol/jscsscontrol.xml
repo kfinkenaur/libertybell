@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+    <name>PLG_JSCSSCONTROL</name>
+    <version>3.2.0</version>
+    <creationDate>2016-02-05</creationDate>
+    <license>http://www.gnu.org/licenses/gpl</license>
+    <copyright>Copyright 2016 Viktor Vogel. All rights reserved.</copyright>
+    <author>Viktor Vogel</author>
+    <authoremail>admin@kubik-rubik.de</authoremail>
+    <authorUrl>https://joomla-extensions.kubik-rubik.de/</authorUrl>
+    <description>PLG_JSCSSCONTROL_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="jscsscontrol">jscsscontrol.php</filename>
+        <filename plugin="jscsscontrol">index.html</filename>
+        <folder plugin="jscsscontrol">fields</folder>
+    </files>
+    <languages folder="language">
+        <language tag="de-DE">de-DE/de-DE.plg_system_jscsscontrol.ini</language>
+        <language tag="de-DE">de-DE/de-DE.plg_system_jscsscontrol.sys.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_system_jscsscontrol.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_system_jscsscontrol.sys.ini</language>
+    </languages>
+    <updateservers>
+        <server type="extension" priority="1" name="PLG_JSCSSCONTROL">https://check.kubik-rubik.de/updates/jscsscontrol.xml</server>
+    </updateservers>
+    <config>
+        <fields name="params" addfieldpath="/plugins/system/jscsscontrol/fields">
+            <fieldset name="settings">
+                <field type="krdonationcodecheck" />
+                <field name="js_list" type="repeatable" icon="list" label="PLG_JSCSSCONTROL_JS_LIST" description="PLG_JSCSSCONTROL_JS_LISTDESC" select="PLG_JSCSSCONTROL_JS_BUTTON" default="" filter="raw">
+                    <fieldset hidden="true" name="js_list_modal" repeat="true">
+                        <field name="files" size="50" filter="raw" type="textarea" label="PLG_JSCSSCONTROL_JS_FILE" description="PLG_JSCSSCONTROL_JS_FILEDESC" />
+                        <field name="execution" size="50" filter="raw" type="textarea" label="PLG_JSCSSCONTROL_JS_EXECUTION" description="PLG_JSCSSCONTROL_JS_EXECUTIONDESC" />
+                        <field name="toggle" type="list" default="0" label="PLG_JSCSSCONTROL_JS_TOGGLE" description="PLG_JSCSSCONTROL_JS_TOGGLEDESC">
+                            <option value="1">JYES</option>
+                            <option value="0">JNO</option>
+                        </field>
+                    </fieldset>
+                </field>
+                <field name="css_list" type="repeatable" icon="list" label="PLG_JSCSSCONTROL_CSS_LIST" description="PLG_JSCSSCONTROL_CSS_LISTDESC" select="PLG_JSCSSCONTROL_CSS_BUTTON" default="" filter="raw">
+                    <fieldset hidden="true" name="css_list_modal" repeat="true">
+                        <field name="files" size="50" filter="raw" type="textarea" label="PLG_JSCSSCONTROL_CSS_FILE" description="PLG_JSCSSCONTROL_CSS_FILEDESC" />
+                        <field name="execution" size="50" filter="raw" type="textarea" label="PLG_JSCSSCONTROL_CSS_EXECUTION" description="PLG_JSCSSCONTROL_CSS_EXECUTIONDESC" />
+                        <field name="toggle" type="list" default="0" label="PLG_JSCSSCONTROL_CSS_TOGGLE" description="PLG_JSCSSCONTROL_CSS_TOGGLEDESC">
+                            <option value="1">JYES</option>
+                            <option value="0">JNO</option>
+                        </field>
+                    </fieldset>
+                </field>
+                <field name="remove_jcaption" type="list" default="0" label="PLG_JSCSSCONTROL_REMOVE_JCAPTION" description="PLG_JSCSSCONTROL_REMOVE_JCAPTIONDESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="remove_tooltip" type="list" default="0" label="PLG_JSCSSCONTROL_REMOVE_TOOLTIP" description="PLG_JSCSSCONTROL_REMOVE_TOOLTIPDESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="expert_settings" type="krtitle" label="PLG_JSCSSCONTROL_EXPERTSETTINGS" />
+                <field name="debug" type="list" default="0" label="PLG_JSCSSCONTROL_DEBUG" description="PLG_JSCSSCONTROL_DEBUGDESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="execute_admin" type="list" default="0" label="PLG_JSCSSCONTROL_EXECUTEADMIN" description="PLG_JSCSSCONTROL_EXECUTEADMINDESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+            </fieldset>
+            <fieldset name="deprecated">
+                <field type="krdonationcodecheck" />
+                <field name="krtitle-deprecated" type="krtitle" label="PLG_JSCSSCONTROL_DEPRECATED_FIELDS" />
+                <field name="js" type="textarea" default="" rows="8" cols="80" label="PLG_JSCSSCONTROL_JS" description="PLG_JSCSSCONTROL_JSDESC" />
+                <field name="css" type="textarea" default="" rows="8" cols="80" label="PLG_JSCSSCONTROL_CSS" description="PLG_JSCSSCONTROL_CSSDESC" />
+            </fieldset>
+            <fieldset name="donation">
+                <field type="krdonationcodecheck" name="donation" />
+                <field name="donation_code" type="text" default="" size="40" label="KR_DONATION_CODE" description="KR_DONATION_CODEDESC" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

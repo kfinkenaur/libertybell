@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="community" method="upgrade">
+	<name>My Rating</name>
+	<author>Joomunited</author>
+	<creationDate>August 2014</creationDate>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<author>Joomunited</author>
+	<authorEmail>contact@joomunited.com</authorEmail>
+	<authorUrl>www.joomunited.com</authorUrl>
+	<version>1.2.2</version>
+	<description>Joomsocial plugin used for Rating Box</description>
+	<files>
+		<filename plugin="itemrating">itemrating.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params" >
+			<fieldset name="basic" addfieldpath="/administrator/components/com_itemrating/models/fields">
+				<field name="lang" type="lang"/>
+				<field name="coreapp" type="list" default="0" label="Core Application" description="Causes this application to not appear in the users applications list but it will allow this application to appear in the user profile automatically if selected.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this plugin">
+					<option value="1">Use Global</option>
+					<option value="0">No</option>
+				</field>
+				<field name="position" type="list" default="content" label="Position" description="Default position if you select this as core apps">
+                    <option value="content">Main  content</option>
+                    <option value="sidebar-top">Sidebar top</option>
+                    <option value="sidebar-bottom">Sidebar bottom</option>
+                </field>
+				
+               <field name="groupdata" type="groupselect" label="Group Data" description="Group Data"/>
+               <field name="textforscore" type="text"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_TEXTFORSCORE"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_TEXTFORSCORE" 
+                 /> 
+	<field name="reviewsummary" type="textarea"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_REVIEWSUMMARY"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_REVIEWSUMMARY" 
+            cols="100"
+            rows="2" filter="html" />
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension method="upgrade" version="1.5" type="plugin" group="vmcustom" >
+   <name>Virtuemart-Item Rating</name>
+	<author>Joomunited</author>
+	<creationDate>August 2014</creationDate>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<author>Joomunited</author>
+	 <authorEmail>contact@joomunited.com</authorEmail>
+	 <authorUrl>www.joomunited.com</authorUrl>
+	<version>1.2.2</version>
+	<description>Virtuemart plugin used for Rating Box</description>
+    <files>
+        <filename plugin="itemrating">itemrating.php</filename>
+        <folder>itemrating</folder>
+    </files>
+    <vmconfig>
+        <fields name="params">
+            <fieldset name="template" addfieldpath="/administrator/components/com_itemrating/models/fields">
+		<field name="lang" type="lang"/>
+            <field name="custom_groupdata" type="groupselect"  label="COM_ITEMRATING_FORM_LBL_ITEM_GROUP" />
+            <field name="custom_textforscore" type="text"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_TEXTFORSCORE"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_TEXTFORSCORE" 
+                 /> 
+	<field name="custom_reviewsummary" type="textarea"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_REVIEWSUMMARY"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_REVIEWSUMMARY" 
+            cols="100"
+            rows="2" filter="html" />
+	    </fieldset>
+        </fields>
+    </vmconfig>
+    <params addpath="/administrator/components/com_virtuemart/elements">
+        <param type="vmjpluginwarning" />
+        <param name="custom_groupdata" type="text"  size="15"  default="10" label="COM_ITEMRATING_FORM_LBL_ITEM_GROUP" />
+       <param name="custom_textforscore" type="text"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_TEXTFORSCORE"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_TEXTFORSCORE" 
+                 /> 
+	<param name="custom_reviewsummary" type="textarea"
+            label="COM_ITEMRATING_FORM_LBL_GROUP_REVIEWSUMMARY"
+            description="COM_ITEMRATING_FORM_DESC_GROUP_REVIEWSUMMARY" 
+            cols="100"
+            rows="2" filter="html" />
+    </params>
+</extension>
