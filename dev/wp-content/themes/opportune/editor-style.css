@@ -1,0 +1,397 @@
+/* CSS for your editor */
+
+body {
+	max-width: 1140px;
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+	font-size: 0.875rem;
+	line-height: 1.65;
+	color: #616161;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+	line-height: 1.2;
+	margin: 0;
+	color: #000;
+}
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.813rem;
+}
+h3 {
+	font-size: 1.613rem;
+}
+h4 {
+	font-size: 1.438rem;
+}
+h5 {
+	font-size: 1.25rem;
+}
+h6 {
+	font-size: 1rem;
+}
+p {
+	margin: 1.25rem 0;
+} 
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-justify {
+	text-align: justify;
+}
+
+.text-lowercase {
+	text-transform: lowercase;
+}
+.text-uppercase {
+	text-transform: uppercase;
+}
+.text-capitalize {
+	text-transform:capitalize;
+}
+
+.text-light {
+	font-weight:300;
+}
+.text-semibold {
+	font-weight:600;
+}
+.text-bold {
+	font-weight:700;
+}
+.text-xbold {
+	font-weight:800;
+}
+blockquote {
+    display: block;
+    width: 96%;
+    padding: 7px 20px 7px 56px;
+    margin: 24px auto;
+    position: relative;
+    	font-size: 1rem;
+	font-style: italic;
+	line-height: 1.4;
+    font-style: italic;
+    	color: #929292;
+}
+blockquote p {
+	margin-left: 8px;
+}
+blockquote:before {
+    content: "\201C";
+    font-family: Georgia, serif;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #9a9a9a;
+    position: absolute;
+    left: 7px;
+    top: 7px;
+}
+    
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #777777;
+}
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+big {
+  font-size: 150%;
+}
+address {
+  margin-bottom: 22px;
+  font-style: normal;
+  line-height: 1.42857143;
+}
+pre,
+code {
+	background-color: #f3f3f3;
+	font-family: Courier, monospace;
+	border: 1px solid #d6d6d6;	
+}
+pre {
+	font-size: 0.9375rem;
+	line-height: 1.2;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 16px;
+}
+code {
+	padding: 0 8px;
+	color: #c38f1e;
+}
+kbd,
+tt,
+var {
+	font-family: Monaco, Consolas, monospace;
+	font-size: 1rem;
+}
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+mark,
+ins {
+	background: #F5E7A3;
+  	text-decoration: none;
+  	padding: 0 6px;
+}
+cite {
+    font-size: 0.813rem;
+    display: block;
+    margin-top: 6px;
+}
+cite:before {
+content: "\2014 \2009";
+}
+/*--------------------------------------------------------
+Horizontal Rule
+--------------------------------------------------------*/
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin: 1.5rem 0;	
+}
+/*--------------------------------------------------------------
+Links
+--------------------------------------------------------------*/
+a {
+	color: #be9a4d;
+	text-decoration: none;
+	-webkit-transition: color .2s ease-in-out;
+	    -moz-transition: color .2s ease-in-out;
+	      -ms-transition: color .2s ease-in-out;
+	         -o-transition: color .2s ease-in-out;
+	              transition: color .2s ease-in-out;
+}
+a:hover,
+a:focus,
+.entry-title a:hover {
+  color: #616161;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/*--------------------------------------------------------
+List Styles
+--------------------------------------------------------*/
+ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+	margin-bottom: 0;
+	padding-left: 28px;
+}
+dl {
+	margin: 22px 0;
+}
+dt,
+dd {
+  	line-height: 1.42857143;
+}
+dt {
+	  font-weight: 600;
+	  text-transform: uppercase;
+	  color: #000;
+}
+dd {
+  	margin: 8px 16px;
+}
+/*--------------------------------------------------------------
+Tables
+--------------------------------------------------------------*/
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left;
+}
+table thead th,  
+table thead td {
+	color: #ffffff;          /* was 222  and below 6e6e6e   */
+	background: #6e6e6e;
+}
+caption, th {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+th, td {
+    padding: 8px 12px;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;  /* was #f5f5f5 */
+}
+/*--------------------------------------------------------------
+Images and Media
+--------------------------------------------------------------*/
+img {
+	-ms-interpolation-mode: bicubic;
+	border: 0;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+/*--------------------------------------------------------------
+Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 4%;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 4%;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+}
+.alignnone {
+	clear: both;
+	margin: 0 0 3%;
+}
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+	margin: 0.5% 4% 1% 0;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+	margin: 0.5% 0 1% 4%;
+}
+
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+	clear: both;
+  	margin: 0.5% auto 3%;
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+	margin-bottom: 3%;
+}
+/*--------------------------------------------------------------
+Form  style override
+--------------------------------------------------------------*/
+button,
+.btn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-color: #62686e;
+	color: #fff;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 18px;
+	font-size: 0.813rem;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	line-height: 1.42857143;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: background-color .2s ease-in-out;
+	-moz-transition: background-color .2s ease-in-out;
+	-ms-transition: background-color .2s ease-in-out;
+	-o-transition: background-color .2s ease-in-out;
+	transition: background-color .2s ease-in-out;
+}
+button:focus,
+.btn:focus,
+.btn:active:focus {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+button:hover,
+button:focus,
+.btn:hover,
+.btn:focus {
+	background-color: #dfe3e6;
+	color: #333;
+	text-decoration: none;
+}
+
+.btn-lg {
+	padding: 10px 24px;
+	font-size: 1.125rem;
+	line-height: 1.3333333;
+}
+.btn-sm {
+	padding: 3px 14px;
+	font-size: 0.688rem;
+	line-height: 1.5;
+}
+.btn-xs {
+	padding: 0 10px;
+	font-size: 0.688rem;
+	line-height: 1.5;
+}
+.btn.white {
+	background-color: #fff;
+	border-color: #d9d9d9;
+	color: #333;
+}
+.btn.tan {
+	background-color: #dcc593;
+	color: #fff;
+}
+.btn.green {
+	background-color: #a4bbba;
+	color: #fff;
+}
+.btn.white:hover,
+.btn.tan:hover,
+.btn.green:hover {
+	background-color: #dfe3e6;
+	color: #333;
+	border: 1px solid transparent;
+}

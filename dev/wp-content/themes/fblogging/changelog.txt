@@ -1,0 +1,29 @@
+fBlogging 1.0.6, 2016-02-29
+------------------------
+- bug fixes
+
+fBlogging 1.0.5, 2016-02-26
+------------------------
+- bug fixes
+
+fBlogging 1.0.4, 2016-02-26
+------------------------
+- bug fixes
+
+fBlogging 1.0.3, 2016-02-25
+------------------------
+- bug fixes
+
+fBlogging 1.0.2, 2016-02-03
+------------------------
+- bug fixes
+
+fBlogging 1.0.1, 2015-11-24
+------------------------
+- FontAwesome update
+- slider improvements
+- bug fixes
+
+fBlogging 1.0.0, 2015-11-24
+------------------------
+- Initial release

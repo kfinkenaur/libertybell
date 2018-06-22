@@ -1,0 +1,31 @@
+Happenings
+====================================
+Happenings WordPress Theme, Copyright 2016 Rich Quigley.
+Happenings is distributed under the terms of the GNU GPL.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+Happenings WordPress Theme bundles the following third-party resources:
+
+FontAwesome: Published under various licenses http://fortawesome.github.io/Font-Awesome/license/
+
+Slick Slider by Ken Wheeler
+License: The MIT License (MIT)
+License Info: https://github.com/kenwheeler/slick/blob/master/LICENSE
+
+Open Sans by Steve Matteson - https://www.google.com/fonts/specimen/Open+Sans
+Apache License, version 2.0
+Licence Info: 
+http://www.apache.org/licenses/LICENSE-2.0.html
+
+Guitar image used in screenshot is from pixabay.com
+https://pixabay.com/en/guitar-guitar-player-musician-670087/
+License: CC0 Public Domain https://creativecommons.org/publicdomain/zero/1.0/deed.en

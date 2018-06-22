@@ -1,0 +1,32 @@
+#start_wp_fast_cache - do not remove this comment
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^(GET)
+RewriteCond /home4/liberuy2/public_html/libertybellfurniture/wp-content/wp_fast_cache/%{HTTP_HOST}%{REQUEST_URI}x__query__x%{QUERY_STRING}index.html -f
+RewriteCond %{HTTP_USER_AGENT} !(iPhone|Windows\sCE|BlackBerry|NetFront|Opera\sMini|Palm\sOS|Blazer|Elaine|^WAP.*$|Plucker|AvantGo|Nokia)
+RewriteCond %{HTTP_COOKIE} !(wordpress_logged_in) [NC]
+RewriteRule ^(.*)$ /home4/liberuy2/public_html/libertybellfurniture/wp-content/wp_fast_cache/%{HTTP_HOST}%{REQUEST_URI}x__query__x%{QUERY_STRING}index.html [L]
+
+RewriteCond %{REQUEST_METHOD} ^(GET)
+RewriteCond %{QUERY_STRING} ^$
+RewriteCond /home4/liberuy2/public_html/libertybellfurniture/wp-content/wp_fast_cache/%{HTTP_HOST}%{REQUEST_URI}index.html -f
+RewriteCond %{HTTP_USER_AGENT} !(iPhone|Windows\sCE|BlackBerry|NetFront|Opera\sMini|Palm\sOS|Blazer|Elaine|^WAP.*$|Plucker|AvantGo|Nokia)
+RewriteCond %{HTTP_COOKIE} !(wordpress_logged_in) [NC]
+RewriteRule ^(.*)$ /home4/liberuy2/public_html/libertybellfurniture/wp-content/wp_fast_cache/%{HTTP_HOST}%{REQUEST_URI}index.html [L]
+
+</IfModule>
+#end_wp_fast_cache
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+

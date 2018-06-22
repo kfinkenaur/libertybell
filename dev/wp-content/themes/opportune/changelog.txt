@@ -1,0 +1,56 @@
+-------------------------------------------------------
+    CHANGELOG
+-------------------------------------------------------
+
+Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating 
+bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at 
+what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different 
+parts of a program, by giving you a history of how the conflicting concepts arose and who they came from.
+
+-------------------------------------------------------
+    CHANGELOG Version Numbers
+-------------------------------------------------------
+
+[major].[minor].[patch]
+
+These 3 levels are defined as:
+
+1. An increment in the major version indicates a break in backward compatibility.
+2. An increment in the minor version indicates the addition of new features or a significant change to existing features.
+3. An increment in the patch version indicates that minor features have been changed or bugs have been fixed.
+
+-------------------------------------------------------
+    Changes Made to this Theme
+-------------------------------------------------------
+
+April 7, 2015 - 1.0.4
+--------------------------------------
+- Fixed the centered header not centering the site title
+- Added "Fresh Widgets" support for WP 4.5
+- Removed the theme information from the Appearance menu group in the admin
+- Updated the opportune.pot language file
+
+
+January 1, 2015 - 1.0.3
+--------------------------------------
+- Post Comments were throwing a fatal error...fixed.
+
+
+December 29, 2015 - 1.0.2
+--------------------------------------
+- Added a missing theme option that lets a user disable the caption box when using the WP Header Image
+- Updated the opportune.pot language file
+- Fixed a few more language strings that were not being translated in the template_tags.php file due to a PoEdit keyword issue
+
+
+December 13, 2015 - 1.0.1
+--------------------------------------
+- Updated the screenshot
+- Fixed the search form language strings because they were not getting found
+- Added a fix for a Firefox browser issue that ignores a logo image responsiveness when in a div
+- Updated the opportune.pot language file
+
+
+September 18, 2015 - 1.0.0
+--------------------------------------
+- Theme Released

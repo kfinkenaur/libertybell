@@ -1,0 +1,1440 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DH Local Seo\n"
+"POT-Creation-Date: 2014-03-29 15:14+0100\n"
+"PO-Revision-Date: 2014-03-29 15:15+0100\n"
+"Last-Translator: \n"
+"Language-Team: digitaleheimat GmbH <of@digitaleheimat.de>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../location-template.php:32 ../wp-local-seo.php:558
+#: ../wp-local-seo.php:1190 ../wp-local-seo.php:1913
+msgid "Phone"
+msgstr "Telefon"
+
+#: ../location-template.php:37 ../wp-local-seo.php:559
+#: ../wp-local-seo.php:1196 ../wp-local-seo.php:1918
+msgid "Fax"
+msgstr "Faxnummer"
+
+#: ../location-template.php:42 ../wp-local-seo.php:560
+#: ../wp-local-seo.php:1923
+msgid "Email address"
+msgstr "Email Adresse"
+
+#: ../location-template.php:47 ../wp-local-seo.php:561
+#: ../wp-local-seo.php:1208 ../wp-local-seo.php:1928
+msgid "Website"
+msgstr "Webseite"
+
+#: ../location-template.php:52 ../wp-local-seo.php:562
+#: ../wp-local-seo.php:1214 ../wp-local-seo.php:1933
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../location-template.php:57 ../wp-local-seo.php:563
+#: ../wp-local-seo.php:1221 ../wp-local-seo.php:1938
+msgid "Opening hours"
+msgstr "Öffnungszeiten"
+
+#: ../location-template.php:66
+msgid "» get directions on Google Maps"
+msgstr "» Route auf Google Maps anzeigen"
+
+#: ../wp-local-seo.php:177
+msgid "Locations"
+msgstr "Orte"
+
+#: ../wp-local-seo.php:178
+msgid "Location"
+msgstr "Ort"
+
+#: ../wp-local-seo.php:235 ../wp-local-seo.php:1130 ../wp-local-seo.php:1138
+msgid "Select Logo"
+msgstr "Logo auswählen"
+
+#: ../wp-local-seo.php:484
+msgid "<strong>Are you sure you want to reset the plugin settings?</strong>"
+msgstr ""
+"<strong>Bist du sicher, dass du die Einstellungen zurücksetzen willst?</"
+"strong>"
+
+#: ../wp-local-seo.php:486
+msgid ""
+"Created location content will not be deleted. <br/>If advanced features will "
+"be deactivated through the reset, the location posts will not be avaiable, "
+"while advanced features stay deactivated."
+msgstr ""
+"Erstellte Ortsangaben werden nicht gelöscht.<br/> Falls die erweiterten "
+"Funktionen durch das Zurücksetzen deaktiviert werden, sind die Ort-Beiträge "
+"nicht verfügbar, solange diese deaktiviert bleibt."
+
+#: ../wp-local-seo.php:487 ../wp-local-seo.php:498
+msgid "Reset Plugin"
+msgstr "Plugin zurücksetzen"
+
+#: ../wp-local-seo.php:488
+msgid "Back"
+msgstr "Zurück"
+
+#: ../wp-local-seo.php:493 ../wp-local-seo.php:657
+msgid "WP Local SEO settings"
+msgstr "WP Local SEO Einstellungen"
+
+#: ../wp-local-seo.php:521
+msgid "Advanced features"
+msgstr "Erweiterte Funktionen"
+
+#: ../wp-local-seo.php:522
+msgid "Google Maps settings"
+msgstr "Google Maps Einstellungen"
+
+#: ../wp-local-seo.php:523
+msgid "Post type settings"
+msgstr "Beitragstyp Einstellungen"
+
+#: ../wp-local-seo.php:524
+msgid "Enable additional fields"
+msgstr "Zusätzliche Felder aktivieren"
+
+#: ../wp-local-seo.php:525
+msgid "Layout settings"
+msgstr "Layout Einstellungen"
+
+#: ../wp-local-seo.php:526
+msgid "Template settings"
+msgstr "Template Einstellungen"
+
+#: ../wp-local-seo.php:527
+msgid "GEO sitemap settings"
+msgstr "GEO Sitemap Einstellungen"
+
+#: ../wp-local-seo.php:530
+msgid "Enable advanced features"
+msgstr "Erweiterte Funktionen aktivieren"
+
+#: ../wp-local-seo.php:532
+msgid ""
+"- Location information will be saved as a custom post type and multiple "
+"instances can be added to other posts"
+msgstr ""
+"- Ortsangaben werden als eigener Beitragstyp gespeichert und mehrere "
+"Instanzen können anderen Beiträgen angehängt werden"
+
+#: ../wp-local-seo.php:533
+msgid "- Locations can be categorized"
+msgstr "- Orte können kagetorisiert werden"
+
+#: ../wp-local-seo.php:534
+msgid ""
+"- Enables a Google Map that shows all locations via shortcode "
+"<code>[wp_localseo_map width=100% height=350px]*</code> ot function call "
+"<code>$wp_localseo->show_location_map($width=\"100%\", $height=\"350px\");*</"
+"code> | *the default values can be overridden"
+msgstr ""
+"- Aktiviert eine Google Map, die alle Orte anzeigt, via Shortcode "
+"<code>[wp_localseo_map width=100% height=350px]*</code> oder Funktionsaufruf "
+"<code>$wp_localseo->show_location_map($width=\"100%\", $height=\"350px\");*</"
+"code> | *Die Standardwerte können überschrieben werden."
+
+#: ../wp-local-seo.php:535
+msgid ""
+"<strong>Note:</strong><br/> All existing entries will be mapped on the post "
+"type. <br/> This cannot be undone without resetting the plugin."
+msgstr ""
+"<strong>Hinweis:</strong><br/> Alle vorhandenen Ortsangaben werden "
+"automatisch in den Beitragstyp übernommen. <br/> Diese Aktion kann nur durch "
+"Zurücksetzen des Plugins widerrufen werden."
+
+#: ../wp-local-seo.php:537
+msgid "Google Maps API Key"
+msgstr "Google Maps API Schlüssel"
+
+#: ../wp-local-seo.php:537
+msgid ""
+"An API console key is recommended and provided by <a href=\"https://"
+"developers.google.com/maps/documentation/javascript/tutorial?hl=en#api_key\" "
+"target=\"_blank\">Google</a>."
+msgstr ""
+"Ein API Konsolenschlüssel wird empfohlen und von <a href=\"https://"
+"developers.google.com/maps/documentation/javascript/tutorial?hl=de#api_key\" "
+"target=\"_blank\">Google</a> zur Verfügung gestellt."
+
+#: ../wp-local-seo.php:549
+#, php-format
+msgid "Enable for post type \"%s\""
+msgstr "Für Beitragstyp \"%s\" aktivieren"
+
+#: ../wp-local-seo.php:549
+#, php-format
+msgid "Shows location information fields for post type \"%s\""
+msgstr "Zeigt Ortsangaben-Felder for Beitragstyp \"%s\""
+
+#: ../wp-local-seo.php:554
+msgid "Default type of location"
+msgstr "Standard Ortstyp"
+
+#: ../wp-local-seo.php:554
+msgid "Sets the default Schema.org type of location."
+msgstr "Stellt den Standard Ortstyp ein (Schema.org Notation)."
+
+#: ../wp-local-seo.php:555 ../wp-local-seo.php:1110
+msgid "Type of location"
+msgstr "Art des Ortes"
+
+#: ../wp-local-seo.php:555
+msgid "Enables a select field to override default business"
+msgstr "Aktiviert ein feld, um den Standard Ortstyp zu überschreiben"
+
+#: ../wp-local-seo.php:557
+msgid "Content"
+msgstr "Inhalt"
+
+#: ../wp-local-seo.php:557
+msgid "Enables the post content with wordpress editor"
+msgstr "Aktiviert den Beitragsinhalt mit Wordpress-Editor"
+
+#: ../wp-local-seo.php:558
+msgid "Enables a text field to enter the phone number"
+msgstr "Aktiviert ein Texfeld um die Telefonnummer einzugeben"
+
+#: ../wp-local-seo.php:559
+msgid "Enables a text field to enter the fax number"
+msgstr "Aktiviert ein Texfeld um die Faxnummer einzugeben"
+
+#: ../wp-local-seo.php:560
+msgid ""
+"Enables a text field to enter the email address; <code>mailto:</code> link "
+"in default template"
+msgstr ""
+"Aktiviert ein Texfeld um die Emailadresse einzugeben; <code>mailto:</code> "
+"Link im Standard-Template"
+
+#: ../wp-local-seo.php:561
+msgid "Enables a text field to enter the website; linked in default template"
+msgstr ""
+"Aktiviert ein Texfeld um die Website einzugeben;  Link im Standard-Template"
+
+#: ../wp-local-seo.php:562
+msgid ""
+"Enables a textarea to enter a description with html allowed and automatic "
+"linebreaks"
+msgstr ""
+"Aktiviert ein Fließtextfeld um eine Beschreibung einzugeben; HTML erlaubt "
+"mit automatischen Zeilenumbrüchen"
+
+#: ../wp-local-seo.php:563
+msgid ""
+"Enables a dynamic fieldset to enter various opening hours; autosort by "
+"weekday and time"
+msgstr ""
+"Aktiviert ein dynamisches Formular, um beliebig viele Öffnungszeiten "
+"einzugeben; automatische Sortierung nach WOchentag und Stunde"
+
+#: ../wp-local-seo.php:565 ../wp-local-seo.php:570
+msgid "Width: "
+msgstr "Breite:"
+
+#: ../wp-local-seo.php:566 ../wp-local-seo.php:571
+msgid "Height: "
+msgstr "Höhe:"
+
+#: ../wp-local-seo.php:567
+msgid "Custom map size"
+msgstr "Eigene Map-Größe:"
+
+#: ../wp-local-seo.php:567
+msgid ""
+"Set a custom size for the location map<br/><strong>Possible values: </"
+"strong>numeric values, ex.: 200, 200px, 100%<br/><strong>Note:</strong> "
+"Overrides other CSS styles"
+msgstr ""
+"Definiere eine eigene Größe für die Ort-Map<br/> <strong>Mögliche Werte:</"
+"strong>: numerische Werte, zB.: 200, 200px, 100%<br/><strong>Achtung:</"
+"strong> Überschreibt andere CSS-Styles"
+
+#: ../wp-local-seo.php:572
+msgid "Crop: "
+msgstr "Zuschneiden:"
+
+#: ../wp-local-seo.php:573
+msgid "Logo size"
+msgstr "Logo Größe"
+
+#: ../wp-local-seo.php:573
+msgid ""
+"Set a size for uploaded logos<br/><strong>Possible values:</strong> size in "
+"pixels without unit, ex.: 200 | <strong>Crop:</strong> crops image to the "
+"exact dimenesions<br/><strong>Note:</strong> Image resizing only applies for "
+"new images"
+msgstr ""
+"Definiere eine Größe für hochgeladene Logos<br/><strong>Mögliche Werte:</"
+"strong> Größe in Pixel ohne Einheit, zB.: 200 | <strong>Zuschneiden:</"
+"strong> Schneidet Bilder auf die exakten Dimensionen zu<br/><strong>Achtung:"
+"</strong> Größenänderungen wirken sich nur auf neue Bilder aus"
+
+#: ../wp-local-seo.php:575
+msgid "Disable default CSS styles"
+msgstr "Standard CSS-Styles ausblenden"
+
+#: ../wp-local-seo.php:576
+msgid "Add custom CSS styles"
+msgstr "Eigene CSS-Styles hinzufügen"
+
+#: ../wp-local-seo.php:576
+msgid ""
+"<strong>Note:</strong> Please be aware that wrong formatting can break your "
+"layout. Alternatively you can also add custom css code directly in your "
+"theme css"
+msgstr ""
+"<strong>Achtung:</strong> Falsche Formatierung kann das Layout zerstören. "
+"Alternativ kannst du den CSS Code auch direkt in deiner Theme-CSS hinzufügen"
+
+#: ../wp-local-seo.php:579
+msgid "Append template automatically"
+msgstr "Template automatisch einbinden"
+
+#: ../wp-local-seo.php:579
+msgid ""
+"Automatically appends location information template to post content through "
+"<code>the_content</code> filter"
+msgstr ""
+"Hängt das Ortsangaben-Template automatisch an den Eintrags-Inhalt über den "
+"<code>the_content</code> Filter"
+
+#: ../wp-local-seo.php:580
+msgid "Position in filter herarchy"
+msgstr "Position in Filter-Hierarchie"
+
+#: ../wp-local-seo.php:580
+msgid ""
+"Adjusts, when within the filter the template is loaded; <strong>Note:</"
+"strong> Only necessary for ordering when several filters are active. "
+"Default: <code>10</code> "
+msgstr ""
+"Stellt ein, an welcher Stelle der Filter-Hierarchie das Template geladen "
+"wird; <strong>Hinweis:</strong> Nur nötig zur Sortierung wenn mehrere Filter "
+"aktiv sind. Standard: <code>10</code>"
+
+#: ../wp-local-seo.php:603
+msgid "Please enter an existing Blog ID."
+msgstr "Bitte gib eine bestehende Blog ID an."
+
+#: ../wp-local-seo.php:611
+msgid "Settings were successfully updated."
+msgstr "EInstellungen wurden erfolgreich aktualisiert."
+
+#: ../wp-local-seo.php:624
+msgid "Please enter at least one existing Blog ID."
+msgstr "Bitte gib mindestens eine bestehende Blog ID an."
+
+#: ../wp-local-seo.php:641
+msgid " | <strong>Note:</strong> Advanced configuration was left activated."
+msgstr ""
+" | <strong>Hinweis:</strong> Erweiterte Einstellungen sind aktiviert "
+"geblieben."
+
+#: ../wp-local-seo.php:645
+#, php-format
+msgid "Settings for Blog ID %d were successfully resetted."
+msgstr "Einstellungen für Blog ID %d wurden erfolgreich zurückgesetzt."
+
+#: ../wp-local-seo.php:660
+msgid "Default Blog (ID): "
+msgstr "Standard Blog (ID):"
+
+#: ../wp-local-seo.php:663
+msgid ""
+"Enter the Blog ID for the site whose settings you want to use as default for "
+"all sites that are added to your network. Leave empty for using the plugins "
+"default settings."
+msgstr ""
+"Gib die Blog ID der Site an, deren Einstellungen du als Standard für alle "
+"neuen Seiten übernehmen willst. Für Plugin Standardeinstellungen leer lassen."
+
+#: ../wp-local-seo.php:667
+msgid "Save network settings"
+msgstr "Netzwerkeinstellungen speichern"
+
+#: ../wp-local-seo.php:671
+msgid "Reset Blogs (IDs): "
+msgstr "Blogs zurücksetzen (IDs):"
+
+#: ../wp-local-seo.php:674
+msgid ""
+"Reset the settings of these Blogs. Seperate several Blog IDs with comma: "
+"1,2,3"
+msgstr ""
+"Einstellungen dieser Blogs zurücksetzen. Mehrere Blog IDs mit Komma trennen: "
+"1,2,3"
+
+#: ../wp-local-seo.php:680
+msgid "Reset all blogs"
+msgstr "Alle Blogs zurücksetzen"
+
+#: ../wp-local-seo.php:681
+msgid "Reset the settings of all Blogs."
+msgstr "Einstellungen aller Blogs zurücksetzen"
+
+#: ../wp-local-seo.php:685
+msgid "Reset settings"
+msgstr "Einstellungen zurücksetzen"
+
+#: ../wp-local-seo.php:702 ../wp-local-seo.php:713
+msgid "WP Local Seo"
+msgstr "WP Local Seo"
+
+#: ../wp-local-seo.php:829
+msgid ""
+"The plugin supports, next to the default address fields, additional SEO "
+"relevant fields."
+msgstr ""
+"Das Plugin unterstützt neben den standardmäßigen Addressfeldern zusätzliche "
+"SEO-relevante Felder."
+
+#: ../wp-local-seo.php:830
+msgid ""
+"<strong>Note:</strong> The Schema.org notation is implemented in the default "
+"template and can be overridden through a custom template (see below)."
+msgstr ""
+"<strong>Hinweis:</strong> Die Schema.org Notation ist im Standard-Template "
+"implementiert und kann durch ein eigenes Template überschrieben werden "
+"(siehe unten)."
+
+#: ../wp-local-seo.php:847
+msgid ""
+"The plugin automatically creates a sitemap with geo information that can ie. "
+"be submitted to Google Webmasters:"
+msgstr ""
+"Das Plugin generiert automatisch eine Sitemap mit Geo-Informationen, die z."
+"B. bei Google Webmaster eingereicht werden kann"
+
+#: ../wp-local-seo.php:848
+#, php-format
+msgid ""
+"<strong>Note:</strong> If the sitemap is not avaiable you might have to <a "
+"href=\"%s\">flush the rewrite rules</a>."
+msgstr ""
+"<strong>Hinweis:</strong> Falls die Sitemap nicht erreichbar ist solltest du "
+"die <a href=\"%s\">Rewrite Regeln zurücksetzen</a>."
+
+#: ../wp-local-seo.php:863
+msgid "Location Template"
+msgstr "Orts-Template"
+
+#: ../wp-local-seo.php:866 ../wp-local-seo.php:873
+#, php-format
+msgid ""
+"You are currently using the default template for displaying the location "
+"information. You can override the template in your theme folder. Just copy "
+"the default template from <code>%s</code>."
+msgstr ""
+"Du benutzt zur Zeit das Standard-Template, um die Ortsangaben darzustellen. "
+"Du kannst das Template in deinem Theme-Ordner überschreiben. Kopiere einfach "
+"das Standard-Template aus <i>%s</i>."
+
+#: ../wp-local-seo.php:868 ../wp-local-seo.php:875
+#, php-format
+msgid ""
+"You are currently using a custom template for displaying the location "
+"information. To use the default, just delete the custom template from <code>"
+"%s</code>"
+msgstr ""
+"Du benutzt zur Zeit ein eigenes Template, um die Ortsangaben darzustellen. "
+"Um das Standard-Template zu aktivieren, lösche einfach dein eigenes aus <i>"
+"%s</i>"
+
+#: ../wp-local-seo.php:870
+msgid "Location Template \"Mini\" (Google Map Infobox)"
+msgstr "Orts-Template \"Mini\" (Google Map Infobox)"
+
+#: ../wp-local-seo.php:880
+msgid ""
+"The plugin can append the template automatically using <code>the_content</"
+"code> filter. You can also add the template to your theme manually using the "
+"function <code>print $wp_localseo->show_locations($post_id)</code> or insert "
+"it directly into the post content using the shortcode <code>[wp_localseo "
+"id=POST_ID]</code>. If no post id is set, the global variable <code>$post-"
+">ID</code> will be used."
+msgstr ""
+"Das Plugin kann das Template automatisch einfügen, indem es den "
+"<code>the_content</code> Filter benutzt. Du kannst das Template ebenfalls "
+"selbst in dein Theme einbinden, indem du die Funktion  <code>print "
+"$wp_localseo->show_locations($post_id)</code> benutzt, oder es direkt via "
+"Shortcode <code>[wp_localseo id=POST_ID]</code> in den Eintrags-Inhalt "
+"einfügen. Ist keine Post ID gesetzt, dann wird die globale Variable <code>"
+"$post->ID</code> verwendet."
+
+#: ../wp-local-seo.php:902 ../wp-local-seo.php:908 ../wp-local-seo.php:917
+msgid "Location information"
+msgstr "Ortsangaben"
+
+#: ../wp-local-seo.php:973
+#, php-format
+msgid ""
+"The requested location \"%s\" is in the trash and not avaiable.<br/>It will "
+"be unlinked from this post with the next save."
+msgstr ""
+"Der angeforderte Ort \"%s\" ist im Papierkorb und nicht verfügbar.<br/>Die  "
+"Verknüpfung wird beim nächsten Speichern von diesem Eintrag entfernt."
+
+#: ../wp-local-seo.php:976
+msgid "This location is not published and will not be shown on the website."
+msgstr ""
+"Der Ort ist nicht veröffentlicht und wird auf der Website nicht angezeigt."
+
+#: ../wp-local-seo.php:982
+msgid "Add location"
+msgstr "Ort hinzufügen"
+
+#: ../wp-local-seo.php:1104
+msgid "Name"
+msgstr "Name"
+
+#: ../wp-local-seo.php:1106
+msgid "Name of the location"
+msgstr "Name des Orts"
+
+#: ../wp-local-seo.php:1112
+msgid "Select a Schema.org valid location type"
+msgstr "Wäle einen Schema.org validen Ortstyp"
+
+#: ../wp-local-seo.php:1118
+msgid "Categories"
+msgstr "Kategorien"
+
+#: ../wp-local-seo.php:1127
+msgid "Logo"
+msgstr "Logo"
+
+#: ../wp-local-seo.php:1131
+msgid "Remove Logo"
+msgstr "Logo entfernen"
+
+#: ../wp-local-seo.php:1169
+msgid "Street"
+msgstr "Straße"
+
+#: ../wp-local-seo.php:1171
+msgid "Street and no. of the location"
+msgstr "Straße und Hausnummer des Orts"
+
+#: ../wp-local-seo.php:1174 ../wp-local-seo.php:1176
+msgid "Postal code and city"
+msgstr "Postleitzahl und Stadt"
+
+#: ../wp-local-seo.php:1179
+msgid "Google map"
+msgstr "Google Map"
+
+#: ../wp-local-seo.php:1181
+msgid "Check address"
+msgstr "Adresse überprüfen"
+
+#: ../wp-local-seo.php:1182
+msgid "Address needs to be checked to update Google Map data"
+msgstr "Adresse muss überprüft werde, um Google Map Daten zu aktualisieren"
+
+#: ../wp-local-seo.php:1183
+msgid "Geodata was reset due to empty or invalid adress."
+msgstr ""
+"Google Map Daten wurden zurückgesetzt, da die Adresse leer oder ungültig ist."
+
+#: ../wp-local-seo.php:1185
+msgid "Latitude"
+msgstr "Latitude"
+
+#: ../wp-local-seo.php:1185
+msgid "Longitude"
+msgstr "Longitude"
+
+#: ../wp-local-seo.php:1186
+msgid "Data is retrieved automatically"
+msgstr "Daten werden automatisch eingelesen"
+
+#: ../wp-local-seo.php:1202
+msgid "Email"
+msgstr "Email"
+
+#: ../wp-local-seo.php:1216
+msgid "HTML is allowed, linebreaks are set automatically."
+msgstr "HTML ist erlaubt, Zeilenumbrüche werden automatisch eingefügt."
+
+#: ../wp-local-seo.php:1230 ../wp-local-seo.php:1245 ../wp-local-seo.php:1607
+msgid "Monday"
+msgstr "Montag"
+
+#: ../wp-local-seo.php:1231 ../wp-local-seo.php:1246 ../wp-local-seo.php:1608
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: ../wp-local-seo.php:1232 ../wp-local-seo.php:1247 ../wp-local-seo.php:1609
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: ../wp-local-seo.php:1233 ../wp-local-seo.php:1248 ../wp-local-seo.php:1610
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: ../wp-local-seo.php:1234 ../wp-local-seo.php:1249 ../wp-local-seo.php:1611
+msgid "Friday"
+msgstr "Freitag"
+
+#: ../wp-local-seo.php:1235 ../wp-local-seo.php:1250 ../wp-local-seo.php:1612
+msgid "Saturday"
+msgstr "Samstag"
+
+#: ../wp-local-seo.php:1236 ../wp-local-seo.php:1251 ../wp-local-seo.php:1613
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: ../wp-local-seo.php:1238 ../wp-local-seo.php:1253
+msgid "to"
+msgstr "bis"
+
+#: ../wp-local-seo.php:1257
+msgid "Add opening hours"
+msgstr "Öffnungszeiten hinzufügen"
+
+#: ../wp-local-seo.php:1511
+msgid "edit"
+msgstr "bearbeiten"
+
+#: ../wp-local-seo.php:1511
+msgid "opens in a new tab/window"
+msgstr "Öffnet sich in einem neuen Reiter/Fenster"
+
+#: ../wp-local-seo.php:1512
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ../wp-local-seo.php:1512
+msgid "will be saved on post update only"
+msgstr "Wird erst beim Aktualisieren des Beitrags gespeichert"
+
+#: ../wp-local-seo.php:1655
+msgid "Add item"
+msgstr "Element hinzufügen"
+
+#: ../wp-local-seo.php:1707
+msgid "This function is only avaiable for advanced features."
+msgstr "Diese Funktion ist nur bei erweiterten Funktionen verfügbar."
+
+#: ../wp-local-seo.php:1942
+#, php-format
+msgid "Detailled information on %s"
+msgstr "Detaillierte Informationen auf %s"
+
+#: ../wp-local-seo.php:2013
+msgid "The rewrite rules were flushed successfully."
+msgstr "Die Rewrite Regeln wurden erfolgreich zurückgesetzt."
+
+#: ../wp-local-seo.php:2021
+msgid "<strong>WP Local SEO</strong> was successfully installed."
+msgstr "WP Local SEO wurde erfolgreich installiert."
+
+#: ../wp-local-seo.php:2030
+msgid ""
+"<strong>WP Local SEO</strong> was successfully updated to <strong>Version "
+"1.1</strong>"
+msgstr "WP Local SEO wurde erfolgreich auf Version 1.1 aktualisiert."
+
+#: ../wp-local-seo.php:2031 ../wp-local-seo.php:2060
+msgid ""
+"<strong>Note:</strong> We took care of all variables set through the "
+"Wordpress. If you have any function calls in your theme, you need to change "
+"them manually."
+msgstr ""
+"<strong>Hinweis:</strong> Wir haben alle Variablen aktualisiert, die in "
+"Wordpress gesetzt wurden. Falls du Funktionsaufrufe in deinem Theme hast "
+"musst du diese selbst aktualisieren."
+
+#: ../wp-local-seo.php:2045
+msgid ""
+"<strong>WP Local SEO</strong> was successfully updated to <strong>Version "
+"2.0</strong>"
+msgstr ""
+"<strong>WP Local SEO</strong> wurde erfolgreich auf <strong>Version 2.0</"
+"strong> aktualisiert."
+
+#: ../wp-local-seo.php:2046
+msgid "New in Version 2.0: "
+msgstr "Neu in Version 2.0:"
+
+#: ../wp-local-seo.php:2048
+msgid "Multiple phone & fax numbers, email adresses and websites"
+msgstr "Beliebig viele Telefon- und Faxnummern, E-Mailadressen und Webseiten"
+
+#: ../wp-local-seo.php:2049
+msgid ""
+"Possibility to define any valid Schema.org location category (any child of "
+"http://schema.org/LocalBusiness or http://schema.org/CivicStructure)"
+msgstr ""
+"Möglichkeit, valide Schema.org Kategorien auszuwählen (Jedes Kind von http://"
+"schema.org/LocalBusiness oder http://schema.org/CivicStructure)"
+
+#: ../wp-local-seo.php:2050
+msgid "Two configuration modes:"
+msgstr "Zwei mögliche Konfigurationsmodi:"
+
+#: ../wp-local-seo.php:2052
+msgid "Standard configuration:"
+msgstr "Standard-Konfiguration:"
+
+#: ../wp-local-seo.php:2053
+msgid ""
+"provides an easy to use interface adding the location information directly "
+"into any post"
+msgstr ""
+"Bietet eine einfach zu bedienende Oberfläche um die Ortsangaben direkt in "
+"den Beiträgen hinzuzufügen"
+
+#: ../wp-local-seo.php:2054
+msgid "Advanced features:"
+msgstr "Erweiterte Funktionen:"
+
+#: ../wp-local-seo.php:2056
+msgid ""
+"Creates locations as instances (custom post type) and lets you just add them "
+"to any post (multiple locations per post are possible)"
+msgstr ""
+"Erstellt Orte als Instanzen (Custom Post Type), die den Beiträgen zugeordnet "
+"werden können (mehrere Orte pro Beitrag sind möglich)"
+
+#: ../wp-local-seo.php:2057
+msgid "Enables categories for locations"
+msgstr "Aktiviert Kategorien für Orte"
+
+#: ../wp-local-seo.php:2058
+msgid "Enables Google Map with all locations via shortcode or function call"
+msgstr ""
+"Bietet eine Google Map mit allen Orten - via Shortcode oder Funktionsaufruf"
+
+#: ../wp-local-seo.php:2061
+msgid ""
+"<strong>Advanced features:</strong> We automatically activated advanced "
+"features, because you had the location post type activated."
+msgstr ""
+"<strong>Erweiterte Funktionen:</strong> Die erweiterten Funktionen wurden "
+"automatisch aktiviert, da du den Beitragstyp Ort aktiviert hattest."
+
+#: ../wp-local-seo.php:2069 ../wp-local-seo.php:2082
+#, php-format
+msgid ""
+"<strong>WP Local SEO</strong> was successfully updated to <strong>Version "
+"%s</strong>"
+msgstr ""
+"<strong>WP Local SEO</strong> wurde erfolgreich auf Version <strong>%s</"
+"strong> aktualisiert."
+
+#: ../wp-local-seo.php:2070 ../wp-local-seo.php:2083
+#, php-format
+msgid "New in <strong>Version %s</strong>"
+msgstr "Neu in <strong>Version %s</strong>"
+
+#: ../wp-local-seo.php:2072
+msgid "Custom size for maps and uploaded logos"
+msgstr "Eigene Größen für Maps und hochgeladene Logos"
+
+#: ../wp-local-seo.php:2073
+msgid "Custom css styles for advanced layouting"
+msgstr "Eigene CSS-Styles für fortgeschrittene Layouts"
+
+#: ../wp-local-seo.php:2085
+msgid "Enable content for location post type"
+msgstr "Inhalt für Orte aktivieren"
+
+#: ../wp-local-seo.php:2087
+msgid ""
+"<strong>Note:</strong>There was an update in the location template you might "
+"need to take care of in your theme."
+msgstr ""
+"<strong>Hinweis:</strong>Es gibt ein Update im Orts-Template. Du solltest "
+"gegenebenfalls dein Theme anpassen."
+
+#: ../wp-local-seo.php:2095
+msgid "<strong>Advanced features were successfully activated</strong>"
+msgstr "<strong>Erweiterte Funktionen wurden erfolgreich aktiviert.</strong>"
+
+#: ../wp-local-seo.php:2096
+msgid ""
+"<strong>Note:</strong> We automatically migrated all your locations into the "
+"new post type."
+msgstr ""
+"<strong>Hinweis:</strong> Wir haben alle deine Ortsangaben automatisch in "
+"den neuen Beitragstyp übernommen."
+
+#: ../inc/business_list.php:2
+msgid "Local Business"
+msgstr "Lokales Geschäft"
+
+#: ../inc/business_list.php:3
+msgid "Animal Shelter"
+msgstr "Tierheim"
+
+#: ../inc/business_list.php:4
+msgid "Automotive Business"
+msgstr "Automobilbranche"
+
+#: ../inc/business_list.php:5
+msgid "Auto Body Shop"
+msgstr "Autolackiererei"
+
+#: ../inc/business_list.php:6
+msgid "Auto Dealer"
+msgstr "Autohändler"
+
+#: ../inc/business_list.php:7 ../inc/business_list.php:104
+msgid "Auto Parts Store"
+msgstr "Autozubehör"
+
+#: ../inc/business_list.php:8
+msgid "Auto Rental"
+msgstr "Autovermietung"
+
+#: ../inc/business_list.php:9
+msgid "Auto Repair"
+msgstr "Autoreparatur"
+
+#: ../inc/business_list.php:10
+msgid "Auto Wash"
+msgstr "Waschanlage"
+
+#: ../inc/business_list.php:11
+msgid "Gas Station"
+msgstr "Tankstelle"
+
+#: ../inc/business_list.php:12
+msgid "Motorcycle Dealer"
+msgstr "Motorradhändler"
+
+#: ../inc/business_list.php:13
+msgid "Motorcycle Repair"
+msgstr "Motorradwerkstatt"
+
+#: ../inc/business_list.php:14
+msgid "Child Care"
+msgstr "Kinderbetreuung"
+
+#: ../inc/business_list.php:15
+msgid "Dry Cleaning Or Laundry"
+msgstr "Reinigung oder Wäscherei"
+
+#: ../inc/business_list.php:16
+msgid "Emergency Service"
+msgstr "Notdienst"
+
+#: ../inc/business_list.php:17 ../inc/business_list.php:147
+msgid "Fire Station"
+msgstr "Feuerwehr"
+
+#: ../inc/business_list.php:18 ../inc/business_list.php:71
+#: ../inc/business_list.php:154
+msgid "Hospital"
+msgstr "Krankenhaus"
+
+#: ../inc/business_list.php:19 ../inc/business_list.php:169
+msgid "Police Station"
+msgstr "Polizeistation"
+
+#: ../inc/business_list.php:20
+msgid "Employment Agency"
+msgstr "Arbeitsagentur"
+
+#: ../inc/business_list.php:21
+msgid "Entertainment Business"
+msgstr "Unterhaltungsbranche"
+
+#: ../inc/business_list.php:22
+msgid "Adult Entertainment"
+msgstr "Unterhaltung für Erwachsene"
+
+#: ../inc/business_list.php:23
+msgid "Amusement Park"
+msgstr "Freizeitpark"
+
+#: ../inc/business_list.php:24
+msgid "Art Gallery"
+msgstr "Kunstgalerie"
+
+#: ../inc/business_list.php:25
+msgid "Casino"
+msgstr "Kasino"
+
+#: ../inc/business_list.php:26
+msgid "Comedy Club"
+msgstr "Comedy-Club"
+
+#: ../inc/business_list.php:27 ../inc/business_list.php:155
+msgid "Movie Theater"
+msgstr "Kino"
+
+#: ../inc/business_list.php:28
+msgid "Night Club"
+msgstr "Nachtclub"
+
+#: ../inc/business_list.php:29
+msgid "Financial Service"
+msgstr "Finanzdienstleistungen"
+
+#: ../inc/business_list.php:30 ../inc/business_list.php:78
+msgid "Accounting Service"
+msgstr "Buchhaltung"
+
+#: ../inc/business_list.php:31
+msgid "Automated Teller"
+msgstr "Geldautomat"
+
+#: ../inc/business_list.php:32
+msgid "Bank Or Credit Union"
+msgstr "Bank oder Kreditinstitut"
+
+#: ../inc/business_list.php:33
+msgid "Insurance Agency"
+msgstr "Versicherungsagentur"
+
+#: ../inc/business_list.php:34
+msgid "Food Establishment"
+msgstr "Gastronomie"
+
+#: ../inc/business_list.php:35
+msgid "Bakery"
+msgstr "Bäckerei"
+
+#: ../inc/business_list.php:36
+msgid "Bar Or Pub"
+msgstr "Bar oder Pub"
+
+#: ../inc/business_list.php:37
+msgid "Brewery"
+msgstr "Brauerei"
+
+#: ../inc/business_list.php:38
+msgid "Cafe Or Coffee Shop"
+msgstr "Café"
+
+#: ../inc/business_list.php:39
+msgid "Fast Food Restaurant"
+msgstr "Fast Food Restaurant"
+
+#: ../inc/business_list.php:40
+msgid "Ice Cream Shop"
+msgstr "Eisdiele"
+
+#: ../inc/business_list.php:41
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: ../inc/business_list.php:42
+msgid "Winery"
+msgstr "Weinladen"
+
+#: ../inc/business_list.php:43
+msgid "Government Office"
+msgstr "Regierungsamt"
+
+#: ../inc/business_list.php:44
+msgid "Post Office"
+msgstr "Postamt"
+
+#: ../inc/business_list.php:45
+msgid "Health And Beauty Business"
+msgstr "Gesundheit und Schönheit"
+
+#: ../inc/business_list.php:46
+msgid "Beauty Salon"
+msgstr "Schönheitssalon"
+
+#: ../inc/business_list.php:47
+msgid "Day Spa"
+msgstr "Schönheitsfarm"
+
+#: ../inc/business_list.php:48
+msgid "Hair Salon"
+msgstr "Friseursalon"
+
+#: ../inc/business_list.php:49 ../inc/business_list.php:97
+msgid "Health Club"
+msgstr "Fitnessstudio"
+
+#: ../inc/business_list.php:50
+msgid "Nail Salon"
+msgstr "Nagelstudio"
+
+#: ../inc/business_list.php:51
+msgid "Tattoo Parlor"
+msgstr "Tattoo Studio"
+
+#: ../inc/business_list.php:52
+msgid "Home And Construction Business"
+msgstr "Bauwesen"
+
+#: ../inc/business_list.php:53 ../inc/business_list.php:81
+msgid "Electrician"
+msgstr "Elektriker"
+
+#: ../inc/business_list.php:54 ../inc/business_list.php:82
+msgid "General Contractor"
+msgstr "Generalunternehmer"
+
+#: ../inc/business_list.php:55
+msgid "HVAC Business"
+msgstr "Heizung, Lüftung, Klimatechnik (HLK)"
+
+#: ../inc/business_list.php:56 ../inc/business_list.php:83
+msgid "House Painter"
+msgstr "Maler"
+
+#: ../inc/business_list.php:57 ../inc/business_list.php:84
+msgid "Locksmith"
+msgstr "Schlüsselservice"
+
+#: ../inc/business_list.php:58
+msgid "Moving Company"
+msgstr "Umzugsunternehmen"
+
+#: ../inc/business_list.php:59 ../inc/business_list.php:86
+msgid "Plumber"
+msgstr "Klempner"
+
+#: ../inc/business_list.php:60 ../inc/business_list.php:87
+msgid "Roofing Contractor"
+msgstr "Dachdecker"
+
+#: ../inc/business_list.php:61
+msgid "Internet Cafe"
+msgstr "Internetcafé"
+
+#: ../inc/business_list.php:62
+msgid "Library"
+msgstr "Bücherei"
+
+#: ../inc/business_list.php:63
+msgid "Lodging Business"
+msgstr "Beherbergungsgewerbe"
+
+#: ../inc/business_list.php:64
+msgid "Bed And Breakfast"
+msgstr "Bed & Breakfast"
+
+#: ../inc/business_list.php:65
+msgid "Hostel"
+msgstr "Hostel"
+
+#: ../inc/business_list.php:66
+msgid "Hotel"
+msgstr "Hotel"
+
+#: ../inc/business_list.php:67
+msgid "Motel"
+msgstr "Motel"
+
+#: ../inc/business_list.php:68
+msgid "Medical Organization"
+msgstr "Medizinische Versorgung"
+
+#: ../inc/business_list.php:69 ../inc/business_list.php:80
+msgid "Dentist"
+msgstr "Zahnarzt"
+
+#: ../inc/business_list.php:70
+msgid "Diagnostic Lab"
+msgstr "Labor"
+
+#: ../inc/business_list.php:72
+msgid "Medical Clinic"
+msgstr "Medizinische Klinik"
+
+#: ../inc/business_list.php:73
+msgid "Optician"
+msgstr "Optiker"
+
+#: ../inc/business_list.php:74
+msgid "Pharmacy"
+msgstr "Apotheke"
+
+#: ../inc/business_list.php:75
+msgid "Physician"
+msgstr "Arzt oder Mediziner"
+
+#: ../inc/business_list.php:76
+msgid "Veterinary Care"
+msgstr "Tierarzt"
+
+#: ../inc/business_list.php:77
+msgid "Professional Service"
+msgstr "Honorarberechnung"
+
+#: ../inc/business_list.php:79
+msgid "Attorney"
+msgstr "Anwalt"
+
+#: ../inc/business_list.php:85
+msgid "Notary"
+msgstr "Notar"
+
+#: ../inc/business_list.php:88
+msgid "Radio Station"
+msgstr "Radiostation"
+
+#: ../inc/business_list.php:89
+msgid "Real Estate Agent"
+msgstr "Immobilienmakler"
+
+#: ../inc/business_list.php:90
+msgid "Recycling Center"
+msgstr "Recycling-Anlage"
+
+#: ../inc/business_list.php:91
+msgid "Self Storage"
+msgstr "Mietlager"
+
+#: ../inc/business_list.php:92
+msgid "Shopping Center"
+msgstr "Einkaufszentrum"
+
+#: ../inc/business_list.php:93
+msgid "Sports Activity Location"
+msgstr "Sportliche Aktivitäten"
+
+#: ../inc/business_list.php:94
+msgid "Bowling Alley"
+msgstr "Bowlingcenter oder Kegelbahn"
+
+#: ../inc/business_list.php:95
+msgid "Exercise Gym"
+msgstr "Sporthalle"
+
+#: ../inc/business_list.php:96
+msgid "Golf Course"
+msgstr "Golfanlage"
+
+#: ../inc/business_list.php:98
+msgid "Public Swimming Pool"
+msgstr "Öffentliches Bad"
+
+#: ../inc/business_list.php:99
+msgid "Ski Resort"
+msgstr "Skigebiet"
+
+#: ../inc/business_list.php:100
+msgid "Sports Club"
+msgstr "Sportclub"
+
+#: ../inc/business_list.php:101 ../inc/business_list.php:171
+msgid "Stadium Or Arena"
+msgstr "Stadion"
+
+#: ../inc/business_list.php:102
+msgid "Tennis Complex"
+msgstr "Tennisanlage"
+
+#: ../inc/business_list.php:103
+msgid "Store"
+msgstr "Ladengeschäft"
+
+#: ../inc/business_list.php:105
+msgid "Bike Store"
+msgstr "Fahrradgeschäft"
+
+#: ../inc/business_list.php:106
+msgid "Book Store"
+msgstr "Bücherei"
+
+#: ../inc/business_list.php:107
+msgid "Clothing Store"
+msgstr "Kleidergeschäft"
+
+#: ../inc/business_list.php:108
+msgid "Computer Store"
+msgstr "Computergeschäft"
+
+#: ../inc/business_list.php:109
+msgid "Convenience Store"
+msgstr "Gemischtwarenladen"
+
+#: ../inc/business_list.php:110
+msgid "Department Store"
+msgstr "Kaufhaus"
+
+#: ../inc/business_list.php:111
+msgid "Electronics Store"
+msgstr "Elektrofachgeschäft"
+
+#: ../inc/business_list.php:112
+msgid "Florist"
+msgstr "Florist oder Blumenladen"
+
+#: ../inc/business_list.php:113
+msgid "Furniture Store"
+msgstr "Möbelgeschäft"
+
+#: ../inc/business_list.php:114
+msgid "Garden Store"
+msgstr "Gärtnerei"
+
+#: ../inc/business_list.php:115
+msgid "Grocery Store"
+msgstr "Lebensmittelgeschäft"
+
+#: ../inc/business_list.php:116
+msgid "Hardware Store"
+msgstr "Baumarkt"
+
+#: ../inc/business_list.php:117
+msgid "Hobby Shop"
+msgstr "Hobbymarkt"
+
+#: ../inc/business_list.php:118
+msgid "Home Goods Store"
+msgstr "Heimwarenhandlung"
+
+#: ../inc/business_list.php:119
+msgid "Jewelry Store"
+msgstr "Juwelier"
+
+#: ../inc/business_list.php:120
+msgid "Liquor Store"
+msgstr "Alkohol & Tabak"
+
+#: ../inc/business_list.php:121
+msgid "Mens Clothing Store"
+msgstr "Männerbekleidung"
+
+#: ../inc/business_list.php:122
+msgid "Mobile Phone Store"
+msgstr "Mobiltelefone"
+
+#: ../inc/business_list.php:123
+msgid "Movie Rental Store"
+msgstr "Videothek"
+
+#: ../inc/business_list.php:124
+msgid "Music Store"
+msgstr "Musikgeschäft"
+
+#: ../inc/business_list.php:125
+msgid "Office Equipment Store"
+msgstr "Büroausstattung"
+
+#: ../inc/business_list.php:126
+msgid "Outlet Store"
+msgstr "Fabrikverkauf oder Outlet"
+
+#: ../inc/business_list.php:127
+msgid "Pawn Shop"
+msgstr "Pfandleiher"
+
+#: ../inc/business_list.php:128
+msgid "Pet Store"
+msgstr "Tierhandlung"
+
+#: ../inc/business_list.php:129
+msgid "Shoe Store"
+msgstr "Schohgeschäft"
+
+#: ../inc/business_list.php:130
+msgid "Sporting Goods Store"
+msgstr "Sportgeschäft"
+
+#: ../inc/business_list.php:131
+msgid "Tire Shop"
+msgstr "Reifenhandlung"
+
+#: ../inc/business_list.php:132
+msgid "Toy Store"
+msgstr "Spielzeuggeschäft"
+
+#: ../inc/business_list.php:133
+msgid "Wholesale Store"
+msgstr "Großhändler"
+
+#: ../inc/business_list.php:134
+msgid "Television Station"
+msgstr "Fernsehsender"
+
+#: ../inc/business_list.php:135
+msgid "Tourist Information Center"
+msgstr "Touristeninformationszentrum"
+
+#: ../inc/business_list.php:136
+msgid "Travel Agency"
+msgstr "Reisebüro"
+
+#: ../inc/business_list.php:137
+msgid "Civic Structure"
+msgstr "Öffentlicher Ort"
+
+#: ../inc/business_list.php:138
+msgid "Airport"
+msgstr "Flughafen"
+
+#: ../inc/business_list.php:139
+msgid "Aquarium"
+msgstr "Aquarium"
+
+#: ../inc/business_list.php:140
+msgid "Beach"
+msgstr "Strand"
+
+#: ../inc/business_list.php:141
+msgid "Bus Station"
+msgstr "Omnibusbahnhof"
+
+#: ../inc/business_list.php:142
+msgid "Bus Stop"
+msgstr "Bushaltestelle"
+
+#: ../inc/business_list.php:143
+msgid "Campground"
+msgstr "Campingplatz"
+
+#: ../inc/business_list.php:144
+msgid "Cemetery"
+msgstr "Friedhof"
+
+#: ../inc/business_list.php:145
+msgid "Crematorium"
+msgstr "Krematorium"
+
+#: ../inc/business_list.php:146
+msgid "Event Venue"
+msgstr "Veranstaltungshaus"
+
+#: ../inc/business_list.php:148
+msgid "Government Building"
+msgstr "Regierungsgebäude"
+
+#: ../inc/business_list.php:149
+msgid "City Hall"
+msgstr "Stadthalle"
+
+#: ../inc/business_list.php:150
+msgid "Courthouse"
+msgstr "Gerichtsgebäude"
+
+#: ../inc/business_list.php:151
+msgid "Defence Establishment"
+msgstr "Verteidigungsablage"
+
+#: ../inc/business_list.php:152
+msgid "Embassy"
+msgstr "Botschaft"
+
+#: ../inc/business_list.php:153
+msgid "Legislative Building"
+msgstr "Parlament"
+
+#: ../inc/business_list.php:156
+msgid "Museum"
+msgstr "Museum"
+
+#: ../inc/business_list.php:157
+msgid "Music Venue"
+msgstr "Konzerthalle"
+
+#: ../inc/business_list.php:158
+msgid "Park"
+msgstr "Park"
+
+#: ../inc/business_list.php:159
+msgid "Parking Facility"
+msgstr "Parkplatz oder Parkhaus"
+
+#: ../inc/business_list.php:160
+msgid "Performing Arts Theater"
+msgstr "Theater"
+
+#: ../inc/business_list.php:161
+msgid "Place Of Worship"
+msgstr "Gotteshaus"
+
+#: ../inc/business_list.php:162
+msgid "Buddhist Temple"
+msgstr "Buddhistischer Tempel"
+
+#: ../inc/business_list.php:163
+msgid "Catholic Church"
+msgstr "Katholische Kirche"
+
+#: ../inc/business_list.php:164
+msgid "Church"
+msgstr "Kirche"
+
+#: ../inc/business_list.php:165
+msgid "Hindu Temple"
+msgstr "Hindu Tempel"
+
+#: ../inc/business_list.php:166
+msgid "Mosque"
+msgstr "Moschee"
+
+#: ../inc/business_list.php:167
+msgid "Synagogue"
+msgstr "Synagoge"
+
+#: ../inc/business_list.php:168
+msgid "Playground"
+msgstr "Spielplatz"
+
+#: ../inc/business_list.php:170
+msgid "RV Park"
+msgstr "Reisemobil-Stellplatz"
+
+#: ../inc/business_list.php:172
+msgid "Subway Station"
+msgstr "U-Bahnstation"
+
+#: ../inc/business_list.php:173
+msgid "Taxi Stand"
+msgstr "Taxistation"
+
+#: ../inc/business_list.php:174
+msgid "Train Station"
+msgstr "Bahnhof"
+
+#: ../inc/business_list.php:175
+msgid "Zoo"
+msgstr "Zoo"
+
+#~ msgid "<strong>New Features: </strong> Select type of location"
+#~ msgstr "<strong>New Features: </strong> Art des Orts auswählbar"
+
+#, fuzzy
+#~ msgid "Select image"
+#~ msgstr "Logo auswählen"
+
+#~ msgid ""
+#~ "- Location information will be saved as a custom post type instead of in "
+#~ "the post itself and added to the post. <br/>- Multiple locations can be "
+#~ "added to posts of any activated post type. <br/><br/><strong>Note:</"
+#~ "strong><br/> All existing entries will be mapped on the post type. <br/> "
+#~ "This cannot be undone without resetting the plugin."
+#~ msgstr ""
+#~ "- Ortsangaben weden als Beitrags-Typ gespeichert, anstatt im Beitrag "
+#~ "selbst, und mit dem Beitrag verknüpft.<br/> - Es können mehrere Orte "
+#~ "einem Beitrag hinzugefügt werden.<br/><br/><strong>Achtung:</strong><br/> "
+#~ "Alle bestehenden Ortsangaben werden automatisch auf den Post-Typ "
+#~ "überschrieben.<br/> Diese Aktion kann nur durch Zurücksetzen des Plugins "
+#~ "rückgängig gemacht werden."
+
+#~ msgid "Type of business"
+#~ msgstr "Art des Orts"
+
+#~ msgid ""
+#~ "enables a simple post type \"Location\" with only location information."
+#~ msgstr "Aktiviert einen einfachen Beitragstyp \"Ort\" nur mit Ortsangaben."
+
+#~ msgid "Telephone"
+#~ msgstr "Telefon"
+
+#~ msgid "Fax number"
+#~ msgstr "Faxnummer"

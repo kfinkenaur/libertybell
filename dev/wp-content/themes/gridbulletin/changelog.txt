@@ -1,0 +1,161 @@
+CHANGELOG
+=========
+
+GridBulletin version 3.8 - may 2016
+- theme now supports post formats
+- file header: updated head section
+- added file content-list 
+- files archive, index and search: relocated part of loop to separate file
+- file index en css: changed featured post notice
+- file single: changed .page-title-post into .post-title-single
+- changed .sticky into .sticky-title
+- several small adjustments
+
+GridBulletin version 3.6 - april 2016
+- resized all headings (thanks Tom)
+- changed address tag display
+- several small adjustments
+
+GridBulletin version 3.5 - march 2016
+- localized mobile menu
+- mobile menu now supports 2 level subpages
+
+GridBulletin version 3.4 - march 2016
+- added file postmeta-single
+- file single: relocated postmetadata to separate file
+- bugfix in file custom-editor-style: removed tags from reset stylesheet
+- seo improvement: blog description is h2 (thanks Tom)
+- seo improvement: all page titles are h1 and all post titles are h2 (thanks Tom)
+- seo improvement: all widget titles are h3 (thanks Tom)
+- file single: changed title class into .page-title-post
+- updated readme file to WordPress default
+- file style: removed -moz-border-radius because not supported anymore
+
+GridBulletin version 3.3 - march 2016
+- added file postmeta
+- files archive, index, search and single: relocated postmetadata to separate file
+- file style and custom-editor-style: updated html tags (thanks Tom)
+- updated text strings (thanks Tom)
+- several small adjustments
+
+GridBulletin version 3.2 - february 2016
+- file search: post nav inside the loop
+- file style: fixed alignment of next and prev post link
+- several small adjustments
+
+GridBulletin version 3.1 - january 2016
+- file header: removed is_home so homepage content is not displayed when using a static blog page
+- several small adjustments
+
+GridBulletin version 3.0 - january 2016
+- updated file style
+- updated file custom-editor-style
+- updated file functions
+
+GridBulletin version 2.9 - december 2015
+- bugfix: included the register_default_headers again because it did not work without
+
+GridBulletin version 2.8 - december 2015
+- file functions: removed register_default_headers (default header already included in after_setup_theme)
+- several files: updated postmetadata
+- file style: several modifications
+- several small adjustments
+- updated pot file
+
+GridBulletin version 2.7 - november 2015
+- file archive.php and single.php: relocated postmetadata
+
+GridBulletin version 2.6 - november 2015
+- updated archive.php (added the_archive_title and the_archive_description)
+- updated pot file
+- removed translations (to support language packs from wordpress.org)
+- several small adjustments
+
+GridBulletin version 2.5 - september 2015
+- updated file comments
+- updated pagelink
+- file single: removed post nav underneath single post
+- file footer: copyrights
+- file archive and index: added pagetitle when no posts are found
+- changed postmetadata heading into div
+- reordered mobile stylesheet
+- added Swedish translation (thanks Stefan)
+- updated language files
+- several small adjustments
+
+GridBulletin version 2.4 - june 2015
+- file single: removed if statement
+- file functions, comments and style: changed alignment of comment nav
+- reordered file style
+- updated file readme
+
+GridBulletin version 2.3 - april 2015
+- several small adjustment in stylesheet
+- removed support for document title in older WP versions 
+- files index, single and archive: pagination inside loop
+
+GridBulletin version 2.2 - february 2015
+- added Spanish translation (thanks Miquel)
+- added German translation (thanks Frank)
+- updated French translation (thanks Ollie)
+- file style: adjusted styling comments area
+- file style: added support in Chrome for Checkbox, Radio and Select
+- file style and file custom-editor-style: finetuned img position in post and page
+- file style: reordered mobile stylesheet
+- file functions: removed class excerpt because not used anymore
+- file functions: added class to posts nav (now no empty space when posts nav is not present)
+- removed classes .main and .main-full because not necessary
+- removed homepage footer widget area's because did not work at static homepage
+- added own class to post thumbnail in list in stead of using default thumbnail class
+
+GridBulletin version 2.1 - december 2014
+- file header: removed wp_title because of new title-tag
+- file functions: added backwards compatibility for WP 4.0 and older
+- reordered file nav
+
+GridBulletin version 2.0 - december 2014
+- file functions: added title-tag
+- renamed .article and .article-full into .main and .main-full
+- updated the reset stylesheet
+- adjusted styling of several tags
+- reordered and cleaned up files style and custom-editor-style
+- reordered php files
+
+GridBulletin version 1.8 - december 2014
+- added French translation
+- several css adjustments
+
+GridBulletin version 1.7 - november 2014
+- file functions: added sanitize_callback to logo upload
+- file footer: removed double if statement
+- several css adjustments
+
+GridBulletin version 1.6 - october 2014
+- added and adjusted text markup tags
+
+GridBulletin version 1.5 - june 2014
+- removed featured image on single post
+- added several adjustments for better responsive layout
+- text-align justify for content area, sidebar and footer
+- several minor adjustments 
+
+GridBulletin version 1.4 - june 2014
+- changed size of single post image
+- added featured image on single page
+- several minor adjustments 
+
+GridBulletin version 1.3 - april 2014
+- several adjustments in functions file
+- added pot translation file
+- improved translation of meta
+- better layout of commentsform
+- added several adjustments for better responsive layout
+- a bunch of other minor adjustments in stylesheet
+
+GridBulletin version 1.2 - march 2014 
+- added several adjustments for better responsive layout
+- added translation to footer site info
+- a bunch of other minor adjustments in stylesheet
+
+GridBulletin version 1.1 - february 2014 
+- first stable release
