@@ -1,0 +1,117 @@
+﻿/*
+Theme Name:  de naani
+Author: WP Shop byGMO
+Author URI: http://www.wpshop.com
+Theme URI: http://wpshop.com/theme/hheTYu5nPLU1
+Description:  'de naani' is an upgraded version of Twenty-Twelve default theme which is designed to work perfectly with 'GMO Show Time' slider plugin and 'GMO Font agent'web font plugin.  This theme also allow you to insert logo, and change site title/tagline positions.  
+Version: 1.0.6
+Template:twentytwelve
+Tags:  light, gray, white, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: denaani
+*/
+
+@import url('../twentytwelve/style.css');
+
+
+@media screen and (min-width: 1008px) {
+
+.theme-default{
+	margin-top: 24px;
+}
+
+}
+/****************************************
+		pattern
+*****************************************/
+body.pattern_background {
+	background-repeat: repeat;
+	background-position: left top;
+}
+body.pattern_background.ptn_chiyo_bgcolor { background-image: url('../de-naani/images/ptn_chiyo_bgcolor.png'); }
+body.pattern_background.ptn_chiyo_colored { background-image: url('../de-naani/images/ptn_chiyo_colored.png'); }
+body.pattern_background.ptn_botan_bgcolor { background-image: url('../de-naani/images/ptn_botan_bgcolor.png'); }
+body.pattern_background.ptn_botan_colored { background-image: url('../de-naani/images/ptn_botan_colored.png'); }
+body.pattern_background.ptn_hinageshi_bgcolor { background-image: url('../de-naani/images/ptn_hinageshi_bgcolor.png'); }
+body.pattern_background.ptn_hinageshi_colored { background-image: url('../de-naani/images/ptn_hinageshi_colored.png'); }
+
+
+/*default*/
+.entry-content, .entry-summary, .mu_register,footer.entry-meta { color:#515151;  }
+.entry-content a, .entry-summary a, .mu_register a,footer.entry-meta a,.entry-header .entry-title a,.comments-link a, .entry-meta a { color:#515151;  }
+.main-navigation .current_page_item > a,.main-navigation li a { color:#515151;  }
+#secondary .archive-title, #secondary .page-title, #secondary .widget-title, #secondary .entry-content th, #secondary .comment-content th { color:#515151;  }
+.widget-area .widget a,.widget-area .widget a:visited { color:#515151;  }
+.site-header h1, .site-header h2 { text-align:center; }
+.site { background-color:#ffffff;  }
+
+
+body {
+	background-color: #fff;
+}
+#logo-image img{
+	max-height: 75px;
+}
+.site-header h1{
+	font-size:40px;
+}
+@media screen and (min-width: 600px) {
+
+	.footer-widget {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+	.has-sidebar .content-area {
+		border-right: solid 1px #ddd;
+		float: left;
+		margin-right: 44px;
+		padding-right: 44px;
+		width: 570px;
+	}
+	.has-sidebar .sidebar-area {
+		float: left;
+		width: 220px;
+	}
+	.footer-widget .widget-area {
+		float: left;
+		margin-left: 6%;
+		width: 20.5%;
+	}
+	.footer-4 .footer-widget .widget-area {
+		margin-left: 6%;
+		width: 20.5%;
+	}
+	.footer-3 .footer-widget .widget-area {
+		margin-left: 8%;
+		width: 28%;
+	}
+	.footer-2 .footer-widget .widget-area {
+		margin-left: 8%;
+		width: 46%;
+	}
+	.footer-1 .footer-widget .widget-area {
+		width: 100%;
+	}
+	.footer-widget .widget-area:first-child {
+		margin-left: 0;
+	}
+	.site-content {
+		max-width: 700px;
+	}
+}
+
+.site-info{
+	clear:both;
+	text-align:center;
+}
+#main{
+	margin: 0 auto;
+	max-width: 700px;
+}
+.entry-header{
+	text-align: center;
+}
+.entry-content,.entry-summary{
+	text-align: center;
+}

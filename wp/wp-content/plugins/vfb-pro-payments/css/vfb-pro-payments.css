@@ -1,0 +1,91 @@
+.vfb-payment-total-container{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 100;
+	width: 29%;
+	padding: 12px;
+	border-radius: 2px;
+	display: block !important;
+	background: #d4e4ef;
+	background: -moz-linear-gradient(top,  #d4e4ef 0%, #86aecc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d4e4ef), color-stop(100%,#86aecc));
+	background: -webkit-linear-gradient(top,  #d4e4ef 0%,#86aecc 100%);
+	background: -o-linear-gradient(top,  #d4e4ef 0%,#86aecc 100%);
+	background: -ms-linear-gradient(top,  #d4e4ef 0%,#86aecc 100%);
+	background: linear-gradient(to bottom,  #d4e4ef 0%,#86aecc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc',GradientType=0 );
+	margin: 20px 12px 0 0;
+}
+	
+	.rtl .vfb-payment-total-container {
+		right: auto;
+		left: 0;
+		margin: 20px 0 0 12px;
+	}
+	
+	.left-label .vfb-payment-total-container,
+	.right-label .vfb-payment-total-container{
+		width: 20% !important;
+		right: -3px;
+	}
+
+	.vfb-payment-total-container h3,
+	.entry-content .vfb-payment-total-container h3,
+	.comment-content .vfb-payment-total-container h3 {
+		font-size: 12px;
+		font-weight: bold;
+		text-transform: none;
+		line-height: 1.4em;
+		letter-spacing: normal;
+		color: #003357;
+		border-bottom: 1px solid #525252;
+		padding: 0 0 7px 0;
+		margin: 0;
+	}
+
+	.vfb-total-container{
+		float: right;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+		.rtl .vfb-total-container {
+			float: left;
+		}
+	
+	.vfb-payment-item{
+		padding:8px 0 0 0;
+		margin:0;
+		clear: both;
+		display: block;
+		width: 100%;
+	}
+		
+		.vfb-payment-item-name,
+		.vfb-payment-item-price{
+			float:left;
+			width: 70%;
+			text-align: left;
+			font-size: 11px;
+			font-weight: bold;
+			color:#455b7b;
+		}
+			
+			.rtl .vfb-payment-item-name,
+			.rtl .vfb-payment-item-price {
+				float: right;
+				text-align: right;
+			}
+		
+			.vfb-payment-item-price{
+				float: right;
+				width: auto;
+				font-weight: normal;
+				text-align: right;
+			}
+				
+				.rtl .vfb-payment-item-price {
+					float: left;
+					text-align: left;
+				}

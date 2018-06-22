@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder Pro - Payments v1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-06 18:17:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: vfb-pro-payments.php:187
+#: vfb-pro-payments.php:249
+#@ vfb-pro-payments
+msgid "Payments"
+msgstr "お支払い"
+
+#: vfb-pro-payments.php:212
+#@ vfb-pro-payments
+msgid "Payment settings have been saved."
+msgstr "お支払い設定が保存されました。"
+
+#: vfb-pro-payments.php:251
+#@ vfb-pro-payments
+msgid "Select form:"
+msgstr "フォームを選択します。"
+
+#: vfb-pro-payments.php:264
+#@ vfb-pro-payments
+msgid "Select"
+msgstr "選択してください。"
+
+#: vfb-pro-payments.php:277
+#@ vfb-pro-payments
+msgid "Enable Payment"
+msgstr "支払いを有効にします。"
+
+#: vfb-pro-payments.php:287
+#@ vfb-pro-payments
+msgid "Merchant Settings"
+msgstr "商人の設定"
+
+#: vfb-pro-payments.php:293
+#@ vfb-pro-payments
+msgid "Select a Merchant"
+msgstr "商人を選択します"
+
+#: vfb-pro-payments.php:298
+#@ vfb-pro-payments
+msgid "PayPal Standard"
+msgstr "PayPal 標準"
+
+#: vfb-pro-payments.php:299
+#@ vfb-pro-payments
+msgid "PayPal Pro"
+msgstr "PayPal のプロ"
+
+#: vfb-pro-payments.php:310
+#@ vfb-pro-payments
+msgid "Account Email"
+msgstr "アカウントのメール アドレス"
+
+#: vfb-pro-payments.php:321
+#@ vfb-pro-payments
+msgid "Payment Options"
+msgstr "支払いオプション"
+
+#: vfb-pro-payments.php:327
+#@ vfb-pro-payments
+msgid "Currency"
+msgstr "通貨"
+
+#: vfb-pro-payments.php:346
+#@ vfb-pro-payments
+msgid "Show Running Total"
+msgstr "合計実行を表示します。"
+
+#: vfb-pro-payments.php:357
+#@ vfb-pro-payments
+msgid "Collect Shipping Address"
+msgstr "配送先住所を収集します。"
+
+#: vfb-pro-payments.php:374
+#@ vfb-pro-payments
+msgid "Collect Billing Info"
+msgstr "請求先情報を収集します。"
+
+#: vfb-pro-payments.php:381
+#@ vfb-pro-payments
+msgid "Select an Name field"
+msgstr "名前フィールドを選択します"
+
+#: vfb-pro-payments.php:386
+#@ vfb-pro-payments
+msgid "Select an Address field"
+msgstr "アドレス フィールドを選択します"
+
+#: vfb-pro-payments.php:391
+#@ vfb-pro-payments
+msgid "Select an Email field"
+msgstr "メール フィールドを選択します"
+
+#: vfb-pro-payments.php:407
+#@ vfb-pro-payments
+msgid "Recurring Payments"
+msgstr "定期的な支払い"
+
+#: vfb-pro-payments.php:413
+#@ vfb-pro-payments
+msgid "Request Payment Every"
+msgstr "支払いを要求ごと"
+
+#: vfb-pro-payments.php:443
+#@ vfb-pro-payments
+msgid "Advanced Variables"
+msgstr "高度な変数"
+
+#: vfb-pro-payments.php:450
+#@ vfb-pro-payments
+msgid "Set additional PayPal variables to further customize the checkout experience for your customers."
+msgstr "さらに、お客様のチェック アウトの経験をカスタマイズするのには、追加の PayPal 変数を設定します。"
+
+#: vfb-pro-payments.php:450
+#@ vfb-pro-payments
+msgid "Technical HTML Variables"
+msgstr "技術的な HTML 変数"
+
+#: vfb-pro-payments.php:452
+#@ vfb-pro-payments
+msgid "Use a line break between each variable."
+msgstr "各変数の間の改行を使用します。"
+
+#: vfb-pro-payments.php:468
+#@ vfb-pro-payments
+msgid "Assign Prices"
+msgstr "価格を割り当てる"
+
+#: vfb-pro-payments.php:469
+#@ vfb-pro-payments
+msgid "Assign Prices to existing form fields. Only Select, Radio, Checkbox, and Currency fields are allowed."
+msgstr "価格は、既存のフォーム フィールドに割り当てます。選択、ラジオ、チェック ボックス、および通貨のフィールドのみです。"
+
+#: vfb-pro-payments.php:475
+#@ vfb-pro-payments
+msgid "Price Fields"
+msgstr "価格フィールド"
+
+#: vfb-pro-payments.php:490
+#@ vfb-pro-payments
+msgid "Assign Prices to a Field"
+msgstr "価格をフィールドに割り当てる"
+
+#: vfb-pro-payments.php:499
+#@ vfb-pro-payments
+msgid "Save"
+msgstr "保存"
+
+#: vfb-pro-payments.php:675
+#@ vfb-pro-payments
+msgid "Remove"
+msgstr "削除"
+
+#: vfb-pro-payments.php:678
+#@ vfb-pro-payments
+msgid "Amount Based on User Input"
+msgstr "ユーザーの入力に基づいて量"
+
+#: vfb-pro-payments.php:725
+#, php-format
+#@ vfb-pro-payments
+msgid "(No %s fields found)"
+msgstr "(%S フィールドが見つかりました)"
+
+#: vfb-pro-payments.php:812
+#@ vfb-pro-payments
+msgid "Total"
+msgstr "合計"
+

@@ -1,0 +1,149 @@
+#vfb-pro-payments-form textarea,
+#vfb-pro-payments-form input[type="text"] {
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+}
+
+	#vfb-pro-payments-form textarea:focus,
+	#vfb-pro-payments-form input[type="text"]:focus,
+	#vfb-pro-payments-form textarea:focus.error,
+	#vfb-pro-payments-form input[type="text"]:focus.error {
+		border: 1px solid rgba(82, 168, 236, 0.8);
+		outline: 0;
+		outline: thin dotted \9;
+		/* IE6-9 */
+
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+	}
+
+		#vfb-pro-payments-form textarea:focus.error,
+		#vfb-pro-payments-form input[type="text"]:focus.error {
+			border-color: rgba(238,83,83,0.8);
+
+			-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(238,83,83,.6);
+			-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(238,83,83,.6);
+			box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(238,83,83,.6);
+		}
+
+	#vfb-pro-payments-form textarea.error,
+	#vfb-pro-payments-form input[type="text"].error {
+		border-color: rgba(238,83,83,0.8);
+	}
+
+	#vfb-pro-payments-form label.error {
+		color: rgb(238,83,83);
+		font-weight: bold;
+	}
+
+.vfb-payment-recurring-payments-options,
+.vfb-payment-collect-shipping-address-options,
+.vfb-payment-collect-billing-info-options,
+.vfb-payment-advanced-variables-options{
+	display: none;
+}
+
+	.vfb-payment-recurring-payments-options.active,
+	.vfb-payment-collect-shipping-address-options.active,
+	.vfb-payment-collect-billing-info-options.active,
+	.vfb-payment-advanced-variables-options.active{
+		display: block;
+	}
+
+.vfb-pricing-fields-container{
+	display: block;
+	clear:both;
+	margin-bottom: 1em;
+	padding: 5px 10px;
+	width:330px;
+	border: 1px solid #DFDFDF;
+    border-radius: 3px;
+	background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #F5F5F5);
+    box-shadow: 0 1px 0 #FFFFFF inset;
+}
+
+	.vfb-pricing-fields-container h3{
+		margin: 0 0 .5em 0;
+		border-bottom: 1px solid #ccc;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		word-wrap: break-word;
+		position: relative;
+	}
+
+	.vfb-payment-remove-field{
+		float:right;
+		width: 16px;
+		height: 16px;
+		text-indent: -999px;
+		background: url('../images/close.png') center center no-repeat transparent;
+		position: absolute;
+		top: 2px;
+		right: 0;
+		overflow: hidden;
+	}
+
+		.rtl .vfb-payment-remove-field {
+			float: left;
+			left: 0;
+			right: auto;
+		}
+
+.vfb-payment-field-names{
+	display: block;
+	clear:both;
+	padding: 5px 0;
+	height: 24px;
+}
+
+	.vfb-payment-field-names label{
+		float: left;
+		width: 75%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		word-wrap: break-word;
+		white-space: nowrap;
+	}
+
+	.vfb-payment-field-names input{
+		float:right;
+		width:20%;
+		text-align: right;
+	}
+
+h4.vfb-payment-assign-prices-header{
+	margin-bottom: 0;
+}
+
+.vfb-payment-textarea{
+	width:50%;
+}
+
+.vfb-payment-advanced-variables-options pre{
+	background: none repeat scroll 0 0 #EAEAEA;
+	width: 50%;
+	padding: 5px;
+	cursor: text;
+}
+
+/* !HiDPI Displays */
+@media print,
+  (-o-min-device-pixel-ratio: 5/4),
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 120dpi) {
+
+	/* Interface icons */
+	.vfb-payment-remove-field {
+		background-image: url( '../images/close-2x.png' );
+		background-size: cover;
+	}
+}

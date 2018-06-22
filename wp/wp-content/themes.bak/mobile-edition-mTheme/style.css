@@ -1,0 +1,114 @@
+ /*
+Theme Name: WP Mobile Edition - mTheme
+Theme URI: http://fabrix.net/wp-mobile-edition/
+Description: Default Mobile Theme for the plugin WP Mobile Edition
+Version: 1.0
+Author:Fabrix DoRoMo
+Author URI:http://fabrix.net
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+
+/* -------------------------------------- */
+.fdx_container{width:auto!important;min-width:310px!important;margin:10px 5px auto}
+.fdx_categories ul li ul{display:none}
+.fdx_catlink,.fdx_searchlink,.fdx_contactlink{padding-left:10px;background:url(images/topnavsep.png) no-repeat right 4px}
+.fdx_copyright{vertical-align:middle}
+.fdx_topnav .fdx_home2{padding:3px 13px 5px 15px}
+.fdx_topnav .fdx_home2:hover{opacity:0.8;filter:alpha(opacity=80)}
+.fdx_social{width:145px!important;min-width:145px!important}
+.fdx_logo{width:170px!important;height:30px;max-width:170px!important;display:table-cell;vertical-align:middle}
+.gallery dl.gallery-item img.attachment-thumbnail{width:90%!important;height:auto;margin:auto;padding:auto}
+.icoprev{background:url(images/icons/prev.png) no-repeat 0 0;padding:11px 24px 0 0}
+.iconext{background:url(images/icons/next.png) no-repeat 0 0;padding:11px 24px 0 0}
+.commentbuble2 a{text-decoration:none;font-size:11px;color:#000!important;border-radius:10px;border:1px solid #b0b0b0;background:#FFF;font-weight:700;padding:2px 4px 3px}
+.commentbuble2{float:left;position:absolute;z-index:10000;margin-left:-5px;margin-top:3px}
+.form-submit{text-align:center}
+.fdx_comments_author_date{font-size:9px;font-style:italic}
+.fdx_comments_author_date a{text-decoration:none}
+.fdx_comments .children li{margin:10px}
+.fdx_comments{border-bottom:0;border-top:0;margin:0;padding:0}
+.fdx_comments_info{padding:4px}
+.fdx_comments_body{margin-top:0;font-size:13px;padding:5px}
+.fdx_comments_body p{margin:0 0 8px}
+.pages_count a{text-decoration:none;font-size:11px;padding:3px 6px}
+.fdx_comments_reply a{margin-right:5px}
+.fdx_article_intro .fdx_article_title_text{font-weight:700;display:table-cell;vertical-align:middle;height:60px!important}
+.fdx_article_intro .fdx_thumb{margin-left:8px}
+.fdx_thumb{position:relative;height:80px;width:63px;float:left;margin-right:3px;background:url(images/full_page.png) no-repeat center center}
+.fdx_thumb_link img{border:0;position:absolute;z-index:99;width:62px;top:8px;left:0;height:63px}
+.fdx_frame{width:62px;height:63px;background:url(images/thumbframe.png) no-repeat center center;position:absolute;z-index:98;top:8px;left:0}
+.fdx_thumbimg img{width:60px;height:60px;margin:8px 0 0;padding:1px}
+.fdx_thumb:hover{opacity:0.7;filter:alpha(opacity=70)}
+.fdx_snippet{position:relative;height:80px;max-height:80px;overflow:hidden}
+.rack1{clear:both;height:8px}
+.comment-form-author,.comment-form-email,.comment-form-url{margin-top:15px!important;padding:0 0 35px}
+.fdx_topnav ul{list-style:none;width:233px!important;margin:0;padding:0}
+.fdx_article iframe,.fdx_article object,.fdx_article embed{min-width:310px}
+
+ /* -------------------------------------- */
+.fdx_logo img{padding-bottom:5px}
+.fdx_social{bottom:10px;position:absolute;right:0;text-align:right}
+.fdx_social img{margin:0 1px 0 2px}
+.fdx_categories li,.fdx_search li,.fdx_contact li{list-style:none}
+.fdx_topnav ul li{display:block;float:left;line-height:40px;list-style:none;vertical-align:middle;padding:0 13px}
+.fdx_topnav ul li img{display:inline}
+.fdx_topnav ul li img a{border:0}
+.fdx_contactlink{padding-left:10px}
+.fdx_topnav .fdx_cats{padding:9px 11px 5px 12px}
+.fdx_categories,.fdx_contact{border-top:0;display:none;margin:0 0 8px}
+.fdx_search{display:none;margin:0!important}
+.fdx_switch .fdx_switch_text{font-size:14px;font-weight:700;height:28px;line-height:28px;margin-right:10px;text-align:center;text-indent:10px;vertical-align:middle}
+.fdx_switch .fdx_switch_text a{text-decoration:none}
+.fdx_header,.fdx_contact{position:relative}
+.fdx_social img:hover,.fdx_topnav .fdx_home:hover{filter:alpha(opacity=80);opacity:0.8}
+.fdx_article a,.fdx_comments_body a,.fdx_logged a{font-weight:400}
+.fdx_article .wp-caption img,.fdx_article .gallery dl{margin:0}
+.fdx_article h5,.fdx_article code{font-size:13px}
+blockquote p{margin:5px 0;padding:0}
+.fdx_comments-navigation{clear:both;display:block;margin:10px 0}
+.fdx_comments-navigation .fdx_alignleft{float:left}
+.fdx_comments-navigation .fdx_alignright{float:right}
+.fdx_article ul li{list-style:square;list-style-position:inside;padding-left:10px}
+.fdx_article ol li{list-style:decimal;list-style-position:inside;padding-left:10px}
+.cancel-comment-reply{position:absolute;right:7px;top:0}
+li .fdx_comments_respond{font-size:14px;margin:0}
+.fdx_comments_reply{position:absolute;right:0;top:20px}
+.fdx_comments_author{float:left;margin-right:10px}
+object,embed{max-width:290px}
+.fdx_clear{clear:both;margin:0;padding:0}
+.fdx_top_arrow{position:absolute;right:7px;top:4px}
+.fdx_topicon{font-size:15px!important;padding:0 5px}
+.fdx_footer{margin-top:8px;text-align:center;padding:0}
+.fdx_title{display:table-cell;height:70px;padding-left:0;padding-right:22px;vertical-align:middle;width:100%}
+.fdx_category{width:260px}
+.fdx_more:hover{filter:alpha(opacity=100);opacity:1}
+.fdx_more img{height:70px;width:25px}
+.fdx_article p{padding:0}
+.fdx_article_data{float:left;margin-left:auto}
+.fdx_article .alignleft,.fdx_article img.alignleft{display:inline;float:left;margin-right:10px;margin-top:4px;max-width:150px}
+.fdx_article .alignright,.fdx_article img.alignright{display:inline;float:right;margin-left:10px;margin-top:4px;max-width:150px;padding:1px}
+.fdx_article .aligncenter,.fdx_article img.aligncenter{clear:both;display:block;margin-left:auto;margin-right:auto;max-width:289px}
+.fdx_article img.alignleft,.fdx_article img.alignright{margin-bottom:12px;max-width:150px}
+.fdx_article .wp-caption{line-height:18px;margin-bottom:5px;overflow:hidden;text-align:center}
+.fdx_article .wp-caption .aligncenter{max-width:280px}
+.fdx_article .aligncenter img{max-width:270px}
+.wp-caption-dt{border:0;margin:0;padding:0}
+.fdx_article h1,.fdx_article h2,.fdx_article h3,.fdx_article h4,.fdx_article h5,.fdx_article h6,.fdx_article h7,.fdx_article h8{clear:both;display:block;text-decoration:none!important;margin:8px 0;padding:5px 0}
+.fdx_article h1{font-size:20px;padding:10px 0}
+.fdx_article h2{font-size:18px}
+.fdx_article h3{font-size:16px}
+.fdx_article h4{font-size:14px}
+.fdx_article h6{font-size:12px}
+.fdx_article h7{font-size:11px}
+.fdx_article h8{font-size:10px}
+.fdx_article .wp-smiley{border:0!important;margin:0!important;padding:0!important}
+.fdx_article .gallery{max-width:auto;margin:0 auto 18px}
+.fdx_article .gallery .gallery-item{float:left;margin-top:0;max-width:auto;text-align:center;width:33%}
+.fdx_article .gallery br+br{display:none}
+.hentry{margin:0 0 48px}
+.fdx_article p,.fdx_article ul,.fdx_article ol,.fdx_article dd,.fdx_article pre,.fdx_article hr{margin-bottom:18px}
+.fdx_article ul ul,.fdx_article ol ol,.fdx_article ul ol,.fdx_article ol ul{margin-bottom:0}
+.fdx_article pre,.fdx_article kbd,.fdx_article tt,.fdx_article var{font-size:15px;line-height:21px}
+.fdx_categories ul,.fdx_search ul,.fdx_contact ul,.fdx_comments ul{margin:0;padding:0}
+

@@ -1,0 +1,74 @@
+/* Fieldsets */
+.vfb-form-design-theme-light fieldset {
+	background-color: #ffffff;
+	border: none;
+}
+
+/* Legends */
+.vfb-form-design-theme-light .vfb-legend {
+	border-bottom: 1px solid #303030;
+	color: #bd0000;
+}
+
+/* Sections */
+.vfb-form-design-theme-light .vfb-section-div {
+	background-color: #ffffff;
+	border: 1px solid #777777;
+	color: #666666;
+}
+
+	.vfb-form-design-theme-light .vfb-section-div h4 {
+		border-bottom: 1px solid #d4d4d4;
+	}
+
+/* Labels */
+.vfb-form-design-theme-light label.vfb-desc,
+.vfb-form-design-theme-light .verification,
+.vfb-form-design-theme-light .vfb-page-counter {
+	color: #454545;
+}
+
+	.vfb-form-design-theme-light label .vfb-required-asterisk {
+		color: #bd0000;
+	}
+
+/* Fields */
+.vfb-form-design-theme-light input.vfb-text,
+.vfb-form-design-theme-light textarea.vfb-textarea {
+	background-color: #ffffff;
+	border: 1px solid #d4d4d4;
+	color: #454545;
+}
+
+/* Descriptions */
+.vfb-form-design-theme-light li span label {
+	color: #454545;
+}
+
+/* Instructions */
+.vfb-form-design-theme-light .vfb-item-instructions {
+    background-color: #ffffff;
+    border: 1px solid #f3f3f3;
+    color: #454545;
+}
+
+/* Paging Button */
+.vfb-form-design-theme-light .vfb-page-next {
+	background-color: #454545;
+	color: #f3f3f3;
+}
+
+	.vfb-form-design-theme-light .vfb-page-next:hover {
+		background-color: #737373;
+	}
+
+/* Validation */
+.vfb-form-design-theme-light input.error,
+.vfb-form-design-theme-light select.error,
+.vfb-form-design-theme-light textarea.error {
+	border: 1px solid #bd0000;
+}
+
+	.vfb-form-design-theme-light label.error {
+		color: #bd0000;
+	}

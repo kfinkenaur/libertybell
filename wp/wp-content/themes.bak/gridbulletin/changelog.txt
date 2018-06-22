@@ -1,0 +1,34 @@
+CHANGELOG
+=========
+
+GridBulletin version 1.6 - october 2014
+- added and adjusted text markup tags
+
+GridBulletin version 1.5 - june 2014
+- removed featured image on single post
+- added several adjustments for better responsive layout
+- text-align justify for content area, sidebar and footer
+- several minor adjustments 
+
+GridBulletin version 1.4 - june 2014
+- changed size of single post image
+- added featured image on single page
+- several minor adjustments 
+
+GridBulletin version 1.3 - april 2014
+- several adjustments in functions file
+- added pot translation file
+- improved translation of meta
+- better layout of commentsform
+- added several adjustments for better responsive layout
+- a bunch of other minor adjustments in stylesheet
+
+GridBulletin version 1.2 - march 2014 
+- added several adjustments for better responsive layout
+- added translation to footer site info
+- a bunch of other minor adjustments in stylesheet
+
+GridBulletin version 1.1 - february 2014 
+- first stable release
+
+

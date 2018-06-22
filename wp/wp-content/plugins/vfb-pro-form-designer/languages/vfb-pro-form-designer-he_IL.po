@@ -1,0 +1,223 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder Pro - Form Designer v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-27 04:10:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Hebrew\n"
+"X-Poedit-Country: ISRAEL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: vfb-pro-form-designer.php:218
+#: vfb-pro-form-designer.php:255
+#@ vfb-pro-form-designer
+msgid "Form Design"
+msgstr "עיצוב טופס"
+
+#: vfb-pro-form-designer.php:235
+#@ vfb-pro-form-designer
+msgid "Form design have been saved."
+msgstr "עיצוב טופס נשמרו."
+
+#: vfb-pro-form-designer.php:247
+#@ vfb-pro-form-designer
+msgid "You do not currently have permissions to edit the form design"
+msgstr "כרגע אין לך הרשאות לעריכת עיצוב הטופס"
+
+#: vfb-pro-form-designer.php:281
+#@ vfb-pro-form-designer
+msgid "Select form to design:"
+msgstr "בחר טופס כדי לעצב:"
+
+#: vfb-pro-form-designer.php:289
+#@ vfb-pro-form-designer
+msgid "Select"
+msgstr "בחר"
+
+#: vfb-pro-form-designer.php:302
+#@ vfb-pro-form-designer
+msgid "Enable Form Design"
+msgstr "לאפשר עיצוב טופס"
+
+#: vfb-pro-form-designer.php:311
+#@ vfb-pro-form-designer
+msgid "Design Type"
+msgstr "סוג עיצוב"
+
+#: vfb-pro-form-designer.php:315
+#: vfb-pro-form-designer.php:326
+#@ default
+#@ vfb-pro-form-designer
+msgid "Color Themes"
+msgstr "ערכות צבע"
+
+#: vfb-pro-form-designer.php:318
+#: vfb-pro-form-designer.php:398
+#@ default
+#@ vfb-pro-form-designer
+msgid "Custom Design"
+msgstr "עיצוב מותאם אישית"
+
+#: vfb-pro-form-designer.php:340
+#@ vfb-pro-form-designer
+msgid "Light"
+msgstr "אור"
+
+#: vfb-pro-form-designer.php:352
+#@ vfb-pro-form-designer
+msgid "Dark"
+msgstr "כהה"
+
+#: vfb-pro-form-designer.php:364
+#@ vfb-pro-form-designer
+msgid "Primary"
+msgstr "ראשי"
+
+#: vfb-pro-form-designer.php:376
+#@ vfb-pro-form-designer
+msgid "Pastel"
+msgstr "פסטל"
+
+#: vfb-pro-form-designer.php:388
+#@ vfb-pro-form-designer
+msgid "Neutral"
+msgstr "נייטרלי"
+
+#: vfb-pro-form-designer.php:400
+#@ vfb-pro-form-designer
+msgid "Fieldsets"
+msgstr "ערכות השדות"
+
+#: vfb-pro-form-designer.php:406
+#: vfb-pro-form-designer.php:493
+#: vfb-pro-form-designer.php:587
+#: vfb-pro-form-designer.php:665
+#: vfb-pro-form-designer.php:716
+#@ vfb-pro-form-designer
+msgid "Background Color"
+msgstr "צבע רקע"
+
+#: vfb-pro-form-designer.php:415
+#: vfb-pro-form-designer.php:458
+#: vfb-pro-form-designer.php:509
+#: vfb-pro-form-designer.php:681
+#: vfb-pro-form-designer.php:796
+#@ vfb-pro-form-designer
+msgid "Border Color"
+msgstr "צבע גבול"
+
+#: vfb-pro-form-designer.php:423
+#: vfb-pro-form-designer.php:466
+#: vfb-pro-form-designer.php:517
+#: vfb-pro-form-designer.php:689
+#: vfb-pro-form-designer.php:804
+#@ vfb-pro-form-designer
+msgid "Border Thickness"
+msgstr "עובי הגבול"
+
+#: vfb-pro-form-designer.php:434
+#: vfb-pro-form-designer.php:477
+#: vfb-pro-form-designer.php:528
+#: vfb-pro-form-designer.php:700
+#: vfb-pro-form-designer.php:815
+#@ vfb-pro-form-designer
+msgid "Border Style"
+msgstr "סגנון גבול"
+
+#: vfb-pro-form-designer.php:445
+#@ vfb-pro-form-designer
+msgid "Legends"
+msgstr "אגדות"
+
+#: vfb-pro-form-designer.php:450
+#: vfb-pro-form-designer.php:501
+#: vfb-pro-form-designer.php:544
+#: vfb-pro-form-designer.php:595
+#: vfb-pro-form-designer.php:630
+#: vfb-pro-form-designer.php:673
+#: vfb-pro-form-designer.php:732
+#: vfb-pro-form-designer.php:767
+#@ vfb-pro-form-designer
+msgid "Font Color"
+msgstr "צבע גופן"
+
+#: vfb-pro-form-designer.php:488
+#@ vfb-pro-form-designer
+msgid "Sections"
+msgstr "סעיפים"
+
+#: vfb-pro-form-designer.php:539
+#@ vfb-pro-form-designer
+msgid "Labels"
+msgstr "תוויות"
+
+#: vfb-pro-form-designer.php:552
+#: vfb-pro-form-designer.php:603
+#: vfb-pro-form-designer.php:638
+#: vfb-pro-form-designer.php:740
+#: vfb-pro-form-designer.php:775
+#@ vfb-pro-form-designer
+msgid "Font Weight"
+msgstr "משקל גופן"
+
+#: vfb-pro-form-designer.php:562
+#: vfb-pro-form-designer.php:613
+#: vfb-pro-form-designer.php:648
+#: vfb-pro-form-designer.php:750
+#: vfb-pro-form-designer.php:785
+#@ vfb-pro-form-designer
+msgid "Font Size"
+msgstr "גודל גופן"
+
+#: vfb-pro-form-designer.php:573
+#@ vfb-pro-form-designer
+msgid "Required Asterisk Color"
+msgstr "כוכבית נדרש צבע"
+
+#: vfb-pro-form-designer.php:582
+#@ vfb-pro-form-designer
+msgid "Fields"
+msgstr "שדות"
+
+#: vfb-pro-form-designer.php:625
+#@ vfb-pro-form-designer
+msgid "Descriptions"
+msgstr "תיאורים"
+
+#: vfb-pro-form-designer.php:660
+#@ vfb-pro-form-designer
+msgid "Instructions"
+msgstr "הוראות"
+
+#: vfb-pro-form-designer.php:711
+#@ vfb-pro-form-designer
+msgid "Paging Button"
+msgstr "כפתור ההחלפה"
+
+#: vfb-pro-form-designer.php:724
+#@ vfb-pro-form-designer
+msgid "Hover Color"
+msgstr "ריחוף צבע"
+
+#: vfb-pro-form-designer.php:762
+#@ vfb-pro-form-designer
+msgid "Validation Errors"
+msgstr "שגיאות אימות"
+
+#: vfb-pro-form-designer.php:828
+#@ vfb-pro-form-designer
+msgid "Save"
+msgstr "שמור"
+

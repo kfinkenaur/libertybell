@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder Pro - Payments v1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-06 03:29:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: IRELAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: vfb-pro-payments.php:187
+#: vfb-pro-payments.php:249
+#@ vfb-pro-payments
+msgid "Payments"
+msgstr "Payments"
+
+#: vfb-pro-payments.php:212
+#@ vfb-pro-payments
+msgid "Payment settings have been saved."
+msgstr "Payment settings have been saved."
+
+#: vfb-pro-payments.php:251
+#@ vfb-pro-payments
+msgid "Select form:"
+msgstr "Select form:"
+
+#: vfb-pro-payments.php:264
+#@ vfb-pro-payments
+msgid "Select"
+msgstr "Select"
+
+#: vfb-pro-payments.php:277
+#@ vfb-pro-payments
+msgid "Enable Payment"
+msgstr "Enable Payment"
+
+#: vfb-pro-payments.php:287
+#@ vfb-pro-payments
+msgid "Merchant Settings"
+msgstr "Merchant Settings"
+
+#: vfb-pro-payments.php:293
+#@ vfb-pro-payments
+msgid "Select a Merchant"
+msgstr "Select a Merchant"
+
+#: vfb-pro-payments.php:298
+#@ vfb-pro-payments
+msgid "PayPal Standard"
+msgstr "PayPal Standard"
+
+#: vfb-pro-payments.php:299
+#@ vfb-pro-payments
+msgid "PayPal Pro"
+msgstr "PayPal Pro"
+
+#: vfb-pro-payments.php:310
+#@ vfb-pro-payments
+msgid "Account Email"
+msgstr "Account Email"
+
+#: vfb-pro-payments.php:321
+#@ vfb-pro-payments
+msgid "Payment Options"
+msgstr "Payment Options"
+
+#: vfb-pro-payments.php:327
+#@ vfb-pro-payments
+msgid "Currency"
+msgstr "Currency"
+
+#: vfb-pro-payments.php:346
+#@ vfb-pro-payments
+msgid "Show Running Total"
+msgstr "Show Running Total"
+
+#: vfb-pro-payments.php:357
+#@ vfb-pro-payments
+msgid "Collect Shipping Address"
+msgstr "Collect Shipping Address"
+
+#: vfb-pro-payments.php:374
+#@ vfb-pro-payments
+msgid "Collect Billing Info"
+msgstr "Collect Billing Info"
+
+#: vfb-pro-payments.php:381
+#@ vfb-pro-payments
+msgid "Select an Name field"
+msgstr "Select an Name field"
+
+#: vfb-pro-payments.php:386
+#@ vfb-pro-payments
+msgid "Select an Address field"
+msgstr "Select an Address field"
+
+#: vfb-pro-payments.php:391
+#@ vfb-pro-payments
+msgid "Select an Email field"
+msgstr "Select an Email field"
+
+#: vfb-pro-payments.php:407
+#@ vfb-pro-payments
+msgid "Recurring Payments"
+msgstr "Recurring Payments"
+
+#: vfb-pro-payments.php:413
+#@ vfb-pro-payments
+msgid "Request Payment Every"
+msgstr "Request Payment Every"
+
+#: vfb-pro-payments.php:443
+#@ vfb-pro-payments
+msgid "Advanced Variables"
+msgstr "Advanced Variables"
+
+#: vfb-pro-payments.php:450
+#@ vfb-pro-payments
+msgid "Set additional PayPal variables to further customize the checkout experience for your customers."
+msgstr "Set additional PayPal variables to further customize the checkout experience for your customers."
+
+#: vfb-pro-payments.php:450
+#@ vfb-pro-payments
+msgid "Technical HTML Variables"
+msgstr "Technical HTML Variables"
+
+#: vfb-pro-payments.php:452
+#@ vfb-pro-payments
+msgid "Use a line break between each variable."
+msgstr "Use a line break between each variable."
+
+#: vfb-pro-payments.php:468
+#@ vfb-pro-payments
+msgid "Assign Prices"
+msgstr "Assign Prices"
+
+#: vfb-pro-payments.php:469
+#@ vfb-pro-payments
+msgid "Assign Prices to existing form fields. Only Select, Radio, Checkbox, and Currency fields are allowed."
+msgstr "Assign Prices to existing form fields. Only Select, Radio, Checkbox, and Currency fields are allowed."
+
+#: vfb-pro-payments.php:475
+#@ vfb-pro-payments
+msgid "Price Fields"
+msgstr "Price Fields"
+
+#: vfb-pro-payments.php:490
+#@ vfb-pro-payments
+msgid "Assign Prices to a Field"
+msgstr "Assign Prices to a Field"
+
+#: vfb-pro-payments.php:499
+#@ vfb-pro-payments
+msgid "Save"
+msgstr "Save"
+
+#: vfb-pro-payments.php:675
+#@ vfb-pro-payments
+msgid "Remove"
+msgstr "Remove"
+
+#: vfb-pro-payments.php:678
+#@ vfb-pro-payments
+msgid "Amount Based on User Input"
+msgstr "Amount Based on User Input"
+
+#: vfb-pro-payments.php:725
+#, php-format
+#@ vfb-pro-payments
+msgid "(No %s fields found)"
+msgstr "(No %s fields found)"
+
+#: vfb-pro-payments.php:812
+#@ vfb-pro-payments
+msgid "Total"
+msgstr "Total"
+

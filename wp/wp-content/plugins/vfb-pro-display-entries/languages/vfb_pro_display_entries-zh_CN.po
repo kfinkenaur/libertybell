@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder Pro - Display Entries v1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-04 16:37:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: PEOPLE'S REPUBLIC OF CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: vfb-pro-display-entries.php:68
+#@ vfb_pro_display_entries
+msgid "Entries ID"
+msgstr "条目 ID"
+
+#: vfb-pro-display-entries.php:69
+#@ vfb_pro_display_entries
+msgid "Date Submitted"
+msgstr "提交日期"
+
+#: vfb-pro-display-entries.php:70
+#@ vfb_pro_display_entries
+msgid "IP Address"
+msgstr "IP 地址"
+
+#: vfb-pro-display-entries.php:71
+#@ vfb_pro_display_entries
+msgid "Subject"
+msgstr "主题"
+
+#: vfb-pro-display-entries.php:72
+#@ vfb_pro_display_entries
+msgid "Sender Name"
+msgstr "发件人名称"
+
+#: vfb-pro-display-entries.php:73
+#@ vfb_pro_display_entries
+msgid "Sender Email"
+msgstr "发件人的电子邮件"
+
+#: vfb-pro-display-entries.php:74
+#@ vfb_pro_display_entries
+msgid "Emailed To"
+msgstr "通过电子邮件发送到"
+
+#: vfb-pro-display-entries.php:166
+#@ vfb_pro_display_entries
+msgid "Visual Form Builder Pro must be active in order to display entries."
+msgstr "可视化窗体生成器临必须处于活动状态显示的条目。"
+
+#: vfb-pro-display-entries.php:446
+#: vfb-pro-display-entries.php:607
+#@ vfb_pro_display_entries
+msgid "Display Entries"
+msgstr "显示条目"
+
+#: vfb-pro-display-entries.php:491
+#: vfb-pro-display-entries.php:618
+#@ vfb_pro_display_entries
+msgid "No entries to pull field names from."
+msgstr "没有要拉从字段名称的条目。"
+
+#: vfb-pro-display-entries.php:633
+#@ vfb_pro_display_entries
+msgid "Build table output codes"
+msgstr "生成表输出代码"
+
+#: vfb-pro-display-entries.php:634
+#@ vfb_pro_display_entries
+msgid "Use the tools below to build a shortcode or template tag that will display your entries in a sortable and searchable data table."
+msgstr "使用下面的工具生成一个 shortcode 或模板的标记，将在可排序和搜索数据表格中显示您的条目。"
+
+#: vfb-pro-display-entries.php:641
+#@ vfb_pro_display_entries
+msgid "Select Form"
+msgstr "选择窗体"
+
+#: vfb-pro-display-entries.php:661
+#@ vfb_pro_display_entries
+msgid "Page to Display"
+msgstr "要显示的页面"
+
+#: vfb-pro-display-entries.php:671
+#@ vfb_pro_display_entries
+msgid "A large number of entries have been detected for this form. Only 1000 entries can be displayed at a time."
+msgstr "为此窗体未发现有大量的条目。可以一次显示只有 1000年项。"
+
+#: vfb-pro-display-entries.php:679
+#@ vfb_pro_display_entries
+msgid "Fields"
+msgstr "字段"
+
+#: vfb-pro-display-entries.php:682
+#@ vfb_pro_display_entries
+msgid "Select All"
+msgstr "选择所有"
+
+#: vfb-pro-display-entries.php:700
+#@ vfb_pro_display_entries
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: vfb-pro-display-entries.php:701
+#@ vfb_pro_display_entries
+msgid "Shortcodes may be used in a Post, Page, or Custom Post Type."
+msgstr "Shortcodes 可用于邮政、 页面或自定义职位类型。"
+
+#: vfb-pro-display-entries.php:704
+#@ vfb_pro_display_entries
+msgid "Template tag"
+msgstr "模板标签"
+
+#: vfb-pro-display-entries.php:705
+#@ vfb_pro_display_entries
+msgid "Template tags can only be used in your theme PHP files."
+msgstr "只可以在你的主题的 PHP 文件中使用模板标签。"
+

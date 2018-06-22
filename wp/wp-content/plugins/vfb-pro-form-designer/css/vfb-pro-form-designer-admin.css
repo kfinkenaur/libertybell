@@ -1,0 +1,77 @@
+#design-switcher {
+	margin: 10px 0;
+}
+
+.vfb-form-design-themes-container,
+.vfb-form-design-custom-container {
+	display: none;
+}
+
+	.vfb-form-design-themes-container.active,
+	.vfb-form-design-custom-container.active{
+		display: block;
+	}
+
+.form-design-types {
+	display: none;
+}
+
+	.form-design-types.active {
+		display: table-row;
+	}
+
+.vfb-color-scheme label {
+	display: block;
+	float: left;
+	margin: 0 30px 20px 2px;
+	position: relative;
+}
+.vfb-color-scheme input {
+	margin: 0 0 10px;
+}
+
+.vfb-color-palette {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+.vfb-color {
+	width:25%;
+	height:100%;
+	float:left;
+}
+
+#vfb-form-designer {
+	float:left;
+	display: inline;
+	margin-right: 1em;
+	width: 45%;
+}
+
+	.rtl #vfb-form-designer {
+		float: right;
+		margin-right: 0;
+		margin-left: 1em;
+	}
+
+#vfb-design-custom-preview {
+	float: left;
+	display: inline;
+	width: 45%;
+}
+
+	.rtl #vfb-design-custom-preview {
+		float: right;
+	}
+
+	#vfb-design-custom-preview iframe {
+		width: 100%;
+	}
+
+.vfb-design-width-hide {
+	display: none;
+}
+
+.vfb-design-width-show {
+	display: inline;
+}

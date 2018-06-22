@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder Pro - Payments v1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-06 23:35:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: vfb-pro-payments.php:187
+#: vfb-pro-payments.php:249
+#@ vfb-pro-payments
+msgid "Payments"
+msgstr "付款"
+
+#: vfb-pro-payments.php:212
+#@ vfb-pro-payments
+msgid "Payment settings have been saved."
+msgstr "付款設置已被保存。"
+
+#: vfb-pro-payments.php:251
+#@ vfb-pro-payments
+msgid "Select form:"
+msgstr "選擇表單："
+
+#: vfb-pro-payments.php:264
+#@ vfb-pro-payments
+msgid "Select"
+msgstr "請選擇"
+
+#: vfb-pro-payments.php:277
+#@ vfb-pro-payments
+msgid "Enable Payment"
+msgstr "啟用付款"
+
+#: vfb-pro-payments.php:287
+#@ vfb-pro-payments
+msgid "Merchant Settings"
+msgstr "商船的設置"
+
+#: vfb-pro-payments.php:293
+#@ vfb-pro-payments
+msgid "Select a Merchant"
+msgstr "選擇一個商人"
+
+#: vfb-pro-payments.php:298
+#@ vfb-pro-payments
+msgid "PayPal Standard"
+msgstr "PayPal 標準"
+
+#: vfb-pro-payments.php:299
+#@ vfb-pro-payments
+msgid "PayPal Pro"
+msgstr "PayPal Pro"
+
+#: vfb-pro-payments.php:310
+#@ vfb-pro-payments
+msgid "Account Email"
+msgstr "帳戶的電子郵件"
+
+#: vfb-pro-payments.php:321
+#@ vfb-pro-payments
+msgid "Payment Options"
+msgstr "付款選項"
+
+#: vfb-pro-payments.php:327
+#@ vfb-pro-payments
+msgid "Currency"
+msgstr "貨幣"
+
+#: vfb-pro-payments.php:346
+#@ vfb-pro-payments
+msgid "Show Running Total"
+msgstr "顯示運行總計"
+
+#: vfb-pro-payments.php:357
+#@ vfb-pro-payments
+msgid "Collect Shipping Address"
+msgstr "收集送貨位址"
+
+#: vfb-pro-payments.php:374
+#@ vfb-pro-payments
+msgid "Collect Billing Info"
+msgstr "收集付費資訊"
+
+#: vfb-pro-payments.php:381
+#@ vfb-pro-payments
+msgid "Select an Name field"
+msgstr "選擇名稱欄位"
+
+#: vfb-pro-payments.php:386
+#@ vfb-pro-payments
+msgid "Select an Address field"
+msgstr "選擇一個位址欄位"
+
+#: vfb-pro-payments.php:391
+#@ vfb-pro-payments
+msgid "Select an Email field"
+msgstr "選擇電子郵件欄位"
+
+#: vfb-pro-payments.php:407
+#@ vfb-pro-payments
+msgid "Recurring Payments"
+msgstr "定期付款"
+
+#: vfb-pro-payments.php:413
+#@ vfb-pro-payments
+msgid "Request Payment Every"
+msgstr "要求付款每"
+
+#: vfb-pro-payments.php:443
+#@ vfb-pro-payments
+msgid "Advanced Variables"
+msgstr "先進的變數"
+
+#: vfb-pro-payments.php:450
+#@ vfb-pro-payments
+msgid "Set additional PayPal variables to further customize the checkout experience for your customers."
+msgstr "設置額外的 PayPal 變數，以進一步自訂您的客戶的簽出經驗。"
+
+#: vfb-pro-payments.php:450
+#@ vfb-pro-payments
+msgid "Technical HTML Variables"
+msgstr "技術 HTML 變數"
+
+#: vfb-pro-payments.php:452
+#@ vfb-pro-payments
+msgid "Use a line break between each variable."
+msgstr "使用一個分行符號之間的每個變數。"
+
+#: vfb-pro-payments.php:468
+#@ vfb-pro-payments
+msgid "Assign Prices"
+msgstr "分配的價格"
+
+#: vfb-pro-payments.php:469
+#@ vfb-pro-payments
+msgid "Assign Prices to existing form fields. Only Select, Radio, Checkbox, and Currency fields are allowed."
+msgstr "將價格分配給現有的表單欄位。只選擇，單選、 核取方塊、 和貨幣欄位允許。"
+
+#: vfb-pro-payments.php:475
+#@ vfb-pro-payments
+msgid "Price Fields"
+msgstr "價格欄位"
+
+#: vfb-pro-payments.php:490
+#@ vfb-pro-payments
+msgid "Assign Prices to a Field"
+msgstr "分配給欄位的價格"
+
+#: vfb-pro-payments.php:499
+#@ vfb-pro-payments
+msgid "Save"
+msgstr "保存"
+
+#: vfb-pro-payments.php:675
+#@ vfb-pro-payments
+msgid "Remove"
+msgstr "刪除"
+
+#: vfb-pro-payments.php:678
+#@ vfb-pro-payments
+msgid "Amount Based on User Input"
+msgstr "基於使用者輸入的金額"
+
+#: vfb-pro-payments.php:725
+#, php-format
+#@ vfb-pro-payments
+msgid "(No %s fields found)"
+msgstr "（沒有找到 %s 欄位）"
+
+#: vfb-pro-payments.php:812
+#@ vfb-pro-payments
+msgid "Total"
+msgstr "共"
+

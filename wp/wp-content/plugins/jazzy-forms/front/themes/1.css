@@ -1,0 +1,122 @@
+.jzzf_form div, .jzzf_form p, .jzzf_form ul, .jzzf_form li, .jzzf_form span {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+.jzzf_form_elements {
+    width: 530px;
+}
+
+.jzzf_form input[type="text"], .jzzf_form input[type="checkbox"], .jzzf_form input[type="radio"], .jzzf_form select {
+    padding: 0;
+    margin: 0;
+}
+
+.jzzf_form input[type="button"] {
+    margin-top: 16px;
+}
+
+.jzzf_form :focus {/* remember to define focus styles! */
+	outline: 0;
+}
+.jzzf_form ul {
+	list-style: none;
+}
+
+.jzzf_form ul li.jzzf_radio_option {
+	display: list-item;
+}
+
+.jzzf_form .jzzf_element_label, .jzzf_form .jzzf_element_heading {
+    display: block;
+    font-weight: bold;
+}
+
+.jzzf_form .jzzf_element {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.jzzf_form .jzzf_element_c.jzzf_ahead_c {
+    padding-bottom: inherit;
+}
+
+.jzzf_form .jzzf_element_h {
+    font-weight: bold;
+}
+
+.jzzf_form .jzzf_element_h.jzzf_ahead_c, .jzzf_form .jzzf_element_h.jzzf_ahead_m, .jzzf_form .jzzf_element_h.jzzf_ahead_t {
+    padding-bottom: inherit;
+}
+
+.jzzf_form .jzzf_radio_option_label, .jzzf_form .jzzf_checkbox_label {
+    padding-left: 8px;
+}
+
+.jzzf_form .jzzf_element {
+    padding-left: 4px;
+    padding-right: 4px;
+    display: block;
+}
+
+div.jzzf_full { width: 392px; }
+div.jzzf_half { width: 196px; }
+div.jzzf_third { width: 131px; }
+div.jzzf_quarter { width: 98px; }
+
+.jzzf_row {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.jzzf_full input[type=text], .jzzf_full select { width: 388px; }
+.jzzf_half input[type=text], .jzzf_half select { width: 188px; }
+.jzzf_third input[type=text], .jzzf_third select { width: 121px; }
+.jzzf_quarter input[type=text], .jzzf_quarter select { width: 88px; }
+
+.jzzf_break {
+    float: left;
+    clear: left;
+}
+
+.jzzf_no_break {
+    float: left;
+}
+
+.jzzf_message {
+    width: 125px;
+    float: left;
+}
+
+form.jzzf_form .jzzf_form_error {
+    background-color: #ffdfdf;
+    text-align: center;
+    color: #df0000;
+    font-weight: bold;
+    border: 2px solid #df0000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.jzzf_erroneous {
+    background-color: #ffdfdf;
+    border: 2px solid #df0000;    
+}
+
+.jzzf_error {
+        color: #df0000;
+}
+
+.jzzf_form .jzzf_asterisk {
+    margin-left: 5px;
+    font-weight: normal;
+}

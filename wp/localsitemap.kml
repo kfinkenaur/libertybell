@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<name>Liberty Bell Moving & Storage</name>
+<atom:author>
+<atom:name>Ritesh Khare</atom:name>
+</atom:author>
+<atom:link rel="related" href="http://libertybellmoving.com" />
+<folder>
+<Document>
+<Placemark>
+<name><![CDATA[Liberty Bell Moving & Storage]]></name>
+<address><![CDATA[306 Congress St #8,Portland , Maine,04101,United States]]></address>
+<description><![CDATA[Liberty Bell Moving hires superior movers in Portland, Maine, men with good intentions and great attitudes! Most moving companies in Portland, Maine should know how to move furniture. Not all movers however, know how to make moving a truly pleasant experience. Superior customer service and respect for our customers is what our movers in Maine are known for]]></description>
+<Point><coordinates>43.6610610,-70.2534489</coordinates></Point>
+</Placemark>
+</Document>
+</folder>
+</kml>

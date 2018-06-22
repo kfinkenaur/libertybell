@@ -1,0 +1,116 @@
+# Copyright (C) 2013 Visual Form Builder Pro - Display Entries
+# This file is distributed under the same license as the Visual Form Builder Pro - Display Entries package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder Pro - Display Entries 1.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/vfb-pro-display-entries\n"
+"POT-Creation-Date: 2013-04-29 19:02:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: vfb-pro-display-entries.php:68
+msgid "Entries ID"
+msgstr ""
+
+#: vfb-pro-display-entries.php:69
+msgid "Date Submitted"
+msgstr ""
+
+#: vfb-pro-display-entries.php:70
+msgid "IP Address"
+msgstr ""
+
+#: vfb-pro-display-entries.php:71
+msgid "Subject"
+msgstr ""
+
+#: vfb-pro-display-entries.php:72
+msgid "Sender Name"
+msgstr ""
+
+#: vfb-pro-display-entries.php:73
+msgid "Sender Email"
+msgstr ""
+
+#: vfb-pro-display-entries.php:74
+msgid "Emailed To"
+msgstr ""
+
+#: vfb-pro-display-entries.php:166
+msgid "Visual Form Builder Pro must be active in order to display entries."
+msgstr ""
+
+#: vfb-pro-display-entries.php:446 vfb-pro-display-entries.php:607
+msgid "Display Entries"
+msgstr ""
+
+#: vfb-pro-display-entries.php:491 vfb-pro-display-entries.php:618
+msgid "No entries to pull field names from."
+msgstr ""
+
+#: vfb-pro-display-entries.php:633
+msgid "Build table output codes"
+msgstr ""
+
+#: vfb-pro-display-entries.php:634
+msgid "Use the tools below to build a shortcode or template tag that will display your entries in a sortable and searchable data table."
+msgstr ""
+
+#: vfb-pro-display-entries.php:641
+msgid "Select Form"
+msgstr ""
+
+#: vfb-pro-display-entries.php:661
+msgid "Page to Display"
+msgstr ""
+
+#: vfb-pro-display-entries.php:671
+msgid "A large number of entries have been detected for this form. Only 1000 entries can be displayed at a time."
+msgstr ""
+
+#: vfb-pro-display-entries.php:679
+msgid "Fields"
+msgstr ""
+
+#: vfb-pro-display-entries.php:682
+msgid "Select All"
+msgstr ""
+
+#: vfb-pro-display-entries.php:700
+msgid "Shortcode"
+msgstr ""
+
+#: vfb-pro-display-entries.php:701
+msgid "Shortcodes may be used in a Post, Page, or Custom Post Type."
+msgstr ""
+
+#: vfb-pro-display-entries.php:704
+msgid "Template tag"
+msgstr ""
+
+#: vfb-pro-display-entries.php:705
+msgid "Template tags can only be used in your theme PHP files."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Visual Form Builder Pro - Display Entries"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://vfb.matthewmuro.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "An add-on for Visual Form Builder Pro that displays entries on your site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Matthew Muro"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://matthewmuro.com"
+msgstr ""

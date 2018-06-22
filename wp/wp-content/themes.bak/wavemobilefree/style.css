@@ -1,0 +1,604 @@
+/* 
+Theme Name: 51Degrees.mobi Smartphone by Wave
+Theme URI: http://www.wave-digital.co.uk/wordpress-mobile-themes
+Description: A minimalistic, simple free mobile theme for WordPress -- supports widgets in the sidebar, all manors of post/page formatting and comes with an easy to customize stylesheet. This theme requires 51degrees Device Detection plugin for the best performance. Includes a "fixed" widget position for advertisement or other purposes.
+ 
+Author: Wave Digital
+Author URI: http://www.wave-digital.co.uk/
+Version: 1.0 
+Tags: mobile, tablet, phone, smartphone, 51degrees, device detection, minimalistic, simple, widgets, sidebar, elegant 
+*/
+
+html, body{
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow-x:hidden;
+	margin:0px;
+	padding:0px;
+	color:#777;
+}
+
+form{
+	margin:0px;
+}
+
+img {
+	border:none;
+	max-width:100% !important;
+}
+
+a {
+	text-decoration:none;
+	color:#777;
+	font-size:inherit;
+	word-wrap:break-word;
+}
+
+h1, h2, h3, h4, h5{
+	margin-top:0px;
+	color:#666;
+}
+
+h1{
+	font-size:18px;
+}
+
+h1 a{
+	color:#666;
+}
+
+h2{
+	font-size:14px;
+}
+
+h3{
+	font-size:15px;
+}
+
+#wpadminbar a{
+	line-height:26px !important;
+}
+
+#logo h1{
+	margin-bottom:10px;	
+}
+
+#logo span{
+	display:block;
+	color:#777;
+	font-size:12px;
+	margin-bottom:10px;
+	font-style:italic;
+}
+
+#logo img{
+	max-width:100%;
+}
+
+.post, .comments{
+	position:relative;
+	background: #F8F8F8;
+	padding: 10px;
+	border-top: 5px solid #35BDD5;
+	border-bottom: 1px solid #C2C2C2;
+	border-left: 1px solid #C2C2C2;
+	border-right: 1px solid #C2C2C2;
+}
+
+.post img{
+	display:block;
+	margin:0px auto;
+	max-width:100% !important;
+	height:auto;
+}
+
+.embed-youtube{
+	text-align: center;
+	display: block;
+	position: relative;
+	padding-bottom: 50%;	
+}
+
+.post iframe, .post object, .post embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.wp-caption{
+	width:100% !important;
+}
+
+.post-loop {
+	padding: 0px;
+	border: 1px solid #C2C2C2;
+	width:290px;
+	float:left;
+	margin:4px;
+	position:relative;
+	background:#F8F8F8;
+	overflow:hidden;
+}
+
+.post-details-top{
+	
+}
+
+.post-details-left{
+	position:absolute;
+	display:inline;
+	bottom:3%;
+	left:6%;
+}
+
+.post-details-right{
+	position:absolute;
+	bottom:3%;
+	display:inline;
+	right:6%;
+}
+
+.post-loop h1{
+	margin:0px;
+	font-weight:normal;
+	font-size:15px;
+}
+
+.post-loop p{
+	font-size:13px;
+	margin:5px 0px;
+}
+
+.left{
+	float:left;
+}
+
+.right {
+	float: right;
+}
+
+#search-box{
+	padding: 6px 10px;	
+}
+
+.search-page{
+	padding:15px 2px;
+}
+
+.search-page input{
+	width:70%;
+	border:none;
+	border-bottom:1px solid #C2C2C2;
+	background:none;
+	font-size: 14px;
+	font-weight: normal;
+	color:#A9A9B2;
+	/* Firefox v1.0+ */
+	-moz-border-radius:0%;
+	/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-border-radius:0%/2%;
+	/* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */
+	border-radius:0%/2%;
+	-webkit-appearance: none;
+}
+	
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+#wrapper, #nav-bar-tile{
+	max-width:600px;
+	width:100%;
+}
+
+#wrapper{
+	margin:20px auto 135px;
+}
+
+#content{
+	margin:0px;
+}
+
+header{
+	padding: 0px;
+}
+
+#top-bar-tile{
+	background: #F8F8F8;
+	border-bottom: solid 1px #C2C2C2;
+	-moz-border-radius: 0%;
+	-webkit-border-radius: 0%/2%;
+	border-radius: 0%/2%;
+	width: 100%;
+	margin: 0px;
+	display: block;
+	position:relative;
+}
+
+#top-bar-content{
+	display:block !important;
+}
+
+a.menu{
+	color: #777;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+#menu-mobile, #menu-mobile-container{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+#menu-mobile-container{
+	position:relative;
+}
+
+#menu-mobile-container > li{
+	float:left;
+	border-right:solid 1px #C2C2C2;
+}
+
+#menu-mobile{
+	position:absolute;
+	background:#F8F8F8;
+	border:solid 1px #C2C2C2;
+	border-left:none;
+	z-index:999;
+	width:300px;
+}
+
+#menu-mobile ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	background:#E5E5E5;
+}
+
+#menu-mobile ul ul{
+	background:#D7D7D7;
+}
+
+#menu-mobile-container li > #menu-mobile{
+	display:none;
+}
+
+/*
+#menu-mobile ul{
+	display:none;
+}
+
+#menu-mobile li > ul{
+	display:none;	
+}
+
+#menu-mobile ul li:hover > ul{
+	display:block;
+}
+
+#menu-mobile li:hover > ul{
+	display:block;
+}
+*/
+
+#menu-mobile{
+	display:none;
+}
+
+#menu-mobile-container li a{
+	padding:10px;
+	display:block;
+}
+#menu-mobile li a{
+	color:#777;
+	font-weight:normal;
+	font-size:14px;
+	padding:10px;
+	display:block;
+	border-bottom: solid 1px #C2C2C2;
+}
+
+.search_box{
+	width:100px;
+	border:none;
+	border-bottom:1px solid #C2C2C2;
+	background:none;
+	font-size: 13px;
+	font-weight: normal;
+	color:#A9A9B2;
+	/* Firefox v1.0+ */
+	-moz-border-radius:0%;
+	/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-border-radius:0%/2%;
+	/* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */
+	border-radius:0%/2%;
+	-webkit-appearance: none;
+}
+	
+
+.post-thumb{
+	margin-bottom:0px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.no-thumb h1{
+	font-size:18px;
+}
+
+.post-thumb img{
+	width: auto;
+	height: auto;
+	min-width: 290px;
+	max-height: 140px;
+	display:block;
+}
+
+
+.post-info{
+	padding:2px 5px;
+	border-top:solid 3px #35BDD5;
+}
+
+.category{
+	font-size:12px;
+	color:#999;
+}
+
+.post-link{
+	display:block;
+	height:auto;
+	line-height:normal !important;
+}
+
+#older-posts a, #newer-posts a{
+	padding: 5px;
+	border: 1px solid #C2C2C2;
+	margin: 4px;
+	background: #F8F8F8;
+	float:left;
+}
+
+.older-posts a, .newer-posts a{
+	margin:12px 10px 12px 0px;
+	width: 60px;
+	padding: 5px;
+	text-align: center;
+	display:block;
+	border: 1px solid #C2C2C2;
+	background: #F8F8F8;
+	float:left;
+}
+
+.older-posts, .newer-posts{
+	float:left;
+}
+
+.sidebar-box{
+	width:274px;
+	margin:15px 4px 0px;
+	background:#F8F8F8;
+	border:1px solid #C2C2C2;
+	padding:8px;
+	float:left;
+}
+
+#sidebar .even{
+	float:right;
+}
+
+#banner{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background: #F2F2F2;
+	border-top: 1px solid #C2C2C2;
+	text-align: center;
+}
+
+#banner div{
+	display:inline-block;	
+}
+
+#banner img{
+	vertical-align:bottom;
+	max-height:50px;
+}
+
+.sidebar-box ul{
+	list-style:none;
+	padding-left:10px;
+}
+
+.sidebar-box table{
+	width:100%;
+}
+
+.sidebar-title{
+	margin-bottom:10px;
+}
+
+#footer{
+	font-size:12px;
+	color:#777;
+	margin:10px 0px;
+}
+
+
+
+#sharing_email{
+	margin-left:0px !important;
+}
+
+div.sharedaddy .sd-content {
+	width:auto !important;
+	float:none !important;
+}
+
+#comment-form label{
+	font-size:13px;
+}
+
+#comment-form input, #comment-form textarea{
+	width:100%;
+	margin:0px;
+	padding:3px 0px;
+	font-size:13px;
+	color:#777;
+}
+#comment-form input[type=text], #comment-form input[type=email]{
+	display:block;
+	border-width:0px;
+	border-radius:0px;
+	/* Firefox v1.0+ */
+	-moz-border-radius:0%;
+	/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-border-radius:0%/2%;
+	/* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */
+	border-radius:0%/2%;
+}
+
+#comment-form input[type=submit]{
+	margin-top:10px;
+	line-height:22px;
+}
+
+#comment-form textarea{
+	border:none;
+	/* Firefox v1.0+ */
+	-moz-border-radius:0%;
+	/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-border-radius:0%/2%;
+	/* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */
+	border-radius:0%/2%;
+}
+
+#comment-form .input{
+	border:solid 1px #C2C2C2;
+	margin-bottom:5px;
+}
+
+#msg{
+	color:#C7212C;
+	font-size:13px;
+	margin-bottom:10px;
+}
+
+/*/-------------------------------   */
+
+.post-loop{
+	width:590px;
+	height:auto;
+}
+
+.post-thumb img {
+	min-width: 270px;
+	max-height:none;
+}
+.post-thumb {
+	width: 270px;
+	float: left;
+}
+
+.post-info{
+	padding:2px 12px;
+	width:296px;
+	float:left;
+}
+
+.no-thumb .post-info{
+	width:auto;
+	float:none;
+}
+
+.desktop-version{
+	line-height: 20px;
+	font-weight: bold;
+}
+
+
+	
+#top-bar-tile{	
+	min-height: 31px;
+}
+	
+#wrapper{
+	width:300px;
+	margin:20px auto 95px;
+}
+
+#menu-mobile-container{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%	;
+	
+	background:#F8F8F8;
+	border-bottom:solid 1px #C2C2C2;
+}
+
+#search-box {
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	padding:0 10px;
+}
+
+#menu-mobile{
+	width:100%;
+	border-bottom:none;
+}
+
+#menu-mobile li{
+	width:100%;
+}
+
+#sharing_email {
+	width:248px !important;
+}
+
+.sidebar-box{
+	width:274px;
+}
+
+.post-loop{
+	width:290px;
+	height:auto;
+}
+
+.post-thumb img {
+	min-width: 290px;
+	max-height: none;
+}
+.post-thumb {
+	width: auto;
+	float: none;
+}
+
+.post-info{
+	padding:2px 5px;
+	width:auto;
+	float:none;
+}

@@ -1,0 +1,223 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder Pro - Form Designer v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-27 04:14:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: vfb-pro-form-designer.php:218
+#: vfb-pro-form-designer.php:255
+#@ vfb-pro-form-designer
+msgid "Form Design"
+msgstr "Űrlap tervezése"
+
+#: vfb-pro-form-designer.php:235
+#@ vfb-pro-form-designer
+msgid "Form design have been saved."
+msgstr "Űrlaptervezés mentése megtörtént."
+
+#: vfb-pro-form-designer.php:247
+#@ vfb-pro-form-designer
+msgid "You do not currently have permissions to edit the form design"
+msgstr "Jelenleg nem rendelkezik engedéllyel szerkesztése űrlap tervezése"
+
+#: vfb-pro-form-designer.php:281
+#@ vfb-pro-form-designer
+msgid "Select form to design:"
+msgstr "Jelölje ki az űrlapot:"
+
+#: vfb-pro-form-designer.php:289
+#@ vfb-pro-form-designer
+msgid "Select"
+msgstr "Válassza ki"
+
+#: vfb-pro-form-designer.php:302
+#@ vfb-pro-form-designer
+msgid "Enable Form Design"
+msgstr "Űrlaptervezés engedélyezése"
+
+#: vfb-pro-form-designer.php:311
+#@ vfb-pro-form-designer
+msgid "Design Type"
+msgstr "Design típusú"
+
+#: vfb-pro-form-designer.php:315
+#: vfb-pro-form-designer.php:326
+#@ default
+#@ vfb-pro-form-designer
+msgid "Color Themes"
+msgstr "Color témák"
+
+#: vfb-pro-form-designer.php:318
+#: vfb-pro-form-designer.php:398
+#@ default
+#@ vfb-pro-form-designer
+msgid "Custom Design"
+msgstr "Egyedi Design"
+
+#: vfb-pro-form-designer.php:340
+#@ vfb-pro-form-designer
+msgid "Light"
+msgstr "Fény"
+
+#: vfb-pro-form-designer.php:352
+#@ vfb-pro-form-designer
+msgid "Dark"
+msgstr "Sötét"
+
+#: vfb-pro-form-designer.php:364
+#@ vfb-pro-form-designer
+msgid "Primary"
+msgstr "Elsődleges"
+
+#: vfb-pro-form-designer.php:376
+#@ vfb-pro-form-designer
+msgid "Pastel"
+msgstr "Pasztell"
+
+#: vfb-pro-form-designer.php:388
+#@ vfb-pro-form-designer
+msgid "Neutral"
+msgstr "Semleges"
+
+#: vfb-pro-form-designer.php:400
+#@ vfb-pro-form-designer
+msgid "Fieldsets"
+msgstr "Mezőcsoportok"
+
+#: vfb-pro-form-designer.php:406
+#: vfb-pro-form-designer.php:493
+#: vfb-pro-form-designer.php:587
+#: vfb-pro-form-designer.php:665
+#: vfb-pro-form-designer.php:716
+#@ vfb-pro-form-designer
+msgid "Background Color"
+msgstr "Háttérszín"
+
+#: vfb-pro-form-designer.php:415
+#: vfb-pro-form-designer.php:458
+#: vfb-pro-form-designer.php:509
+#: vfb-pro-form-designer.php:681
+#: vfb-pro-form-designer.php:796
+#@ vfb-pro-form-designer
+msgid "Border Color"
+msgstr "Szegélyszín"
+
+#: vfb-pro-form-designer.php:423
+#: vfb-pro-form-designer.php:466
+#: vfb-pro-form-designer.php:517
+#: vfb-pro-form-designer.php:689
+#: vfb-pro-form-designer.php:804
+#@ vfb-pro-form-designer
+msgid "Border Thickness"
+msgstr "Szegély vastagsága"
+
+#: vfb-pro-form-designer.php:434
+#: vfb-pro-form-designer.php:477
+#: vfb-pro-form-designer.php:528
+#: vfb-pro-form-designer.php:700
+#: vfb-pro-form-designer.php:815
+#@ vfb-pro-form-designer
+msgid "Border Style"
+msgstr "Keret stílusa"
+
+#: vfb-pro-form-designer.php:445
+#@ vfb-pro-form-designer
+msgid "Legends"
+msgstr "Legendák"
+
+#: vfb-pro-form-designer.php:450
+#: vfb-pro-form-designer.php:501
+#: vfb-pro-form-designer.php:544
+#: vfb-pro-form-designer.php:595
+#: vfb-pro-form-designer.php:630
+#: vfb-pro-form-designer.php:673
+#: vfb-pro-form-designer.php:732
+#: vfb-pro-form-designer.php:767
+#@ vfb-pro-form-designer
+msgid "Font Color"
+msgstr "Betűszín"
+
+#: vfb-pro-form-designer.php:488
+#@ vfb-pro-form-designer
+msgid "Sections"
+msgstr "Szakaszok"
+
+#: vfb-pro-form-designer.php:539
+#@ vfb-pro-form-designer
+msgid "Labels"
+msgstr "Címkéket"
+
+#: vfb-pro-form-designer.php:552
+#: vfb-pro-form-designer.php:603
+#: vfb-pro-form-designer.php:638
+#: vfb-pro-form-designer.php:740
+#: vfb-pro-form-designer.php:775
+#@ vfb-pro-form-designer
+msgid "Font Weight"
+msgstr "Font-súly"
+
+#: vfb-pro-form-designer.php:562
+#: vfb-pro-form-designer.php:613
+#: vfb-pro-form-designer.php:648
+#: vfb-pro-form-designer.php:750
+#: vfb-pro-form-designer.php:785
+#@ vfb-pro-form-designer
+msgid "Font Size"
+msgstr "Betűméret"
+
+#: vfb-pro-form-designer.php:573
+#@ vfb-pro-form-designer
+msgid "Required Asterisk Color"
+msgstr "Szükséges csillag színe"
+
+#: vfb-pro-form-designer.php:582
+#@ vfb-pro-form-designer
+msgid "Fields"
+msgstr "Mezők"
+
+#: vfb-pro-form-designer.php:625
+#@ vfb-pro-form-designer
+msgid "Descriptions"
+msgstr "Leírások"
+
+#: vfb-pro-form-designer.php:660
+#@ vfb-pro-form-designer
+msgid "Instructions"
+msgstr "Utasítások"
+
+#: vfb-pro-form-designer.php:711
+#@ vfb-pro-form-designer
+msgid "Paging Button"
+msgstr "Személyhívó gomb"
+
+#: vfb-pro-form-designer.php:724
+#@ vfb-pro-form-designer
+msgid "Hover Color"
+msgstr "Rámutatás: szín"
+
+#: vfb-pro-form-designer.php:762
+#@ vfb-pro-form-designer
+msgid "Validation Errors"
+msgstr "Érvényesség-ellenőrzési hibák"
+
+#: vfb-pro-form-designer.php:828
+#@ vfb-pro-form-designer
+msgid "Save"
+msgstr "Mentés"
+

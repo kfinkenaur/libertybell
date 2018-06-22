@@ -1,0 +1,60 @@
+Changelog Legend:
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(08/10/2014) - Update - Version 1.1.4
+
+[+] Added Danish translation.
+[*] Updated displaying of featured images on the post entries (added condition has_post_thumbnail).
+
+----
+
+(30/09/2014) - Update - Version 1.1.3
+
+[+] Added Greek translation.
+[*] Changed z-index value of the Top Menu to avoid overlapping with the Main Menu.
+[x] Removed deprecated function "screen_icon()" from class-tgm-plugin-activation.php.
+
+----
+
+(22/09/2014) - Update - Version 1.1.2
+
+[+] Added Dutch translation.
+[*] Changed function for displaying the breadcrumb navigation (hide it on a static front page).
+
+----
+
+(15/09/2014) - Update - Version 1.1.1
+
+[*] Updated displaying of the footer widget areas.
+[*] Updated the "category.php" template.
+
+----
+
+(11/09/2014) - Update - Version 1.1.0
+
+[+] Added Italian translation.
+[*] Updated editor-style.css.
+
+----
+
+(09/07/2014) - Update - Version 1.0.2
+
+[*] Edited Copyright info.
+
+----
+
+(17/06/2014) - Update - Version 1.0.1
+
+[+] Added support for WooCommerce plugin.
+
+----
+
+(14/06/2014) - The initial public release. - Version 1.0.0

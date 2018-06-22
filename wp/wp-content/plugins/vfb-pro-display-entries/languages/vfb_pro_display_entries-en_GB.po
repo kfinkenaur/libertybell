@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder Pro - Display Entries v1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-05 01:47:02+0000\n"
+"Last-Translator: admin <fuzzboxer@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: vfb-pro-display-entries.php:68
+#@ vfb_pro_display_entries
+msgid "Entries ID"
+msgstr "Entries ID"
+
+#: vfb-pro-display-entries.php:69
+#@ vfb_pro_display_entries
+msgid "Date Submitted"
+msgstr "Date Submitted"
+
+#: vfb-pro-display-entries.php:70
+#@ vfb_pro_display_entries
+msgid "IP Address"
+msgstr "IP Address"
+
+#: vfb-pro-display-entries.php:71
+#@ vfb_pro_display_entries
+msgid "Subject"
+msgstr "Subject"
+
+#: vfb-pro-display-entries.php:72
+#@ vfb_pro_display_entries
+msgid "Sender Name"
+msgstr "Sender Name"
+
+#: vfb-pro-display-entries.php:73
+#@ vfb_pro_display_entries
+msgid "Sender Email"
+msgstr "Sender Email"
+
+#: vfb-pro-display-entries.php:74
+#@ vfb_pro_display_entries
+msgid "Emailed To"
+msgstr "Emailed To"
+
+#: vfb-pro-display-entries.php:166
+#@ vfb_pro_display_entries
+msgid "Visual Form Builder Pro must be active in order to display entries."
+msgstr "Visual Form Builder Pro must be active in order to display entries."
+
+#: vfb-pro-display-entries.php:452
+#: vfb-pro-display-entries.php:613
+#@ vfb_pro_display_entries
+msgid "Display Entries"
+msgstr "Display Entries"
+
+#: vfb-pro-display-entries.php:497
+#: vfb-pro-display-entries.php:624
+#@ vfb_pro_display_entries
+msgid "No entries to pull field names from."
+msgstr "No entries to pull field names from."
+
+#: vfb-pro-display-entries.php:639
+#@ vfb_pro_display_entries
+msgid "Build table output codes"
+msgstr "Build table output codes"
+
+#: vfb-pro-display-entries.php:640
+#@ vfb_pro_display_entries
+msgid "Use the tools below to build a shortcode or template tag that will display your entries in a sortable and searchable data table."
+msgstr "Use the tools below to build a shortcode or template tag that will display your entries in a sortable and searchable data table."
+
+#: vfb-pro-display-entries.php:647
+#@ vfb_pro_display_entries
+msgid "Select Form"
+msgstr "Select Form"
+
+#: vfb-pro-display-entries.php:667
+#@ vfb_pro_display_entries
+msgid "Page to Display"
+msgstr "Page to Display"
+
+#: vfb-pro-display-entries.php:677
+#@ vfb_pro_display_entries
+msgid "A large number of entries have been detected for this form. Only 1000 entries can be displayed at a time."
+msgstr "A large number of entries have been detected for this form. Only 1000 entries can be displayed at a time."
+
+#: vfb-pro-display-entries.php:685
+#@ vfb_pro_display_entries
+msgid "Fields"
+msgstr "Fields"
+
+#: vfb-pro-display-entries.php:688
+#@ vfb_pro_display_entries
+msgid "Select All"
+msgstr "Select All"
+
+#: vfb-pro-display-entries.php:706
+#@ vfb_pro_display_entries
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: vfb-pro-display-entries.php:707
+#@ vfb_pro_display_entries
+msgid "Shortcodes may be used in a Post, Page, or Custom Post Type."
+msgstr "Shortcodes may be used in a Post, Page, or Custom Post Type."
+
+#: vfb-pro-display-entries.php:710
+#@ vfb_pro_display_entries
+msgid "Template tag"
+msgstr "Template tag"
+
+#: vfb-pro-display-entries.php:711
+#@ vfb_pro_display_entries
+msgid "Template tags can only be used in your theme PHP files."
+msgstr "Template tags can only be used in your theme PHP files."
+

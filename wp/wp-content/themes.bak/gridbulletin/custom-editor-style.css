@@ -1,0 +1,79 @@
+/*
+Used to style the post and page TinyMCE editor.
+*/
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+body {font-family: 'Open Sans', sans-serif; font-size:0.9em; color:#333; line-height:1.5em;} 
+
+/* RESET STYLESHEET */
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, ins, mark,
+em, img, q, small, strong, b, dl, dt, dd, ol, ul, li,
+table, caption, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GENERAL */
+
+h1 {font-size:3.0em; line-height:1.2em;}
+h2 {font-size:2.5em; line-height:1.2em;}
+h3 {font-size:2.0em; line-height:1.5em;}
+h4 {font-size:1.5em; line-height:1.5em;}
+h5 {font-size:1.0em; line-height:2em;}
+h6 {font-size:0.75em; line-height:2em;}
+
+a {text-decoration:none; color:#ec6500;}
+a:hover {text-decoration:underline;}
+
+strong, b {font-weight: bold;}
+small {font-size:0.75em;}
+big {font-size: 1.5em;}
+ins, mark {font-weight:bold; background:none; color:#ec6500;}
+cite, em, abbr, acronym {font-style:italic;}
+code, pre {margin:10px 0; padding:5px 10px; display:block; border:1px solid #ccc; background:#f8f8f8; word-wrap:break-word;}
+blockquote, q {margin:10px 0; padding:0 0 0 40px; display:block; font-size:1.2em; line-height:1.5em; font-style:italic; background:url('images/quote-dark.png') no-repeat;}
+address {margin:10px 0; padding:0 0 0 30px; display:block; font-size:1.2em; line-height:1.5em; font-style:italic; background:url('images/address-dark.png') no-repeat;}
+p {margin:0 0 10px; text-align:justify;}
+
+table {margin:10px; border-collapse:collapse;}
+table, th, td {border: 1px solid #ccc; padding:5px 10px;}
+
+ul {list-style: square; margin: 2px 0 2px 15px;}
+li {margin: 0 0 0 10px;}
+ol {list-style: decimal; margin: 2px 0 2px 15px;}
+dl {margin: 10px;}
+dt {margin: 0; font-size:1.25em; font-weight:bold;}
+dd {margin: 0 0 0 10px;}
+
+img {max-width:100%; height:auto;}
+
+img.alignright {float:right; margin:0 0 1em 1em;}
+img.alignleft {float:left; margin:0 1em 1em 0;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto; margin-bottom:1em;}
+.alignright {float:right; margin:0 0 1em 1em;}
+.alignleft {float:left; margin:0 1em 1em 0;}
+.aligncenter {display: block; margin-left: auto; margin-right: auto; margin-bottom:1em;}
+
+.wp-caption {background:none; max-width: 100%;}
+.wp-caption-text {text-align:center; word-wrap: break-word;}

@@ -1,0 +1,65 @@
+== Changelog ==
+
+Version 1.2
+* Added meetup social icon
+* Added changelog.txt file which list the theme changelog
+* Replaced screenshot.jpg with screenshot.png
+* Change footer theme content 
+* Fixed header top position issue
+* Removed rem in font size css
+
+Version 1.1
+* Added Dutch translation nl_NL.po and nl_NL.mo
+* Added contact social links options
+* Added Xing in social links options
+* Fixed fixed header scroll issue
+* Fixed scroll up issue in mobile devices
+
+Version 1.0
+* Added email in social link option
+* Added Scroll Up script
+* Added minifed custom script adventurous-custom.min.js
+
+Version 0.8
+* Fixed Featured Content 3 column layout css
+* Fixed Header Right Menu Drop Down issue
+* Optimized Theme Options panel to speed up
+
+Version 0.7
+* Remove blog page template page-blog.php 
+Note: Now to setup of Page as blog, go to "Settings => Readings". In Front page displays, check "A static page (select below)" and select your blog from "Posts page:" select box.
+
+Version 0.6
+* Fixed Featured Content Sub-headline showing repeat headline ( Reported by Jessica )
+
+Version 0.5
+* Added Hungarian translation hu_HU.po and hu_HU.mo
+* Removed rem in width, padding and margins, now only in font sizes css
+
+Version 0.4
+* Added Brazilian Portuguese translation pt_BR.po and pt_BR.mo
+
+Version 0.3
+* Added background and text color in promotion wrapper in style.css
+* Changed to Favicon disable by default 
+* Fixed content width
+* Fixed mobile menu css
+* Removed feed redirect option
+* Removed unnecessary option to disable header menu
+
+Version 0.2
+* Added slider navigation arrow and fixed slider CSS
+* Changed theme description
+* Changed footer credit
+* Removed unused slider codes
+* Fixed Header Image option in page/post layout
+* Fixed author css
+* Fixed footer widget css in mobile devices
+* Fixed secondary menu issue in mobile devices
+* Fixed header css
+* Fixed iPad Portrait CSS
+
+
+Version 0.1
+* Initial release in http://catchthemes.com
+* Submitted theme for review in http://wordpress.org

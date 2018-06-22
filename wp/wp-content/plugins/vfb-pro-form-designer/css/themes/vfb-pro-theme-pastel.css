@@ -1,0 +1,74 @@
+/* Fieldsets */
+.vfb-form-design-theme-pastel fieldset {
+	background-color: #e6c6ac;
+	border: 1px solid #d5be90;
+}
+
+/* Legends */
+.vfb-form-design-theme-pastel .vfb-legend {
+	border-bottom: 1px solid #dac9a6;
+	color: #678a8a;
+}
+
+/* Sections */
+.vfb-form-design-theme-pastel .vfb-section-div {
+	background-color: #e8cab1;
+	border: 1px solid #d59090;
+	color: #678a8a;
+}
+
+	.vfb-form-design-theme-pastel .vfb-section-div h4 {
+		border-bottom: 1px solid #e6c6ac;
+	}
+
+/* Labels */
+.vfb-form-design-theme-pastel label.vfb-desc,
+.vfb-form-design-theme-pastel .verification,
+.vfb-form-design-theme-pastel .vfb-page-counter {
+	color: #d59090;
+}
+
+	.vfb-form-design-theme-pastel label .vfb-required-asterisk {
+		color: #568080;
+	}
+
+/* Fields */
+.vfb-form-design-theme-pastel input.vfb-text,
+.vfb-form-design-theme-pastel textarea.vfb-textarea {
+	background-color: #d5af90;
+	border: 1px solid #e6c6ac;
+	color: #678a8a;
+}
+
+/* Descriptions */
+.vfb-form-design-theme-pastel li span label {
+	color: #678a8a;
+}
+
+/* Instructions */
+.vfb-form-design-theme-pastel .vfb-item-instructions {
+    background-color: #678a8a;
+    border: 1px solid #739595;
+    color: #ebebeb;
+}
+
+/* Paging Button */
+.vfb-form-design-theme-pastel .vfb-page-next {
+	background-color: #678a8a;
+	color: #ebebeb;
+}
+
+	.vfb-form-design-theme-pastel .vfb-page-next:hover {
+		background-color: #648383;
+	}
+
+/* Validation */
+.vfb-form-design-theme-pastel input.error,
+.vfb-form-design-theme-pastel select.error,
+.vfb-form-design-theme-pastel textarea.error {
+	border: 1px solid #568080;
+}
+
+	.vfb-form-design-theme-pastel label.error {
+		color: #568080;
+	}

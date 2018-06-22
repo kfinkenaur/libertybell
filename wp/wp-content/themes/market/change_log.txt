@@ -1,0 +1,36 @@
+Version 1.0
+
+	i) Initial Release
+	
+Version 1.0.0.2 (Pre-release)
+
+	i) [BUGFIX] Minor Bug Fixes
+	ii) [ADD] Minor Additions and CSS Changes
+	iii) [REPLACED] Updated the Screenshot
+	
+Version 1.0.0.3
+
+	i) [BUGFIX] Minor Fixes	
+
+Version 1.0.0.4
+
+	i) Added PhotoBlogging Tag
+	ii) Remove TimeAgo jquery File.	
+	
+Version 1.0.0.6
+
+	i) Fixed a Bug with WooCommerce h2 tags
+	ii) Updated Credit Link
+	iii) Set Defaults for the theme.
+	iv) Added Links in Theme Options to Pro Version	
+	
+Version 1.0.0.7
+
+	i) Fixed Issues with Search bar on No Results Page
+	ii) Added Navigation.js (Console Error Fixed)
+	iii) Issues with Default Values Fixed	
+	
+Version 1.0.0.8
+
+	i) Added New Page Template.
+	ii) Fixed Bugs with Index.php. Layout now similar to archive and home page.	

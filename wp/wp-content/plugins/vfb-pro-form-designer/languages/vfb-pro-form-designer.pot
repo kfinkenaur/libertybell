@@ -1,0 +1,179 @@
+# Copyright (C) 2013 Visual Form Builder Pro - Form Designer
+# This file is distributed under the same license as the Visual Form Builder Pro - Form Designer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder Pro - Form Designer 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/vfb-pro-form-designer\n"
+"POT-Creation-Date: 2013-05-05 00:42:06+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: vfb-pro-form-designer.php:206 vfb-pro-form-designer.php:243
+msgid "Form Design"
+msgstr ""
+
+#: vfb-pro-form-designer.php:223
+msgid "Form design have been saved."
+msgstr ""
+
+#: vfb-pro-form-designer.php:235
+msgid "You do not currently have permissions to edit the form design"
+msgstr ""
+
+#: vfb-pro-form-designer.php:269
+msgid "Select form to design:"
+msgstr ""
+
+#: vfb-pro-form-designer.php:277
+msgid "Select"
+msgstr ""
+
+#: vfb-pro-form-designer.php:290
+msgid "Enable Form Design"
+msgstr ""
+
+#: vfb-pro-form-designer.php:299
+msgid "Design Type"
+msgstr ""
+
+#: vfb-pro-form-designer.php:303 vfb-pro-form-designer.php:314
+msgid "Color Themes"
+msgstr ""
+
+#: vfb-pro-form-designer.php:306 vfb-pro-form-designer.php:386
+msgid "Custom Design"
+msgstr ""
+
+#: vfb-pro-form-designer.php:328
+msgid "Light"
+msgstr ""
+
+#: vfb-pro-form-designer.php:340
+msgid "Dark"
+msgstr ""
+
+#: vfb-pro-form-designer.php:352
+msgid "Primary"
+msgstr ""
+
+#: vfb-pro-form-designer.php:364
+msgid "Pastel"
+msgstr ""
+
+#: vfb-pro-form-designer.php:376
+msgid "Neutral"
+msgstr ""
+
+#: vfb-pro-form-designer.php:388
+msgid "Fieldsets"
+msgstr ""
+
+#: vfb-pro-form-designer.php:394 vfb-pro-form-designer.php:481
+#: vfb-pro-form-designer.php:575 vfb-pro-form-designer.php:653
+#: vfb-pro-form-designer.php:704
+msgid "Background Color"
+msgstr ""
+
+#: vfb-pro-form-designer.php:403 vfb-pro-form-designer.php:446
+#: vfb-pro-form-designer.php:497 vfb-pro-form-designer.php:669
+#: vfb-pro-form-designer.php:784
+msgid "Border Color"
+msgstr ""
+
+#: vfb-pro-form-designer.php:411 vfb-pro-form-designer.php:454
+#: vfb-pro-form-designer.php:505 vfb-pro-form-designer.php:677
+#: vfb-pro-form-designer.php:792
+msgid "Border Thickness"
+msgstr ""
+
+#: vfb-pro-form-designer.php:422 vfb-pro-form-designer.php:465
+#: vfb-pro-form-designer.php:516 vfb-pro-form-designer.php:688
+#: vfb-pro-form-designer.php:803
+msgid "Border Style"
+msgstr ""
+
+#: vfb-pro-form-designer.php:433
+msgid "Legends"
+msgstr ""
+
+#: vfb-pro-form-designer.php:438 vfb-pro-form-designer.php:489
+#: vfb-pro-form-designer.php:532 vfb-pro-form-designer.php:583
+#: vfb-pro-form-designer.php:618 vfb-pro-form-designer.php:661
+#: vfb-pro-form-designer.php:720 vfb-pro-form-designer.php:755
+msgid "Font Color"
+msgstr ""
+
+#: vfb-pro-form-designer.php:476
+msgid "Sections"
+msgstr ""
+
+#: vfb-pro-form-designer.php:527
+msgid "Labels"
+msgstr ""
+
+#: vfb-pro-form-designer.php:540 vfb-pro-form-designer.php:591
+#: vfb-pro-form-designer.php:626 vfb-pro-form-designer.php:728
+#: vfb-pro-form-designer.php:763
+msgid "Font Weight"
+msgstr ""
+
+#: vfb-pro-form-designer.php:550 vfb-pro-form-designer.php:601
+#: vfb-pro-form-designer.php:636 vfb-pro-form-designer.php:738
+#: vfb-pro-form-designer.php:773
+msgid "Font Size"
+msgstr ""
+
+#: vfb-pro-form-designer.php:561
+msgid "Required Asterisk Color"
+msgstr ""
+
+#: vfb-pro-form-designer.php:570
+msgid "Fields"
+msgstr ""
+
+#: vfb-pro-form-designer.php:613
+msgid "Descriptions"
+msgstr ""
+
+#: vfb-pro-form-designer.php:648
+msgid "Instructions"
+msgstr ""
+
+#: vfb-pro-form-designer.php:699
+msgid "Paging Button"
+msgstr ""
+
+#: vfb-pro-form-designer.php:712
+msgid "Hover Color"
+msgstr ""
+
+#: vfb-pro-form-designer.php:750
+msgid "Validation Errors"
+msgstr ""
+
+#: vfb-pro-form-designer.php:816
+msgid "Save"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Visual Form Builder Pro - Form Designer"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://vfb.matthewmuro.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "An add-on for Visual Form Builder Pro that allows customizations to the form design and template selections."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Matthew Muro"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://matthewmuro.com"
+msgstr ""

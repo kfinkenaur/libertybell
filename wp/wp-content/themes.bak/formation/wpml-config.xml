@@ -1,0 +1,52 @@
+<wpml-config>
+  <admin-texts>
+    <key name="theme_mods_formation">
+      <key name="0"/>
+      <key name="nav_menu_locations">
+        <key name="primary"/>
+      </key>
+      <key name="header_textcolor"/>
+      <key name="background_color"/>
+      <key name="background_image"/>
+      <key name="background_repeat"/>
+      <key name="background_position_x"/>
+      <key name="background_attachment"/>
+      <key name="twitter"/>
+      <key name="facebook"/>
+      <key name="googleplus"/>
+      <key name="linkedin"/>
+      <key name="flickr"/>
+      <key name="pinterest"/>
+      <key name="youtube"/>
+      <key name="vimeo"/>
+      <key name="tumblr"/>
+      <key name="dribble"/>
+      <key name="github"/>
+      <key name="instagram"/>
+      <key name="Formation_logo"/>
+      <key name="telnumber_textbox_header_one"/>
+      <key name="featured_textbox"/>
+      <key name="featured_button_url"/>
+      <key name="header-one-file-upload"/>
+      <key name="header_one_url"/>
+      <key name="featured_textbox_header_one"/>
+      <key name="featured_textbox_text_one"/>
+      <key name="header-two-file-upload"/>
+      <key name="header_two_url"/>
+      <key name="featured_textbox_header_two"/>
+      <key name="featured_textbox_text_two"/>
+      <key name="header-three-file-upload"/>
+      <key name="header_three_url"/>
+      <key name="featured_textbox_header_three"/>
+      <key name="featured_textbox_text_three"/>
+      <key name="logo-one-file-upload"/>
+      <key name="logo_one_url"/>
+      <key name="logo-two-file-upload"/>
+      <key name="logo_two_url"/>
+      <key name="logo-three-file-upload"/>
+      <key name="logo_three_url"/>
+      <key name="logo-four-file-upload"/>
+      <key name="logo_four_url"/>
+    </key>
+  </admin-texts>
+</wpml-config>

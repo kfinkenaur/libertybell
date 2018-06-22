@@ -1,0 +1,74 @@
+/* Fieldsets */
+.vfb-form-design-theme-neutral fieldset {
+	background-color: #cabd8f;
+	border: 1px solid #5d4d15;
+}
+
+/* Legends */
+.vfb-form-design-theme-neutral .vfb-legend {
+	border-bottom: 1px solid #2e455e;
+	color: #2e455e;
+}
+
+/* Sections */
+.vfb-form-design-theme-neutral .vfb-section-div {
+	background-color: #cabd8f;
+	border: none;
+	color: #6b613f;
+}
+
+	.vfb-form-design-theme-neutral .vfb-section-div h4 {
+		border-bottom: none;
+	}
+
+/* Labels */
+.vfb-form-design-theme-neutral label.vfb-desc,
+.vfb-form-design-theme-neutral .verification,
+.vfb-form-design-theme-neutral .vfb-page-counter {
+	color: #2c3846;
+}
+
+	.vfb-form-design-theme-neutral label .vfb-required-asterisk {
+		color: #cf5c2a;
+	}
+
+/* Fields */
+.vfb-form-design-theme-neutral input.vfb-text,
+.vfb-form-design-theme-neutral textarea.vfb-textarea {
+	background-color: #ffffff;
+	border: 1px solid #e8e8e8;
+	color: #2e455e;
+}
+
+/* Descriptions */
+.vfb-form-design-theme-neutral li span label {
+	color: #635422;
+}
+
+/* Instructions */
+.vfb-form-design-theme-neutral .vfb-item-instructions {
+    background-color: #cab778;
+    border: 1px solid #5d4d15;
+    color: #3d3725;
+}
+
+/* Paging Button */
+.vfb-form-design-theme-neutral .vfb-page-next {
+	background-color: #2e455e;
+	color: #e1e5eb;
+}
+
+	.vfb-form-design-theme-neutral .vfb-page-next:hover {
+		background-color: #708fb2;
+	}
+
+/* Validation */
+.vfb-form-design-theme-neutral input.error,
+.vfb-form-design-theme-neutral select.error,
+.vfb-form-design-theme-neutral textarea.error {
+	border: 1px solid #cf5c2a;
+}
+
+	.vfb-form-design-theme-neutral label.error {
+		color: #cf5c2a;
+	}

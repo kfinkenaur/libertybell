@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Form Builder Pro - Payments v1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-06 22:10:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: vfb-pro-payments.php:187
+#: vfb-pro-payments.php:249
+#@ vfb-pro-payments
+msgid "Payments"
+msgstr "Betalningar"
+
+#: vfb-pro-payments.php:212
+#@ vfb-pro-payments
+msgid "Payment settings have been saved."
+msgstr "Betalningsinställningar har sparats."
+
+#: vfb-pro-payments.php:251
+#@ vfb-pro-payments
+msgid "Select form:"
+msgstr "Välj form:"
+
+#: vfb-pro-payments.php:264
+#@ vfb-pro-payments
+msgid "Select"
+msgstr "Välj"
+
+#: vfb-pro-payments.php:277
+#@ vfb-pro-payments
+msgid "Enable Payment"
+msgstr "Aktivera betalning"
+
+#: vfb-pro-payments.php:287
+#@ vfb-pro-payments
+msgid "Merchant Settings"
+msgstr "Köpman inställningar"
+
+#: vfb-pro-payments.php:293
+#@ vfb-pro-payments
+msgid "Select a Merchant"
+msgstr "Välj en köpman"
+
+#: vfb-pro-payments.php:298
+#@ vfb-pro-payments
+msgid "PayPal Standard"
+msgstr "PayPal Standard"
+
+#: vfb-pro-payments.php:299
+#@ vfb-pro-payments
+msgid "PayPal Pro"
+msgstr "PayPal Pro"
+
+#: vfb-pro-payments.php:310
+#@ vfb-pro-payments
+msgid "Account Email"
+msgstr "Konto e-post"
+
+#: vfb-pro-payments.php:321
+#@ vfb-pro-payments
+msgid "Payment Options"
+msgstr "Betalningsalternativ"
+
+#: vfb-pro-payments.php:327
+#@ vfb-pro-payments
+msgid "Currency"
+msgstr "Valuta"
+
+#: vfb-pro-payments.php:346
+#@ vfb-pro-payments
+msgid "Show Running Total"
+msgstr "Visa kör totalt"
+
+#: vfb-pro-payments.php:357
+#@ vfb-pro-payments
+msgid "Collect Shipping Address"
+msgstr "Samla leveransadress"
+
+#: vfb-pro-payments.php:374
+#@ vfb-pro-payments
+msgid "Collect Billing Info"
+msgstr "Samla Fakturainfo"
+
+#: vfb-pro-payments.php:381
+#@ vfb-pro-payments
+msgid "Select an Name field"
+msgstr "Välj ett namnfält"
+
+#: vfb-pro-payments.php:386
+#@ vfb-pro-payments
+msgid "Select an Address field"
+msgstr "Välj ett adressfält"
+
+#: vfb-pro-payments.php:391
+#@ vfb-pro-payments
+msgid "Select an Email field"
+msgstr "Välj en e-fält"
+
+#: vfb-pro-payments.php:407
+#@ vfb-pro-payments
+msgid "Recurring Payments"
+msgstr "Återkommande betalningar"
+
+#: vfb-pro-payments.php:413
+#@ vfb-pro-payments
+msgid "Request Payment Every"
+msgstr "Begära utbetalning varje"
+
+#: vfb-pro-payments.php:443
+#@ vfb-pro-payments
+msgid "Advanced Variables"
+msgstr "Avancerad variabler"
+
+#: vfb-pro-payments.php:450
+#@ vfb-pro-payments
+msgid "Set additional PayPal variables to further customize the checkout experience for your customers."
+msgstr "Ange ytterligare PayPal variabler att ytterligare anpassa kassan upplevelsen för dina kunder."
+
+#: vfb-pro-payments.php:450
+#@ vfb-pro-payments
+msgid "Technical HTML Variables"
+msgstr "Tekniska HTML-variabler"
+
+#: vfb-pro-payments.php:452
+#@ vfb-pro-payments
+msgid "Use a line break between each variable."
+msgstr "Använd en radbrytning mellan varje variabel."
+
+#: vfb-pro-payments.php:468
+#@ vfb-pro-payments
+msgid "Assign Prices"
+msgstr "Tilldela priser"
+
+#: vfb-pro-payments.php:469
+#@ vfb-pro-payments
+msgid "Assign Prices to existing form fields. Only Select, Radio, Checkbox, and Currency fields are allowed."
+msgstr "Tilldela priser till befintliga formulärfält. Bara välja, Radio, kryssruta och valuta-fält är tillåtna."
+
+#: vfb-pro-payments.php:475
+#@ vfb-pro-payments
+msgid "Price Fields"
+msgstr "Prisfält"
+
+#: vfb-pro-payments.php:490
+#@ vfb-pro-payments
+msgid "Assign Prices to a Field"
+msgstr "Tilldela priser till ett fält"
+
+#: vfb-pro-payments.php:499
+#@ vfb-pro-payments
+msgid "Save"
+msgstr "Spara"
+
+#: vfb-pro-payments.php:675
+#@ vfb-pro-payments
+msgid "Remove"
+msgstr "Ta bort"
+
+#: vfb-pro-payments.php:678
+#@ vfb-pro-payments
+msgid "Amount Based on User Input"
+msgstr "Belopp som baseras på indata från användaren"
+
+#: vfb-pro-payments.php:725
+#, php-format
+#@ vfb-pro-payments
+msgid "(No %s fields found)"
+msgstr "(Inga %s fält hittade)"
+
+#: vfb-pro-payments.php:812
+#@ vfb-pro-payments
+msgid "Total"
+msgstr "Totalt"
+

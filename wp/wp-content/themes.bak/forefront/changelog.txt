@@ -1,0 +1,58 @@
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(9/4/2014) - 0.8
+[!] Remove php notice caused by newest version of parent theme
+
+----
+
+(8/24/2014) - 0.7
+[+] New form color defaults added
+[!] Fixed content page header in post excerpt 
+[+] Instructions to style.css and functions.php
+[+] Added new defaults to filter
+
+----
+
+(07/19/2014 - 0.6
+
+[*] Regular CSS updated with dynamic CSS to be more extendable
+[!] CSS fixes
+
+----
+
+(06/18/2014) - 0.5
+[+] Added message linking to options page to delete current saved settings upon activation
+[x] Removed automatic option deletion upon activation
+[*] Theme URI changed to specific page for Forefront
+[*] Link to image licenses added to readme.txt
+
+----
+
+(06/11/2014) - 0.4
+[+] Added license info to style.css
+[*] Changed some default styling
+
+----
+
+(06/09/2014) - 0.3
+[*] Made adjustments to work better with GeneratePress 1.0.7
+
+----
+
+(05/26/2014) - 0.2
+[!] Added function to remove leftover settings to make way for child theme settings
+
+----
+
+(05/26/2014) - 0.1
+Initial Release
