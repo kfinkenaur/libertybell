@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+  <name>LightSide - Custom</name>
+  <version>1.0</version>
+  <creationDate>8/24/2013</creationDate>
+  <author>LightSide Media Solutions</author>
+  <authorEmail>katrina@lightsidemedia.com</authorEmail>
+  <copyright>Copyright (C) 2013 LightSide Media</copyright>
+  <description>LightSide - Custom, Joomla 3.0</description>
+  <files>
+    <filename>index.php</filename>
+    <folder>css</folder>
+    <folder>js</folder>
+    <folder>images</folder>
+  </files>
+  <positions>
+        <position>debug</position>
+        <position>left</position>
+        <position>right</position>
+        <position>promo</position>
+        <position>promo-over</position>
+        <position>content</position>
+        <position>logo</position>
+        <position>footer1-1</position>
+        <position>footer1-2</position>
+        <position>footer1-3</position>
+        <position>footer2-1</position>
+        <position>footer2-2</position>
+        <position>position-11</position>
+        <position>position-12</position>
+        <position>position-13</position>
+        <position>position-14</position>				<position>header-bg</position>
+  </positions>
+<config>
+</config>
+</extension>
