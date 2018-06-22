@@ -1,0 +1,50 @@
+
+##################Start GoMobi Rewrite For libertybellmoving.com ###############################
+# This .htaccess file redirects mobile browsers and devices to an alternate destination
+#
+# Authors:  Ronan Cremin, dotMobi
+#       Ruadhan O'Donoghue, dotMobi
+# Copyright 2012, dotMobi
+#
+#######################################################################################
+
+# Ensure rewriting is on
+RewriteEngine On
+
+# Check for redirect param
+RewriteCond %{QUERY_STRING} ^.*redirect=true.*
+RewriteRule ^(.*)$ - [co=gomobi_prevent_redirect:false:.libertybellmoving.com:0:/]
+
+RewriteCond %{QUERY_STRING} ^.*redirect=false.*
+RewriteRule ^(.*)$ - [co=gomobi_prevent_redirect:true:.libertybellmoving.com:7200:/]
+
+
+RewriteCond %{HTTP_COOKIE} !gomobi_prevent_redirect=true [OR]
+RewriteCond %{QUERY_STRING} ^.*redirect=true.*
+
+# Don't redirect if its false
+RewriteCond %{QUERY_STRING} !^.*redirect=false.*
+
+# Prevent loops
+# RewriteCond %{HTTP_HOST} !^m.libertybellmoving.com$
+
+# Exclude certain paths e.g. cpanel admin etc.
+RewriteCond %{REQUEST_URI} !(.*)cpanel(/?)$
+
+RewriteCond %{REQUEST_URI} !^/wp-(.*)$
+RewriteCond %{REQUEST_URI} !/xmlrpc.php
+
+# Exclude certain extensions e.g. images, docs etc
+RewriteCond %{REQUEST_URI} !(.*)\.(?i:jpg|jpeg|webp|gif|bmp|png|js|css|txt|pdf|doc|docx|xls|xlsx|rar|zip|7z|mpg|mp4|mpeg|divx|avi|ogv|webm|mp3|ogg|wav|aac)$
+
+# Switch based on significant accept headers
+RewriteCond %{HTTP_ACCEPT} "text/vnd.wap.wml|application/vnd.wap.xhtml\+xml" [NC,OR]
+
+
+# Specific devices/mandufacturers
+RewriteCond %{HTTP_USER_AGENT} "iphone|ipad|ipod|android|nokia|ios|opera m(ob|in)i|iemobile|symbian|samsung|sec-|htc|huawei|ericsson|sonyericsson|blackberry|motorola|sagem|kyocera|zte|kddi|docomo|j-phone|kwc|lenovo|lg|mot|softbank|nec|audiovox|alcatel|sharp|sie-|sanyo|sendo|amoi|xda|bird|benq|palm|pantech|panasonic|fly|asus-|baiduispider|googlebot-mobile|nintendo|psp|dalvik|windows ce|foma|brew|webos|fennec|netfront|teleca|obigo|vodafone|up.browser|portalmmm" [NC]
+
+RewriteCond %{HTTP_HOST} ^(www.)?libertybellmoving.com
+RewriteRule ^(.*)$ http://m.libertybellmoving.com/$1 [L,R=302]
+##!!WARNING!! DO NOT REMOVE THIS LINE. END GoMobi Rewrite !!WARNING!!##
+    

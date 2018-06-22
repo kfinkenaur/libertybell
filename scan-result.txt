@@ -1,0 +1,149 @@
+/home/liberuy2/public_html//.htaccess.bak: Suspicious(RewriteRule): RewriteRule .* index.
+/home/liberuy2/public_html//wp/.htaccess.1406414512.gmbi: Suspicious(RewriteRule):     RewriteRule .* - [E=W
+/home/liberuy2/public_html//wp/.htaccess.bak: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//wp/.htaccess.suspend.1385191799: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//wp/.htaccess.1406412089.gmbi: Suspicious(RewriteRule):     RewriteRule .* - [E=W
+/home/liberuy2/public_html//wp/.htaccess.suspend.1407357861: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//wp/.htaccess.1390926669.gmbi: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//wp/.htaccess.old: Suspicious(RewriteRule): RewriteRule ^(.*)$ ht
+/home/liberuy2/public_html//wp/.htaccess.1406412163.gmbi: Suspicious(RewriteRule):     RewriteRule .* - [E=W
+/home/liberuy2/public_html//wp/.htaccess.1406411754.gmbi: Suspicious(RewriteRule):     RewriteRule .* - [E=W
+/home/liberuy2/public_html//wp/.htaccess.1430218835.gmbi: Suspicious(RewriteRule): RewriteRule ^(.*)$ - 
+/home/liberuy2/public_html//wp/wp-content/plugins/bulletproof-security/admin/htaccess/default.htaccess: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//wp/wp-content/plugins/bulletproof-security/admin/htaccess/wpadmin-secure.htaccess: Suspicious(RewriteRule): # RewriteRule ^(.*)$ - 
+/home/liberuy2/public_html//wp/.htaccess.1406411662.gmbi: Suspicious(RewriteRule):     RewriteRule .* - [E=W
+/home/liberuy2/public_html//wp/.htaccess.1406411707.gmbi: Suspicious(RewriteRule):     RewriteRule .* - [E=W
+/home/liberuy2/public_html//wp/.htaccess: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//wp/.htaccess.1406414554.gmbi: Suspicious(RewriteRule):     RewriteRule .* - [E=W
+/home/liberuy2/public_html//newfurnituretest/.htaccess.suspend.1385191799: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//newfurnituretest/.htaccess.suspend.1407357861: Suspicious(RewriteRule):  RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//newfurnituretest/.htaccess.1418320856.gmbi: Suspicious(RewriteRule):  RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//newfurnituretest/.htaccess.1390513329.gmbi: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//newfurnituretest/.htaccess.1454595421.gmbi: Suspicious(RewriteRule):  RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//newfurnituretest/.htaccess: Suspicious(RewriteRule):  RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//mds/.htaccess: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//wp-content/plugins/wp-rocket/min/.htaccess: Suspicious(RewriteRule): RewriteRule ^([bfg]=.
+/home/liberuy2/public_html//wp-content/plugins/really-simple-ssl/testssl/envhttps/.htaccess: Suspicious(RewriteRule): RewriteRule (.*) http
+/home/liberuy2/public_html//wp-content/plugins/really-simple-ssl/testssl/cdn/.htaccess: Suspicious(RewriteRule): RewriteRule ^(.*) htt
+/home/liberuy2/public_html//wp-content/plugins/really-simple-ssl/testssl/cloudflare/.htaccess: Suspicious(RewriteRule): RewriteRule ^(.*) htt
+/home/liberuy2/public_html//wp-content/plugins/really-simple-ssl/testssl/loadbalancer/.htaccess: Suspicious(RewriteRule): RewriteRule ^(.*) htt
+/home/liberuy2/public_html//wp-content/plugins/really-simple-ssl/testssl/serverport443/.htaccess: Suspicious(RewriteRule): RewriteRule ^(.*) htt
+/home/liberuy2/public_html//wp-content/plugins/really-simple-ssl/testssl/serverhttps1/.htaccess: Suspicious(RewriteRule): RewriteRule ^(.*) htt
+/home/liberuy2/public_html//wp-content/plugins/really-simple-ssl/testssl/serverhttpson/.htaccess: Suspicious(RewriteRule): RewriteRule ^(.*) htt
+/home/liberuy2/public_html//wp-content/plugins/really-simple-ssl/testssl/cloudfront/.htaccess: Suspicious(RewriteRule): RewriteRule ^(.*) htt
+/home/liberuy2/public_html//dev/.htaccess.suspend.1385191799: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//dev/.htaccess.suspend.1407357861: Suspicious(RewriteRule):  RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//dev/.htaccess.1418320856.gmbi: Suspicious(RewriteRule):  RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//dev/.htaccess.1390513329.gmbi: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//dev/wp-content/aiowps_backups/.htaccess.backup: Suspicious(RewriteRule): RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//dev/.htaccess.1454595421.gmbi: Suspicious(RewriteRule):  RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//dev/.htaccess: Suspicious(RewriteRule): RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//newwp/.htaccess: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//.htaccess123: Suspicious(RewriteRule): RewriteRule ^location
+/home/liberuy2/public_html//libertybellfurniture/.htaccess.suspend.1385191799: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//libertybellfurniture/.htaccess.suspend.1407357861: Suspicious(RewriteRule):  RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//libertybellfurniture/.htaccess.1418320856.gmbi: Suspicious(RewriteRule):  RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//libertybellfurniture/.htaccess.1390513329.gmbi: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//libertybellfurniture/.htaccess.1454595421.gmbi: Suspicious(RewriteRule):  RewriteRule ^(.*)$ /h
+/home/liberuy2/public_html//libertybellfurniture/.htaccess: Suspicious(RewriteRule): RewriteRule ^local\-p
+/home/liberuy2/public_html//mainefabricshop/.htaccess: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//mainefabricshop/.htaccess.1477918384.gmbi: Suspicious(RewriteRule): RewriteRule ^index\.p
+/home/liberuy2/public_html//.htaccess: Suspicious(RewriteRule): RewriteRule ^(.*) "/w
+/home/liberuy2/public_html//wp/wp-admin/includes/class-wp-filesystem-ssh2.php: Suspicious(phpinfo):  phpinfo() streams
+/home/liberuy2/public_html//wp/info.php: Suspicious(phpinfo): phpinfo();
+/home/liberuy2/public_html//wp/wp-content/plugins/wordfence/lib/cronview.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//wp/wp-content/plugins/wordfence/lib/dbview.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//wp/wp-content/plugins/wordfence/lib/sysinfo.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//wp/wp-content/plugins/leaflet-maps-marker/inc/js/tinymce_button_text.php: Suspicious(base64_decode): cialchars(base64_decode($_GET['le
+/home/liberuy2/public_html//wp/wp-content/plugins/leaflet-maps-marker/inc/js/tinymce_button_visual.php: Suspicious(base64_decode): cialchars(base64_decode($_GET['le
+/home/liberuy2/public_html//wp/wp-content/plugins/leaflet-maps-marker/leaflet-qr.php: Suspicious(base64_decode): _decoded= base64_decode($results-
+/home/liberuy2/public_html//wp/wp-includes/Text/Diff/Engine/shell.php: Suspicious(shell_exec): ogram via shell_exec to comput
+/home/liberuy2/public_html//wp-admin/includes/class-wp-filesystem-ssh2.php: Suspicious(phpinfo):  phpinfo() streams
+/home/liberuy2/public_html//administrator/components/com_admin/views/sysinfo/tmpl/default.php: Suspicious(phpinfo): 'myTab', 'phpinfo', JText::
+/home/liberuy2/public_html//administrator/components/com_login/models/login.php: Suspicious(base64_decode): $return = base64_decode($return);
+/home/liberuy2/public_html//administrator/components/com_itemrating/models/fields/colorpicker.php: Suspicious(c99): lue, eg #cc99ff
+/home/liberuy2/public_html//administrator/components/com_akeeba/engine/Util/SecureSettings.php: Suspicious(base64_decode): 			return base64_decode(AKEEBA_SE
+/home/liberuy2/public_html//administrator/templates/hathor/html/com_admin/sysinfo/default_navigation.php: Suspicious(phpinfo): lse;" id="phpinfo">
+/home/liberuy2/public_html//newfurnituretest/wp-admin/includes/class-wp-filesystem-ssh2.php: Suspicious(phpinfo):  phpinfo() streams
+/home/liberuy2/public_html//newfurnituretest/wp-content/plugins/wordpress-mobile-pack/inc/class-wmp-tokens.php: Suspicious(base64_decode):       if (base64_decode($token,tr
+/home/liberuy2/public_html//newfurnituretest/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ngglegacy/lib/class.ngg_serializable.php: Suspicious(base64_decode): s rely on base64_decode() or json
+/home/liberuy2/public_html//newfurnituretest/wp-content/plugins/wordfence/views/waf/debug.php: Suspicious(base64_decode): tString = base64_decode($hitData-
+/home/liberuy2/public_html//newfurnituretest/wp-content/plugins/wordfence/lib/cronview.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//newfurnituretest/wp-content/plugins/wordfence/lib/dbview.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//newfurnituretest/wp-content/plugins/wordfence/lib/sysinfo.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//newfurnituretest/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/service/Google_Utils.php: Suspicious(base64_decode):    return base64_decode($b64);
+/home/liberuy2/public_html//newfurnituretest/wp-includes/Text/Diff/Engine/shell.php: Suspicious(shell_exec): ogram via shell_exec to comput
+/home/liberuy2/public_html//mds/wp-admin/includes/class-wp-filesystem-ssh2.php: Suspicious(phpinfo):  phpinfo() streams
+/home/liberuy2/public_html//mds/wp-content/plugins/wordpress-seo/vendor/yoast/api-libs/google/service/Google_Utils.php: Suspicious(base64_decode):    return base64_decode($b64);
+/home/liberuy2/public_html//mds/wp-content/plugins/wordfence/views/waf/debug.php: Suspicious(base64_decode): tString = base64_decode($hitData-
+/home/liberuy2/public_html//mds/wp-content/plugins/wordfence/lib/cronview.php: Suspicious(phpinfo): sset('css/phpinfo.css'); ?>
+/home/liberuy2/public_html//mds/wp-content/plugins/wordfence/lib/dbview.php: Suspicious(phpinfo): sset('css/phpinfo.css'); ?>
+/home/liberuy2/public_html//mds/wp-content/plugins/wordfence/lib/sysinfo.php: Suspicious(phpinfo): sset('css/phpinfo.css'); ?>
+/home/liberuy2/public_html//mds/wp-includes/class-wp-simplepie-sanitize-kses.php: Suspicious(base64_decode): 		$data = base64_decode( $data );
+/home/liberuy2/public_html//mds/wp-includes/Text/Diff/Engine/shell.php: Suspicious(shell_exec): ogram via shell_exec to comput
+/home/liberuy2/public_html//components/com_content/models/form.php: Suspicious(base64_decode): rn_page', base64_decode($return))
+/home/liberuy2/public_html//components/com_cjblog/models/form.php: Suspicious(base64_decode): rn_page', base64_decode($return))
+/home/liberuy2/public_html//components/com_cjlib/cjlib.php: Suspicious(base64_decode): = base64_decode(JFactory:
+/home/liberuy2/public_html//components/com_config/controller/modules/cancel.php: Suspicious(base64_decode): edirect = base64_decode(urldecode
+/home/liberuy2/public_html//components/com_config/controller/modules/display.php: Suspicious(base64_decode): edirect = base64_decode(urldecode
+/home/liberuy2/public_html//components/com_users/controllers/user.php: Suspicious(base64_decode): rn']    = base64_decode($app->inp
+/home/liberuy2/public_html//components/com_blogfactory/controllers/media.raw.php: Suspicious(base64_decode): $folder = base64_decode($this->in
+/home/liberuy2/public_html//libertybellmovingnc/wp-admin/includes/class-wp-filesystem-ssh2.php: Suspicious(phpinfo):  phpinfo() streams
+/home/liberuy2/public_html//libertybellmovingnc/wp-content/plugins/wordfence/lib/sysinfo.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//libertybellmovingnc/wp-content/plugins/leaflet-maps-marker/inc/js/lmm_tinymce_shortcode.php: Suspicious(base64_decode): nurl']) ? base64_decode($_GET['le
+/home/liberuy2/public_html//libertybellmovingnc/wp-content/plugins/leaflet-maps-marker/inc/js/lmm_html_shortcode.php: Suspicious(base64_decode): nurl']) ? base64_decode($_GET['le
+/home/liberuy2/public_html//libertybellmovingnc/wp-content/wp-content/plugins/wordfence/lib/sysinfo.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//libertybellmovingnc/wp-content/wp-content/plugins/leaflet-maps-marker/inc/js/lmm_tinymce_shortcode.php: Suspicious(base64_decode): nurl']) ? base64_decode($_GET['le
+/home/liberuy2/public_html//libertybellmovingnc/wp-content/wp-content/plugins/leaflet-maps-marker/inc/js/lmm_html_shortcode.php: Suspicious(base64_decode): nurl']) ? base64_decode($_GET['le
+/home/liberuy2/public_html//libertybellmovingnc/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpellShell.php: Suspicious(shell_exec): 		$data = shell_exec($cmd);
+/home/liberuy2/public_html//libertybellmovingnc/wp-includes/Text/Diff/Engine/shell.php: Suspicious(shell_exec): ogram via shell_exec to comput
+/home/liberuy2/public_html//LBMDev/components/com_content/models/form.php: Suspicious(base64_decode): rn_page', base64_decode($return))
+/home/liberuy2/public_html//LBMDev/components/com_config/controller/modules/cancel.php: Suspicious(base64_decode): edirect = base64_decode(urldecode
+/home/liberuy2/public_html//LBMDev/components/com_config/controller/modules/display.php: Suspicious(base64_decode): edirect = base64_decode(urldecode
+/home/liberuy2/public_html//LBMDev/components/com_users/controllers/user.php: Suspicious(base64_decode): rn']    = base64_decode($app->inp
+/home/liberuy2/public_html//wp-content/plugins/woocommerce-gateway-paypal-powered-by-braintree/lib/Braintree/WebhookNotificationGateway.php: Suspicious(base64_decode):    $xml = base64_decode($payload)
+/home/liberuy2/public_html//wp-content/plugins/jetpack/sync/class.jetpack-sync-json-deflate-array-codec.php: Suspicious(base64_decode): zinflate( base64_decode( $input )
+/home/liberuy2/public_html//wp-content/plugins/wp-rocket/min/lib/Minify/ClosureCompiler.php: Suspicious(passthru): ould just passthru them all?
+/home/liberuy2/public_html//wp-content/plugins/payment-form-for-paypal-pro/cp_admin_int_edition.inc.php: Suspicious(base64_decode): ontents = base64_decode(get_optio
+/home/liberuy2/public_html//wp-content/plugins/wordpress-seo/vendor/yoast/api-libs/google/service/Google_Utils.php: Suspicious(base64_decode):    return base64_decode($b64);
+/home/liberuy2/public_html//wp-content/plugins/supsystic_slider_pro/src/SupsysticSliderPro/Googledrive/api/Google/Utils.php: Suspicious(base64_decode):    return base64_decode($b64);
+/home/liberuy2/public_html//dev/wp-admin/includes/class-wp-filesystem-ssh2.php: Suspicious(phpinfo):  phpinfo() streams
+/home/liberuy2/public_html//dev/wp-content/plugins/wordpress-seo/vendor/yoast/api-libs/google/service/Google_Utils.php: Suspicious(base64_decode):    return base64_decode($b64);
+/home/liberuy2/public_html//dev/wp-content/plugins/wordfence/views/waf/debug.php: Suspicious(base64_decode): tString = base64_decode($hitData-
+/home/liberuy2/public_html//dev/wp-content/plugins/wordfence/lib/cronview.php: Suspicious(phpinfo): sset('css/phpinfo.css'); ?>
+/home/liberuy2/public_html//dev/wp-content/plugins/wordfence/lib/dbview.php: Suspicious(phpinfo): sset('css/phpinfo.css'); ?>
+/home/liberuy2/public_html//dev/wp-content/plugins/wordfence/lib/sysinfo.php: Suspicious(phpinfo): sset('css/phpinfo.css'); ?>
+/home/liberuy2/public_html//dev/wp-content/plugins/maxbuttons/collections/social-collection.php: Suspicious(base64_decode): on_decode(base64_decode($post["bu
+/home/liberuy2/public_html//dev/wp-content/plugins/google-analytics-for-wordpress/vendor/yoast/api-libs/google/service/Google_Utils.php: Suspicious(base64_decode):    return base64_decode($b64);
+/home/liberuy2/public_html//dev/wp-includes/Text/Diff/Engine/shell.php: Suspicious(shell_exec): ogram via shell_exec to comput
+/home/liberuy2/public_html//libertybellmovingma/wp-admin/includes/class-wp-filesystem-ssh2.php: Suspicious(phpinfo):  phpinfo() streams
+/home/liberuy2/public_html//libertybellmovingma/wp-content/plugins/wordfence/lib/sysinfo.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//libertybellmovingma/wp-content/plugins/leaflet-maps-marker/inc/js/lmm_tinymce_shortcode.php: Suspicious(base64_decode): nurl']) ? base64_decode($_GET['le
+/home/liberuy2/public_html//libertybellmovingma/wp-content/plugins/leaflet-maps-marker/inc/js/lmm_html_shortcode.php: Suspicious(base64_decode): nurl']) ? base64_decode($_GET['le
+/home/liberuy2/public_html//libertybellmovingma/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpellShell.php: Suspicious(shell_exec): 		$data = shell_exec($cmd);
+/home/liberuy2/public_html//libertybellmovingma/wp-includes/Text/Diff/Engine/shell.php: Suspicious(shell_exec): ogram via shell_exec to comput
+/home/liberuy2/public_html//libertybellfurniture/wp-admin/includes/class-wp-filesystem-ssh2.php: Suspicious(phpinfo):  phpinfo() streams
+/home/liberuy2/public_html//libertybellfurniture/wp-content/plugins/wordpress-seo/vendor/yoast/api-libs/google/service/Google_Utils.php: Suspicious(base64_decode):    return base64_decode($b64);
+/home/liberuy2/public_html//libertybellfurniture/wp-content/plugins/wordfence/views/waf/debug.php: Suspicious(base64_decode): tString = base64_decode($hitData-
+/home/liberuy2/public_html//libertybellfurniture/wp-content/plugins/wordfence/lib/cronview.php: Suspicious(phpinfo): sset('css/phpinfo.css'); ?>
+/home/liberuy2/public_html//libertybellfurniture/wp-content/plugins/wordfence/lib/dbview.php: Suspicious(phpinfo): sset('css/phpinfo.css'); ?>
+/home/liberuy2/public_html//libertybellfurniture/wp-content/plugins/wordfence/lib/sysinfo.php: Suspicious(phpinfo): sset('css/phpinfo.css'); ?>
+/home/liberuy2/public_html//libertybellfurniture/wp-content/plugins/maxbuttons/collections/social-collection.php: Suspicious(base64_decode): on_decode(base64_decode($post["bu
+/home/liberuy2/public_html//libertybellfurniture/wp-content/plugins/google-analytics-for-wordpress/assets/lib/google/src/Google/Utils.php: Suspicious(base64_decode):    return base64_decode($b64);
+/home/liberuy2/public_html//libertybellfurniture/wp-includes/class-wp-simplepie-sanitize-kses.php: Suspicious(base64_decode): 		$data = base64_decode( $data );
+/home/liberuy2/public_html//libertybellfurniture/wp-includes/Text/Diff/Engine/shell.php: Suspicious(shell_exec): ogram via shell_exec to comput
+/home/liberuy2/public_html//mainefabricshop/wp-admin/includes/class-wp-filesystem-ssh2.php: Suspicious(phpinfo):  phpinfo() streams
+/home/liberuy2/public_html//mainefabricshop/wp-content/plugins/woocommerce-gateway-paypal-powered-by-braintree/braintree_sdk/tests/unit/SanityTest.php: Suspicious(shell_exec): ode("\n", shell_exec("find ./l
+/home/liberuy2/public_html//mainefabricshop/wp-content/plugins/woocommerce-gateway-paypal-powered-by-braintree/braintree_sdk/tests/integration/ClientTokenTest.php: Suspicious(base64_decode): ntToken = base64_decode($encodedC
+/home/liberuy2/public_html//mainefabricshop/wp-content/plugins/woocommerce-gateway-paypal-powered-by-braintree/braintree_sdk/lib/Braintree/WebhookNotification.php: Suspicious(base64_decode):    $xml = base64_decode($payload)
+/home/liberuy2/public_html//mainefabricshop/wp-content/plugins/jetpack/sync/class.jetpack-sync-json-deflate-array-codec.php: Suspicious(base64_decode): zinflate( base64_decode( $input )
+/home/liberuy2/public_html//mainefabricshop/wp-content/plugins/google/lib/external/google/service/apiUtils.php: Suspicious(base64_decode):    return base64_decode($b64);
+/home/liberuy2/public_html//mainefabricshop/wp-content/plugins/wordpress-seo/vendor/yoast/api-libs/google/service/Google_Utils.php: Suspicious(base64_decode):    return base64_decode($b64);
+/home/liberuy2/public_html//mainefabricshop/wp-content/plugins/wordfence/views/waf/debug.php: Suspicious(base64_decode): tString = base64_decode($hitData-
+/home/liberuy2/public_html//mainefabricshop/wp-content/plugins/wordfence/lib/cronview.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//mainefabricshop/wp-content/plugins/wordfence/lib/dbview.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//mainefabricshop/wp-content/plugins/wordfence/lib/sysinfo.php: Suspicious(phpinfo): ); ?>/css/phpinfo.css?ver=<
+/home/liberuy2/public_html//mainefabricshop/wp-includes/Text/Diff/Engine/shell.php: Suspicious(shell_exec): ogram via shell_exec to comput
+/home/liberuy2/public_html//wp-includes/class-wp-simplepie-sanitize-kses.php: Suspicious(base64_decode): 		$data = base64_decode( $data );
+/home/liberuy2/public_html//wp-includes/Text/Diff/Engine/shell.php: Suspicious(shell_exec): ogram via shell_exec to comput
+/home/liberuy2/public_html//phpinfo.php: Suspicious(phpinfo): echo phpinfo();
